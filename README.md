@@ -8,7 +8,7 @@
     #486
   </summary>
   
-* [ES2021：特性速递](https://github.com/FEDarling/fe-translate-weekly/blob/master/JavaScript%20Weekly/%23570/1.%20ES2021%EF%BC%9A%E7%89%B9%E6%80%A7%E9%80%9F%E9%80%92.md) 
+* [CSS中 :has() 选择器不仅仅是 “父选择器”](https://github.com/FEDarling/fe-translate-weekly/blob/master/CSS%20Weekly/%23%20486/has_selector.md)
 
 </details>
 
@@ -18,7 +18,7 @@
     #570
   </summary>
   
-* [ES2021：特性速递](https://github.com/FEDarling/fe-translate-weekly/blob/master/JavaScript%20Weekly/%23570/1.%20ES2021%EF%BC%9A%E7%89%B9%E6%80%A7%E9%80%9F%E9%80%92.md) 
+* [ES2021：特性速递](https://github.com/FEDarling/fe-translate-weekly/blob/master/JavaScript%20Weekly/%23570/1.%20ES2021_new%20feature.md) 
 
 </details>
 
