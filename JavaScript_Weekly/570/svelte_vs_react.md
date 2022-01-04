@@ -6,7 +6,7 @@
 
 ## 二者的用法
 
-React的钩子是一个很好的打包方式，我创建了一个 `useCurrentUser` 钩子，让它侦听身份验证的变化并相应地设置一些状态。然后，当注意到身份验证变化时，我就可以确信 React 会按需重新渲染。
+React的钩子是一个很好的封装，我创建了一个 `useCurrentUser` 钩子，让它侦听身份验证的变化并相应地设置一些状态。然后，当注意到身份验证变化时，我就可以确信 React 会按需重新渲染。
 
 ```react
 export const useCurrentUser = () => {
