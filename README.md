@@ -5,20 +5,20 @@
 ## CSS Weekly
 <details>
   <summary>
-    #486
+    486
   </summary>
   
-* [CSS中 :has() 选择器不仅仅是 “父选择器”](/CSS_Weekly/#486/has_selector.md)
+* [CSS中 :has() 选择器不仅仅是 “父选择器”](/CSS_Weekly/486/has_selector.md)
 
 </details>
 
 ## JavaScript Weekly
 <details>
   <summary>
-    #570
+    570
   </summary>
   
-* [ES2021：特性速递](/JavaScript_Weekly/#570/ES2021_new_feature.md) 
+* [ES2021：特性速递](/JavaScript_Weekly/570/ES2021_new_feature.md) 
 
 </details>
 
