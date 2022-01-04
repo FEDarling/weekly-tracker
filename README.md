@@ -7,7 +7,7 @@
   <summary>
     486
   </summary>
-  
+
 * [CSS中 :has() 选择器不仅仅是 “父选择器”](/CSS_Weekly/486/has_selector.md)
 
 </details>
@@ -17,8 +17,9 @@
   <summary>
     570
   </summary>
-  
+
 * [ES2021：特性速递](/JavaScript_Weekly/570/ES2021_new_feature.md) 
+* [比较 Svelte 和React](/JavaScript_Weekly/570/svelte_vs_react.md) 
 
 </details>
 
