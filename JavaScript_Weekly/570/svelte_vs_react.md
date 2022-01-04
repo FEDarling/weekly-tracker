@@ -40,7 +40,7 @@ const [currentUser] = useCurrentUser()
 
 这种写法，工作量很小，并且可以让任何组件快速访问当前用户。唯一的缺点就是可能有很多 `onAuthStateChanged` 监听器，这个时候可以通过仅绑定一个监听器 或者 将当前用户放到当前上下文中来避免。
 
-说到上下文，更接近于在 Svelte 中的写法：``Writable Store`
+说到上下文，更接近于在 Svelte 中的写法：`Writable Store`
 
 ```js
 export const currentUser = writable()
@@ -71,7 +71,7 @@ onMount(() => {
 })
 ```
 
-现在，在 Svelte 代码里的任何位置，组件都可以导入 `currentUser` 可写store。我比较在意的是，``currentUser` 不是一个值，而是一个store，因此有绝对的状态控制权。当然也可以订阅它并手动修改状态的改变：
+现在，在 Svelte 代码里的任何位置，组件都可以导入 `currentUser` 可写store。我比较在意的是，`currentUser` 不是一个值，而是一个store，因此有绝对的状态控制权。当然也可以订阅它并手动修改状态的改变：
 
 ```js
 currentUser.subscribe(newValue => {
