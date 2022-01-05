@@ -4,7 +4,7 @@
 ⏳文章时间为倒叙排列，不会全部翻译，会过滤部分优质文章分享。
 ## CSS Weekly
 <details>
-  <summary>
+  <summary style="cursor: pointer">
     486
   </summary>
 
@@ -15,12 +15,13 @@
 
 ## JavaScript Weekly
 <details>
-  <summary>
+  <summary style="cursor: pointer">
     570
   </summary>
 
 * [ES2021：特性速递](/JavaScript_Weekly/570/ES2021_new_feature.md) 
 * [比较 Svelte 和 React](/JavaScript_Weekly/570/svelte_vs_react.md) 
+* [重新思考三元运算符](/JavaScript_Weekly/570/ternary.md) 
 
 </details>
 
@@ -31,3 +32,11 @@
 ## React Status
 
 ## Node Weekly
+<details>
+  <summary style="cursor: pointer">
+    419
+  </summary>
+
+* [Node.js框架选择指南](/Node_Weekly/419/Nodejs_Framework_Selection_Guide.md) 
+
+</details>
