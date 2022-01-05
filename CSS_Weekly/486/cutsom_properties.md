@@ -224,3 +224,5 @@ $font-sizes: (
   }
 }
 ```
+## 相关链接
+[CSS Custom Properties](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
