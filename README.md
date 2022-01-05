@@ -9,6 +9,7 @@
   </summary>
 
 * [CSS中 :has() 选择器不仅仅是 “父选择器”](/CSS_Weekly/486/has_selector.md)
+* [CSS自定义属性](/CSS_Weekly/486/cutsom_properties.md)
 
 </details>
 
