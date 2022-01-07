@@ -1,4 +1,4 @@
-# CSS中 :has() 选择器不仅仅是一个“父选择器”
+# 
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
 
