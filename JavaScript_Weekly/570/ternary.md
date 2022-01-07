@@ -1,4 +1,10 @@
-# 重新思考三元运算符
+---
+title: 重新思考 JavaScript 的三元运算符
+toc: true
+toc_label: "重新思考 JavaScript 的三元运算符"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
 
 ## 前言
 

@@ -1,4 +1,10 @@
-# 比较 Svelte 和React
+---
+title: 比较 Svelte 和 React
+toc: true
+toc_label: "比较 Svelte 和 React"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
 
 ## 前言
 
