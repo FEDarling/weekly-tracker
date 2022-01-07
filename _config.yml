@@ -1,8 +1,36 @@
-title: MM
+title: 周刊翻译计划name: FEDarling
+
 email: im@daodaolee.cn
-description: It will appear in your document head meta Google search results) and in your feed.xml site description.
-twitter_username: daodaolee
-github_username: daodaolee
+
+description: ⛱ 周刊翻译计划，目前涉及JavaScript Weekly、Mobile Dev Weekly、Frontend Focus、React Status、Node Weekly 和 CSS Weekly期刊，希望读者可以有所收获！🥳
+url: "https://fedarling.github.io/fe-translate-weekly/"
+repository: "FEDarling/fe-translate-weekly"
+logo: "https://avatars.githubusercontent.com/u/97049302?s=400&u=9eeeeb9644d2ed3b862b8bab1a91adcf48792299&v=4"
+
+words_per_minute: 200
+
+social:
+  name: DaoDaoLee
+  links: https://github.com/daodaolee
+
+author:
+  name             : "DaoDaoLee"
+  avatar           : "https://daodaolee.cn/avatar.png"
+  bio              : "This world is not that beautiful, do more things you like!"
+  location         : "HangZhou"
+  email            : "im@daodaolee.cn"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "im@daodaolee.cn"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://daodaolee.cn"
+      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/daodaolee"
+
 minimal_mistakes_skin: dark
 search: true
 
@@ -19,7 +47,6 @@ include:
   - Node_Weekly
 
 remote_theme: "mmistakes/minimal-mistakes"
-markdown: GFM
 
 plugins:
   - jekyll-paginate
@@ -28,36 +55,30 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  
-author:
-  name   : "First Lastname"
-  avatar : "https://daodaolee.cn/avatar.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/FEDarling"
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 defaults:
   # _posts
