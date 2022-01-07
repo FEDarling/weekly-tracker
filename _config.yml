@@ -69,15 +69,9 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-search: true
-search_provider: algolia
-algolia:
-  application_id         : D5RH5KGVI7
-  index_name             : index_name
-  search_only_api_key    : 70a5ba00cd2affdb2ad0c18341719e65
-  powered_by             : true
-
-
+search                   : true
+search_full_content      : true
+search_provider          : lunr
 
 # Markdown Processing
 kramdown:
