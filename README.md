@@ -37,7 +37,7 @@
     532
   </summary>
 
-* [前端性能优化[0]](/Frontend_Focus/#532_frontend_web_performance.md)
+* [前端性能优化[0]](/Frontend_Focus/532/frontend_web_performance.md)
 
 </details>
 
