@@ -1,11 +1,3 @@
----
-title:  周刊翻译计划
-toc: true
-toc_label: " 周刊翻译计划"
-toc_icon: "clipboard-list"
-toc_sticky: true
----
-
 ⛱ 周刊翻译计划，目前涉及[JavaScript Weekly](https://javascriptweekly.com/)、[Mobile Dev Weekly](https://mobiledevweekly.com/)、[Frontend Focus](https://frontendfoc.us/)、[React Status](https://react.statuscode.com/)、[Node Weekly](https://nodeweekly.com/) 和 [CSS Weekly](https://css-weekly.com/)期刊，希望读者可以有所收获！🥳
 
 ⏳文章时间为倒叙排列，不会全部翻译，会过滤部分优质文章分享。
