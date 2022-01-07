@@ -3,7 +3,7 @@ email: im@daodaolee.cn
 description: It will appear in your document head meta Google search results) and in your feed.xml site description.
 twitter_username: daodaolee
 github_username: daodaolee
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Outputting
@@ -19,7 +19,7 @@ include:
   - Node_Weekly
 
 remote_theme: "mmistakes/minimal-mistakes"
-markdown: kramdown
+markdown: GFM
 
 plugins:
   - jekyll-paginate
@@ -74,6 +74,36 @@ defaults:
   # _pages
   - scope:
       path: "JavaScript_Weekly"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+   - scope:
+      path: "CSS_Weekly"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+   - scope:
+      path: "Mobile_Dev_Weekly"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+   - scope:
+      path: "Frontend_Focus"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+   - scope:
+      path: "React_Status"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+   - scope:
+      path: "Node_Weekly"
       type: pages
     values:
       layout: single
