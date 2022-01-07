@@ -70,7 +70,10 @@ excerpt_separator: "\n\n"
 incremental: false
 
 search: true
-
+search_provider: google
+google:
+  search_engine_id       : a5ee6a19b8df17795
+  instant_search         : false
 
 # Markdown Processing
 kramdown:
