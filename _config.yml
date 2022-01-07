@@ -29,7 +29,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   
-  author:
+author:
   name   : "First Lastname"
   avatar : "https://daodaolee.cn/avatar.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
