@@ -20,7 +20,7 @@ author:
   name             : "FEDarling"
   avatar           : "https://avatars.githubusercontent.com/t/5522920?s=280&v=4"
   bio              : "Front End Darling Translate"
-  location         : "HangZhou"
+  location         : "China"
   email            : mailto:im@daodaolee.cn?cc=im@daodaolee.cn
   links:
     - label: "Email"
@@ -28,10 +28,10 @@ author:
       url: mailto:im@daodaolee.cn?cc=im@daodaolee.cn
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: https://daodaolee.cn
+      url: https://fedarling.github.io/fe-translate-weekly/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/daodaolee
+      url: https://github.com/FEDarling/fe-translate-weekly
 
 minimal_mistakes_skin: dark
 
@@ -69,11 +69,6 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-search: true
-search_provider: google
-google:
-  search_engine_id       : a5ee6a19b8df17795
-  instant_search         : false
 
 # Markdown Processing
 kramdown:
