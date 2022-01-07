@@ -78,31 +78,31 @@ defaults:
     values:
       layout: single
       author_profile: true
-   - scope:
+  - scope:
       path: "CSS_Weekly"
       type: pages
     values:
       layout: single
       author_profile: true
-   - scope:
+  - scope:
       path: "Mobile_Dev_Weekly"
       type: pages
     values:
       layout: single
       author_profile: true
-   - scope:
+  - scope:
       path: "Frontend_Focus"
       type: pages
     values:
       layout: single
       author_profile: true
-   - scope:
+  - scope:
       path: "React_Status"
       type: pages
     values:
       layout: single
       author_profile: true
-   - scope:
+  - scope:
       path: "Node_Weekly"
       type: pages
     values:
