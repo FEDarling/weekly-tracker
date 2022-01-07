@@ -5,7 +5,8 @@ name: FEDarling
 email: im@daodaolee.cn
 
 description: ⛱ 周刊翻译计划，目前涉及JavaScript Weekly、Mobile Dev Weekly、Frontend Focus、React Status、Node Weekly 和 CSS Weekly期刊，希望读者可以有所收获！🥳
-url: "https://fedarling.github.io/fe-translate-weekly/"
+url: "https://fedarling.github.io"
+baseurl: "/fe-translate-weekly"
 repository: "FEDarling/fe-translate-weekly"
 logo: "https://avatars.githubusercontent.com/u/97049302?s=400&u=9eeeeb9644d2ed3b862b8bab1a91adcf48792299&v=4"
 
@@ -20,17 +21,17 @@ author:
   avatar           : "https://avatars.githubusercontent.com/t/5522920?s=280&v=4"
   bio              : "Front End Darling Translate"
   location         : "HangZhou"
-  email            : "im@daodaolee.cn"
+  email            : mailto:im@daodaolee.cn?cc=im@daodaolee.cn
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "im@daodaolee.cn"
+      url: mailto:im@daodaolee.cn?cc=im@daodaolee.cn
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://daodaolee.cn"
+      url: https://daodaolee.cn
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/daodaolee"
+      url: https://github.com/daodaolee
 
 minimal_mistakes_skin: dark
 
