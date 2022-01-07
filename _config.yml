@@ -35,15 +35,6 @@ author:
 
 minimal_mistakes_skin: dark
 
-search: true
-search_full_content: true
-search_provider: algolia
-algolia:
-  application_id         : 1D0PBCG9PL
-  index_name             : FEDaring
-  search_only_api_key    : f5b98f3b48ae1f18b801944f479d17f1
-  powered_by             : true
-
 # Outputting
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
