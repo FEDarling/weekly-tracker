@@ -1,5 +1,80 @@
+title: MM
+email: im@daodaolee.cn
+description: It will appear in your document head meta Google search results) and in your feed.xml site description.
+twitter_username: daodaolee
+github_username: daodaolee
+minimal_mistakes_skin: default
+search: true
+
+# Outputting
+permalink: /:categories/:title/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - JavaScript_Weekly
+  - CSS_Weekly
+  - Mobile_Dev_Weekly
+  - Frontend_Focus
+  - React_Status
+  - Node_Weekly
+
 remote_theme: "mmistakes/minimal-mistakes"
-markdown: GFM
+markdown: kramdown
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
   - jekyll-include-cache
+  
+  author:
+  name   : "First Lastname"
+  avatar : "https://daodaolee.cn/avatar.png"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "JavaScript_Weekly"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
