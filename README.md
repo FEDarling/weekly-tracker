@@ -29,6 +29,14 @@
 ## Mobile Dev Weekly
 
 ## Frontend Focus
+<details>
+  <summary style="cursor: pointer">
+    532
+  </summary>
+
+* [前端性能优化[0]](/Frontend_Focus/#532_frontend_web_performance.md)
+
+</details>
 
 ## React Status
 
