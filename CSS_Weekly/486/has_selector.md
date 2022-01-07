@@ -1,4 +1,11 @@
-# 
+---
+title: CSS中 :has() 选择器不仅仅是 “父选择器”
+toc: true
+toc_label: "CSS中 :has() 选择器不仅仅是 ’父选择器‘"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
+
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
 

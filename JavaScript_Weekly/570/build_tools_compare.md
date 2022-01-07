@@ -1,11 +1,9 @@
 ---
-
 title: 新一代构建工具对比
 toc: true
 toc_label: "新一代构建工具对比"
-toc_icon: "cog"
+toc_icon: "clipboard-list"
 toc_sticky: true
-
 ---
 
 在过去的一年里，一系列新的开发工具拔地而起，包括但不限于 webpack、Babel、Rollup、Parcel、create-react-app等，在前端开发配合这方面也很友好。这些新的工具目标和功能上各有千秋，每个工具都有不同的目标和功能，但都有一个共同的目标：提高开发人员的使用体验。
