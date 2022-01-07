@@ -16,25 +16,32 @@ social:
   links: https://github.com/daodaolee
 
 author:
-  name             : "DaoDaoLee"
-  avatar           : "https://daodaolee.cn/avatar.png"
-  bio              : "This world is not that beautiful, do more things you like!"
+  name             : "FEDarling"
+  avatar           : "https://avatars.githubusercontent.com/t/5522920?s=280&v=4"
+  bio              : "Front End Darling Translate"
   location         : "HangZhou"
   email            : "im@daodaolee.cn"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "im@daodaolee.cn"
+      url: "im@daodaolee.cn"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://daodaolee.cn"
-      # url: "https://twitter.com/"
+      url: "https://daodaolee.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/daodaolee"
 
 minimal_mistakes_skin: dark
+
 search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id         : 1D0PBCG9PL
+  index_name             : *
+  search_only_api_key    : f5b98f3b48ae1f18b801944f479d17f1
+  powered_by             : true
 
 # Outputting
 permalink: /:categories/:title/
