@@ -1,3 +1,12 @@
+---
+title: 比较 Svelte 和 React
+toc: true
+toc_label: "比较 Svelte 和 React"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
+
+
 ## 前言
 
 `Pomodone`：一个小型时间跟踪应用程序，基于以 25 分钟为间隔工作的番茄工作法。它有一个 25 分钟的计时器（在 Web Worker 中运行）并将“poms”的历史记录保存到一个小型 Firebase 数据库中，[传送门](https://pomod.one/)
