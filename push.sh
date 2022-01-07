@@ -4,7 +4,7 @@
 
 git add .
 
-echo "请输入commit信息"
+echo "请输入commit信息，回车结束"
 
 read commitString
 
