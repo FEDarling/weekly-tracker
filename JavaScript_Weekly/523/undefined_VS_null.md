@@ -24,28 +24,28 @@ Javascript有两个空值到现在都被认为是一个错误的设计(即便是
 
 如果一个变量myVar没有初始化一个值，那么他的值就是undefined：
 
-```
+```js
 let myVar;
 assert.equal(myVar, undefined);
 ```
 
 如果一个对象中没有unknownProp属性，当访问该属性时就会生成undefined：
 
-```
+```js
 const obj = {};
 assert.equal(obj.unknownProp, undefined);
 ```
 
 如果一个函数没有明确的返回值，那么这个函数会返回undefined：
 
-```
+```js
 function myFunc() {}
 assert.equal(myFunc(), undefined);
 ```
 
 如果一个函数的return并没有返回任何值，那么他会返回undefined：
 
-```
+```js
 function myFunc() {
   return;
 }
@@ -54,7 +54,7 @@ assert.equal(myFunc(), undefined);
 
 如果一个函数的形参x在调用时被省略，那么它会是undefined：
 
-```
+```js
 function myFunc(x) {
   assert.equal(x, undefined);
 }
@@ -63,32 +63,32 @@ myFunc();
 
 如果一个变量是undefined或者null时，当使用链式调用  ojb?someProp时会返回undefined：
 
-```
-> undefined?.someProp
-undefined
-> null?.someProp
-undefined
+```js
+undefined?.someProp
+// undefined
+null?.someProp
+// undefined
 ```
 
 ### null是如何产生的
 
 一个对象的原型要么是一个对象，要么在原型链的末尾是 null。Prototype 没有原型:
 
-```
-> Object.getPrototypeOf(Object.prototype)
-null
+```js
+Object.getPrototypeOf(Object.prototype)
+// null
 ```
 如果我们通过一个正则表达式/a/，用这个正则去匹配字符串'x'，如果匹配失败了，则会返回一个null：
 
-```
-> /a/.exec('x')
-null
+```js
+/a/.exec('x')
+// null
 ```
 在调用JSON.stringify时，JSON是只支持null的，不支持undefined
 
-```
-> JSON.stringify({a: undefined, b: null})
-'{"b":null}'
+```js
+JSON.stringify({a: undefined, b: null})
+// '{"b":null}'
 ```
 
 ### 如何处理undefined和null
@@ -101,7 +101,7 @@ undefined 和参数的默认值
 
 例如:
 
-```
+```js
 function myFunc(arg='abc') {
   return arg;
 }
@@ -112,11 +112,9 @@ assert.equal(myFunc(undefined), 'abc');
 
 undefined同样可以触发形参使用默认值。
 
-The following example demonstrates where that is useful:
-
 下面的例子说明了哪些地方是有用的:
 
-```
+```js
 function concat(str1='', str2='') {
   return str1 + str2;
 }
@@ -130,7 +128,7 @@ function twice(str) { // (A)
 
 在解构时赋予默认值类似于函数的默认值，如果在解构时，变量没有匹配到或者匹配到undefined，那么他会采用默认值：
 
-```
+```js
 const [a='a'] = [];
 assert.equal(a, 'a');
 
@@ -150,7 +148,7 @@ assert.equal(d, 'd');
 -  如果 value 是 undefined 或者 null，返回 undefined，也就是说，当 value.prop 抛出异常时就会发生这种情况。
 -   否则，返回 value.prop。
 
-```
+```js
 function getProp(value) {
   // optional static property access
   return value?.prop;
@@ -165,7 +163,7 @@ assert.equal(
 
 下面的操作是类似的：
 
-```
+```js
 obj?.[«expr»] // optional dynamic property access
 func?.(«arg0», «arg1») // optional function or method call
 ```
@@ -174,23 +172,23 @@ func?.(«arg0», «arg1») // optional function or method call
 
 空值合并运算符 **??** 是让我们在遇到undefined和null时，使用默认值：
 
-```
-> undefined ?? 'default value'
-'default value'
-> null ?? 'default value'
-'default value'
+```js
+undefined ?? 'default value'
+// 'default value'
+null ?? 'default value'
+// 'default value'
 
-> 0 ?? 'default value'
-0
-> 123 ?? 'default value'
-123
-> '' ?? 'default value'
-''
-> 'abc' ?? 'default value'
-'abc'
+0 ?? 'default value'
+// 0
+123 ?? 'default value'
+// 123
+'' ?? 'default value'
+// ''
+'abc' ?? 'default value'
+// 'abc'
 ```
 逻辑空赋值 **??=** 将空值合并符和赋值合并在一起：
-```
+```js
 function setName(obj) {
   obj.name ??= '(Unnamed)';
   return obj;
@@ -227,7 +225,7 @@ undefined和null都被禁止使用
 
 例如：
 
-```
+```js
 function createFile(title) {
   if (title === undefined || title === null) {
     throw new Error('`title` must not be nullish');
@@ -239,7 +237,7 @@ function createFile(title) {
 
 -   我们希望同事处理undefined和null，因为 JavaScript 代码经常这样做，例如:
 
-    ```
+    ```js
     // Detecting if a property exists
     if (!obj.requiredProp) {
       obj.requiredProp = 123;
@@ -255,7 +253,7 @@ function createFile(title) {
 
 例如：
 
-```
+```js
 function createFile(title) {
   title ??= '(Untitled)';
   // ···
@@ -276,7 +274,7 @@ function createFile(title) {
 
 例如：
 
-```
+```js
 function createFile(title) {
   if (title === undefined) {
     throw new Error('`title` must not be undefined');
@@ -286,7 +284,7 @@ function createFile(title) {
 ```
 或者undefined触发一个默认值：
 
-```
+```js
 function createFile(title = '(Untitled)') {
   return {title};
 }
@@ -300,7 +298,7 @@ function createFile(title = '(Untitled)') {
 #### undefined来表达一个空值
 例如：
 
-```
+```js
 function createFile(title) {
   if (title === null) {
     throw new Error('`title` must not be null');
@@ -327,7 +325,7 @@ undefined的一个缺点是，它通常是由 JavaScript 无意中创建的: 由
 
 我们可以创建一个特殊的值，来表示 .title是空的：
 
-```
+```js
 const UNTITLED = Symbol('UNTITLED');
 const file = {
   title: UNTITLED,
@@ -344,7 +342,7 @@ const file = {
 
 在下面的示例中，UntitledFile 实现了“ null”模式。
 
-```
+```js
 // Abstract superclass
 class File {
   constructor(content) {
@@ -392,7 +390,7 @@ assert.deepEqual(
 
 写出所有有可能的类型，来处理问题：
 
-```
+```js
 function getTitle(file) {
   switch (file.title.kind) {
     case 'just':
@@ -425,4 +423,5 @@ assert.deepEqual(
 
 我们可以通过数组对“ just”和“nothing”进行编码。我们方法的好处是，它得到了TypeSript的良好支持。
 
+## 相关链接
 原文地址： [undefined vs. null revisited](https://2ality.com/2021/01/undefined-null-revisited.html)
