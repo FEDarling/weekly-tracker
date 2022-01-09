@@ -27,6 +27,11 @@
 * [重新思考三元运算符](/JavaScript_Weekly/570/ternary.md) 
 * [新一代构建工具对比](/JavaScript_Weekly/570/build_tools_compare.md)
 
+  <summary style="cursor: pointer" markdown='span'>
+    570
+  </summary>
+
+* [undefined vs. null revisited](/JavaScript_Weekly/523/undefined_VS_null.md) 
 </details>
 
 ## Mobile Dev Weekly
