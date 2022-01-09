@@ -1,4 +1,11 @@
-# CSS 自定义属性
+---
+title: CSS自定义属性
+toc: true
+toc_label: "CSS自定义属性"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
+
 
 ## 什么是CSS自定义属性？
 
