@@ -1,5 +1,10 @@
-
-# null vs undefinded
+---
+title: null vs undefinded
+toc: true
+toc_label: "null vs undefinded"
+toc_icon: "clipboard-list"
+toc_sticky: true
+---
 
 多数编程语言都有一个“空值”的定义，为 null。它表示变量当前不指向对象——例如，当它尚未初始化时。
 与其他语言相比，JavaScript包含两个这样的空值：undefined 和 null。在这篇文章中，我们将会探讨他们之间的区别，以及如何去最好的使用或者避免使用他们。
