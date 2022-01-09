@@ -153,12 +153,9 @@ function getProp(value) {
   // optional static property access
   return value?.prop;
 }
-assert.equal(
-  getProp({prop: 123}), 123);
-assert.equal(
-  getProp(undefined), undefined);
-assert.equal(
-  getProp(null), undefined);
+assert.equal(getProp({prop: 123}), 123);
+assert.equal(getProp(undefined), undefined);
+assert.equal(getProp(null), undefined);
 ```
 
 下面的操作是类似的：
@@ -235,7 +232,7 @@ function createFile(title) {
 ```
 为什么选择这种方法？
 
--   我们希望同事处理undefined和null，因为 JavaScript 代码经常这样做，例如:
+-   我们希望同事处理undefined和null，因此我们经常会这么写，例如:
 
     ```js
     // Detecting if a property exists
