@@ -424,3 +424,5 @@ assert.deepEqual(
 ```
 
 我们可以通过数组对“ just”和“nothing”进行编码。我们方法的好处是，它得到了TypeSript的良好支持。
+
+原文地址： [undefined vs. null revisited](https://2ality.com/2021/01/undefined-null-revisited.html)
