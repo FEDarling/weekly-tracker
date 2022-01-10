@@ -29,6 +29,14 @@
 
 </details>
 
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    523
+  </summary>
+  
+* [undefined vs. null revisited](/JavaScript_Weekly/523/undefined_VS_null.md) 
+</details>
+
 ## Mobile Dev Weekly
 
 ## Frontend Focus
