@@ -1,10 +1,13 @@
-# fe-translate-weekly
-⛱ 周刊翻译计划，目前涉及[JavaScript Weekly](https://javascriptweekly.com/)、[Mobile Dev Weekly](https://mobiledevweekly.com/)、[Frontend Focus](https://frontendfoc.us/)、[React Status](https://react.statuscode.com/)、[Node Weekly](https://nodeweekly.com/) 和 [CSS Weekly](https://css-weekly.com/)期刊，希望读者可以有所收获！🥳
+<div style="opacity:0"></div>
+
+
+# ⛱期刊翻译计划
+目前涉及[JavaScript Weekly](https://javascriptweekly.com/)、[Mobile Dev Weekly](https://mobiledevweekly.com/)、[Frontend Focus](https://frontendfoc.us/)、[React Status](https://react.statuscode.com/)、[Node Weekly](https://nodeweekly.com/) 和 [CSS Weekly](https://css-weekly.com/)期刊，希望读者可以有所收获！🥳
 
 ⏳文章时间为倒叙排列，不会全部翻译，会过滤部分优质文章分享。
 ## CSS Weekly
 <details>
-  <summary style="cursor: pointer">
+  <summary style="cursor: pointer" markdown='span'>
     486
   </summary>
 
@@ -15,25 +18,52 @@
 
 ## JavaScript Weekly
 <details>
-  <summary style="cursor: pointer">
+  <summary style="cursor: pointer" markdown='span'>
     570
   </summary>
 
 * [ES2021：特性速递](/JavaScript_Weekly/570/ES2021_new_feature.md) 
 * [比较 Svelte 和 React](/JavaScript_Weekly/570/svelte_vs_react.md) 
 * [重新思考三元运算符](/JavaScript_Weekly/570/ternary.md) 
+* [新一代构建工具对比](/JavaScript_Weekly/570/build_tools_compare.md)
 
 </details>
 
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    523
+  </summary>
+
+* [undefined vs. null revisited](/JavaScript_Weekly/523/undefined_VS_null.md) 
+</details>
+
 ## Mobile Dev Weekly
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    383
+  </summary>
+
+* [一个价值800万美元的娇羞按钮](/Mobile_Dev_Weekly/383/bashful_button.md) 
+* [移动先行or桌面先行](/Mobile_Dev_Weekly/383/modile_first_or_desktop_first.md)
+</details>
+
 
 ## Frontend Focus
+
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    532
+  </summary>
+
+* [前端性能优化[0]](/Frontend_Focus/532/frontend_web_performance.md)
+
+</details>
 
 ## React Status
 
 ## Node Weekly
 <details>
-  <summary style="cursor: pointer">
+  <summary style="cursor: pointer" markdown='span'>
     419
   </summary>
 
