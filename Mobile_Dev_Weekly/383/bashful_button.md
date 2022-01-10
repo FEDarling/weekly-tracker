@@ -75,8 +75,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 ## 一个结账的按钮值多少钱？
 
-几年前，我试图计算一个损坏的自动填充实现可能会给 Chipotle 带来多少成本。在与 Chipotle 或 Olive Garden 规模的公司打交道时，我发现微小的变化如何产生巨大的影响令人着迷。此外，挖掘收益电话以查看是否有足够的信息进行猜测是一种乐趣。 2
-所以我决定看看我能不能算出 Olive Garden 的结账按钮 bug 可能值多少钱。
+试着算一下 Olive Garden 的结账按钮 bug 可能值多少钱。
 
 Olive Garden 归 Darden 餐厅所有，这是一家上市公司。Darden 旗下有八个餐厅品牌：`Olive Garden`，`Longhorn Steakhouse`，`Cheddar’s Scratch Kitchen`，`Yard House`，`The Capital Grille`，`Seasons 52`，`Bahama Breeze`，`Eddie V’s`。我发现了八家餐厅在 iPad 上都有类似的问题：
 
