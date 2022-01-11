@@ -6,8 +6,6 @@ toc_icon: "clipboard-list"
 toc_sticky: true
 ---
 
-# ES2022 特性：类静态初始化块
-
 Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在ECMAScript2022中。
 
 
@@ -17,20 +15,8 @@ Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39
 
 为了设置类的静态部分，我们只有静态字段。ECMAScript建议引入了类的静态初始化块，这些块对于静态类的作用大致相当于构造函数对于实例的作用。
 
----------------------------------
 
-## 目录：
-
-   [1. 我们为什么要在类中使用静态块?](https://2ality.com/2021/09/class-static-block.html#why-do-we-need-static-blocks-in-classes%3F)
-   [2. 更复杂的例子](https://2ality.com/2021/09/class-static-block.html#a-more-complicated-example)
-   [3. 细节](https://2ality.com/2021/09/class-static-block.html#details)
-   [4. 支持类静态块的工具](https://2ality.com/2021/09/class-static-block.html#support-in-engines-for-class-static-blocks)
-   [5. JavaScript是否变得越来越像Java或者变得很乱?](https://2ality.com/2021/09/class-static-block.html#is-javascript-becoming-to-much-like-java-and%2For-a-mess%3F)
-   [6. 结论](https://2ality.com/2021/09/class-static-block.html#conclusion)
-
---------
-
-# 1 我们为什么要在类中使用静态块?
+## 1 我们为什么要在类中使用静态块?
 
 当我们设置静态字段的时候，使用外部函数效果通常很好：
 
@@ -99,7 +85,7 @@ class Translator {
 
 ```
 
-# 2 更复杂的例子
+## 2 更复杂的例子
 
 在 JavaScript 中实现枚举的一种方法是通过`Enum`超类（具体请参阅库[enumify](https://github.com/rauschma/enumify)）
 
@@ -132,7 +118,7 @@ ColorEnum.logColors();
 
 这里需要收集静态字段，以便我们可以遍历enum条目(第B行)的键值。创建所有静态字段到这里结束。然后我们再次调用第 A 行的代码，这样的写法将更加优雅些。
 
-# 3 细节
+## 3 细节
 
 相对来说，静态块的细节是合乎逻辑的（相比更复杂的规则例如实例成员）：
 - 每个类可以有多个静态块。
@@ -176,18 +162,18 @@ class SubClass extends SuperClass {
 // 'static block 2 SubClass'
 ```
 
-# 4 支持类静态块的工具
+## 4 支持类静态块的工具
 
 - V8:在v9.4.146中未标记（[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
 - SpiderMonkey:标记在v92中，v93不标记[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
 - TypeScript:v4.4([源码](https://devblogs.microsoft.com/typescript/announcing-typescript-4-4-rc/))
 
-# 5 JavaScript是否变得越来越像Java或者变得很乱?
+## 5 JavaScript是否变得越来越像Java或者变得很乱?
 
 这是一个很小的功能并不会和其他功能有冲突，我们已经可以通过带有`static _ = ...`字段的工作区运行静态代码。静态块意味着这个工作区不再是必要的。
 除此之外，类只是 JavaScript 程序员的众多工具之一。我们可以使用也可以不使用，而且还有很多其他代替方案。
 
-# 6 结论
+## 6 结论
 
 类静态块是一个相对简单的特性，它完善了类的静态特性。粗略地说，它是实例构造函数的静态版本。当我们必须设置多个静态字段时，它是非常有用的。
 
