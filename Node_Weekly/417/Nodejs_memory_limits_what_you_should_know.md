@@ -165,6 +165,7 @@ s.appendFile(LOG_FILE, timeRounded + "," + gbRounded + os.EOL, () => {}); // 请
 ​
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25699325/1641864662600-1213485d-38a6-4356-a9d6-c61d6d94d51e.png#clientId=u3ee7c93f-76ed-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=365&id=u77d7d8ce&margin=%5Bobject%20Object%5D&name=image.png&originHeight=365&originWidth=610&originalType=binary&ratio=1&rotation=0&showTitle=false&size=41430&status=done&style=none&taskId=uc28c98f9-95a7-4ec0-8a21-87f1a00a17d&title=&width=610)
+
 在限制为4.1GB的情况下，你可以看到内存的使用率在短时间内呈线性增长。内存的消耗在持续的增长并没有变得平缓，这个说明了某个地方存在内存泄漏。在我们调试这类问题的时候，我们要寻找在分配在老世代结束时的那部分代码。
 
 对象如果再在垃圾回收时幸存下来，就可能会一直存在，直到进程终止。
@@ -237,3 +238,6 @@ memwatch.on("leak", function (info) {
 ​
 
 希望你喜欢这篇关于内存限制和诊断内存泄漏的快速介绍。
+
+## 相关链接
+[原文链接](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)
