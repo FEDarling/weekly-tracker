@@ -70,3 +70,12 @@
 * [Node.js框架选择指南](/Node_Weekly/419/Nodejs_Framework_Selection_Guide.md) 
 
 </details>
+
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    417
+  </summary>
+
+* [你需要了解的Node.js内存限制](/Node_Weekly/417/Nodejs_memory_limits_what_you_should_know.md) 
+
+</details>
