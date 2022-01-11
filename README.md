@@ -31,6 +31,15 @@
 
 <details>
   <summary style="cursor: pointer" markdown='span'>
+    554
+  </summary>
+
+* [ES2022特性：类静态初始化块](/JavaScript_Weekly/554/ES2022_Feature_Class_Static_Initialization_Blocks.md) 
+
+</details>
+
+<details>
+  <summary style="cursor: pointer" markdown='span'>
     523
   </summary>
 
