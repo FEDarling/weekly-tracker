@@ -46,6 +46,14 @@
 * [undefined vs. null revisited](/JavaScript_Weekly/523/undefined_VS_null.md) 
 </details>
 
+<details>
+  <summary style="cursor: pointer" markdown='span'>
+    399
+  </summary>
+
+* [JavaScript引擎基础(上)：形态和内联缓存](/JavaScript_Weekly/399/js_engine_shape_and_inline_caches.md)
+</details>
+
 ## Mobile Dev Weekly
 <details>
   <summary style="cursor: pointer" markdown='span'>
