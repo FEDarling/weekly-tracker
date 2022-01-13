@@ -254,7 +254,7 @@ function getX(o) {
 
 如果我们在 JSC 中运行这个函数，它会生成以下字节码：
 
-![image-20220113233323614](../../../../../Library/Application%20Support/typora-user-images/image-20220113233323614.png)
+![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220113235749.png)
 
 第一条 `get_by_id` 指令从第一个参数 (arg1) 加载属性 `“x”` 并将结果存储到 `loc0`。第二条指令将我们存储的内容返回到 `loc0`。
 JSC 还在 `get_by_id` 指令中嵌入了一个内联缓存，该指令由两个未初始化的插槽组成：
@@ -267,7 +267,7 @@ JSC 还在 `get_by_id` 指令中嵌入了一个内联缓存，该指令由两个
 
 嵌入到 `get_by_id` 指令中的 `IC` 会记住找到属性的 Shape 和offset：
 
-![image-20220113233743656](../../../../../Library/Application%20Support/typora-user-images/image-20220113233743656.png)
+![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220113235630.png)
 
 对于后续的运行，IC只需比较 Shape 即可，如果与之前相同，则从内存的offset中加载值。具体来说，如果 JavaScript 引擎看到具有 IC 之前记录的 Shape 的对象，它就不再需要访问属性信息——相反，可以完全跳过代价极大的属性信息查找。这比每次查找属性要快得多。
 
@@ -311,7 +311,7 @@ const array = Object.defineProperty(
 上面的代码片段定义了一个名为 `'0'` 的属性（它恰好是一个数组索引），但将其属性设置为非默认值。
 在这种边缘情况下，JavaScript 引擎将整个后备存储元素表示为将数组索引映射到属性属的字典。
 
-![image-20220113234547667](../../../../../Library/Application%20Support/typora-user-images/image-20220113234547667.png)
+![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220113235823.png)
 
 即使只有一个数组元素具有非默认属性，整个数组的后备存储也会进入这种缓慢且低效的模式。一定要避免在数组索引上使用 `Object.defineProperty`！
 
