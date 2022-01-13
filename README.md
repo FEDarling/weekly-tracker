@@ -52,6 +52,7 @@
   </summary>
 
 * [JavaScript引擎基础(上)：形态和内联缓存](/JavaScript_Weekly/399/js_engine_shape_and_inline_caches.md)
+* [JavaScript引擎基础(下)：优化原型](/JavaScript_Weekly/399/js_engine_optimizing_prototype.md)
 </details>
 
 ## Mobile Dev Weekly
