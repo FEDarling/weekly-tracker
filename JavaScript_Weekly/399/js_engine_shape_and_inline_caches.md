@@ -40,7 +40,7 @@ V8 中的解释器的名字叫 **引燃(Ignition)**，负责生成和执行字�
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220113222456.png)
 
-**JavaScriptCore(JSC) **是 Apple 在 Safari 和 React Native 中使用的 JavaScript 引擎，它通过三种不同的优化编译器将其发挥到了极致：**低级解释器( LLInt，low-level-Interprete)**，优化到 **基准编译器(Baseline compiler)**，然后优化到 **数据流图形编译器(DFG，Data Flow Graph)**，而 DFG 编译器又可以优化到 **超光速编译器(FTL，Faster Than Light)**。
+**JavaScriptCore(JSC)** 是 Apple 在 Safari 和 React Native 中使用的 JavaScript 引擎，它通过三种不同的优化编译器将其发挥到了极致：**低级解释器( LLInt，low-level-Interprete)**，优化到 **基准编译器(Baseline compiler)**，然后优化到 **数据流图形编译器(DFG，Data Flow Graph)**，而 DFG 编译器又可以优化到 **超光速编译器(FTL，Faster Than Light)**。
 
 那为什么有些厂商的引擎比其他的优化编译器的格个数要多呢？当然这些都是权衡之后的。解释器可以快速生成字节码，但字节码通常效率不高。另一方面，优化编译器的执行需要更长的时间，但最终会产生更高效的机器代码。一些引擎会选择添加具有不同时间/效率的多个优化编译器，以牺牲更多的复杂性为代价来增加更细粒度的控制权。除此之外，内存也是一个权衡引擎个数和工作流程要考虑的原因，相关文章请见另一篇（未翻译，翻译后此处放链接）。
 
