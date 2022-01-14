@@ -13,7 +13,7 @@ toc_sticky: true
 
 为什么会发生这种情况，React 提供了哪些工具来解决这个问题？
 
-# 副作用 Side Effects
+## 副作用 Side Effects
 
 如果你的 React 组件影响了它自身之外的任何东西，那么它就被称为副作用。
 
@@ -24,7 +24,7 @@ toc_sticky: true
 
 > 要了解更多关于副作用以及它们为什么需要特殊处理的信息，请查看新的 React 文档 - [Keeping Components Pure](https://beta.reactjs.org/learn/keeping-components-pure)中的精彩部分。
 
-# 处理副作用
+## 处理副作用
 
 副作用的特殊位置在`useEffect`钩子内部，而useEffect的名称就是由此来的。
 
@@ -38,7 +38,7 @@ toc_sticky: true
 
 ![video1](https://cdn.jsdelivr.net/gh/LilyChenlin/-imageStore/React%20Status/effect-1.gif)
 
-# 有条件地运行Effect(效果)
+## 有条件地运行Effect(效果)
 
 有一种方法可以让Effect不在每次渲染之后执行，而是有条件的执行。`useEffect`钩子接受依赖列表作为第二个参数，只有列表中的任何依赖项发生更改，React 才会重新运行效果。让我们试一试：
 
@@ -46,7 +46,7 @@ toc_sticky: true
 
 当你传递一个空数组作为依赖列表时，效果只会在第一次渲染后运行一次。它可以防止在我们的案例中发生无限循环。但是，你可能会注意到我们的 fetch 函数依赖于`props.id`.
 
-# 对变化作出反应
+## 对变化作出反应
 
 让我们从上次停下来的地方继续，看看当我们改变组件的 props 时会发生什么。
 
