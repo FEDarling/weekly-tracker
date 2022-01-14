@@ -89,10 +89,10 @@
 ## React Status
 <details>
   <summary style="cursor: pointer" markdown='span'>
-    300
+    271
   </summary>
 
-* [useEffect视觉指南](/React_Status_Weekly/300/A_Visual_Guide_to_useEffect.md)
+* [useEffect视觉指南](/React_Status_Weekly/271/A_Visual_Guide_to_useEffect.md)
 
 </details>
 
