@@ -9,6 +9,7 @@ result2=$(echo $remoteStr | grep "${key2}")
 
 if [[ "$result1" != "" && "$result2" != "" ]]
   then
+    echo "\033[34m🚗开始拉取...\033[0m"
     git fetch upstream
     git checkout master
     git merge upstream/master
@@ -19,6 +20,6 @@ if [[ "$result1" != "" && "$result2" != "" ]]
     git fetch upstream
     git checkout master
     git merge upstream/master
-    echo "\033[32m🍻拉取完毕\033[0m"
+    echo "\033[32m🍻拉取完毕！\033[0m"
  fi
 
