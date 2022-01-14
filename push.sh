@@ -1,13 +1,6 @@
-# 使用方法：
-# 1. 授予权限 chmod +x ./push.sh 或者 chmod 777 push.sh
-# 2. 终端执行 ./push.sh
-
 git add .
 
-echo "请输入commit信息，回车结束"
-
-read commitString
-
-git commit -m commitString
+git commit -m "$1"
 
 git push origin master
+echo "\033[32m🚗推送成功！\033[0m"
