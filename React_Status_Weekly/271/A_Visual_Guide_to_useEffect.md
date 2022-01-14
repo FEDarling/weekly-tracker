@@ -1,7 +1,7 @@
 ---
-title: <useEffect视觉指南>
+title: useEffect视觉指南
 toc: true
-toc_label: "<useEffect视觉指南>"
+toc_label: "useEffect视觉指南"
 toc_icon: "clipboard-list"
 toc_sticky: true
 
