@@ -42,9 +42,9 @@ class AutoCommit {
           { name: 'JavaScript Weekly', value: "JavaScript Weekly" },
           { name: 'CSS Weekly', value: "CSS Weekly" },
           { name: 'React Status', value: "React Status" },
-          { name: 'FrontEnd Status', value: "FrontEnd Status" },
+          { name: 'Frontend Focus', value: "Frontend Focus" },
           { name: 'Mobile Dev Weekly', value: "Mobile Dev Weekly" },
-          { name: 'Node Status', value: "Node Status" }
+          { name: 'Node Weekly', value: "Node Weekly" }
         ]
       }
     ])
