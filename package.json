@@ -1,0 +1,15 @@
+{
+  "name": "fe-translate-weekly",
+  "version": "1.0.0",
+  "description": "fe-translate-weekly",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ac": "node autoCommit.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "8.2.0"
+  }
+}
