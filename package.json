@@ -4,7 +4,8 @@
   "description": "fe-translate-weekly",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ac": "node autoCommit.js"
+    "ac": "node autoCommit.js",
+    "m": "node maintenance.js"
   },
   "keywords": [],
   "author": "",
