@@ -14,7 +14,7 @@ toc_sticky: true
 
 让我们看看新的 HTTP 标准意味着什么？它是如何运作的？以及为什么每个web开发者都得关注它呢？
 
-# 标准
+## 标准
 我们接下来要讨论的是以下两个拟议标准:
 - [The Cache-Status Header](https://datatracker.ietf.org/doc/draft-ietf-httpbis-targeted-cache-control/)
 - [Targeted Cache-Control Headers](https://datatracker.ietf.org/doc/draft-ietf-httpbis-targeted-cache-control/)
@@ -23,9 +23,8 @@ toc_sticky: true
 
 这两个标准都是很新的规范，Cache-Status 已在 2021 年完成了多轮审查，目前正在等待（自 8 月以来）最终审查和作为正式 RFC 发布，而 Targeted Cache-Control Headers 目前是采用的草案标准，但是已经在最后一次征求反馈意见了。这两种标准都得到了IETF的支持，同时也引起了广泛讨论，而且它们不太可能在此之后发生太大变化。但是这两个标准毕竟还是比较新的，因此可能支持的不太广泛。
 
-# 为什么缓存非常重要？
+## 为什么缓存非常重要？
 如果你正在维护一个用户量很高的web项目，想以合理的成本为用户提供良好的性能服务，那么缓存和CDN绝对是至关重要的。缓存和CDN在位于你的Web服务器之前作为一个反向代理以实现以下功能：
-
 - 内容被缓存，因此你的后端服务器只接收偶尔的静态内容请求，而不是直接来 自每个访问者的请求。
 - 内容交付的流量峰值可以弹性拓展，因为静态缓存比应用程序服务器更容易扩展。
 - 内容请求是批处理的，因此 **1000** 个同时缓存未命中成为对后端的单个请求。
@@ -33,7 +32,7 @@ toc_sticky: true
 
 在现代web时代，以上的这些功能中对于你的主机资源分配都是严格必要的。
 
-例如，Troy Hunt为他广受欢迎的 Pwned Passwords 网站写了一篇关于缓存如何工作的详细探索。他的资源使用情况如下：
+例如，Troy Hunt为他广受欢迎的 Pwned Passwords 网站写了一篇关于[缓存如何工作](https://www.troyhunt.com/serverless-to-the-max-doing-big-things-for-small-dollars-with-cloudflare-workers-and-azure-functions/)的详细探索。他的资源使用情况如下：
 
 - 每周有**477.6GB**的子资源从他的域名得到服务
 - 其中 **476.7GB** 来自缓存（99.8% 的缓存命中率）
@@ -43,11 +42,11 @@ toc_sticky: true
 
 总的来说，他这个网站的托管成本——每天处理数百万次密码核对——大约是每天 3 美分。如果在他自己的服务器上处理所有流量成本会很高，而合理的缓存设置可以同时快速、有效且低成本地的处理这些问题。这些都是非常重要的。
 
-# 缓存存在什么问题呢？
+## 缓存存在什么问题呢？
 
 缓存当然是一个好东西，但是想要配置好缓存可没有那么容易。
 
-主要问题在于，在大多数案例中，任何一个请求路径都涉及很多层缓存。在后端服务器之前，大多数的设置使用某种负载均衡器/API 网关/反向代理，内置自己的缓存，在经过全球 CDN 之后从广泛分布的低延迟位置向最终用户提供内容. 最重要的是，后端服务器本身可以缓存内部结果，企业和 ISP 可以运行自己的缓存代理，许多客户端（尤其是 Web 浏览器）也可以进行自己的缓存（有时使用自己的附加缓存层，例如 Service Worker ）。
+主要问题在于，在大多数案例中，任何一个请求路径都涉及很多层缓存。在后端服务器之前，大多数的设置使用某种负载均衡器/API 网关/反向代理，内置自己的缓存，在经过全球 CDN 之后从广泛分布的低延迟位置向最终用户提供内容。最重要的是，后端服务器本身可以缓存内部结果，企业和 ISP 可以运行自己的缓存代理，许多客户端（尤其是 Web 浏览器）也可以进行自己的缓存（有时使用自己的附加缓存层，例如 Service Worker ）。
 
 这些层中的每一层都需要不同的缓存配置，例如浏览器在某些情况下可以缓存用户特定的数据，但 CDN 绝对不应该。你还需要缓存过期，通过在所有缓存间传播它，以确保最终用户尽快看到新内容。
 
@@ -99,7 +98,7 @@ Cache-Status 头参数
 - fwd=bypass - 缓存配置为不处理此请求
   - fwd=method - 由于使用了 HTTP 方法，因此必须转发请求
   - fwd=uri-miss - 没有可用于请求 URI 的匹配缓存数据
-  - fwd=vary-miss- URI 有匹配的缓存数据，但Vary标头中列出的标头不匹配
+  - fwd=vary-miss - URI 有匹配的缓存数据，但Vary标头中列出的标头不匹配
   - fwd=miss - 没有可用的匹配缓存数据（由于某些其他原因，例如：缓存不确定原因）
   - fwd=stale - 有匹配的缓存数据，但是是旧的数据
   - fwd=partial- 有匹配的缓存数据，但仅限于部分响应（例如，先前的请求使用Range标头）
@@ -142,7 +141,7 @@ Cache-Status:
 
 现如今，每个不同的缓存提供程序都使用了许多现有的（都有点不匹配）请求头，例如 Nginx 的[X-Cache-Status](https://support.cpanel.net/hc/en-us/articles/4402904983703-How-to-add-the-X-Cache-Status-header-to-NGINX-to-assist-with-optimizing-and-troubleshooting-cache-settings)、Cloudflare 的[CF-Cache-Status](https://developers.cloudflare.com/cache/about/default-cache-behavior#cloudflare-cache-responses)和 Fastly 的[X-Served-By](https://developer.fastly.com/reference/http/http-headers/X-Served-By/)和[X-Cache](https://developer.fastly.com/reference/http/http-headers/X-Cache/)。其中每一个都提供了可以包含在Cache-Status的一小部分信息，并且每个都有望在未来被 Cache-Status 慢慢取代。
 
-如今，大多数主要组件和提供商默认不包含 Cache-Status，但来自 Fastly、Akamai、Facebook 和许多其他公司的贡献者已经参与了标准化过程（因此它可能很快就会出现在网络上的许多服务和工具中）并且已经取得了进展，从[Squid]()和[Caddy](https://github.com/caddyserver/cache-handler#readme) 的缓存处理程序的内置支持到Fastly 的插入式配方。
+如今，大多数主要组件和提供商默认不包含 Cache-Status，但来自 Fastly、Akamai、Facebook 和许多其他公司的贡献者已经参与了标准化过程（因此它可能很快就会出现在网络上的许多服务和工具中）并且已经取得了进展，从[Squid](https://github.com/squid-cache/squid/commit/5fdc549054b11eb8bbc7e9640d6d071fa1ef742b)和[Caddy](https://github.com/caddyserver/cache-handler#readme) 的缓存处理程序的内置支持到Fastly 的插入式配方。
 
 这仅在 2021 年 8 月提交以供 RFC 发布，因此它仍然很新，但希望我们能在未来几个月继续看到对此进一步扩展的支持。如果你正在开发 CDN 或缓存组件，我真的鼓励你采用它来帮助你的用户进行调试（如果你是某个人的客户，我鼓励你向他们提出这个问题！ ）。
 
@@ -159,9 +158,9 @@ Cache-Status:
 Cache-Control: max-age=600, stale-while-revalidate=300, private
 ```
 
-以上请求头意思是：“内容将会缓存10分钟，但是响应只能被单个用户缓存，不能作为共享缓存（单用户，例如浏览器）”
+以上请求头意思是：“内容将会缓存10分钟，然后在尝试重新验证过时内容时将其再提供5分钟，但只能在私有（单用户，例如浏览器）缓存中执行此操作。”
 
-这样设置的话就不灵活，所有处理请求的缓存都必须以完全相同的方式遵循此处设置的规则。虽然可以将控制规则的范围限制为仅最终用户缓存（with private），并且在过去添加了一些重复的指令，这些指令仅适用于共享缓存（CDN 等），例如 **s-maxageand** 和 **proxy-revalidate** ，但你没有办法比这更精确或更灵活。
+这样设置的话就不灵活，所有处理请求的缓存都必须以完全相同的方式遵循此处设置的规则。虽然可以将控制规则的范围限制为仅最终用户缓存（with private），并且在过去添加了一些重复的指令，这些指令仅适用于共享缓存（CDN 等），例如 **s-maxage** 和 **proxy-revalidate** ，但你没有办法比这更精确或更灵活。
 
 这也就意味着你不能实现以下几个功能：
 - 为浏览器和 CDN 设置不同的 **stale-while-revalidate(异步缓存更新)** 生命周期
@@ -174,7 +173,7 @@ Cache-Control: max-age=600, stale-while-revalidate=300, private
 
 标头以应适用的特定target为前缀，它的语法与 **Cache-Control** 略有不同，因为它使用了标准的  [Structured Fields](https://datatracker.ietf.org/doc/rfc8941/) 格式，但是在使用的时候还是特别相似的。
 
-此处使用的target可能是唯一的服务或组件名称，或整个缓存类。该规范目前只定义了一个target - **CDN-Cache-Control**，它应该是适用于所有分布式 CDN 缓存，但不适用于其他缓存 - 但其他类可以稍后定义。将来，你可以想象**Client-Cache-Control** 为 HTTP 客户端中的缓存、**ISP**-互联网服务提供商、**Organization**-企业组织缓存等设置规则。
+此处使用的target可能是唯一的服务或组件名称，或整个缓存类。该规范目前只定义了一个target - **CDN-Cache-Control** ，它应该是适用于所有分布式 CDN 缓存，但不适用于其他缓存 - 但其他类可以稍后定义。将来，你可以想象 **Client-Cache-Control** 为 HTTP 客户端中的缓存、**ISP** -互联网服务提供商、**Organization** -企业组织缓存等设置规则。
 
 要使用这些标头的话，支持它们的每个缓存都将定义（固定或用户可配置的）它按优先顺序匹配的目标列表。它使用现有第一个匹配的**\<target>-Cache-Control** 标头，或者如果 **Cache-Control** 没有更具体的匹配项，则使用普通标头（如果有设置）。
 
@@ -187,7 +186,7 @@ Squid-Cache-Control: max-age=60
 Cache-Control: no-store
 ```
 上面的配置意为：
-- 最终客户端（至少得是识别出Client-Cache-Control我刚刚编写的标头的人）可以缓存此内容，但必须在每次使用前重新验证它
+- 最终客户端（至少得是那些认识我刚才编的Client-Cache-Control（客户端缓存）控制头的人）可以缓存此内容，但必须在每次使用前重新验证它
 
 - 所有 CDN 都可以将内容缓存 10 分钟，然后使用旧的响应，同时重新验证 5 分钟
 
@@ -199,7 +198,7 @@ Cache-Control: no-store
 
 这是 Cache-Status 标准化过程中比较新且比较早的功能，因此它仍然可能会更改。如果你需要反馈，规范在 GitHub 上，你可以在该 repo 中提交问题（或向工作组邮件列表发送消息）以分享你的想法。
 
-也就是说，规范本身是由代表 Fastly、Akamai 和 Cloudflare 的作者编写的，因此它已经得到了良好的行业支持，而且它在整个过程中已经足够远，不太可能发生巨大变化。
+也就是说，规范本身是由代表Fastly、Akamai和Cloudflare的作者编写的，因此它已经得到了良好的行业支持，而且它在整个过程中已经足够远，不太可能发生巨大变化。
 
 如今，Cloudflare和Akamai都已支持此功能，因此如果你使用这些缓存，你可以立即开始使用**CDN-Cache-Control**，**Akamai-Cache-Control** 和 **Cloudflare-CDN-Cache-Control**进行精确配置。对于许多其他工具和服务，很可能会有类似的支持，所以请注意这个空间。
 
@@ -207,11 +206,13 @@ Cache-Control: no-store
 
 缓存的使用在2021年可能很困难，但 **Cache-Status** 和 **Targeted Cache-Control** 正在迅速成熟，它们将使缓存的配置和调试变得更加简单。如果你正在使用缓存，值得去仔细研究一下。
 
-IETF 最近只在制定两个 HTTP 标准 - 如果你有兴趣帮助 Web 开发或了解即将推出的标准，还有很多其他标准。从限速标头到 **Proxy-Status**，再到**HTTP消息摘要** 和 **HTTP客户端提示** 应有尽有。HTTP 是一个不断发展的标准，未来还会有更多！如果你对此感兴趣，我强烈建议你加入工作组邮件列表，以关注新的发展并分享你的反馈。
+IETF 最近只在制定两个 HTTP 标准 - 如果你有兴趣帮助 Web 开发或了解即将推出的标准，还有很多其他标准。从限速标头到 **Proxy-Status**，再到 **HTTP消息摘要** 和 **HTTP客户端提示** 应有尽有。HTTP 是一个不断发展的标准，未来还会有更多！如果你对此感兴趣，我强烈建议你加入工作组邮件列表，以关注新的发展并分享你的反馈。
 
 想要测试或调试 HTTP 请求、缓存和错误？可以使用 [HTTP Toolkit](https://httptoolkit.tech/) 从任意位置拦截、检查和模拟 HTTP(S) 。
 
+## 相关链接 
 
+[原文链接](https://httptoolkit.tech/blog/status-targeted-caching-headers/)
 
 
 
