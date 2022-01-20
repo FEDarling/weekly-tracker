@@ -2,11 +2,9 @@
 title: 一个价值800万美元的娇羞按钮
 date: '2022-01-20 02:22:00'
 categories:
- - 移动端开发周刊
+ - Mobile Dev Weekly
 tags:
  - 移动端开发
-sidebar: 'auto'
-publish: true
 ---
 
 我的岳父很喜欢 Olive Garden 这家店，疫情过后这家店也成了点外卖的首选。拿起 iPad ，挑选，加入购物车，下单....一切都很顺利，直到我开始结帐：

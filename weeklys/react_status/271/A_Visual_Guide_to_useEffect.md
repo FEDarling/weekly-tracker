@@ -5,8 +5,6 @@ categories:
  - React Status
 tags:
  - React
-sidebar: 'auto'
-publish: true
 ---
 
 当你尝试直接从 React 中的功能组件的主体中获取数据时会发生的情况👇

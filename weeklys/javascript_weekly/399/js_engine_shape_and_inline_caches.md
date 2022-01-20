@@ -1,12 +1,10 @@
 ---
 title: JavaScript引擎基础(上)：形态和内联缓存
-date: '2022-01-20 02:22:00'
+date: 2022-01-20 02:22:00
 categories:
- - JavaScript 周刊
+ - JavaScript Weekly
 tags:
  - JavaScript
-sidebar: 'auto'
-publish: true
 ---
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。

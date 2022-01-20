@@ -1,11 +1,10 @@
 ---
 title: CSS 自定义属性
-date: '2022-01-20 02:22:00'
+date: 2022-01-20 02:22:00
 categories:
- - CSS 周刊
+ - CSS Weekly
 tags:
  - CSS
-sidebar: 'auto'
 publish: true
 ---
 

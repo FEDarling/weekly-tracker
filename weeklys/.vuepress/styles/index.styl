@@ -1,3 +1,29 @@
 .content {
   font-size 30px
 }
+.sidebar {
+  transition: all 0.3s ease-in-out
+}
+main.page{
+   transition: all 0.3s ease-in-out
+}
+
+/* 覆盖复制code样式 */
+.v-notification__group{
+  width: auto !important
+  padding: 6px 10px !important
+}
+.v-notification__title{
+  display: none
+}
+.v-notification__content{
+  margin: 0px !important
+}
+
+/* 左侧菜单样式覆盖 */
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable){
+  opacity: 0.8 !important
+  font-size: 0.95em
+  font-weight: 500
+  padding-top: 0
+}

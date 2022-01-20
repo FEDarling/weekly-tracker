@@ -1,12 +1,10 @@
 ---
-title: 新一代构建工具对比
+title: ES2021新特性
 date: '2022-01-20 02:22:00'
 categories:
- - JavaScript 周刊
+ - JavaScript Weekly
 tags:
  - JavaScript
-sidebar: 'auto'
-publish: true
 ---
 
 ## 逻辑赋值操作符(&&=  ||=  ??=)

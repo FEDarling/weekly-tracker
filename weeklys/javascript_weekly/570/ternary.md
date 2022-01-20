@@ -2,11 +2,9 @@
 title: 重新思考 JavaScript 的三元运算符
 date: '2022-01-20 02:22:00'
 categories:
- - JavaScript 周刊
+ - JavaScript Weekly
 tags:
  - JavaScript
-sidebar: 'auto'
-publish: true
 ---
 
 ## 前言

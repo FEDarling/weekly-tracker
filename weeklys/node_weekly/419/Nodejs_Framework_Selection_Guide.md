@@ -2,11 +2,9 @@
 title: Node.js 框架选择指南
 date: '2022-01-20 02:22:00'
 categories:
- - Node 周刊
+ - Node Weekly
 tags:
  - node
-sidebar: 'auto'
-publish: true
 ---
 
 我经常在社交媒体或者评论区看到有人问：”什么是最好的node.js框架“，得到的回答往往都非常主观， 一些开发者甚至还会为此争论不休。如果你正在为你的项目找一个合适的node.js框架。那这些回答基本对你没啥帮助。

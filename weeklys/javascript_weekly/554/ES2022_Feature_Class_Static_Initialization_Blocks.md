@@ -2,11 +2,9 @@
 title: ES2022 特性：类静态初始化块
 date: '2022-01-20 02:22:00'
 categories:
- - JavaScript 周刊
+ - JavaScript Weekly
 tags:
  - JavaScript
-sidebar: 'auto'
-publish: true
 ---
 
 Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在ECMAScript2022中。
