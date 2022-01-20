@@ -9,6 +9,7 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  dest: "public",
   themeConfig: {
     type: 'HomePageOne',
     mode: 'auto',
