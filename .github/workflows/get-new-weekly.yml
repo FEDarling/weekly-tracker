@@ -11,9 +11,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: git checkout CI
       - run: npm install
-      - run: npm run new
+      - run: npm run add
       - name: Commit files
         run: |
           git config --local user.email "kim.yang.gh@outlook.com"
