@@ -1,10 +1,8 @@
 ---
 title: useEffect视觉指南
 date: '2022-01-20 02:22:00'
-categories:
- - React Status
 tags:
- - React
+ - React Status
 ---
 
 当你尝试直接从 React 中的功能组件的主体中获取数据时会发生的情况👇

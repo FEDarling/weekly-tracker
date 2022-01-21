@@ -1,10 +1,8 @@
 ---
 title: 重新思考 JavaScript 的三元运算符
 date: '2022-01-20 02:22:00'
-categories:
- - JavaScript Weekly
 tags:
- - JavaScript
+ - JavaScript Weekly
 ---
 
 ## 前言

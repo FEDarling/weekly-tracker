@@ -1,10 +1,8 @@
 ---
 title: 比较 Svelte 和 React
 date: '2022-01-20 02:22:00'
-categories:
- - JavaScript Weekly
 tags:
- - JavaScript
+ - JavaScript Weekly
 ---
 
 ## 前言

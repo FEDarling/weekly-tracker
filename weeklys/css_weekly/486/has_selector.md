@@ -1,10 +1,8 @@
 ---
 title: CSS中 :has() 选择器不仅仅是 “父选择器”
 date: 2022-01-20 02:22:00
-categories:
- - CSS Weekly
 tags:
- - CSS
+ - CSS Weekly
 ---
 
 

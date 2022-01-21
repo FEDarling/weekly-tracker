@@ -1,9 +1,8 @@
 ---
 title: 现代web缓存中新的Http标准
-toc: true
-toc_label: "现代web缓存中新的Http标准"
-toc_icon: "clipboard-list"
-toc_sticky: true
+date: '2022-01-20 02:22:00'
+tags:
+ - Frontend Focus
 ---
 
 # 现代web缓存中新的HTTP标准

@@ -1,10 +1,8 @@
 ---
 title: ES2021新特性
 date: '2022-01-20 02:22:00'
-categories:
- - JavaScript Weekly
 tags:
- - JavaScript
+ - JavaScript Weekly
 ---
 
 ## 逻辑赋值操作符(&&=  ||=  ??=)

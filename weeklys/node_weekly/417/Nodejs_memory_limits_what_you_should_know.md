@@ -1,10 +1,8 @@
 ---
 title: 你需要了解的 Node.js 内存限制
 date: '2022-01-20 02:22:00'
-categories:
- - Node Weekly
 tags:
- - node
+ - Node Weekly
 ---
 
 在本篇文章中，我将探索一下Node中的堆内存分配，然后试试看把内存提高到硬件能承受的极限。然后我们将找到一些实用的方法来监控 Node 的进程以调试内存相关问题。

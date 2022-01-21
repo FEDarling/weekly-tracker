@@ -1,10 +1,8 @@
 ---
 title: null vs undefinded
 date: '2022-01-20 02:22:00'
-categories:
- - JavaScript Weekly
 tags:
- - JavaScript
+ - JavaScript Weekly
 ---
 
 多数编程语言都有一个“空值”的定义，为 null。它表示变量当前不指向对象——例如，当它尚未初始化时。

@@ -1,10 +1,8 @@
 ---
 title: 前端性能优化[0]
 date: '2022-01-20 02:22:00'
-categories:
- - Frontend Focus
 tags:
- - 性能优化
+ - Frontend Focus
 ---
 
 ## 一即是全 — 浏览器渲染周期，硬件加速和排版布局
