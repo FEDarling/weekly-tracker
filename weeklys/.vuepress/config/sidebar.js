@@ -21,7 +21,7 @@ const front = {
 	name: "Frontend Focus",
 	path: "/frontend_focus/",
 	pages: {
-		532: ["frontend_web_performance"]
+		523: ["frontend_web_performance"]
 	}
 }
 const node = {

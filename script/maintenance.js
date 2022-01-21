@@ -95,11 +95,11 @@ class Maintenance {
       // 退出
       return
     }
-    await this.execSh(`sh ./push.sh "${this.commitStr}"`, this.execCb)
+    await this.execSh(`sh script/push.sh "${this.commitStr}"`, this.execCb)
   }
   // 拉取
   async pull() {
-    await this.execSh("sh ./pull.sh", this.execCb)
+    await this.execSh("sh script/pull.sh", this.execCb)
   }
   // 入口
   async run() {
