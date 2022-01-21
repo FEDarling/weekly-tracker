@@ -59,7 +59,7 @@
     571
   </summary>
 
-* [fuite 一个检测web内存泄漏的工具](/JavaScript_Weekly/571/fuite.md)
+* [fuite: 监测web应用中内存泄漏的工具](/JavaScript_Weekly/571/fuite.md)
 </details>
 
 ## Mobile Dev Weekly
