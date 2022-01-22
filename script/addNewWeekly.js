@@ -3,7 +3,7 @@ const https = require("https");
 const cheerio = require("cheerio");
 const fs = require('fs');
 // const options;
-const req;
+let req;
 const base = './weeklys/weekly_collect'
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
@@ -47,7 +47,7 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('end', () => {
 			const $ = cheerio.load(body);
 			const html = $(className).html();
-			
+
 			if (html != null) {
 				const turndownService = new TurndownService();
 				const markdown = turndownService.turndown(html);
