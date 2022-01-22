@@ -1,0 +1,28 @@
+name: get new weekly
+on:
+  # push:
+  schedule:
+    - cron: '0 21 * * *'
+jobs: 
+  add-new:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm run add
+      - name: Commit files
+        run: |
+          git config --local user.email "kim.yang.gh@outlook.com"
+          git config --local user.name "KimYangOfCat"
+          git status
+          git add .
+          git commit -m "script: add new weekly" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: maintain
+    

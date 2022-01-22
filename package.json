@@ -6,7 +6,8 @@
     "dev": "vuepress dev weeklys",
     "build": "vuepress build weeklys",
     "ac": "node ./script/autoCommit.js",
-    "m": "node ./script/maintenance.js"
+    "m": "node ./script/maintenance.js",
+    "add": "node ./script/addNewWeekly.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,9 @@
     "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
     "@vuepress/plugin-pwa": "^1.9.7",
     "@vuepress/plugin-register-components": "^1.9.7",
+    "cheerio": "^1.0.0-rc.10",
     "inquirer": "8.2.0",
+    "turndown": "^7.1.1",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3"
   },
   "devDependencies": {
