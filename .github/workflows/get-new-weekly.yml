@@ -1,10 +1,8 @@
 name: get new weekly
 on:
-  # push:
+  #push:
   schedule:
     - cron: '0 21 * * *'
-    branches:    
-      - CI
 jobs: 
   add-new:
     runs-on: ubuntu-latest
@@ -27,4 +25,5 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           branch: CI
+          force: true
     
