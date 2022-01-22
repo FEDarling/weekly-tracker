@@ -1,6 +1,6 @@
 ---
 title: JavaScript引擎基础(下)：优化原型
-date: 2022-01-20 02:22:00
+date: '2018-08-17'
 tags:
  - JavaScript Weekly
 ---

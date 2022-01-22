@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript Weekly #399'
-date: 2022-01-20 02:22:00
-tags:
+date: '2018-08-17'
+categories:
  - JavaScript Weekly
 ---
 

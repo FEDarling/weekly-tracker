@@ -1,6 +1,6 @@
 ---
 title: null vs undefinded
-date: '2022-01-20 02:22:00'
+date: '2021-01-29'
 tags:
  - JavaScript Weekly
 ---

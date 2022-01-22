@@ -1,6 +1,6 @@
 ---
 title: ES2022 特性：类静态初始化块
-date: '2022-01-20 02:22:00'
+date: '2021-09-03'
 tags:
  - JavaScript Weekly
 ---
