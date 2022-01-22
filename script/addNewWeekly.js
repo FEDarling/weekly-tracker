@@ -13,24 +13,9 @@ const weeklys = [
 	['Frontend Focus', "frontend_focus", "https://frontendfoc.us/issues/", '.issue-html'],
 	['CSS Weekly', "css_weekly", "https://css-weekly.com", '.box-newsletter']
 ]
-weeklys.forEach(item => {
-	const weeklyName = item[0];
-	const weeklyDir = item[1];
-	const className = item[3];
-	const weeklyNum = getNewNum(weeklyName, weeklyDir);
-	let weeklyUrl;
-
-	if (weeklyDir != 'css_weekly') {
-		weeklyUrl = item[2] + weeklyNum;
-	} else {
-		weeklyUrl = item[2] + '/issue-' + weeklyNum + '/';
-	}
-
-	start(weeklyName, weeklyDir, weeklyUrl, weeklyNum, className);
-})
 
 const getNewNum = (weeklyName, weeklyDir) => {
-	console.log(` \x1B[32m🚗开始获取本地 ${weeklyName} 数据...\x1B[0m`);
+	console.log(` \x1B[33m🚗开始获取本地 ${weeklyName} 数据...\x1B[0m`);
 	const readFiles = fs.readdirSync(`${base}/${weeklyDir}/`).map(parseFloat).sort(function (a, b) { return b - a });
 	return readFiles[0] + 1;
 }
@@ -40,7 +25,7 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 
 	req = https.request(options, resp => {
 		resp.setEncoding('utf8');
-		const body = "";
+		let body = "";
 
 		resp.on('data', chunk => body += chunk);
 
@@ -88,7 +73,7 @@ const getNowFormatDate = () => {
 	const date = new Date();
 	const seperator1 = "-";
 	const year = date.getFullYear();
-	const month = date.getMonth() + 1;
+	let month = date.getMonth() + 1;
 	let strDate = date.getDate();
 
 	if (month >= 1 && month <= 9) {
@@ -100,3 +85,18 @@ const getNowFormatDate = () => {
 	const currentdate = year + seperator1 + month + seperator1 + strDate
 	return currentdate;
 }
+weeklys.forEach(item => {
+	const weeklyName = item[0];
+	const weeklyDir = item[1];
+	const className = item[3];
+	const weeklyNum = getNewNum(weeklyName, weeklyDir);
+	let weeklyUrl;
+
+	if (weeklyDir != 'css_weekly') {
+		weeklyUrl = item[2] + weeklyNum;
+	} else {
+		weeklyUrl = item[2] + '/issue-' + weeklyNum + '/';
+	}
+
+	start(weeklyName, weeklyDir, weeklyUrl, weeklyNum, className);
+})
