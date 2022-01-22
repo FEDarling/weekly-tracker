@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 const fs = require('fs');
 // const options;
 let req;
-const base = './weeklys/weekly_collect'
+const base = './weeklys'
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
 	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],

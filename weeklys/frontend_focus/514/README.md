@@ -5,4 +5,4 @@ categories:
  - Frontend Focus
 ---
 
-1. [现代web缓存中新的Http标准](../../frontend_focus/514/status_targeted_caching_headers.md) — 通过CDN或者类似服务的静态缓存非常重要，尤其对于大型的站点。但是这类服务通常会特别复杂和混乱。这篇文章将会介绍用于改进这一类服务的新Http标准，以及你为什么应该关注这些问题。
+1. [现代web缓存中新的Http标准](./status_targeted_caching_headers.md) — 通过CDN或者类似服务的静态缓存非常重要，尤其对于大型的站点。但是这类服务通常会特别复杂和混乱。这篇文章将会介绍用于改进这一类服务的新Http标准，以及你为什么应该关注这些问题。
