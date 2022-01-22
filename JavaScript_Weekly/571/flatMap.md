@@ -10,7 +10,7 @@ toc_sticky: true
 
 `Array.map()`是我们日常开发过程中经常使用到的一个映射函数，它需要一个映射函数作为入参并随之根据入参生成一个新的函数。
 
-在es2019之后，出现了一个新的方法——`Array.flatMap`。它完全可以替代`Array.map`，因为它不仅能完成映射，还可以删除或者在生成新数组时添加你需要的元素。但是使用时要注意兼容性，下面附上在[CanIUse](https://caniuse.com/?search=Array.flatmap)上，`Array.flatMap`的兼容情况。
+在es2019之后，出现了一个新的方法——`Array.flatMap`。它完全可以替代`Array.map`，因为它不仅能完成映射，还可以在生成新数组时删除或者添加你需要的元素。但是使用时要注意兼容性，下面附上在[CanIUse](https://caniuse.com/?search=Array.flatmap)上，`Array.flatMap`的兼容情况。
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4728f70ab9c44ed6aa77b2ab1513fabd~tplv-k3u1fbpfcp-watermark.image?)
 
@@ -29,7 +29,7 @@ console.log(doubled); // logs [0, 6, 12]
 
 但是如果我们在生成新数组时，要控制去除某些元素时，例如我们要跳过0这个数字。
 
-此时，只是使用 array.map 就无法实现了，因为它生成的新数组和原数组的长度时相同的。但是可以同时使用`array.map()` 和 `array.filter()`来实现。
+此时，只是使用 array.map 就无法实现了，因为它生成的新数组和原数组的长度是相同的。但是可以同时使用`array.map()` 和 `array.filter()`来实现。
 
 ```
 const numbers = [0, 3, 6];
@@ -42,7 +42,7 @@ console.log(doubled); // logs [6, 12]
 
 我觉得使用`Array.map`和`array.filter`结合的方式来完成这个功能有点麻烦，有没有更简短的方式来实现呢？
 
-答案是肯定的。从有了`array.flatMap`的方法，我们就可以通过只调用这一个方法就能实现这些功能。
+答案是肯定的。自从有了`array.flatMap`的方法，我们就可以通过只调用这一个方法就能实现这些功能。
 
 下面使用下`array.flatMap`方法来实现元素 * 2 并且过滤0的功能。
 
@@ -124,9 +124,9 @@ console.log(trippled);
 
 如果我们希望通过一个数组生成一个新的数组，并且还想要控制向新数组中添加新的元素，那么你可以使用`array.flatMap`来实现这个功能。
 
-`array.flatMap`方法的回调函数有3个，分别为当前元素，下标以及原数组。当要返回生成新数组时，会将从回调函数中返回的数组平铺到一个新数组中。
+`array.flatMap`方法的回调函数有3个参数，分别为当前元素，下标以及原数组。从回调函数返回的数组将是被扁平化的数组，生成的元素也会被插入到该数组中。
 
-请注意，如果您只想将单个项目映射到单个新值，那么请尽量使用标准 array.map ()。
+请注意，如果你只想将单个项目映射到单个新值，那么请尽量使用标准 array.map ()。
 ## 相关链接
 
 [⛱ 原文地址](https://dmitripavlutin.com/javascript-array-flatmap/)
