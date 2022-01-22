@@ -21,6 +21,7 @@ module.exports = {
     nextLinks: true,
     prevLinks: true,
     docsRepo: 'FEDarling/fe-translate-weekly',
+    docsBranch: 'maintain',
     docsDir: 'weeklys',
     editLinks: true,
     editLinkText: '发现错误？欢迎斧正',
