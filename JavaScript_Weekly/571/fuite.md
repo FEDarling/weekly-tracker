@@ -63,7 +63,7 @@ DOM size grew by 6 node(s) 
 
 ![74a805399e214e6a054c93ad6e9d4ba.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/34e6836feb8d47018b63611dd73ae2ff~tplv-k3u1fbpfcp-watermark.image?)
 
-我们可以发现每次当点击页面的时候，内存大概都会增加6M左右。
+我们可以发现每次点击连接并返回时，内存都会增加约6MB。
 ## 注意事项
 我们要注意的是并不是所有的SPA中的内存泄漏都是需要解决的。比如，当SPA需要维护焦点和滚动状态，虽然会造成泄漏，但是却并不致命。`fuite`会提示我们这些小的问题，因为它确实导致了内存泄漏，但是作为开发者我们需要注意这种问题是否真的需要修改。
 
