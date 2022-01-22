@@ -60,6 +60,7 @@
   </summary>
 
 * [fuite: 监测web应用中内存泄漏的工具](/JavaScript_Weekly/571/fuite.md)
+* [Array.flatMap一个灵活好用的Map方法](/JavaScript_Weekly/571/flatMap.md)
 </details>
 
 ## Mobile Dev Weekly
