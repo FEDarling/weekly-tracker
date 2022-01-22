@@ -34,6 +34,10 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 			const html = $(className).html();
 
 			if (html != null) {
+				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
+                fs.mkdir(`${base}/${weeklyNum}`,{ recursive: true }, (err) => {
+                    if (err) throw err;
+                  })
 				const turndownService = new TurndownService();
 				const markdown = turndownService.turndown(html);
 				const head =
@@ -45,7 +49,7 @@ categories:
 ---
 
 `
-				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}.md`, head + markdown, 'utf8');
+				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown, 'utf8');
 				console.log(` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`);
 			} else {
 				console.log(` \x1B[32m🤪${weeklyName} 没有新内容\x1B[0m`);
