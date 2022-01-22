@@ -2,8 +2,6 @@
 name: 翻译认领模板
 about: 请遵循该模板创建新的Issues
 title: 翻译认领模板
-assignees: ''
-
 ---
 
 ## 认领说明
@@ -14,7 +12,14 @@ assignees: ''
 
 文章有三个状态：
 
-![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220122195644.png)
+待认领：
+- [ ] 文章标题
+
+已认领：
+- [x] 文章标题（@daodaolee）
+
+翻译完成：
+- [x] 文章标题（@daodaolee）#2
 
 ## 领取方式
 从下面 **认领列表** 中选取未被人领取过的文章，在本 issues 下评论即可领取，认领文章格式如下：
