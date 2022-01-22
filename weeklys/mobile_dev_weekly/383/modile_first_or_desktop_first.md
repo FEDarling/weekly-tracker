@@ -4,6 +4,11 @@ date: '2021-12-24'
 tags:
  - Mobile Dev Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在Twitter发起了一次关于此项的投票
 

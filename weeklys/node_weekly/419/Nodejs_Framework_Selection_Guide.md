@@ -4,6 +4,11 @@ date: '2021-12-23'
 tags:
  - Node Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 我经常在社交媒体或者评论区看到有人问：”什么是最好的node.js框架“，得到的回答往往都非常主观， 一些开发者甚至还会为此争论不休。如果你正在为你的项目找一个合适的node.js框架。那这些回答基本对你没啥帮助。
 

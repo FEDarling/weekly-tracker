@@ -4,6 +4,12 @@ date: '2021-01-29'
 categories:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://javascriptweekly.com/link/102249/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
+
 1. [undefined VS null](./undefined_vs_null.md) — 多数语言都包含了一个‘空值’的概念(大多数都为null或者nil)，但是JavaScript却以undefinded和null两种形式来表示。Dr. Axel给我们分析了他们的不同并告诉了我们如何去使用它们。
 #523 — January 29, 2021
 

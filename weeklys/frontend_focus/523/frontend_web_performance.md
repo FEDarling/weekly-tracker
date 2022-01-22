@@ -4,6 +4,11 @@ date: '2022-01-05'
 tags:
  - Frontend Focus
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 ## 一即是全 — 浏览器渲染周期，硬件加速和排版布局
 

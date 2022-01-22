@@ -4,6 +4,11 @@ date: '2021-12-24'
 categories:
  - Mobile Dev Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 1. [一个价值800万美元的娇羞按钮](./bashful_button.md) —之前的 100vh 引起的错误现在似乎已基本解决，不过本篇文章还是强调了当前这种错误，因为这种犯错导致的代价很高。
 2. [移动先行or桌面先行](./modile_first_or_desktop_first.md) —— 移动先行还是桌面先行的问题现在仍然值得讨论吗？这篇文章深入探讨了这个问题，并概述了各种方法的优缺点。

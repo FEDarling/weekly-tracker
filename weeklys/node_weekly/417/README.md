@@ -4,6 +4,11 @@ date: '2021-12-09'
 categories:
  - Node Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://nodeweekly.com/link/117312/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 1. [你需要了解的Node.js内存限制](./nodejs_memory_limits_what_you_should_know.md) Node.js 在内存使用方面非常高效，所以你可能永远不会达到内存最大使用限制，但Node的内存管理的工作原理以及当程序出现内存限制和内存泄漏相关的问题时应该处理，都值得我们去了解。
   

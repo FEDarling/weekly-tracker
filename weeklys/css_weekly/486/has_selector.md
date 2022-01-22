@@ -4,7 +4,11 @@ date: '2021-12-22'
 tags:
  - CSS Weekly
 ---
-
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
 

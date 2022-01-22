@@ -4,6 +4,11 @@ date: '2018-08-17'
 categories:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 1. [JavaScript引擎基础(上)：形态和内联缓存](./js_engine_shape_and_inline_caches.md) — 对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
 2. [JavaScript引擎基础(下)：优化原型](./js_engine_optimizing_prototype.md) — 对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。

@@ -4,6 +4,11 @@ date: '2022-01-12'
 categories:
  - React Status
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://react.statuscode.com/link/118281/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 1. [useEffect指南](./a_visual_guide_to_useEffect.md) useEffect视觉指南
 

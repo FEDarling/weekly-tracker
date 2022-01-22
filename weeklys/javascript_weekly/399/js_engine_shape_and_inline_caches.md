@@ -4,6 +4,11 @@ date: '2018-08-17'
 tags:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://mathiasbynens.be/notes/shapes-ics)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
 

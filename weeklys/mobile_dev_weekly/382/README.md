@@ -4,6 +4,11 @@ date: '2021-12-17'
 categories:
  - Mobile Dev Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 1. [WebRTC简介](./webrtc.md) — 这是一个开源项目，可以在应用上添加点对点实时通信功能。
 

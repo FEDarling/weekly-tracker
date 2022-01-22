@@ -4,6 +4,11 @@ date: '2021-12-22'
 categories:
  - CSS Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://css-weekly.com/issue-486/)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 ## [CSS中 :has() 选择器不仅仅是 “父选择器”](./has_selector.md)
 

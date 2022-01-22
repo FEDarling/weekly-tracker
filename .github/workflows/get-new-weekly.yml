@@ -3,6 +3,8 @@ on:
   # push:
   schedule:
     - cron: '0 21 * * *'
+    branches:    
+      - CI
 jobs: 
   add-new:
     runs-on: ubuntu-latest
@@ -24,5 +26,5 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: maintain
+          branch: CI
     

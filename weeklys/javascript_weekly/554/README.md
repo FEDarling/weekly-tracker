@@ -4,6 +4,12 @@ date: '2021-09-03'
 categories:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
+
 1. [ES2022 特性：类静态初始化块](./es2022_feature_class_static_initialization_blocks.md) — 这个提议处于包含在 ES2022 的第 4 阶段，看起来也不觉得 JavaScript 的这种写法偏向于 Java。
 
 #​554 — September 3, 2021
