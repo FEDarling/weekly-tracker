@@ -1,5 +1,5 @@
 ---
-title: '#554'
+title: 'JavaScript Weekly #554'
 date: 2022-01-20 02:22:00
 tags:
  - JavaScript Weekly
