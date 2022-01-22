@@ -1,7 +1,7 @@
 {
-  "name": "fe-translate-weekly",
+  "name": "Weekly-Tracker",
   "version": "1.0.0",
-  "description": "追踪国外最流行的前端周报",
+  "description": "追踪国外最流行的周刊",
   "scripts": {
     "dev": "vuepress dev weeklys",
     "build": "vuepress build weeklys",

@@ -2,8 +2,8 @@ const plugins = require('./config/plugins.js')
 const nav = require('./config/nav.js')
 const sidebar = require('./config/sidebar.js')
 module.exports = {
-  title: '周刊翻译计划',
-  description: "追踪国外最流行的前端周刊",
+  title: 'Weekly Tracker',
+  description: "追踪国外最流行的周刊",
   theme: 'reco',
   lang: 'zh-CN',
   markdown: {

@@ -1,5 +1,5 @@
 node_modules
-
 weeklys/.vuepress/dist
-
-public
+/public/
+yarn.lock
+package-lock.json
