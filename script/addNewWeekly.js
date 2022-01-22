@@ -35,7 +35,7 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 
 			if (html != null) {
 				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
-                fs.mkdir(`${base}/${weeklyNum}`,{ recursive: true }, (err) => {
+                fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
                     if (err) throw err;
                   })
 				const turndownService = new TurndownService();
