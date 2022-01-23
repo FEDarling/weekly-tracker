@@ -1,0 +1,22 @@
+name: vuepress-deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: FEDarling/weekly-tracker
+          TARGET_BRANCH: pages
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: public
