@@ -1,8 +1,7 @@
 ---
 title: 'React Status #271'
 date: '2022-01-12'
-categories:
- - React Status
+categories: ['React Status']
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://react.statuscode.com/link/118281/web)对比阅读

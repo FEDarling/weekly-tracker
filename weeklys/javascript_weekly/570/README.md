@@ -1,8 +1,7 @@
 ---
 title: 'JavaScript Weekly #570'
 date: '2021-12-24'
-categories:
- - JavaScript Weekly
+categories: ["JavaScript Weekly"]
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/117985/web)对比阅读

@@ -1,8 +1,7 @@
 ---
 title: 'CSS Weekly #486'
 date: '2021-12-22'
-categories:
- - CSS Weekly
+categories: ["CSS Weekly"]
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://css-weekly.com/issue-486/)对比阅读

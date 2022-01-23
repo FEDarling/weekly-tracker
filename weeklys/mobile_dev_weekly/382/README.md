@@ -1,8 +1,7 @@
 ---
 title: 'Mobile Dev Weekly #382'
 date: '2021-12-17'
-categories:
- - Mobile Dev Weekly
+categories: ["Mobile Dev Weekly"]
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
