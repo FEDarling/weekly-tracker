@@ -3,7 +3,7 @@ name: 'weekly 发布'
 about: 周刊翻译任务发布模板，仅维护者使用
 title: 'weekly #num' 
 labels: 待认领
-assignees: '@daodaolee'
+assignees: 'daodaolee'
 
 ---
 ## 认领列表
