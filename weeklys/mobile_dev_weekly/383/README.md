@@ -9,7 +9,8 @@ publish: true
 ## 📱 Mobile Dev Weekly
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1640085844/d0ij38zabov39wxc002r.jpg)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 **Hello!** 👋  
   
 First up, some news: not only is this the last issue of the year, it's also the last issue of _Mobile Dev Weekly._ We're bringing things to a close after almost eight years of delivering you this email digest. We hope it's proven valuble as we've navigated through the rapidly evolving mobile development space.  
@@ -75,6 +76,6 @@ Mobile as a very broad platform, both native and web, is more critical than ever
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

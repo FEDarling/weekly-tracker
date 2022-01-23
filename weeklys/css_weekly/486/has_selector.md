@@ -8,9 +8,9 @@ tags: ['CSS']
 publish: true
 ---
 
-
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 > Safari 技术预览版 137 刚刚发布，对 CSS :has() 提供未标记的支持。通常被称为“父选择器”的 :has() 远不止于此……
 
 ## CSS `:has()`?

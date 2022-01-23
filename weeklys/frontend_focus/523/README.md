@@ -5,9 +5,9 @@ categories: ["Frontend Focus"]
 publish: true
 ---
 
-
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641385098/nxbcqczy7asnfyk3mewf.png)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 **🚀 Hello 2022!**
 
 **Hey! 👋** Hope you're well — thank you for opening the first issue of the year! After a festive break, we're back and ready to keep you updated on all things frontend for another year.  
@@ -82,6 +82,6 @@ Tom Quinonero
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://frontendfoc.us/link/118057/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

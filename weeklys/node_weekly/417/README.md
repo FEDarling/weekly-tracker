@@ -6,7 +6,8 @@ publish: true
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f2jffhszv9r1n44wzxx8.jpg)](https://nodeweekly.com/link/117313/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [GitHub Rolling Out Enforced 2FA and More for npm Registry](https://nodeweekly.com/link/117313/web "github.blog") — Many public code package registries have suffered issues with user security in recent years, and a single compromised package can cause havoc in the npm ecosystem in particular. GitHub are, therefore, moving forward with plans for ‘enhanced login verification’ including enforced 2FA _for publishers of high impact packages_ in early 2022. If you want to check your npm account and improve its security, now is the time!
 
 [Why You Should Check-In Your Node Dependencies](https://nodeweekly.com/link/117314/web "www.jackfranklin.co.uk") — _“I currently work at Google on the Chrome DevTools team and we check our node\_modules folder into source control. At first this struck me as unusual, but I’ve come to believe that there are some major benefits to this approach that I think more people should consider.”_
@@ -64,6 +65,6 @@ Adam Berg
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nodeweekly.com/link/117312/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

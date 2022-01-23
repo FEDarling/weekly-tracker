@@ -7,7 +7,8 @@ publish: true
 
 A blast from the past this week as we take some time out to ask Dr. Axel Rauschmayer, a former editor of _JavaScript Weekly_, some questions on the release of his new book, _[JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web)_. You can find that further down in this issue :-)  
 _— Peter Cooper, editor_
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dgt2wojtjualvh9aiwvs.jpg)](https://javascriptweekly.com/link/51540/web)
 
 [JavaScript Engine Fundamentals: Optimizing Prototypes](https://javascriptweekly.com/link/51540/web) — Having a deeper understanding of how JavaScript engines work can help you reason about the performance characteristics of your code and this diagram-rich post digs into engines optimize around JavaScript’s use of prototype-based inheritance.
@@ -104,6 +105,6 @@ Dr. Axel Rauschmayer is the author of [JavaScript for Impatient Programmers](htt
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

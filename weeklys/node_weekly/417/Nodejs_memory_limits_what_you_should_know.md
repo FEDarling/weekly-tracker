@@ -11,7 +11,8 @@ publish: true
 在本篇文章中，我将探索一下Node中的堆内存分配，然后试试看把内存提高到硬件能承受的极限。然后我们将找到一些实用的方法来监控 Node 的进程以调试内存相关问题。
 
 OK，准备完成就发车！
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 大家可以在仓库拉一下相关代码 [clone the code from my GitHub](https://github.com/beautifulcoder/node-memory-limitations).
 
 

@@ -5,7 +5,8 @@ categories: ['JavaScript Weekly']
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/okp6c8oqh1hp0wwnsggz.jpg)](https://javascriptweekly.com/link/118206/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [2021's JavaScript _Rising Stars_](https://javascriptweekly.com/link/118206/web "risingstars.js.org") — Back for the 6th year running is this popular look at JavaScript projects that have continued to be popular on GitHub. Stars aren’t the only way to determine what projects are good, but it’s _one way_, and we tend to find it surfaces some worthwhile projects and libraries to check out. 2021 was a strong year for JavaScript and particularly for projects like Next.js, Vite, and zx!
 
 [The ES2022 Edition of 'JavaScript for Impatient Programmers'](https://javascriptweekly.com/link/118207/web "exploringjs.com") — Dr. Axel has updated his popular book to ES2022 standards (ES2022 is to be finalized as a standard later this year) and you can still read (nearly) [the whole book online](https://javascriptweekly.com/link/118208/web). Here’s the [what’s new in ES2022](https://javascriptweekly.com/link/118209/web) section.

@@ -13,7 +13,8 @@ publish: true
 ![initial](https://cdn.jsdelivr.net/gh/LilyChenlin/-imageStore/React%20Status/effect-1.gif)
 
 为什么会发生这种情况，React 提供了哪些工具来解决这个问题？
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 副作用 Side Effects
 
 如果你的 React 组件影响了它自身之外的任何东西，那么它就被称为副作用。

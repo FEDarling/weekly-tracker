@@ -9,7 +9,8 @@ publish: true
 ---
 
 Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在ECMAScript2022中。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 
 为了建立一个类的实例，我们在JavaScript中有两个构造:
 - 字段：创建（可选的初始化）实例属性。

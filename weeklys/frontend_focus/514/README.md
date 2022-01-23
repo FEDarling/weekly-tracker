@@ -5,7 +5,8 @@ categories: ["Frontend Focus"]
 publish: true
 ---
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635261725/et7pugwcsesu5b5xt3hr.jpg)](https://frontendfoc.us/link/115404/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [A Deep Dive into `object-fit` and `background‑size` in CSS](https://frontendfoc.us/link/115404/web "www.smashingmagazine.com") — Goes through just how `object-fit` and `background-size` work, when to use them, and why, along with some practical use cases and recommendations.
 
 [Photoshop's Journey to the Web](https://frontendfoc.us/link/115463/web "web.dev") — Just the idea of running software as complex as Photoshop _directly_ in the browser would have been hard to imagine even just a few years ago, but here we are: Thanks to new standardized web technologies, Adobe has now brought a public beta of Photoshop to the web. This opens up a lot of potential not just for Adobe but anyone with lofty browser-based ambitions.
@@ -86,6 +87,6 @@ Want to give it a try?
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

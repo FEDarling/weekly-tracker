@@ -5,9 +5,9 @@ categories: ["JavaScript Weekly"]
 publish: true
 ---
 
-
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cgoje1baa4qsijrqqoqq.jpg)](https://javascriptweekly.com/link/102298/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [TOAST UI Chart 4.0 Released](https://javascriptweekly.com/link/102298/web "ui.toast.com") — A MIT licensed chart library equally suited for vanilla JavaScript, Vue or React use cases. It’s responsive, easy to theme, and now dependency free meaning it clocks in at just 67KB gzipped. It now supports _live updating_ of charts across several chart types too. Want demos? [Here’s lots of demos](https://javascriptweekly.com/link/102299/web) and the [GitHub repo](https://javascriptweekly.com/link/102300/web).
 
 [`undefined` vs. `null` Revisited](./undefined_vs_null.md "2ality.com") — Most languages include a concept of a ‘non-value’ (often called `null` or `nil`) but JavaScript has _two_ in the form of `undefined` and `null`. Dr. Axel analyzes their differences and where and why they’re used.
@@ -95,6 +95,6 @@ supported by [![Okta](https://res.cloudinary.com/cpress/image/upload/v1602154330
 
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/102249/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

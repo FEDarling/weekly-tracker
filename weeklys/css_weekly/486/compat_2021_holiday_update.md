@@ -8,6 +8,8 @@ tags: ['CSS','JavaScript','HTML','TypeScript','ECMAScript','Chrome','游览器',
 publish: false
 ---
 
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

@@ -10,7 +10,8 @@ publish: true
 
 
 我的岳父很喜欢 Olive Garden 这家店，疫情过后这家店也成了点外卖的首选。拿起 iPad ，挑选，加入购物车，下单....一切都很顺利，直到我开始结帐：
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![123](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220110160813.gif)
 
 *点不到啊！*

@@ -6,7 +6,8 @@ publish: true
 ---
 
 [The CSS :has() Selector Is Way More Than a “Parent Selector”](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [![The CSS :has() Selector Is Way More Than a “Parent Selector”](https://css-weekly.com/wp-content/uploads/2021/12/the-css-has-selector-is-way-more-than-a-parent-selector.jpg)](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
 Bramus Van Damme gives an introduction to :has() selector, already available in Safari Technology Preview 137.

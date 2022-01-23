@@ -8,6 +8,9 @@ tags: ['CSS','JavaScript','HTML','TypeScript','ECMAScript','Chrome','游览器',
 publish: false
 ---
 
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
+
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读

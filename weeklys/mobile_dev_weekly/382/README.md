@@ -8,7 +8,8 @@ publish: true
 ## 📱 Mobile Dev Weekly
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1639741201/anowj94yonweztcrenmn.png)](https://mobiledevweekly.com/link/117723/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![](https://cooperpress.s3.amazonaws.com/chrisbrandrick.png)Chris Brandrick recommends
 
 [Announcing Jetpack Glance Alpha for App Widgets](https://mobiledevweekly.com/link/117723/web) — Android 12 revamped App Widgets, and now [this first alpha of Jetpack Glance](https://mobiledevweekly.com/link/117724/web) is aiming to make building them easier. It’s a new framework built on top of the Jetpack Compose runtime designed to make it faster/simpler to build app widgets for the home screen and other surfaces.
@@ -59,6 +60,6 @@ publish: true
 
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

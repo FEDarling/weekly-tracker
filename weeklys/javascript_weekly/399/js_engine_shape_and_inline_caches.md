@@ -10,7 +10,8 @@ publish: true
 
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## JavaScript 引擎管道
  JavaScript 代码在运行时候， JavaScript 引擎会解析源代码并将其转换为抽象语法树 (AST)。基于该 AST，解释器会执行自己的任务并生成字节码。WOW！引擎这时候实际上正在执行着你写的 JavaScript 代码。
 

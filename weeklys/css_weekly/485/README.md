@@ -8,7 +8,8 @@ publish: true
 [Breaking Out of the Box](https://alistapart.com/article/breaking-out-of-the-box/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
 
 [![Breaking Out of the Box](https://css-weekly.com/wp-content/uploads/2021/12/breaking-out-of-the-box.jpg)](https://alistapart.com/article/breaking-out-of-the-box/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 Patrick Brosset explains how Window Controls Overlay for Progressive Web Apps (PWAs) makes it possible to take advantage of the full surface area of the app, including where the title bar appears typically.
 
 [用 CSS 相对颜色操作动态颜色](./dynamic_color_manipulation_with_css_relative_colors.md)

@@ -5,12 +5,13 @@ categories: ["JavaScript Weekly"]
 publish: true
 ---
 
-The Best of JavaScript Weekly in 2021
+## The Best of JavaScript Weekly in 2021
 
 This is the last issue of the year (we're back on January 7, 2022) so we're taking a look back at some of the most popular items of 2021, starting with top links overall before moving on to top libraries, tools, videos, and more. You'll also find a quick month by month rundown in this issue, so there's sure to be something that'll catch your attention :-)  
 \_\_\_\_  
 _Peter Cooper, your editor_
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qibevt2smrj4qldfqbed.jpg)
 
 1.  [ES2021: Here's the Features (Quickly)](https://javascriptweekly.com/link/117997/web "h3manth.com") — Back in June of this year, the Ecma General Assembly [approved ES2021](https://javascriptweekly.com/link/117998/web). Work continues with [ECMAScript 2022 already having a draft spec](https://javascriptweekly.com/link/117999/web). But this post flying through what's new in ES2021 (not a lot!) was _by far_ our most popular link of the year, amazingly. Dr. Axel Rauschmayer also had a popular post [rounding up ES2021](https://javascriptweekly.com/link/118000/web).
@@ -106,6 +107,6 @@ _Peter Cooper, your editor_
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/117985/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

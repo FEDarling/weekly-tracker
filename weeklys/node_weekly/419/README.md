@@ -12,7 +12,8 @@ publish: true
 This is the last issue of the year (we're back on January 13 as we're taking a two week break) so we're taking a look back at some of the most popular links that we've shared throughout 2021. There's bound to be a few that escaped your attention at the time :-)  
 \_\_\_\_  
 _Peter Cooper, your editor_
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 1: [Ask HN: Why is Node.js 'Hated' So Much?](https://nodeweekly.com/link/117820/web "news.ycombinator.com") — Ok, this one _clearly_ caught your attention. We shared this Hacker News discussion [back in October](https://nodeweekly.com/link/117821/web) and there's plenty of comments to look over here – many fair, some not. We said at the time that it's best to remain philosophical on things like this and remember C++’s creator who said: _“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”_
 
 2: [Guidelines for Choosing a Node.js Framework](https://nodeweekly.com/link/117822/web "simonplend.com") — Hapi? Koa? Express? Slow down. Unlike a lot of articles, this one from late September doesn’t give you _any_ specific framework suggestions, but instead arms you with what you should be looking at when weighing up your options.
@@ -61,5 +62,5 @@ _Peter Cooper, your editor_
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nodeweekly.com/link/117819/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：

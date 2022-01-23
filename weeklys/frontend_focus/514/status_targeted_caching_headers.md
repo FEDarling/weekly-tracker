@@ -13,7 +13,8 @@ publish: true
 幸好，互联网工程任务组 (IETF) 的 HTTP 工作组正致力于定义新的 HTTP 标准以优化CDN 或者其他缓存服务。为了发布两个新的 HTTP 标头草案标准，最近的工作量特别大。他们的目的在于使调试缓存更容易，并提供对缓存配置的更多控制。
 
 让我们看看新的 HTTP 标准意味着什么？它是如何运作的？以及为什么每个web开发者都得关注它呢？
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 标准
 我们接下来要讨论的是以下两个拟议标准:
 - [The Cache-Status Header](https://datatracker.ietf.org/doc/draft-ietf-httpbis-targeted-cache-control/)

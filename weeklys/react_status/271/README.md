@@ -8,7 +8,8 @@ publish: true
 🗓 We're back and ready for another fantastic year for React (though we're going to take a quick look back at React Conf 2021 first). React 18 is only just around the corner, too – exciting times!  
 \_\_  
 _Peter Cooper and Terence Gannon — your editors_
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## React Status
 
 ⚛️ Your weekly React news digest, _every Wednesday_.
@@ -75,6 +76,6 @@ _Peter Cooper and Terence Gannon — your editors_
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://react.statuscode.com/link/118281/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

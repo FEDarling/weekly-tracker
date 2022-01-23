@@ -6,7 +6,8 @@ publish: true
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chakx4rmc7iv0d3wob8d.jpg)](https://javascriptweekly.com/link/113306/web)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [Visual Studio Code August 2021 Released](https://javascriptweekly.com/link/113306/web "code.visualstudio.com") — It always feels odd linking to these as they name releases for the _prior_ month, but new features include automatic language detection, built-in bracket colorization (enabled via `editor.bracketPairColorization.enabled`), improved terminal glyph rendering, inline hints for JS/TS param names and types, and improved debug stepping in async functions and Node.js internals.
 
 [A Look at an ES2022 Feature: Class Static Initialization Blocks](https://javascriptweekly.com/link/113307/web "2ality.com") — You might not be blamed for [thinking JavaScript is going a bit Java-y](https://javascriptweekly.com/link/113308/web) here but, nonetheless, this proposal is at stage 4 and scheduled to be included in ES2022.
@@ -89,6 +90,6 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？[提交 PR]()
 > * 译者：
 > * 校对者：

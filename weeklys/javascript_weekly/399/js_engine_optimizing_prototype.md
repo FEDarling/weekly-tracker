@@ -9,7 +9,8 @@ publish: true
 ---
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 **如果你没有看[之前的文章：JavaScript引擎基础(上)：形态和内联缓存](https://github.com/FEDarling/fe-translate-weekly/blob/master/JavaScript_Weekly/399/js_engine_shape_and_inline_caches.md)，请务必看下，本篇有很多相关名词在前文都有介绍。**
 
 之前的文章，我们讨论了 JavaScript 引擎如何通过使用 **Shape** 和 **内联缓存** 来优化对象和数组访问。本文来说一下如何优化 管道(pipeline) 的权衡，并会讲述引擎如何加快对原型属性的访问。

@@ -8,12 +8,11 @@ tags: ['JavaScript']
 publish: true
 ---
 
-## Array.flatMap一个灵活好用的Map方法
-
 `Array.map()`是我们日常开发过程中经常使用到的一个映射函数，它需要一个映射函数作为入参并随之根据入参生成一个新的函数。
 
 在es2019之后，出现了一个新的方法——`Array.flatMap`。它完全可以替代`Array.map`，因为它不仅能完成映射，还可以在生成新数组时删除或者添加你需要的元素。但是使用时要注意兼容性，下面附上在[CanIUse](https://caniuse.com/?search=Array.flatmap)上，`Array.flatMap`的兼容情况。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4728f70ab9c44ed6aa77b2ab1513fabd~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 灵活的映射方法

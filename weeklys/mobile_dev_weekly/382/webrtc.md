@@ -9,7 +9,8 @@ publish: true
 ---
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220112171045.png)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 前言
 
 如果你对 **WebRTC** 这个概念有疑惑，你大可能会去谷歌上查相关资料，然后你会看到类似这样的句子：
