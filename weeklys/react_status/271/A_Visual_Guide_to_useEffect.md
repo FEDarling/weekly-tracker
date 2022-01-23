@@ -5,11 +5,6 @@ tags:
  - React Status
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://alexsidorenko.com/blog/useeffect/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/271/A_Visual_Guide_to_useEffect.md)
-> * 译者：[LilyChenlin](https://github.com/LilyChenlin)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 当你尝试直接从 React 中的功能组件的主体中获取数据时会发生的情况👇
 
@@ -62,6 +57,10 @@ publish: true
 
 ![props-2](https://cdn.jsdelivr.net/gh/LilyChenlin/-imageStore/React%20Status//props-2.gif)
 
-## 相关链接
+---
 
-[原文链接](https://alexsidorenko.com/blog/useeffect/)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://alexsidorenko.com/blog/useeffect/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/271/A_Visual_Guide_to_useEffect.md)
+> * 译者：[LilyChenlin](https://github.com/LilyChenlin)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

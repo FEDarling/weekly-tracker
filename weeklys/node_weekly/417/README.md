@@ -4,11 +4,6 @@ date: '2021-12-09'
 categories: ["Node Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/link/117312/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f2jffhszv9r1n44wzxx8.jpg)](https://nodeweekly.com/link/117313/web)
 
@@ -65,3 +60,10 @@ Adam Berg
 [Multer: Middleware to Handle `multipart/form-data` Submissions](https://nodeweekly.com/link/117338/web)  
 
 [Zod: TypeScript-First Schema Validation with Static Type Inference](https://nodeweekly.com/link/117339/web)  
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://nodeweekly.com/link/117312/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

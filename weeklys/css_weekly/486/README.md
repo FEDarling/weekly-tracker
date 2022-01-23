@@ -4,11 +4,7 @@ date: '2021-12-22'
 categories: ["CSS Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-486/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
-> * 译者：
-> * 校对者：
+
 
 [The CSS :has() Selector Is Way More Than a “Parent Selector”](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
@@ -63,3 +59,11 @@ A convenient JavaScript snippet that lets you create beautiful buttons that allo
 [![Lynn Fisher's Portfolio](https://css-weekly.com/wp-content/uploads/2021/12/lynnandtonic.png)](https://lynnandtonic.com/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
 Lynn Fisher redesigned her portfolio again. As always, her work is impressive, inspiring, and mind-bending. (Hint. Resize the browser to see the magic.)
+
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://css-weekly.com/issue-486/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
+> * 译者：
+> * 校对者：

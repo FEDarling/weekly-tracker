@@ -5,11 +5,6 @@ tags:
  - JavaScript Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mathiasbynens.be/notes/prototypes)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_optimizing_prototype.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
 
@@ -370,6 +365,9 @@ delete Object.prototype.foo;
 ## 最后
 我们已经了解了 JavaScript 引擎如何存储对象和类，以及 Shapes、Inline Caches 和 ValidityCells 如何帮助优化原型操作。基于这些知识，我们确定了一个实用的 JavaScript 编码技巧，可以帮助提高性能：不要弄乱原型（或者如果你真的非常需要，那么至少在其他代码运行之前这样做）。
 
-## 相关资料
-
-[JavaScript engine fundamentals: optimizing prototypes](https://mathiasbynens.be/notes/prototypes)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://mathiasbynens.be/notes/prototypes)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_optimizing_prototype.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

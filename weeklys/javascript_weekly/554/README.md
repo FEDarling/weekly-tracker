@@ -4,11 +4,6 @@ date: '2021-09-03'
 categories: ["JavaScript Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chakx4rmc7iv0d3wob8d.jpg)](https://javascriptweekly.com/link/113306/web)
 
@@ -91,3 +86,9 @@ publish: true
 [Mafs: React Components for Math Visualization](https://javascriptweekly.com/link/113339/web "mafs.dev") — A well thought out set of sophisticated mathematics visualizations. It is supported with a nicely executed just-what-you-need-to-know [set of guides](https://javascriptweekly.com/link/113340/web) including one which will allow you to plan your own [suborbital spaceflight](https://javascriptweekly.com/link/113341/web).
 
 [bundle: A Quick npm Package Size Checker](https://javascriptweekly.com/link/113342/web "bundle.js.org") — Enter a package name, then hit the “run” button and this tool will give you the minified, bundled, and gzipped size of the package.
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

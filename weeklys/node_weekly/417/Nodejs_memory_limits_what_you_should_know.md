@@ -5,11 +5,6 @@ tags:
  - Node Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/Nodejs_memory_limits_what_you_should_know.md)
-> * 译者：[oil-oil](https://github.com/oil-oil)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 在本篇文章中，我将探索一下Node中的堆内存分配，然后试试看把内存提高到硬件能承受的极限。然后我们将找到一些实用的方法来监控 Node 的进程以调试内存相关问题。
 
@@ -249,6 +244,9 @@ memwatch.on("leak", function (info) {
 
 
 希望你喜欢这篇关于内存限制和诊断内存泄漏的快速介绍。
-
-## 相关链接
-[原文链接](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/Nodejs_memory_limits_what_you_should_know.md)
+> * 译者：[oil-oil](https://github.com/oil-oil)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

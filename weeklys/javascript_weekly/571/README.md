@@ -3,11 +3,6 @@ title: 'JavaScript Weekly #571'
 date: '2022-01-07'
 categories: ['JavaScript Weekly']
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/README.md)
-> * 译者：
-> * 校对者：
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/okp6c8oqh1hp0wwnsggz.jpg)](https://javascriptweekly.com/link/118206/web)
 
@@ -92,3 +87,10 @@ Casey Primozic
 [PrinceJS: The _Prince of Persia_ in the Browser](https://javascriptweekly.com/link/118247/web "princejs.com") — The Prince of Persia is a game I first saw in the early 90s and despite the limited graphics of the time, the mood of the game and the fluidity of the motion of the main character impressed me a lot. Now it’s on the Web. And I’m still terrible at it. [Here's the JS source.](https://javascriptweekly.com/link/118249/web)  
   
 As an aside, Jordan Mechner (the creator of Prince of Persia) wrote a fantastic [book about the creation of the game](https://javascriptweekly.com/link/118248/web) that I hugely enjoyed a few years ago. It's well worth a read if the diaries of a game developer sound at all interesting to you.
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/README.md)
+> * 译者：
+> * 校对者：

@@ -4,12 +4,6 @@ date: '2021-10-27'
 categories: ["Frontend Focus"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
-
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635261725/et7pugwcsesu5b5xt3hr.jpg)](https://frontendfoc.us/link/115404/web)
 
 [A Deep Dive into `object-fit` and `background‑size` in CSS](https://frontendfoc.us/link/115404/web "www.smashingmagazine.com") — Goes through just how `object-fit` and `background-size` work, when to use them, and why, along with some practical use cases and recommendations.
@@ -88,3 +82,10 @@ Want to give it a try?
 *   Matt Biilmann of Netlify [discusses some key concepts that will impact the future of Jamstack](https://frontendfoc.us/link/115422/web) with folks like Evan You, Rich Harris and more - from the recent Jamstack Conf.
 *   It's often assumed that Jamstack or a serverless architecture are basically one and the same. [This post from Colby Fayock](https://frontendfoc.us/link/115423/web) breaks down the difference and shows how both can be combined.
 *   Raymond Camden looks at [the upgrade experience for Eleventy 1.0](https://frontendfoc.us/link/115424/web) (still in beta).
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

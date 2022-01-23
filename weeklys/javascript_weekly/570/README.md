@@ -4,11 +4,6 @@ date: '2021-12-24'
 categories: ["JavaScript Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/117985/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
 
 The Best of JavaScript Weekly in 2021
 
@@ -107,3 +102,10 @@ _Peter Cooper, your editor_
 Phew, that was a lot of ground to re-cover, but hopefully it's resurfaced some things you missed at the time :-) Many thanks for reading JavaScript Weekly this year. From all of us here at Cooperpress, season's greetings to you, however you celebrate (or not!) 😄  
 \_\_  
 _Peter Cooper, your editor_
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/link/117985/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

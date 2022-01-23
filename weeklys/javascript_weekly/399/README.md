@@ -4,11 +4,6 @@ date: '2018-08-17'
 categories: ["JavaScript Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
 
 A blast from the past this week as we take some time out to ask Dr. Axel Rauschmayer, a former editor of _JavaScript Weekly_, some questions on the release of his new book, _[JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web)_. You can find that further down in this issue :-)  
 _— Peter Cooper, editor_
@@ -105,3 +100,10 @@ Dr. Axel Rauschmayer is the author of [JavaScript for Impatient Programmers](htt
 *   [Framework Summit 2018 (Oct 2-3 in Park City, UT)](https://javascriptweekly.com/link/51532/web) — A new 2 day conference focused on all front end frameworks with keynotes from the teams of the most popular ones.
 *   [JS Interactive (Oct 10-12 in Vancouver, Canada)](https://javascriptweekly.com/link/51533/web) — One of the largest JavaScript events. Organized by the Linux Foundation.
 *   [JSMobileConf (Oct 25-26 in Boston, MA)](https://javascriptweekly.com/link/51534/web) — An impressive roster of speakers for this event with a focus on mobile and IoT.
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

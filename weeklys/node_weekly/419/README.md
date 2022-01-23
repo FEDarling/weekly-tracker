@@ -4,10 +4,6 @@ date: '2021-12-23'
 categories: ["Node Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/link/117819/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1639490464/fnwgemhn7zfenyjq6jg8.png)
 
@@ -61,3 +57,9 @@ Simon Plenderleith
 We're taking a couple of weeks off for Christmas and the New Year, so **we'll be back with you on January 13, 2022.** Many thanks for reading Node Weekly this year. From all of us here at Cooperpress, season's greetings to you, however you celebrate (or not!) 😄  
 \_\_  
 _Peter Cooper, your editor_
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://nodeweekly.com/link/117819/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：

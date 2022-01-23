@@ -5,11 +5,6 @@ tags:
  - Mobile Dev Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在Twitter发起了一次关于此项的投票
 
@@ -551,5 +546,9 @@ CSS新特性 容器查询现在在Chrome下可用了。有了他们，我们可�
 
 就像我展示的这样，现代CSS支持我们不通过媒体查询的方式制作响应式布局。那么问题来了，我们还需要考虑移动先行还是桌面先行的问题吗？
 
-## 相关链接
-[The State Of Mobile First and Desktop First - AHMAD SHADEED](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

@@ -4,13 +4,6 @@ date: '2021-12-17'
 categories: ["Mobile Dev Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
-
-
 
 ## 📱 Mobile Dev Weekly
 
@@ -63,3 +56,9 @@ publish: true
 [30 Tips to Make You A Better iOS Developer](https://mobiledevweekly.com/link/117737/web)  
 
 [How to Choose Between React Native and Flutter When Building A Mobile App](https://mobiledevweekly.com/link/117738/web)  
+
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

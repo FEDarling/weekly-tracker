@@ -4,11 +4,6 @@ date: '2021-12-15'
 categories: ["CSS Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-485/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
-> * 译者：
-> * 校对者：
 
 [Breaking Out of the Box](https://alistapart.com/article/breaking-out-of-the-box/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
 
@@ -62,3 +57,9 @@ ffflux is an online SVG generator for fluid gradient backgrounds that lets you e
 [![3D CSpaceShip - GSAP](https://css-weekly.com/wp-content/uploads/2021/12/3d-cspaceship-gsap.jpg)](https://codepen.io/ricardoolivaalonso/pen/poWbBdK?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
 
 Ricardo Oliva Alonso created a stunning 3d animated spaceship using CSS and GSAP.
+
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://css-weekly.com/issue-485/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
+> * 译者：
+> * 校对者：

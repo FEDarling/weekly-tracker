@@ -4,11 +4,6 @@ date: '2022-01-12'
 categories: ['React Status']
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://react.statuscode.com/link/118281/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
 
 🗓 We're back and ready for another fantastic year for React (though we're going to take a quick look back at React Conf 2021 first). React 18 is only just around the corner, too – exciting times!  
 \_\_  
@@ -76,3 +71,10 @@ _Peter Cooper and Terence Gannon — your editors_
 ## 🥦 And on a health kick..
 
 [Calories-In: A New Year, A New You?](https://react.statuscode.com/link/118328/web "github.com") — The perennial polesitter of New Year’s resolutions is losing weight or improving health in some way — often achieved by eating better. What better way to welcome in 2022, therefore, than a React powered meal planner..! Submitted by a React Status reader, you can check out a [live version](https://react.statuscode.com/link/118329/web) or watch a [video demo](https://react.statuscode.com/link/118330/web).
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://react.statuscode.com/link/118281/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

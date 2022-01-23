@@ -4,11 +4,7 @@ date: '2021-01-29'
 categories: ["JavaScript Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/102249/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
+
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cgoje1baa4qsijrqqoqq.jpg)](https://javascriptweekly.com/link/102298/web)
 
@@ -94,3 +90,11 @@ supported by [![Okta](https://res.cloudinary.com/cpress/image/upload/v1602154330
 *   [GitHub.js 3.4](https://javascriptweekly.com/link/102296/web) — High level GitHub API wrapper for the browser.
 *   [npm 7.5.0](https://javascriptweekly.com/link/102297/web)
 *   [billboard.js 2.2.0](https://javascriptweekly.com/link/102304/web) — Chart library based on D3.js.
+
+---
+
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/link/102249/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

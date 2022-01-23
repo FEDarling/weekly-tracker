@@ -5,11 +5,6 @@ tags:
  - JavaScript Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/ternary.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ## 前言
 
@@ -196,3 +191,10 @@ const yAxisRange = !rangeEmpty ? roundRange() : defaultRng();
 ```
 
 不过说实话，太多的三元嵌套的我更建议使用 `switch-case`
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/ternary.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

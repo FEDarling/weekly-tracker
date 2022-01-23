@@ -5,11 +5,6 @@ tags:
  - Node Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/419/Nodejs_Framework_Selection_Guide.md)
-> * 译者：[oil-oil](https://github.com/oil-oil)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 我经常在社交媒体或者评论区看到有人问：”什么是最好的node.js框架“，得到的回答往往都非常主观， 一些开发者甚至还会为此争论不休。如果你正在为你的项目找一个合适的node.js框架。那这些回答基本对你没啥帮助。
 
@@ -88,7 +83,10 @@ GitHub 上star通常被引用为受欢迎程度的指标，但我认为将它们
 事实证明，在选择 Node.js 框架时确实需要考虑很多事情。然而，在评估框架时，你可能要问自己最后一件事：你觉得你会喜欢用它开发项目吗？就我个人而言，如果我不喜欢使用这个框架，那么每次我需要使用它都会成为一件苦差事。最佳的选择是一个满足你的要求并且你喜欢使用的框架。
 选择 Node.js 框架可能会很棘手，但希望我分享的指南将帮助你完善你的框架选择清单。祝愿你能为你的项目选择一个“最佳的”框架！
 
-## 相关资料
+---
 
-[Guidelines for choosing a Node.js framework](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)
-
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/419/Nodejs_Framework_Selection_Guide.md)
+> * 译者：[oil-oil](https://github.com/oil-oil)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

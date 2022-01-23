@@ -5,11 +5,6 @@ tags:
  - JavaScript Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://dmitripavlutin.com/javascript-array-flatmap/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/flatMap.md)
-> * 译者：[HongyuYU](https://github.com/chressYu)
-> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)
 
 ## Array.flatMap一个灵活好用的Map方法
 
@@ -132,6 +127,10 @@ console.log(trippled);
 `array.flatMap`方法的回调函数有3个参数，分别为当前元素，下标以及原数组。从回调函数返回的数组将是被扁平化的数组，生成的元素也会被插入到该数组中。
 
 请注意，如果你只想将单个项目映射到单个新值，那么请尽量使用标准 array.map ()。
-### 相关链接
+---
 
-[⛱ 原文地址](https://dmitripavlutin.com/javascript-array-flatmap/)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://dmitripavlutin.com/javascript-array-flatmap/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/flatMap.md)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)

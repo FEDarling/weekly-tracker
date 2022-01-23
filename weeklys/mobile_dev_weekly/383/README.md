@@ -4,11 +4,7 @@ date: '2021-12-24'
 categories: ["Mobile Dev Weekly"]
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
+
 
 ## 📱 Mobile Dev Weekly
 
@@ -75,3 +71,10 @@ Mobile as a very broad platform, both native and web, is more critical than ever
 ![Brian Rinaldi](https://res.cloudinary.com/cpress/image/upload/v1588238014/z8mlji6ak1lum6l9pwu1.jpg)
 
 — [Brian Rinaldi](https://mobiledevweekly.com/link/117946/web)
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：

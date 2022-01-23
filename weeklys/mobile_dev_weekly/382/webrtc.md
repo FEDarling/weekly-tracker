@@ -5,11 +5,6 @@ tags:
  - Mobile Dev Weekly
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/webrtc.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220112171045.png)
 
@@ -105,6 +100,10 @@ WebRTC 负责媒体信道中的数据传输，它会让应用程序去处理信�
 
 到此为止，我们对 WebRTC 有了一个简单的认识，在后面的文章里，将会详细的介绍 WebRTC 相关内容，敬请期待！
 
-## 相关资料
+---
 
-[WebRTC in a Nutshell (Ep-I)](https://medium.com/orion-innovation-turkey/webrtc-crash-course-episode-i-1783809bba87)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/webrtc.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
