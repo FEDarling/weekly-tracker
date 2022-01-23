@@ -1,5 +1,5 @@
 ---
-title: 现代web缓存中新的Http标准
+title: 现代 web 缓存中新的 Http 标准
 date: '2021-10-27'
 tags:
  - Frontend Focus
@@ -10,8 +10,6 @@ publish: true
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/status_targeted_caching_headers.md)
 > * 译者：[一绪](http://github.com/myx981008)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
-
-# 现代web缓存中新的HTTP标准
 
 如果你在现代 Web 中运行过任何大型的公共网站或 Web 应用，那么应该了解在 CDN 或者其他缓存服务中缓存你的静态内容是非常重要的。但同时它也非常复杂且令人困惑。
 
@@ -214,10 +212,3 @@ Cache-Control: no-store
 IETF 最近只在制定两个 HTTP 标准 - 如果你有兴趣帮助 Web 开发或了解即将推出的标准，还有很多其他标准。从限速标头到 **Proxy-Status**，再到 **HTTP消息摘要** 和 **HTTP客户端提示** 应有尽有。HTTP 是一个不断发展的标准，未来还会有更多！如果你对此感兴趣，我强烈建议你加入工作组邮件列表，以关注新的发展并分享你的反馈。
 
 想要测试或调试 HTTP 请求、缓存和错误？可以使用 [HTTP Toolkit](https://httptoolkit.tech/) 从任意位置拦截、检查和模拟 HTTP(S) 。
-
-## 相关链接 
-
-[原文链接](https://httptoolkit.tech/blog/status-targeted-caching-headers/)
-
-
-
