@@ -7,7 +7,7 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.jim-nielsen.com/2021/css-relative-colors/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/dynamic_color_manipulation_with_css_relative_colors.md)
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/dynamic_color_manipulation_with_css_relative_colors.md)
 > * 译者：[自然卷](https://github.com/H-Lbread)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
 

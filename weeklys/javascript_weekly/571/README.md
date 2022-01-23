@@ -5,7 +5,7 @@ categories: ['JavaScript Weekly']
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/README.md)
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/README.md)
 > * 译者：
 > * 校对者：
 

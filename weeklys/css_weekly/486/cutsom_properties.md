@@ -7,7 +7,7 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/cutsom_properties.md)
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/cutsom_properties.md)
 > * 译者：[一绪](http://github.com/myx981008)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
 
