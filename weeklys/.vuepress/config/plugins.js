@@ -34,7 +34,7 @@ module.exports = [
       },
       {
         type: 'text',
-        content: `⛱ 目前已有 Mobile Dev Weekly、Frontend Focus、JavaScript Weekly、React Status、Node Weekly 和 CSS Weekly 周刊，大家一起来读吧！🥳`,
+        content: `⛱ 目前已有 Mobile Dev Weekly、Frontend Focus、JavaScript Weekly、React Status、Node Weekly 和 CSS Weekly 周刊，欢迎大家阅览，也期待你的加入！🥳`,
         style: 'font-size: 12px;'
       },
     ],

@@ -4,7 +4,7 @@ date: '2022-01-05'
 categories:
  - Frontend Focus
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://frontendfoc.us/link/118057/web)对比阅读
 > * 译文已备份[永不失联]()
 > * 译者：

@@ -20,7 +20,7 @@ module.exports = {
     lastUpdated: '最后更新时间',
     nextLinks: true,
     prevLinks: true,
-    docsRepo: 'FEDarling/fe-translate-weekly',
+    docsRepo: 'FEDarling/weekly-tracker',
     docsBranch: 'maintain',
     docsDir: 'weeklys',
     editLinks: true,

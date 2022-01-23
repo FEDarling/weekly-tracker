@@ -4,7 +4,7 @@ date: '2021-12-17'
 tags:
  - Mobile Dev Weekly
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文]()对比阅读
 > * 译文已备份[永不失联](https://medium.com/orion-innovation-turkey/webrtc-crash-course-episode-i-1783809bba87)
 > * 译者：

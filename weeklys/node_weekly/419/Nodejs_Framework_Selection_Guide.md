@@ -4,7 +4,7 @@ date: '2021-12-23'
 tags:
  - Node Weekly
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入，一起阅读周刊！
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
 > * 译文已备份[永不失联]()
 > * 译者：
