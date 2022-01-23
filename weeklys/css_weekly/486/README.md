@@ -65,18 +65,3 @@ Elaina Natario examines the underlying reasons of why we undervalue front-end ex
 SVGcode is a Progressive Web App for converting raster images such as JPG, PNG, GIF, WebP, and AVIF to vector graphics in SVG format.
 
 [Check it out](https://web.dev/svgcode/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
-
-### Add-to-Calendar Button
-
-A convenient JavaScript snippet that lets you create beautiful buttons that allow people to add events to their calendars.
-
-[Check it out](https://jekuer.github.io/add-to-calendar-button/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
-
-## Inspiration
-### Lynn Fisher's Portfolio
-
-### [![Lynn Fisher 的作品集](https://css-weekly.com/wp-content/uploads/2021/12/lynnandtonic.png)](https://lynnandtonic.com/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
-
-Lynn Fisher redesigned her portfolio again. As always, her work is impressive, inspiring, and mind-bending. (Hint. Resize the browser to see the magic.)
-
-[Get inspired](https://lynnandtonic.com/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
