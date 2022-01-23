@@ -1,7 +1,7 @@
 ---
 title: 'Smoothly Reverting CSS Animations'
 date: '2022-01-23'
-categories:
+tags:
  - CSS Weekly
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

@@ -8,7 +8,7 @@ const base = './weeklys'
 const head =`---
 title: '${weeklyName} #${weeklyNum}'
 date: '${getNowFormatDate()}'
-categories: ${weeklyName}
+categories: ['${weeklyName}']
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文]()对比阅读
