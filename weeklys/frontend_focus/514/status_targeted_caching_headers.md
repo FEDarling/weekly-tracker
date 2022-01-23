@@ -1,23 +1,20 @@
 ---
-title: 现代web缓存中新的Http标准
+title: 现代 web 缓存中新的 Http 标准
 date: '2021-10-27'
-tags:
- - Frontend Focus
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['网络','HTTP']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://httptoolkit.tech/blog/status-targeted-caching-headers/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/status_targeted_caching_headers.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
-
-# 现代web缓存中新的HTTP标准
 
 如果你在现代 Web 中运行过任何大型的公共网站或 Web 应用，那么应该了解在 CDN 或者其他缓存服务中缓存你的静态内容是非常重要的。但同时它也非常复杂且令人困惑。
 
 幸好，互联网工程任务组 (IETF) 的 HTTP 工作组正致力于定义新的 HTTP 标准以优化CDN 或者其他缓存服务。为了发布两个新的 HTTP 标头草案标准，最近的工作量特别大。他们的目的在于使调试缓存更容易，并提供对缓存配置的更多控制。
 
 让我们看看新的 HTTP 标准意味着什么？它是如何运作的？以及为什么每个web开发者都得关注它呢？
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 标准
 我们接下来要讨论的是以下两个拟议标准:
 - [The Cache-Status Header](https://datatracker.ietf.org/doc/draft-ietf-httpbis-targeted-cache-control/)
@@ -214,9 +211,9 @@ IETF 最近只在制定两个 HTTP 标准 - 如果你有兴趣帮助 Web 开发�
 
 想要测试或调试 HTTP 请求、缓存和错误？可以使用 [HTTP Toolkit](https://httptoolkit.tech/) 从任意位置拦截、检查和模拟 HTTP(S) 。
 
-## 相关链接 
-
-[原文链接](https://httptoolkit.tech/blog/status-targeted-caching-headers/)
-
-
-
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://httptoolkit.tech/blog/status-targeted-caching-headers/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/status_targeted_caching_headers.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

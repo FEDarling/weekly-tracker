@@ -1,19 +1,18 @@
 ---
 title: 你需要了解的 Node.js 内存限制
 date: '2021-12-09'
-tags:
- - Node Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['Node']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/Nodejs_memory_limits_what_you_should_know.md)
-> * 译者：[oil-oil](https://github.com/oil-oil)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 在本篇文章中，我将探索一下Node中的堆内存分配，然后试试看把内存提高到硬件能承受的极限。然后我们将找到一些实用的方法来监控 Node 的进程以调试内存相关问题。
 
 OK，准备完成就发车！
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 大家可以在仓库拉一下相关代码 [clone the code from my GitHub](https://github.com/beautifulcoder/node-memory-limitations).
 
 
@@ -248,6 +247,9 @@ memwatch.on("leak", function (info) {
 
 
 希望你喜欢这篇关于内存限制和诊断内存泄漏的快速介绍。
-
-## 相关链接
-[原文链接](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/Nodejs_memory_limits_what_you_should_know.md)
+> * 译者：[oil-oil](https://github.com/oil-oil)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

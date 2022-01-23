@@ -1,17 +1,17 @@
 ---
 title: null vs undefinded
 date: '2021-01-29'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['JavaScript']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://2ality.com/2021/01/undefined-null-revisited.html)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/523/undefined_VS_null.md)
-> * 译者：[chressYu](https://github.com/chressYu)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 多数编程语言都有一个“空值”的定义，为 null。它表示变量当前不指向对象——例如，当它尚未初始化时。
 与其他语言相比，JavaScript包含两个这样的空值：undefined 和 null。在这篇文章中，我们将会探讨他们之间的区别，以及如何去最好的使用或者避免使用他们。
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ### undefined vs. null
 这两个值是非常相似的，并且可以互换使用的。所以他们的区别是很微妙的。
    
@@ -429,5 +429,10 @@ assert.deepEqual(
 
 我们可以通过数组对“ just”和“nothing”进行编码。我们方法的好处是，它得到了TypeSript的良好支持。
 
-## 相关链接
-原文地址： [undefined vs. null revisited](https://2ality.com/2021/01/undefined-null-revisited.html)
+---
+
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://2ality.com/2021/01/undefined-null-revisited.html)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/523/undefined_VS_null.md)
+> * 译者：[chressYu](https://github.com/chressYu)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

@@ -1,17 +1,16 @@
 ---
 title: WebRTC简介
 date: '2021-12-17'
-tags:
- - Mobile Dev Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['Tool']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/webrtc.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220112171045.png)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 前言
 
 如果你对 **WebRTC** 这个概念有疑惑，你大可能会去谷歌上查相关资料，然后你会看到类似这样的句子：
@@ -104,6 +103,10 @@ WebRTC 负责媒体信道中的数据传输，它会让应用程序去处理信�
 
 到此为止，我们对 WebRTC 有了一个简单的认识，在后面的文章里，将会详细的介绍 WebRTC 相关内容，敬请期待！
 
-## 相关资料
+---
 
-[WebRTC in a Nutshell (Ep-I)](https://medium.com/orion-innovation-turkey/webrtc-crash-course-episode-i-1783809bba87)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/webrtc.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

@@ -1,18 +1,16 @@
 ---
 title: fuite监测web应用中内存泄漏的工具
 date: '2022-01-07'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['Tool']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/css_me_not.md)
-> * 译者：
-> * 校对者：
 
 在我们日常开发中，很少会去调试内存泄漏的问题，虽然是有工具可以实现调试的，但是它调试起来很复杂繁琐，通常也不会准确地告诉我们:我们的系统为什么会出现内存泄漏。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 在我的印象中，JavaScript是一个自带垃圾回收机制的语言，应该很少会出现内存泄漏的问题。但是当我第一次开始研究内存泄漏时，却发现它却成为了内存泄漏的主要来源。随着研究的深入，我发现在单页面应用程序(Single Page Apps，简称 spa)上是普遍存在内存泄漏问题的，只是很少有人对这些应用做测试。
 
 很少有web开发人员会注意到内存泄漏的问题，通常是因为他们发现自己的网站正在变慢，变卡甚至崩溃，或者偶然间在内存工具中发现页面占用了N兆(甚至N千兆)的内存时，才会考虑系统是否存在内存泄漏。不过当他们注意到这些问题的时候，系统出现内存泄露的点可能就不止一个了。
@@ -98,3 +96,9 @@ DOM size grew by 6 node(s) 
 [⛱  fuite GitHub](https://github.com/nolanlawson/fuite)
 
 [⛱  作者视频](https://youtu.be/H0BHL2lo89M)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/fuite.md)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)

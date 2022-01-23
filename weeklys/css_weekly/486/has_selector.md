@@ -1,17 +1,16 @@
 ---
 title: CSS中 :has() 选择器不仅仅是 “父选择器”
 date: '2021-12-22'
-tags:
- - CSS Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['CSS']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/has_selector.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 > Safari 技术预览版 137 刚刚发布，对 CSS :has() 提供未标记的支持。通常被称为“父选择器”的 :has() 远不止于此……
 
 ## CSS `:has()`?
@@ -71,6 +70,8 @@ h1:has(+ p) { … }
 - Blink/Chromium: [Issue #669058](https://bugs.chromium.org/p/chromium/issues/detail?id=669058) — 进行中
 - Gecko/Firefox: [Issue #418039](https://bugzilla.mozilla.org/show_bug.cgi?id=418039) — 进行中
 
-## 相关链接
-
-[The CSS `:has()` selector is way more than a “Parent Selector”](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/has_selector.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

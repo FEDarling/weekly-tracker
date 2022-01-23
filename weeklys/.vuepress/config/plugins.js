@@ -23,8 +23,9 @@ module.exports = [
     }
   ],
   ['@vuepress-reco/rss', {
-    site_url: '',
-    copyright: ''
+    site_url: 'https://weekly.fedarling.com/',
+    copyright: 'fedarling 2022',
+    count: 30
   }],
   ['@vuepress-reco/bulletin-popover', {
     body: [

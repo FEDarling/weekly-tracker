@@ -1,14 +1,12 @@
 ---
 title: CSS 自定义属性
 date: '2022-01-20'
-tags:
- - CSS Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['CSS']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/cutsom_properties.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ## 什么是CSS自定义属性？
 
@@ -18,7 +16,8 @@ CSS的自定义属性等同于JS中的`let`,它可以用来定义在样式中重
 
 可以在属性前面加两个破折号来实现自定义属性`--my-property`
 在使用CSS函数 `var()` 进行调用
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 下面的例子定义了一个`--color`的自定义属性
 并将其用于`color`的属性值
 
@@ -234,5 +233,10 @@ $font-sizes: (
   }
 }
 ```
-## 相关链接
-[CSS Custom Properties](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/cutsom_properties.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

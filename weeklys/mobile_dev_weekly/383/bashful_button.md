@@ -1,17 +1,17 @@
 ---
 title: 一个价值800万美元的娇羞按钮
 date: '2021-12-24'
-tags:
- - Mobile Dev Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['CSS']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/bashful_button.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
 
 我的岳父很喜欢 Olive Garden 这家店，疫情过后这家店也成了点外卖的首选。拿起 iPad ，挑选，加入购物车，下单....一切都很顺利，直到我开始结帐：
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![123](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220110160813.gif)
 
 *点不到啊！*
@@ -109,6 +109,9 @@ Olive Garden 归 Darden 餐厅所有，这是一家上市公司。Darden 旗下�
 
 如果修复该结账按钮，那么 Darden 的年收入可能将增加 810 万美元！
 
-## 相关资料
-
-[A Bashful Button Worth $8 Million](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/bashful_button.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
