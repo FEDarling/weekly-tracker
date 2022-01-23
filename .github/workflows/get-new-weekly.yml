@@ -1,7 +1,5 @@
 name: get new weekly
 on:
-  push: 
-    branches: ['update/tracker']
   schedule:
     - cron: '0 21 * * *'
 jobs: 
