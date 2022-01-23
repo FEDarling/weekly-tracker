@@ -13,7 +13,7 @@ module.exports = {
   themeConfig: {
     type: 'HomePageOne',
     mode: 'auto',
-    logo: '/logo.png',
+    logo: './images/team.png',
     startYear: 2022,
     noFoundPageByTencent: false,//关闭404
     codeTheme: 'tomorrow',
