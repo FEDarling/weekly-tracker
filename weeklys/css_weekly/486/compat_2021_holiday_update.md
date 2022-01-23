@@ -3,6 +3,7 @@ title: 'Compat 2021 Holiday Update: Presents for Developers Before the End of th
 date: '2022-01-23'
 tags:
  - CSS Weekly
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://web.dev/compat2021-holiday-update/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读

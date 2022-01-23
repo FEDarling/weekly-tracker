@@ -2,6 +2,7 @@
 title: 'Node Weekly #419'
 date: '2021-12-23'
 categories: ["Node Weekly"]
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nodeweekly.com/link/117819/web)对比阅读

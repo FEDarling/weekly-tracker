@@ -3,6 +3,7 @@ title: 前端性能优化[0]
 date: '2022-01-05'
 tags:
  - Frontend Focus
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180)对比阅读

@@ -3,6 +3,7 @@ title: '用CSS相对颜色操作动态颜色'
 date: '2021-12-15'
 tags:
  - CSS Weekly
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.jim-nielsen.com/2021/css-relative-colors/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)对比阅读

@@ -3,6 +3,7 @@ title: 一个价值800万美元的娇羞按钮
 date: '2021-12-24'
 tags:
  - Mobile Dev Weekly
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)对比阅读

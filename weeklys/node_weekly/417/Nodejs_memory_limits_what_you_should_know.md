@@ -3,6 +3,7 @@ title: 你需要了解的 Node.js 内存限制
 date: '2021-12-09'
 tags:
  - Node Weekly
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.appsignal.com/2021/12/08/nodejs-memory-limits-what-you-should-know.html)对比阅读

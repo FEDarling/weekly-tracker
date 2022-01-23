@@ -2,6 +2,7 @@
 title: 'JavaScript Weekly #554'
 date: '2021-09-03'
 categories: ["JavaScript Weekly"]
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读

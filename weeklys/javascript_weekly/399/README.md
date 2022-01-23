@@ -2,6 +2,7 @@
 title: 'JavaScript Weekly #399'
 date: '2018-08-17'
 categories: ["JavaScript Weekly"]
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读

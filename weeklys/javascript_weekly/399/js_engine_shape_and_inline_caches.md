@@ -3,6 +3,7 @@ title: JavaScript引擎基础(上)：形态和内联缓存
 date: '2018-08-17'
 tags:
  - JavaScript Weekly
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://mathiasbynens.be/notes/shapes-ics)对比阅读

@@ -2,6 +2,7 @@
 title: 'JavaScript Weekly #523'
 date: '2021-01-29'
 categories: ["JavaScript Weekly"]
+publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/102249/web)对比阅读
