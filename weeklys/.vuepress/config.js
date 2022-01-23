@@ -5,7 +5,11 @@ module.exports = {
   title: 'Weekly Tracker',
   description: "追踪国外最流行的周刊",
   theme: 'reco',
-  lang: 'zh-CN',
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
   markdown: {
     lineNumbers: true
   },
@@ -13,7 +17,7 @@ module.exports = {
   themeConfig: {
     type: 'HomePageOne',
     mode: 'auto',
-    logo: './images/team.png',
+    logo: './public/images/organization.png',
     startYear: 2022,
     noFoundPageByTencent: false,//关闭404
     codeTheme: 'tomorrow',
