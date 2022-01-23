@@ -6,9 +6,9 @@ tags:
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在Twitter发起了一次关于此项的投票
 
