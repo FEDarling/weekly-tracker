@@ -1,9 +1,14 @@
 ---
 title: 一个价值800万美元的娇羞按钮
-date: '2022-01-20 02:22:00'
+date: '2021-12-24'
 tags:
  - Mobile Dev Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 我的岳父很喜欢 Olive Garden 这家店，疫情过后这家店也成了点外卖的首选。拿起 iPad ，挑选，加入购物车，下单....一切都很顺利，直到我开始结帐：
 

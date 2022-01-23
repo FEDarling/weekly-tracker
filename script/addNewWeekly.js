@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 const fs = require('fs');
 // const options;
 let req;
-const base = './weeklys/weekly_collect'
+const base = './weeklys'
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
 	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
@@ -34,6 +34,10 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 			const html = $(className).html();
 
 			if (html != null) {
+				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
+                fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
+                    if (err) throw err;
+                  })
 				const turndownService = new TurndownService();
 				const markdown = turndownService.turndown(html);
 				const head =
@@ -43,9 +47,14 @@ date: '${getNowFormatDate()}'
 categories:
  - ${weeklyName}
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 `
-				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}.md`, head + markdown, 'utf8');
+				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown, 'utf8');
 				console.log(` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`);
 			} else {
 				console.log(` \x1B[32m🤪${weeklyName} 没有新内容\x1B[0m`);

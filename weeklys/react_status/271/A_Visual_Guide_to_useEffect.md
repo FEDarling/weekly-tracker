@@ -1,9 +1,14 @@
 ---
-title: useEffect视觉指南
-date: '2022-01-20 02:22:00'
+title: useEffect 视觉指南
+date: '2022-01-12'
 tags:
  - React Status
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://alexsidorenko.com/blog/useeffect/)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 当你尝试直接从 React 中的功能组件的主体中获取数据时会发生的情况👇
 

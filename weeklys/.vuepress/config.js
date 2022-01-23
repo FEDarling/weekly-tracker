@@ -2,8 +2,8 @@ const plugins = require('./config/plugins.js')
 const nav = require('./config/nav.js')
 const sidebar = require('./config/sidebar.js')
 module.exports = {
-  title: '周刊翻译计划',
-  description: "追踪国外最流行的前端周刊",
+  title: 'Weekly Tracker',
+  description: "追踪国外最流行的周刊",
   theme: 'reco',
   lang: 'zh-CN',
   markdown: {
@@ -20,7 +20,8 @@ module.exports = {
     lastUpdated: '最后更新时间',
     nextLinks: true,
     prevLinks: true,
-    docsRepo: 'FEDarling/fe-translate-weekly',
+    docsRepo: 'FEDarling/weekly-tracker',
+    docsBranch: 'maintain',
     docsDir: 'weeklys',
     editLinks: true,
     editLinkText: '发现错误？欢迎斧正',

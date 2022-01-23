@@ -1,9 +1,14 @@
 ---
 title: null vs undefinded
-date: '2022-01-20 02:22:00'
+date: '2021-01-29'
 tags:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://2ality.com/2021/01/undefined-null-revisited.html)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 多数编程语言都有一个“空值”的定义，为 null。它表示变量当前不指向对象——例如，当它尚未初始化时。
 与其他语言相比，JavaScript包含两个这样的空值：undefined 和 null。在这篇文章中，我们将会探讨他们之间的区别，以及如何去最好的使用或者避免使用他们。

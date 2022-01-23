@@ -1,9 +1,14 @@
 ---
 title: 比较 Svelte 和 React
-date: '2022-01-20 02:22:00'
+date: '2021-12-24'
 tags:
  - JavaScript Weekly
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://www.jackfranklin.co.uk/blog/comparing-svelte-and-react-javascript/)对比阅读
+> * 译文已备份[永不失联]()
+> * 译者：
+> * 校对者：
 
 ## 前言
 

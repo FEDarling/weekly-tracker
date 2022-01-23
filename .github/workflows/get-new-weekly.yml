@@ -1,6 +1,6 @@
 name: get new weekly
 on:
-  # push:
+  #push:
   schedule:
     - cron: '0 21 * * *'
 jobs: 
@@ -24,5 +24,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: maintain
+          branch: CI
+          force: true
     

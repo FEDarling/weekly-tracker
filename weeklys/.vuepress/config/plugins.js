@@ -30,11 +30,11 @@ module.exports = [
     body: [
       {
         type: 'title',
-        content: '周刊翻译计划启动啦！ 🎉🎉',
+        content: '周刊追踪计划启动啦！ 🎉🎉',
       },
       {
         type: 'text',
-        content: `⛱ 周刊翻译计划，目前涉及Mobile Dev Weekly、Frontend Focus、JavaScript Weekly、React Status、Node Weekly 和 CSS Weekly期刊，希望大家都可以有所收获！🥳`,
+        content: `⛱ 目前已有 Mobile Dev Weekly、Frontend Focus、JavaScript Weekly、React Status、Node Weekly 和 CSS Weekly 周刊，欢迎大家阅览，也期待你的加入！🥳`,
         style: 'font-size: 12px;'
       },
     ],
