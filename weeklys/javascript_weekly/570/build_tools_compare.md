@@ -6,9 +6,9 @@ tags:
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/build_tools_compare.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 在过去的一年里，一系列新的开发工具拔地而起，包括但不限于 webpack、Babel、Rollup、Parcel、create-react-app等，在前端开发配合这方面也很友好。这些新的工具目标和功能上各有千秋，每个工具都有不同的目标和功能，但都有一个共同的目标：提高开发人员的使用体验。
 

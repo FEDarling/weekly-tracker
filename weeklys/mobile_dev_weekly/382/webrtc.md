@@ -6,9 +6,9 @@ tags:
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文]()对比阅读
-> * 译文已备份[永不失联](https://medium.com/orion-innovation-turkey/webrtc-crash-course-episode-i-1783809bba87)
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/webrtc.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220112171045.png)
 

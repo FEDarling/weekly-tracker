@@ -6,9 +6,9 @@ tags:
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://cloudfour.com/thinks/a-bashful-button-worth-8-million/)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/bashful_button.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 我的岳父很喜欢 Olive Garden 这家店，疫情过后这家店也成了点外卖的首选。拿起 iPad ，挑选，加入购物车，下单....一切都很顺利，直到我开始结帐：
 

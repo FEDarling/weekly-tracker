@@ -6,7 +6,7 @@ categories:
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://css-weekly.com/issue-486/)对比阅读
-> * 译文已备份[永不失联]()
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
 > * 译者：
 > * 校对者：
 
@@ -19,8 +19,7 @@ Bramus Van Damme 介绍了 :has() 选择器，它已经在 Safari Technology Pre
 
 [Read more](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
- [CSS自定义属性](./cutsom_properties.md)
-
+## [CSS自定义属性](./cutsom_properties.md)
 
 [![CSS Custom Properties](https://css-weekly.com/wp-content/uploads/2021/12/css-custom-properties.jpg)](https://12daysofweb.dev/2021/css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
