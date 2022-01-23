@@ -1,9 +1,9 @@
 ---
-name: 翻译 issue
-about: 翻译issue请遵循该模板~
-title: 翻译 issue. [BUG]
-labels: bug, translate
-assignees: ''
+name: 反馈 issue
+about: 对项目提意见请遵循本模板
+title: '[反馈]问题'
+labels: '反馈'
+assignees: '@daodaolee'
 
 ---
 
