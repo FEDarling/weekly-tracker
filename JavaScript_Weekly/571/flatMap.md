@@ -6,7 +6,7 @@ toc_icon: "clipboard-list"
 toc_sticky: true
 ---
 
-# Array.flatMap一个灵活好用的Map方法
+## Array.flatMap一个灵活好用的Map方法
 
 `Array.map()`是我们日常开发过程中经常使用到的一个映射函数，它需要一个映射函数作为入参并随之根据入参生成一个新的函数。
 
@@ -14,7 +14,7 @@ toc_sticky: true
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4728f70ab9c44ed6aa77b2ab1513fabd~tplv-k3u1fbpfcp-watermark.image?)
 
-## 灵活的映射方法
+### 灵活的映射方法
 假如我们有一个数组`const number = [0, 3, 6] `,我们如何将每一个元素都 *2，并返回一个新的数组呢？
 
 使用`Array.map()`方法
@@ -56,7 +56,7 @@ console.log(doubled); // logs [6, 12]
 通过`array.flatMap`方法我们可以生成一个新的数组，并且在这个数组生成的过程中，完成我们过滤某些元素的功能。
 
 让我们来看看`Array.flatMap`是如何实现的?
-## Array.flatMap()
+### Array.flatMap()
 
 `array.flatMap`方法必须接受一个回调函数作为入参才可以返回一个新的数组。
 
@@ -120,13 +120,13 @@ const trippled = numbers.flatMap(number => {
 console.log(trippled);
 // logs [1, 2, 3, 4, 8, 12]
 ```
-## 总结
+### 总结
 
 如果我们希望通过一个数组生成一个新的数组，并且还想要控制向新数组中添加新的元素，那么你可以使用`array.flatMap`来实现这个功能。
 
 `array.flatMap`方法的回调函数有3个参数，分别为当前元素，下标以及原数组。从回调函数返回的数组将是被扁平化的数组，生成的元素也会被插入到该数组中。
 
 请注意，如果你只想将单个项目映射到单个新值，那么请尽量使用标准 array.map ()。
-## 相关链接
+### 相关链接
 
 [⛱ 原文地址](https://dmitripavlutin.com/javascript-array-flatmap/)
