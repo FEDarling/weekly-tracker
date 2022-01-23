@@ -5,6 +5,19 @@ const fs = require('fs');
 // const options;
 let req;
 const base = './weeklys'
+const head =`---
+title: '${weeklyName} #${weeklyNum}'
+date: '${getNowFormatDate()}'
+categories: ${weeklyName}
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 发现错误？[点击修改](https://github.com/FEDarling/weekly-tracker/blob/main/)
+> * 译者：
+> * 校对者：
+
+`
+
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
 	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
@@ -40,20 +53,6 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
                   })
 				const turndownService = new TurndownService();
 				const markdown = turndownService.turndown(html);
-				const head =
-					`---
-title: '${weeklyName} #${weeklyNum}'
-date: '${getNowFormatDate()}'
-categories:
- - ${weeklyName}
----
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[点击修改]()
-> * 译者：
-> * 校对者：
-
-`
 				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown, 'utf8');
 				console.log(` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`);
 			} else {
