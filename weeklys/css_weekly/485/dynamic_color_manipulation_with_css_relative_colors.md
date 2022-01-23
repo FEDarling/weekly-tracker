@@ -7,9 +7,9 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.jim-nielsen.com/2021/css-relative-colors/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/css_me_not.md)
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/dynamic_color_manipulation_with_css_relative_colors.md)
+> * 译者：[自然卷](https://github.com/H-Lbread)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 当我第一次了解 CSS 的相关颜色时，我正在阅读 Dave 的帖子[“Alpha Painlet”](https://daverupert.com/2021/10/alpha-paintlet/)。
 

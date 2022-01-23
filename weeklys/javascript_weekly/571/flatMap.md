@@ -7,9 +7,9 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://dmitripavlutin.com/javascript-array-flatmap/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/css_me_not.md)
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/flatMap.md)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)
 
 ## Array.flatMap一个灵活好用的Map方法
 

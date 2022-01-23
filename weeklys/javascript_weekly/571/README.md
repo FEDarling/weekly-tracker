@@ -3,6 +3,12 @@ title: 'JavaScript Weekly #571'
 date: '2022-01-07'
 categories: ['JavaScript Weekly']
 ---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/README.md)
+> * 译者：
+> * 校对者：
+
 1. [fuite 一个检测web应用内存泄漏的工具](./fuite.md) — 分享一个用来检测内存泄漏的工具fuite
 2. [Array.flatMap一个灵活好用的Map方法](./flatMap.md) — 分享一个相对于array.map更加灵活好用的Map方法
 

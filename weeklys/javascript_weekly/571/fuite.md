@@ -7,9 +7,9 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/css_me_not.md)
-> * 译者：
-> * 校对者：
+> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/fuite.md)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)
 
 在我们日常开发中，很少会去调试内存泄漏的问题，虽然是有工具可以实现调试的，但是它调试起来很复杂繁琐，通常也不会准确地告诉我们:我们的系统为什么会出现内存泄漏。
 
