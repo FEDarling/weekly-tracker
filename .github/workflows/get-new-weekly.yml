@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: npm run add
+      - run: npm run new
       - name: Commit files
         run: |
           git config --local user.email "kim.yang.gh@outlook.com"
