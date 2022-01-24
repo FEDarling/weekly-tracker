@@ -1,10 +1,9 @@
 ---
 name: 反馈 issue
-about: 对项目提意见请遵循本模板
+about: 对项目提建议请遵循本模板
 title: '[反馈]问题'
 labels: '反馈'
 assignees: 'daodaolee'
-
 ---
 
 **说出您的问题**

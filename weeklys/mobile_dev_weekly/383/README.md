@@ -5,7 +5,6 @@ categories: ["Mobile Dev Weekly"]
 publish: true
 ---
 
-
 ## 📱 Mobile Dev Weekly
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1640085844/d0ij38zabov39wxc002r.jpg)
@@ -76,6 +75,6 @@ Mobile as a very broad platform, both native and web, is more critical than ever
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
-> * 发现错误？[提交 PR]()
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/README.md)
 > * 译者：
 > * 校对者：

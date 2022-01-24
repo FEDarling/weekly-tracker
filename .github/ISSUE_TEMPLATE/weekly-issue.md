@@ -4,7 +4,6 @@ about: 周刊翻译任务发布模板，仅维护者使用
 title: 'weekly #num' 
 labels: 待认领
 assignees: 'daodaolee'
-projects: '翻译进度板'
 ---
 ## 认领列表
 ### 周刊

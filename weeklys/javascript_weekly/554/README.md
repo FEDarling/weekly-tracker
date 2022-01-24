@@ -90,6 +90,6 @@ publish: true
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
-> * 发现错误？[提交 PR]()
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/README.md)
 > * 译者：
 > * 校对者：
