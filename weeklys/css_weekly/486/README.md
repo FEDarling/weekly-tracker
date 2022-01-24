@@ -4,7 +4,6 @@ date: '2021-12-22'
 categories: ["CSS Weekly"]
 publish: true
 ---
-
 [The CSS :has() Selector Is Way More Than a “Parent Selector”](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
