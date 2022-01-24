@@ -1,21 +1,18 @@
 ---
 title: Array.flatMap一个灵活好用的Map方法
 date: '2022-01-07'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['JavaScript']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://dmitripavlutin.com/javascript-array-flatmap/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/css_me_not.md)
-> * 译者：
-> * 校对者：
-
-## Array.flatMap一个灵活好用的Map方法
 
 `Array.map()`是我们日常开发过程中经常使用到的一个映射函数，它需要一个映射函数作为入参并随之根据入参生成一个新的函数。
 
 在es2019之后，出现了一个新的方法——`Array.flatMap`。它完全可以替代`Array.map`，因为它不仅能完成映射，还可以在生成新数组时删除或者添加你需要的元素。但是使用时要注意兼容性，下面附上在[CanIUse](https://caniuse.com/?search=Array.flatmap)上，`Array.flatMap`的兼容情况。
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4728f70ab9c44ed6aa77b2ab1513fabd~tplv-k3u1fbpfcp-watermark.image?)
 
 ### 灵活的映射方法
@@ -131,6 +128,10 @@ console.log(trippled);
 `array.flatMap`方法的回调函数有3个参数，分别为当前元素，下标以及原数组。从回调函数返回的数组将是被扁平化的数组，生成的元素也会被插入到该数组中。
 
 请注意，如果你只想将单个项目映射到单个新值，那么请尽量使用标准 array.map ()。
-### 相关链接
+---
 
-[⛱ 原文地址](https://dmitripavlutin.com/javascript-array-flatmap/)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://dmitripavlutin.com/javascript-array-flatmap/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/flatMap.md)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[LilyChenlin](https://github.com/LilyChenlin)
