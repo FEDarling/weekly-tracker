@@ -1,21 +1,20 @@
 ---
 title: useEffect 视觉指南
 date: '2022-01-12'
-tags:
- - React Status
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['React']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://alexsidorenko.com/blog/useeffect/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/271/A_Visual_Guide_to_useEffect.md)
-> * 译者：[LilyChenlin](https://github.com/LilyChenlin)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 当你尝试直接从 React 中的功能组件的主体中获取数据时会发生的情况👇
 
 ![initial](https://cdn.jsdelivr.net/gh/LilyChenlin/-imageStore/React%20Status/effect-1.gif)
 
 为什么会发生这种情况，React 提供了哪些工具来解决这个问题？
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 副作用 Side Effects
 
 如果你的 React 组件影响了它自身之外的任何东西，那么它就被称为副作用。
@@ -61,6 +60,10 @@ tags:
 
 ![props-2](https://cdn.jsdelivr.net/gh/LilyChenlin/-imageStore/React%20Status//props-2.gif)
 
-## 相关链接
+---
 
-[原文链接](https://alexsidorenko.com/blog/useeffect/)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://alexsidorenko.com/blog/useeffect/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/271/A_Visual_Guide_to_useEffect.md)
+> * 译者：[LilyChenlin](https://github.com/LilyChenlin)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

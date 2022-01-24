@@ -7,7 +7,7 @@
     "build": "vuepress build weeklys",
     "ac": "node ./script/autoCommit.js",
     "m": "node ./script/maintenance.js",
-    "add": "node ./script/addNewWeekly.js"
+    "new": "node ./script/addNewWeekly.js"
   },
   "keywords": [],
   "author": "",

@@ -1,17 +1,16 @@
 ---
 title: ES2022 特性：类静态初始化块
 date: '2021-09-03'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['JavaScript','ECMAScript']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://2ality.com/2021/09/class-static-block.html)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/ES2022_Feature_Class_Static_Initialization_Blocks.md)
-> * 译者：[自然卷](https://github.com/H-Lbread)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在ECMAScript2022中。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 
 为了建立一个类的实例，我们在JavaScript中有两个构造:
 - 字段：创建（可选的初始化）实例属性。
@@ -181,6 +180,10 @@ class SubClass extends SuperClass {
 
 类静态块是一个相对简单的特性，它完善了类的静态特性。粗略地说，它是实例构造函数的静态版本。当我们必须设置多个静态字段时，它是非常有用的。
 
-## 相关链接 
+---
 
-[原文链接](https://2ality.com/2021/09/class-static-block.html)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://2ality.com/2021/09/class-static-block.html)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/ES2022_Feature_Class_Static_Initialization_Blocks.md)
+> * 译者：[自然卷](https://github.com/H-Lbread)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

@@ -1,19 +1,18 @@
 ---
 title: 重新思考 JavaScript 的三元运算符
 date: '2021-12-24'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['JavaScript']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/ternary.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ## 前言
 
 我们都希望编写的代码既清晰又简洁，但是有时候我们只能二选一：要么清晰，要么简洁。更少的代码行意味着隐藏的错误更少，但是清晰、可读的代码更容易维护和修改。总的来说，传统思路告诉我们，**清晰胜过简洁**。如果您必须在可读性和简洁性之间做出选择，请选择**可读性**。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 因此，许多人对三元运算符持怀疑态度不是没有道理的。当然，它比 if 语句更简洁，但是把三元写成屎山也是很容易的。所以处理问题的时候要小心一点。我一般更喜欢 if 语句，尽管他在可读性方面有点小问题。
 
 ### 三元的复杂度
@@ -195,3 +194,10 @@ const yAxisRange = !rangeEmpty ? roundRange() : defaultRng();
 ```
 
 不过说实话，太多的三元嵌套的我更建议使用 `switch-case`
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/ternary.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

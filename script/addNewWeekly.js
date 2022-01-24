@@ -5,6 +5,15 @@ const fs = require('fs');
 // const options;
 let req;
 const base = './weeklys'
+const END = `
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/)
+> * 译者：
+> * 校对者：
+
+`
+
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
 	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
@@ -38,23 +47,17 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
                 fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
                     if (err) throw err;
                   })
-				const turndownService = new TurndownService();
-				const markdown = turndownService.turndown(html);
-				const head =
-					`---
+				  const head =
+`---
 title: '${weeklyName} #${weeklyNum}'
 date: '${getNowFormatDate()}'
-categories:
- - ${weeklyName}
+categories: ['${weeklyName}']
+publish: false
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[点击修改]()
-> * 译者：
-> * 校对者：
-
 `
-				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown, 'utf8');
+				const turndownService = new TurndownService();
+				const markdown = turndownService.turndown(html);
+				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown+END, 'utf8');
 				console.log(` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`);
 			} else {
 				console.log(` \x1B[32m🤪${weeklyName} 没有新内容\x1B[0m`);

@@ -1,122 +1,60 @@
 ---
 title: 'JavaScript Weekly #399'
 date: '2018-08-17'
-categories:
- - JavaScript Weekly
+categories: ["JavaScript Weekly"]
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
-> * 译文已备份[永不失联]()
-> * 译者：
-> * 校对者：
-
-1. [JavaScript引擎基础(上)：形态和内联缓存](./js_engine_shape_and_inline_caches.md) — 对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
-2. [JavaScript引擎基础(下)：优化原型](./js_engine_optimizing_prototype.md) — 对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
-
-#399 — August 17, 2018
-
-[Read on the Web](https://javascriptweekly.com/link/51521/web)
-
-JavaScript Weekly
 
 A blast from the past this week as we take some time out to ask Dr. Axel Rauschmayer, a former editor of _JavaScript Weekly_, some questions on the release of his new book, _[JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web)_. You can find that further down in this issue :-)  
 _— Peter Cooper, editor_
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dgt2wojtjualvh9aiwvs.jpg)](https://javascriptweekly.com/link/51540/web)
 
 [JavaScript Engine Fundamentals: Optimizing Prototypes](https://javascriptweekly.com/link/51540/web) — Having a deeper understanding of how JavaScript engines work can help you reason about the performance characteristics of your code and this diagram-rich post digs into engines optimize around JavaScript’s use of prototype-based inheritance.
 
-Mathias Bynens
-
 ▶  [Kyle Simpson says 'Keep Betting on JavaScript'](https://javascriptweekly.com/link/51541/web) — A look back at “how far we’ve come” to see what the path ahead may look like for JavaScript. Filmed at JSCamp Barcelona. [Associated slides here](https://javascriptweekly.com/link/51542/web).
-
-Kyle Simpson
 
 [![](https://copm.s3.amazonaws.com/32fbb648.png)](https://javascriptweekly.com/link/51523/web)
 
 [How to Choose the Best Framework for Mobile Development?](https://javascriptweekly.com/link/51523/web) — The mobile development landscape has changed and we've put together a list of modern options for you. This is a long term decision, you must choose wisely. Download our free ebook to learn more.
 
-Progress sponsor
-
 [16 JavaScript Data Visualization and Charting Libraries](https://javascriptweekly.com/link/51543/web) — A rather extensive summary and comparison of charting libraries, comparing key factors such as chart types, commercial vs free, and their open-source status.
-
-Dan Englishby
 
 [V8's Embedded Builtins and Reducing V8's Median Heap Size by 19%](https://javascriptweekly.com/link/51544/web) — The V8 JavaScript engine ships with an extensive library of built-in functions and a lot of work has gone into reducing the memory overhead these can represent.
 
-Jakob Gruber
-
 [Creating a Chrome Extension in 2018: The Good, the Bad and the Meh](https://javascriptweekly.com/link/51545/web) — Talks through the development lifecycle of creating an extension and lists some of the architectural gotchas.
-
-Tim Nolet
 
 [Visual Studio Code's July 2018 Update](https://javascriptweekly.com/link/51546/web) — The most popular editor in the JavaScript world has added a variety of features, many of them JS-oriented, including [JSX tag completion](https://javascriptweekly.com/link/51547/web), a [‘add all missing imports’](https://javascriptweekly.com/link/51548/web) feature, and better JS/TS error reporting.
 
-Microsoft
-
-💻 Jobs
-
-[Node Data Engineer at eBench (Remote, full-time)](https://javascriptweekly.com/link/51524/web) — We're a SaaS company that creates beautiful data visualizations. Enjoy crafting quality code? We would love to hear from you.
-
-eBench
-
-[Front-end Developer at Forza Football](https://javascriptweekly.com/link/51525/web) — We're seeking an open minded person who enjoys working in a team and has advanced knowledge in frontend development.
-
-Football Addicts AB
-
-[Find A JavaScript Job Through Vettery](https://javascriptweekly.com/link/51526/web) — Vettery specializes in dev roles and is completely free for job seekers. Create a profile to get started.
-
-Vettery
-
-📘 Tutorials and Opinions
+## 📘 Tutorials and Opinions
 
 [10 Things You Will Eventually Learn About JavaScript Projects](https://javascriptweekly.com/link/51549/web) — A collection of common patterns that made working on even the most uncoordinated projects somehow manageable.
 
-The Cat with a Dragon Tattoo
-
 [Setting Up Constants via Proxies](https://javascriptweekly.com/link/51550/web)
-
-Dr. Axel Rauschmayer
 
 [Build a Netflix Style Video Delivery Platform](https://javascriptweekly.com/link/51527/web) — SDKs for all platforms - Play videos at the same quality and speed as Netflix & YouTube.
 
-Bitmovin sponsor
-
 [How Angular CLI Budgets Save My Day And How They Can Save Yours](https://javascriptweekly.com/link/51551/web) — Runs through what Angular application budgets are and what problems they can help surface.
-
-Tomas Trajan
 
 [The Generic Sensor API](https://javascriptweekly.com/link/51552/web) — The [Generic Sensor API](https://javascriptweekly.com/link/51553/web) aims to provide a consistent JS API for client device sensors.
 
-Ruadhan O'Donoghue
-
 [Handling Authentication in Vue with Vuex](https://javascriptweekly.com/link/51554/web)
 
-Chris Nwamba
 
 ▶  [Web Performance For Third Party Scripts: Two Talks](https://javascriptweekly.com/link/51555/web) — Two talks to help you take into account the effect third party scripts may have on your site’s performance.
 
-SmashingConf
-
 ▶  [Next-Generation Frontend Testing with Cypress.io](https://javascriptweekly.com/link/51556/web)
-
-Amir Rustamzadeh
 
 [See Why Facebook, Spotify, & Sony Trust CircleCI with Their CI/CD](https://javascriptweekly.com/link/51528/web)
 
-CircleCI sponsor
-
 ▶  [A Conversation with Ember Co-Creator Tom Dale on Ember 3.0 and Ember's Future](https://javascriptweekly.com/link/51557/web)
-
-JavaScript Jabber podcast
 
 [A Proposal: Elixir-Style Modules in JavaScript](https://javascriptweekly.com/link/51558/web)
 
-Will Ockelmann-Wagner
-
 [Three Reasons to Use Vue.js in Your Next Web Project](https://javascriptweekly.com/link/51559/web)
 
-Arnaud Lewis
+---
 
 ![Dr. Axel Rauschmayer](https://res.cloudinary.com/cpress/image/upload/v1534501855/xm6jiym0dfvjwzh2t6hp.png)
 
@@ -145,31 +83,28 @@ Three stand out for me:
 
 Dr. Axel Rauschmayer is the author of [JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web) — out now.
 
-🔧 Code and Tools
+## 🔧 Code and Tools
 
 [Tone.js: A Web Audio Framework for Making Interactive Music in the Browser](https://javascriptweekly.com/link/51560/web) — Lots of [examples here.](https://javascriptweekly.com/link/51561/web)
 
-Yotam Mann
-
 [SpaceTime: A Lightweight JavaScript Timezone Library](https://javascriptweekly.com/link/51562/web)
-
-Spencer Kelly
 
 [Move Fast and Fix Stuff. Over 500K Developers Fix Errors with Sentry](https://javascriptweekly.com/link/51530/web) — Notify only the right person based on the commit and see unminified code in the stack trace with source maps.
 
-Sentry sponsor
-
 [from-html: Get Element References Directly From a String of HTML](https://javascriptweekly.com/link/51563/web) — An interesting and straightforward way to create nested DOM elements.
-
-m3g4p0p
 
 [flowchart.js: Turn Textual Representation of Diagrams into Flow Charts](https://javascriptweekly.com/link/51564/web) — Want something similar for UML sequence diagrams? [Here you go.](https://javascriptweekly.com/link/51565/web)
 
-Adriano Raiano
-
-📅 Some forthcoming JavaScript events
+## 📅 Some forthcoming JavaScript events
 
 *   [JSCamp 2018 (Sep 22 in Chicago, IL)](https://javascriptweekly.com/link/51531/web) — A one day single track event.
 *   [Framework Summit 2018 (Oct 2-3 in Park City, UT)](https://javascriptweekly.com/link/51532/web) — A new 2 day conference focused on all front end frameworks with keynotes from the teams of the most popular ones.
 *   [JS Interactive (Oct 10-12 in Vancouver, Canada)](https://javascriptweekly.com/link/51533/web) — One of the largest JavaScript events. Organized by the Linux Foundation.
 *   [JSMobileConf (Oct 25-26 in Boston, MA)](https://javascriptweekly.com/link/51534/web) — An impressive roster of speakers for this event with a focus on mobile and IoT.
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/README.md)
+> * 译者：
+> * 校对者：

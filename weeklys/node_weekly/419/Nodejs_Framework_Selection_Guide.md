@@ -1,18 +1,17 @@
 ---
 title: Node.js 框架选择指南
 date: '2021-12-23'
-tags:
- - Node Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['Node']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/419/Nodejs_Framework_Selection_Guide.md)
-> * 译者：[oil-oil](https://github.com/oil-oil)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 我经常在社交媒体或者评论区看到有人问：”什么是最好的node.js框架“，得到的回答往往都非常主观， 一些开发者甚至还会为此争论不休。如果你正在为你的项目找一个合适的node.js框架。那这些回答基本对你没啥帮助。
 
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 大量可供选择的框架，以及这些偏主观的看法，会让你更难抉择。基于这些框架的功能特性列表来进行选择也会让你很头疼, 而且这些特点也只是框架的一部分描述而已。 如果你有一个清晰的清单可以用于评估和选择 Node.js 框架，那就太棒了。
 
 
@@ -87,7 +86,10 @@ GitHub 上star通常被引用为受欢迎程度的指标，但我认为将它们
 事实证明，在选择 Node.js 框架时确实需要考虑很多事情。然而，在评估框架时，你可能要问自己最后一件事：你觉得你会喜欢用它开发项目吗？就我个人而言，如果我不喜欢使用这个框架，那么每次我需要使用它都会成为一件苦差事。最佳的选择是一个满足你的要求并且你喜欢使用的框架。
 选择 Node.js 框架可能会很棘手，但希望我分享的指南将帮助你完善你的框架选择清单。祝愿你能为你的项目选择一个“最佳的”框架！
 
-## 相关资料
+---
 
-[Guidelines for choosing a Node.js framework](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)
-
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://simonplend.com/guidelines-for-choosing-a-node-js-framework/#conclusion)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/419/Nodejs_Framework_Selection_Guide.md)
+> * 译者：[oil-oil](https://github.com/oil-oil)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

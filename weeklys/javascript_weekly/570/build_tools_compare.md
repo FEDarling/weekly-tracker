@@ -1,17 +1,16 @@
 ---
 title: 新一代构建工具对比
 date: '2021-12-24'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['webpack','Babel','Rollup','Parcel']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/build_tools_compare.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 在过去的一年里，一系列新的开发工具拔地而起，包括但不限于 webpack、Babel、Rollup、Parcel、create-react-app等，在前端开发配合这方面也很友好。这些新的工具目标和功能上各有千秋，每个工具都有不同的目标和功能，但都有一个共同的目标：提高开发人员的使用体验。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 其实，其实我想对他们每一个都评估一下，概述一下他们做了什么，我们为什么需要他们，以及他们的用例。但是后来我意识到了这样的比较总会有点不公平。比如，Snowpack 和 Vite 大多会在后台使用 esbuild 来完成某些任务。我们应该更多更好地了解当下的任务情况，才可以在我们需要它们的时候选择最合适的。
 
 当然，关于这些新的构建工具，已经有了一大堆文章来介绍它们，这里我推荐几集ShopTalk Show网站的资源供大家学习：[454-Vite](https://shoptalkshow.com/454/)、[448-wmr和Snowpack的作者](https://shoptalkshow.com/448/)。
@@ -576,6 +575,10 @@ wmr 有完整的生产构建步骤，包括捆绑、压缩和 tree shaking，没
 | CSS Modules                 | ❌            | ✅        | ✅        | ✅    |
 | 自动 PostCSS 和预处理器转换 | ❌            | ❌        | ✅        | ❌    |
 
-## 相关链接
+---
 
-[Comparing the New Generation of Build Tools](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/build_tools_compare.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

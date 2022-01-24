@@ -1,19 +1,18 @@
 ---
 title: 前端性能优化[0]
 date: '2022-01-05'
-tags:
- - Frontend Focus
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['游览器']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/523/frontend_web_performance.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ## 一即是全 — 浏览器渲染周期，硬件加速和排版布局
 
 每一台电子设备的显示器每秒按照一定的帧数刷新，浏览器必须尝试匹配刷新率以使用户获得流畅的体验。而要将新的一帧输出到显示器上，浏览器首先要完成“渲染周期”和“像素管道”
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 大多数的设备是以 60FPS 的速度运行的，这表示每16ms就要输出一帧。FPS表示每秒钟帧的速率，更高的FPS就意味着每一帧有更高的速率。比如120FPS，每帧花费的时间就不能超过8ms。
 
 更糟糕的是，浏览器往往会增加一些额外的开销，并且可能会占用每帧长达4ms的时间；所以在生产中，我们大概需要用每一帧12ms的速率来达到60FPS。而在120FPS下，每帧仅有4ms的时间。
@@ -272,3 +271,11 @@ Summary选项卡中的饼图将会展示渲染帧时各个阶段所消耗的时�
 
 ## 相关链接
 [Frontend Web Performance: The Essentials [0]](https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180)
+
+---
+
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/523/frontend_web_performance.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

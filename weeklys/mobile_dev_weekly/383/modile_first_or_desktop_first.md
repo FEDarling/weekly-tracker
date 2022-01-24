@@ -1,14 +1,12 @@
 ---
 title: 移动先行还是桌面先行
 date: '2021-12-24'
-tags:
- - Mobile Dev Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['CSS']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在Twitter发起了一次关于此项的投票
 
@@ -18,7 +16,8 @@ tags:
 * 两者混合：24.7%
 
 在下文中，我们将一起了解每种方法的含义和一些响应式设计技巧，然后再去讨论在今天这些方法是否适用。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 简介：移动优先和桌面优先的含义
 `移动优先`意味着在网站开发时，我们首先以较小的视口尺寸编写CSS，然后使用CSS媒体查询来优化大视口的体验
 
@@ -550,5 +549,9 @@ CSS新特性 容器查询现在在Chrome下可用了。有了他们，我们可�
 
 就像我展示的这样，现代CSS支持我们不通过媒体查询的方式制作响应式布局。那么问题来了，我们还需要考虑移动先行还是桌面先行的问题吗？
 
-## 相关链接
-[The State Of Mobile First and Desktop First - AHMAD SHADEED](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
+> * 译者：[一绪](http://github.com/myx981008)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

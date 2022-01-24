@@ -1,19 +1,18 @@
 ---
 title: 比较 Svelte 和 React
 date: '2021-12-24'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['React','Svelte']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://www.jackfranklin.co.uk/blog/comparing-svelte-and-react-javascript/)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/svelte_vs_react.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
 
 ## 前言
 
 `Pomodone`：一个小型时间跟踪应用程序，基于以 25 分钟为间隔工作的番茄工作法。它有一个 25 分钟的计时器（在 Web Worker 中运行）并将“poms”的历史记录保存到一个小型 Firebase 数据库中，[传送门](https://pomod.one/)
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## 二者的用法
 
 React的钩子是一个很好的封装，我创建了一个 `useCurrentUser` 钩子，让它侦听身份验证的变化并相应地设置一些状态。然后，当注意到身份验证变化时，我就可以确信 React 会按需重新渲染。
@@ -352,7 +351,9 @@ function click() {
   Click me!
 </button>
 ```
-
-## 相关链接
-
-[Comparing Svelte and React](https://www.jackfranklin.co.uk/blog/comparing-svelte-and-react-javascript/)
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://www.jackfranklin.co.uk/blog/comparing-svelte-and-react-javascript/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/svelte_vs_react.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

@@ -1,17 +1,17 @@
 ---
 title: JavaScript引擎基础(上)：形态和内联缓存
 date: '2018-08-17'
-tags:
- - JavaScript Weekly
+#请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
+tags: ['JavaScript']
+#没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
+#请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
+publish: true
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mathiasbynens.be/notes/shapes-ics)对比阅读
-> * 发现错误？点击修改[永不失联](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_shape_and_inline_caches.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
-
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 ## JavaScript 引擎管道
  JavaScript 代码在运行时候， JavaScript 引擎会解析源代码并将其转换为抽象语法树 (AST)。基于该 AST，解释器会执行自己的任务并生成字节码。WOW！引擎这时候实际上正在执行着你写的 JavaScript 代码。
 
@@ -326,6 +326,10 @@ const array = Object.defineProperty(
 * 始终以相同的方式初始化你的对象，它们最终不会具有不同的 Shape。
 * 不要乱用数组元素的属性。
 
-## 相关资料
+---
 
-[JavaScript engine fundamentals: Shapes and Inline Caches](https://mathiasbynens.be/notes/shapes-ics)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://mathiasbynens.be/notes/shapes-ics)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_shape_and_inline_caches.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)s
