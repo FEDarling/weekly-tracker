@@ -22,4 +22,4 @@
 
 如果你对项目的流程、内容以及合作方式等等各方面有任意的想法或建议，都可以通过在 [Discussions 中的反馈模块](https://github.com/FEDarling/weekly-tracker/discussions/categories/%E5%8F%8D%E9%A6%88) 新建一个话题来表达你的意见或想法！我们非常欢迎甚至期待！
 
-想了解更多请阅读仓库相关Wiki~
+想了解更多请阅读仓库相关 Wiki ~
