@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: tracker
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -23,7 +21,6 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           commit-message: 'add new weeklys'
           branch-suffix: short-commit-hash
-          delete-branch: true
           title: 添加新的周刊
           body: "**添加新的周刊，请手动格式化所有新周刊**"
           assignees: daodaolee
