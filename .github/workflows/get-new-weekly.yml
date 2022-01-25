@@ -29,4 +29,16 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           branch: tracker
+      - name: creating Pull Requests
+        uses: devops-infra/action-pull-request@v0.4.2
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          source_branch: tracker
+          target_branch: main
+          title: 添加新的周刊
+          body: "**添加新的周刊，请格式化手动所有新周刊**"
+          reviewer: weekly-tracker
+          assignee: weekly-tracker
+          label: 待格式化
+          get_diff: true
     
