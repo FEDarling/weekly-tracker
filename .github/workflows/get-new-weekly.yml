@@ -20,7 +20,7 @@ jobs:
       - name: creating Pull Requests
         uses: peter-evans/create-pull-request@v3  
         with:
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           commit-message: 'add new weeklys'
           branch-suffix: short-commit-hash
           delete-branch: true
