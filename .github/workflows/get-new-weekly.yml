@@ -1,8 +1,5 @@
 name: get new weekly
 on:
-  push:
-    branchs:
-      - tracker
   schedule:
     - cron: '0 21 * * *'
 jobs: 
@@ -20,7 +17,6 @@ jobs:
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           commit-message: 'add new weeklys'
-          barnch: tracker-
           branch-suffix: short-commit-hash
           title: 添加新的周刊
           body: "**添加新的周刊，请手动格式化所有新周刊，只需删除重复信息以及推广信息，然后对其中分类添加二级标题即可**"
