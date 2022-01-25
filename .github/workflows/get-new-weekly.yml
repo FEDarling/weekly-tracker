@@ -18,12 +18,7 @@ jobs:
       - run: npm install
       - run: npm run new
       - name: Commit files
-        run: |
-          git config --local user.email "kim.yang.gh@outlook.com"
-          git config --local user.name "KimYangOfCat"
-          git status
-          git add .
-          git commit -m "script: add new weekly" -a
+        run: ./script/commit.sh
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
@@ -36,7 +31,7 @@ jobs:
           source_branch: tracker
           target_branch: main
           title: 添加新的周刊
-          body: "**添加新的周刊，请格式化手动所有新周刊**"
+          body: "**添加新的周刊，请手动格式化所有新周刊**"
           reviewer: weekly-tracker
           assignee: weekly-tracker
           label: 待格式化
