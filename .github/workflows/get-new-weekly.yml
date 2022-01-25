@@ -22,7 +22,6 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           commit-message: 'add new weeklys'
-          branch: tracker
           branch-suffix: short-commit-hash
           delete-branch: true
           title: 添加新的周刊
