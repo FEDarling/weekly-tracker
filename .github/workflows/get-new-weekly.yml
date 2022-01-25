@@ -18,7 +18,9 @@ jobs:
       - run: npm install
       - run: npm run new
       - name: Commit files
-        run: ./script/commit.sh
+        run: |
+        chmod=+x ./script/commit.sh
+        ./script/commit.sh
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
