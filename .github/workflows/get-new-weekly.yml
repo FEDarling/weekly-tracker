@@ -17,25 +17,17 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run new
-      - name: Commit files
-        run: |
-        chmod=+x ./script/commit.sh
-        ./script/commit.sh
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: tracker
       - name: creating Pull Requests
-        uses: devops-infra/action-pull-request@v0.4.2
+        uses: peter-evans/create-pull-request@v3  
         with:
-          github_token: ${{ secrets.TOKEN }}
-          source_branch: tracker
-          target_branch: main
+          token: ${{ secrets.TOKEN }}
+          delete-branch: true
+          branch: tracker
+          branch-suffix: short-commit-hash
           title: 添加新的周刊
           body: "**添加新的周刊，请手动格式化所有新周刊**"
-          reviewer: weekly-tracker
-          assignee: weekly-tracker
-          label: 待格式化
-          get_diff: true
+          assignee: daodaolee
+          team-reviewers: weekly-tracker
+          labels: 待格式化
+          commit-message: 'add new weeklys'
     
