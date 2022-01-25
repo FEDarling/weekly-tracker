@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: '0 21 * * *'
 jobs: 
-  add-new:
+  add-new-weeklys:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,13 +21,12 @@ jobs:
         uses: peter-evans/create-pull-request@v3  
         with:
           token: ${{ secrets.TOKEN }}
-          delete-branch: true
+          commit-message: 'add new weeklys'
           branch: tracker
           branch-suffix: short-commit-hash
+          delete-branch: true
           title: 添加新的周刊
           body: "**添加新的周刊，请手动格式化所有新周刊**"
-          assignee: daodaolee
+          assignees: daodaolee
           team-reviewers: weekly-tracker
           labels: 待格式化
-          commit-message: 'add new weeklys'
-    
