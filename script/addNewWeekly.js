@@ -5,14 +5,6 @@ const fs = require('fs');
 // const options;
 let req;
 const base = './weeklys'
-const END = `
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/)
-> * 译者：
-> * 校对者：
-
-`
 
 const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
@@ -54,6 +46,15 @@ date: '${getNowFormatDate()}'
 categories: ['${weeklyName}']
 publish: false
 ---
+`
+const END = `
+
+---
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文]()对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/${weeklyDir}/${weeklyNum}/README.md)
+> * 译者：
+> * 校对者：
 `
 				const turndownService = new TurndownService();
 				const markdown = turndownService.turndown(html);
