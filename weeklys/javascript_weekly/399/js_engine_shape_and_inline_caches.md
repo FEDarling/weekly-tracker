@@ -46,7 +46,7 @@ V8 中的解释器的名字叫 **火花塞(Ignition)**，负责生成和执行�
 
 **JavaScriptCore(JSC)** 是 Apple 在 Safari 和 React Native 中使用的 JavaScript 引擎，它通过三种不同的优化编译器将其发挥到了极致：**低级解释器( LLInt，low-level-Interprete)**，优化到 **基准编译器(Baseline compiler)**，然后优化到 **数据流图形编译器(DFG，Data Flow Graph)**，而 DFG 编译器又可以优化到 **超光速编译器(FTL，Faster Than Light)**。
 
-那为什么有些厂商的引擎比其他的优化编译器的个数要多呢？当然这些都是权衡之后的。解释器可以快速生成字节码，但字节码通常效率不高。另一方面，优化编译器的执行需要更长的时间，但最终会产生更高效的机器代码。一些引擎会选择添加具有不同时间/效率的多个优化编译器，以牺牲更多的复杂性为代价来增加更细粒度的控制权。除此之外，内存也是一个权衡引擎个数和工作流程要考虑的原因，相关文章请见：[JavaScript引擎基础(下)：优化原型](https://github.com/FEDarling/fe-translate-weekly/blob/master/JavaScript_Weekly/399/js_engine_optimizing_prototype.md)。
+那为什么有些厂商的引擎比其他的优化编译器的个数要多呢？当然这些都是权衡之后的。解释器可以快速生成字节码，但字节码通常效率不高。另一方面，优化编译器的执行需要更长的时间，但最终会产生更高效的机器代码。一些引擎会选择添加具有不同时间/效率的多个优化编译器，以牺牲更多的复杂性为代价来增加更细粒度的控制权。除此之外，内存也是一个权衡引擎个数和工作流程要考虑的原因，相关文章请见：[JavaScript引擎基础(下)：优化原型](https://github.com/FEDarling/weekly-tracker/blob/master/JavaScript_Weekly/399/js_engine_optimizing_prototype.md)。
 
 到现在为止，我们介绍了每个 JavaScript 引擎的解释器和优化编译器管道的区别。除了这些差异之外，在高层次上，所有 JavaScript 引擎都具有相同的架构：**有一个解析器和某种解释器/编译器管道**。
 

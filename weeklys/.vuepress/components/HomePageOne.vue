@@ -16,14 +16,14 @@
         </ModuleTransition>
         <ModuleTransition delay="0.12">
           <div v-if="$parent.recoShowModule && !$parent.firstLoad && $parent.isHasKey">
-            <a target="_black" href="https://github.com/FEDarling/fe-translate-weekly">
-              <img alt="GitHub license" src="https://img.shields.io/github/license/FEDarling/fe-translate-weekly?&logo=github">
+            <a target="_black" href="https://github.com/FEDarling/weekly-tracker">
+              <img alt="GitHub license" src="https://img.shields.io/github/license/FEDarling/weekly-tracker?&logo=github">
             </a>
-            <a target="_black" href="https://github.com/FEDarling/fe-translate-weekly">
-              <img alt="GitHub stars" src="https://img.shields.io/github/stars/FEDarling/fe-translate-weekly?style=flat&logo=github">
+            <a target="_black" href="https://github.com/FEDarling/weekly-tracker">
+              <img alt="GitHub stars" src="https://img.shields.io/github/stars/FEDarling/weekly-tracker?style=flat&logo=github">
             </a>
-            <a target="_black" href="https://github.com/FEDarling/fe-translate-weekly">
-              <img alt="GitHub forks" src="https://img.shields.io/github/forks/FEDarling/fe-translate-weekly?style=flat&logo=github">
+            <a target="_black" href="https://github.com/FEDarling/weekly-tracker">
+              <img alt="GitHub forks" src="https://img.shields.io/github/forks/FEDarling/weekly-tracker?style=flat&logo=github">
             </a>
           </div>
         </ModuleTransition>

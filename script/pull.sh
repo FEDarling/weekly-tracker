@@ -1,6 +1,6 @@
 remoteStr=`git remote -v`
 key1="upstream"
-key2="FEDarling/fe-translate-weekly"
+key2="FEDarling/weekly-tracker"
 
 echo $remote
 
@@ -16,7 +16,7 @@ if [[ "$result1" != "" && "$result2" != "" ]]
     echo "\033[32m🍻拉取完毕！\033[0m"
   else
     echo "\033[33m🧸未检查到upstream信息，可能您是首次拉取，已自动为您添加upstream信息\033[0m"
-    git remote add upstream https://github.com/FEDarling/fe-translate-weekly.git
+    git remote add upstream https://github.com/FEDarling/weekly-tracker.git
     git fetch upstream
     git checkout master
     git merge upstream/master
