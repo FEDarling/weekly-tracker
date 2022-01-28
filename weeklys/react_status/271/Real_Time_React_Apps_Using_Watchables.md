@@ -16,7 +16,7 @@ publish: false
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://blog.testdouble.com/posts/2021-11-30-tdr-project-layout/)对比阅读
+> * [查看原文](https://react.statuscode.com/link/118291/web "www.shortwave.com")对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/271/Real_Time_React_Apps_Using_Watchables.md)
 > * 译者：
 > * 校对者：
