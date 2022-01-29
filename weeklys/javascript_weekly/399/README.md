@@ -5,106 +5,100 @@ categories: ["JavaScript Weekly"]
 publish: true
 ---
 
-A blast from the past this week as we take some time out to ask Dr. Axel Rauschmayer, a former editor of _JavaScript Weekly_, some questions on the release of his new book, _[JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web)_. You can find that further down in this issue :-)  
+本周过去的一次爆炸新闻，因为我们需要一些时间来询问 Axel Rauschmayer 博士（一名 JavaScript Weekly 的前编辑）有关他的新书 [不耐烦程序员的 JavaScript](https://javascriptweekly.com/link/51522/web) 发行的一些问题。 你可以在本期的后面找到它:-)
 _— Peter Cooper, editor_
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dgt2wojtjualvh9aiwvs.jpg)](https://javascriptweekly.com/link/51540/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dgt2wojtjualvh9aiwvs.jpg)
 
-[JavaScript Engine Fundamentals: Optimizing Prototypes](https://javascriptweekly.com/link/51540/web) — Having a deeper understanding of how JavaScript engines work can help you reason about the performance characteristics of your code and this diagram-rich post digs into engines optimize around JavaScript’s use of prototype-based inheritance.
+[JavaScript引擎基础：优化原型](./js_engine_optimizing_prototype.md) — 深入理解 JavaScript 引擎的工作原理可以帮助您推理代码的性能，这篇图表丰富的文章深入探讨了围绕 JavaScript 对基于原型的继承使用进行的引擎优化。
 
-▶  [Kyle Simpson says 'Keep Betting on JavaScript'](https://javascriptweekly.com/link/51541/web) — A look back at “how far we’ve come” to see what the path ahead may look like for JavaScript. Filmed at JSCamp Barcelona. [Associated slides here](https://javascriptweekly.com/link/51542/web).
+▶  [Kyle Simpson 说要在 JavaScript 上继续加油](https://javascriptweekly.com/link/51541/web) — 回顾一下“我们的历程”，看看 JavaScript 的未来之路可能是什么样的。拍摄于巴塞罗那 JSCamp。[这是相关幻灯片](https://javascriptweekly.com/link/51542/web)。
 
-[![](https://copm.s3.amazonaws.com/32fbb648.png)](https://javascriptweekly.com/link/51523/web)
+![](https://copm.s3.amazonaws.com/32fbb648.png)
 
-[How to Choose the Best Framework for Mobile Development?](https://javascriptweekly.com/link/51523/web) — The mobile development landscape has changed and we've put together a list of modern options for you. This is a long term decision, you must choose wisely. Download our free ebook to learn more.
+[如何为移动开发选择最佳框架？](https://javascriptweekly.com/link/51523/web) — 移动开发发生了很多变化，我们为您整理了一系列现代的资料。这是一个长期的决策，您必须明智地选择。下载我们的免费电子书以了解更多信息。
 
-[16 JavaScript Data Visualization and Charting Libraries](https://javascriptweekly.com/link/51543/web) — A rather extensive summary and comparison of charting libraries, comparing key factors such as chart types, commercial vs free, and their open-source status.
+[16 个 JavaScript 数据可视化和图表库](https://javascriptweekly.com/link/51543/web) — 本篇讲述了相当广泛的图表库，比较了图表类型、商用还是免费等关键因素及其开源状态。
 
-[V8's Embedded Builtins and Reducing V8's Median Heap Size by 19%](https://javascriptweekly.com/link/51544/web) — The V8 JavaScript engine ships with an extensive library of built-in functions and a lot of work has gone into reducing the memory overhead these can represent.
+[V8 的嵌入式内置函数以及将 V8 的堆大小减少了 19%](https://javascriptweekly.com/link/51544/web) — V8 JavaScript 引擎附带了一个广泛的内置函数库，并且在减少内存开销方面做了很多工作。
 
-[Creating a Chrome Extension in 2018: The Good, the Bad and the Meh](https://javascriptweekly.com/link/51545/web) — Talks through the development lifecycle of creating an extension and lists some of the architectural gotchas.
+[Visual Studio Code 2018 年 7 月更新](https://javascriptweekly.com/link/51546/web) — JavaScript 世界中最流行的编辑器添加了多种功能，其中许多是面向 JS 的，包括 [JSX 标记](https://javascriptweekly.com/link/51547/web)、[“添加缺失的imports”](https://javascriptweekly.com/link/51548/web) 以及更好的 JS/TS 错误报告。
 
-[Visual Studio Code's July 2018 Update](https://javascriptweekly.com/link/51546/web) — The most popular editor in the JavaScript world has added a variety of features, many of them JS-oriented, including [JSX tag completion](https://javascriptweekly.com/link/51547/web), a [‘add all missing imports’](https://javascriptweekly.com/link/51548/web) feature, and better JS/TS error reporting.
+## 📘 教程 和 意见
 
-## 📘 Tutorials and Opinions
+[JavaScript 项目你最终会学到的 10 件事](https://javascriptweekly.com/link/51549/web) — 可以协调管理项目的一种常见的模式。
 
-[10 Things You Will Eventually Learn About JavaScript Projects](https://javascriptweekly.com/link/51549/web) — A collection of common patterns that made working on even the most uncoordinated projects somehow manageable.
+[通过代理设置常量](https://javascriptweekly.com/link/51550/web)
 
-[Setting Up Constants via Proxies](https://javascriptweekly.com/link/51550/web)
+[构建 Netflix 风格的视频交互平台](https://javascriptweekly.com/link/51527/web) — 适用于所有平台的 SDK — 和 Netflix 和 YouTube 相同的质量和速度播放视频。
 
-[Build a Netflix Style Video Delivery Platform](https://javascriptweekly.com/link/51527/web) — SDKs for all platforms - Play videos at the same quality and speed as Netflix & YouTube.
+[Angular CLI 的 Budgets 如何节省我的时间，并且如何节省您的时间](https://javascriptweekly.com/link/51551/web) — 贯穿 Angular 的 Budgets 是什么，它们可以帮助解决哪些问题。
 
-[How Angular CLI Budgets Save My Day And How They Can Save Yours](https://javascriptweekly.com/link/51551/web) — Runs through what Angular application budgets are and what problems they can help surface.
+[通用传感器 API](https://javascriptweekly.com/link/51552/web) — [通用传感器 API](https://javascriptweekly.com/link/51553/web) 旨在为客户端设备传感器提供一致的 JS API。
 
-[The Generic Sensor API](https://javascriptweekly.com/link/51552/web) — The [Generic Sensor API](https://javascriptweekly.com/link/51553/web) aims to provide a consistent JS API for client device sensors.
-
-[Handling Authentication in Vue with Vuex](https://javascriptweekly.com/link/51554/web)
+[使用 Vuex 在 Vue 中进行身份验证](https://javascriptweekly.com/link/51554/web)
 
 
-▶  [Web Performance For Third Party Scripts: Two Talks](https://javascriptweekly.com/link/51555/web) — Two talks to help you take into account the effect third party scripts may have on your site’s performance.
+▶  [第三方脚本的 Web 性能：两次对话](https://javascriptweekly.com/link/51555/web) — 两次对话可帮助您考虑第三方脚本可能对您网站的性能产生的影响。
 
-▶  [Next-Generation Frontend Testing with Cypress.io](https://javascriptweekly.com/link/51556/web)
+▶  [使用 Cypress.io 进行下一代前端测试](https://javascriptweekly.com/link/51556/web)
 
-[See Why Facebook, Spotify, & Sony Trust CircleCI with Their CI/CD](https://javascriptweekly.com/link/51528/web)
+[看看为什么 Facebook、Spotify 和 Sony 信任 CircleCI 和它的 CI/CD](https://javascriptweekly.com/link/51528/web)
 
-▶  [A Conversation with Ember Co-Creator Tom Dale on Ember 3.0 and Ember's Future](https://javascriptweekly.com/link/51557/web)
+▶  [与 Ember 联合创始人 Tom Dale 就 Ember 3.0 和 Ember 的未来进行对话](https://javascriptweekly.com/link/51557/web)
 
-[A Proposal: Elixir-Style Modules in JavaScript](https://javascriptweekly.com/link/51558/web)
+[一个提案：JavaScript 中的 Elixir 风格 modules](https://javascriptweekly.com/link/51558/web)
 
-[Three Reasons to Use Vue.js in Your Next Web Project](https://javascriptweekly.com/link/51559/web)
+[在下一个 Web 项目中使用 Vue.js 的三个理由](https://javascriptweekly.com/link/51559/web)
 
----
 
 ![Dr. Axel Rauschmayer](https://res.cloudinary.com/cpress/image/upload/v1534501855/xm6jiym0dfvjwzh2t6hp.png)
 
-💬 A Q&A with…  
-Dr. Axel Rauschmayer  
-JavaScript book author and trainer  
-_Munich, Germany_
+> ### 与 Axel Rauschmayer 博士的问答，JavaScript 书籍作者和培训师，德国慕尼黑
+> 
+> 为了庆祝他的新书 [《不耐烦程序员的 JavaScript》](https://javascriptweekly.com/link/51522/web) 的发行，我们采访了曾经的 JavaScript 周刊编辑 [Axel Rauschmayer 博士](https://twitter.com/rauschma)，向他提出了几个问题：
+>
+> **什么是 “不耐烦” 的程序员？**
+>
+> 为什么起名字叫 “不耐烦”，因为希望他们可以立马上手 JavaScript。
+> 
+> 章节分为两部分。首先，基础知识，也就是需要知道的基础是什么？然后，进阶知识，就是一旦你熟悉了该语言，你要做什么？
+> 
+> 据我所知，这是唯一一本涵盖所有 JavaScript 的书，包括最新版本（ES2018）。这也方便了我写书的时候新的 API 可以取代旧的 API （不过我也对废弃 API 提供了相关参考资料）。
+>
+> **您认为最近有哪些 JavaScript 功能未被充分利用且值得更多关注？**
+>
+> 我觉得有三个：
+> 
+> *  如果是 “无语但是重要” 的话，我觉得是 modules 和 classes，因为它们规范了之前的东西。
+> *  对迭代的内置支持，尤其是与解构一起使用：`for (const [i, x] of arr.entries()) console.log(i, x);`
+> *  异步函数和异步迭代让异步编程更爽。它们是从 ES6 中的 Promises 开始的标准化过程的。
+>
+> *Axel Rauschmayer 博士是《不耐烦程序员的 JavaScript》的作者 — 现已出版。*
 
-To celebrate the release of his new book, _[JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web)_, we've caught up with once-_JavaScript Weekly_ editor [Dr. Axel Rauschmayer](https://javascriptweekly.com/link/51529/web) to ask him a couple of questions:
+## 🔧 代码 和 工具
 
-What _is_ an 'impatient' programmer?
+[Tone.js：用于在浏览器中制作交互式音乐的 Web 音频框架](https://javascriptweekly.com/link/51560/web) — 这里有很多 [例子](https://javascriptweekly.com/link/51561/web)
 
-I’m assuming that readers of my latest book are 'impatient' in the sense that they want to get started with JavaScript as quickly as possible.
+[SpaceTime：一个轻量级的 JavaScript 时区库](https://javascriptweekly.com/link/51562/web)
 
-Most chapters are split into two parts. First, the basics, or what is the absolute minimum that you need to know? Then, more advanced stuff, or what should you know once you are more familiar with the language?
+[快速爬取并修复。超过 50 万开发人员使用 Sentry 修复错误](https://javascriptweekly.com/link/51530/web) — 根据提交只通知某些人，并在带有源映射的堆栈跟踪中查看未压缩的代码。
 
-This is the only book, that I’m aware of, that covers _all_ of JavaScript, up to and including the very latest version (ES2018). That allowed me to omit old features that were superseded by better features in recent versions (but I do include references that explain the omitted features).
+[from-html：直接从 HTML 字符串中获取元素引用](https://javascriptweekly.com/link/51563/web) — 一种创建嵌套 DOM 元素的有趣且直接的方法。
 
-What recent JavaScript features do you think are underused and deserve more attention?
+[flowchart.js：将图表的文本表示转换为流程图](https://javascriptweekly.com/link/51564/web) — 想要类似 UML 序列图的东西吗？[来吧！](https://javascriptweekly.com/link/51565/web)
 
-Three stand out for me:
+## 📅 一些即将到来的 JavaScript events
 
-*   In the category “boring, but important”, I count modules and classes, because they provide standardization where we previously had competing and incompatible approaches.
-*   Built-in support for iteration is great, especially if combined with destructuring: `for (const [i, x] of arr.entries()) console.log(i, x);`
-*   Asynchronous functions and asynchronous iteration make asynchronous programming much more pleasant. They are the culmination of a standardization process that started with Promises in ES6.
-
-Dr. Axel Rauschmayer is the author of [JavaScript for Impatient Programmers](https://javascriptweekly.com/link/51522/web) — out now.
-
-## 🔧 Code and Tools
-
-[Tone.js: A Web Audio Framework for Making Interactive Music in the Browser](https://javascriptweekly.com/link/51560/web) — Lots of [examples here.](https://javascriptweekly.com/link/51561/web)
-
-[SpaceTime: A Lightweight JavaScript Timezone Library](https://javascriptweekly.com/link/51562/web)
-
-[Move Fast and Fix Stuff. Over 500K Developers Fix Errors with Sentry](https://javascriptweekly.com/link/51530/web) — Notify only the right person based on the commit and see unminified code in the stack trace with source maps.
-
-[from-html: Get Element References Directly From a String of HTML](https://javascriptweekly.com/link/51563/web) — An interesting and straightforward way to create nested DOM elements.
-
-[flowchart.js: Turn Textual Representation of Diagrams into Flow Charts](https://javascriptweekly.com/link/51564/web) — Want something similar for UML sequence diagrams? [Here you go.](https://javascriptweekly.com/link/51565/web)
-
-## 📅 Some forthcoming JavaScript events
-
-*   [JSCamp 2018 (Sep 22 in Chicago, IL)](https://javascriptweekly.com/link/51531/web) — A one day single track event.
-*   [Framework Summit 2018 (Oct 2-3 in Park City, UT)](https://javascriptweekly.com/link/51532/web) — A new 2 day conference focused on all front end frameworks with keynotes from the teams of the most popular ones.
-*   [JS Interactive (Oct 10-12 in Vancouver, Canada)](https://javascriptweekly.com/link/51533/web) — One of the largest JavaScript events. Organized by the Linux Foundation.
-*   [JSMobileConf (Oct 25-26 in Boston, MA)](https://javascriptweekly.com/link/51534/web) — An impressive roster of speakers for this event with a focus on mobile and IoT.
+*   [JSCamp 2018（9 月 22 日在伊利诺伊州芝加哥举行）](https://javascriptweekly.com/link/51531/web) — 一整天的实事
+*   [2018 年框架峰会（10 月 2 日至 3 日，犹他州帕克城）](https://javascriptweekly.com/link/51532/web) — 一个为期 2 天的会议专注于所有前端框架，并由最受欢迎的团队发表主题演讲。
+*   [JS Interactive（10 月 10 日至 12 日，加拿大温哥华）](https://javascriptweekly.com/link/51533/web) — 最大的 JavaScript 事件之一。由 Linux 基金会组织。 
+*   [JSMobileConf（10 月 25 日至 26 日，马萨诸塞州波士顿）](https://javascriptweekly.com/link/51534/web) — 本次活动令人深刻的演讲者，重点关注移动和物联网。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/README.md)
-> * 译者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：
