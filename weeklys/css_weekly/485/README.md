@@ -1,5 +1,5 @@
 ---
-title: 'CSS Weekly #485'
+title: CSS Weekly #485
 date: '2021-12-15'
 categories: ["CSS Weekly"]
 publish: true

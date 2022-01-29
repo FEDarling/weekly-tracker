@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '0 21 * * *'
 jobs: 
-  add-new:
+  add-new-weeklys:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,17 +12,14 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run new
-      - name: Commit files
-        run: |
-          git config --local user.email "kim.yang.gh@outlook.com"
-          git config --local user.name "KimYangOfCat"
-          git status
-          git add .
-          git commit -m "script: add new weekly" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: creating Pull Requests
+        uses: peter-evans/create-pull-request@v3  
         with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: tracker
-          force: true
-    
+          token: ${{ secrets.ACCESS_TOKEN }}
+          commit-message: 'add new weeklys'
+          branch-suffix: short-commit-hash
+          title: 添加新的周刊
+          body: "**添加新的周刊，请手动格式化所有新周刊，只需删除重复信息以及推广信息，然后对其中分类添加二级标题即可**"
+          assignees: daodaolee
+          team-reviewers: weekly-tracker
+          labels: 待格式化
