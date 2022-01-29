@@ -64,4 +64,4 @@ Ricardo Oliva Alonso 使用 CSS 和 GSAP 创建了一个炫酷的 3d 动画宇�
 > * [查看原文](https://css-weekly.com/issue-485/)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
 > * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：
+> * 校对者：[Chen](https://github.com/LilyChenlin)

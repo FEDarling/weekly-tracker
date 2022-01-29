@@ -43,7 +43,7 @@ module.exports = [
       {
         type: 'button',
         text: '加入',
-        link: 'https://github.com/FEDarling/fe-translate-weekly'
+        link: 'https://github.com/FEDarling/weekly-tracker'
       }
     ]
   }],
