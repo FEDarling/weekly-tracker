@@ -1,7 +1,8 @@
-name: sync-to-gitee
+name: syncToGitee
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
@@ -9,7 +10,7 @@ jobs:
       - name: Mirror the Repos to Gitee.
         uses: Yikun/hub-mirror-action@master
         with:
-          src: 'github/FEDarling'
-          dst: 'gitee/FEDarling'
+          src: 'github/daodaolee'
+          dst: 'gitee/daodaolee'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
