@@ -11,6 +11,6 @@ jobs:
         uses: Yikun/hub-mirror-action@master
         with:
           src: 'github/daodaolee'
-          dst: 'gitee/daodaolee'
+          dst: 'gitee/daodao_lee'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
