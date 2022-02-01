@@ -5,7 +5,7 @@ categories: ["JavaScript Weekly"]
 publish: true
 ---
 
-## The Best of JavaScript Weekly in 2021
+## 2021年最棒的 JavaScript Weekly
 
 这是今年的最后一篇（我们在2022年1月7日回来）所以我们回顾了2021年的一些最受欢迎的文章，包括文章，工具，视频等。在本篇中，肯定会有一些引起你注意的东西:-)
 
