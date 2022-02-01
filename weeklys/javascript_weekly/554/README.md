@@ -1,95 +1,94 @@
 ---
 title: 'JavaScript Weekly #554'
-date: '2021-09-03'
+date: '2022-02-01'
 categories: ["JavaScript Weekly"]
 publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chakx4rmc7iv0d3wob8d.jpg)](https://javascriptweekly.com/link/113306/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chakx4rmc7iv0d3wob8d.jpg)
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-[Visual Studio Code August 2021 Released](https://javascriptweekly.com/link/113306/web "code.visualstudio.com") — It always feels odd linking to these as they name releases for the _prior_ month, but new features include automatic language detection, built-in bracket colorization (enabled via `editor.bracketPairColorization.enabled`), improved terminal glyph rendering, inline hints for JS/TS param names and types, and improved debug stepping in async functions and Node.js internals.
-
-[A Look at an ES2022 Feature: Class Static Initialization Blocks](https://javascriptweekly.com/link/113307/web "2ality.com") — You might not be blamed for [thinking JavaScript is going a bit Java-y](https://javascriptweekly.com/link/113308/web) here but, nonetheless, this proposal is at stage 4 and scheduled to be included in ES2022.
+[Visual Studio Code 2021 年 8 月更新](https://javascriptweekly.com/link/113306/web "code.visualstudio.com") — 新功能包括自动语言检测、内置括号着色（通过 `editor.bracketPairColorization.enabled` 启用）、改进了终端字形渲染、JS/TS 的内联提示参数名称和类型，也改进了异步函数和 Node.js 内部的调试步骤。
 
 [ES2022 特性：类静态初始化块](./es2022_feature_class_static_initialization_blocks.md) — 这个提议处于包含在 ES2022 的第 4 阶段，看起来也不觉得 JavaScript 的这种写法偏向于 Java。
 
-💡 Like this ↑? Hemanth HM has a [roundup of updates from TC39's 85th meeting](https://javascriptweekly.com/link/113309/web) on more future (potential) JavaScript features, including the [hack pipe operator](https://javascriptweekly.com/link/113310/web) and [`Array.fromSync`](https://javascriptweekly.com/link/113311/web).
+💡 像这样 ↑ ？ Hemanth HM 汇总了 [TC39 第 85 次会议](https://javascriptweekly.com/link/113309/web) 在未来（潜在）JavaScript 新特性的更新，包括 [hack pipe](https://javascriptweekly.com/link/113310/web) 运算符和 [Array.fromSync](https://javascriptweekly.com/link/113311/web)。
 
-[![](https://copm.s3.amazonaws.com/d99a6231.png)](https://javascriptweekly.com/link/113286/web)
+![](https://copm.s3.amazonaws.com/d99a6231.png)
 
-[Search Across the Open Source Universe with Sourcegraph](https://javascriptweekly.com/link/113286/web "sourcegraph.com") — Sourcegraph searches over 1 million open source repos from GitHub & GitLab along with your own public & private (public beta) repos. No installation required. Sourcegraph makes it easier to search, discover & understand open source projects. Start searching now.
+[使用 Sourcegraph 在开源宇宙中搜索](https://javascriptweekly.com/link/113286/web "sourcegraph.com") — Sourcegraph 可以在 GitHub 和 GitLab 的超过 100 万个开源存储库以及您自己的公共和私有（公共测试版）存储库上使用，无需安装。 Sourcegraph 让搜索、发现和阅览开源项目变得更加容易。
 
-[Electron 14.0.0 Released](https://javascriptweekly.com/link/113312/web "www.electronjs.org") — The latest major version of the popular cross-platform desktop app framework is here. It’s moving to an eight week stable release schedule, so Electron 15 is due in just three weeks.. but for now you get Chromium 93, Node.js 14.17, and V8 9.3 support, experimental cookie encryption support, and a few _removals_ (such as [the `remote` module](https://javascriptweekly.com/link/113313/web)).
+[Electron 14.0.0 发布](https://javascriptweekly.com/link/113312/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架的最新版本已发布。预计稳定发布还有八周，因此 Electron 15 将在三周后发布。现在您可以获得 Chromium 93、Node.js 14.17 和 V8 9.3 支持、实验性 cookie 加密支持和一些删除（例如作为 [远程模块](https://javascriptweekly.com/link/113313/web)）。
 
-[Neutralino 2.7: Portable, Lightweight Desktop App Framework](https://javascriptweekly.com/link/113314/web "neutralino.js.org") — Think Electron (above) but rather than _including_ a Chromium distribution with every app, it uses the local platform’s built-in ‘webview.’ This equals (much) smaller, faster apps, though you then have to be aware of each webview’s different quirks.
+[Neutralino 2.7：便携、轻量级的桌面应用程序框架](https://javascriptweekly.com/link/113314/web "neutralino.js.org") — 想想 Electron，它没有在每个应用程序中都包含 Chromium 发行版，而是使用本地平台的内置“webview”。也就是说它会更小、更快，虽然您得必须了解每个 webview 的兼容性。
 
-## **QUICK BITS:**
+## **快览**
 
-*   Node.js branches v12 and v14 have [received new releases](https://javascriptweekly.com/link/113315/web) to fix some path and symlink related vulnerabilities. Node v16 is fine.
+*   Node.js v12 和 v14 [已更新](https://javascriptweekly.com/link/113315/web)，以修复一些与路径和符号链接相关的漏洞。v16 很棒！
     
-*   A collection of [interactive learning tools](https://javascriptweekly.com/link/113316/web) for front-end dev concepts.
+*   一组用于前端开发概念的 [交互式学习](https://javascriptweekly.com/link/113316/web) 工具。
     
-*   [An explanation of Twitter's '`div` soup' and 'uglified' CSS](https://javascriptweekly.com/link/113317/web) and how _React Native for Web_ is used.
+*   [讲述了 Twitter 的 “div soup” 和 “uglified” CSS](https://javascriptweekly.com/link/113317/web) 以及如何使用 React Native for Web。
     
-*   A developer has created a proof-of-concept [anti debugging technique](https://javascriptweekly.com/link/113318/web) where JS code can detect that it's being debugged and change the flow of execution, if it so wished.
+*   开发人员创建了一种 [概念验证反调试技术](https://javascriptweekly.com/link/113318/web)，JS 代码可以检测到它正在被调试并更改执行流程。
     
-## **RELEASES:**
+## **新特性:**
 
-[socket.io 4.2.0](https://javascriptweekly.com/link/113287/web) – Realtime comms library.  
-[Relay 12.0](https://javascriptweekly.com/link/113288/web) – Data-driven React app framework.  
-[OpenPGP.js 5.0.0](https://javascriptweekly.com/link/113289/web) – OpenPGP implementation in JS.  
-[on-change 4.0](https://javascriptweekly.com/link/113290/web) – Watch objects and arrays for changes.  
-[AdonisJS August Release](https://javascriptweekly.com/link/113319/web) – Full-featured Node.js web app framework.
+[socket.io 4.2.0](https://javascriptweekly.com/link/113287/web) — 实时通讯库。  
+[Relay 12.0](https://javascriptweekly.com/link/113288/web) — 数据驱动的 React 应用程序框架。
+[OpenPGP.js 5.0.0](https://javascriptweekly.com/link/113289/web) — JS 中的 OpenPGP 实现。
+[on-change 4.0](https://javascriptweekly.com/link/113290/web) — 观察对象和数组的变化。
+[AdonisJS August Release](https://javascriptweekly.com/link/113319/web) — 功能齐全的 Node.js Web 应用程序框架。
 
-## 📖 Tutorials, Opinions & Stories
+## 📖 文章，意见 & 教程
 
-['I Built A $300K/Year Vue.js Component Library'](https://javascriptweekly.com/link/113320/web "www.starterstory.com") — Not much technical stuff here, but an interesting (and possibly inspiring!) interview with the creator of [Vuetify](https://javascriptweekly.com/link/113321/web), a Vue.js UI library, on how he’s made the project sustainable and a good source of income.
+[我构建了一个 30 万美元/年的 Vue.js 组件库](https://javascriptweekly.com/link/113320/web "www.starterstory.com") — 本篇没有太多技术内容，而是对 [Vuetify](https://javascriptweekly.com/link/113321/web)（一个 Vue.js UI 库）的创建者进行了一次有趣的（并且可能是鼓舞人心的！）采访，讲述了他如何创建、维护项目并因此获得收入。
 
-[Working with Tree Data Structures](https://javascriptweekly.com/link/113322/web "stackfull.dev") — The basics of traversal: both breadth first and depth first. Complete with visuals to help you get the ideas more quickly.
+[使用树数据结构](https://javascriptweekly.com/link/113322/web "stackfull.dev") — 遍历的基础：广度优先和深度优先。完整的视觉效果可帮助您更快的构思。
 
-[Building a Serverless GIF Generator with AWS Lambda](https://javascriptweekly.com/link/113323/web "aws.amazon.com") — Let’s say you host videos and want to show GIF animations as a sort of preview feature in the UI. Generating such GIF files from videos is a compute-intensive operation but you can use something like AWS Lambda to create a scalable service to handle it for you.
+[使用 AWS Lambda 构建 Serverless GIF 生成器](https://javascriptweekly.com/link/113323/web "aws.amazon.com") — 假设您想托管视频并希望将 GIF 动画显示为 UI 中的一种预览功能。从视频生成此类 GIF 文件是一种计算密集型操作，您可以使用 AWS Lambda 之类的工具来创建可扩展的服务来处理它。
 
-[Build a React Chat Application](https://javascriptweekly.com/link/113294/web "getstream.io") — In a few simple steps we’ll show you how to launch a chat app using our React component library.
+[构建一个 React 聊天应用程序](https://javascriptweekly.com/link/113294/web "getstream.io") — 通过几个简单的步骤，我们将向您展示如何使用我们的 React 组件库构建一个聊天应用程序。
 
-[Common `npm` Mistakes Every Developer Should Avoid](https://javascriptweekly.com/link/113324/web "blog.bitsrc.io") — Learn how to avoid common mistakes when managing dependencies, publishing packages, and more.
+[每个开发人员都应该避免的常见“npm”错误](https://javascriptweekly.com/link/113324/web "blog.bitsrc.io") — 了解如何在管理依赖项、发布包等时避免常见错误。
 
-[State Management in Svelte Apps](https://javascriptweekly.com/link/113325/web "auth0.com") — A tutorial on how to use the Svelte state management store to manage state in Svelte applications.
+[Svelte 应用程序中的状态管理](https://javascriptweekly.com/link/113325/web "auth0.com") — 如何使用 Svelte 状态管理存储来管理 Svelte 应用程序中的状态。
 
-[Why Electron Apps Are Fine](https://javascriptweekly.com/link/113326/web "nielsleenheer.com") — While Niels agrees with many common criticisms of Electron, his users don’t care, and he says you shouldn’t care either.
+[为什么 Electron 应用程序很棒](https://javascriptweekly.com/link/113326/web "nielsleenheer.com") — 虽然 Niels 接受 Electron 的很多批评，但他的用户并不关心，他说你也不应该关心。
 
-[State Management in Next.js Apps](https://javascriptweekly.com/link/113327/web "www.smashingmagazine.com") — Managing state in a Next.js application can get tricky very quickly. This looks at some patterns to help avoid complexity in common scenarios and avoid “provider hell.”
+[Next.js 应用程序中的状态管理](https://javascriptweekly.com/link/113327/web "www.smashingmagazine.com") — 在 Next.js 应用程序中管理状态会很棘手。本文将着眼于一些模式，避免一些复杂操作和 “provider 地狱”。
 
-[A Guide to React Context and the `useContext()` Hook](https://javascriptweekly.com/link/113328/web)  
+[React Context 和 `useContext()` Hook 指南](https://javascriptweekly.com/link/113328/web)  
 
-[Memoizing Async Functions in JavaScript](https://javascriptweekly.com/link/113329/web)  
+[JavaScript 中的内存异步函数](https://javascriptweekly.com/link/113329/web)  
 
-## 🛠 Code & Tools
+## 🛠 代码 & 工具
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eaddyuhb98c2dzo607ou.jpg)](https://javascriptweekly.com/link/113330/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eaddyuhb98c2dzo607ou.jpg)
 
-[TypeIt: A Versatile Pretend-Typing Effect Utility](https://javascriptweekly.com/link/113330/web "typeitjs.com") — Bills itself as _‘the most versatile JavaScript typewriter utility on the planet’_. Has a very nice fluent API, but note while it’s free for personal/OSS use, you need to pay (a modest amount) for a commercial license.
+[TypeIt：一个多功能的假装打字效果实用程序](https://javascriptweekly.com/link/113330/web "typeitjs.com") — 自称是 “地球上最通用的 JavaScript 打字机实用程序”。有易用的 API，但请注意，虽然它对个人/OSS 使用是免费的，但您需要支付（少量）商业许可证。
 
-[Stitches 1.0: The Modern Styling Library](https://javascriptweekly.com/link/113331/web "stitches.dev") — Another CSS-in-JS solution, this one offering high performance, SSR, theming, critical path CSS, an intuitive API, and lots more.
+[Stitches 1.0：现代样式库](https://javascriptweekly.com/link/113331/web "stitches.dev") — 另一种 CSS-in-JS 解决方案，它提供了高性能、SSR、主题、关键路径 CSS、直观的 API 等等。
 
-[Run Faster and Safer Than Linux with Open Source Unikernels](https://javascriptweekly.com/link/113296/web) — Deploy with no ops and no cloud lock-in. Run 2X as fast on Google. Run 3X as fast on AWS and deploy in 10s of seconds.
+[使用开源 Unikernel 要比 Linux 运行得更快、更安全](https://javascriptweekly.com/link/113296/web) — 无需操作和云锁定即可部署。在 Google 上以 2 倍的速度运行。在 AWS 上以 3 倍的速度运行并在 10 秒内完成部署。
 
-[smartcrop.js: Content Aware Image Cropping](https://javascriptweekly.com/link/113332/web "github.com") — Given an image, this can help find the ‘best’ part of the image to crop down to. Works in the browser _and_ in Node.
+[smartcrop.js：内容感知图像裁剪](https://javascriptweekly.com/link/113332/web "github.com") — 给定一张图像，它可以对图像的 “最佳” 部分进行裁剪，且运行在浏览器和 Node.js 中。
 
-[Roadroller: A Heavyweight 'Crusher' for JavaScript Code](https://javascriptweekly.com/link/113333/web "lifthrasiir.github.io") — Aimed more at demo-style coding than production apps, the goal of this tool is to crush/minify down JavaScript code to as small a size as possible. [GitHub repo](https://javascriptweekly.com/link/113334/web).
+[Roadroller：JavaScript 代码的重量级 “破碎机”](https://javascriptweekly.com/link/113333/web "lifthrasiir.github.io") — 该工具是为了生成演示风格的编码而不是构建应用程序，其目标是将 JavaScript 代码压缩/缩小到尽可能小的尺寸，[GitHub 存储库](https://javascriptweekly.com/link/113334/web)。
 
-[Crank.js: Write JSX-Driven Components with Functions, Promises and Generators](https://javascriptweekly.com/link/113335/web "crank.js.org") — The usual JSX syntax you know and love for writing HTML-like code directly in JavaScript but all components are just functions or generator functions. See some [example code](https://javascriptweekly.com/link/113336/web).
+[Crank.js：使用Functions、Promises 和 Generators 编写 JSX 驱动的组件](https://javascriptweekly.com/link/113335/web "crank.js.org") — 您可能喜欢直接在 JavaScript 中编写类似 HTML 的代码的常用 JSX 写法，但是所有组件也都只是 Functions 或 Generators。 [查看一些示例代码](https://javascriptweekly.com/link/113336/web)。
 
-[Announcing JavaScript Security Sessions at SnykCon | Register for Free](https://javascriptweekly.com/link/113295/web "snyk.io")
+[在 SnykCon 上宣布 JavaScript 安全会议 | 免费注册](https://javascriptweekly.com/link/113295/web "snyk.io")
 
-[parse-domain: Split Hostnames Into Parts](https://javascriptweekly.com/link/113337/web "github.com") — Given a hostname, pull out the subdomains, domain, and top-level domains, including ‘effective’ top-level domains as on the [public suffix list](https://javascriptweekly.com/link/113338/web).
+[parse-domain：将主机名拆分为多个部分](https://javascriptweekly.com/link/113337/web "github.com") — 给定主机名，提取子域、域和顶级域，包括 [公共后缀列表](https://javascriptweekly.com/link/113338/web) 中的 “有效” 顶级域。
 
-[Mafs: React Components for Math Visualization](https://javascriptweekly.com/link/113339/web "mafs.dev") — A well thought out set of sophisticated mathematics visualizations. It is supported with a nicely executed just-what-you-need-to-know [set of guides](https://javascriptweekly.com/link/113340/web) including one which will allow you to plan your own [suborbital spaceflight](https://javascriptweekly.com/link/113341/web).
+[Mafs：用于数学可视化的 React 组件](https://javascriptweekly.com/link/113339/web "mafs.dev") — 一套较完善的的复杂数学可视化组件。它有一套不错的 [“你需要知道的” 指南](https://javascriptweekly.com/link/113340/web) 支持，其中包括一个可以让您计划自己的 [亚轨道太空飞行](suborbital spaceflight)的指南。
 
-[bundle: A Quick npm Package Size Checker](https://javascriptweekly.com/link/113342/web "bundle.js.org") — Enter a package name, then hit the “run” button and this tool will give you the minified, bundled, and gzipped size of the package.
+[bundle：一个快速检查 npm 包大小的检查器](https://javascriptweekly.com/link/113342/web "bundle.js.org") — 输入包名称，然后点击 “run” 按钮，此工具将为您提供压缩、捆绑和展示 gzip 压缩后的包大小。
+
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/README.md)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
