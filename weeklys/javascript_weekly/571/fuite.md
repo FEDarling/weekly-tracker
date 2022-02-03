@@ -1,5 +1,5 @@
 ---
-title: fuite监测web应用中内存泄漏的工具
+title: Fuite：监测web应用中内存泄漏的工具
 date: '2022-01-07'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['Tool']
@@ -96,6 +96,7 @@ DOM size grew by 6 node(s) 
 [⛱  fuite GitHub](https://github.com/nolanlawson/fuite)
 
 [⛱  作者视频](https://youtu.be/H0BHL2lo89M)
+
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps/)对比阅读
