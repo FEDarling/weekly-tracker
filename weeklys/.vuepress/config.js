@@ -25,7 +25,7 @@ module.exports = {
     nextLinks: true,
     prevLinks: true,
     docsRepo: 'FEDarling/weekly-tracker',
-    docsBranch: 'maintain',
+    docsBranch: 'main',
     docsDir: 'weeklys',
     editLinks: true,
     editLinkText: '发现错误？欢迎斧正',
