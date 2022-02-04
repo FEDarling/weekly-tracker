@@ -1,5 +1,7 @@
 name: get new weekly
 on:
+  push:
+    branchs: fix/CI
   schedule:
     - cron: '0 21 * * *'
 jobs: 
@@ -16,7 +18,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3  
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          committer: KimYangOfCat kim.yang.yj@outlook.com
+          committer: KimYangOfCat <kim.yang.yj@outlook.com>
           commit-message: 'add new weeklys'
           branch-suffix: short-commit-hash
           title: 添加新的周刊
