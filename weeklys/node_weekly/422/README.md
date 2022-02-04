@@ -63,7 +63,7 @@ publish: false
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/node_weekly/422/README.md)
+> * [查看原文](https://nodeweekly.com/issues/422)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/422/README.md)
 > * 译者：
 > * 校对者：

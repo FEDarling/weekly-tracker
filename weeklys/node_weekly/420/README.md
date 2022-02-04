@@ -51,8 +51,8 @@ publish: false
 [SuperTest 6.2: Super-Agent Driven Library for Testing Node HTTP Servers](https://nodeweekly.com/link/118402/web "github.com") — Make assertions about HTTP servers using a fluent API.
 
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]()对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/)
+> * [查看原文](https://nodeweekly.com/issues/420)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/420)
 > * 译者：
 > * 校对者：
 
