@@ -7,55 +7,50 @@ publish: true
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1639490464/fnwgemhn7zfenyjq6jg8.png)
 
-## The Best of Node Weekly in 2021
+## 2021 年最佳 Node 周刊
 
-This is the last issue of the year (we're back on January 13 as we're taking a two week break) so we're taking a look back at some of the most popular links that we've shared throughout 2021. There's bound to be a few that escaped your attention at the time :-)  
-\_\_\_\_  
+这是今年的最后一期（我们将在 1 月 13 日返回，因为我们要休息两周）所以我们回顾一下我们在 2021 年共享的一些最受欢迎的链接。一定会有一些当时没有引起你的注意:-)
+\_\_  
 _Peter Cooper, your editor_
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-1: [Ask HN: Why is Node.js 'Hated' So Much?](https://nodeweekly.com/link/117820/web "news.ycombinator.com") — Ok, this one _clearly_ caught your attention. We shared this Hacker News discussion [back in October](https://nodeweekly.com/link/117821/web) and there's plenty of comments to look over here – many fair, some not. We said at the time that it's best to remain philosophical on things like this and remember C++’s creator who said: _“There are only two kinds of languages: the ones people complain about and the ones nobody uses.”_
+1: [问 HN：为什么 Node.js 如此 “讨厌” ？](https://nodeweekly.com/link/117820/web "news.ycombinator.com") — 好的，这个显然引起了你的注意。我们在 10 月份 [分享](https://nodeweekly.com/link/117821/web) 了这个 Hacker News 讨论，这里有很多评论可以看 — 有些是公平的，有些不是。我们当时说过，最好在这样的事情上保持哲学，并记住 C++ 的创造者所说的：“只有两种语言：人们抱怨的语言和没人使用的语言。”
 
-2: [Guidelines for Choosing a Node.js Framework](https://nodeweekly.com/link/117822/web "simonplend.com") — Hapi? Koa? Express? Slow down. Unlike a lot of articles, this one from late September doesn’t give you _any_ specific framework suggestions, but instead arms you with what you should be looking at when weighing up your options.
+2: [Node.js 框架选择指南](./nodejs_framework_selection_guide.md) — Hapi? Koa? Express? 别着急。与许多文章不同，这篇来自 9 月下旬的文章没有为你提供任何具体的框架建议，而是为你提供在选择框架时应该考虑的内容。
 
-[Node.js 框架选择指南](./nodejs_framework_selection_guide.md) Hapi? Koa? Express? 别着急。与许多文章不同，这篇来自 9 月下旬的文章没有为你提供任何具体的框架建议，而是为你提供在选择框架时应该考虑的内容。
-Simon Plenderleith
+![](https://copm.s3.amazonaws.com/ef86f60f.png)
 
-[![](https://copm.s3.amazonaws.com/ef86f60f.png)](https://nodeweekly.com/link/117823/web)
+> [不复杂的认证](https://nodeweekly.com/link/117823/web) — 这是构建身份验证、SSO、多用户访问控制的更简单的方法。适用于 Node、React、Vue 等的优秀文档和示例。
 
-[Auth Without Complexity](https://nodeweekly.com/link/117823/web) — Here is a much simpler way to build authentication, SSO, multi-tenancy and access control. Great docs and examples for Node, React, Vue, and more.
+3: [使用 BASIC 原则编写干净的 JavaScript 测试](https://nodeweekly.com/link/117824/web "yonigoldberg.medium.com") — 介绍应用五个关键原则来缩短、清理和简化基于 JavaScript 和 Node.js 的测试套件。
 
-3: [Writing Clean JavaScript Tests with the BASIC Principles](https://nodeweekly.com/link/117824/web "yonigoldberg.medium.com") — An introduction to applying five key principles to shorten, clean, and simplify JavaScript and Node.js-based test suites.
+4: [NestJS 的 100 秒呈现](https://nodeweekly.com/link/117825/web "www.youtube.com") — 这段视频于 8 月分享，介绍了 [Nest](https://nodeweekly.com/link/117826/web) 的高级概念，它是一个用于构建可扩展 Node.js 应用程序的框架，它提供了更多功能（超出了仅使用 Express 或 Fastify 之类的东西可能会得到的东西）。全部在大约两分钟内呈现。
 
-4: [NestJS Explained in 100 Seconds](https://nodeweekly.com/link/117825/web "www.youtube.com") — This video, shared back in August, introduces the high-level concepts of [Nest](https://nodeweekly.com/link/117826/web), a framework for building scalable Node.js apps that offers more (beyond what you might get with something like Express or Fastify alone). All presented in around two minutes.
+5: [Node 中的错误处理综合指南](https://nodeweekly.com/link/117827/web "www.honeybadger.io") — Node 提供了很多方法来捕捉错误和抛出异常 — 上个月的这篇文章略读了您可能想要考虑的一些主要领域。
 
-5: [A Comprehensive Guide to Error Handling in Node](https://nodeweekly.com/link/117827/web "www.honeybadger.io") — Node offers up plenty of ways for errors to crop up and exceptions to be thrown – this post from last month skims through some of the main areas you may want to consider.
+6: [40 多个 Node.js 集成测试最佳实践](https://nodeweekly.com/link/117828/web "github.com") — 这个流行的存储库深入研究了各种用于创建良好组件/集成测试的快速模式和实践。还有一个演示应用程序和使用 Jest、Mocha、Express、Fastify 和 Nest.js 的示例。
 
-6: [40+ Node.js Integration Test Best Practices](https://nodeweekly.com/link/117828/web "github.com") — This popular repository digs into a variety of quick-fire patterns and practices for creating good component/integration tests. There’s also a demo app and examples to check out using Jest, Mocha, Express, Fastify and Nest.js.
+7: [将 Google Drive 用作 CMS](https://nodeweekly.com/link/117830/web "css-tricks.com") — 7 月的这篇文章提供了一些不同的东西 — 探索使用 Google Drive 存储内容，以通过其 API 和 Node.js 呈现到网站。
 
-[The Ultimate Guide to Cardinality for Observability](https://nodeweekly.com/link/117829/web "go.lightstep.com")
+8: [Tasuku (タスク): Node 的最小任务运行器](https://nodeweekly.com/link/117831/web "github.com") — 日语中的 “任务”，该工具提供了一种将流程分解为小任务的简洁方式，这些小任务可以以正确的顺序运行，并且在终端中优雅地显示进度。
 
-7: [Using Google Drive as a CMS](https://nodeweekly.com/link/117830/web "css-tricks.com") — This post from July offers up something a little bit different — an exploration of using Google Drive to store content for rendering out to a site by way of its API and Node.js.
+9: [Node v16.9.0 (Current) 发布](https://nodeweekly.com/link/117832/web "nodejs.org") — 从 9 月初开始，这个版本的重要补充是 [Corepack](https://nodeweekly.com/link/117833/web)，这是一个实验性工具，用于直接在 Node 发行版本身内管理包管理器。
 
-8: [Tasuku (タスク): A Minimal Task Runner for Node](https://nodeweekly.com/link/117831/web "github.com") — Japanese for ‘task’, this tool provides a clean way to break up processes into small tasks which can then be run in the right order with progress displayed elegantly in the terminal.
+10: [Node 登录最佳实践](https://nodeweekly.com/link/117834/web "blog.appsignal.com") — 一系列关于日志记录要点的提示 — 例如避免记录敏感信息、编写描述性消息以及正确使用日志记录级别。
 
-9: [Node v16.9.0 (Current) Released](https://nodeweekly.com/link/117832/web "nodejs.org") — The big addition to this release from early September was [_Corepack_,](https://nodeweekly.com/link/117833/web) an experimental tool for managing package managers directly within the Node distribution itself.
+11: [每个开发人员都应该避免的常见 “npm” 错误](https://nodeweekly.com/link/117836/web "blog.bitsrc.io") — 关于如何在管理依赖项、发布包等时避免常见错误的建议，这里有一些值得遵循的提示。
 
-10: [Best Practices for Logging in Node](https://nodeweekly.com/link/117834/web "blog.appsignal.com") — A collection of tips walking through logging essentials - things like avoiding logging sensitive information, writing descriptive messages, and using logging levels correctly.
+12: [Node.js 的垃圾回收机制](https://nodeweekly.com/link/117837/web "blog.risingstack.com") — 垃圾回收和内存管理如何在 Node.js 中工作，本文附有插图和代码示例。这篇文章于 9 月更新。
 
-11: [Common `npm` Mistakes Every Developer Should Avoid](https://nodeweekly.com/link/117836/web "blog.bitsrc.io") — Advice on how to avoid common mistakes when managing dependencies, publishing packages, etc, always goes down well — these remain tips worth following.
+13: [Deno 好么？看看 “Node Killer” 吧](https://nodeweekly.com/link/117838/web "blog.bitsrc.io") — 这不是一篇特别深刻的文章，但它对 Node Weekly 读者的吸引力提醒我们，可以说，偶尔看看 “围栏的另一边” 发生了什么是值得的。当然，Deno 在 2021 年继续保持良好增长。
 
-12: [Node.js Garbage Collection Explained](https://nodeweekly.com/link/117837/web "blog.risingstack.com") — Explains how garbage collection and memory management works in practice with Node.js complete with illustrations and code examples. This post was updated in September.
+14: [用 Rust 来增强 Node](https://nodeweekly.com/link/117840/web "yieldcode.blog") — 10 月份的这篇文章探讨了您是否可以将 Node 代码与用 Rust 编写的东西集成？答案是肯定的，这篇文章是对所涉及概念的基本介绍。
 
-13: [Is Deno Still a Thing? A Look at the Status of the 'Node Killer'](https://nodeweekly.com/link/117838/web "blog.bitsrc.io") — This isn't a particularly deep piece, but its appeal with Node Weekly readers is a reminder that it's often worth the occasional look at what's going on on the 'other side of fence', so to speak. Deno has, of course, continued to grow well in 2021.
+15: [在具有工作线程的 Node 中运行 CPU 密集型任务](https://nodeweekly.com/link/117841/web "yarin.dev") — 通过使用 [工作线程](https://nodeweekly.com/link/117842/web) 来超越 Node 天生的单线程特性的全面而实用的介绍。
 
-14: [Supercharging Node with Rust](https://nodeweekly.com/link/117840/web "yieldcode.blog") — This post from October explored whether you can integrate Node code with things written in Rust? The answer is yes, and this post is a basic introduction to the concepts involved.
+## **总结**
 
-15: [Running CPU-Bound Tasks in Node with Worker Threads](https://nodeweekly.com/link/117841/web "yarin.dev") — A thorough, practical introduction to using [worker threads](https://nodeweekly.com/link/117842/web) to get beyond Node’s naturally single threaded nature.
-
-## **That's a wrap..**
-
-We're taking a couple of weeks off for Christmas and the New Year, so **we'll be back with you on January 13, 2022.** Many thanks for reading Node Weekly this year. From all of us here at Cooperpress, season's greetings to you, however you celebrate (or not!) 😄  
+我们将在圣诞节和新年休假几周，所以 **我们将在 2022 年 1 月 13 日与您见面。** 非常感谢您阅读今年的 Node Weekly。来自 Cooperpress 的所有人，向您致以节日的问候，无论您庆祝（或不庆祝！）😄
 \_\_  
 _Peter Cooper, your editor_
 
@@ -63,4 +58,5 @@ _Peter Cooper, your editor_
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nodeweekly.com/link/117819/web)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/419/README.md)
-> * 译者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
