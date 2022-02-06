@@ -2,7 +2,7 @@
 title: 一个价值800万美元的娇羞按钮
 date: '2021-12-24'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
-tags: ['移动端']
+tags: ['JavaScript']
 #没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
 #请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: true
