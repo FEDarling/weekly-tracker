@@ -6,10 +6,10 @@ publish: true
 ---
 [CSS中 :has() 选择器不仅仅是 “父选择器”](./has_selector.md)
 
+![The CSS :has() Selector Is Way More Than a “Parent Selector”](https://css-weekly.com/wp-content/uploads/2021/12/the-css-has-selector-is-way-more-than-a-parent-selector.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-
-![The CSS :has() Selector Is Way More Than a “Parent Selector”](https://css-weekly.com/wp-content/uploads/2021/12/the-css-has-selector-is-way-more-than-a-parent-selector.jpg)
 
 Bramus Van Damme 介绍有关 `:has()` 选择器的知识，并且 Safari Technology Preview 137 版本也兼容了它。
 
