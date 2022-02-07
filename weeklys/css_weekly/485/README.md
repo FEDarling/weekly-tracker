@@ -5,11 +5,11 @@ categories: ["CSS Weekly"]
 publish: true
 ---
 
-[打破常规](https://alistapart.com/article/breaking-out-of-the-box/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
-
 ![打破常规](https://css-weekly.com/wp-content/uploads/2021/12/breaking-out-of-the-box.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 Patrick Brosset 解释了在渐进式 Web 应用程序（PWA）里， Window Controls Overlay 是如何操作 app 的整个页面的，其中也包括了标题栏出现的默认位置。
 
 [用 CSS 相对颜色操作动态颜色](./dynamic_color_manipulation_with_css_relative_colors.md)
