@@ -108,7 +108,7 @@ weeklys.forEach(item => {
 	if (weeklyDir != 'css_weekly') {
 		weeklyUrl = item[2] + weeklyNum;
 	} else {
-		weeklyUrl = item[2] + '/issue-' + weeklyNum;
+		weeklyUrl = item[2] + '/issue-' + weeklyNum + '/';
 	}
 
 	start(weeklyName, weeklyDir, weeklyUrl, weeklyNum, className);
