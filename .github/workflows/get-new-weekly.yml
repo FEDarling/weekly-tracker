@@ -1,6 +1,5 @@
 name: tracker new weekly
 on:
-  push:
   schedule:
     - cron: '1 6 * * 5'
 jobs: 
