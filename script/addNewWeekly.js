@@ -31,7 +31,7 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('data', chunk => body += chunk);
 
 		resp.on('end', () => {
-			console.log(body)
+			// console.log(body)
 			const $ = cheerio.load(body);
 			const html = $(className).html();
 			// console.log(html)
