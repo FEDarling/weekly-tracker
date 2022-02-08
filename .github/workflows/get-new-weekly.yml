@@ -11,8 +11,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm run new
+          cache: 'pnpm'
+      - run: pnpm install
+      - run: pnpm run new
       - name: creating Pull Requests
         uses: peter-evans/create-pull-request@v3  
         with:
