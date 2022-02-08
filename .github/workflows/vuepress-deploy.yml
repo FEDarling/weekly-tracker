@@ -1,4 +1,4 @@
-name: vuepress-deploy
+name: github pages deploy
 on:
   push:
     branches: [main]
