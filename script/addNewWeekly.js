@@ -33,7 +33,7 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('end', () => {
 			const $ = cheerio.load(body);
 			const html = $(className).html();
-
+			console.log(html)
 			if (html != null) {
 				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
                 fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
