@@ -2,7 +2,7 @@ name: tracker new weekly
 on:
   push:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '1 6 * * 5'
 jobs: 
   add-new-weeklys:
     runs-on: ubuntu-latest
