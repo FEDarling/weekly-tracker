@@ -1,4 +1,5 @@
 const fs = require('fs');
+const yamlFront = require('yaml-front-matter');
 
 const base=`./weeklys`;
 const css = {
@@ -38,8 +39,12 @@ function getGroupArr(name,path){
 	let groupArr = [];
 	const readDirArr = fs.readdirSync(`${base}${path}`).map(parseFloat).sort(function (a, b) { return b - a });
 	for(let weeklyNum of readDirArr){
+		let fileContent = fs.readFileSync(`${base}${path}${weeklyNum}/README.md`);
+		let fileFrontObj = yamlFront.loadFront(fileContent);//获取markdown文件的frontmatter
+		if(fileFrontObj.publish){//根据publish来判断是否添加到sidebar
 		let obj = getGroupObj(name,path,weeklyNum);
 		groupArr.push(obj);
+		}
 	}
 	return groupArr;
 }
@@ -58,7 +63,9 @@ function getChildrenFiles(path,weeklyNum){
 	let children = [];
 	let childrenFiles=fs.readdirSync(`${base}${path}${weeklyNum}/`);
 	for(let file of childrenFiles){
-		if(file!=='README.md'){
+		let fileContent = fs.readFileSync(`${base}${path}${weeklyNum}/${file}`);
+		let fileFrontObj = yamlFront.loadFront(fileContent);//获取markdown文件的frontmatter
+		if(file!=='README.md'&&fileFrontObj.publish){//根据publish来判断是否添加到sidebar
 		children.push(`${path}${weeklyNum}/${file}`);
 	}
 	}

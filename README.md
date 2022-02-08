@@ -5,11 +5,11 @@
 
 目前已包括周刊有：
 + [JavaScript Weekly](https://weekly.fedarling.com/categories/JavaScript%20Weekly/)
-+ [Mobile Dev Weekly](https://weekly.fedarling.com/categories/Mobile%20Dev%20Weekly/)
 + [Frontend Focus](https://weekly.fedarling.com/categories/Frontend%20Focus/)
 + [React Status](https://weekly.fedarling.com/categories/React%20Status/)
 + [Node Weekly](https://weekly.fedarling.com/categories/Node%20Weekly/)
 + [CSS Weekly](https://weekly.fedarling.com/categories/CSS%20Weekly/)
++ [Mobile Dev Weekly](https://weekly.fedarling.com/categories/Mobile%20Dev%20Weekly/)(已完结)
 
 欢迎大家阅览，也期待你的加入！🥳
 

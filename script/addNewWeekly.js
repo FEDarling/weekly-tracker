@@ -10,7 +10,7 @@ const weeklys = [
 	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
 	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
 	['React Status', "react_status", "https://react.statuscode.com/issues/", '.issue-html'],
-	['Mobile Dev Weekly', "mobile_dev_weekly", "https://mobiledevweekly.com/issues/", '.issue-html'],
+	// ['Mobile Dev Weekly', "mobile_dev_weekly", "https://mobiledevweekly.com/issues/", '.issue-html'],
 	['Frontend Focus', "frontend_focus", "https://frontendfoc.us/issues/", '.issue-html'],
 	['CSS Weekly', "css_weekly", "https://css-weekly.com", '.box-newsletter']
 ]
@@ -31,9 +31,10 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('data', chunk => body += chunk);
 
 		resp.on('end', () => {
+			console.log(body)
 			const $ = cheerio.load(body);
 			const html = $(className).html();
-
+			// console.log(html)
 			if (html != null) {
 				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
                 fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {

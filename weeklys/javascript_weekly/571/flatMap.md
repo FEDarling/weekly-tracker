@@ -1,5 +1,5 @@
 ---
-title: Array.flatMap：一个灵活好用的 Map 方法
+title: 'Array.flatMap：一个灵活好用的 Map 方法'
 date: '2022-01-07'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['JavaScript']

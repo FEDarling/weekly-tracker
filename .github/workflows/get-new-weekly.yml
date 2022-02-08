@@ -1,7 +1,7 @@
-name: get new weekly
+name: tracker new weekly
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '1 6 * * 5'
 jobs: 
   add-new-weeklys:
     runs-on: ubuntu-latest
@@ -10,17 +10,20 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm run new
+      - run: yarn install
+      - run: yarn run new
       - name: creating Pull Requests
         uses: peter-evans/create-pull-request@v3  
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          author: KimYangOfCat <kim.yang.gh@outlook.com>
           committer: KimYangOfCat <kim.yang.gh@outlook.com>
           commit-message: 'add new weeklys'
-          branch-suffix: short-commit-hash
+          branch: tracker
+          delete-branch: true
+          base: main 
           title: 添加新的周刊
-          body: "**添加新的周刊，请手动格式化所有新周刊，只需删除重复信息以及推广信息，然后对其中分类添加二级标题即可**"
-          assignees: daodaolee
+          body: "**添加新的周刊，请手动格式化所有新周刊，只需删除重复信息以及推广信息，然后对其中分类添加二级及以下标题即可**"
+          assignees: KimYangOfCat
           team-reviewers: weekly-tracker
           labels: 待格式化

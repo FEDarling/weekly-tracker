@@ -1,5 +1,5 @@
 ---
-title: State Management in Next.js Apps
+title: 'State Management in Next.js Apps'
 date: '2022-02-01'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['CSS','JavaScript','HTML','TypeScript','ECMAScript','Chrome','游览器','网络','React','Vue','webpack','babel','vite','node']
