@@ -31,12 +31,12 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('data', chunk => body += chunk);
 
 		resp.on('end', () => {
-			console.log(body)
+			// console.log(body)
 			const $ = cheerio.load(body);
 			const html = $(className).html();
 			// console.log(html)
 			if (html != null) {
-				console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
+				// console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
                 fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
                     if (err) throw err;
                   })
