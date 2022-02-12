@@ -62,13 +62,17 @@ function getGroupObj(name,path,weeklyNum){
 function getChildrenFiles(path,weeklyNum){
 	let children = [];
 	let childrenFiles=fs.readdirSync(`${base}${path}${weeklyNum}/`);
-	for(let file of childrenFiles){
-		let fileContent = fs.readFileSync(`${base}${path}${weeklyNum}/${file}`);
-		let fileFrontObj = yamlFront.loadFront(fileContent);//获取markdown文件的frontmatter
-		if(file!=='README.md'&&fileFrontObj.publish){//根据publish来判断是否添加到sidebar
-		children.push(`${path}${weeklyNum}/${file}`);
-	}
-	}
+	for (let file of childrenFiles) {
+    if (file != "img") {
+      // 排除 img 文件夹
+      let fileContent = fs.readFileSync(`${base}${path}${weeklyNum}/${file}`);
+      let fileFrontObj = yamlFront.loadFront(fileContent); // 获取markdown文件的frontmatter
+      if (file !== "README.md" && fileFrontObj.publish) {
+        // 根据publish来判断是否添加到sidebar
+        children.push(`${path}${weeklyNum}/${file}`);
+      }
+    }
+  }
 	return children;
 }
 
