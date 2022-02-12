@@ -26,7 +26,7 @@ OK，准备完成就发车！
 世代中分为年轻一代和老一代，而年轻的一代还分为了新生代和中间代。随着对象在垃圾回收中幸存下来，它们也会加入老一代。
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25699325/1641859509767-20b76ff5-705e-49e6-92b9-d695c6f6c961.png#clientId=ua5435165-b5e7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=284&id=ua9d134e3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=284&originWidth=826&originalType=binary&ratio=1&rotation=0&showTitle=false&size=34511&status=done&style=none&taskId=u4df145d7-a1ee-474d-b2dd-62a88d805d7&title=&width=826)
+![image.png](https://v8.dev/_img/trash-talk/02.svg)
 
 
 世代假说的基本原则是大多数对象都是年轻的。V8 垃圾回收器基于这一点，只提升在垃圾回收中幸存下来的对象。随着对象被复制到相邻区域，它们最终会进入老一代。
