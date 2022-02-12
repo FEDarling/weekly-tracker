@@ -1,5 +1,5 @@
 ---
-title: 'Why You Should Check-In Your Node Dependencies'
+title: 'How to Set Up Server Side Rendering (SSR) With React, express.js, and esbuild'
 date: '2022-02-05'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['CSS','JavaScript','HTML','TypeScript','ECMAScript','Chrome','游览器','网络','React','Vue','webpack','babel','vite','node']
@@ -308,7 +308,7 @@ In our small example, this won’t make much of a difference, but in a large app
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://www.jackfranklin.co.uk/blog/check-in-your-node-dependencies/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/Why_You_Should_CheckIn_Your_Node_Dependencies.md)
+> * [查看原文](https://devtails.xyz/how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild#how-to-implement-server-side-rendering-with-react)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/How_to_Set_Up_Server_Side_Rendering_With_React_express_and_esbuild.md)
 > * 译者：
 > * 校对者：
