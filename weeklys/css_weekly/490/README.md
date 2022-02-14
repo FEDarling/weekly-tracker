@@ -52,7 +52,7 @@ CSS Speedrun 是一款小而有趣的益智游戏，用于测试您对 CSS 选�
 
 Clay.css 是一个小型 CSS 程序，可让您向任何 HTML 元素添加蓬松的 3d 粘土形态样式。
 
-## Inspiration
+## 灵感
 
 [CSS 3D 油炸圈饼 🍩](https://codepen.io/ShadowShahriar/pen/YzrbBXg?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
