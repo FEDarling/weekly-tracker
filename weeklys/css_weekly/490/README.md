@@ -56,7 +56,7 @@ Clay.css 是一个小型 CSS 程序，可让您向任何 HTML 元素添加蓬松
 
 [CSS 3D 油炸圈饼 🍩](https://codepen.io/ShadowShahriar/pen/YzrbBXg?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-![CSS 3D 油炸圈饼 🍩](https://css-weekly.com/wp-content/uploads/2022/01/css-3d-donut.jpg)]
+![CSS 3D 油炸圈饼 🍩](https://css-weekly.com/wp-content/uploads/2022/01/css-3d-donut.jpg)
 
 S. Shahriar 使用 CSS 创建了一个有趣的响应式 3D 油炸圈饼
 
