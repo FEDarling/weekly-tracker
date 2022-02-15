@@ -123,7 +123,7 @@ Temporal.ZonedDateTime.from({
 
 -   [`Temporal.PlainMonthDay`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainMonthDay) 指定不限年份的时间，例如：*十月一日是国庆*：
 
-    ```
+    ```js
     new Temporal.PlainMonthDay(10, 1);
     Temporal.PlainMonthDay.from('10-01');
     ```
@@ -135,13 +135,13 @@ Temporal.ZonedDateTime.from({
 
 ### 日期和时间值
 你可以从指定时区的时间值中获取到你想要的信息，例如：
-```
+```js
 const t1 = Temporal.ZonedDateTime.from('2022-12-07T03:24:30+02:00[Africa/Cairo]');
 ```
 
 你可以从中获取到:
 
-```
+```js
 t1.year;        // 2022
 t1.month;       // 12
 t1.day;         // 7
@@ -169,7 +169,7 @@ t1.nanosecond;  // 0
 -   `1` ==> date1大于date2
 -   `-1` ==> date1小于date2
 例如:
-```
+```js
 const
   date1 = Temporal.Now,
   date2 = Temporal.PlainDateTime.from('2022-05-04');
@@ -178,7 +178,7 @@ Temporal.ZonedDateTime.compare(date1, date2);
 // 1
 ```
 你可以将`compare()`函数作为`sort`函数的参数传入来实现日期的升序/降序排列：
-```
+```js
 const t = [
 
     '2022-01-01T00:00:00+00:00[Europe/London]',
@@ -193,7 +193,7 @@ const t = [
 `Temporal`对象将提供计算方法： [add()](https://tc39.es/proposal-temporal/docs/duration.html#add), [subtract()](https://tc39.es/proposal-temporal/docs/duration.html#subtract), 和 [round()](https://tc39.es/proposal-temporal/docs/duration.html#round) ：
 
 你可以通过[`Temporal.Duration` object](https://tc39.es/proposal-temporal/docs/duration.htm) 定义一个开始时间，然后可以分别以`years`, `months`, `weeks`, `days`, `hours`, `minutes`, `seconds`, `milliseconds`, `microseconds`, and `nanoseconds`为单位来计算时间，或者使用`sign`键用1或者-1来表示相反的运算。这些方法都仅支持一段时间，所以不需要创建一个指定的实践对象。例如：
-```
+```js
 const t1 = Temporal.ZonedDateTime.from('2022-05-04T00:00:00+00:00[Europe/London]');
 
 // 增加8小时59分
@@ -208,7 +208,7 @@ t1.add({ weeks: 2, sign: -1 });
 t1.round({ smallestUnit: 'month' });
 ```
 使用`until()` 和`since()` 方法可以返回一个`Temporal.Duration` 对象，他可以基于某一个日期/时间来返回直到某一个时间或者从某个时间开始的时间范围,例如：
-```
+```js
 // months to t1
 t1.until().months;
 
@@ -220,7 +220,7 @@ t3.since().weeks;
 ```
  `equals()`可以实现判断两个时间是否相等，例如：
 
-```
+```js
 const
   d1 = Temporal.PlainDate.from('2022-01-31');
   d2 = Temporal.PlainDate.from('2023-01-31');
@@ -232,11 +232,11 @@ d1.equals(d2); // false
 
 `Temporal`对象都包含一个`.toString()` 来返回一个字符串，例如：Temporal. now.toString () :
 
-```
+```js
 2022-09-05T02:55:00+02:00[Europe/London]
 ```
 这种表示格式对用户来说是不友好的，所以[国际化API](https://blog.openreplay.com/the-complete-guide-to-localizing-your-app-with-javascript-s-internationalization-api)提供了一个更方便的本地化方法，例如：
-```
+```js
 // 初始化时间
 const d = new Temporal.PlainDate(2022, 3, 14);
 
@@ -254,7 +254,7 @@ new Intl.DateTimeFormat('es-ES', { dateStyle: 'full' }).format(d);
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/118252/web)对比阅读
+> * [查看原文](https://blog.openreplay.com/is-it-time-for-the-javascript-temporal-api)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/Is_It_Time_for_the_JavaScript_Temporal_API.md)
-> * 译者：
+> * 译者：chressYu
 > * 校对者：
