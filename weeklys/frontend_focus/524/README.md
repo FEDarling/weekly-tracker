@@ -47,7 +47,7 @@ publish: true
 
 ## 🔧 **代码、工具和资源**
 
-![](https://cp-randombucket.s3.eu-west-1.amazonaws.com/ezgif.com-gif-maker.gif)]
+![](https://cp-randombucket.s3.eu-west-1.amazonaws.com/ezgif.com-gif-maker.gif)
 
 [Vanta.js：您网站的 3D WebGL 背景动画](https://frontendfoc.us/link/118358/web "www.vantajs.com") — 从预定义的背景动画之一中选择，然后使用 UI 来调整其他设置。
 
