@@ -81,4 +81,4 @@ publish: false
 > * [查看原文](https://frontendfoc.us/link/118057/web)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/523/README.md)
 > * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：
+> * 校对者：[daodaolee](https://github.com/daodaolee)
