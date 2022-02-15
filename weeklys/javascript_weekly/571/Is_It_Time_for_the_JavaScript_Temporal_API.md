@@ -27,7 +27,7 @@ console.log( today );     // 打印出相同的内容
 ```
 开发者经常会使用诸如 [moment.js](https://momentjs.com/)这样的日期库，但是它占有74KB的空间，时间同样是可变的。像[Day.js](https://day.js.org/)或者[date-fns](https://date-fns.org/)这样的库或许会是更好地替代品。但是当你的程序中只要很少的时间处理的功能，是否需要去使用一个日期库呢？
 
-浏览器为了兼容性，需要继续支持`Date()`,但是一个全新的静态时间对象的提案正处在[TC39标准批准流程](https://tc39.es/proposal-temporal/)的第三阶段的候选方案中。这个新的API解决了上面所有提出的问题，Chrome 浏览器将会很快就推出这个新的API。但是他可能不会在2022年底进行推广使用，所以要小心兼容性产生的问题。
+浏览器为了兼容性，需要继续支持`Date()`，但是一个全新的静态时间对象的提案正处在[TC39标准批准流程](https://tc39.es/proposal-temporal/)的第三阶段的候选方案中。这个新的API解决了上面所有提出的问题，Chrome 浏览器将会很快就推出这个新的API。但是他可能不会在2022年底进行推广使用，所以要小心兼容性产生的问题。
 ### 当前日期及时间
 
 [`Temporal.Now`](https://tc39.es/proposal-temporal/docs/#Temporal-Now) 会返回一个当前日期和时间的对象:
@@ -190,9 +190,9 @@ const t = [
 ```
 ### 日期和时间的计算
 
-`Temporal`对象将提供计算方法： [add()](https://tc39.es/proposal-temporal/docs/duration.html#add), [subtract()](https://tc39.es/proposal-temporal/docs/duration.html#subtract), 和 [round()](https://tc39.es/proposal-temporal/docs/duration.html#round) ：
+`Temporal`对象将提供计算方法： [add()](https://tc39.es/proposal-temporal/docs/duration.html#add)， [subtract()](https://tc39.es/proposal-temporal/docs/duration.html#subtract), 和 [round()](https://tc39.es/proposal-temporal/docs/duration.html#round) ：
 
-你可以通过[`Temporal.Duration` object](https://tc39.es/proposal-temporal/docs/duration.htm) 定义一个开始时间，然后可以分别以`years`, `months`, `weeks`, `days`, `hours`, `minutes`, `seconds`, `milliseconds`, `microseconds`, and `nanoseconds`为单位来计算时间，或者使用`sign`键用1或者-1来表示相反的运算。这些方法都仅支持一段时间，所以不需要创建一个指定的实践对象。例如：
+你可以通过[`Temporal.Duration` object](https://tc39.es/proposal-temporal/docs/duration.htm) 定义一个开始时间，然后可以分别以`years`， `months`， `weeks`， `days`， `hours`， `minutes`， `seconds`， `milliseconds`， `microseconds` and `nanoseconds`为单位来计算时间，或者使用`sign`键用1或者-1来表示相反的运算。这些方法都仅支持一段时间，所以不需要创建一个指定的实践对象。例如：
 ```js
 const t1 = Temporal.ZonedDateTime.from('2022-05-04T00:00:00+00:00[Europe/London]');
 
@@ -207,7 +207,7 @@ t1.add({ weeks: 2, sign: -1 });
 // 最近的一个月
 t1.round({ smallestUnit: 'month' });
 ```
-使用`until()` 和`since()` 方法可以返回一个`Temporal.Duration` 对象，他可以基于某一个日期/时间来返回直到某一个时间或者从某个时间开始的时间范围,例如：
+使用`until()` 和`since()` 方法可以返回一个`Temporal.Duration` 对象，他可以基于某一个日期/时间来返回直到某一个时间或者从某个时间开始的时间范围，例如：
 ```js
 // months to t1
 t1.until().months;
@@ -256,5 +256,5 @@ new Intl.DateTimeFormat('es-ES', { dateStyle: 'full' }).format(d);
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.openreplay.com/is-it-time-for-the-javascript-temporal-api)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/Is_It_Time_for_the_JavaScript_Temporal_API.md)
-> * 译者：chressYu
+> * 译者：[chressYu](https://github.com/chressYu)
 > * 校对者：
