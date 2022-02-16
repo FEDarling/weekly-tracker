@@ -32,7 +32,7 @@ Ahmad Shadeed 着眼于圆锥和径向渐变，解释了它们的工作原理、
 
 [友好的 Animation](https://css-tricks.com/empathetic-animation/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
 
-Cassie Evans 概述了在网络上创建动画时要问的几个基本问​​题。
+Cassie Evans 概述了在网络上创建动画时要问的几个基本问题。
 
 [30 个前端技巧](https://kittygiraudel.com/2022/01/04/30-frontend-tips/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
 
@@ -61,8 +61,9 @@ Floating UI 是一个低代码工具包，用于定位浮动元素，同时智�
 Paulina Hetman 创造了一个很棒的动画场景，计算直到下一次巴黎满月的日子。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-488/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/488)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-weekly.com/issue-488/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/488)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

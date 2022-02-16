@@ -2,22 +2,23 @@
 title: 'ES2022 特性：类静态初始化块'
 date: '2021-09-03'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
-tags: ['JavaScript','ECMAScript']
+tags: ['JavaScript', 'ECMAScript']
 #没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
 #请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: true
 ---
 
-Ron Buckton的ECMAScript提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在ECMAScript2022中。
+Ron Buckton 的 ECMAScript 提案“[类静态初始化块](https://github.com/tc39/proposal-class-static-block)”处于[第 4 阶段](https://exploringjs.com/impatient-js/ch_history.html#tc39-process)，并计划包含在 ECMAScript2022 中。
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-为了建立一个类的实例，我们在JavaScript中有两个构造:
-- 字段：创建（可选的初始化）实例属性。
-- 构造函数：完成设置前执行的代码块
+为了建立一个类的实例，我们在 JavaScript 中有两个构造:
 
-为了设置类的静态部分，我们只有静态字段。ECMAScript建议引入了类的静态初始化块，这些块对于静态类的作用大致相当于构造函数对于实例的作用。
+-   字段：创建（可选的初始化）实例属性。
+-   构造函数：完成设置前执行的代码块
 
+为了设置类的静态部分，我们只有静态字段。ECMAScript 建议引入了类的静态初始化块，这些块对于静态类的作用大致相当于构造函数对于实例的作用。
 
 ## 1 我们为什么要在类中使用静态块?
 
@@ -34,10 +35,10 @@ class Translator {
     static germanWords = extractGerman(this.translations);
 }
 function extractEnglish(translations) {
-  return Object.keys(translations);
+    return Object.keys(translations);
 }
 function extractGerman(translations) {
-  return Object.values(translations);
+    return Object.values(translations);
 }
 ```
 
@@ -52,20 +53,25 @@ class Translator {
     };
     static englishWords = [];
     static germanWords = [];
-    static _ = initializeTranslator( // (A)
-    this.translations, this.englishWords, this.germanWords);
+    static _ = initializeTranslator(
+        // (A)
+        this.translations,
+        this.englishWords,
+        this.germanWords
+    );
 }
 function initializeTranslator(translations, englishWords, germanWords) {
-  for (const [english, german] of Object.entries(translations)) {
-    englishWords.push(english);
-    germanWords.push(german);
-  }
+    for (const [english, german] of Object.entries(translations)) {
+        englishWords.push(english);
+        germanWords.push(german);
+    }
 }
 ```
 
 这样写会有两个问题：
-- 额外调用initializeTranslator()，且必须在创建类之后在类之外执行。或者在 A 处执行。
-- initializeTranslator()是无法访问的私有数据Translator的。
+
+-   额外调用 initializeTranslator()，且必须在创建类之后在类之外执行。或者在 A 处执行。
+-   initializeTranslator()是无法访问的私有数据 Translator 的。
 
 如果使用静态块 A ，可以这样写：
 
@@ -78,14 +84,14 @@ class Translator {
     };
     static englishWords = [];
     static germanWords = [];
-    static { // (A)
+    static {
+        // (A)
         for (const [english, german] of Object.entries(this.translations)) {
-        this.englishWords.push(english);
-        this.germanWords.push(german);
+            this.englishWords.push(english);
+            this.germanWords.push(german);
         }
     }
 }
-
 ```
 
 ## 2 更复杂的例子
@@ -94,22 +100,23 @@ class Translator {
 
 ```js
 class Enum {
-  static collectStaticFields() {
-    // Static methods are not enumerable and thus ignored
-    this.enumKeys = Object.keys(this);
-  }
+    static collectStaticFields() {
+        // Static methods are not enumerable and thus ignored
+        this.enumKeys = Object.keys(this);
+    }
 }
 class ColorEnum extends Enum {
-  static red = Symbol('red');
-  static green = Symbol('green');
-  static blue = Symbol('blue');
-  static _ = this.collectStaticFields(); // (A)
+    static red = Symbol('red');
+    static green = Symbol('green');
+    static blue = Symbol('blue');
+    static _ = this.collectStaticFields(); // (A)
 
-  static logColors() {
-    for (const enumKey of this.enumKeys) { // (B)
-      console.log(enumKey);
+    static logColors() {
+        for (const enumKey of this.enumKeys) {
+            // (B)
+            console.log(enumKey);
+        }
     }
-  }
 }
 ColorEnum.logColors();
 
@@ -119,39 +126,40 @@ ColorEnum.logColors();
 // 'blue'
 ```
 
-这里需要收集静态字段，以便我们可以遍历enum条目(第B行)的键值。创建所有静态字段到这里结束。然后我们再次调用第 A 行的代码，这样的写法将更加优雅些。
+这里需要收集静态字段，以便我们可以遍历 enum 条目(第 B 行)的键值。创建所有静态字段到这里结束。然后我们再次调用第 A 行的代码，这样的写法将更加优雅些。
 
 ## 3 细节
 
 相对来说，静态块的细节是合乎逻辑的（相比更复杂的规则例如实例成员）：
-- 每个类可以有多个静态块。
-- 静态块与静态字段初始化交错执行。
-- 超类的静态成员在子类的静态成员之前执行。
-以下代码演示了这些规则：
+
+-   每个类可以有多个静态块。
+-   静态块与静态字段初始化交错执行。
+-   超类的静态成员在子类的静态成员之前执行。
+    以下代码演示了这些规则：
 
 ```js
 class SuperClass {
-  static superField1 = console.log('superField1');
-  static {
-    assert.equal(this, SuperClass);
-    console.log('static block 1 SuperClass');
-  }
-  static superField2 = console.log('superField2');
-  static {
-    console.log('static block 2 SuperClass');
-  }
+    static superField1 = console.log('superField1');
+    static {
+        assert.equal(this, SuperClass);
+        console.log('static block 1 SuperClass');
+    }
+    static superField2 = console.log('superField2');
+    static {
+        console.log('static block 2 SuperClass');
+    }
 }
 
 class SubClass extends SuperClass {
-  static subField1 = console.log('subField1');
-  static {
-    assert.equal(this, SubClass);
-    console.log('static block 1 SubClass');
-  }
-  static subField2 = console.log('subField2');
-  static {
-    console.log('static block 2 SubClass');
-  }
+    static subField1 = console.log('subField1');
+    static {
+        assert.equal(this, SubClass);
+        console.log('static block 1 SubClass');
+    }
+    static subField2 = console.log('subField2');
+    static {
+        console.log('static block 2 SubClass');
+    }
 }
 
 // Output:
@@ -167,11 +175,11 @@ class SubClass extends SuperClass {
 
 ## 4 支持类静态块的工具
 
-- V8:在v9.4.146中未标记（[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
-- SpiderMonkey:标记在v92中，v93不标记[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
-- TypeScript:v4.4([源码](https://devblogs.microsoft.com/typescript/announcing-typescript-4-4-rc/))
+-   V8:在 v9.4.146 中未标记（[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
+-   SpiderMonkey:标记在 v92 中，v93 不标记[源码](https://github.com/tc39/proposal-class-static-block#stage-4-entrance-criteria)）
+-   TypeScript:v4.4([源码](https://devblogs.microsoft.com/typescript/announcing-typescript-4-4-rc/))
 
-## 5 JavaScript是否变得越来越像Java或者变得很乱?
+## 5 JavaScript 是否变得越来越像 Java 或者变得很乱?
 
 这是一个很小的功能并不会和其他功能有冲突，我们已经可以通过带有`static _ = ...`字段的工作区运行静态代码。静态块意味着这个工作区不再是必要的。
 除此之外，类只是 JavaScript 程序员的众多工具之一。我们可以使用也可以不使用，而且还有很多其他代替方案。
@@ -182,8 +190,8 @@ class SubClass extends SuperClass {
 
 ---
 
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://2ality.com/2021/09/class-static-block.html)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/ES2022_Feature_Class_Static_Initialization_Blocks.md)
-> * 译者：[自然卷](https://github.com/H-Lbread)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://2ality.com/2021/09/class-static-block.html)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/ES2022_Feature_Class_Static_Initialization_Blocks.md)
+> -   译者：[自然卷](https://github.com/H-Lbread)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

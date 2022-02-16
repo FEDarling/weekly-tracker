@@ -9,9 +9,11 @@ publish: true
 ---
 
 本文描述 JavaScript 引擎中通用的一些关键的基础知识——不仅仅是 [V8](https://twitter.com/v8js)。作为一名 JavaScript 开发人员，对 JavaScript 引擎的工作原理深入了解一下有助于你更好的编写代码。
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-**如果你没有看[之前的文章：JavaScript引擎基础(上)：形态和内联缓存](https://github.com/FEDarling/weekly-tracker/blob/master/JavaScript_Weekly/399/js_engine_shape_and_inline_caches.md)，请务必看下，本篇有很多相关名词在前文都有介绍。**
+
+**如果你没有看[之前的文章：JavaScript 引擎基础(上)：形态和内联缓存](https://github.com/FEDarling/weekly-tracker/blob/master/JavaScript_Weekly/399/js_engine_shape_and_inline_caches.md)，请务必看下，本篇有很多相关名词在前文都有介绍。**
 
 之前的文章，我们讨论了 JavaScript 引擎如何通过使用 **Shape** 和 **内联缓存** 来优化对象和数组访问。本文来说一下如何优化 管道(pipeline) 的权衡，并会讲述引擎如何加快对原型属性的访问。
 
@@ -42,7 +44,7 @@ publish: true
 ```js
 let result = 0;
 for (let i = 0; i < 4242424242; ++i) {
-	result += i;
+    result += i;
 }
 console.log(result);
 ```
@@ -67,7 +69,7 @@ Chakra 的架构与 SpiderMonkey 的架构非常相似，但 Chakra 会尝试同
 
 当生成的代码准备好后，引擎开始运行这个 SimpleJIT 代码而不是字节码。 FullJIT 也是如此。这种方法的好处是，与运行 FullJIT 编译器相比，复制发生的暂停时间通常要短得多。但这种方法的缺点是这种复制可能会遗漏某些优化所需的信息，因此它会在某种程度上降低代码质量来换取延迟。
 
-在 JavaScriptCore 中，所有优化编译器与主线程 JavaScript  **完全并发** 运行，注意！这里没有复制！相反，主线程仅触发另一个线程上的编译作业。然后编译器使用复杂的锁定方案从主线程访问分析数据：
+在 JavaScriptCore 中，所有优化编译器与主线程 JavaScript **完全并发** 运行，注意！这里没有复制！相反，主线程仅触发另一个线程上的编译作业。然后编译器使用复杂的锁定方案从主线程访问分析数据：
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114010056.png)
 
@@ -77,7 +79,7 @@ Chakra 的架构与 SpiderMonkey 的架构非常相似，但 Chakra 会尝试同
 
 ```js
 function add(x, y) {
-	return x + y;
+    return x + y;
 }
 
 add(1, 2);
@@ -144,18 +146,18 @@ Shapes 支持一种称为 **行内缓存(Inline Caches，IC)** 的优化。结�
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114011207.png)
 
-###  类(Classes)和基于原型(prototype)的编程
+### 类(Classes)和基于原型(prototype)的编程
 
 现在我们知道了如何在 JavaScript 对象上快速访问属性，让我们看看 JavaScript 中最近添加的一个：类(Classes)。 JavaScript 类语法如下所示：
 
 ```js
 class Bar {
-	constructor(x) {
-		this.x = x;
-	}
-	getX() {
-		return this.x;
-	}
+    constructor(x) {
+        this.x = x;
+    }
+    getX() {
+        return this.x;
+    }
 }
 ```
 
@@ -163,11 +165,11 @@ class Bar {
 
 ```js
 function Bar(x) {
-	this.x = x;
+    this.x = x;
 }
 
 Bar.prototype.getX = function getX() {
-	return this.x;
+    return this.x;
 };
 ```
 
@@ -183,7 +185,7 @@ const foo = new Bar(true);
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114011543.png)
 
-`Bar.prototype` 有它自己的 Shape，包含一个属性 `“getX”`，属性的值是函数 `getX`，它在调用时只返回 `this.x`。 `Bar.prototype` 的原型是 JavaScript 语言的 `Object.prototype`。` Object.prototype` 是原型树的根，因此它的原型为  `null`。
+`Bar.prototype` 有它自己的 Shape，包含一个属性 `“getX”`，属性的值是函数 `getX`，它在调用时只返回 `this.x`。 `Bar.prototype` 的原型是 JavaScript 语言的 `Object.prototype`。` Object.prototype` 是原型树的根，因此它的原型为 `null`。
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114011752.png)
 
@@ -195,8 +197,12 @@ const foo = new Bar(true);
 
 ```js
 class Bar {
-	constructor(x) { this.x = x; }
-	getX() { return this.x; }
+    constructor(x) {
+        this.x = x;
+    }
+    getX() {
+        return this.x;
+    }
 }
 
 const foo = new Bar(true);
@@ -219,7 +225,7 @@ const x = $getX.call(foo);
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114012125.png)
 
-引擎从 `foo` 实例开始，并发现 `foo`  的 Shape 上没有 `'getX'` 属性，因此它必须遍历原型链。我们到达 `Bar.prototype`，查看它的原型 Shape，看到它在offset `0` 处具有 `“getX”` 属性。我们在 `Bar.prototype` 中查找此 offset 处的值，并找到我们正在寻找的 `JSFunction getX`。整个过程就是这样！
+引擎从 `foo` 实例开始，并发现 `foo` 的 Shape 上没有 `'getX'` 属性，因此它必须遍历原型链。我们到达 `Bar.prototype`，查看它的原型 Shape，看到它在 offset `0` 处具有 `“getX”` 属性。我们在 `Bar.prototype` 中查找此 offset 处的值，并找到我们正在寻找的 `JSFunction getX`。整个过程就是这样！
 
 JavaScript 可以用自己特有的灵活性改变原型链链接，例如：
 
@@ -239,8 +245,12 @@ foo.getX();
 
 ```js
 class Bar {
-	constructor(x) { this.x = x; }
-	getX() { return this.x; }
+    constructor(x) {
+        this.x = x;
+    }
+    getX() {
+        return this.x;
+    }
 }
 
 const foo = new Bar(true);
@@ -267,7 +277,7 @@ const anchor = document.createElement('a');
 const title = anchor.getAttribute('title');
 ```
 
-我们有一个 `HTMLAnchorElement` 并在其上调用 `getAttribute()` 方法。这已经涉及到6个原型！大多数好用的 DOM 方法不在直接的 `HTMLAnchorElement` 原型上，而是在链的更高层：
+我们有一个 `HTMLAnchorElement` 并在其上调用 `getAttribute()` 方法。这已经涉及到 6 个原型！大多数好用的 DOM 方法不在直接的 `HTMLAnchorElement` 原型上，而是在链的更高层：
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114013048.png)
 
@@ -287,8 +297,12 @@ const title = anchor.getAttribute('title');
 
 ```js
 class Bar {
-	constructor(x) { this.x = x; }
-	getX() { return this.x; }
+    constructor(x) {
+        this.x = x;
+    }
+    getX() {
+        return this.x;
+    }
 }
 
 const foo = new Bar(true);
@@ -315,7 +329,7 @@ V8 专门为这种原型 Shape 做处理。每个原型都有一个独特的 Sha
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220114014830.png)
 
-在这段代码的第一次运行到预热内联缓存时，V8 会记住在原型中找到属性的offset、找到属性的原型（当前是 `Bar.prototype`）、实例的Shape（当前是 foo 的 Shape），以及从实例 Shape 链接到的直接原型的当前 ValidityCell 的链接（当前是 `Bar.prototype` ）。
+在这段代码的第一次运行到预热内联缓存时，V8 会记住在原型中找到属性的 offset、找到属性的原型（当前是 `Bar.prototype`）、实例的 Shape（当前是 foo 的 Shape），以及从实例 Shape 链接到的直接原型的当前 ValidityCell 的链接（当前是 `Bar.prototype` ）。
 
 下次命中内联缓存时，引擎必须检查实例的 Shape 和 ValidityCell。如果它仍然有效，引擎可以直接访问原型上的 offset，跳过额外的查找：
 
@@ -332,17 +346,19 @@ V8 专门为这种原型 Shape 做处理。每个原型都有一个独特的 Sha
 让我们通过一个具体的例子来进一步探讨这一点。假设我们有我们的类 `Bar`，并且我们有一个函数 `loadX`，它调用 `Bar` 对象的方法。我们用同一个类的实例多次调用这个 loadX 函数：
 
 ```js
-class Bar { /* … */ }
+class Bar {
+    /* … */
+}
 
 function loadX(bar) {
-	return bar.getX(); // Bar 实例上的 getX 的 IC。
+    return bar.getX(); // Bar 实例上的 getX 的 IC。
 }
 
 loadX(new Bar(true));
 loadX(new Bar(false));
 // loadX 中的 IC 现在为 Bar.prototype 链接 ValidityCell。
 
-Object.prototype.newMethod = y => y;
+Object.prototype.newMethod = (y) => y;
 // loadX IC中的 ValidityCell 现在无效，
 // 因为 Object.prototype 发生了变化。
 ```
@@ -352,7 +368,9 @@ Object.prototype.newMethod = y => y;
 尽量不要改变 `Object.prototype` ，因为它会使引擎在此之前放置的原型加载的任何内联缓存失效。这是另一个错误的例子：
 
 ```js
-Object.prototype.foo = function() { /* … */ };
+Object.prototype.foo = function () {
+    /* … */
+};
 
 someObject.foo();
 
@@ -366,11 +384,13 @@ delete Object.prototype.foo;
 > 总结：虽然原型只是对象，但它们被 JavaScript 引擎特殊处理，从而优化原型上方法查找的性能。别管你的原型了！或者，如果你真的需要接触原型，那么在其他代码运行之前进行操作，这样你至少不会在代码运行时使引擎中的所有优化无效。
 
 ## 最后
+
 我们已经了解了 JavaScript 引擎如何存储对象和类，以及 Shapes、Inline Caches 和 ValidityCells 如何帮助优化原型操作。基于这些知识，我们确定了一个实用的 JavaScript 编码技巧，可以帮助提高性能：不要弄乱原型（或者如果你真的非常需要，那么至少在其他代码运行之前这样做）。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mathiasbynens.be/notes/prototypes)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_optimizing_prototype.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://mathiasbynens.be/notes/prototypes)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/js_engine_optimizing_prototype.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

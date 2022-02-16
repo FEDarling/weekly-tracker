@@ -61,8 +61,9 @@ Rian Rietveld 提供了一些关于创建易解析标题的建议。
 Adam Kuhn 使用 CSS 创建了令人印象深刻的 3d 图像。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-489/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/489)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-weekly.com/issue-489/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/489)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

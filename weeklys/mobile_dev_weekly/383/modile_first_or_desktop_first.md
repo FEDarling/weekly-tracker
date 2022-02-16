@@ -8,18 +8,22 @@ tags: ['JavaScript']
 publish: true
 ---
 
-不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在Twitter发起了一次关于此项的投票
+不知道你是否经常考虑新项目首先应该适配移动端还是桌面端？最近，我在 Twitter 发起了一次关于此项的投票
 
-总票数为648票，比例如下
-* 移动优先：33.3%
-* 桌面优先：21.9%
-* 两者混合：24.7%
+总票数为 648 票，比例如下
+
+-   移动优先：33.3%
+-   桌面优先：21.9%
+-   两者混合：24.7%
 
 在下文中，我们将一起了解每种方法的含义和一些响应式设计技巧，然后再去讨论在今天这些方法是否适用。
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 ## 简介：移动优先和桌面优先的含义
-`移动优先`意味着在网站开发时，我们首先以较小的视口尺寸编写CSS，然后使用CSS媒体查询来优化大视口的体验
+
+`移动优先`意味着在网站开发时，我们首先以较小的视口尺寸编写 CSS，然后使用 CSS 媒体查询来优化大视口的体验
 
 考虑以下示例：
 
@@ -40,7 +44,7 @@ publish: true
 
 我们为移动端设备配置了一个`padding`属性，当视口大小足够大时，他应该会是个拥有更大`padding`的弹性盒
 
-这仅仅是一个简单的例子，可以想象一下们有一个足够大的网站或移动APP，那么我们要设置的东西就会多得多。
+这仅仅是一个简单的例子，可以想象一下们有一个足够大的网站或移动 APP，那么我们要设置的东西就会多得多。
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/intro-1.png)
 
@@ -62,22 +66,22 @@ publish: true
 }
 ```
 
-我们首先为较大的视口编写CSS，然后再使用媒体查询为小视口更改CSS
+我们首先为较大的视口编写 CSS，然后再使用媒体查询为小视口更改 CSS
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/intro-2.png)
 
-
 ## 移动优先的开发流程是怎么样的？
 
-你是喜欢直接在浏览器F12调成移动设备进行开发，不去适配桌面？还是更喜欢两者同时进行？也就是在优先写移动设备样式的同时，也去适配桌面的视口尺寸。
+你是喜欢直接在浏览器 F12 调成移动设备进行开发，不去适配桌面？还是更喜欢两者同时进行？也就是在优先写移动设备样式的同时，也去适配桌面的视口尺寸。
 
 这是我能够设想到的两种情况：
-1. 先处理移动设备所有页面的CSS样式，最后再去适配桌面端
+
+1. 先处理移动设备所有页面的 CSS 样式，最后再去适配桌面端
 2. 同时进行，每做好一个移动端的页面或组件，都先对于大视口进行适配。
 
-你通常使用哪一种哪？对我来说，第二种是更适合我的方式，这样能使我更专注我当前组件或页面，而且也会减少编写CSS的错误。
+你通常使用哪一种哪？对我来说，第二种是更适合我的方式，这样能使我更专注我当前组件或页面，而且也会减少编写 CSS 的错误。
 
-当你使用第一种方法时，很可能会为平板电脑或者桌面端重写CSS，我们来看下面这张图：
+当你使用第一种方法时，很可能会为平板电脑或者桌面端重写 CSS，我们来看下面这张图：
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/intro-3.png)
 
@@ -85,40 +89,40 @@ publish: true
 
 ```css
 .hero {
-  display: flex;
-  align-items: flex-end;
-  background-image: url('hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero__title {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .hero__thumb {
-  display: none;
+    display: none;
 }
 
 @media (min-width: 60rem) {
-  .hero {
-    align-items: center;
-    background-image: initial;
-    background-color: #7ecaff;
-  }
+    .hero {
+        align-items: center;
+        background-image: initial;
+        background-color: #7ecaff;
+    }
 
-  .hero__title {
-    font-size: 2rem;
-  }
+    .hero__title {
+        font-size: 2rem;
+    }
 
-  .hero__thumb {
-    max-width: 320px;
-    display: block;
-  }
+    .hero__thumb {
+        max-width: 320px;
+        display: block;
+    }
 }
 ```
 
-就像上述代码所写的那样，`.hero`选择器在移动端有一个背景图片，而在桌面端则是一个纯色背景，并且有一张位于最右边的图片。就像你所看到的那样，这是移动端优先的CSS样式 ，除了`font-size`和`background`之外，我们没有太多需要重写的地方。
+就像上述代码所写的那样，`.hero`选择器在移动端有一个背景图片，而在桌面端则是一个纯色背景，并且有一张位于最右边的图片。就像你所看到的那样，这是移动端优先的 CSS 样式 ，除了`font-size`和`background`之外，我们没有太多需要重写的地方。
 
 那么导航哪，移动端优先的方式会怎么写？
 
@@ -179,7 +183,7 @@ publish: true
 
 不知道你有没有看出来，桌面端要重写的样式大概跟移动端的已有样式持平，这可不是件好事。
 
-另外，有时候也会因为CSS特性导致一些莫名其妙的问题，比如说我希望从`.nav_item`中删除`border-bottom`。
+另外，有时候也会因为 CSS 特性导致一些莫名其妙的问题，比如说我希望从`.nav_item`中删除`border-bottom`。
 
 ```css
 .nav__item {
@@ -262,9 +266,9 @@ publish: true
 
 当以桌面端为先时，我们可以看出，覆盖次数相对于移动端优先少了许多。这不是很有意思吗？主要的原因是我们通过媒体查询的`max-width`审查了特定视口所有的特定样式。
 
-我提倡我们应该先为桌面端编写CSS样式，然后再去适配移动端。
+我提倡我们应该先为桌面端编写 CSS 样式，然后再去适配移动端。
 
-通过下面这张对比图我们可以看出，以桌面优先编写CSS样式看起来更短并且没有不必要的重复（好吧，他有一点点~~）
+通过下面这张对比图我们可以看出，以桌面优先编写 CSS 样式看起来更短并且没有不必要的重复（好吧，他有一点点~~）
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/mobile-vs-desktop.png)
 
@@ -272,7 +276,7 @@ publish: true
 
 对我而言，我不愿去拘泥于任何一种方法。而我更愿意尝试去将两种方法结合起来。
 这意味着，我们需要先编写基本的样式，然后再去考虑在移动端和桌面端下会发生什么？
-我喜欢Elad Shechter在[这篇文章](https://elad.medium.com/the-new-responsive-design-evolution-2bfb9b504a4e)中提到的。
+我喜欢 Elad Shechter 在[这篇文章](https://elad.medium.com/the-new-responsive-design-evolution-2bfb9b504a4e)中提到的。
 
 让我们来举一个抽象的例子：
 
@@ -283,12 +287,16 @@ publish: true
 
 /* 桌面端样式 */
 @media (min-width: 800px) {
-    .nav { ... }
+    .nav {
+        ...;
+    }
 }
 
 /* 移动端样式 */
 @media (max-width: 799px) {
-    .nav { ... }
+    .nav {
+        ...;
+    }
 }
 ```
 
@@ -311,7 +319,7 @@ publish: true
 
 ## 我应该如何处理响应式设计
 
-在有些时候，我会觉得讨论移动先行还是桌面先行没那么重要，因为现代CSS给我们提供了用更少CSS代码编写响应式布局CSS样式的方法
+在有些时候，我会觉得讨论移动先行还是桌面先行没那么重要，因为现代 CSS 给我们提供了用更少 CSS 代码编写响应式布局 CSS 样式的方法
 
 话虽如此，我认为移动先行和桌面先行的争论将仅限于在特定的视口下显示或隐藏元素。除了那些特别复杂的和特定视口下变化很大页面或组件。
 
@@ -327,7 +335,8 @@ publish: true
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/example-1-menu.png)
 
-如果标题和导航采用移动优先的方式，就会导致大量的CSS属性重复，这不是我们提倡的方式。下面是我想到的方法：
+如果标题和导航采用移动优先的方式，就会导致大量的 CSS 属性重复，这不是我们提倡的方式。下面是我想到的方法：
+
 ```css
 .header {
     /* 基础样式 */
@@ -349,7 +358,7 @@ publish: true
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: #4777dB;
+        background-color: #4777db;
     }
 }
 ```
@@ -399,12 +408,11 @@ publish: true
 ```
 
 怎么样？没有看到重复吧哈哈哈~
-此外，请注意如果在弹性盒中使用了`order`，会导致视觉顺序与HTML中的DOM顺序不匹配
+此外，请注意如果在弹性盒中使用了`order`，会导致视觉顺序与 HTML 中的 DOM 顺序不匹配
 
 在下面这个可视化图表中，解释了我如何抉择移动先行还是桌面先行：
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/my-approach-1.png)
-
 
 ## 避免双断点媒体查询
 
@@ -413,13 +421,13 @@ publish: true
 ```css
 @media (max-width: 500px) {
     .nav {
-        display: none; 
+        display: none;
     }
 }
 
-@media (min-width: 500px) { 
+@media (min-width: 500px) {
     .nav__toggle {
-        display: none; 
+        display: none;
     }
 }
 ```
@@ -428,19 +436,19 @@ publish: true
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/media-debug-1.jpg)
 
-在F12的移动模式下，如果不手动输入500px,很难发现这个问题。
+在 F12 的移动模式下，如果不手动输入 500px,很难发现这个问题。
 为防止出现这种问题，请尽量避免在`min-width`和`max-width`中使用相同的值。
 
 ```css
 @media (max-width: 499px) {
     .nav {
-        display: none; 
+        display: none;
     }
 }
 
-@media (min-width: 500px) { 
+@media (min-width: 500px) {
     .nav__toggle {
-        display: none; 
+        display: none;
     }
 }
 ```
@@ -452,14 +460,14 @@ publish: true
 
 我自己也是一名设计师，坦白了讲，我不喜欢移动先行的设计。
 
-* 移动先行的设计图是有限制的，很难发挥创意
-* 处理过高的设计很令人心烦，因为你要不断的将设计图上下滚动
+-   移动先行的设计图是有限制的，很难发挥创意
+-   处理过高的设计很令人心烦，因为你要不断的将设计图上下滚动
 
 而桌面先行的设计图就要好得多，至少对我来说，它可以立即尝试我的新想法，而且我不需要通过频繁的上下滚动来查看设计图有哪些不合理的地方。
 
-## 现代CSS减少了考虑移动先行还是桌面先行的必要
+## 现代 CSS 减少了考虑移动先行还是桌面先行的必要
 
-有很多当下和即将推出的CSS功能，它将使响应式设计更容易实现
+有很多当下和即将推出的 CSS 功能，它将使响应式设计更容易实现
 
 ## Flexbox Wrapping
 
@@ -473,27 +481,26 @@ publish: true
 
 ![](https://ishadeed.com/assets/mobile-desktop-first/media-query-less-2.jpg)
 
-
-## CSS网格布局和minmax函数
+## CSS 网格布局和 minmax 函数
 
 幸亏有了`CSS Grid`，我们可以拥有不依赖媒体查询的响应式网格布局，考虑以下示例：
 
 ```css
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
 }
 ```
 
 这是一个响应式网格，为每个项目提供最小`200px`的宽度。
-如果没有CSS网格，我们就需要使用媒体查询来根据视口改变元素宽度。
+如果没有 CSS 网格，我们就需要使用媒体查询来根据视口改变元素宽度。
 
 在[本文](https://ishadeed.com/article/css-grid-minmax/)了解更多有关`CSS Gird`和`Minmax()`
 
-## 视口单位与clamp函数
+## 视口单位与 clamp 函数
 
-将视口单位和clamp函数结合使用可以有效减少有关`font-size`,`padding`,`margin`等元素尺寸的使用。
+将视口单位和 clamp 函数结合使用可以有效减少有关`font-size`,`padding`,`margin`等元素尺寸的使用。
 
 ```css
 .title {
@@ -511,7 +518,7 @@ publish: true
 
 ## 容器查询
 
-CSS新特性 容器查询现在在Chrome下可用了。有了他们，我们可以在不使用媒体查询的情况下做很多事。
+CSS 新特性 容器查询现在在 Chrome 下可用了。有了他们，我们可以在不使用媒体查询的情况下做很多事。
 
 考虑以下示例：
 
@@ -521,37 +528,38 @@ CSS新特性 容器查询现在在Chrome下可用了。有了他们，我们可�
 
 ```css
 .wrapper {
-  contain: layout inline-size;
+    contain: layout inline-size;
 }
 
 @container (min-width: 250px) {
-  .pagination {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
+    .pagination {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
 
-  .pagination li:not(:last-child) {
-    margin-bottom: 0;
-  }
+    .pagination li:not(:last-child) {
+        margin-bottom: 0;
+    }
 }
 
 @container (min-width: 500px) {
-  .pagination {
-    justify-content: center;
-  }
+    .pagination {
+        justify-content: center;
+    }
 
-  .pagination__item {
-    display: block;
-  }
+    .pagination__item {
+        display: block;
+    }
 }
 ```
 
-就像我展示的这样，现代CSS支持我们不通过媒体查询的方式制作响应式布局。那么问题来了，我们还需要考虑移动先行还是桌面先行的问题吗？
+就像我展示的这样，现代 CSS 支持我们不通过媒体查询的方式制作响应式布局。那么问题来了，我们还需要考虑移动先行还是桌面先行的问题吗？
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
-> * 译者：[一绪](http://github.com/myx981008)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://ishadeed.com/article/the-state-of-mobile-first-and-desktop-first/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/modile_first_or_desktop_first.md)
+> -   译者：[一绪](http://github.com/myx981008)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

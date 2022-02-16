@@ -1,11 +1,12 @@
 ---
 title: 'Frontend Focus #514'
 date: '2022-01-25'
-categories: ["Frontend Focus"]
+categories: ['Frontend Focus']
 publish: true
 ---
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635261725/et7pugwcsesu5b5xt3hr.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
@@ -23,11 +24,11 @@ publish: true
 
 ## **⚡️ 快览:**
 
-*   互联网档案馆中极具价值的 Wayback Machine 项目于 [20 年前的这个星期开始](https://frontendfoc.us/link/115466/web)。
-*   提醒：[2021 年 CSS 现状调查](https://frontendfoc.us/link/115407/web) 现已经开始，期待您的回复。
-*   Google 的 [Learn CSS 课程]("https://frontendfoc.us/link/115467/web) 中更新了新的资料，其中包括如何利用 `::marker` 和 `list-style` 等 CSS 属性。
-*   正如 [Lea Verou 所说](https://frontendfoc.us/link/115468/web)，网页可能需要自己的 emoji 选择器（或者至少可以调用 OS 原生表情符号）。
-*   一位聪明的 Web 开发人员开发了一个 [类似 VS Code 样式的网页](https://frontendfoc.us/link/115480/web) 来关注板球比分。
+-   互联网档案馆中极具价值的 Wayback Machine 项目于 [20 年前的这个星期开始](https://frontendfoc.us/link/115466/web)。
+-   提醒：[2021 年 CSS 现状调查](https://frontendfoc.us/link/115407/web) 现已经开始，期待您的回复。
+-   Google 的 [Learn CSS 课程]("https://frontendfoc.us/link/115467/web) 中更新了新的资料，其中包括如何利用 `::marker` 和 `list-style` 等 CSS 属性。
+-   正如 [Lea Verou 所说](https://frontendfoc.us/link/115468/web)，网页可能需要自己的 emoji 选择器（或者至少可以调用 OS 原生表情符号）。
+-   一位聪明的 Web 开发人员开发了一个 [类似 VS Code 样式的网页](https://frontendfoc.us/link/115480/web) 来关注板球比分。
 
 ## 📙 **教程、文章 & 意见**
 
@@ -37,7 +38,7 @@ publish: true
 
 [构建一个多选项组件](https://frontendfoc.us/link/115409/web) — 讲述了如何构建一个响应式、自适应且易用的多选项组件，并且用户可以进行排序和过滤操作。
 
-[如何不去创建一个菜单式 Burger 按钮](https://frontendfoc.us/link/115410/web) — 在HTML 里的一系列不良用法 — 从在线网页上找一个菜单按钮来看看。
+[如何不去创建一个菜单式 Burger 按钮](https://frontendfoc.us/link/115410/web) — 在 HTML 里的一系列不良用法 — 从在线网页上找一个菜单按钮来看看。
 
 [为什么“过时” 的 jQuery 在 JavaScript 库中仍然占主导地位](https://frontendfoc.us/link/115469/web) — jQuery 是网络上运行时间最长、影响最大的 JavaScript 库之一。它是如何经受住时间的考验的？
 
@@ -51,7 +52,7 @@ publish: true
 
 [使用 Vanilla JavaScript 进行页面过滤搜索](https://frontendfoc.us/link/115473/web)
 
-[100 个字节的 CSS可以让你的项目更简洁](https://frontendfoc.us/link/115413/web)
+[100 个字节的 CSS 可以让你的项目更简洁](https://frontendfoc.us/link/115413/web)
 
 [CSS Grid 中的可扩展部分](https://frontendfoc.us/link/115414/web)
 
@@ -75,13 +76,14 @@ publish: true
 
 ![JAMstacked](https://res.cloudinary.com/cpress/image/upload/v1606129218/tvgfsuez7iifxdxzxn1t.png)
 
-*  Netlify 的 Matt Biilmann 与 Evan You、Rich Harris 等人 [讨论了一些可能会影响 Jamstack 未来的东西](https://frontendfoc.us/link/115422/web) — 来自最近的 Jamstack Conf。
-*  用户通常会认为 Jamstack 和无服务器架构是一回事。 Colby Fayock 的 [这篇文章](https://frontendfoc.us/link/115423/web) 打破这个说法，并展示了如何将两者结合起来。
-*  Raymond Camden 正在 [Eleventy 1.0（仍处于测试阶段）](https://frontendfoc.us/link/115424/web) 的升级体验上努力。
+-   Netlify 的 Matt Biilmann 与 Evan You、Rich Harris 等人 [讨论了一些可能会影响 Jamstack 未来的东西](https://frontendfoc.us/link/115422/web) — 来自最近的 Jamstack Conf。
+-   用户通常会认为 Jamstack 和无服务器架构是一回事。 Colby Fayock 的 [这篇文章](https://frontendfoc.us/link/115423/web) 打破这个说法，并展示了如何将两者结合起来。
+-   Raymond Camden 正在 [Eleventy 1.0（仍处于测试阶段）](https://frontendfoc.us/link/115424/web) 的升级体验上努力。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[Chen](https://github.com/LilyChenlin)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/README.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[Chen](https://github.com/LilyChenlin)

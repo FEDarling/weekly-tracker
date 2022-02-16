@@ -1,7 +1,7 @@
 ---
 title: 'CSS Weekly #485'
 date: '2021-12-15'
-categories: ["CSS Weekly"]
+categories: ['CSS Weekly']
 publish: true
 ---
 
@@ -26,7 +26,7 @@ Jim Nielsen 展示了如何在原生 CSS 中使用 CSS 相对颜色来实现动�
 
 Stephanie Eckles 研究了一种在项目中通过使用 CSS 自定义属性来约束焦点样式的技术。
 
-[CSS在2021年的成果状况](https://2021.stateofcss.com/en-US/demographics/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[CSS 在 2021 年的成果状况](https://2021.stateofcss.com/en-US/demographics/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
 
 年度 CSS 状况的调查结果已公布。
 结论是什么呢？你将会用新的方式编写 CSS！
@@ -61,9 +61,10 @@ ffflux 是一个用于流体渐变背景的在线 SVG 生成器，可让您轻�
 
 Ricardo Oliva Alonso 使用 CSS 和 GSAP 创建了一个炫酷的 3d 动画宇宙飞船。
 
+---
 
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-485/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[Chen](https://github.com/LilyChenlin)
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-weekly.com/issue-485/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[Chen](https://github.com/LilyChenlin)

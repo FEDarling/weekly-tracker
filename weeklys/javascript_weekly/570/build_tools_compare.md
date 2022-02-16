@@ -2,18 +2,20 @@
 title: '新一代构建工具对比'
 date: '2021-12-24'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
-tags: ['webpack','Babel','Rollup','Parcel']
+tags: ['webpack', 'Babel', 'Rollup', 'Parcel']
 #没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
 #请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: true
 ---
 
-在过去的一年里，一系列新的开发工具拔地而起，包括但不限于 webpack、Babel、Rollup、Parcel、create-react-app等，在前端开发配合这方面也很友好。这些新的工具目标和功能上各有千秋，每个工具都有不同的目标和功能，但都有一个共同的目标：提高开发人员的使用体验。
+在过去的一年里，一系列新的开发工具拔地而起，包括但不限于 webpack、Babel、Rollup、Parcel、create-react-app 等，在前端开发配合这方面也很友好。这些新的工具目标和功能上各有千秋，每个工具都有不同的目标和功能，但都有一个共同的目标：提高开发人员的使用体验。
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 其实，其实我想对他们每一个都评估一下，概述一下他们做了什么，我们为什么需要他们，以及他们的用例。但是后来我意识到了这样的比较总会有点不公平。比如，Snowpack 和 Vite 大多会在后台使用 esbuild 来完成某些任务。我们应该更多更好地了解当下的任务情况，才可以在我们需要它们的时候选择最合适的。
 
-当然，关于这些新的构建工具，已经有了一大堆文章来介绍它们，这里我推荐几集ShopTalk Show网站的资源供大家学习：[454-Vite](https://shoptalkshow.com/454/)、[448-wmr和Snowpack的作者](https://shoptalkshow.com/448/)。
+当然，关于这些新的构建工具，已经有了一大堆文章来介绍它们，这里我推荐几集 ShopTalk Show 网站的资源供大家学习：[454-Vite](https://shoptalkshow.com/454/)、[448-wmr 和 Snowpack 的作者](https://shoptalkshow.com/448/)。
 
 ## 为什么会产生这么多的工具？
 
@@ -31,12 +33,12 @@ Snowpack、Vite 和 wmr 服务却不这么做。相反，它们会等到浏览�
 
 首先它们都支持以下开箱即用的功能（在不同程度上）：
 
-* 支持原生 JavaScript modules
-* 都可以用 TypeScript 编译
-* 支持 JSX
-* 都有可扩展性的插件 API
-* 都内置了开发环境的服务
-* 支持CSS bundle 和 CSS-in-JS 库
+-   支持原生 JavaScript modules
+-   都可以用 TypeScript 编译
+-   支持 JSX
+-   都有可扩展性的插件 API
+-   都内置了开发环境的服务
+-   支持 CSS bundle 和 CSS-in-JS 库
 
 这些工具都可以将 TypeScript 编译成 JavaScript，即使存在类型错误也会这样做。如果需要正确的类型检查，您需要安装 TypeScript 并在根 JavaScript 文件上运行 tsc --noEmit，或者使用编辑器插件来监视类型错误。
 
@@ -74,7 +76,7 @@ esbuild 是打包器中的一个新的创始者。在 esbuild 和 node bundlers 
 --define:process.env.NODE_ENV=\\\"production\\\"
 ```
 
-对于需要环境变量参数的库，都需要此定义参数。 Vue 2.0 当然也需要， Preact则不需要。
+对于需要环境变量参数的库，都需要此定义参数。 Vue 2.0 当然也需要， Preact 则不需要。
 
 ### 用法
 
@@ -88,25 +90,25 @@ npm install servor --save-dev
 
 ```js
 // watch.js
-const esbuild = require("esbuild");
-const servor = require("servor");
+const esbuild = require('esbuild');
+const servor = require('servor');
 
 esbuild.build({
-  // 这里配置 esbuild
-  entryPoints: ["src/app.jsx"],
-  outdir: "dist",
-  define: { "process.env.NODE_ENV": '"production"' },
-  watch: true,
+    // 这里配置 esbuild
+    entryPoints: ['src/app.jsx'],
+    outdir: 'dist',
+    define: { 'process.env.NODE_ENV': '"production"' },
+    watch: true,
 });
 
-async function serve(){
-  console.log("running server from: http://localhost:8080/");
-  await servor({
-    // 这里配置服务器
-    browser:true,
-    root: "dist",
-    port: 8080,
-  });
+async function serve() {
+    console.log('running server from: http://localhost:8080/');
+    await servor({
+        // 这里配置服务器
+        browser: true,
+        root: 'dist',
+        port: 8080,
+    });
 }
 
 serve();
@@ -122,7 +124,7 @@ esbuild 可以在 JavaScript 中导入 CSS。它会把 CSS 编译到和主要输
 
 现在，esbuild 的[插件](https://github.com/esbuild/community-plugins)越来越多了，比如 [Vue SFC](https://github.com/few-far/esbuild-vue-plugin)插件和 [Svelte 组件](https://github.com/EMH333/esbuild-svelte)插件。
 
-它还可以在 JavaScript 中导入图片，可以把它们转换为URL 或将它们复制到输出文件夹中。默认情况下不启用改功能，但可以在 esbuild 配置中添加以下内容来启用任一选项：
+它还可以在 JavaScript 中导入图片，可以把它们转换为 URL 或将它们复制到输出文件夹中。默认情况下不启用改功能，但可以在 esbuild 配置中添加以下内容来启用任一选项：
 
 ```json
 loader: { '.png': 'dataurl' } // Converts to data url in JS bundle
@@ -139,13 +141,13 @@ loader: { '.png': 'file' } // Copies to output folder
 
 | **esbuild**                 |         |
 | :-------------------------- | ------- |
-| 支持多个前端框架模板配置    | ❌       |
-| 支持热更新/替换开发环境服务 | ❌       |
-| 流式引入                    | ❌       |
-| 生产环境预配置              | ❌       |
-| 自动 PostCSS 和预处理器转换 | ❌       |
-| HTML转换                    | ❌       |
-| 支持 Rollup                 | ❌       |
+| 支持多个前端框架模板配置    | ❌      |
+| 支持热更新/替换开发环境服务 | ❌      |
+| 流式引入                    | ❌      |
+| 生产环境预配置              | ❌      |
+| 自动 PostCSS 和预处理器转换 | ❌      |
+| HTML 转换                   | ❌      |
+| 支持 Rollup                 | ❌      |
 | 大小                        | 7.34 MB |
 
 ## Snowpack
@@ -173,7 +175,7 @@ Snowpack 有很棒的[文档](https://www.snowpack.dev/)，里面也包括了它
 ```sh
 mkdir snowpackproject
 cd snowpackproject
-npm init #fill with defaults 
+npm init #fill with defaults
 npm install snowpack
 ```
 
@@ -201,13 +203,13 @@ new-item snowpack.config.js
 ```js
 // snowpack.config.js
 module.exports = {
-  packageOptions: {
-    "source": "remote",
-  }
+    packageOptions: {
+        source: 'remote',
+    },
 };
 ```
 
-Source：远程启用[流式导入](https://www.snowpack.dev/guides/streaming-imports#how-streaming-imports-work)。流式导入可以跳过npm，直接进行cdn导入。
+Source：远程启用[流式导入](https://www.snowpack.dev/guides/streaming-imports#how-streaming-imports-work)。流式导入可以跳过 npm，直接进行 cdn 导入。
 
 接下来，创建一个 index.html：
 
@@ -215,15 +217,16 @@ Source：远程启用[流式导入](https://www.snowpack.dev/guides/streaming-im
 <!--index.html-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">>
-  <title>Snowpack streaming imports</title>
-</head>
-<body>
-  <div id="root"></div>
-  <!-- Note the type="module". This is important for JavaScript module imports. -->
-  <script type="module" src="app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        >
+        <title>Snowpack streaming imports</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <!-- Note the type="module". This is important for JavaScript module imports. -->
+        <script type="module" src="app.js"></script>
+    </body>
 </html>
 ```
 
@@ -231,12 +234,13 @@ Source：远程启用[流式导入](https://www.snowpack.dev/guides/streaming-im
 
 ```js
 // app.jsx
-import React from 'react'
-import ReactDOM from 'react-dom'
-const App = ()=>{
-  return <h1>Welcome to Snowpack streaming imports!</h1>
-}
-ReactDOM.render(<App />,document.getElementById('root')); 0
+import React from 'react';
+import ReactDOM from 'react-dom';
+const App = () => {
+    return <h1>Welcome to Snowpack streaming imports!</h1>;
+};
+ReactDOM.render(<App />, document.getElementById('root'));
+0;
 ```
 
 请注意，我们没有在任何阶段 npm install React 或 ReactDOM。然后我们启动以下 Snowpack 开发环境服务：
@@ -262,7 +266,7 @@ Snowpack 不是从 node_modules 文件夹中提取 npm 包，而是从 Skypack �
 
 这样不会从 npm 下载包，只会记录用于 Snowpack 构建的包的版本。
 
-即使我们不使用流式导入，Snowpack开发环境服务也会将 node_modules 中的每个依赖关系捆绑成一个JavaScript文件，将这些文件转换为一个本地JavaScript模块，然后将其提供给浏览器。这意味着浏览器可以缓存这些脚本，只有在它们发生变化时才重新请求它们。开发环境服务在保存时自动刷新，但并不保留客户端的状态。所有来自节点的依赖似乎都能开箱即用~。
+即使我们不使用流式导入，Snowpack 开发环境服务也会将 node_modules 中的每个依赖关系捆绑成一个 JavaScript 文件，将这些文件转换为一个本地 JavaScript 模块，然后将其提供给浏览器。这意味着浏览器可以缓存这些脚本，只有在它们发生变化时才重新请求它们。开发环境服务在保存时自动刷新，但并不保留客户端的状态。所有来自节点的依赖似乎都能开箱即用~。
 
 在 React 中保留客户端状态需要 [react-refresh](https://www.skypack.dev/view/@snowpack/plugin-react-refresh)，它需要一些自己的 Babel 依赖包，这还不算本身的默认配置项。这时候可以使用更强大的 React 模板。该模板引入了 react-refresh、Prettier、Chai 和 React 测试库，总共有 80 MB 的 Node 依赖包：
 
@@ -274,7 +278,7 @@ npx create-snowpack-app my-react-project --template @snowpack/app-template-react
 
 支持 JSX，但同样，默认情况下仅支持 .jsx 文件。 Snowpack 会自动检测是使用 React 还是 Preact，并相应地决定使用哪个渲染函数进行 JSX 转换。然而，如果我们想进一步定制 JSX，我们需要通过他们的插件引入 Babel。还有一个 Snowpack 插件可用于 Vue 单文件组件，当然也可用于 Svelte 组件。此外，Snowpack 可以编译 TypeScript，但由于类型检查，我们也需要 TypeScript 插件。
 
-CSS 可以导入到 JavaScript 中，并在运行时放入文档  `<head>`  中。也支持  `.module.css`  为扩展名的 CSS 模块的开箱即用般体验。
+CSS 可以导入到 JavaScript 中，并在运行时放入文档 `<head>` 中。也支持 `.module.css` 为扩展名的 CSS 模块的开箱即用般体验。
 导入的 JSON 文件将被转换为 JavaScript module，并将对象默认导出。 Snowpack 会把图片复制到生产环境的文件夹中。根据其非捆绑式理念，Snowpack 不会将图片作为 URL 包含在捆绑包中。
 
 ### 生产环境
@@ -288,11 +292,11 @@ CSS 可以导入到 JavaScript 中，并在运行时放入文档  `<head>`  中�
 ```js
 // snowpack.config.js
 module.exports = {
-  optimize: {
-    bundle: true,
-    minify: true,
-    target: 'es2018',
-  },
+    optimize: {
+        bundle: true,
+        minify: true,
+        target: 'es2018',
+    },
 };
 ```
 
@@ -305,13 +309,13 @@ Snowpack 目前有功能齐全的开发环境服务、详细的文档和易于�
 
 | **Snowpack**                |       |
 | :-------------------------- | ----- |
-| 支持多个前端框架模板配置    | ✅     |
-| 支持热更新/替换开发环境服务 | ✅     |
-| 流式引入                    | ✅     |
-| 生产环境预配置              | ❌     |
-| 自动 PostCSS 和预处理器转换 | ❌     |
-| HTML转换                    | ❌     |
-| 支持 Rollup                 | ✅     |
+| 支持多个前端框架模板配置    | ✅    |
+| 支持热更新/替换开发环境服务 | ✅    |
+| 流式引入                    | ✅    |
+| 生产环境预配置              | ❌    |
+| 自动 PostCSS 和预处理器转换 | ❌    |
+| HTML 转换                   | ❌    |
+| 支持 Rollup                 | ✅    |
 | 大小                        | 16 MB |
 
 ## Vite
@@ -334,17 +338,17 @@ Vite 比 esbuild 和 Snowpack 有更多特定的默认设置。它的[文档](ht
 
 Vite 的开发环境服务非常强大。 Vite 使用 esbuild 将项目的所有依赖项预先捆绑到单个原生 JavaScript 模块中，然后使用缓存的 HTTP 标头为其提供服务。这意味着在第一次编译之后不会浪费更多的时间再提供或请求导入的依赖项上。 Vite 还提供清晰的错误消息，打印确切的代码块和行号以进行故障排除。
 
-Vite 的 React 和 Vue 模板都引入了支持热模块替换的插件。 Vue 模板插件提供了为[单文件组件](https://github.com/vitejs/vite/tree/main/packages/plugin-vue)和[JSX插件](https://github.com/vitejs/vite/blob/main/packages/plugin-vue-jsx/package.json)。 React 模板引入了 react-refresh 插件。无论哪种方式，两者都会为您提供热模块替换和客户端状态保存。当然，他们也有更多依赖项，包括 Babel 包等，但是，在 Vite 中使用 JSX 时实际上不需要 Babel。默认情况下，JSX 的工作方式与 esbuild 相同—— 它会转换为 `React.createElement`。
+Vite 的 React 和 Vue 模板都引入了支持热模块替换的插件。 Vue 模板插件提供了为[单文件组件](https://github.com/vitejs/vite/tree/main/packages/plugin-vue)和[JSX 插件](https://github.com/vitejs/vite/blob/main/packages/plugin-vue-jsx/package.json)。 React 模板引入了 react-refresh 插件。无论哪种方式，两者都会为您提供热模块替换和客户端状态保存。当然，他们也有更多依赖项，包括 Babel 包等，但是，在 Vite 中使用 JSX 时实际上不需要 Babel。默认情况下，JSX 的工作方式与 esbuild 相同—— 它会转换为 `React.createElement`。
 
- Vite 不支持像 Snowpack 和 wmr 那样的流式导入，所以只能像往常一样 npm 安装依赖项使用。
+Vite 不支持像 Snowpack 和 wmr 那样的流式导入，所以只能像往常一样 npm 安装依赖项使用。
 
- Vite正在做对服务器端渲染的实验性功能，选择框架并生成直接发送到客户端的静态 HTML。 Evan You 已经有一项名为 VitePress 的工作正在进行中，它是 VuePress 的替代品，也有使用 Vite 的优点。并且 Sveltekit 也将 Vite 添加到其依赖项列表中。这样看起来， [CSS 代码拆分](https://vitejs.dev/guide/features.html#css-code-splitting)的原因可能和 Sveltekit 转向 Vite 有关。
+Vite 正在做对服务器端渲染的实验性功能，选择框架并生成直接发送到客户端的静态 HTML。 Evan You 已经有一项名为 VitePress 的工作正在进行中，它是 VuePress 的替代品，也有使用 Vite 的优点。并且 Sveltekit 也将 Vite 添加到其依赖项列表中。这样看起来， [CSS 代码拆分](https://vitejs.dev/guide/features.html#css-code-splitting)的原因可能和 Sveltekit 转向 Vite 有关。
 
 ### 支持的文件类型
 
-对于 CSS，Vite 支持捆绑 CSS 导入以及 CSS modules。我们也可以用  `npm install PostCSS` 插件来创建一个 `postcss.config.js` 文件，Vite 会自动将这些转换应用到 CSS。
+对于 CSS，Vite 支持捆绑 CSS 导入以及 CSS modules。我们也可以用 `npm install PostCSS` 插件来创建一个 `postcss.config.js` 文件，Vite 会自动将这些转换应用到 CSS。
 
-Vite也支持CSS预处理器 — 只需 `npm install` 预处理器并将文件重命名为正确的扩展名即可（例如 .filename.scss）。
+Vite 也支持 CSS 预处理器 — 只需 `npm install` 预处理器并将文件重命名为正确的扩展名即可（例如 .filename.scss）。
 
 图片导入默认为公共 URL，但我们也可以通过在 URL 字符串末尾使用 `?raw` 参数将它们作为字符串加载到包中。
 
@@ -353,7 +357,7 @@ JSON 文件可以导入并转换为导出单个对象的 esmodule。也可以提
 ### 生产环境
 
 Vite 使用 Rollup 进行预配置的生产构建，并进行了一系列优化。它专门提供了一个零配置构建，这对于大多数用例来说应该足够了。
-该构建功能也携带了期望的 Rollup 具有的功能：捆绑、压缩 和 tree shaking。除此之外也有别的东西，比如代码分割、动态导入和异步chunk加载，这个很有意思，如果我们请求一个导入另一个模块的 JavaScript 模块，将会异步构建它们。
+该构建功能也携带了期望的 Rollup 具有的功能：捆绑、压缩 和 tree shaking。除此之外也有别的东西，比如代码分割、动态导入和异步 chunk 加载，这个很有意思，如果我们请求一个导入另一个模块的 JavaScript 模块，将会异步构建它们。
 
 ### 总结
 
@@ -361,13 +365,13 @@ Vite 的特性使其成为当前构建工具强有力的竞争者，在真正无
 
 | **Vite**                    |         |
 | :-------------------------- | ------- |
-| 支持多个前端框架模板配置    | ✅       |
-| 支持热更新/替换开发环境服务 | ✅       |
-| 流式引入                    | ❌       |
-| 生产环境预配置              | ✅       |
-| 自动 PostCSS 和预处理器转换 | ✅       |
-| HTML转换                    | ❌       |
-| 支持 Rollup                 | ✅       |
+| 支持多个前端框架模板配置    | ✅      |
+| 支持热更新/替换开发环境服务 | ✅      |
+| 流式引入                    | ❌      |
+| 生产环境预配置              | ✅      |
+| 自动 PostCSS 和预处理器转换 | ✅      |
+| HTML 转换                   | ❌      |
+| 支持 Rollup                 | ✅      |
 | 大小                        | 17.1 MB |
 
 ## wmr
@@ -376,7 +380,7 @@ Vite 的特性使其成为当前构建工具强有力的竞争者，在真正无
 
 与 Vite 一样，wmr 是另一种比较有特点的构建工具，它提供了开发环境服务和构建步骤。它是由 Preact 的创建者 Jason Miller 构建的，因此对于 Preact 开发人员来说，这绝对是一个舒服的选择。 Jason Miller 在 JS Party 播客中作为嘉宾出现时解释了 [wmr 背后的思考](https://changelog.com/jsparty/158)。
 
-您可能想知道 wmr 的全称是什么？可能是 “Web Modules Runtime”，也可能是 “Wet Module Replacement”，谁知道呢（类似于npm）。
+您可能想知道 wmr 的全称是什么？可能是 “Web Modules Runtime”，也可能是 “Wet Module Replacement”，谁知道呢（类似于 npm）。
 
 wmr 很小，只有 2.6 MB，并且不带有任何的 npm 依赖项。尽管如此，它还是包含了很多非常棒的功能，包括热模块替换开发环境服务和优化的生产构建。
 
@@ -400,10 +404,10 @@ wmr 很小，只有 2.6 MB，并且不带有任何的 npm 依赖项。尽管如�
 
 ```js
 // ReactDOM only needed on root render
-import { React, ReactDOM,} from 'es-react';
+import { React, ReactDOM } from 'es-react';
 ```
 
-这样我们实际上并没有使用普通 React 包，而是从 es-react 中引入了 React。这是因为 wmr 依赖于与原生 JavaScript 模块兼容的包。默认情况下，React 不使用原生modules，而是用 [UMD 模块](https://github.com/umdjs/umd)。 es-react 是一个取自 React 且提供与 Web 平台兼容的包。
+这样我们实际上并没有使用普通 React 包，而是从 es-react 中引入了 React。这是因为 wmr 依赖于与原生 JavaScript 模块兼容的包。默认情况下，React 不使用原生 modules，而是用 [UMD 模块](https://github.com/umdjs/umd)。 es-react 是一个取自 React 且提供与 Web 平台兼容的包。
 
 还有一种方法，可以使用 Skypack 导入，它会在浏览器里预加载：
 
@@ -412,7 +416,7 @@ import React from 'https://cdn.skypack.dev/react';
 import ReactDOM from 'https://cdn.skypack.dev/react-dom';
 ```
 
-wmr 有很多插件API，比如一个支持用于构建步骤的 Rollup 插件API。文档上也带有一些 wmr 示例，比如[一个压缩 HTML 的插件](https://github.com/preactjs/wmr/wiki/Configuration-Recipes#minifying-html)、 [基于文件系统的路由插件](https://github.com/preactjs/wmr/wiki/Configuration-Recipes#filesystem-based-routing--page-component-loading)。
+wmr 有很多插件 API，比如一个支持用于构建步骤的 Rollup 插件 API。文档上也带有一些 wmr 示例，比如[一个压缩 HTML 的插件](https://github.com/preactjs/wmr/wiki/Configuration-Recipes#minifying-html)、 [基于文件系统的路由插件](https://github.com/preactjs/wmr/wiki/Configuration-Recipes#filesystem-based-routing--page-component-loading)。
 
 wmr 支持不同的框架，但是没有任何预构建的模板。
 
@@ -431,13 +435,13 @@ npm init -y
 npm install wmr
 mkdir public
 touch public/index.html
-touch public/index.js 
+touch public/index.js
 ```
 
 然后在 index.html 中添加一个脚本导入（再次确保使用 type="module"）：
 
 ```html
-<script type="module" src="./index.js"></script>  
+<script type="module" src="./index.js"></script>
 ```
 
 现在您可以将 hello world 写入您的 index.js 文件：
@@ -461,11 +465,20 @@ wmr 在转换 JSX 时使用了一个叫做 [htm](https://github.com/developit/ht
 import { render } from 'preact';
 import { useState } from 'preact/hooks';
 function App() {
-  const [count,setCount] = useState(0)
-  return <>
-  <button onClick={()=>{setCount(cout+5)}}>Click to add 5 to count</button> // HIGHLIGHT
-  <p>count: {count}</p>
-  </>
+    const [count, setCount] = useState(0);
+    return (
+        <>
+            <button
+                onClick={() => {
+                    setCount(cout + 5);
+                }}
+            >
+                Click to add 5 to count
+            </button>{' '}
+            // HIGHLIGHT
+            <p>count: {count}</p>
+        </>
+    );
 }
 render(<App />, document.body);
 ```
@@ -482,13 +495,13 @@ htm 看起来更像这样：
 html`<${MyComponent}>I am about as close as it gets to JSX as you can get while being able to run in the browser</MyComponent>`
 ```
 
-现在，如果我们F12打开控制台的“Sources”面板，我们应该会看到下面那这张图:
+现在，如果我们 F12 打开控制台的“Sources”面板，我们应该会看到下面那这张图:
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220107172501.png)
 
 通过这种方式，我们可以正确调查浏览器中的错误所在，而无需使用源映射。
 
-wmr 默认支持流式导入，因此裸导入(不带相对/绝对路径的import) 将从 npm 注册表中拉取。这个过程有点复杂，该过程会检查 npm 包中的所有源代码，删除所有测试和元数据，并将其转换为单个原生 JavaScript import。与 Snowpack 类似，可以在不使用 npm 安装任何东西的情况下构建复杂的应用程序。事实上，wmr 是第一个支持这个想法的工具。
+wmr 默认支持流式导入，因此裸导入(不带相对/绝对路径的 import) 将从 npm 注册表中拉取。这个过程有点复杂，该过程会检查 npm 包中的所有源代码，删除所有测试和元数据，并将其转换为单个原生 JavaScript import。与 Snowpack 类似，可以在不使用 npm 安装任何东西的情况下构建复杂的应用程序。事实上，wmr 是第一个支持这个想法的工具。
 
 ### 支持的文件类型
 
@@ -500,7 +513,12 @@ wmr 支持可以在 JavaScript 中导入 CSS 文件，也支持 CSS module。
 
 ```js
 function Dog() {
-  return <img src={new URL('./dog.jpg', import.meta.url)} alt="dog hanging out"></img>
+    return (
+        <img
+            src={new URL('./dog.jpg', import.meta.url)}
+            alt="dog hanging out"
+        ></img>
+    );
 }
 ```
 
@@ -517,68 +535,68 @@ wmr 有完整的生产构建步骤，包括捆绑、压缩和 tree shaking，没
 
 | **wmr**                     |         |
 | :-------------------------- | ------- |
-| 支持多个前端框架模板配置    | ✅       |
-| 支持热更新/替换开发环境服务 | ✅       |
-| 流式引入                    | ✅       |
-| 生产环境预配置              | ✅       |
-| 自动 PostCSS 和预处理器转换 | ✅       |
-| HTML转换                    | ❌       |
-| 支持 Rollup                 | ✅       |
+| 支持多个前端框架模板配置    | ✅      |
+| 支持热更新/替换开发环境服务 | ✅      |
+| 流式引入                    | ✅      |
+| 生产环境预配置              | ✅      |
+| 自动 PostCSS 和预处理器转换 | ✅      |
+| HTML 转换                   | ❌      |
+| 支持 Rollup                 | ✅      |
 | 大小                        | 17.1 MB |
 
 ## 功能对比
 
 ### 简介
 
-| **工具** | 特点                                                         |
-| :------- | :----------------------------------------------------------- |
-| esbuild  | 大型代码库，还没准备好生产。                                 |
-| Snowpack | 不需要捆绑的小型应用程序，也适用于在服务器渲染的应用程序。   |
-| Vite     | 可以生成单页应用程序，代替了 Vue CLI/Create-React-App， Vue 玩家的快乐水。 |
+| **工具** | 特点                                                                           |
+| :------- | :----------------------------------------------------------------------------- |
+| esbuild  | 大型代码库，还没准备好生产。                                                   |
+| Snowpack | 不需要捆绑的小型应用程序，也适用于在服务器渲染的应用程序。                     |
+| Vite     | 可以生成单页应用程序，代替了 Vue CLI/Create-React-App， Vue 玩家的快乐水。     |
 | wmr      | 适用于中小型应用程序，可用于单页或服务器渲染的应用程序， Preact 玩家的快乐水。 |
 
 ### 使用
 
 | **esbuild**              | **Snowpack** | **Vite** | **wmr** |         |
 | :----------------------- | :----------- | :------- | :------ | ------- |
-| 支持多个前端框架模板     | ❌            | ✅        | ✅       | ❌       |
+| 支持多个前端框架模板     | ❌           | ✅       | ✅      | ❌      |
 | 安装默认磁盘占用大小     | 7.34 MB      | 16 MB    | 17.1 MB | 2.57 MB |
-| 零配置构建打包           | ❌            | ❌        | ✅       | ✅       |
-| 零配置热更新开发环境服务 | ❌            | ✅        | ✅       | ✅       |
-| Node包的环境变量处理     | ❌            | ✅        | ✅       | ✅       |
+| 零配置构建打包           | ❌           | ❌       | ✅      | ✅      |
+| 零配置热更新开发环境服务 | ❌           | ✅       | ✅      | ✅      |
+| Node 包的环境变量处理    | ❌           | ✅       | ✅      | ✅      |
 
 ### 开发环境服务
 
-| **esbuild**                | **Snowpack** | **Vite** | **wmr** |      |
-| :-------------------------- | :----------- | :------- | :------ | ---- |
-| 热更新 | ❌            | ✅        | ✅       | ✅    |
-| CSS热替换      | ❌            | ✅        | ✅       | ✅    |
-| npm依赖预捆绑 | ❌            | ✅        | ✅       | ❌    |
-| 浏览器报错提示 | ❌            | ✅        | ✅       | ❌    |
-| HTM转换                | ❌            | ❌        | ❌       | ✅    |
+| **esbuild**    | **Snowpack** | **Vite** | **wmr** |     |
+| :------------- | :----------- | :------- | :------ | --- |
+| 热更新         | ❌           | ✅       | ✅      | ✅  |
+| CSS 热替换     | ❌           | ✅       | ✅      | ✅  |
+| npm 依赖预捆绑 | ❌           | ✅       | ✅      | ❌  |
+| 浏览器报错提示 | ❌           | ✅       | ✅      | ❌  |
+| HTM 转换       | ❌           | ❌       | ❌      | ✅  |
 
 ### 生产构建
 
-|                | **esbuild** | **Snowpack**           | **Vite** | **wmr** |
-| :------------- | :---------- | :--------------------- | :------- | :------ |
-| 依赖Go         | ✅           | ✅在构建使用 esbuild 时 | ❌        | ❌       |
-| 预配置构建     | ❌           | ❌                      | ✅        | ✅       |
-| 异步chunk加载  | ❌           | ❌                      | ✅        | ✅       |
-| 支持Rollup插件 | ❌           | ✅                      | ✅        | ✅       |
+|                  | **esbuild** | **Snowpack**             | **Vite** | **wmr** |
+| :--------------- | :---------- | :----------------------- | :------- | :------ |
+| 依赖 Go          | ✅          | ✅ 在构建使用 esbuild 时 | ❌       | ❌      |
+| 预配置构建       | ❌          | ❌                       | ✅       | ✅      |
+| 异步 chunk 加载  | ❌          | ❌                       | ✅       | ✅      |
+| 支持 Rollup 插件 | ❌          | ✅                       | ✅       | ✅      |
 
 ### 其它特性
 
-| **esbuild**                 | **Snowpack** | **Vite** | **wmr**  |      |
-| :-------------------------- | :----------- | :------- | :------- | ---- |
-| 流式输入                    | ❌            | ✅        | ❌        | ✅    |
-| 服务端渲染                  | ❌            | ❌        | ✅ (实验) | ✅    |
-| CSS Modules                 | ❌            | ✅        | ✅        | ✅    |
-| 自动 PostCSS 和预处理器转换 | ❌            | ❌        | ✅        | ❌    |
+| **esbuild**                 | **Snowpack** | **Vite** | **wmr**   |     |
+| :-------------------------- | :----------- | :------- | :-------- | --- |
+| 流式输入                    | ❌           | ✅       | ❌        | ✅  |
+| 服务端渲染                  | ❌           | ❌       | ✅ (实验) | ✅  |
+| CSS Modules                 | ❌           | ✅       | ✅        | ✅  |
+| 自动 PostCSS 和预处理器转换 | ❌           | ❌       | ✅        | ❌  |
 
 ---
 
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/build_tools_compare.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/build_tools_compare.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)
