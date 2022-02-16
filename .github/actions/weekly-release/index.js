@@ -48,7 +48,7 @@ function createReleaseIssue(UnreleasedAritcles) {
             title: article.title,
             body: bodyTemplate,
             labels: ['待认领'],
-            assignees: 'daodaolee',
+            assignees: ['daodaolee'],
         });
     });
 }
