@@ -32,14 +32,17 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
                 fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
                     if (err) throw err;
                   })
-				  const head =
-`---
+				  const head = `---
 title: '${weeklyName} #${weeklyNum}'
 date: '${getNowFormatDate()}'
 categories: ['${weeklyName}']
 publish: false
 ---
-`
+
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
+
+`;
 const END = `
 
 ---
