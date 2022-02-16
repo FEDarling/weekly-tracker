@@ -23,7 +23,7 @@ function getAllUnpublishedAritcles(base,weeklys) {
       });
     }
   });
-  }
+  });
   console.log("隐藏的文章：");
   console.log(UnpublishedAritcles);
   return UnpublishedAritcles;
