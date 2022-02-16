@@ -1,0 +1,13 @@
+name: weekly-release
+description: weekly-release
+author: KimYangOfCat
+
+inputs: 
+  GITHUB_TOKEN:
+    description: "ACCESS TO GitHub"
+    required: true
+    default: ${{ secrets.ACCESS_TOKEN }}
+
+runs:
+  using: 'node16'
+  main: 'index.js'

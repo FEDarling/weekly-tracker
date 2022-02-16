@@ -1,0 +1,16 @@
+name: Weekly Releases
+on:
+  push:
+    branches: [kim-working-branche]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: create-release-issue
+        uses: ./.github/actions/weekly-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
