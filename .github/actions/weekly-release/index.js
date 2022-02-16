@@ -29,9 +29,32 @@ function getAllUnpublishedAritcles(base, weeklys) {
     console.log(UnpublishedAritcles);
     return UnpublishedAritcles;
 }
+// 创建 issue
+function createReleaseIssue(UnreleasedAritcles) {
+    // 创建 issue
+    const tools = new Toolkit({
+        event: 'push',
+    });
 
-// 检查未发布的文章
-function getAllUnreleasedAritcles(UnpublishedAritcles) {
+    UnreleasedAritcles.forEach((article) => {
+        let bodyTemplate = `
+    ## 认领列表
+    ### 周刊
+    - [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
+    `;
+        tools.github.issues.create({
+            owner: 'FEDarling',
+            repo: 'weekly-tracker',
+            title: article.title,
+            body: bodyTemplate,
+            labels: ['待认领'],
+            assignees: 'daodaolee',
+        });
+    });
+}
+
+// 检查未发布的文章并创建对应的issue
+function checkUnreleasedAritclesAndCreateIssue() {
     const UnreleasedAritcles = [];
     const octokit = new Octokit({
         auth: process.env.GITHUB_TOKEN,
@@ -44,6 +67,10 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
             (response) => response.data.map((issue) => issue.title)
         )
         .then((issueTitles) => {
+            const UnpublishedAritcles = getAllUnpublishedAritcles(
+                Base,
+                Weeklys
+            );
             let result = [];
             console.log('已有的issue：');
             console.log(issueTitles);
@@ -54,45 +81,13 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
                 }
             });
             console.log('无issue的文章1：');
-            console.log(UnreleasedAritcles);
-            resolve(result);
+            console.log(result);
+            // 创建 issue
+            createReleaseIssue(result);
         })
         .catch((err) => {
             console.log(err);
         });
-    articles.then((result) => {
-        //获取结果
-        UnreleasedAritcles = result;
-        console.log('无issue的文章2：');
-        console.log(UnreleasedAritcles);
-    });
-
-    return UnreleasedAritcles;
 }
 
-function createReleaseIssue() { 
-// 创建 issue
-const tools = new Toolkit({
-    event: 'push',
-});
-  const UnpublishedAritcles = getAllUnpublishedAritcles(Base, Weeklys);
-  const UnreleasedAritcles = getAllUnreleasedAritcles(UnpublishedAritcles);
-  UnreleasedAritcles.forEach((article) => {
-      let bodyTemplate = `
-    ## 认领列表
-    ### 周刊
-    - [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
-    `;
-      tools.github.issues.create({
-          owner: 'FEDarling',
-          repo: 'weekly-tracker',
-          title: article.title,
-          body: bodyTemplate,
-          labels: ['待认领'],
-          assignees: 'daodaolee',
-      });
-  });
-}
-
-createReleaseIssue();
-
+checkUnreleasedAritclesAndCreateIssue();
