@@ -3,28 +3,23 @@ const fs = require("fs");
 const yamlFront = require("yaml-front-matter");
 const { Octokit } = require("@octokit/rest");
 const { resolve } = require('path');
-
-const Base = 'weeklys/';
-const Weeklys = [
-    'react_status',
-    'css_weekly',
-    'javascript_weekly',
-    'node_weekly',
-    'frontend_focus',
-];
+const Weeklys = require('../../../script/utils.js').weeklys;
+const Base = require('../../../script/utils.js').base;
 
 // 整理本地待公开周刊
 function getAllUnpublishedAritcles(base, weeklys) {
     const UnpublishedAritcles = [];
     weeklys.forEach((weekly) => {
-        const weeklyNums = fs.readdirSync(base + weekly);
+        const weeklyNums = fs.readdirSync(base + '/' + weekly[1]);
         weeklyNums.forEach((weeklyNum) => {
             // 目前只读取周刊内容
-            let weeklyPath = base + weekly + '/' + weeklyNum + '/README.md';
+            let weeklyPath =
+                base + '/' + weekly[1] + '/' + weeklyNum + '/README.md';
             const content = fs.readFileSync(weeklyPath, 'utf8');
             const weeklyNumFront = yamlFront.loadFront(content);
             if (weeklyNumFront.publish === false) {
                 UnpublishedAritcles.push({
+                    name: weekly[0],
                     title: weeklyNumFront.title,
                     path: weeklyPath,
                 });
@@ -37,9 +32,12 @@ function getAllUnpublishedAritcles(base, weeklys) {
 }
 // 读取 issue 模板文件
 function getIssueTemplate() {
-  const content = fs.readFileSync('./.github/ISSUE_TEMPLATE/weekly-release.md', 'utf8');
-  const lines = content.split('\n');
-  return lines.splice(15).join('\n');
+    const content = fs.readFileSync(
+        './.github/ISSUE_TEMPLATE/weekly-release.md',
+        'utf8'
+    );
+    const lines = content.split('\n');
+    return lines.splice(15).join('\n');
 }
 // 创建 issue
 function createReleaseIssue(UnreleasedAritcles) {
@@ -58,9 +56,10 @@ function createReleaseIssue(UnreleasedAritcles) {
             owner: 'FEDarling',
             repo: 'weekly-tracker',
             title: article.title,
-            body: bodyTemplate+getIssueTemplate(),
-            labels: ['待认领'],
-            assignees: ['daodaolee'],
+            body: bodyTemplate + getIssueTemplate(),
+            labels: ['待认领', `${article.name}`],
+            assignees: ['daodaolee', 'KimYangOfCat'],
+            milestone: '周刊翻译追新计划',
         });
     });
 }

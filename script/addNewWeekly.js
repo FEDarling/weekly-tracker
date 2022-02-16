@@ -2,18 +2,10 @@ const TurndownService = require('turndown')
 const https = require("https");
 const cheerio = require("cheerio");
 const fs = require('fs');
-// const options;
-let req;
-const base = './weeklys'
+const weeklys = require('./utils.js').weeklys;
+const base = require('./utils.js').base;
 
-const weeklys = [
-	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
-	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
-	['React Status', "react_status", "https://react.statuscode.com/issues/", '.issue-html'],
-	// ['Mobile Dev Weekly', "mobile_dev_weekly", "https://mobiledevweekly.com/issues/", '.issue-html'],
-	['Frontend Focus', "frontend_focus", "https://frontendfoc.us/issues/", '.issue-html'],
-	['CSS Weekly', "css_weekly", "https://css-weekly.com", '.box-newsletter']
-]
+let req;
 
 const getNewNum = (weeklyName, weeklyDir) => {
 	console.log(` \x1B[33m🚗开始获取本地 ${weeklyName} 数据...\x1B[0m`);
