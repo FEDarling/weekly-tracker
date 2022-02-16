@@ -32,18 +32,20 @@ function getAllUnpublishedAritcles(base,weeklys) {
 // 检查未发布的文章
 function getAllUnreleasedAritcles(UnpublishedAritcles) { 
   const UnreleasedAritcles = [];
-  Octokit.paginate(
-      "GET /repos/FEDarling/weekly-tracker/issues",
-      { owner: "FEDarling", repo: "weekly-tracker" },
-      (response) => response.data.map((issue) => issue.title)
-    )
-    .then((issueTitles,UnreleasedAritcles) => {
-      UnpublishedAritcles.forEach((article) => {
-        if (!issueTitles.includes(article.title)) {
-          UnreleasedAritcles.push(article);
-        }
+  const octokit = new Octokit();
+  octokit
+      .paginate(
+          'GET /repos/FEDarling/weekly-tracker/issues',
+          { owner: 'FEDarling', repo: 'weekly-tracker' },
+          (response) => response.data.map((issue) => issue.title)
+      )
+      .then((issueTitles, UnreleasedAritcles) => {
+          UnpublishedAritcles.forEach((article) => {
+              if (!issueTitles.includes(article.title)) {
+                  UnreleasedAritcles.push(article);
+              }
+          });
       });
-    });
   console.log("无issue的文章：");
   console.log(UnreleasedAritcles);
    return UnreleasedAritcles;
