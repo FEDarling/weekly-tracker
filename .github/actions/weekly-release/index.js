@@ -36,7 +36,7 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
       auth: process.env.GITHUB_TOKEN,
       userAgent: 'Chrome v1.2.3',
   });
-  octokit
+  let issues = octokit
       .paginate(
           'GET /repos/FEDarling/weekly-tracker/issues',
           { owner: 'FEDarling', repo: 'weekly-tracker' },
@@ -49,10 +49,14 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
               if (!issueTitles.includes(article.title)) {
                   UnreleasedAritcles.push(article);
               }
+              console.log('无issue的文章1：');
+              console.log(UnreleasedAritcles);
           });
       });
-  console.log("无issue的文章：");
+  console.log('无issue的文章：');
   console.log(UnreleasedAritcles);
+  console.log('issues：');
+  console.log(issues);
    return UnreleasedAritcles;
 }
 
