@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: create-release-issue
-        uses: /.github/actions/weekly-release
+        uses: ./.github/actions/weekly-release
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
