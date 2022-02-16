@@ -5,7 +5,13 @@ const { Octokit } = require("@octokit/rest");
 const { resolve } = require('path');
 
 const Base = 'weeklys/';
-const Weeklys = ['react_status'];
+const Weeklys = [
+    'react_status',
+    'css_weekly',
+    'javascript_weekly',
+    'node_weekly',
+    'frontend_focus',
+];
 
 // 整理本地待公开周刊
 function getAllUnpublishedAritcles(base, weeklys) {
@@ -87,7 +93,7 @@ function checkUnreleasedAritclesAndCreateIssue() {
                     console.log(`${article.title} 已添加到待发布列表`);
                 }
             });
-            console.log('无issue的文章1：');
+            console.log('无issue的文章：');
             console.log(result);
             // 创建 issue
             createReleaseIssue(result);
