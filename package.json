@@ -13,10 +13,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@octokit/rest": "^18.12.0",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-rss": "^1.0.2",
     "@vuepress/plugin-pwa": "^1.9.7",
     "@vuepress/plugin-register-components": "^1.9.7",
+    "actions-toolkit": "^6.0.1",
     "cheerio": "^1.0.0-rc.10",
     "inquirer": "8.2.0",
     "turndown": "^7.1.1",

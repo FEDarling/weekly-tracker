@@ -1,4 +1,4 @@
-name: tracker new weekly
+name: Tracker
 on:
   schedule:
     - cron: '1 6 * * 5'
