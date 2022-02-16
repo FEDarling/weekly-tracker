@@ -29,6 +29,12 @@ function getAllUnpublishedAritcles(base, weeklys) {
     console.log(UnpublishedAritcles);
     return UnpublishedAritcles;
 }
+// 读取 issue 模板文件
+function getIssueTemplate() {
+  const content = fs.readFileSync('./.github/ISSUE_TEMPLATE/weekly-release.md', 'utf8');
+  const lines = content.split('\n');
+  return lines.splice(15).join('\n');
+}
 // 创建 issue
 function createReleaseIssue(UnreleasedAritcles) {
     // 创建 issue
@@ -38,22 +44,22 @@ function createReleaseIssue(UnreleasedAritcles) {
 
     UnreleasedAritcles.forEach((article) => {
         let bodyTemplate = `
-    ## 认领列表
-    ### 周刊
-    - [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
-    `;
+## 认领列表
+### 周刊
+- [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
+`;
         tools.github.issues.create({
             owner: 'FEDarling',
             repo: 'weekly-tracker',
             title: article.title,
-            body: bodyTemplate,
+            body: bodyTemplate+getIssueTemplate(),
             labels: ['待认领'],
             assignees: ['daodaolee'],
         });
     });
 }
 
-// 检查未发布的文章并创建对应的issue
+// 检查未创建 issue 的文章并创建对应的issue
 function checkUnreleasedAritclesAndCreateIssue() {
     const UnreleasedAritcles = [];
     const octokit = new Octokit({
@@ -67,6 +73,7 @@ function checkUnreleasedAritclesAndCreateIssue() {
             (response) => response.data.map((issue) => issue.title)
         )
         .then((issueTitles) => {
+            // 获取本地尚未发布的周刊
             const UnpublishedAritcles = getAllUnpublishedAritcles(
                 Base,
                 Weeklys
