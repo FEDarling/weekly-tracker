@@ -32,7 +32,10 @@ function getAllUnpublishedAritcles(base,weeklys) {
 // 检查未发布的文章
 function getAllUnreleasedAritcles(UnpublishedAritcles) { 
   const UnreleasedAritcles = [];
-  const octokit = new Octokit();
+  const octokit = new Octokit({
+      auth: process.env.GITHUB_TOKEN,
+      userAgent: 'Chrome v1.2.3',
+  });
   octokit
       .paginate(
           'GET /repos/FEDarling/weekly-tracker/issues',
@@ -40,6 +43,8 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
           (response) => response.data.map((issue) => issue.title)
       )
       .then((issueTitles, UnreleasedAritcles) => {
+          console.log('已有的issue：');
+          console.log(issueTitles);
           UnpublishedAritcles.forEach((article) => {
               if (!issueTitles.includes(article.title)) {
                   UnreleasedAritcles.push(article);
