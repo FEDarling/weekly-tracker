@@ -6,7 +6,6 @@ inputs:
   github_token:
     description: "ACCESS TO GitHub"
     required: true
-    default: ${{ secrets.ACCESS_TOKEN }}
 
 runs:
   using: 'node16'

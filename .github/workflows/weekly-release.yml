@@ -3,7 +3,7 @@ on:
   push:
     branches: [kim-working-branche]
 jobs:
-  build-and-deploy:
+  checkout-and-createIssue:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
