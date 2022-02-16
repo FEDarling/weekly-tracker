@@ -9,13 +9,15 @@ publish: true
 ---
 
 ![](https://cdn.jsdelivr.net/gh/daodaolee/photobed@main/img/20220104151801.png)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 > Safari 技术预览版 137 刚刚发布，对 CSS :has() 提供未标记的支持。通常被称为“父选择器”的 :has() 远不止于此……
 
 ## CSS `:has()`?
 
-根据 [selectors-4规范](https://drafts.csswg.org/selectors-4/#has-pseudo)：
+根据 [selectors-4 规范](https://drafts.csswg.org/selectors-4/#has-pseudo)：
 
 > 如果任何带参数的选择器至少匹配一个元素，那么`:has()` 伪类就代表一个元素。
 
@@ -64,15 +66,16 @@ h1:has(+ p) { … }
 
 ## 浏览器兼容
 
-如前所述，当前只有Safari TP 137支持它（未标记），Chromium团队目前也在努力实现它，关于火狐浏览器还没有消息。
+如前所述，当前只有 Safari TP 137 支持它（未标记），Chromium 团队目前也在努力实现它，关于火狐浏览器还没有消息。
 
-- WebKit/Safari: [Issue #227702](https://bugs.webkit.org/show_bug.cgi?id=227702) — 已解决
-- Blink/Chromium: [Issue #669058](https://bugs.chromium.org/p/chromium/issues/detail?id=669058) — 进行中
-- Gecko/Firefox: [Issue #418039](https://bugzilla.mozilla.org/show_bug.cgi?id=418039) — 进行中
+-   WebKit/Safari: [Issue #227702](https://bugs.webkit.org/show_bug.cgi?id=227702) — 已解决
+-   Blink/Chromium: [Issue #669058](https://bugs.chromium.org/p/chromium/issues/detail?id=669058) — 进行中
+-   Gecko/Firefox: [Issue #418039](https://bugzilla.mozilla.org/show_bug.cgi?id=418039) — 进行中
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/has_selector.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://www.bram.us/2021/12/21/the-css-has-selector-is-way-more-than-a-parent-selector/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/has_selector.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

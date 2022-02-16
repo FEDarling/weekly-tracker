@@ -1,10 +1,11 @@
 ---
 title: 'CSS Weekly #486'
 date: '2021-12-22'
-categories: ["CSS Weekly"]
+categories: ['CSS Weekly']
 publish: true
 ---
-[CSS中 :has() 选择器不仅仅是 “父选择器”](./has_selector.md)
+
+[CSS 中 :has() 选择器不仅仅是 “父选择器”](./has_selector.md)
 
 ![The CSS :has() Selector Is Way More Than a “Parent Selector”](https://css-weekly.com/wp-content/uploads/2021/12/the-css-has-selector-is-way-more-than-a-parent-selector.jpg)
 
@@ -29,11 +30,9 @@ Nikola Đuza 演示了如何平滑地还原一个 hover 的过渡。
 
 Philip Jägenstedt 和 Mariko Kosaka 更新了 Compat 2021 的年终汇报 — 消除五个关键且重要的浏览器兼容性问题：CSS Flexbox、CSS Grid、position: sticky，aspect-ratio 和 CSS transforms。
 
-
 [偏好媒体查询](https://12daysofweb.dev/2021/preference-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
 Stephanie Eckles 讲述了两个最受支持且可以检测用户偏好的媒体查询：prefers-reduced-motion 和 prefers-color-scheme。
-
 
 [CSS：我不是系列](https://calendar.perfplanet.com/2021/css-me-not/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
@@ -61,10 +60,10 @@ SVGcode 是一个渐进式 Web 应用程序，用于将 JPG、PNG、GIF、WebP �
 
 Lynn Fisher 重新设计了她的作品。与往常一样，她的作品令人印象深刻，鼓舞人心，令人费解。 （提示：调整浏览器大小有意想不到的变化）
 
-
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-486/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[Chen](https://github.com/LilyChenlin)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-weekly.com/issue-486/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[Chen](https://github.com/LilyChenlin)
