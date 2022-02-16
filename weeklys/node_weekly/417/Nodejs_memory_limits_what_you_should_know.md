@@ -26,7 +26,7 @@ OK，准备完成就发车！
 世代中分为年轻一代和老一代，而年轻的一代还分为了新生代和中间代。随着对象在垃圾回收中幸存下来，它们也会加入老一代。
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25699325/1641859509767-20b76ff5-705e-49e6-92b9-d695c6f6c961.png#clientId=ua5435165-b5e7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=284&id=ua9d134e3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=284&originWidth=826&originalType=binary&ratio=1&rotation=0&showTitle=false&size=34511&status=done&style=none&taskId=u4df145d7-a1ee-474d-b2dd-62a88d805d7&title=&width=826)
+![image.png](https://v8.dev/_img/trash-talk/02.svg)
 
 
 世代假说的基本原则是大多数对象都是年轻的。V8 垃圾回收器基于这一点，只提升在垃圾回收中幸存下来的对象。随着对象被复制到相邻区域，它们最终会进入老一代。
@@ -173,7 +173,7 @@ s.appendFile(LOG_FILE, timeRounded + "," + gbRounded + os.EOL, () => {}); // 请
 如果你只是赶着看看数据的情况，直接用excel也可以，如下图：
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25699325/1641864662600-1213485d-38a6-4356-a9d6-c61d6d94d51e.png#clientId=u3ee7c93f-76ed-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=365&id=u77d7d8ce&margin=%5Bobject%20Object%5D&name=image.png&originHeight=365&originWidth=610&originalType=binary&ratio=1&rotation=0&showTitle=false&size=41430&status=done&style=none&taskId=uc28c98f9-95a7-4ec0-8a21-87f1a00a17d&title=&width=610)
+![image.png](./img/1.png)
 
 在限制为4.1GB的情况下，你可以看到内存的使用率在短时间内呈线性增长。内存的消耗在持续的增长并没有变得平缓，这个说明了某个地方存在内存泄漏。在我们调试这类问题的时候，我们要寻找在分配在老世代结束时的那部分代码。
 
@@ -230,7 +230,7 @@ memwatch.on("leak", function (info) {
 
 
 [AppSignal 有一个神奇的仪表板，用于](https://blog.appsignal.com/2021/01/19/nodejs-garbage-collection-heap-statistics-magic-dashboard-metrics.html)监控堆增长的[垃圾收集统计信息](https://blog.appsignal.com/2021/01/19/nodejs-garbage-collection-heap-statistics-magic-dashboard-metrics.html)。
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/25699325/1641866438624-875d0439-9c9b-4029-93be-603433bb2864.png#clientId=u3ee7c93f-76ed-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=271&id=u00d56db8&margin=%5Bobject%20Object%5D&name=image.png&originHeight=271&originWidth=660&originalType=binary&ratio=1&rotation=0&showTitle=false&size=48663&status=done&style=none&taskId=uee8a280a-e2dd-496b-9c2f-4f4093b1687&title=&width=660)
+![image.png](./img/2.png)
 
 
 上图显示请求在 14:25 左右停止了 7 分钟，允许垃圾回收以减少内存压力。当对象在旧的空间中停留太久并导致内存泄漏时，仪表板也会暴露出来。
