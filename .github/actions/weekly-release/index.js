@@ -52,7 +52,7 @@ function getAllUnreleasedAritcles(UnpublishedAritcles) {
 function createReleaseIssue() { 
 // 创建 issue
 const tools = new Toolkit({
-  event: "issues"
+    event: 'push',
 });
   const UnpublishedAritcles = getAllUnpublishedAritcles(Base, Weeklys);
   const UnreleasedAritcles = getAllUnreleasedAritcles(UnpublishedAritcles);
