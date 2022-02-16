@@ -3,7 +3,7 @@ description: weekly-release
 author: KimYangOfCat
 
 inputs: 
-  GITHUB_TOKEN:
+  github_token:
     description: "ACCESS TO GitHub"
     required: true
     default: ${{ secrets.ACCESS_TOKEN }}
