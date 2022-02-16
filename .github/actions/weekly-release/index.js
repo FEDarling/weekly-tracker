@@ -56,22 +56,21 @@ const tools = new Toolkit({
 });
   const UnpublishedAritcles = getAllUnpublishedAritcles(Base, Weeklys);
   const UnreleasedAritcles = getAllUnreleasedAritcles(UnpublishedAritcles);
-  UnreleasedAritcles.forEach((article) => { 
-    let bodyTemplate = 
-    `
+  UnreleasedAritcles.forEach((article) => {
+      let bodyTemplate = `
     ## 认领列表
     ### 周刊
     - [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
-    `
-    tools.github.issues.create({
-      owner: "FEDarling",
-      repo: "weekly-tracker",
-      title: article.title,
-      body: bodyTemplate,
-      labels: ["待认领"],
-      assignees: 'daodaolee'
-    });
-  }
+    `;
+      tools.github.issues.create({
+          owner: 'FEDarling',
+          repo: 'weekly-tracker',
+          title: article.title,
+          body: bodyTemplate,
+          labels: ['待认领'],
+          assignees: 'daodaolee',
+      });
+  });
 }
 
 createReleaseIssue();
