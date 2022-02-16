@@ -1,7 +1,7 @@
 name: Weekly Releases
 on:
   push:
-    branches: [kim-working-branche]
+    branches: [main]
 jobs:
   checkout-and-createIssue:
     runs-on: ubuntu-latest
