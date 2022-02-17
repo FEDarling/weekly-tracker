@@ -7,18 +7,18 @@ tags: ['JavaScript','ECMAScript','Chrome']
 #请不要随意增删标签，上面选项中没有可选的相关标签，一定要先讨论！
 publish: false
 ---
+
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c0fbf1f85f1d45d7bd53525cb5958d6e~tplv-k3u1fbpfcp-zoom-crop-mark:1304:1304:1304:734.awebp?)
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-
 在JavaScript中,日期的处理是非常简陋的。自从1995年受到Java的启发实现了 [`Date()`](https://developer.mozilla.org/Web/JavaScript/Reference/Global_Objects/Date)对象以来，`Date()`就再也没有发生过迭代。随着时间的推移，java选择了放弃`Date()`,但是浏览器为了向后兼容，所以`Date()`一直保留在 JavaScript 中。
 
 `Date()`的问题在于：
--   过于简陋
--   它只支持 UTC 和用户的 PC 时间
--   它不支持除[格里高利历](https://www.hautehorlogerie.org/zh/watches-and-culture/encyclopaedia/glossary-of-watchmaking/s/gregorian-calendar-1/)以外的日历
--   字符串到日期解析很容易出现错误
--   日期对象是可变的。例如:
+- 过于简陋
+- 它只支持 UTC 和用户的 PC 时间
+- 它不支持除[格里高利历](https://www.hautehorlogerie.org/zh/watches-and-culture/encyclopaedia/glossary-of-watchmaking/s/gregorian-calendar-1/)以外的日历
+- 字符串到日期解析很容易出现错误
+- 日期对象是可变的。例如:
 ```js
 const today = new Date();
 const tomorrow = new Date( today.setDate( today.getDate() + 1 ) );
@@ -46,7 +46,6 @@ Temporal.Now.timeZone();
 Temporal.Now.zonedDateTimeISO('Europe/London');
 ```
 ### 当前日期和时间
-
 [`Temporal.Instant`](https://tc39.es/proposal-temporal/docs/#Temporal-Instant)会返回一个以纳秒为单位的最接近的，并且符合ISO8601标准的字符串来表示日期和时间格式的对象。
 
 ![Temporal date time string](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8a61b2123f1841f7bbbcfbd4f0b010a1~tplv-k3u1fbpfcp-zoom-1.image)
@@ -89,46 +88,41 @@ Temporal.ZonedDateTime.from({
 ```
 
 ### 计划日期和时间
-
 计划时间/日期是指在不考虑时区的情况下实现的简单的日历事件。例如：
 
--   [`Temporal.PlainTime`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainTime)指定一个特殊的时间，例如 *在每个工作日下午三点举行会议*
+- [`Temporal.PlainTime`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainTime)指定一个特殊的时间，例如 *在每个工作日下午三点举行会议*
 
-    ```js
-    // 以下全都表示为 15:00:00
-    new Temporal.PlainTime(15, 0, 0);
-    Temporal.PlainTime.from('15:00:00');
-    ```
+ ```js
+ // 以下全都表示为 15:00:00
+ new Temporal.PlainTime(15, 0, 0);
+ Temporal.PlainTime.from('15:00:00');
+ ```
 
--   [`Temporal.PlainDate`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainDate)指定一个特殊的日期，例如*你需要在2022年1月31日前提交报税表*
-    ```js 
-    // 一下都表示2022年1月31日
-    new Temporal.PlainDate(2022, 1, 31);
-    Temporal.PlainDate.from('2022-01-31');
-    ```
+- [`Temporal.PlainDate`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainDate)指定一个特殊的日期，例如*你需要在2022年1月31日前提交报税表*
+```js 
+ // 一下都表示2022年1月31日
+new Temporal.PlainDate(2022, 1, 31);
+Temporal.PlainDate.from('2022-01-31');
+```
 
--   [`Temporal.PlainDateTime`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainDateTime)指定一个不分时区的日期合时间
+- [`Temporal.PlainDateTime`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainDateTime)指定一个不分时区的日期合时间
+```js
+new Temporal.PlainDateTime(2022, 5, 4, 10, 11, 12);
+Temporal.PlainDateTime.from('2022-05-04T10:11:12');
+```
 
-    ```js
-    new Temporal.PlainDateTime(2022, 5, 4, 10, 11, 12);
-    Temporal.PlainDateTime.from('2022-05-04T10:11:12');
-    ```
+- [`Temporal.PlainYearMonth`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainYearMonth) 指定某一个月的计划。例如*2022年6月计划已经完成*
+```js
+new Temporal.PlainYearMonth(2022, 6);
+Temporal.PlainYearMonth.from('2022-06');
+```
 
--   [`Temporal.PlainYearMonth`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainYearMonth) 指定某一个月的计划。例如*2022年6月计划已经完成*
-
-    ```js
-    new Temporal.PlainYearMonth(2022, 6);
-    Temporal.PlainYearMonth.from('2022-06');
-    ```
-
--   [`Temporal.PlainMonthDay`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainMonthDay) 指定不限年份的时间，例如：*十月一日是国庆*：
-
-    ```js
-    new Temporal.PlainMonthDay(10, 1);
-    Temporal.PlainMonthDay.from('10-01');
-    ```
+- [`Temporal.PlainMonthDay`](https://tc39.es/proposal-temporal/docs/#Temporal-PlainMonthDay) 指定不限年份的时间，例如：*十月一日是国庆*：
+```js
+new Temporal.PlainMonthDay(10, 1);
+Temporal.PlainMonthDay.from('10-01');
+```
 ### 开源会话重播
-
 在生产环境中，调试web应用可能是非常耗时又困难的。[OpenReplay](https://github.com/openreplay/openreplay)是一个可以替代 FullStory、 LogRocket 和 Hotjar 的开源开源产品。它可以帮助你监听和回放用户的所有操作，并且会告诉你是如何处理用户的每一步操作的。就犹如你打开了控制台并看着用户在操作一样。OpenReplay是目前唯一可用的开源产品。
 
 ![OpenReplay](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/47dea57692774cb5834c74bcc37c970e~tplv-k3u1fbpfcp-zoom-1.image)
@@ -163,7 +157,6 @@ t1.nanosecond;  // 0
 -   `inLeapYear` — 闰年返回true，平年返回false
 
 ### 日期和时间的比较和排序
-
 所有 `Temporal`对象都包含一个`.compare(date1, date2)` 方法，该方法返回:
 -   `0` ==> date1和date2相等
 -   `1` ==> date1大于date2
@@ -189,7 +182,6 @@ const t = [
   .sort( Temporal.ZonedDateTime.compare );
 ```
 ### 日期和时间的计算
-
 `Temporal`对象将提供计算方法： [add()](https://tc39.es/proposal-temporal/docs/duration.html#add)， [subtract()](https://tc39.es/proposal-temporal/docs/duration.html#subtract), 和 [round()](https://tc39.es/proposal-temporal/docs/duration.html#round) ：
 
 你可以通过[`Temporal.Duration` object](https://tc39.es/proposal-temporal/docs/duration.htm) 定义一个开始时间，然后可以分别以`years`， `months`， `weeks`， `days`， `hours`， `minutes`， `seconds`， `milliseconds`， `microseconds` and `nanoseconds`为单位来计算时间，或者使用`sign`键用1或者-1来表示相反的运算。这些方法都仅支持一段时间，所以不需要创建一个指定的实践对象。例如：
@@ -221,15 +213,12 @@ t3.since().weeks;
  `equals()`可以实现判断两个时间是否相等，例如：
 
 ```js
-const
-  d1 = Temporal.PlainDate.from('2022-01-31');
+const  d1 = Temporal.PlainDate.from('2022-01-31');
   d2 = Temporal.PlainDate.from('2023-01-31');
-
 d1.equals(d2); // false
 ```
 
 ### 格式化日期和时间字符串
-
 `Temporal`对象都包含一个`.toString()` 来返回一个字符串，例如：Temporal. now.toString () :
 
 ```js
@@ -256,5 +245,5 @@ new Intl.DateTimeFormat('es-ES', { dateStyle: 'full' }).format(d);
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://blog.openreplay.com/is-it-time-for-the-javascript-temporal-api)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/Is_It_Time_for_the_JavaScript_Temporal_API.md)
-> * 译者：[chressYu](https://github.com/chressYu)
+> * 译者：[HongyuYU](https://github.com/chressYu)
 > * 校对者：
