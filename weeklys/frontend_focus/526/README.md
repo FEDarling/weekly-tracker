@@ -2,7 +2,7 @@
 title: 'Frontend Focus #526'
 date: '2022-02-04'
 categories: ['Frontend Focus']
-publish: false
+publish: true
 ---
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643195057/khq1ogbzamvfavh0xfgy.png)
