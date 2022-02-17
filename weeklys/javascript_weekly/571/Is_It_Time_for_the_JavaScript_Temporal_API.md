@@ -1,6 +1,6 @@
 ---
 title: 'Is It Time for the JavaScript Temporal API?'
-date: '2022-02-03'
+date: '2022-02-17'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['JavaScript','ECMAScript','Chrome']
 #没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
