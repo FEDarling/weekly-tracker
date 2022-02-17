@@ -1,6 +1,6 @@
 ---
 title: 'Frontend Focus #526'
-date: '2022-02-04'
+date: '2022-02-17'
 categories: ['Frontend Focus']
 publish: true
 ---
