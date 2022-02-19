@@ -5,7 +5,7 @@ title: 'weekly #num'
 labels: 待认领
 assignees: 'daodaolee'
 ---
-## 认领列表
+## 待认领列表
 ### 周刊
 - [ ] []()
 ### 精选文章

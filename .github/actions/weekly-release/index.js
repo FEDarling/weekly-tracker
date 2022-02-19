@@ -48,7 +48,7 @@ function createReleaseIssue(UnreleasedAritcles) {
 
     UnreleasedAritcles.forEach((article) => {
         let bodyTemplate = `
-## 认领列表
+## 待认领列表
 ### 周刊
 - [ ] [${article.title}](https://github.com/FEDarling/weekly-tracker/blob/main/${article.path})
 `;
