@@ -58,8 +58,6 @@ function createReleaseIssue(UnreleasedAritcles) {
             title: article.title,
             body: bodyTemplate + getIssueTemplate(),
             labels: ['待认领', `${article.name}`],
-            assignees: ['daodaolee', 'KimYangOfCat'],
-            milestone: '周刊翻译追新计划',
         });
     });
 }
