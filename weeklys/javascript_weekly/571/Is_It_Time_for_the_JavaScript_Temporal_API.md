@@ -246,4 +246,4 @@ new Intl.DateTimeFormat('es-ES', { dateStyle: 'full' }).format(d);
 > * [查看原文](https://blog.openreplay.com/is-it-time-for-the-javascript-temporal-api)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/571/Is_It_Time_for_the_JavaScript_Temporal_API.md)
 > * 译者：[HongyuYU](https://github.com/chressYu)
-> * 校对者：
+> * 校对者：[Kim Yang](https://github.com/KimYangOfCat)，[DaoDaolee](https://github.com/daodaolee)
