@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript Weekly #573'
-date: '2022-01-25'
+date: '2022-02-21'
 categories: ['JavaScript Weekly']
 publish: true
 ---
@@ -68,7 +68,7 @@ publish: true
 
 [JavaScript 正则表达式中的多行模式（`/ m`）](https://javascriptweekly.com/link/118871/web)  
 
-## 📒  文章 & 教程
+## 🛠  代码 & 工具
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sn0l2009ciea3l9oqzgr.jpg)
 

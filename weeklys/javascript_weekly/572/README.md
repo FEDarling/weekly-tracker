@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript Weekly #572'
-date: '2022-01-24'
+date: '2022-02-21'
 categories: ['JavaScript Weekly']
 publish: true
 ---
@@ -68,7 +68,7 @@ publish: true
 
 [我们如何使用 Rust、WebAssembly 和 TypeScript 构建 VS 代码扩展](https://javascriptweekly.com/link/118552/web)  
 
-## 📒  文章 & 教程
+## 🛠  代码 & 工具
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v0uns9vysvp6ooxciyy0.jpg)
 
