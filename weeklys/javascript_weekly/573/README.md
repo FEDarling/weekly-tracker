@@ -1,103 +1,98 @@
 ---
 title: 'JavaScript Weekly #573'
-date: '2022-01-25'
+date: '2022-02-21'
 categories: ['JavaScript Weekly']
-publish: false
+publish: true
 ---
 
-⁉️ If the subject of this issue has got you confused, it's a reference to the infamous [Wat video](https://javascriptweekly.com/link/118835/web) of 2012 which we mention a couple of times in the issue today :-)  
-\_\_  
-_Peter Cooper, your editor_
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/igqni4z6jhls1bzqifxu.jpg)
 
-## JavaScript Weekly
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/igqni4z6jhls1bzqifxu.jpg)](https://javascriptweekly.com/link/118850/web)
+[要避免的 TypeScript 功能？](https://javascriptweekly.com/link/118850/web "www.executeprogram.com") — 还记得十年前 Gary Bernardt 的 [Wat](https://javascriptweekly.com/link/118835/web) 视频吗？他创建了 [Execute Program](https://javascriptweekly.com/link/118851/web) 开发教育平台，现在反思 TypeScript 中需要认真思考的四件事：枚举、命名空间、装饰器和私有。这是 **自以为是** 的。
 
-[TypeScript Features to Avoid?](https://javascriptweekly.com/link/118850/web "www.executeprogram.com") — Remember Gary Bernardt’s [Wat](https://javascriptweekly.com/link/118835/web) video from ten years ago? He created the [Execute Program](https://javascriptweekly.com/link/118851/web) dev education platform and now reflects on four things in TypeScript to seriously think about: enums, namespaces, decorators, and `private`. It's opinionated - naturally!
+[使用 `structuredClone()` 深度复制对象](https://javascriptweekly.com/link/118852/web "2ality.com") — 当谈到复制 JavaScript 对象时，Axel 博士会着眼于新的东西：`structuredClone`。大多数浏览器的尖端版本以及 Node.js 和 Deno 都支持它，是时候考虑一下了。
 
-[Deeply Copying Objects with `structuredClone()`](https://javascriptweekly.com/link/118852/web "2ality.com") — Dr. Axel looks at the new kid on the block when it comes to copying JavaScript objects: `structuredClone`. Supported in cutting edge versions of most browsers and in Node.js and Deno, it’s time to be aware of this.
+![](https://copm.s3.amazonaws.com/c195ee88.jpg)
 
-[![](https://copm.s3.amazonaws.com/c195ee88.jpg)](https://javascriptweekly.com/link/118833/web)
+[David Khourshid 的 XState 状态机新课程](https://javascriptweekly.com/link/118833/web "frontendmasters.com") — 如果您构建大型 JavaScript 应用程序并希望避免遇到奇怪的边缘情况，您将需要学习状态机。花时间清晰而稳健地为应用程序逻辑建模。
 
-[New Course on State Machines with XState by David Khourshid](https://javascriptweekly.com/link/118833/web "frontendmasters.com") — If you build large JavaScript apps and want to stop running into weird edge cases, you'll want to learn state machines. Spend your time modeling app logic clearly and robustly.
+[JavaScript 风格的 Monad 简介](https://javascriptweekly.com/link/118853/web "github.com") — “我知道很多人会翻白眼”，Kyle 谈到另一个 monad 解释器时说，但是.. 如果你喜欢 Kyle 与 [You Don't Know JS](https://javascriptweekly.com/link/118854/web) 的作品，或者你想要一些面向 JavaScript 的东西，这个是给你的。
 
-[A JavaScript-Flavored Introduction to Monads](https://javascriptweekly.com/link/118853/web "github.com") — _“I know a lot of people roll their eyes”_ says Kyle about yet another monad explainer, but.. if you liked Kyle’s work with [You Don’t Know JS](https://javascriptweekly.com/link/118854/web) or you want something JavaScript oriented and with concrete takeaways for your own code, this is for you.
+[Remix vs Next.js](https://javascriptweekly.com/link/118855/web "remix.run") — [Remix](https://javascriptweekly.com/link/118886/web) 是 JavaScript 全栈框架的新星，因此会很自然地将它与 Next.js（甚至 Ruby on Rails）等其他东西进行比较。请记住，这种比较来自 Remix 团队本身，不过写得很好，当然，同时促进了 Remix 方法。
 
-[Remix vs Next.js](https://javascriptweekly.com/link/118855/web "remix.run") — [Remix](https://javascriptweekly.com/link/118886/web) is the new kid on the JavaScript full-stack framework block so naturally it gets compared to other things like Next.js (and even Ruby on Rails). Bear in mind that this comparison comes from the Remix team themselves but is well written while, of course, promoting the Remix approach.
+[Deno 1.18 发布:（其他）现代 JS/TS 运行时](https://javascriptweekly.com/link/118857/web "deno.com") — Deno 继续向前迈进。 1.18 有全面的 [Web Cryptography API](https://javascriptweekly.com/link/118858/web)、将 V8 升级到 9.8 版、缩短启动时间等方面的巨大努力。
 
-[Deno 1.18 Released: The (Other) Modern JS/TS Runtime](https://javascriptweekly.com/link/118857/web "deno.com") — Deno continues stepping forward. 1.18 boasts the culmination of a big effort to fully implement the [Web Cryptography API](https://javascriptweekly.com/link/118858/web), upgrades V8 to version 9.8, improves startup time, and more.
+## **简述:**
 
-## **IN BRIEF:**
-
-*   [Vue 3 is to become the new 'default' version](https://javascriptweekly.com/link/118834/web) of Vue.js as of February 7.
+*   自 2 月 7 日起，[Vue 3 将成为 Vue.js 的新 “默认” 版本](https://javascriptweekly.com/link/118834/web)。
     
-*   The [▶️ Wat video](https://javascriptweekly.com/link/118835/web) poking fun at JavaScript's dynamically typed ways came out 10 years ago – and it still raises a chuckle.
+*   ▶️ [Wat 视频](https://javascriptweekly.com/link/118835/web) 嘲笑 JavaScript 的动态类型化方式是 10 年前发布的。
     
-*   📗 Classic computer science book _Structure and Implementation of Computer Programs_ (a.k.a. SICP) has always used the Lisp dialect of Scheme but [a JavaScript edition](https://javascriptweekly.com/link/118836/web) is out in April and can now be preordered.
+*   📗 经典计算机科学书籍 Structure and Implementation of Computer Programs (a.k.a. SICP) 一直使用 Scheme 的 Lisp，但 [JavaScript 版本](https://javascriptweekly.com/link/118836/web) 已于 4 月发布，现在可以预订。
     
-*   Interested in headless content management? This Dot Media is running [a live 'State of the Web' on headless CMSes](https://javascriptweekly.com/link/118859/web) next Tuesday (25th).
+*   对无头内容管理感兴趣？这个 Dot Media 将在下周二（25 日）在 hardless CMS 上查看 [实时的 “Web 现状”](https://javascriptweekly.com/link/118859/web)。
     
 
-## **RELEASES:**
+## **版本更新:**
 
-[ESLint 8.7](https://javascriptweekly.com/link/118837/web) — Quality control for your JavaScript.  
-[zx 4.3.0](https://javascriptweekly.com/link/118838/web) — Niceties for shell scripting with Node.js.  
-[react-markdown 8.0](https://javascriptweekly.com/link/118839/web) — Markdown rendering component for React.  
-[Capacitor 3.4](https://javascriptweekly.com/link/118840/web) — Cross platform native app framework.  
-[Axios 0.25.0](https://javascriptweekly.com/link/118841/web) – Long standing HTTP client library.  
-[better-sqlite3 7.5](https://javascriptweekly.com/link/118842/web) – Node.js SQLite library. Now supports strict tables.
+[ESLint 8.7](https://javascriptweekly.com/link/118837/web) — 您的 JavaScript 的质量管理。 
+[zx 4.3.0](https://javascriptweekly.com/link/118838/web) — 与 node.js 的 shell 脚本有关的东西。
+[react-markdown 8.0](https://javascriptweekly.com/link/118839/web) — React 渲染 Markdown 组件。
+[Capacitor 3.4](https://javascriptweekly.com/link/118840/web) — 跨平台本机应用程序框架。 
+[Axios 0.25.0](https://javascriptweekly.com/link/118841/web) – 长期站立的 HTTP 客户端库。 
+[better-sqlite3 7.5](https://javascriptweekly.com/link/118842/web) – Node.js sqlite库。
 
-## 📒 Articles & Tutorials
+## 📒  文章 & 教程
 
-[Replacing jQuery with Umbrella JS](https://javascriptweekly.com/link/118860/web "www.bennadel.com") — A little case study of sorts here, looking at replacing once dominant jQuery with the notably smaller [Umbrella JS](https://javascriptweekly.com/link/118861/web) — which has a similar API and plugin system but may help you break the ties.
+[用 Umbrella JS 替换 jquery](https://javascriptweekly.com/link/118860/web "www.bennadel.com") — 它有一个类似的 API 和插件系统。
 
-[On Grouping Arrays with `.groupBy()` and `.groupByToMap()`](https://javascriptweekly.com/link/118862/web "2ality.com") — A helpful [proposal](https://javascriptweekly.com/link/118863/web) to be aware of (and, perhaps, _support_) but it’s still going through the TC39 process.
+[`.groupby（）`和`.groupbytomap（）` 的选择](https://javascriptweekly.com/link/118862/web "2ality.com") — 这是一份有用的建议。
 
-[Colors NPM: What Happened? Offending Commit Adds an Infinite Loop](https://javascriptweekly.com/link/118846/web "snyk.io") — Are you leveraging the widely popular npm package colors? Take these countermeasures today to avoid a DOS vuln.
+[Colors NPM：发生了什么？违规提交添加无限循环](https://javascriptweekly.com/link/118846/web "snyk.io") — 您是否使用了广泛流行的 Colors NPM？要避免 DOS 漏洞哦。
 
-[From ES6 to Scala: The Basics](https://javascriptweekly.com/link/118864/web "www.scala-js.org") — If you want to give [Scala.js](https://javascriptweekly.com/link/118865/web) a go as an alternative to JavaScript for some frontend work, knowing some Scala would certainly help...
+[从 ES6 到 Scala：基础知识](https://javascriptweekly.com/link/118864/web "www.scala-js.org") — Scala.js 是前端工作的一个替代品，知道这些肯定会有所帮助......
 
-[The Optional Chaining Operator, “Modern” Browsers, and My Mom](https://javascriptweekly.com/link/118866/web "blog.jim-nielsen.com") — Some unsupported JavaScript syntax caused an entire website to fail on two seperate hardware devices. A story of device obsolescence, accessibility, and progressive enhancement.
+[可选的链接运营商，“现代” 浏览器，以及我的妈妈](https://javascriptweekly.com/link/118866/web "blog.jim-nielsen.com") — 一些不受支持的 JavaScript 语法导致整个网站在两个单独的硬件设备上无法适配。
 
-[Good Advice on JSX Conditionals](https://javascriptweekly.com/link/118867/web "thoughtspile.github.io") — _“Time after time I shoot myself in the foot with JSX conditionals. In this article, I look at the trickier corners of JSX conditionals, and share some tips for staying safe”_.
+[关于 JSX 的良好建议](https://javascriptweekly.com/link/118867/web "thoughtspile.github.io")
 
-[Add Less](https://javascriptweekly.com/link/118868/web "css-tricks.com") — As developers, we frequently add tools and libraries to projects, but it can often lead to overloading an app with more than it really needs. So: add less, says Cassidy.
+[少写代码](https://javascriptweekly.com/link/118868/web "css-tricks.com") — 作为开发人员，我们经常向项目添加工具和库，但通常会导致应用程序很大。
 
-[Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API](https://javascriptweekly.com/link/118848/web "getstream.io")
+[使用 Stream 的 Chat API 构建移动响应的远程医疗寻呼机应用程序](https://javascriptweekly.com/link/118848/web "getstream.io")
 
-[How to Extract Secrets from an Electron App](https://javascriptweekly.com/link/118869/web "www.staszewski.me") — The point is it’s so simple that you really shouldn’t be leaving such secrets in there anyway.
+[如何从 Electron 中提取秘密](https://javascriptweekly.com/link/118869/web "www.staszewski.me") — 重点是，你真的不应该在那里留下这样的秘密。
 
-[Embedding JavaScript Snippets in C++ with Emscripten](https://javascriptweekly.com/link/118870/web)  
+[使用 EMScripten 将 JavaScript 片段嵌入 C++ 中](https://javascriptweekly.com/link/118870/web)  
 
-[Multiline Mode (`/m`) in JavaScript Regular Expressions](https://javascriptweekly.com/link/118871/web)  
+[JavaScript 正则表达式中的多行模式（`/ m`）](https://javascriptweekly.com/link/118871/web)  
 
-## 🛠 Code & Tools
+## 🛠  代码 & 工具
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sn0l2009ciea3l9oqzgr.jpg)](https://javascriptweekly.com/link/118872/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sn0l2009ciea3l9oqzgr.jpg)
 
-[TinyBase: A Library for Structuring App State](https://javascriptweekly.com/link/118872/web "tinybase.org") — If you want a bit more database-esque structure around the management of state in your apps, this is worth a look. The [demos](https://javascriptweekly.com/link/118873/web) are notable for how well explained they are so do check those out. [GitHub repo](https://javascriptweekly.com/link/118874/web).
+[TinyBase：构建应用状态的库](https://javascriptweekly.com/link/118872/web "tinybase.org") — 如果您在应用程序中有很多状态需要管理，这是值得一看的。
 
-James Pearce
+[Sharer.js 0.5：20+ 平台的轻量级社交共享组件](https://javascriptweekly.com/link/118875/web "ellisonleao.github.io")
 
-[Sharer.js 0.5: Lightweight Social Sharing Components for 20+ Platforms](https://javascriptweekly.com/link/118875/web "ellisonleao.github.io") — No dependencies too. We last linked this _six years ago_, so it’s about time, especially as it’s still being updated 😄
+[Studio 3T 管理您的数据，同时将您的应用程序塑性](https://javascriptweekly.com/link/118849/web "studio3t.com") — Studio 3T 的全套 MongoDB 工具可以更快地开发。
 
-[Studio 3T Manages Your Data, While You Wrestle Your App into Shape](https://javascriptweekly.com/link/118849/web "studio3t.com") — Studio 3T's full suite of MongoDB tools lets you develop with data even faster and turn queries into code.
+[Vanilla List：vanilla javascript 插件的目录](https://javascriptweekly.com/link/118876/web "vanillalist.top")
 
-[Vanilla List: A Directory of Vanilla JavaScript Plugins](https://javascriptweekly.com/link/118876/web "vanillalist.top") — _"Because lighter plugins mean lighter sites."_ Note that the plugins themselves may have dependencies, just not stuff like jQuery, React, etc.
+[mo.js 1.3：Web 的活动图形工具包](https://javascriptweekly.com/link/118877/web "mojs.github.io") — 使用声明性 API 来完全控制动画。这是一份入门教程以查看它如何从代码 POV 工作。
 
-[mo.js 1.3: A Motion Graphics Toolbelt for the Web](https://javascriptweekly.com/link/118877/web "mojs.github.io") — Use a declarative API to get full control over animations. Check the [getting started tutorial](https://javascriptweekly.com/link/118878/web) to see how it works from a code POV.
+[Rockpack 2.0：替代 React 应用程序构建](https://javascriptweekly.com/link/118879/web "github.com") — 像 *Create React App* 的目标是将项目设置时间降低，但 RockPack 有一些不同的意见。 
 
-[Rockpack 2.0: An Alternative React App Builder](https://javascriptweekly.com/link/118879/web "github.com") — Like _Create React App_ the goal is to get project setup time as low as possible, but Rockpack holds some different opinions around how far to take things and packs in a lot of ideas including, now, server side rendering.
+[vue-easytable：Vue.js 2.x 的表/数据网格组件](https://javascriptweekly.com/link/118880/web "github.com")
 
-[vue-easytable: A Flexible Table/Data Grid Component for Vue.js 2.x](https://javascriptweekly.com/link/118880/web "github.com") — This is one of those times where [the demo](https://javascriptweekly.com/link/118881/web) will sell it to you or not.
+[React Calendar 3.6：React 写的 “终极” 日历](https://javascriptweekly.com/link/118882/web "projects.wojtekmaj.pl")
 
-[React Calendar 3.6: The 'Ultimate' Calendar for Your React App](https://javascriptweekly.com/link/118882/web "projects.wojtekmaj.pl") — A popular, simple-styled calendar component for React apps, focused mostly on letting users pick dates. [GitHub repo](https://javascriptweekly.com/link/118883/web).
-
-[rasterizeHTML.js: Render HTML Onto an HTML Canvas](https://javascriptweekly.com/link/118884/web)  
+[rasterizeHTML.js：将 HTML 渲染到 Canvas 上](https://javascriptweekly.com/link/118884/web)  
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文]((https://javascriptweekly.com/issues/573)对比阅读
+> * [查看原文](https://javascriptweekly.com/issues/573)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/573/README.md)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

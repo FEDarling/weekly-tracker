@@ -1,4 +1,4 @@
-name: tracker new weekly
+name: Tracker
 on:
   schedule:
     - cron: '1 6 * * 5'
@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           author: KimYangOfCat <kim.yang.gh@outlook.com>
           committer: KimYangOfCat <kim.yang.gh@outlook.com>
-          commit-message: 'add new weeklys'
+          commit-message: 'feat: add new weeklys'
           branch: tracker
           delete-branch: true
           base: main 

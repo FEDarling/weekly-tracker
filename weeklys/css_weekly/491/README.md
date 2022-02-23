@@ -61,8 +61,9 @@ Shottr 是一个 macOS 屏幕截图应用程序，具有滚动屏幕截图、OCR
 Brad Frost 分享了有关披头士乐队纪录片创作过程的深刻见解。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-491/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/491)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://css-weekly.com/issue-491/)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/491)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

@@ -1,0 +1,20 @@
+name: Weekly Releases
+on:
+  push:
+    branches: [main]
+jobs:
+  checkout-and-createIssue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: yarn install
+      - name: create-release-issue
+        uses: ./.github/actions/weekly-release
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

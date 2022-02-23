@@ -1,17 +1,19 @@
 ---
 title: 'JavaScript Weekly #399'
 date: '2018-08-17'
-categories: ["JavaScript Weekly"]
+categories: ['JavaScript Weekly']
 publish: true
 ---
 
 本周过去的一次爆炸新闻，因为我们需要一些时间来询问 Axel Rauschmayer 博士（一名 JavaScript Weekly 的前编辑）有关他的新书 [不耐烦程序员的 JavaScript](https://javascriptweekly.com/link/51522/web) 发行的一些问题。 你可以在本期的后面找到它:-)
 _— Peter Cooper, editor_
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dgt2wojtjualvh9aiwvs.jpg)
 
-[JavaScript引擎基础：优化原型](./js_engine_optimizing_prototype.md) — 深入理解 JavaScript 引擎的工作原理可以帮助您推理代码的性能，这篇图表丰富的文章深入探讨了围绕 JavaScript 对基于原型的继承使用进行的引擎优化。
+[JavaScript 引擎基础：优化原型](./js_engine_optimizing_prototype.md) — 深入理解 JavaScript 引擎的工作原理可以帮助您推理代码的性能，这篇图表丰富的文章深入探讨了围绕 JavaScript 对基于原型的继承使用进行的引擎优化。
 
 ▶  [Kyle Simpson 说要在 JavaScript 上继续加油](https://javascriptweekly.com/link/51541/web) — 回顾一下“我们的历程”，看看 JavaScript 的未来之路可能是什么样的。拍摄于巴塞罗那 JSCamp。[这是相关幻灯片](https://javascriptweekly.com/link/51542/web)。
 
@@ -23,7 +25,7 @@ _— Peter Cooper, editor_
 
 [V8 的嵌入式内置函数以及将 V8 的堆大小减少了 19%](https://javascriptweekly.com/link/51544/web) — V8 JavaScript 引擎附带了一个广泛的内置函数库，并且在减少内存开销方面做了很多工作。
 
-[Visual Studio Code 2018 年 7 月更新](https://javascriptweekly.com/link/51546/web) — JavaScript 世界中最流行的编辑器添加了多种功能，其中许多是面向 JS 的，包括 [JSX 标记](https://javascriptweekly.com/link/51547/web)、[“添加缺失的imports”](https://javascriptweekly.com/link/51548/web) 以及更好的 JS/TS 错误报告。
+[Visual Studio Code 2018 年 7 月更新](https://javascriptweekly.com/link/51546/web) — JavaScript 世界中最流行的编辑器添加了多种功能，其中许多是面向 JS 的，包括 [JSX 标记](https://javascriptweekly.com/link/51547/web)、[“添加缺失的 imports”](https://javascriptweekly.com/link/51548/web) 以及更好的 JS/TS 错误报告。
 
 ## 📘 教程 和 意见
 
@@ -39,7 +41,6 @@ _— Peter Cooper, editor_
 
 [使用 Vuex 在 Vue 中进行身份验证](https://javascriptweekly.com/link/51554/web)
 
-
 ▶  [第三方脚本的 Web 性能：两次对话](https://javascriptweekly.com/link/51555/web) — 两次对话可帮助您考虑第三方脚本可能对您网站的性能产生的影响。
 
 ▶  [使用 Cypress.io 进行下一代前端测试](https://javascriptweekly.com/link/51556/web)
@@ -52,30 +53,29 @@ _— Peter Cooper, editor_
 
 [在下一个 Web 项目中使用 Vue.js 的三个理由](https://javascriptweekly.com/link/51559/web)
 
-
 ![Dr. Axel Rauschmayer](https://res.cloudinary.com/cpress/image/upload/v1534501855/xm6jiym0dfvjwzh2t6hp.png)
 
 > ### 与 Axel Rauschmayer 博士的问答，JavaScript 书籍作者和培训师，德国慕尼黑
-> 
+>
 > 为了庆祝他的新书 [《不耐烦程序员的 JavaScript》](https://javascriptweekly.com/link/51522/web) 的发行，我们采访了曾经的 JavaScript 周刊编辑 [Axel Rauschmayer 博士](https://twitter.com/rauschma)，向他提出了几个问题：
 >
 > **什么是 “不耐烦” 的程序员？**
 >
 > 为什么起名字叫 “不耐烦”，因为希望他们可以立马上手 JavaScript。
-> 
+>
 > 章节分为两部分。首先，基础知识，也就是需要知道的基础是什么？然后，进阶知识，就是一旦你熟悉了该语言，你要做什么？
-> 
+>
 > 据我所知，这是唯一一本涵盖所有 JavaScript 的书，包括最新版本（ES2018）。这也方便了我写书的时候新的 API 可以取代旧的 API （不过我也对废弃 API 提供了相关参考资料）。
 >
 > **您认为最近有哪些 JavaScript 功能未被充分利用且值得更多关注？**
 >
 > 我觉得有三个：
-> 
-> *  如果是 “无语但是重要” 的话，我觉得是 modules 和 classes，因为它们规范了之前的东西。
-> *  对迭代的内置支持，尤其是与解构一起使用：`for (const [i, x] of arr.entries()) console.log(i, x);`
-> *  异步函数和异步迭代让异步编程更爽。它们是从 ES6 中的 Promises 开始的标准化过程的。
 >
-> *Axel Rauschmayer 博士是《不耐烦程序员的 JavaScript》的作者 — 现已出版。*
+> -   如果是 “无语但是重要” 的话，我觉得是 modules 和 classes，因为它们规范了之前的东西。
+> -   对迭代的内置支持，尤其是与解构一起使用：`for (const [i, x] of arr.entries()) console.log(i, x);`
+> -   异步函数和异步迭代让异步编程更爽。它们是从 ES6 中的 Promises 开始的标准化过程的。
+>
+> _Axel Rauschmayer 博士是《不耐烦程序员的 JavaScript》的作者 — 现已出版。_
 
 ## 🔧 代码 和 工具
 
@@ -91,14 +91,15 @@ _— Peter Cooper, editor_
 
 ## 📅 一些即将到来的 JavaScript events
 
-*   [JSCamp 2018（9 月 22 日在伊利诺伊州芝加哥举行）](https://javascriptweekly.com/link/51531/web) — 一整天的实事
-*   [2018 年框架峰会（10 月 2 日至 3 日，犹他州帕克城）](https://javascriptweekly.com/link/51532/web) — 一个为期 2 天的会议专注于所有前端框架，并由最受欢迎的团队发表主题演讲。
-*   [JS Interactive（10 月 10 日至 12 日，加拿大温哥华）](https://javascriptweekly.com/link/51533/web) — 最大的 JavaScript 事件之一。由 Linux 基金会组织。 
-*   [JSMobileConf（10 月 25 日至 26 日，马萨诸塞州波士顿）](https://javascriptweekly.com/link/51534/web) — 本次活动令人深刻的演讲者，重点关注移动和物联网。
+-   [JSCamp 2018（9 月 22 日在伊利诺伊州芝加哥举行）](https://javascriptweekly.com/link/51531/web) — 一整天的实事
+-   [2018 年框架峰会（10 月 2 日至 3 日，犹他州帕克城）](https://javascriptweekly.com/link/51532/web) — 一个为期 2 天的会议专注于所有前端框架，并由最受欢迎的团队发表主题演讲。
+-   [JS Interactive（10 月 10 日至 12 日，加拿大温哥华）](https://javascriptweekly.com/link/51533/web) — 最大的 JavaScript 事件之一。由 Linux 基金会组织。
+-   [JSMobileConf（10 月 25 日至 26 日，马萨诸塞州波士顿）](https://javascriptweekly.com/link/51534/web) — 本次活动令人深刻的演讲者，重点关注移动和物联网。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：
+
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://javascriptweekly.com/link/51521/web)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/399/README.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：

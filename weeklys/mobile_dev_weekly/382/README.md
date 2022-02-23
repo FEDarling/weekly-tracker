@@ -1,13 +1,15 @@
 ---
 title: 'Mobile Dev Weekly #382'
 date: '2021-12-17'
-categories: ["Mobile Dev Weekly"]
+categories: ['Mobile Dev Weekly']
 publish: true
 ---
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1639741201/anowj94yonweztcrenmn.png)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 ![](https://cooperpress.s3.amazonaws.com/chrisbrandrick.png) Chris Brandrick 推荐
 
 [适用于应用小部件的 Jetpack Glance Alpha](https://mobiledevweekly.com/link/117723/web) — Android 12 改进了 App Widgets，现在 Jetpack Glance 的 [第一个 alpha 版本](https://mobiledevweekly.com/link/117724/web) 旨在让构建它们变得更容易。这是一个建立在 Jetpack Compose 运行时之上的新框架，旨在更快/更简单地为主屏幕和其他表面构建应用小部件。
@@ -50,14 +52,14 @@ publish: true
 
 ## ⚡️ 快链
 
-[为什么企业会在网站上推送原生应用程序？](https://mobiledevweekly.com/link/117736/web)  
+[为什么企业会在网站上推送原生应用程序？](https://mobiledevweekly.com/link/117736/web)
 
-[让你成为更好的 iOS 开发者的 30 个技巧](https://mobiledevweekly.com/link/117737/web)  
+[让你成为更好的 iOS 开发者的 30 个技巧](https://mobiledevweekly.com/link/117737/web)
 
-[构建移动应用时如何在 React Native 和 Flutter 之间进行选择](https://mobiledevweekly.com/link/117738/web)  
+[构建移动应用时如何在 React Native 和 Flutter 之间进行选择](https://mobiledevweekly.com/link/117738/web)
 
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> -   译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> -   [查看原文](https://mobiledevweekly.com/link/117722/web)对比阅读
+> -   发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/382/README.md)
+> -   译者：[daodaolee](https://github.com/daodaolee)
+> -   校对者：[daodaolee](https://github.com/daodaolee)

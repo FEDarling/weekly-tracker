@@ -1,96 +1,99 @@
 ---
 title: 'JavaScript Weekly #574'
-date: '2022-02-02'
+date: '2022-02-22'
 categories: ['JavaScript Weekly']
-publish: false
+publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xbrtnhjvalt0al01p0nm.jpg)](https://javascriptweekly.com/link/119185/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xbrtnhjvalt0al01p0nm.jpg)
 
-[A Pipe Operator for JavaScript: Introduction and Use Cases](https://javascriptweekly.com/link/119185/web "2ality.com") — In the State of JS 2020 survey, a _lot_ of developers felt a pipe operator was missing from JavaScript. It’s been around a while, but there’s a [pipeline operator proposal](https://javascriptweekly.com/link/119186/web) and it’s at stage two of the TC39 process. Dr. Axel explains why you’d want this, how it can work, and why JS _won’t_ get F# style pipes.
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!-- more -->
 
-[On Porting the TypeScript Compiler to Go (vs Rust)](https://javascriptweekly.com/link/119145/web "kdy1.dev") — The author is a Rust advocate (who created [swc](https://javascriptweekly.com/link/119146/web)) but recognizes that Go might be a better tool particularly for building the _type checker_ and explains why here. This post also fuelled a rather [extensive Hacker News discussion](https://javascriptweekly.com/link/119147/web) on the complications involved with many coming to Rust's defence.
+[JavaScript 的管道运算符：简介和用例](https://javascriptweekly.com/link/119185/web "2ality.com") — 在 State of JS 2020 调查中，许多开发人员认为 JavaScript 中缺少管道运算符。有一个 [管道运营提案](https://javascriptweekly.com/link/119186/web) 已经处于 TC39 流程的第二阶段之中。 Axel 博士解释了为什么你需要这个，它是如何工作的，以及为什么 JS 不会有 F# 样式的管道。
 
-[![](https://copm.s3.amazonaws.com/582b4c11.png)](https://javascriptweekly.com/link/119101/web)
+[关于将 TypeScript 编译器移植到 Go（与 Rust 相比）](https://javascriptweekly.com/link/119145/web "kdy1.dev") — 作者是 Rust 的倡导者（创建了 swc），他认识到 Go 可能是一个更好的工具，尤其是用于构建类型检查器，并在此处解释了原因。这篇文章还引发了一场相当广泛的 [Hacker News 讨论](https://javascriptweekly.com/link/119147/web)，讨论了许多人为 Rust 辩护所涉及的复杂性。
 
-[JavaScript Scratchpad for VS Code, Now with Time Machine](https://javascriptweekly.com/link/119101/web "quokkajs.com") — Quokka.js is the #1 tool for exploring and testing JavaScript. Code runs immediately as you type. The new [Time Machine](https://javascriptweekly.com/link/119102/web) feature executes your code and allows you to automatically replay, step forward/back through time, edit-and-continue, and see runtime values.
+![](https://copm.s3.amazonaws.com/582b4c11.png)
 
-🛠  [Unimported: Find and Fix Dangling Files and Unused Dependencies](https://javascriptweekly.com/link/119148/web "github.com") — When you’re adding new code each day, you might forget to remove old code. This tool can help you discover unused files within your projects.
+[用于 VS Code 的 JavaScript Scratchpad，现在带有 Time Machine](https://javascriptweekly.com/link/119101/web "quokkajs.com") — Quokka.js 是探索和测试 JavaScript 的第一大工具。代码会在输入的时候立即运行。您的代码将会在新的 Time Machine 里执行，并允许您自动重播、前进/后退、编辑并继续，以及查看运行时值。
 
-[Take the State of JavaScript 2022 Survey](https://javascriptweekly.com/link/119149/web "stateofjs.com") — Now several years in, the popular State of JavaScript survey returns for a joint 2021/22 run and, as ever, seeks to establish what libraries and frameworks developers are excited about. It’s not a perfect approach, but the results are interesting to compare year to year, and we’ll share the results once they’re out.
+🛠  [未导入：查找并修复悬空文件和未使用的依赖项](https://javascriptweekly.com/link/119148/web "github.com") — 您每天添加新代码的时候，可能会忘记删除旧代码。此工具可以帮助您发现项目中未使用的文件。
 
-## **IN BRIEF:**
+[参加 JavaScript 2022 现状调查](https://javascriptweekly.com/link/119149/web "stateofjs.com") — 几年过去了，新的 JavaScript 现状调查出来了，并且一如既往地推断开发人员对哪些库和框架感到兴奋。这不是一个完美的方案，不过每年的比较结果很有趣，我们会在结果出来后分享它。
 
-*   ⭐️ An engineer at Etsy [mentions Etsy migrated](https://javascriptweekly.com/link/119150/web) all their React 15.6 code to [Preact](https://javascriptweekly.com/link/119151/web) rather than going to React 16+. A [doc from 2020](https://javascriptweekly.com/link/119194/web) explained some of the internal thinking around this choice.
+## **简述:**
+
+*   ⭐️  Etsy 的一位工程师 [提到](https://javascriptweekly.com/link/119150/web) Etsy 将他们所有的 React 15.6 代码迁移到了 [Preact](https://javascriptweekly.com/link/119151/web)，而没有转到 React 16+。
     
-*   The Deno team has [reflected on Deno's progress in 2021.](https://javascriptweekly.com/link/119187/web) The [Angular team has done similarly,](https://javascriptweekly.com/link/119188/web) too.
+*   Deno 团队 [反思了 Deno 在 2021 年的进展](https://javascriptweekly.com/link/119187/web)。Angular 团队 [也做了类似的事情](https://javascriptweekly.com/link/119188/web)。
     
-*   [TypeScript 4.6 is in beta](https://javascriptweekly.com/link/119152/web) and focused on relatively minor technical enhancements, such as improved errors, a trace analyzer, and allowing code in constructors _prior_ to calling `super()`.
+*   [TypeScript 4.6](https://javascriptweekly.com/link/119152/web) 处于测试阶段，专注于相对较小的技术改进，例如改进错误、跟踪分析器以及在调用 `super()` 之前允许在构造函数中编写代码。
     
-*   Ryan Florence of the Remix project notes on Twitter a _["palpable feeling that folks are ready for the post-React world"](https://javascriptweekly.com/link/119153/web)_.
+*   Remix 项目的 Ryan Florence 在 Twitter 上指出 “[开发者们已经为 React 新世界做好了准备](https://javascriptweekly.com/link/119153/web)”。
     
-*   Mike Melanson asks [if 2022 will be a 'golden age' for full-stack JavaScript](https://javascriptweekly.com/link/119154/web)?
+*   Mike Melanson 问到 [2022 年是否会成为全栈 JavaScript 的 “黄金时代”](https://javascriptweekly.com/link/119154/web) ？
     
 
-## **RELEASES:**
+## **版本更新:**
 
-[Nightwatch 2.0](https://javascriptweekly.com/link/119189/web) – End-to-end testing framework.  
-[Gluegun 5.0](https://javascriptweekly.com/link/119155/web) – Toolkit for building Node.js CLI apps.  
-[Node-RED 2.2.0](https://javascriptweekly.com/link/119156/web) – Low-code event driven app dev environment.  
-[parse-domain 7.0](https://javascriptweekly.com/link/119157/web) – Split hostnames into parts.  
-[NeutralinoJS 4.2.0](https://javascriptweekly.com/link/119158/web) – X-platform JS desktop app framework.  
-[Mocha 9.2](https://javascriptweekly.com/link/119159/web) – JS testing framework.  
+[Nightwatch 2.0](https://javascriptweekly.com/link/119189/web) — 端到端的测试框架。
+[Gluegun 5.0](https://javascriptweekly.com/link/119155/web) — 用于构建 Node.js CLI 应用程序的工具包。
+[Node-RED 2.2.0](https://javascriptweekly.com/link/119156/web) – 低代码事件驱动的应用程序开发环境。
+[parse-domain 7.0](https://javascriptweekly.com/link/119157/web) — 将主机名拆分为多个部分。
+[NeutralinoJS 4.2.0](https://javascriptweekly.com/link/119158/web) — X 平台 JS 桌面应用程序框架。 
+[Mocha 9.2](https://javascriptweekly.com/link/119159/web) — JS 测试框架。  
 [Serverless Framework v3](https://javascriptweekly.com/link/119190/web)  
 [React Native 0.67](https://javascriptweekly.com/link/119160/web)  
 [npm 8.4.0](https://javascriptweekly.com/link/119161/web)
 
-## 📒 Articles & Tutorials
+## 📒  文章 & 教程
 
-[React Server Components: A Primer](https://javascriptweekly.com/link/119162/web "blog.plasmic.app") — The co-founder of the [Plasmic](https://javascriptweekly.com/link/119163/web) visual page builder app takes us on an exploration of React server components (currently an experimental feature in the forthcoming React 18) and how they tick under the hood.
+[React 服务器组件：入门](https://javascriptweekly.com/link/119162/web "blog.plasmic.app") — [Plasmic](https://javascriptweekly.com/link/119163/web) 可视化页面构建器应用程序的联合创始人带我们探索了 React 服务器组件（目前是即将发布的 React 18 中的一个实验性功能）以及它们如何在后台运行。
 
-[Exploiting JavaScript Quirks for Fun and Profit](https://javascriptweekly.com/link/119164/web "kittygiraudel.com") — If you're Doug Crockford (the author of _JavaScript: The Good Parts_), look away now! Plentiful use of `with` and `eval` in this clever approach to solving an [Advent of Code](https://javascriptweekly.com/link/119165/web) puzzle.
+[多利用 JavaScript 的奇淫技巧](https://javascriptweekly.com/link/119164/web "kittygiraudel.com")
 
-[React Authentication, Simplified](https://javascriptweekly.com/link/119106/web "userfront.com") — In this article, we lay out a new approach to authentication (plus access control & SSO) in React applications.
+[React 身份验证](https://javascriptweekly.com/link/119106/web "userfront.com") — 在本文，我们展示了一种在 React 应用程序中进行身份验证（加上访问控制和 SSO）的新方法。
 
-[A Complete Beginner's Guide to `npm`](https://javascriptweekly.com/link/119167/web "css-tricks.com") — Even if npm is second nature to you, this guide may prove useful, if only to send to other folks on your team. It’s a nine-part guide from CSS-Tricks covering everything from the ground up.
+[`npm` 的完整初学者指南](https://javascriptweekly.com/link/119167/web "css-tricks.com") — 本指南还是挺有意思的。
 
-[The Baseline for Web Development in 2022?](https://javascriptweekly.com/link/119168/web "engineering.linecorp.com") — Analysis of numerous stats around frontend technologies, browser share, client devices, and more to establish a feel for what the lowest common denominators are in terms of what we must continue to support.
+[2022 年 Web 开发的底线？](https://javascriptweekly.com/link/119168/web "engineering.linecorp.com") — 分析围绕前端技术、浏览器共享、客户端设备等的众多统计数据，以了解我们必须继续支持的最低标准。
 
-[What’s New with the DevTools?](https://javascriptweekly.com/link/119169/web "www.smashingmagazine.com") — A decent break down of recent changes and additions to developer tooling in Chrome, Edge, Safari and Firefox.
+[DevTools 有什么新功能？](https://javascriptweekly.com/link/119169/web "www.smashingmagazine.com") — 对 Chrome、Edge、Safari 和 Firefox 中开发人员工具的最新的更改和新增的功能进行了不错的介绍。
 
-[Animate Anything Along an SVG Path](https://javascriptweekly.com/link/119170/web "tympanus.net") — How to code creative animations with JavaScript using SVG paths and the `getPointAtLength()` function.
+[沿 SVG 路径为任何内容设置动画](https://javascriptweekly.com/link/119170/web "tympanus.net") — 如何使用 SVG 路径和 `getPointAtLength()` 函数使用 JavaScript 编写创意动画。
 
-[Redefining the OSS Universe with Sourcegraph: Lessons Learned](https://javascriptweekly.com/link/119108/web "about.sourcegraph.com")
+[使用 Sourcegraph 重新定义 OSS 世界：经验教训](https://javascriptweekly.com/link/119108/web "about.sourcegraph.com")
 
-[Comparing CSS Specificity Values with JavaScript](https://javascriptweekly.com/link/119171/web "kilianvalkhof.com") — When it comes to CSS specificity how do you compare two selectors to decide which is highest? This post digs into it.
+[比较 CSS 与 JavaScript](https://javascriptweekly.com/link/119171/web "kilianvalkhof.com")
 
-[How TypeScript Won Over Developers and JavaScript Frameworks](https://javascriptweekly.com/link/119172/web)  
+[TypeScript 如何赢得开发人员和 JavaScript 框架的欢迎](https://javascriptweekly.com/link/119172/web)
 
-▶  [Using Node to Do The Opposite of What Jim Cramer Says](https://javascriptweekly.com/link/119191/web) — Silly, but yeah.  
+▶  [使用 Node 做与 Jim Cramer 相反的事情](https://javascriptweekly.com/link/119191/web)
 
-## 🛠 Code & Tools
+## 🛠  代码 & 工具
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chcwkbfwx58zwvecqzvc.jpg)](https://javascriptweekly.com/link/119173/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chcwkbfwx58zwvecqzvc.jpg)
 
-[chroma.js: Zero Dependency Color Conversion Library](https://javascriptweekly.com/link/119173/web "vis4.net") — I love this simple but suitably colorful documentation. If you’ve got work to do with colors and color values, certainly give this a look. [GitHub repo](https://javascriptweekly.com/link/119174/web).
+[chroma.js：零依赖颜色转换库](https://javascriptweekly.com/link/119173/web "vis4.net") — 我很喜欢这个简单但色彩丰富的文档。如果你有关于颜色和颜色值的需求，一定要看看这个。 [GitHub 存储库](https://javascriptweekly.com/link/119174/web)。
 
-[Clipboard.js: A Modern 'Copy to Clipboard' Library](https://javascriptweekly.com/link/119175/web "github.com") — The [Clipboard API](https://javascriptweekly.com/link/119176/web) makes clipboard work easier than ever before, but you may find a library like this provides a little valuable added abstraction.
+[Clipboard.js：现代 “复制到剪贴板” 库](https://javascriptweekly.com/link/119175/web "github.com")
 
-[Build a Mobile-Responsive Telehealth Pager App Using Stream’s Chat API](https://javascriptweekly.com/link/119107/web "getstream.io") — Build a responsive chat app with emojis/reactions, built-in GIF support, ability to edit/delete messages, direct & group chat, and more.
+[使用 Stream 的聊天 API 构建移动响应式远程医疗寻呼机应用程序](https://javascriptweekly.com/link/119107/web "getstream.io") — 构建具有表情符号/反应、内置 GIF 支持、编辑/删除消息、直接和群聊等功能的响应式聊天应用程序。
 
-[ngraph.path: Path Finding Through Graphs](https://javascriptweekly.com/link/119177/web "github.com") — There’s [a live demo](https://javascriptweekly.com/link/119178/web) if you want to see how it tackles the road network of six global cities.
+[ngraph.path：通过图寻找路径](https://javascriptweekly.com/link/119177/web "github.com") — 如果您想了解它如何处理六个全球城市的道路网络，这里有一个 [现场演示](https://javascriptweekly.com/link/119178/web)。
 
-[ExcellentExport.js 3.8: Export Table Data to Excel or CSV](https://javascriptweekly.com/link/119179/web "github.com") — If your app/page has some data in HTML tables and you’d like to export it to a CSV or XLSX without any server involvement, this could help.
+[ExcellentExport.js 3.8：将表格数据导出到 Excel 或 CSV](https://javascriptweekly.com/link/119179/web "github.com") — 如果您的应用/页面在 HTML 表格中要填充一些数据，并且您希望将其导出为 CSV 或 XLSX 而无需任何服务器参与，它可能会有所帮助。
 
-[Reaselct: A 'Select' Box Component for React](https://javascriptweekly.com/link/119180/web "github.com") — Currently in single- and multi-select versions, the latter of which could work well in tagging scenarios. Comes from the same team as the [REAVIZ chart library](https://javascriptweekly.com/link/119182/web).
+[Reaselct：React 的 “选择” 框组件](https://javascriptweekly.com/link/119180/web "github.com") — 目前有单选和多选版本，后者在标记场景中可以很好地工作。来自与 [REAVIZ 图表库相同的团队](https://javascriptweekly.com/link/119182/web)。
 
-[Trilium Notes: A Knowledge Base App Built with Node](https://javascriptweekly.com/link/119183/web "github.com") — A hierarchical note taking app. Built as an Express app but is most commonly used on the desktop via an Electron packaged version. It’s been around a few years but continues to see frequent updates and is a neat example of this sort of app.
+[Trilium Notes：使用 Node 构建的知识库应用程序](https://javascriptweekly.com/link/119183/web "github.com") — 用 Express 构建的分层笔记应用程序。
 
-[hyperid: Fast Unique ID Generation](https://javascriptweekly.com/link/119184/web) — Check out the benchmark results. For Node and browser.  
+[hyperid：快速生成唯一 ID](https://javascriptweekly.com/link/119184/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/issues/574)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/574/README.md)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)

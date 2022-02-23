@@ -2,18 +2,10 @@ const TurndownService = require('turndown')
 const https = require("https");
 const cheerio = require("cheerio");
 const fs = require('fs');
-// const options;
-let req;
-const base = './weeklys'
+const weeklys = require('./utils.js').weeklys;
+const base = require('./utils.js').base;
 
-const weeklys = [
-	['JavaScript Weekly', "javascript_weekly", "https://javascriptweekly.com/issues/", '.issue-html'],
-	['Node Weekly', "node_weekly", "https://nodeweekly.com/issues/", '.issue-html'],
-	['React Status', "react_status", "https://react.statuscode.com/issues/", '.issue-html'],
-	// ['Mobile Dev Weekly', "mobile_dev_weekly", "https://mobiledevweekly.com/issues/", '.issue-html'],
-	['Frontend Focus', "frontend_focus", "https://frontendfoc.us/issues/", '.issue-html'],
-	['CSS Weekly', "css_weekly", "https://css-weekly.com", '.box-newsletter']
-]
+let req;
 
 const getNewNum = (weeklyName, weeklyDir) => {
 	console.log(` \x1B[33m🚗开始获取本地 ${weeklyName} 数据...\x1B[0m`);
@@ -31,24 +23,31 @@ const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
 		resp.on('data', chunk => body += chunk);
 
 		resp.on('end', () => {
-			// console.log(body)
-			const $ = cheerio.load(body);
-			const html = $(className).html();
-			// console.log(html)
-			if (html != null) {
-				// console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
-                fs.mkdir(`${base}/${weeklyDir}/${weeklyNum}`,{ recursive: true }, (err) => {
-                    if (err) throw err;
-                  })
-				  const head =
-`---
-title: '${weeklyName} #${weeklyNum}'
-date: '${getNowFormatDate()}'
-categories: ['${weeklyName}']
-publish: false
+            // console.log(body)
+            const $ = cheerio.load(body);
+            const html = $(className).html();
+            // console.log(html);
+            if (html != null) {
+                console.log(`创建 ${weeklyName} 新的 ${weeklyNum} 目录`);
+                fs.mkdir(
+                    `${base}/${weeklyDir}/${weeklyNum}`,
+                    { recursive: true },
+                    (err) => {
+                        if (err) throw err;
+                    }
+                );
+                const head = `---
+title: '${weeklyName} #${weeklyNum}' # 不可修改
+date: '${getNowFormatDate()}' # 不可修改
+categories: ['${weeklyName}'] # 不可修改
+publish: false # 翻译完成后修改
 ---
-`
-const END = `
+
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
+
+`;
+                const END = `
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
@@ -56,15 +55,21 @@ const END = `
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/${weeklyDir}/${weeklyNum})
 > * 译者：
 > * 校对者：
-`
-				const turndownService = new TurndownService();
-				const markdown = turndownService.turndown(html);
-				fs.writeFileSync(`${base}/${weeklyDir}/${weeklyNum}/README.md`, head + markdown+END, 'utf8');
-				console.log(` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`);
-			} else {
-				console.log(` \x1B[32m🤪${weeklyName} 没有新内容\x1B[0m`);
-			}
-		});
+`;
+                const turndownService = new TurndownService();
+                const markdown = turndownService.turndown(html);
+                fs.writeFileSync(
+                    `${base}/${weeklyDir}/${weeklyNum}/README.md`,
+                    head + markdown + END,
+                    'utf8'
+                );
+                console.log(
+                    ` \x1B[32m🍻${weeklyName} 新增一篇周刊，刊号为${weeklyNum}\x1B[0m`
+                );
+            } else {
+                console.log(` \x1B[32m🤪${weeklyName} 没有新内容\x1B[0m`);
+            }
+        });
 	});
 
 	// 超时处理
