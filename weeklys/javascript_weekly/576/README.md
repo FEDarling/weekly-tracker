@@ -1,98 +1,96 @@
 ---
 title: 'JavaScript Weekly #576'
-date: '2022-02-18'
+date: '2022-02-24'
 categories: ['JavaScript Weekly']
-publish: false
+publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/molnign58vhxczqaa4pt.jpg)](https://javascriptweekly.com/link/119760/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/molnign58vhxczqaa4pt.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[Apache ECharts 5.3: Open Source JS Visualization Library](https://javascriptweekly.com/link/119760/web "echarts.apache.org") — The [release notes](https://javascriptweekly.com/link/119761/web) go into extensive detail about what’s in the newest release, including keyframe animations, custom loading animations, and a new SVG renderer with 2-10x improved performance. [Lots of demos here](https://javascriptweekly.com/link/119762/web) too.
+[Apache ECharts 5.3: 开源 JS 可视化库](https://javascriptweekly.com/link/119760/web "echarts.apache.org") — [发行说明](https://javascriptweekly.com/link/119761/web) 详细介绍了最新版本中的内容，包括关键帧动画、自定义加载动画以及性能提升 2-10 倍的新 SVG 渲染器。[这里也有很多演示](https://javascriptweekly.com/link/119762/web)。
 
-🥊  [Move Over JavaScript? How Some Backend Languages are Coming to the Front-End](https://javascriptweekly.com/link/119706/web "github.com") — You might think this is about using WebAssembly to run Python in the browser or something, but no. It’s about the growing popularity of maintaining a WebSocket connection to a backend process and rendering HTML on the fly from the backend, as seen in modern Elixir and Rails stacks. Food for thought!
+🥊  [跳过 JavaScript？一些后端语言如何进入前端](https://javascriptweekly.com/link/119706/web "github.com") — 你可能认为这是关于使用 WebAssembly 在浏览器中运行 Python 之类的文章，但不是。这是关于维护与后端进程的 WebSocket 连接并从后端动态渲染 HTML 的，比如 Elixir 和 Rails 堆栈。
 
-[![](https://copm.s3.amazonaws.com/79ea00da.png)](https://javascriptweekly.com/link/119707/web)
+![](https://copm.s3.amazonaws.com/79ea00da.png)
 
-[ButterCMS Melts into Your JS App:: `$ butter.post.list()`](https://javascriptweekly.com/link/119707/web "buttercms.com") — ButterCMS is your content backend. Enable your marketing team to update website + app content without needing you. Try the #1 rated Headless CMS for your JS app today. Free for 30 days.
+[在 JS 中使用 ButterCMS： `$ butter.post.list()`](https://javascriptweekly.com/link/119707/web "buttercms.com") — ButterCMS 是您的后端。让您的营销团队不需要前端即可更新网站和应用内容。免费 30 天。
 
-🎧  [The JS Party Podcast](https://javascriptweekly.com/link/119763/web "changelog.com") — It’s come to our attention we haven’t linked to the fine _JS Party_ podcast for a fair while, so if you haven’t been listening, there’s a lot of good stuff to catch up on. Last week they [dug into SolidJS](https://javascriptweekly.com/link/119764/web), last December covered [Svelte](https://javascriptweekly.com/link/119765/web), and even had a lawyer on to discuss the [legal implications of GitHub Copilot](https://javascriptweekly.com/link/119766/web).
+🎧  [JS Party 播客](https://javascriptweekly.com/link/119763/web "changelog.com") — 已经有一段时间没有说 JS Party 播客了，所以如果你还没有听过，可以来看看。
 
-## **IN BRIEF:**
+## **简述:**
 
-*   🤑 Few of us have sold a very basic JavaScript app for over $1m to the _New York Times._ The creator of Wordle _has_ and [▶️ talks about it on the Syntax podcast](https://javascriptweekly.com/link/119708/web).
+*   🤑 我们当中很少有人以超过 100 万美元的价格给《纽约时报》做一个非常基本的 JavaScript 应用程序。 Wordle 的创建者已经在 [Syntax 播客](https://javascriptweekly.com/link/119708/web) 上谈论过它。
     
-*   [Node.js 17.5.0](https://javascriptweekly.com/link/119709/web) has landed with the experimental support for the Fetch API we mentioned last week.
+*   [Node.js 17.5.0](https://javascriptweekly.com/link/119709/web) 已经有了我们上周提到的 Fetch API 的实验性支持。
     
-*   The Khronos WebGL Working Group reminds us that [WebGL 2.0 is now broadly supported](https://javascriptweekly.com/link/119710/web) by all major browsers, and to start migrating to it.
+*   Khronos WebGL 工作组提醒我们，[WebGL 2.0 现在已经](https://javascriptweekly.com/link/119710/web) 得到了所有主流浏览器的广泛支持，并开始进行迁移。
     
-*   Popular HTTP client [`curl` has gained a `--json` option](https://javascriptweekly.com/link/119711/web) you might find handy.
+*   流行的 HTTP 客户端 curl 有了一个 [`--json` 选项](https://javascriptweekly.com/link/119711/web)。
     
-*   When a JavaScript developer decides to skip React and SPAs and [builds a Rails app instead,](https://javascriptweekly.com/link/119712/web) you can expect [a bit of 'spirited discussion'](https://javascriptweekly.com/link/119714/web).
+*   JavaScript 开发人员决定不用 React 和 SPA 的情况下 [构建 Rails 应用程序](https://javascriptweekly.com/link/119712/web)，这里有一些 [“热烈的讨论”](https://javascriptweekly.com/link/119714/web)。
     
-*   As promised and on schedule, Vue 3 is now the [new default version](https://javascriptweekly.com/link/119716/web) of Vue.js and [vuejs.org](https://javascriptweekly.com/link/119718/web) has been updated accordingly.
+*   正如之前说的那样，Vue 3 现在是 Vue.js 的新 [默认版本](https://javascriptweekly.com/link/119716/web)，并且 [vuejs.org](https://javascriptweekly.com/link/119718/web) 也相应更新了。
     
 
-## **RELEASES:**
+## **版本更新:**
 
-[Vite 2.8.0](https://javascriptweekly.com/link/119767/web) – Next gen frontend tooling.  
-[RedwoodJS 0.45.0](https://javascriptweekly.com/link/119720/web) – Edge deployable full-stack JS framework.  
-[MikroORM 5](https://javascriptweekly.com/link/119722/web) – Data mapper ORM for Node.  
-[AdminJS 5.6](https://javascriptweekly.com/link/119724/web) – Admin panel built in Node.js.  
+[Vite 2.8.0](https://javascriptweekly.com/link/119767/web) — 下一代前端工具。
+[RedwoodJS 0.45.0](https://javascriptweekly.com/link/119720/web) — 边缘可部署的全栈 JS 框架。  
+[MikroORM 5](https://javascriptweekly.com/link/119722/web) — 节点型数据文件夹 ORM。
+[AdminJS 5.6](https://javascriptweekly.com/link/119724/web) — 内置在 Node.js 中的管理面板。
 [npm 8.5.0](https://javascriptweekly.com/link/119726/web)  
 [Ember.js 4.2.0](https://javascriptweekly.com/link/119728/web)
 
-## 📒 Articles & Tutorials
+## 📒  文章 & 教程
 
-[Debugging JavaScript](https://javascriptweekly.com/link/119733/web "flaviocopes.com") — It’s not deep, but this is an enjoyable and casual walk through the JavaScript debugging landscape.
+[调试 JavaScript](https://javascriptweekly.com/link/119733/web "flaviocopes.com") — 它并不深入，但这是一次很舒服的 JavaScript 调试环境之旅。
 
-[How the Angular Compiler Works](https://javascriptweekly.com/link/119734/web "blog.angular.io") — The Angular compiler (known as `ngc`) is the tool used to compile Angular apps and libraries. This post digs into what it does and how it does it.
+[Angular 编译器的工作原理](https://javascriptweekly.com/link/119734/web "blog.angular.io") — Angular 编译器（称为 `ngc`）是用于编译 Angular 应用程序和库的工具。这篇文章深入探讨了它的作用以及它是如何做到的。
 
-[Replacing JavaScript Dialogs (Partly) with HTML's `<dialog>`](https://javascriptweekly.com/link/119735/web "css-tricks.com") — How to replace JavaScript dialogs, to some extent, with the HTML dialog element providing similar functionality to the `alert()`, `confirm()`, and `prompt()` methods.
+[用 HTML 的 `<dialog>` 替换 JavaScript 对话框（部分）](https://javascriptweekly.com/link/119735/web "css-tricks.com") — 如何用 HTML 对话框元素替换 JavaScript 对话框，该元素提供与 `alert()`、`confirm()` 和 `prompt()` 方法类似的功能。
 
-[Join The Big Fix - Fix Vulnerabilities. Earn Swag](https://javascriptweekly.com/link/119736/web "snyk.io") — Earn swag (including t-shirts) for fixing vulnerabilities! Plus, join our fix-a-thon livestream on Feb 25.
+▶  [用 TypeScript 编写 SPI SD 卡驱动程序](https://javascriptweekly.com/link/119737/web "www.youtube.com") — 来自实时底层 JavaScript 流的一个有趣（且非常长）的会话，深入到了从 SD 卡读取数据的底层工作。
 
-▶  [Writing a SPI SD-Card Driver in TypeScript](https://javascriptweekly.com/link/119737/web "www.youtube.com") — From a live _Low Level JavaScript_ stream comes an interesting (and very long) session that goes _deep_ into the weeds of working at a low level to read data from SD cards.
+[Deno 简介：它比 Node 更好吗？](https://javascriptweekly.com/link/119738/web "blog.appsignal.com") — 我们已经多次提到过来自 Ryan Dahl 的 [Deno](https://javascriptweekly.com/link/119739/web)，就像 Node.js 最初所做的那样。这篇文章介绍了一些关键特性，以及 Deno 的领先或落后之处。
 
-[An Introduction to Deno: Is It Better than Node?](https://javascriptweekly.com/link/119738/web "blog.appsignal.com") — We’ve mentioned [Deno](https://javascriptweekly.com/link/119739/web), which comes from Ryan Dahl, much as Node.js originally did, numerous times, but if you haven’t checked it out yet this post covers the key features, as well as where Deno is ahead or behind.
+[编写我自己的构建系统：将 Gulp 概念与现代 JS 结合起来](https://javascriptweekly.com/link/119740/web "palant.info") — 作者发现 Gulp 对流的依赖让扩展性变得有点复杂，并展示了使用异步生成器解决同一问题的不同方法。
 
-[Writing My Own Build System: Coupling Gulp Concepts with Modern JS](https://javascriptweekly.com/link/119740/web "palant.info") — The author finds Gulp’s reliance on streams makes it complicated to extend, and shows off a different approach to the same problem using async generators.
+▶  [Vue 3 中的有限状态存储](https://javascriptweekly.com/link/119741/web)  
 
-▶  [Finite State Machines in Vue 3](https://javascriptweekly.com/link/119741/web)  
+[使用 Vue 3 和 Cube 构建 Apache ECharts 数据可视化仪表板](https://javascriptweekly.com/link/119742/web)  
 
-[Building an Apache ECharts Data Viz Dashboard with Vue 3 and Cube](https://javascriptweekly.com/link/119742/web)  
+## 🛠  代码 & 工具
 
-## 🛠 Code & Tools
+[zx 5.0：用 JavaScript 编写更好的 Shell 脚本](https://javascriptweekly.com/link/119743/web "github.com") — 谷歌并没有松懈，一年内推出了四个主要版本的 `zx`。 `zx` 不是使用 `bash` 来组合一个快速脚本之类的东西，而是提供了对 JavaScript 执行相同的操作。 [v5.0](https://javascriptweekly.com/link/119744/web) 增加了内置的 YAML 支持。
 
-[zx 5.0: Writing Better Shell Scripts in JavaScript](https://javascriptweekly.com/link/119743/web "github.com") — Google isn’t slacking, with the fourth major version of `zx` in a year. Rather than using something like `bash` to throw together a quick script, `zx` provides niceties to do the same with JavaScript. [v5.0](https://javascriptweekly.com/link/119744/web) adds built-in YAML support.
+[Pintora：可扩展的文本到图表渲染库](https://javascriptweekly.com/link/119747/web "github.com") — 和成熟的 [Mermaid.js](https://javascriptweekly.com/link/119748/web)（今天也有新版本）有类似的想法，但对可扩展性的态度不同。
 
-[Pintora: An Extensible Text-to-Diagram Rendering Library](https://javascriptweekly.com/link/119747/web "github.com") — A similar idea to the well established [Mermaid.js](https://javascriptweekly.com/link/119748/web) (which has [a new version](https://javascriptweekly.com/link/119749/web) out today, too) but with a different attitude to extensibility as well as no requirement for a headless browser if you're using it from Node. The [introduction docs](https://javascriptweekly.com/link/119750/web) have both visual and code examples.
+[Solidus：您需要的最后一个电子商务后端](https://javascriptweekly.com/link/119746/web "solidus.io") — 很灵活，在 “不妥协” 的情况下创建独特的定制购物体验。
 
-[Solidus: The Last eCommerce Back-End You’ll Ever Need](https://javascriptweekly.com/link/119746/web "solidus.io") — Get the freedom & flexibility to create unique, custom-built shopping experiences without making compromises.
+[Griffel：带有提前编译的 CSS-in-JS](https://javascriptweekly.com/link/119745/web "github.com") — 来自 Microsoft 的另一个 CSS-in-JS 选择。这个拥有近乎零的运行时、SSR 支持以及使用 JS 对象定义的样式以及其他功能。
 
-[Griffel: CSS-in-JS with Ahead-of-Time Compilation](https://javascriptweekly.com/link/119745/web "github.com") — From Microsoft, another CSS-in-JS option. This one boasts near-zero runtime, SSR support, and styles defined with JS objects, among other features.
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dj87qbptlina52invyla.jpg)
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dj87qbptlina52invyla.jpg)](https://javascriptweekly.com/link/119753/web)
+[Fable 3.7：成熟的 F# 到 JavaScript 编译器](https://javascriptweekly.com/link/119751/web "fable.io") — [F#](https://javascriptweekly.com/link/119752/web) 是来自 MS/.NET 稳定版的 “功能第一” 语言，我对它一直很震惊。如果你想尝试一下有关前端构建的东西，请查看这个 [在线 REPL](https://javascriptweekly.com/link/119753/web)，它有一些需要修改的示例，包括一个小马里奥（上图）。
 
-[Fable 3.7: A Mature F# to JavaScript Compiler](https://javascriptweekly.com/link/119751/web "fable.io") — [F#](https://javascriptweekly.com/link/119752/web) is a ‘functional first’ language from the MS/.NET stable and I’m always struck by just how nicely it reads. If you fancy giving it a go for building things for the frontend, check out [this online REPL](https://javascriptweekly.com/link/119753/web) which has some samples to tinker with, including a wee Mario (above).
+[puppeteer-to-playwright: 从木偶到剧作家的转换脚本](https://javascriptweekly.com/link/119755/web "github.com") — 如果您想在两个流行的浏览器自动化系统之间迁移，这可能会有所帮助。
 
-[puppeteer-to-playwright: Puppeteer to Playwright Conversion Script](https://javascriptweekly.com/link/119755/web "github.com") — If you want to migrate between the two popular browser automation systems, this could help.
+[软件团队的项目管理从未如此简单](https://javascriptweekly.com/link/119754/web "shortcut.com")
 
-[Project Management for Software Teams Has Never Been Easier](https://javascriptweekly.com/link/119754/web "shortcut.com")
+[P42 JavaScript 助手：VS 代码的重构提示和自动化](https://javascriptweekly.com/link/119768/web "marketplace.visualstudio.com") — 一个 Visual Studio Code 扩展，它为您的编辑器带来了 67 种自动重构和快速修复常见 JS、TS 和 React 问题的方法，因此您甚至可以在使用普通 linter 之前进行格式化。
 
-[P42 JavaScript Assistant: Refactoring Hints and Automation for VS Code](https://javascriptweekly.com/link/119768/web "marketplace.visualstudio.com") — A Visual Studio Code extension that brings 67 automated refactorings and quick fixes for common JS, TS and React issues to your editor, so you can clean things up even before you hit your normal linter, perhaps.
+[Mineflayer 4.0：用 JavaScript 构建 Minecraft 机器人](https://javascriptweekly.com/link/119756/web) — [GitHub 仓库](https://javascriptweekly.com/link/119757/web)  
 
-[Mineflayer 4.0: Build Minecraft Bots in JavaScript](https://javascriptweekly.com/link/119756/web) — [GitHub repo.](https://javascriptweekly.com/link/119757/web)  
+[React 组件：多达 15 个库](https://javascriptweekly.com/link/119758/web)  
 
-[React Components: 15+ Extensive Libraries to Consider](https://javascriptweekly.com/link/119758/web)  
-
-🌞🌝  [SunCalc 1.9: Tiny Library for Calculating Sun/Moon Positions and Phases](https://javascriptweekly.com/link/119759/web)  
+🌞🌝  [SunCalc 1.9：用于计算太阳 / 月亮位置和相位的微型库](https://javascriptweekly.com/link/119759/web)  
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/issues/576)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/576)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
