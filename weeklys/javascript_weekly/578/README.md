@@ -2,87 +2,86 @@
 title: 'JavaScript Weekly #578' # 不可修改
 date: '2022-02-26' # 不可修改
 categories: ['JavaScript Weekly'] # 不可修改
-publish: false # 翻译完成后修改
+publish: true # 翻译完成后修改
 ---
 
-[![](https://copm.s3.amazonaws.com/ae9d744f.jpg)](https://javascriptweekly.com/link/120266/web)
+![](https://copm.s3.amazonaws.com/ae9d744f.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[Learn the Fundamentals of Rx.js](https://javascriptweekly.com/link/120266/web "frontendmasters.com") — This useful JavaScript library is great for managing events that happen over time, and in this detailed video course Steve Kinney covers what you need to know to make use of it — including observables, events, intervals, timers, operators, and more.
+[学习 Rx.js 的基础知识](https://javascriptweekly.com/link/120266/web "frontendmasters.com") — 这个 JavaScript 库非常好用，Steve Kinney 在这个详细的视频课程里，介绍了使用它需要了解的内容 — 包括可观察对象、事件、间隔、计时器、运算符等。
 
-[What Are Wrapper Objects for Primitive Values?](https://javascriptweekly.com/link/120267/web "2ality.com") — Dr. Axel talks about how primitive types like boolean and string have associated wrapper classes (e.g. Boolean and String) and demonstrates the value they provide.
+[什么是原始值的包装对象？](https://javascriptweekly.com/link/120267/web "2ality.com") — Axel 博士谈到了 boolean 和 string 等基本类型如何关联包装类（例如 Boolean 和 String）。
 
-[How to Read the ECMAScript Specification](https://javascriptweekly.com/link/120299/web "timothygu.me") — Each time there’s a new ECMAScript spec we link to it - such as [this draft ES2022 spec](https://javascriptweekly.com/link/120300/web).. but who reads such a complex and intimidating document? This is a neat dig into how the spec ticks formatting wise and why the spec is worth a skim at the least.
+[如何阅读 ECMAScript 规范](https://javascriptweekly.com/link/120299/web "timothygu.me") — 每次有一个新的 ECMAScript 规范我们都会链接到一篇文章 — 比如这个 ES2022 规范草案。但是谁会阅读如此复杂的文档呢？要不试试这篇？
 
-## **IN BRIEF:**
+## **简述:**
 
-*   🟩 [Node 17.6.0](https://javascriptweekly.com/link/120268/web) has been released with initial (and experimental) support for [loading ES modules over HTTPS.](https://javascriptweekly.com/link/120269/web)
+*   🟩 [Node 17.6.0](https://javascriptweekly.com/link/120268/web) 已经发布，[目前支持通过 HTTPS 加载 ES 模块](https://javascriptweekly.com/link/120269/web)。
     
-*   [Glitch](https://javascriptweekly.com/link/120270/web) is a neat online app building environment well suited to JavaScript apps, and you can now [deploy Glitch apps to DigitalOcean.](https://javascriptweekly.com/link/120271/web) They're also [collaborating with Fastly.](https://javascriptweekly.com/link/120272/web)
+*   [Glitch](https://javascriptweekly.com/link/120270/web) 是一个简洁的在线应用程序构建环境，非常适合 JavaScript 应用程序，您现在可以将 Glitch 应用程序 [部署到 DigitalOcean](https://javascriptweekly.com/link/120271/web)。他们还与 [Fastly 合作](https://javascriptweekly.com/link/120272/web)。
     
-*   The [▶️ story of TypeScript told in 6 minutes.](https://javascriptweekly.com/link/120273/web)
+*   [6 分钟讲述 TypeScript 的 ▶️ 故事](https://javascriptweekly.com/link/120273/web)。如果你喜欢这种风格的话，还有 [异步 JavaScript 的 ▶️ 故事](https://javascriptweekly.com/link/120320/web) 也推荐给你！
     
 
-## **RELEASES:**
+## **版本更新:**
 
-[Playwright 1.19](https://javascriptweekly.com/link/120301/web) – Browser automation library.  
-[neo.mjs 3.2.5](https://javascriptweekly.com/link/120274/web) – Web Worker enhanced frontend framework.  
-[Jasmine 4.0.1](https://javascriptweekly.com/link/120275/web) – JS testing framework.  
-[Resemble.js 4.1](https://javascriptweekly.com/link/120276/web) – Image analysis and comparison library.  
-[eva.js 1.2.7](https://javascriptweekly.com/link/120277/web) – Front-end game engine.  
-[History 5.3](https://javascriptweekly.com/link/120278/web) – Manage session history with JS.  
-[qooxdoo 7.0](https://javascriptweekly.com/link/120279/web) – SPA framework we last mentioned 7 yrs ago(!)
+[Playwright 1.19](https://javascriptweekly.com/link/120301/web) — 浏览器自动化库。 
+[neo.mjs 3.2.5](https://javascriptweekly.com/link/120274/web) — Web Worker 增强的前端框架。
+[Jasmine 4.0.1](https://javascriptweekly.com/link/120275/web) — JS 测试框架。
+[Resemble.js 4.1](https://javascriptweekly.com/link/120276/web) — 图像分析和比较库。
+[eva.js 1.2.7](https://javascriptweekly.com/link/120277/web) — 前端游戏引擎。
+[History 5.3](https://javascriptweekly.com/link/120278/web) — 使用 JS 管理会话历史记录。
+[qooxdoo 7.0](https://javascriptweekly.com/link/120279/web) — 我们上次提到的 SPA 框架是在 7 年前！
 
-## 📒 Articles & Tutorials
+## 📒  文章 & 教程
 
-[How to Reliably Send an HTTP Request on Leaving a Page](https://javascriptweekly.com/link/120285/web "css-tricks.com") — Browsers don’t guarantee to preserve open HTTP requests when pages change but there are some mitigations or alternative approaches (e.g. beacons).
+[如何在离开页面时可靠地发送 HTTP 请求](https://javascriptweekly.com/link/120285/web "css-tricks.com") — 浏览器不保证会在页面更改时保留打开的 HTTP 请求，但还是会有一些缓解措施或替代方法（例如信标）。
 
-[How To Develop a Text Editor for the Web](https://javascriptweekly.com/link/120286/web "www.smashingmagazine.com") — The engineer at a company building a browser-based design tool reflects on some of the technical issues of producing a reliable text entry widget.
+[如何为 Web 开发文本编辑器](https://javascriptweekly.com/link/120286/web "www.smashingmagazine.com") — 一家公司的工程师正在构建基于浏览器的设计工具，他思考了一些有关制作可靠文本输入小部件的问题。
 
-[3k+ Devs Completed the State of Frontend 2022 - It's Your Turn](https://javascriptweekly.com/link/120284/web "hubs.ly") — 3k devs and counting - we need you too! Take 8 minutes click through the survey, and catch the outcome soon.
+[3k+ 开发人员完成了 2022 年前端现状调查 — 轮到你了](https://javascriptweekly.com/link/120284/web "hubs.ly") — 我们也需要你！花 8 分钟点击调查，很快就能看到结果。
 
-[Future JavaScript: A Look at Records and Tuples](https://javascriptweekly.com/link/120302/web "dev.to") — Two years ago we mentioned the [record and tuples proposal](https://javascriptweekly.com/link/120303/web) (two new deeply immutable primitive types for JS) had reached stage 2 at TC39. It’s still there.. but [a polyfill](https://javascriptweekly.com/link/120304/web) brings them to Babel users.
+[未来的 JavaScript：查看记录和元组](https://javascriptweekly.com/link/120302/web "dev.to") — 两年前，我们提到 [记录和元组](https://javascriptweekly.com/link/120303/web) 提案（JS 的两个新的深度不可变的原始类型）在 TC39 达到了第 2 阶段。
 
-[You Can `throw()` Anything In JavaScript (And Other `async`/`await` Considerations)](https://javascriptweekly.com/link/120305/web "www.bennadel.com") — The author experiments with `throw` and ends up questioning his mental model of error handling.
+[你可以在 JavaScript 中 `throw()` 任何东西（以及其他 `async`/`await` 注意事项）](https://javascriptweekly.com/link/120305/web "www.bennadel.com")。
 
-▶  [What is _Responsible_ JavaScript?](https://javascriptweekly.com/link/120287/web "www.smashingmagazine.com") — The author of [Responsible JavaScript](https://javascriptweekly.com/link/120288/web) talks about topics like responsible data usage, user experience, backwards compatibility, etc. _(55 minutes.)_
+▶  [什么是_Responsible_ JavaScript？](https://javascriptweekly.com/link/120287/web "www.smashingmagazine.com") — JavaScript 的作者谈论了数据使用、用户体验、向后兼容性等主题（55 分钟。）
 
-[How to Make a Data Dashboard with React Native](https://javascriptweekly.com/link/120289/web "www.influxdata.com")
+[如何使用 React Native 制作数据仪表板](https://javascriptweekly.com/link/120289/web "www.influxdata.com")
 
-[How to Use `nextTick()` in Vue](https://javascriptweekly.com/link/120306/web "dmitripavlutin.com") — `nextTick(callback)` executes the callback when the DOM has been updated.
+[如何在 Vue 中使用`nextTick()`](https://javascriptweekly.com/link/120306/web "dmitripavlutin.com") — `nextTick(callback)` 在 DOM 更新时执行回调。
 
-[Optimizing Third-Party Script Loading in Next.js](https://javascriptweekly.com/link/120290/web)  
-Leena Sohoni and Houssein Djirdeh (Google)
+[在 Next.js 中优化第三方脚本加载](https://javascriptweekly.com/link/120290/web)  
 
-▶  [10 Things You Should Know About Lodash in 3 Minutes](https://javascriptweekly.com/link/120291/web)  
+▶  [3 分钟内告诉你你应该知道的关于 Lodash 的 10 件事](https://javascriptweekly.com/link/120291/web)  
 
-[Comparing Gatsby and Next.js](https://javascriptweekly.com/link/120292/web)  
+[比较 Gatsby 和 Next.js](https://javascriptweekly.com/link/120292/web)  
 
-[Implementing the Game of Life with React, Hooks and Chakra-UI](https://javascriptweekly.com/link/120313/web)  
+[使用 React、Hooks 和 Chakra-UI 实现一个生命游戏](https://javascriptweekly.com/link/120313/web)  
 
-🛠 Code & Tools
+## 🛠  代码 & 工具
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/njkhs6ndybzlyulcjfwj.jpg)](https://javascriptweekly.com/link/120307/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/njkhs6ndybzlyulcjfwj.jpg)
 
-[Screenshot: No-Dependency Browser-Native Screenshot Library](https://javascriptweekly.com/link/120307/web "www.xata.io") — Uses the MediaDevices API but provides an easier to use abstract for letting users take screenshots. [GitHub repo.](https://javascriptweekly.com/link/120308/web)
+[Screenshot：不依赖浏览器 — 原生截图库](https://javascriptweekly.com/link/120307/web "www.xata.io") — 使用 MediaDevices API 开发，但提供了一个更易于使用的抽象模式来让用户截取屏幕截图。 [GitHub 仓库](https://javascriptweekly.com/link/120308/web)。
 
-[Stylo: An Open Source WYSIWYG Rich Text Editor for JavaScript](https://javascriptweekly.com/link/120293/web "stylojs.com") — Lightweight, no dependencies, and you can configure the default toolbar to suit your app's specific needs.
+[Stylo：JavaScript 的开源 WYSIWYG 富文本编辑器](https://javascriptweekly.com/link/120293/web "stylojs.com") — 轻量级，无依赖性，您可以配置默认工具栏以满足您应用的特定需求。
 
-[Beam: A Node Powered and GitHub Inspired Message Board for Teams](https://javascriptweekly.com/link/120294/web "planetscale.com") — Beam is a message board inspired by a similar proprietary system used for team communication at GitHub. [GitHub repo.](https://javascriptweekly.com/link/120295/web)
+[Beam：一个由 Node.js 支持，受 GitHub 启发的团队留言板](https://javascriptweekly.com/link/120294/web "planetscale.com") — Beam 是一个留言板，灵感来自 GitHub 上用于团队交流的类似专有系统。 [GitHub 仓库](https://javascriptweekly.com/link/120295/web)。
 
-[More Cloud for Less Money](https://javascriptweekly.com/link/120298/web "vultr.com") — Vultr offers developers Cloud Compute instances as low as $2.50 per month. Try Vultr for 14 days with this free credit.
+[以更少的钱获得更多的云](https://javascriptweekly.com/link/120298/web "vultr.com") — Vultr 为开发人员提供低至每月 2.50 美元的云计算实例。使用此免费积分试用 Vultr 14 天。
 
-[Stockfish.js: A Chess Engine](https://javascriptweekly.com/link/120296/web "github.com") — Stockfish is a popular chess engine [usually written in C++](https://javascriptweekly.com/link/120297/web) but this project brings it into JS contexts by way of WebAssembly.
+[Stockfish.js：国际象棋引擎](https://javascriptweekly.com/link/120296/web "github.com") — Stockfish 是一种流行的国际象棋引擎，[通常用 C++ 编写](https://javascriptweekly.com/link/120297/web)，但该项目通过 WebAssembly 将其引入到了 JS 中。
 
-😆  [Elevator.js: An Old Fashioned 'Scroll to Top' Button](https://javascriptweekly.com/link/120309/web) — Just a bit of fun.  
+😆  [Elevator.js：老式的 “滚动到顶部” 按钮](https://javascriptweekly.com/link/120309/web) — 只是有点好玩。 
 
-[enum-xyz: JavaScript Enums using Proxies](https://javascriptweekly.com/link/120310/web) — Fun little reader-submitted idea.  
+[enum-xyz：使用代理的 JavaScript 枚举](https://javascriptweekly.com/link/120310/web) — 一个有趣的想法。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://javascriptweekly.com/issues/578)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/578)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
