@@ -40,7 +40,7 @@ publish: true
 *   [ESLint 8.9.0](https://javascriptweekly.com/link/120003/web) 加入了新的 es2022 环境。
     
 
-## **RELEASES:**
+## **版本更新:**
 
 [Next.js 12.1](https://javascriptweekly.com/link/120056/web)  
 [TypeScript 4.6](https://javascriptweekly.com/link/120005/web)  
