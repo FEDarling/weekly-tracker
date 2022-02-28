@@ -2,65 +2,63 @@
 title: 'Node Weekly #423'
 date: '2022-02-04'
 categories: ['Node Weekly']
-publish: false
+publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lvqsdsrcgzfperdutlen.jpg)](https://nodeweekly.com/link/119376/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lvqsdsrcgzfperdutlen.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
-[The Fetch API Comes to Node Core (and Why You Should Care)](https://nodeweekly.com/link/119376/web "fusebit.io") — Support for the [Fetch API](https://nodeweekly.com/link/119377/web) (as commonly used browser-side for fetching resources) has [been merged](https://nodeweekly.com/link/119378/web) into Node.js and will be available behind a `‑‑experimental‑fetch` flag until, hopefully, being enabled by default in Node 18 and beyond.
 
-['How I Reversed a Node.js Malware and Found The Author'](https://nodeweekly.com/link/119379/web "t.co") — Someone was sending messages to people on the author’s Discord server encouraging them to download and run a nefarious .exe file.. which turned out to be a packaged up Node.js app. Here’s the rest of the story.
+[Fetch API 已成为 Node 的核心一部分（以及为什么你应该关心它）](https://nodeweekly.com/link/119376/web "fusebit.io") — 对 Fetch API（作为获取资源的常用浏览器端）的支持已合并到 Node.js 中，可以在 `‑‑experimental‑fetch` 标志后面使用，有望在 Node 18 及更高版本中默认启用。
 
-[![](https://copm.s3.amazonaws.com/f637e816.png)](https://nodeweekly.com/link/119354/web)
+[“我如何阻止 Node.js 恶意软件并找到作者的”](https://nodeweekly.com/link/119379/web "t.co") — 有人正在向作者的 Discord 服务器上的人发送消息，鼓​​励他们下载并运行一个邪恶的 .exe 文件......这是一个打包的 Node.js 应用程序。
 
-[State of Node.js Community Survey](https://nodeweekly.com/link/119354/web "appsignal2.typeform.com") — What are your favorite packages? Where do you learn more about Node.js? Take our survey, and we'll send you swag or make a donation to Node.js open-source projects on your behalf.
+![](https://copm.s3.amazonaws.com/f637e816.png)
 
-[Top 100 npm Package Maintainers Now Must Use 2FA](https://nodeweekly.com/link/119356/web "github.blog") — We mentioned npm’s forthcoming enhanced security procedures a while ago, and now they’re beginning to roll out in a phased manner. The maintainers of the top 100 npm packages judged by number of dependent projects now have to use two-factor auth, but all package maintainers need to be aware of the forthcoming changes outlined here.
+[Node.js 现状调查](https://nodeweekly.com/link/119354/web "appsignal2.typeform.com") — 你最喜欢的包是什么？您在哪里了解有关 Node.js 的更多信息？参加我们的调查，我们将代表您向 Node.js 开源项目发送礼品或捐款。
 
-[Using Streams to Build High-Performing Node Apps](https://nodeweekly.com/link/119355/web "blog.appsignal.com") — Find out how to use the `stream` module in Node.js to build high(er)-performing apps.
+[前 100 名 npm 包维护者现在必须使用 2FA](https://nodeweekly.com/link/119356/web "github.blog") — 前段时间我们提到了 npm 即将推出的增强安全程序，现在它们开始分阶段推出。根据依赖项目数量判断的前 100 个 npm 包的维护者现在必须使用双因素身份验证，所有包维护者都需要了解这个变动。
 
-## **In brief:**
+[使用 Streams 构建高性能 Node 应用程序](https://nodeweekly.com/link/119355/web "blog.appsignal.com") — 了解如何使用 Node.js 中的 `stream` 模块来构建性能更高（更好）的应用程序。
 
-*   Using Node 12 (LTS) anywhere? [Node 12.22.10](https://nodeweekly.com/link/119357/web) has been released, with updates for npm (to v6.14.16) and timezone data.
+## **简介:**
+
+*   Node 12 (LTS) 如何使用？[Node 12.22.10](https://nodeweekly.com/link/119357/web) 已经发布，更新了 npm（到 v6.14.16）。
     
-*   Node 14 has also been updated with [Node 14.19.0](https://nodeweekly.com/link/119358/web) which brings [Corepack](https://nodeweekly.com/link/119359/web) (the 'package manager manager'), ICU 70.1, and updated root certificates to the LTS release.
+*   Node 14 也更新到了 [Node 14.19.0](https://nodeweekly.com/link/119358/web)，它为 LTS 版本带来了 [Corepack](https://nodeweekly.com/link/119359/web)（“包管理器管理器”）、ICU 70.1 和更新的根证书。
     
-*   Azure _App Service_ user? There's some clarification over [the service's Node.js version policy](https://nodeweekly.com/link/119360/web) when using Windows.
+*   [V8 JavaScript 引擎的 v9.9](https://nodeweekly.com/link/119361/web) 正在开发中，主要是对 `Intl` 进行了改进。
     
-*   [v9.9 of the V8 JavaScript engine](https://nodeweekly.com/link/119361/web) is on the way with, primarily, improvements made to `Intl`.
-    
-[Securing AWS S3 Assets with Cross-Account Backups](https://nodeweekly.com/link/119363/web "pawelurbanek.com") — If you’re using S3 to store your app’s assets, Paweł’s advice could save you some headaches one day.
+[使用跨账户备份保护 AWS S3 资产](https://nodeweekly.com/link/119363/web "pawelurbanek.com") — 如果您使用 S3 来存储应用程序的资产，Paweł 的建议可以为您省去一些麻烦。
 
-['I Built a Blog with RemixJS so You Don't Have To (You're Welcome)'](https://nodeweekly.com/link/119364/web "blog.openreplay.com") — One developer’s first impressions of [Remix](https://nodeweekly.com/link/119365/web) as a full stack framework.
+[“我用 RemixJS 建立了一个博客，你不必学我（不客气）”](https://nodeweekly.com/link/119364/web "blog.openreplay.com") — 一位开发人员对 Remix 作为全栈框架的第一印象。
 
-[Join The Big Fix - Fix Vulnerabilities. Earn Swag](https://nodeweekly.com/link/119366/web "snyk.io")
+[使用 Express、MySQL 和 PlanetScale 创建 Harry Potter API](https://nodeweekly.com/link/119367/web "planetscale.com") — 不出所料，这旨在展示 PlanetScale 的 MySQL 平台的易用性，但也可以使用您自己选择的 MySQL 数据库进行跟踪。
 
-[Create a Harry Potter API with Express, MySQL, and PlanetScale](https://nodeweekly.com/link/119367/web "planetscale.com") — Unsurprisingly this is designed to show off how easy PlanetScale’s MySQL platform is to use, but could be followed using a MySQL database of your own choosing.
+## 🛠 代码 & 工具
 
-## 🛠 Code & Tools
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o7xcteusarxzfzdwhk2e.jpg)
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o7xcteusarxzfzdwhk2e.jpg)](https://nodeweekly.com/link/119368/web)
+[Electron 17 发布](https://nodeweekly.com/link/119368/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架通过 Chromium 98、Node 16.13.0 和 V8 9.8 实现。
 
-[Electron 17 Released](https://nodeweekly.com/link/119368/web "www.electronjs.org") — The popular cross-platform desktop app framework gets key dependency bumps with Chromium 98 support, Node 16.13.0, and V8 9.8.
+[Commander 9.0：简化 Node 命令行界面](https://nodeweekly.com/link/119369/web "github.com") — 用于构建与命令行交互的应用程序。
 
-[Commander 9.0: Node Command-Line Interfaces Made Easy](https://nodeweekly.com/link/119369/web "github.com") — The long standing ‘batteries included’ system for building apps that interface with the command line.
+[InkPaint：轻量级 Node.js 画布图形库](https://nodeweekly.com/link/119370/web "github.com") — 用于进行服务器端图像合成的 Pixi.js 派生库。
 
-[InkPaint: A Lightweight Node.js Canvas Graphics Library](https://nodeweekly.com/link/119370/web "github.com") — A Pixi.js-derived library for doing server-side image synthesis.
+[将视频无缝集成到您的 Node 应用程序中](https://nodeweekly.com/link/119371/web "get.mux.com")
 
-[Seamlessly Integrate Video into Your Node App](https://nodeweekly.com/link/119371/web "get.mux.com")
+[Prisma 3.9.0 发布：流行的 Node.js 下一代 ORM](https://nodeweekly.com/link/119372/web)  
 
-[Prisma 3.9.0 Released: Popular Next-Gen ORM for Node.js](https://nodeweekly.com/link/119372/web)  
+[Traverson：用于 Node 和浏览器的超媒体 API/HATEOAS 客户端](https://nodeweekly.com/link/119373/web)  
 
-[Traverson: Hypermedia API/HATEOAS Client for Node and Browser](https://nodeweekly.com/link/119373/web)  
+[seriallog：记录串行设备的输出](https://nodeweekly.com/link/119374/web)  
 
-[serialog: Log a Serial Device's Output](https://nodeweekly.com/link/119374/web)  
-
-[ssh2 v1.6: Pure JavaScript SSH2 Client and Server Modules for Node](https://nodeweekly.com/link/119375/web)  
+[ssh2 v1.6：用于 Node 的纯 JavaScript SSH2 客户端和服务器模块](https://nodeweekly.com/link/119375/web)  
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://nodeweekly.com/issues/423)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/423/README.md)
-> * 译者：
-> * 校对者：
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
