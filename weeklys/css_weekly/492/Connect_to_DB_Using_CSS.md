@@ -42,11 +42,11 @@ publish: true
 
 这是必须实现的第一步，尝试去寻找一个可行的思路。
 
-通过一个名为 [`sql.js`](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web#fn.7)的 JS 库。它的功能是通过 emscripten 将 SQLite 编译成 webasbly 和 old-skool ASM.js 。但是我们不能使用 WASM ，因为它必须通过网络来获取二进制文件。ASM 则没有这个限制，因为所有代码都可以在一个模块中使用、
+使用 [`sql.js`](https://www.leemeichin.com/posts/yes-i-can-connect-to-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web#fn.7)库通过 emscripten 将 SQLite 编译成 webasbly 和 old-skool ASM.js 。但是我们不能使用 WASM ，因为它必须通过网络来获取二进制文件。ASM 则没有这个限制，因为所有代码都可以在一个模块中使用、
 
-尽管 PaintWorklet 限制网络请求功能 `import` 来导入 ES6 的模块。这就意味着，引入的文件必须含有 `export` 语句。但是 `sqk,js` 并没有支持 es6 的版本，所以我修改了代码来保证功能的实现。
+尽管 PaintWorklet 限制网络请求功能 `import` 来导入 ES6 的模块。这就意味着，引入的文件必须含有 `export` 语句。但是 `sql.js` 并没有支持 es6 的版本，所以我修改了代码来实现功能。
 
-现在的关键：我能在我的工作区来建立一个数据库嘛？
+现在的关键：我如何在我的工作区来建立一个数据库？
 
 ```js
 const SQL = await initSqlJs({ 
@@ -63,7 +63,7 @@ DB.run(
     ['A', 'B', 'C', 'D'] 
 )
 ```
-现在我已经有了一个包含数据的测试表。我们就可以可以查询到这些数据，尽管我不知道该如何进行构建。
+现在我已经有了一个包含数据的测试表。我们就可以查询到这些数据，尽管我不知道该如何进行构建。
 ```js
 const result = DB.exec('SELECT * FROM test') 
 console.log(result)

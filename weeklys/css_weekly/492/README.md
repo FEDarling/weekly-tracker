@@ -55,7 +55,7 @@ Dave Seidman 向我们展示了如何利用 CSS 创建一个倾斜的容器。
 
 [A11Y Checklist](https://www.a11yproject.com/checklist/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-通过 The Web Content Accessibility Guidelines (WCAG) 实现一个 checklist 去更好地展示。
+利用 The Web Content Accessibility Guidelines (WCAG) 优化 checklist 的展示效果。
 
 ## Inspiration
 
