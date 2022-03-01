@@ -1,6 +1,6 @@
 ---
 title: '使用 CSS 连接数据库'
-date: '2021-01-29'
+date: '2022-02-28'
 #请根据文章内容在下面数组中选择标签，删除无关的标签，标签数量不限但不可直接新增标签！
 tags: ['CSS']
 #没有相关的标签？在专有的discussion中讨论：https://github.com/FEDarling/weekly-tracker/discussions/51#discussion-3827174
@@ -14,7 +14,7 @@ publish: true
 某条特推在网上流传了一阵子。
 
 -  招聘人员是这么说的：
--  我们正在寻找一个人可以使用css链接到数据库
+-  我们正在寻找一个人可以使用css连接到数据库
 
 我已经很长时间没有写出来质量很高的项目了，实际上，在我的字典中已经很长时间都没有 shitpost 这个词了。
 

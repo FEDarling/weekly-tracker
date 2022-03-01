@@ -18,7 +18,6 @@ Ahmad Shadeed 介绍了cascade layers 是如何工作的并且它会让你在写
 
 [![Becoming a Better Writer as a Software Engineer](https://css-weekly.com/wp-content/uploads/2022/02/becoming-a-better-writer-in-tech.png)](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-Gergely Orosz offers some tactics for clearer, more frequent, and more confident writing.
 Gergely Orosz 推荐了一些让你写起文章更清晰，常用并且自信的方法。
 
 [Tailwind CSS - A new way to > THINK < CSS](https://cssw.io/tailwind-css-a-new-way-to-think-css)
