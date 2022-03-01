@@ -26,7 +26,7 @@ Gergely Orosz 推荐了一些让你写起文章更清晰，常用并且自信的
 
 深入介绍 Tailwind CSS —— 一个可以帮你利用HTML快速搭建网站的框架。
 
-## Articles & Tutorials
+## 文章 & 教程
 
 [使用 CSS 连接数据库](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
@@ -58,7 +58,7 @@ Dave Seidman 向我们展示了如何利用 CSS 创建一个倾斜的容器。
 
 利用 The Web Content Accessibility Guidelines (WCAG) 优化 checklist 的展示效果。
 
-## Inspiration
+## 灵感
 
 [DeLorean (CSS Art)](https://codepen.io/ykadosh/pen/yLzmKYp?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
@@ -70,5 +70,5 @@ Toav Kadosh使用纯 CSS 实现了一幅题为穿越未来的插画。
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://css-weekly.com/issue-492/)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/492)
-> * 译者：
+> * 译者：[HongyuYU](https://github.com/chressYu)
 > * 校对者：
