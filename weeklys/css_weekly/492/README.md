@@ -47,6 +47,7 @@ Silvestar Bistrović 介绍了 `from-font` 值是如何工作的。
 [如何创建一个斜着的容器](https://css-tricks.com/css-slanted-containers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
 Dave Seidman 向我们展示了如何利用 CSS 创建一个倾斜的容器。
+
 ## Tools
 
 [details-utils](https://github.com/zachleat/details-utils?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
