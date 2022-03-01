@@ -9,8 +9,10 @@ publish: true
 ---
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5f2b5ebbb70d43a9ae117c4edfd5297f~tplv-k3u1fbpfcp-zoom-crop-mark:1304:1304:1304:734.awebp?)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 某条特推在网上流传了一阵子。
 
 -  招聘人员是这么说的：
@@ -225,4 +227,4 @@ queryInput.onchange = () => {
 > * [查看原文](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/554/Connect_to_DB_Using_CSS.md)
 > * 译者：[HongyuYU](https://github.com/chressYu)
-> * 校对者：
+> * 校对者：[daodaolee](https://github.com/daodaolee)
