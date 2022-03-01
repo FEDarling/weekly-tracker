@@ -25,6 +25,7 @@ Gergely Orosz 推荐了一些让你写起文章更清晰，常用并且自信的
 [![Tailwind CSS - A new way to > THINK < CSS](https://css-weekly.com/wp-content/uploads/2022/02/tailwindcss.png)](https://cssw.io/tailwind-css-a-new-way-to-think-css)
 
 深入介绍 Tailwind CSS —— 一个可以帮你利用HTML快速搭建网站的框架。
+
 ## Articles & Tutorials
 
 [使用 CSS 连接数据库](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
