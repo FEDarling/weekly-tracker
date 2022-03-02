@@ -42,7 +42,7 @@ Stoyan Stefanov 提出了他对当下 CSS 的一些看法。
 
 对于 Web 开发中的前端专业知识，我们有时候可能会忽视它，Elina Natario 讲述了我们为什么会这样。
 
-## Tools
+## 工具
 
 [SVGcode：将光栅图像转换为 SVG 矢量图形](https://web.dev/svgcode/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
