@@ -7,51 +7,49 @@ publish: false
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wyxfhwilowcknhdias4z.jpg)](https://react.statuscode.com/link/119533/web)
 
-[Etsy Migrated from React 15.6 to Preact (Instead of React 16)](https://react.statuscode.com/link/119533/web "twitter.com") — There’s a full explanation about the decision behind all of this in [this document about updating React at Etsy.](https://react.statuscode.com/link/119534/web) But [Preact](https://react.statuscode.com/link/119535/web), a smaller React alternative with the same API, turned out to be the right choice for them.
+[Etsy 从 React15.6 迁移到 Preact (而不是 React16)](https://react.statuscode.com/link/119533/web "twitter.com") — 在这份关于 Etsy 更新 React 的[文件](https://react.statuscode.com/link/119534/web)中，有一个关于这一切背后的决定的完整解释。但是，[Preact](https://react.statuscode.com/link/119535/web)，一个较小的 React 替代品，具有相同的 API，被证明是他们的正确选择。
 
-[React — The Missing Parts?](https://react.statuscode.com/link/119536/web "acko.net") — The author works through a thought experiment intended to answer the question as to whether React’s _props_, _state_ and _hooks_ patterns can be used for non-UI applications: _“It’s also a trip to a parallel universe where the React team made different decisions, subject to far less legacy constraints”_.
+[React — 遗失部分?](https://react.statuscode.com/link/119536/web "acko.net") — 作者通过一个思想实验，旨在回答 React 的 props、state 和 hooks 模式是否可以用于非 UI 应用的问题。"这也是一次平行宇宙的旅行，在那里 React 团队做出了不同的决定，受到的遗留限制要少得多"。
 
 [![](https://copm.s3.amazonaws.com/ae9d744f.jpg)](https://react.statuscode.com/link/119537/web)
 
-[Learn the Fundamentals of Rx.js](https://react.statuscode.com/link/119537/web "frontendmasters.com") — This useful JavaScript library is great for managing events that happen over time, and in this detailed video course Steve Kinney covers what you need to know to make use of it — including observables, events, intervals, timers, operators, and more.
+[学习 Rx.js 的基础知识](https://react.statuscode.com/link/119537/web "frontendmasters.com") — 这个有用的 JavaScript 库非常适用于管理随时间发生的事件，在这个详细的视频课程中，Steve Kinney 介绍了你需要了解的基础知识 - 包括观测器、事件、间隔、定时器、操作符等等。
 
-[An Intro to Authentication in React Router 6](https://react.statuscode.com/link/119538/web "www.robinwieruch.de") — A practical walkthrough of implementing authentication alongside React Router 6 in a bare-bones example app. You can then move on to..
+[React Router 6 中的鉴权介绍](https://react.statuscode.com/link/119538/web "www.robinwieruch.de") 一个关于在 React Router 6 中实现鉴权的实际演练，在一个简单的示例应用程序中。然后你就可以继续去下面这篇...
 
-[React Router 6 and Private Routes (a.k.a. Protected Routes)](https://react.statuscode.com/link/119539/web)  
+[React Router 6 和私有路由 (a.k.a. 受保护路由)](https://react.statuscode.com/link/119539/web)  
 
-[Build Decoupled React Components with Inversion of Control](https://react.statuscode.com/link/119540/web "t.co") — The [Inversion of Control](https://react.statuscode.com/link/119541/web) principle is suited to scenarios where you want to isolate functionality for future possible retrofits, such as swapping out one payment provider for another.
+[用控制反转（Inversion of Control）构建解耦的 React 组件](https://react.statuscode.com/link/119540/web "t.co") — [控制反转](https://react.statuscode.com/link/119541/web)原则适合于这样的场景：你想隔离未来可能会改造功能，比如把一个支付供应商换成另一个。
 
-📅  [Remix Conf: Save That Date?](https://react.statuscode.com/link/119545/web "remix.run") — In-person conferences are making a steady comeback: the [Remix folks](https://react.statuscode.com/link/119546/web) are getting on-board with their event coming up in Salt Lake City, Utah on May 24 and 25, 2022. There’s still time to [submit your speaker proposal](https://react.statuscode.com/link/119547/web).
+[在 D3.js 中使用 React](https://react.statuscode.com/link/119548/web "wattenberger.com") — 我们认为这个非常容易理解的 D3.js 介绍应该得到比去年更多的关注，所以它又回来了 :-)
 
-[Using React with D3.js](https://react.statuscode.com/link/119548/web "wattenberger.com") — We felt this fantasticly accessible intro to D3.js deserved more attention than it got last year, so it’s back :-)
+▶  [在React中，当滚动到一个元素时，用 Intersection Observer 触发一个函数](https://react.statuscode.com/link/119549/web)  
 
-▶  [Trigger a Function When Scrolling to An Element in React with Intersection Observer](https://react.statuscode.com/link/119549/web)  
-
-## 🛠 Code and Tools
+## 🛠 代码和工具
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/m9altra8nw4cj21n8fno.jpg)](https://react.statuscode.com/link/119550/web)
 
-[React Components: 15+ Extensive Libraries](https://react.statuscode.com/link/119550/web "stackdiary.com") — It sometimes seems not an issue goes by where we don’t introduce a new component library. It is a useful exercise, therefore, to present a summary of a number of them, including some consideration as to where a given library best fits.
+[React 组件: 15+ 个组件库](https://react.statuscode.com/link/119550/web "stackdiary.com") — 我们对组件库中做了一些总结，其中包括一些对每个组件库合适场景的思考。
 
-[React Tags 6.8: A Simple Tagging Component](https://react.statuscode.com/link/119551/web "github.com") — Inspired by Gmail’s “To” field. Supports autocomplete, as well as reordering tags with drag and drop. [Sandbox demo here](https://react.statuscode.com/link/119552/web).
+[React Tags 6.8: 一个简单的标签组件](https://react.statuscode.com/link/119551/web "github.com") — 灵感来自 Gmail 的 "To" 字典。支持自动完成，以及通过拖放来重新排序标签。[沙盒演示在这里](https://react.statuscode.com/link/119552/web)。
 
-[React Calendar 3.6: The 'Ultimate' Calendar for Your React App](https://react.statuscode.com/link/119553/web "projects.wojtekmaj.pl") — A popular, simple-styled calendar component for React apps, focused mostly on letting users pick dates. [GitHub repo](https://react.statuscode.com/link/119554/web).
+[React Calendar 3.6: 你的最后一款 Calendar 插件](https://react.statuscode.com/link/119553/web "projects.wojtekmaj.pl") — 一个流行的、风格简单的 React 应用的日历组件，亮点在用户选择日期上。 [GitHub 仓库](https://react.statuscode.com/link/119554/web)。
 
-[Free Activity Feeds & Chat APIs for Qualifying Teams](https://react.statuscode.com/link/119555/web "getstream.io")
+[为符合条件的团队免费提供活动信息和聊天 API](https://react.statuscode.com/link/119555/web "getstream.io")
 
-[react-marksome: Markdown Subset Parser](https://react.statuscode.com/link/119556/web "github.com") — A full [Markdown](https://react.statuscode.com/link/119557/web) implementation is not always required: here’s a component that parses a [limited subset](https://react.statuscode.com/link/119558/web) that may be all that’s really needed.
+[react-marksome: Markdown 子集解析器](https://react.statuscode.com/link/119556/web "github.com") — 一个完整 [Markdown](https://react.statuscode.com/link/119557/web) 实现并不总是需要的: 这里有一个组件可以解析一个 [有限的子集](https://react.statuscode.com/link/119558/web)。这可能包含你需要的所有功能。
 
-[react-d3-speedometer 1.0.2: A Speedometer-Style Gauge for React](https://react.statuscode.com/link/119559/web)  
+[react-d3-speedometer 1.0.2: 使用 React 做的速度仪表盘](https://react.statuscode.com/link/119559/web)  
 
-[React Trix RTE: A React Wrapper for the Trix Rich Text Editor](https://react.statuscode.com/link/119560/web)  
+[React Trix RTE: Trix 富文本编辑器的React封装器](https://react.statuscode.com/link/119560/web)  
 
 ## ⚡️ Quick Bits:
 
-[react-use-websocket](https://react.statuscode.com/link/119561/web) — A hook for WebSocket communications, now in its third major release.
+[react-use-websocket](https://react.statuscode.com/link/119561/web) — 一个用于 WebSocket 通信的钩子，现在是第三个主要版本。
 
-[react-use-mouse-position (QB)](https://react.statuscode.com/link/119562/web) — Track the mouse’s position with this hook.
+[react-use-mouse-position (QB)](https://react.statuscode.com/link/119562/web) - 用这个钩子跟踪鼠标的位置。
 
-[react-hexgrid](https://react.statuscode.com/link/119563/web) — Use React to create this popular strategy / puzzle game element.
+[react-hexgrid](https://react.statuscode.com/link/119563/web) — 使用 React 来创建这个流行的策略/益智游戏元素。 
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
