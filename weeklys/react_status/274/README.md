@@ -6,8 +6,10 @@ publish: false
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bk3ysckglctrp7pxfypi.jpg)](https://react.statuscode.com/link/119256/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
+
 ▶  [React 的故事(十分钟以内)](https://react.statuscode.com/link/119256/web "www.youtube.com") — 如果你是刚开始学习 React，那么简单的回顾一下 React 的发展历程对你来说很有价值，抑或是你只是想找点乐子? ;-) 这个视频让我们快速的了解 React 的背景。
 
 [看看 2022 年 React 的趋势](https://react.statuscode.com/link/119257/web "www.chakshunyu.com") — 作者描述了即将到来的 2022 年中，他们认为重要的事情：[Remix](https://react.statuscode.com/link/119258/web)，服务端渲染，concurrent 模式，行为检测还有一些 “荣誉奖”。
