@@ -2,7 +2,7 @@
 title: 'React Status #276'
 date: '2022-02-18'
 categories: ['React Status']
-publish: false
+publish: true
 ---
 
 🎉 我们注意到 React Status 的订阅者 [刚刚超 50,000 人](https://react.statuscode.com/link/119817/web) – 感谢你们多年来对我们的支持！我们将继续为你们提供服务。顺便说一句，别忘了点击回复，把任何可以列入未来期刊的链接发给我们 - 我们总是很感激的。 :-)  
@@ -68,5 +68,5 @@ _Peter Cooper and Terence Gannon, your editors_
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://react.statuscode.com/issues/276)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/276)
-> * 译者：
-> * 校对者：
+> * 译者：[潘小安](https://github.com/pan463859)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
