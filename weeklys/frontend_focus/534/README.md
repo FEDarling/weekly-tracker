@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647960749/reicdfiq6ftqlax2dxsv.png)](https://frontendfoc.us/link/121254/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/121252/web)
-
-Frontend Focus
-
-🇺🇦 #​534 — March 23, 2022 | [Read on the web](https://frontendfoc.us/link/121253/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647960749/reicdfiq6ftqlax2dxsv.png)](https://frontendfoc.us/link/121254/web)
 
 [CSS Co-Designer: '`!important` Was Added for One Reason Only: Laws in the US'](https://frontendfoc.us/link/121254/web "twitter.com") — This tweet got plenty of attention this week — Steven Pemberton shared how `!important` was added to the spec due to US laws “_that require certain text to be in a given font size_”. He adds that anything else is probably _"misuse."_ [Ernie Smith digs into this a little more here](https://frontendfoc.us/link/121255/web).
 
@@ -38,13 +32,13 @@ Russell Ketchum (Google)
 
 Eric Bailey
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   Microsoft's Edge browser now [automatically generates image labels](https://frontendfoc.us/link/121260/web) for screen readers.
 *   Firefox 100 is getting [AV1 hardware decoding support](https://frontendfoc.us/link/121261/web) on Windows.
 *   Here's an update on [how Mozilla and Open Web Docs are working together](https://frontendfoc.us/link/121262/web) on MDN.
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647946782/fkf4j8u9yprhn8nltbhq.png)](https://frontendfoc.us/link/121263/web)
 
@@ -84,18 +78,7 @@ Michael MJD
 [Building Table Sorting and Pagination in JavaScript](https://frontendfoc.us/link/121272/web)  
 Raymond Camden
 
-Jobs
-
-[Senior Web Developer (Node/ReactJS) - Remote](https://frontendfoc.us/link/121273/web) — Millions get inspired and plan adventures with our apps. To help us make [komoot.com](https://frontendfoc.us/link/121274/web) the place to go to plan outdoor adventures, we’re looking for a one of a kind Web Developer to join our team.  
-Komoot
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/121275/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Build Your Career from Anywhere](https://frontendfoc.us/link/121276/web) — Join Toptal and get access to exclusive remote work opportunities for the top companies on the planet.  
-Toptal
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647962648/phrpc0phfddhj2x2o0jd.png)](https://frontendfoc.us/link/121277/web)
 

@@ -5,18 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lnxbvkafp9jm51n4ixzd.jpg)](https://react.statuscode.com/link/121307/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​281 — March 23, 2022
-
-[Read on the Web](https://react.statuscode.com/link/121306/web)
-
-React Status
-
-⚛️ Your weekly React news digest, _every Wednesday_.
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lnxbvkafp9jm51n4ixzd.jpg)](https://react.statuscode.com/link/121307/web)
 
 [React Flow 10: For Creating Interactive Node-Based UIs, Editors, and Diagrams](https://react.statuscode.com/link/121307/web "reactflow.dev") — Although we covered this in [issues 235](https://react.statuscode.com/link/121308/web) and [187](https://react.statuscode.com/link/121309/web), a new [major release](https://react.statuscode.com/link/121310/web) warrants another look. Amongst the new features and improvements: sub-flows, touch device support as well as some new hooks and properties. This [blog post](https://react.statuscode.com/link/121311/web) provides a good overview.
 
@@ -44,20 +36,9 @@ Pau Ramon Revilla
 
 Vojtech Miksu
 
-**Quick bits:**
+## **Quick bits:**
 
 *   The Next.js project has unveiled a [new foundations course](https://react.statuscode.com/link/121315/web) for anyone who wants to pick up the prerequisite knowledge for working with Next.js.
-
-Jobs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/121318/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Senior React Developer (Remote)](https://react.statuscode.com/link/121319/web) — Get featured directly to tech companies hiring React developers right now. Land an interview in as little as 24 hrs.  
-Arc
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/121320/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [How to Create and Validate a React Form with Hooks](https://react.statuscode.com/link/121322/web "www.telerik.com") — There are libraries to abstract away a lot of this work (e.g. [Formik](https://react.statuscode.com/link/121323/web)) but if you want to do it by hand, as it were.
 
@@ -74,7 +55,7 @@ Lydia Hallie
 [Storing State in the URL with React](https://react.statuscode.com/link/121327/web)  
 Pierre Hedkvist
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/y0s6sejeq6drq1yosjri.jpg)](https://react.statuscode.com/link/121329/web)
 
@@ -100,8 +81,7 @@ Silvio Gutierrez
 [MDX 2.1: Use JSX in Markdown Documents](https://react.statuscode.com/link/121337/web)  
 Compositor and Vercel
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-spinner-animated](https://react.statuscode.com/link/121338/web) — A variety of different ‘spinners’ using novel animation effects.
 

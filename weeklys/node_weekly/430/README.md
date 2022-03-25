@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mk4qoxymndatnjbbvzdv.jpg)](https://nodeweekly.com/link/121346/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​430 — March 24, 2022
-
-[Read on the Web](https://nodeweekly.com/link/121345/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mk4qoxymndatnjbbvzdv.jpg)](https://nodeweekly.com/link/121346/web)
 
 [Tao of Node: On Design, Architecture and Best Practices](https://nodeweekly.com/link/121346/web "alexkondov.com") — A developer has boiled down all of the hard-earned best practices and gut feelings he’s picked up for developing high-quality Node apps over time. Opinionated, yes, but high level enough to provide value to most.
 
@@ -38,14 +32,6 @@ Polkovnychenko and Menashe (JFrog)
 
 Joe Sepi (Node.js Project)
 
-💻 Jobs
-
-[Senior Backend Developer](https://nodeweekly.com/link/121359/web) — Are you looking to level up your skills and work on a wide variety of applications and technologies? Look no further.  
-Bitovi
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/121360/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [AWS Graviton2 vs Apple M1 for Node.js Performance](https://nodeweekly.com/link/121362/web "spacedoutandsmiling.com") — A casual and personal benchmark, with all that implies, and while the M1 continues to impress for local development, it’s neat to see other production grade ARM-based systems ready to go too.
 
 Jamie Knight
@@ -66,7 +52,7 @@ Feross Aboukhadijeh
 
 Alexander Lolis
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [Dum: An `npm` Script Runner Written in Rust](https://nodeweekly.com/link/121374/web "github.com") — Continuing a trend of building JavaScript tools in, well, _not_ JavaScript, the curiously named ‘Dum’ aims to replace `npm run` and `npx` to shave milliseconds off the task startup time. YMMV..
 
