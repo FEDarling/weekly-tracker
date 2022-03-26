@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/x6ev0rlnjqwfz8a6q8u7.jpg)](https://javascriptweekly.com/link/121501/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​582 — March 25, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/121498/web)  |  [Read on the Web](https://javascriptweekly.com/link/121499/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/x6ev0rlnjqwfz8a6q8u7.jpg)](https://javascriptweekly.com/link/121501/web)
 
 [Parcel v2.4.0 Released: The Zero Config Build Tool](https://javascriptweekly.com/link/121501/web "parceljs.org") — Parcel’s [new CSS parser and compiler](https://javascriptweekly.com/link/121502/web) – Parcel CSS – now makes it into the main Parcel build tool as the default CSS transformer and minifier. There is more, of course: CSS Color Level 4 support, cascade layers, improved JS dead code elimination, and support for class static initialization blocks.
 
@@ -38,9 +32,7 @@ Alex Kondov
 
 Cooperpress
 
-💡 We have [Node Weekly](https://javascriptweekly.com/link/121548/web) too, if you're into Node.js.
-
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   Another week, [another package supply chain issue](https://javascriptweekly.com/link/121504/web) with hundreds of malicious packages used in a typosquatting attack against `@azure` scope package users.
     
@@ -51,25 +43,14 @@ Cooperpress
 *   AWS Lambda [now supports up to 10GB of ephemeral storage](https://javascriptweekly.com/link/121536/web) on your serverless functions.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Node 17.8.0](https://javascriptweekly.com/link/121506/web) – `perf_hooks` adds `http` tracing.  
 [Pixi.js 6.3.0](https://javascriptweekly.com/link/121507/web) – Fast 2D rendering library.  
 [Next SEO 5.2](https://javascriptweekly.com/link/121508/web) – Easier SEO for Next.js apps.  
 [React Joyride 2.4](https://javascriptweekly.com/link/121509/web) – Create guided tours within React apps.
 
-💻 Jobs
-
-[Ashby (YCW19) Is Hiring Engineers Who Own Product Too](https://javascriptweekly.com/link/121510/web) — Join a kind, thoughtful remote-first team of lifelong learners. <2h meetings/wk. Ship >8x per day. CI/CD takes <10min 🚀  
-Ashby
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/121511/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/121512/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xdlbll7ouevtkqvj561y.jpg)](https://javascriptweekly.com/link/121513/web)
 
@@ -109,7 +90,7 @@ Bilal Haidar
 [Building a Scrolling 'Vaporwave' Scene with Three.js](https://javascriptweekly.com/link/121539/web)  
 Maxime Heckel
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hef6tw1fylou2umcoixu.jpg)](https://javascriptweekly.com/link/121522/web)
 
