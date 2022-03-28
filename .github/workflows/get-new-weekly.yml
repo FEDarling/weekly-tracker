@@ -1,7 +1,7 @@
 name: Tracker
 on:
   schedule:
-    - cron: '1 6 * * 5'
+    - cron: '1 6 * * 6'
 jobs: 
   add-new-weeklys:
     runs-on: ubuntu-latest
@@ -16,8 +16,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3  
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          author: KimYangOfCat <kim.yang.gh@outlook.com>
-          committer: KimYangOfCat <kim.yang.gh@outlook.com>
+          author: daodaolee <im@daodaolee.cn>
+          committer: daodaolee <im@daodaolee.cn>
           commit-message: 'feat: add new weeklys'
           branch: tracker
           delete-branch: true
