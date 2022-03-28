@@ -1,6 +1,6 @@
 name: weekly-release
 description: weekly-release
-author: KimYangOfCat
+author: daodaolee
 
 inputs: 
   github_token:
