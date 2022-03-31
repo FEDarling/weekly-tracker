@@ -44,21 +44,6 @@ module.exports = {
                 lastUpdated: '最后更新时间',
                 nav: nav.zh,
                 sidebar: sidebar.zh,
-
-                // recoLocales: {
-                //     homeBlog: {
-                //         article: '美文', // 默认 文章
-                //         tag: '标识', // 默认 标签
-                //         category: '类别', // 默认 分类
-                //         friendLink: '友链', // 默认 友情链接
-                //     },
-                //     pagation: {
-                //         prev: '上一页',
-                //         next: '下一页',
-                //         go: '前往',
-                //         jump: '跳转至',
-                //     },
-                // },
             },
             '/en/': {
                 selectText: 'Languages',
@@ -67,20 +52,6 @@ module.exports = {
                 lastUpdated: 'Last Updated Time',
                 nav: nav.en,
                 sidebar: sidebar.en,
-                // recoLocales: {
-                //     homeBlog: {
-                //         article: 'article', // 默认 文章
-                //         tag: 'tag', // 默认 标签
-                //         category: 'category', // 默认 分类
-                //         friendLink: 'friendLink', // 默认 友情链接
-                //     },
-                //     pagation: {
-                //         prev: 'Prev',
-                //         next: 'Next',
-                //         go: 'GO',
-                //         jump: 'Jump to',
-                //     },
-                // },
             },
         },
     },
