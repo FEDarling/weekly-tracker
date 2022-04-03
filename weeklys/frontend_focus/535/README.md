@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/megipek0qgttgmv3oo52.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/121549/web)
-
-Frontend Focus
-
-🇺🇦 #​535 — March 30, 2022 | [Read on the web](https://frontendfoc.us/link/121550/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/megipek0qgttgmv3oo52.jpg)](https://frontendfoc.us/link/121551/web)
 
 [Understanding Layout Algorithms](https://frontendfoc.us/link/121551/web "www.joshwcomeau.com") — Another great article from Josh — this time going beyond focusing on individual properties, instead taking a higher-level look at CSS, how it's structured, and how to form a solid mental model for using it.
 
@@ -39,18 +33,17 @@ Louis Lazaris
 [Mozilla’s Vision for the Evolution of the Web](https://frontendfoc.us/link/121557/web "webvision.mozilla.org") — Mozilla has outlined its vision of the future of the web, based on three values: openness, agency, and safety. In practice the hope is this is a web that's encrypted by default, has better accessibility and internationalization, and no tracking. You can [read a summary here](https://frontendfoc.us/link/121558/web) if you’d rather not read the full post.
 
 “The Web is an enormous asset to humanity and Mozilla is committed to protecting it and making it better. \[..\] we believe that we can all work together as a community to make a Web that is truly open and accessible to all.”
-
-\_\_\_  
+ 
 [Mozilla](https://frontendfoc.us/link/121557/web)
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   [Noel Rappin's new book](https://frontendfoc.us/link/121561/web), due out in July (but in beta now), looks at writing modern CSS with Tailwind 3.0.
 *   [Here's a trip down memory lane](https://frontendfoc.us/link/121562/web), looking at how the UI/UX of Firefox has changed over the past near 20 years.
 *   Jen Simmons of the Webkit team [asks what tech shipping this year developers are looking forward to use](https://frontendfoc.us/link/121563/web) (and what seems overwhelming).
 *   Google has issued [an emergency security update for Chrome](https://frontendfoc.us/link/121642/web) version 99.0.4844.84 to fix a serious security vulnerability.
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1648636747/svcawn1thb31qkvfqa4w.png)](https://frontendfoc.us/link/121564/web)
 
@@ -98,7 +91,7 @@ Unsplash
 [The Freedom of Freelance with the Security of Full-Time](https://frontendfoc.us/link/121607/web) — Top developers join Toptal for a flexible schedule, more free time, and great opportunities. [Apply now](https://frontendfoc.us/link/121607/web).  
 Toptal
 
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bcrzndoe5czayof1trfk.jpg)](https://frontendfoc.us/link/121580/web)
 

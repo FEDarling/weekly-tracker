@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/n1n2u0zooxomno8ozn7i.jpg)](https://react.statuscode.com/link/121610/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​282 — March 30, 2022
-
-[Read on the Web](https://react.statuscode.com/link/121609/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/n1n2u0zooxomno8ozn7i.jpg)](https://react.statuscode.com/link/121610/web)
 
 [React 18.0 Released](https://react.statuscode.com/link/121610/web "reactjs.org") — Almost a year ago, [the plan](https://react.statuscode.com/link/121611/web) was for 18 to be simple to upgrade to with minimal changes needed – and despite the introduction of a new concurrent rendered, Suspense, new hooks, automatic batching, and more (all covered in this news post) they’ve pretty much nailed it. [This React 18 upgrade guide](https://react.statuscode.com/link/121612/web) covers the few things you need to consider, and if you’re a true completist, [this changelog](https://react.statuscode.com/link/121613/web) covers every tiny change.
 
@@ -42,22 +36,11 @@ Kent C. Dodds
 
 Robin Wieruch
 
-**Quick bits:**
+## **Quick bits:**
 
 *   📅 [React Norway](https://react.statuscode.com/link/121621/web) is a React event taking place in the curiously-named [Farris Bad](https://react.statuscode.com/link/121622/web) hotel in beautiful Larvik, Norway. You can attend virtually online too for a nominal sum, but who doesn't want to meet [Colby Fayock](https://react.statuscode.com/link/121623/web) in person?
 
-Jobs
-
-[Ashby (YCW19) Hiring Frontend Engineers to Work on Design System](https://react.statuscode.com/link/121624/web) — Join a remote-first team improving productivity with powerful software. <2h meetings/wk. Ship >8x per day. CI/CD takes <10min 🚀  
-Ashby
-
-[Senior Web Developer (Node/ReactJS) - Remote](https://react.statuscode.com/link/121625/web) — Millions get inspired and plan adventures with our apps. To help us make [komoot.com](https://react.statuscode.com/link/121626/web) the place to go to plan outdoor adventures, we’re looking for a one of a kind Web Developer to join our team.  
-Komoot
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/121627/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qvagnfjdkppgocsbytjj.jpg)](https://react.statuscode.com/link/121628/web)
 
@@ -81,8 +64,7 @@ Jake Lazaroff
 
 Electrode
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [phosphor-react](https://react.statuscode.com/link/121633/web) — Who doesn’t need yet another icon library for some future project?
 
@@ -92,7 +74,7 @@ Electrode
 
 [react-flex-ready](https://react.statuscode.com/link/121637/web) — A [Flexbox](https://react.statuscode.com/link/121638/web) grid.
 
-😎 A neat RSS reader project
+## 😎 A neat RSS reader project
 
 Quite often, readers will write in to us (you can do this by hitting reply to any issue) to ask if we'll link to their latest React-powered project. We often grant this request but sometimes a project seems merely created _with_ React, but isn't open source or particularly relevant in terms of a React newsletter. This week we have a nice exception!
 

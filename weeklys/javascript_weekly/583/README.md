@@ -5,18 +5,12 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​583 — April 1, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/121737/web)  |  [Read on the Web](https://javascriptweekly.com/link/121738/web)
-
 🤞 Fingers crossed, but unless we've been successfully pranked ourselves, **this is an April Fools' prank free zone!** Sorry if you like a bit of frivolity on April 1st, but completeness and accuracy come before entertainment here. Boring, I know, but we don't stand a chance against YouTube or video games 😆  
 \_\_  
 _Peter Cooper, your (boring, though still quite foolish) editor._
 
-JavaScript Weekly
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f6n7ivm1hsdpd4dhblk9.jpg)](https://javascriptweekly.com/link/121739/web)
 
@@ -42,7 +36,7 @@ Keeley Hammond and Sofia Nguy
 
 Tyler McGinnis
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   [VisibleV8](https://javascriptweekly.com/link/121851/web) is a patched version of the V8 JavaScript engine specifically for monitoring and logging running JavaScript as explained [📄 in this academic paper.](https://javascriptweekly.com/link/121852/web)
     
@@ -53,7 +47,7 @@ Tyler McGinnis
 *   The British government's official public facing sites have eventually [all dropped jQuery as a dependency.](https://javascriptweekly.com/link/121854/web) 😢
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Preact 10.7.0](https://javascriptweekly.com/link/121752/web) – Tiny, fast React alternative.  
 [wavesurfer 6.1.0](https://javascriptweekly.com/link/121753/web) – Navigable audio visualization.  
@@ -63,18 +57,7 @@ Tyler McGinnis
 [MIDIVal 0.0.16](https://javascriptweekly.com/link/121756/web) – MIDI messaging library now has MIDI clock support.  
 [ioredis 5](https://javascriptweekly.com/link/121757/web) – High perf Node.js Redis client.
 
-💻 Jobs
-
-[Senior Web Developer (Node/ReactJS) - Remote](https://javascriptweekly.com/link/121759/web) — Millions get inspired and plan adventures with our apps. To help us make [komoot.com](https://javascriptweekly.com/link/121760/web) the place to go to plan outdoor adventures, we’re looking for a one of a kind Web Developer to join our team.  
-Komoot
-
-[Senior Front-End Engineer (Remote)](https://javascriptweekly.com/link/121761/web) — We’re looking for an engineer to join the web team at Unsplash. Small team but big product. React + strict TypeScript with plenty of functional programming.  
-Unsplash
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/121762/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jeepuzgsl9jpomvrs69a.jpg)](https://javascriptweekly.com/link/121763/web)
 
@@ -111,7 +94,7 @@ Siraben
 [Remix: The Yang to React's Yin?](https://javascriptweekly.com/link/121768/web)  
 Kent C. Dodds
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dlpfe1bpoejahlenqcmy.jpg)](https://javascriptweekly.com/link/121772/web)
 

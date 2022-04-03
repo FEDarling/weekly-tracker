@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fengeaqqi9ps7betiaas.jpg)](https://nodeweekly.com/link/121708/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​431 — March 31, 2022
-
-[Read on the Web](https://nodeweekly.com/link/121707/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fengeaqqi9ps7betiaas.jpg)](https://nodeweekly.com/link/121708/web)
 
 [What's New in Node Core: March 2022 Edition](https://nodeweekly.com/link/121708/web "simonplend.com") — Rapidly approaching the start of its teenage years (yep, Node turns 13 this May), development of new features in Node isn’t slowing down at all, but what’s going on? This post rounds up some links to a variety of new improvements and reminds us that Node 18 is just around the corner...
 
@@ -33,17 +27,6 @@ Retool sponsor
 [Postgres.js 3.0: Fast, Full-Featured Postgres Client for Node (and Deno)](https://nodeweekly.com/link/121714/web "github.com") — Now for both Deno and Node.js, this high performance Postgres library offers realtime change subscription, dynamic query building via a special template literal, large objects, high availability via multi-host connection URLs, async cursors, and more. [Slonik](https://nodeweekly.com/link/121715/web) is another option to consider in this space and also has [a new release](https://nodeweekly.com/link/121716/web).
 
 Rasmus Porsager
-
-💻 Jobs
-
-[Senior Backend Developer](https://nodeweekly.com/link/121717/web) — Are you looking to level up your skills and work on a wide variety of applications and technologies? Look no further.  
-Bitovi
-
-[Back-End Developer (Node.js, Full-Time, Remote CET±3 Hours)](https://nodeweekly.com/link/121718/web) — Help us improve the speed and reliability of back-end processes that drive automation for real estate agencies.  
-SweepBright
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/121719/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [Build Serverless APIs with Node.js and AWS Lambda](https://nodeweekly.com/link/121720/web "blog.appsignal.com") — An introductory look at how to create and deploy Lambda functions with Node and AWS SAM.
 
@@ -70,7 +53,7 @@ Noah Cooper
 [Creating Node Docker Images That Build in 2 Seconds (Sort Of)](https://nodeweekly.com/link/121728/web)  
 Tommaso De Rossi
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/yoelgf8m2iitkqeidhcs.jpg)](https://nodeweekly.com/link/121729/web)
 
