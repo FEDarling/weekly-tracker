@@ -1,89 +1,76 @@
 ---
-title: 'Frontend Focus #529'
-date: '2022-02-20'
-categories:
+title: 'Frontend Focus #531' #不可修改
+date: '2022-03-04' #不可修改
+categories:  #不可修改
   - 'Frontend Focus'
-publish: true
+publish: true #翻译完成后修改
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645020243/unfzehb2fhjd1hvjtfmf.png)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646227707/n9krva6czokedh2scyeb.jpg)](https://frontendfoc.us/link/120340/web)
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
+[New CSS Features in 2022](https://frontendfoc.us/link/120340/web "www.smashingmagazine.com") — It looks like 2022 is shaping up to be a great year for CSS, as we’ve got a ton of new features on the horizon, like Container Queries, the `accent-colour` property, `subgrid`, scroll timeline, and much more. This article goes over each thing in detail. Well worth checking out to stay sharp on what’s new across the spec.
 
-[你好，CSS 级联层](https://frontendfoc.us/link/119820/web "ishadeed.com") — 探索级联层（一种在离散 “层” 中确定级联逻辑范围的新机制）如何工作，它们可以帮助我们对未来更有信心地编写 CSS。
+[A New Year, A New MDN](https://frontendfoc.us/link/120342/web "hacks.mozilla.org") — Today I learnt that MDN is home to over 44,000 articles. Here’s a look at how the MDN team went about creating “_a more holistic experience for our users, with an emphasis on improved navigability and a universal look and feel_”. Always great to see one of the top Web developer resources taking a big step forward.
 
-[Chrome 和 Firefox 的 100 个版本](https://frontendfoc.us/link/119821/web "hacks.mozilla.org") — Chrome 和 Firefox 都将在几个月内达到第 100 个版本。这篇文章着眼于解决潜在用户代理字符串检测问题，以及 Chrome 和 Firefox 为减轻影响而采取的策略。
+[Explain the First 10 Lines of Twitter's Source Code to Me](https://frontendfoc.us/link/120343/web "css-tricks.com") — An interview question for a frontend role that seems straightforward enough, but there’s actually plenty to unpack and consider here. (Whether it's a good interview question is a different story, of course.)
 
-![](https://copm.s3.amazonaws.com/e37163a3.png)
+## **⚡️ Quick bits:**
 
-[从头开始构建渐进式 Web 应用程序](https://frontendfoc.us/link/119822/web "frontendmasters.com") — 加入 Maximiliano Firtman 观看这个详细的视频课程，内容包括创建和发布 PWA、组件、Web app maintest、service workers、分发等。
+*   Could [EU 'Qualified Website Authentication Certificate' plans](https://frontendfoc.us/link/120344/web) result in 'less secure' certificates in browsers?
+*   Huh, turns out you can [inspect system-level web views](https://frontendfoc.us/link/120345/web) in macOS.
+*   Google has released a new version of its popular Roboto font: [Roboto Serif](https://frontendfoc.us/link/120372/web).
 
-[跳过 JavaScript？一些后端语言如何学习前端](https://frontendfoc.us/link/119823/web "github.com") — 你可能认为这是关于使用 WebAssembly 在浏览器中运行 Python 之类的文章，然而不是。这是关于维护与后端进程的 WebSocket 连接并从后端动态渲染 HTML 的，如现代 Elixir 和 Rails 堆栈。
+## 📙 **Tutorials, Articles & Opinion**
 
-[JS 2021 调查报告](https://frontendfoc.us/link/119824/web "2021.stateofjs.com") — 年度 “JS” 调查报告现已出炉，其中包含大量有趣的数据点。 _React 仍然是首选的前端框架_。
+[Can You Get 'Pwned' with CSS?](https://frontendfoc.us/link/120347/web "scotthelme.co.uk") — Explores the potential risks of inline styles such as leaking keypresses (in a rather interesting way) and other activity.
 
-## **⚡️ 快览:**
+[Writing Logic in CSS](https://frontendfoc.us/link/120350/web "iamschulz.com") — Using CSS to define smart, reactive layout systems. “_It’s control structures and algorithms may be a bit weird compared to other languages, but they’re there and they’re up to the task_”.
 
-*   WebGL 2.0 [已经来了](https://frontendfoc.us/link/119825/web)，开发者可以使用它啦。
-*   正如 [Zach Leatherman 所说](https://frontendfoc.us/link/119826/web)，Netlify 现在正在赞助流行的静态站点生成器 Eleventy 。
-*   Opera 现在支持仅限 [表情符号的网址](https://frontendfoc.us/link/119827/web)。另一方面，用户是否使用还有待观察。
-*   The Software House 目前正在寻求对其社区驱动的 “[前端现状](https://frontendfoc.us/link/119828/web)” 调查的回应。
-*   [Chrome OS Flex](https://frontendfoc.us/link/119829/web) 是一个简洁、绿色的概念，旨在为旧设备带来基于云的操作系统，以延长其使用寿命。
-*   [这是一个简洁的 HTML 和 CSS 可视化/图表](https://frontendfoc.us/link/119830/web)，以漏斗图的形式展示了级联是如何工作的。
-*   好吧，它与直接意义上的前端无关，但 [这篇关于谷歌搜索结果 “下降” 的帖子很有趣，值得一读](https://frontendfoc.us/link/119831/web)。
+[Use Group Step Type to Better Organize Complex Pipelines ✨](https://frontendfoc.us/link/120351/web "buildkite.com") — The group step allows steps to be displayed in logical groupings and nested under a top level group, displayed as the step label on the build page 🏗 👀
 
-## 📙 **教程、文章 & 意见**
+[How to Reliably Send an HTTP Request on Leaving a Page](https://frontendfoc.us/link/120352/web "css-tricks.com") — Browsers don’t guarantee to preserve open HTTP requests when pages change but there are some mitigations or alternative approaches (e.g. beacons).
 
-[带有 Origin 私有文件系统的文件系统访问 API](https://frontendfoc.us/link/119832/web "webkit.org") — WebKit 现在支持这个新的 API（在 Safari 15.4 测试版和 Safari 技术预览版中），使 web 应用程序可以直接创建、打开、读取和写入文件，或者创建目录并枚举其内容。这里有篇 [关于 Firefox 是如何处理事情的](https://frontendfoc.us/link/119833/web)。
+[How to Develop a Text Editor for the Web](https://frontendfoc.us/link/120353/web "www.smashingmagazine.com") — The engineer at a company building a browser-based design tool reflects on some of the technical issues of producing a reliable text entry widget.
 
-[文件系统访问 API 入门](https://frontendfoc.us/link/119834/web "css-tricks.com")
+[Is Firefox OK?](https://frontendfoc.us/link/120346/web "arstechnica.com") — Looks at how, despite some of its misses, Mozilla’s browser still matters: “_having Firefox flourish makes the web a better place. The trick is figuring out how to get there_”.
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645011025/qzsatwebrmr0nlvyssvg.png)
+[Web Devs Rally to Challenge Apple App Store Browser Rules](https://frontendfoc.us/link/120348/web "www.theregister.com") — A group of software engineers have launched the ‘[Open Web Advocacy](https://frontendfoc.us/link/120349/web)’ group to help online apps compete with native apps and to encourage/compel Apple to relax iOS browser restrictions.
 
-[没人能看到 Wordle 字体](https://frontendfoc.us/link/119836/web "pimpmytype.com") — 作者解释了网络排版中如何不提供字体文件的一个错误。这可能也发生在 Wordle 上。
+[IE Down, Edge Up... Global Browser Usage Stats Are for Cocktail Parties and Conference Slides](https://frontendfoc.us/link/120354/web)
 
-[很棒的网页设计](https://frontendfoc.us/link/119837/web "www.smashingmagazine.com") — 庆祝网页设计也有异想天开的一面。那些让网络变得有趣的奇怪、古怪、有时却毫无意义的网站。
+[How to Create a Section Divider with CSS](https://frontendfoc.us/link/120373/web)
 
-[如何避免 Jamstack 网站上的内容导致的生产错误](https://frontendfoc.us/link/119840/web "kontent.ai")
+['Comic Sans Is a Good Typeface, Actually..'](https://frontendfoc.us/link/120355/web)
 
-[构建自适应网站图标](https://frontendfoc.us/link/119838/web "web.dev") — 关于如何构建 _adaptive_ favicon 的基本概述，该图标会根据您的浅色 / 深色主题偏好而变化。
+[When to Avoid the `text-decoration` Shorthand Property](https://frontendfoc.us/link/120356/web)
 
-[过去，今天和未来](https://frontendfoc.us/link/119839/web "adactio.com") — _又快又慢的网络世界…_
+## 🔧 **Code, Tools & Resources**
 
-[从 “Tumblr 女孩” 到工程师：该平台如何激发一代女性编程](https://frontendfoc.us/link/119841/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nmunkwpkpcwqvnim523l.jpg)](https://frontendfoc.us/link/120361/web)
 
-[“为什么 Safari 不需要任何 Chromium 保护”](https://frontendfoc.us/link/119842/web)
+[Are My Third Parties Green?](https://frontendfoc.us/link/120360/web "css-irl.info") — What is the environmental impact of third-party scripts? [This tool from Fershad Irani](https://frontendfoc.us/link/120361/web) lets you check various green hosting credentials.
 
-[Adobe XD，哪里出错了？](https://frontendfoc.us/link/119843/web)
+[LetMeScroll: A Lightweight Scroll Library with No Dependencies](https://frontendfoc.us/link/120362/web "github.com") — Lets you customize the color of a scrollbar or add events to respond to scrolling behaviour on the page (e.g. scroll to top/bottom, start/stop scrolling, etc). Try a [demo here](https://frontendfoc.us/link/120363/web).
 
-## 🔧 **代码、工具和资源**
+[Doppler - All Your Environment Variables in One Place](https://frontendfoc.us/link/120364/web "www.doppler.com")
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/molnign58vhxczqaa4pt.jpg)
+[Screenshot: No-Dependency Browser-Native Screenshot Library](https://frontendfoc.us/link/120365/web "www.xata.io") — Uses the MediaDevices API but provides an easier to use abstract for letting users take screenshots. [GitHub repo.](https://frontendfoc.us/link/120366/web)
 
-[Apache ECharts：一个开源的 JS 可视化库](https://frontendfoc.us/link/119846/web "echarts.apache.org") — [发行说明](https://frontendfoc.us/link/119847/web) 详细介绍了最新版本中的内容，包括关键帧动画、自定义加载动画和具有改进性能的新 SVG 渲染器。[这里](https://frontendfoc.us/link/119848/web) 也有很多演示。
+[Pika: Create Pretty Screenshots and Browser Mockups Quickly](https://frontendfoc.us/link/120367/web "pika.style") — You can adjust the gradient background and the look of the browser window that wraps the screenshot, for use in tutorials, docs, social media, etc.
 
-[团队的免费活动和聊天 API](https://frontendfoc.us/link/119835/web "getstream.io") — 使用 Stream 中的 Maker 帐户为您的启动或副项目完全免费解锁企业级特性、功能和 UI 组件。
+[taba11y: A Chrome Extension to Visualize Tab Order on a Web Page](https://frontendfoc.us/link/120368/web "chrome.google.com") — Useful if you want to test tab order for keyboard-only and screen reader users.
 
-[SPCSS：用于简单 HTML 页面的最小化、无类样式表](https://frontendfoc.us/link/119849/web "github.com") — 绝对是基于文本的内容的最佳选择，它会根据系统偏好自动以暗模式呈现。你可以在 [这里](https://frontendfoc.us/link/119850/web) 试试。
+[alfred-tailwindcss-docs: Search the Tailwind CSS Documentation Using Alfred for Mac](https://frontendfoc.us/link/120369/web)
 
-[Minze：原生 Web 组件的 JavaScript 框架](https://frontendfoc.us/link/119851/web "minze.dev") — 基于最新的 Web 组件标准，它允许您构建可用于任何项目的可移植组件库。
+🎨 **...and finally**
 
-[Polka Dot Generator：为自定义圆点图案背景生成 CSS](https://frontendfoc.us/link/119852/web "screenspan.net") — 使用自定义属性和 CSS 渐变生成代码。您可以调整圆点的颜色、大小和模糊度。
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646217968/nzlgu3f2xlumgyadsixd.png)](https://frontendfoc.us/link/120370/web)
 
-[Griffel：带有提前编译的 CSS-in-JS](https://frontendfoc.us/link/119853/web "github.com") — 来自 Microsoft，CSS-in-JS 解决方案的另一种选择。这个拥有近乎零的运行时、SSR 支持以及使用 JS 对象定义的样式以及其他功能。
-
-[pppointed：各种装饰风格的SVG箭头制作工具](https://frontendfoc.us/link/119854/web "fffuel.co")
-
-## 🧑‍💻 **结尾**
-
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645018806/bi2lxq7d53zj5pdq7qt8.jpg)
-
-[深入了解现代 Web 浏览器](https://frontendfoc.us/link/119855/web "developers.google.com") — 我们在 2018 年首次发布时展示了这个由四部分组成的精彩插图系列，最近又在 Twitter 上出现了。它仍然是现代浏览器如何工作的优秀解答，并且使用 Chrome 架构。
+[comiCSS](https://frontendfoc.us/link/120370/web "comicss.art") — A new webcomic about CSS that is also **coded in CSS.** There's [some background on the project here](https://frontendfoc.us/link/120371/web). An interesting idea for sure.
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/529)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/529)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> * [查看原文](https://frontendfoc.us/issues/531)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/531)
+> * 译者：
+> * 校对者：
