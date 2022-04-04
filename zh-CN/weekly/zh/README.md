@@ -1,90 +1,92 @@
 ---
-title: 'Frontend Focus #514'
-date: '2022-01-25'
+title: 'JavaScript Weekly #554'
+date: '2022-02-01'
 categories:
-  - 'Frontend Focus'
+  - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635261725/et7pugwcsesu5b5xt3hr.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chakx4rmc7iv0d3wob8d.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[深入了解 CSS 中的 `object-fit` 和 `background-size`](https://frontendfoc.us/link/115404/web) — 本文介绍了 `object-fit` 和 `background-size` 的工作原理，讲述了什么时候使用、为什么使用，以及一些用例和建议。
+[Visual Studio Code 2021 年 8 月更新](https://javascriptweekly.com/link/113306/web "code.visualstudio.com") — 新功能包括自动语言检测、内置括号着色（通过 `editor.bracketPairColorization.enabled` 启用）、改进了终端字形渲染、JS/TS 的内联提示参数名称和类型，也改进了异步函数和 Node.js 内部的调试步骤。
 
-[Photoshop 的网页之旅](https://frontendfoc.us/link/115463/web) — 几年前，很难想象 Photoshop 这种复杂的软件可以在浏览器中直接运行，多亏了新的标准化网络技术，Adobe 已经可以将 Photoshop 的公开测试版在网页上运行。这不仅为 Adob​​e 带来了巨大的潜力，对于一些使用浏览器的人，影响也很大。
+[ES2022 特性：类静态初始化块](./es2022_feature_class_static_initialization_blocks.md) — 这个提议处于包含在 ES2022 的第 4 阶段，看起来也不觉得 JavaScript 的这种写法偏向于 Java。
 
-![](https://copm.s3.amazonaws.com/efa5c0e1.png)
+💡 像这样 ↑ ？ Hemanth HM 汇总了 [TC39 第 85 次会议](https://javascriptweekly.com/link/113309/web) 在未来（潜在）JavaScript 新特性的更新，包括 [hack pipe](https://javascriptweekly.com/link/113310/web) 运算符和 [Array.fromSync](https://javascriptweekly.com/link/113311/web)。
 
-[带示例的简单 Angular Data 栅格用法](https://frontendfoc.us/link/115405/web) — 您可以编写自定义的栅格数据，那如果这个栅格已经存在了，您为什么还需要手动定义呢。您可以了解一下如何简单地设置、绑定数据、分组、排序页面。亲自手动安装试一下吧，千万不要错过它。
+![](https://copm.s3.amazonaws.com/d99a6231.png)
 
-[现代 web 缓存中新的 Http 标准](./status_targeted_caching_headers.md) — 通过 CDN 或者类似服务的静态缓存非常重要，尤其对于大型的站点。但是这类服务通常会特别复杂和混乱。这篇文章将会介绍这类服务改进后的新 Http 标准，以及你为什么应该关注。
+[使用 Sourcegraph 在开源宇宙中搜索](https://javascriptweekly.com/link/113286/web "sourcegraph.com") — Sourcegraph 可以在 GitHub 和 GitLab 的超过 100 万个开源存储库以及您自己的公共和私有（公共测试版）存储库上使用，无需安装。 Sourcegraph 让搜索、发现和阅览开源项目变得更加容易。
 
-[Safari 15 中更新的 WebKit 功能](https://frontendfoc.us/link/115464/web) — 本文介绍了 Safari 15.1 版本中可使用的新功能，包括 `aspect-ratio`、CSS Grid Inspector、Workers 和 ServiceWorkers 中的 ES6 模块，以及 WebGL2 等。
+[Electron 14.0.0 发布](https://javascriptweekly.com/link/113312/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架的最新版本已发布。预计稳定发布还有八周，因此 Electron 15 将在三周后发布。现在您可以获得 Chromium 93、Node.js 14.17 和 V8 9.3 支持、实验性 cookie 加密支持和一些删除（例如作为 [远程模块](https://javascriptweekly.com/link/113313/web)）。
 
-## **⚡️ 快览:**
+[Neutralino 2.7：便携、轻量级的桌面应用程序框架](https://javascriptweekly.com/link/113314/web "neutralino.js.org") — 想想 Electron，它没有在每个应用程序中都包含 Chromium 发行版，而是使用本地平台的内置“webview”。也就是说它会更小、更快，虽然您得必须了解每个 webview 的兼容性。
 
--   互联网档案馆中极具价值的 Wayback Machine 项目于 [20 年前的这个星期开始](https://frontendfoc.us/link/115466/web)。
--   提醒：[2021 年 CSS 现状调查](https://frontendfoc.us/link/115407/web) 现已经开始，期待您的回复。
--   Google 的 [Learn CSS 课程]("https://frontendfoc.us/link/115467/web) 中更新了新的资料，其中包括如何利用 `::marker` 和 `list-style` 等 CSS 属性。
--   正如 [Lea Verou 所说](https://frontendfoc.us/link/115468/web)，网页可能需要自己的 emoji 选择器（或者至少可以调用 OS 原生表情符号）。
--   一位聪明的 Web 开发人员开发了一个 [类似 VS Code 样式的网页](https://frontendfoc.us/link/115480/web) 来关注板球比分。
+## **快览**
 
-## 📙 **教程、文章 & 意见**
+-   Node.js v12 和 v14 [已更新](https://javascriptweekly.com/link/113315/web)，以修复一些与路径和符号链接相关的漏洞。v16 很棒！
+-   一组用于前端开发概念的 [交互式学习](https://javascriptweekly.com/link/113316/web) 工具。
+-   [讲述了 Twitter 的 “div soup” 和 “uglified” CSS](https://javascriptweekly.com/link/113317/web) 以及如何使用 React Native for Web。
+-   开发人员创建了一种 [概念验证反调试技术](https://javascriptweekly.com/link/113318/web)，JS 代码可以检测到它正在被调试并更改执行流程。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635327997/stg0tzpvq0uhxfjxmhry.png)
+## **新特性:**
 
-[防止有过度滚动行为的滚动条](https://frontendfoc.us/link/115408/web) — CSS 中的 `overscroll-behavior` 属性到底解决了什么问题，它是如何运作的，以及我们如何使用它。
+[socket.io 4.2.0](https://javascriptweekly.com/link/113287/web) — 实时通讯库。  
+[Relay 12.0](https://javascriptweekly.com/link/113288/web) — 数据驱动的 React 应用程序框架。 [OpenPGP.js 5.0.0](https://javascriptweekly.com/link/113289/web) — JS 中的 OpenPGP 实现。 [on-change 4.0](https://javascriptweekly.com/link/113290/web) — 观察对象和数组的变化。 [AdonisJS August Release](https://javascriptweekly.com/link/113319/web) — 功能齐全的 Node.js Web 应用程序框架。
 
-[构建一个多选项组件](https://frontendfoc.us/link/115409/web) — 讲述了如何构建一个响应式、自适应且易用的多选项组件，并且用户可以进行排序和过滤操作。
+## 📖  文章，意见 & 教程
 
-[如何不去创建一个菜单式 Burger 按钮](https://frontendfoc.us/link/115410/web) — 在 HTML 里的一系列不良用法 — 从在线网页上找一个菜单按钮来看看。
+[我构建了一个 30 万美元/年的 Vue.js 组件库](https://javascriptweekly.com/link/113320/web "www.starterstory.com") — 本篇没有太多技术内容，而是对 [Vuetify](https://javascriptweekly.com/link/113321/web)（一个 Vue.js UI 库）的创建者进行了一次有趣的（并且可能是鼓舞人心的！）采访，讲述了他如何创建、维护项目并因此获得收入。
 
-[为什么“过时” 的 jQuery 在 JavaScript 库中仍然占主导地位](https://frontendfoc.us/link/115469/web) — jQuery 是网络上运行时间最长、影响最大的 JavaScript 库之一。它是如何经受住时间的考验的？
+[使用树数据结构](https://javascriptweekly.com/link/113322/web "stackfull.dev") — 遍历的基础：广度优先和深度优先。完整的视觉效果可帮助您更快的构思。
 
-> “根据 BuiltWith 的数据，前 100 万个网站中有 78% 都在使用 jQuery。”
+[使用 AWS Lambda 构建 Serverless GIF 生成器](https://javascriptweekly.com/link/113323/web "aws.amazon.com") — 假设您想托管视频并希望将 GIF 动画显示为 UI 中的一种预览功能。从视频生成此类 GIF 文件是一种计算密集型操作，您可以使用 AWS Lambda 之类的工具来创建可扩展的服务来处理它。
 
-[暗黑模式下的适配](https://frontendfoc.us/link/115470/web) — 本文阐述了 “深色模式” 和 “在深色背景上渲染的组件” 之间的区别。
+[构建一个 React 聊天应用程序](https://javascriptweekly.com/link/113294/web "getstream.io") — 通过几个简单的步骤，我们将向您展示如何使用我们的 React 组件库构建一个聊天应用程序。
 
-[构建一个可用的图片组件](https://frontendfoc.us/link/115471/web) — 一个从加载、压缩和响应速度上为 Next.js 框架做的优化图片的开箱即用解决方案，现在 [Next.js 12](https://nextjs.org/blog/next-12) 中也支持了 AVIF
+[每个开发人员都应该避免的常见“npm”错误](https://javascriptweekly.com/link/113324/web "blog.bitsrc.io") — 了解如何在管理依赖项、发布包等时避免常见错误。
 
-[Shortcut 有助于简化和管理您的工作流程](https://frontendfoc.us/link/115411/web)
+[Svelte 应用程序中的状态管理](https://javascriptweekly.com/link/113325/web "auth0.com") — 如何使用 Svelte 状态管理存储来管理 Svelte 应用程序中的状态。
 
-[使用 Vanilla JavaScript 进行页面过滤搜索](https://frontendfoc.us/link/115473/web)
+[为什么 Electron 应用程序很棒](https://javascriptweekly.com/link/113326/web "nielsleenheer.com") — 虽然 Niels 接受 Electron 的很多批评，但他的用户并不关心，他说你也不应该关心。
 
-[100 个字节的 CSS 可以让你的项目更简洁](https://frontendfoc.us/link/115413/web)
+[Next.js 应用程序中的状态管理](https://javascriptweekly.com/link/113327/web "www.smashingmagazine.com") — 在 Next.js 应用程序中管理状态会很棘手。本文将着眼于一些模式，避免一些复杂操作和 “provider 地狱”。
 
-[CSS Grid 中的可扩展部分](https://frontendfoc.us/link/115414/web)
+[React Context 和 `useContext()` Hook 指南](https://javascriptweekly.com/link/113328/web)
 
-## 🔧 **代码、工具和资源**
+[JavaScript 中的内存异步函数](https://javascriptweekly.com/link/113329/web)
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1635333898/rwepc5uoexhhhmp1cra9.png)
+## 🛠  代码 & 工具
 
-[Huetone：使用 LCH 色彩空间提供可预览的调色板](https://frontendfoc.us/link/115474/web) — 作者对此有一个详细的介绍。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eaddyuhb98c2dzo607ou.jpg)
 
-[Box Shadow 生成器：可以生成 Box Shadow 的可视化工具](https://frontendfoc.us/link/115476/web) — 您可以选择预定义的 Box Shadow，同时也支持自定义。
+[TypeIt：一个多功能的假装打字效果实用程序](https://javascriptweekly.com/link/113330/web "typeitjs.com") — 自称是 “地球上最通用的 JavaScript 打字机实用程序”。有易用的 API，但请注意，虽然它对个人/OSS 使用是免费的，但您需要支付（少量）商业许可证。
 
-[适合团队的免费聊天平台和相关 API](https://frontendfoc.us/link/115417/web) — 您可以使用 Stream 中的 Maker 帐户创建免费的企业级软件。
+[Stitches 1.0：现代样式库](https://javascriptweekly.com/link/113331/web "stitches.dev") — 另一种 CSS-in-JS 解决方案，它提供了高性能、SSR、主题、关键路径 CSS、直观的 API 等等。
 
-[Blobity：升级你的光标体验](https://frontendfoc.us/link/115477/web) — 这个脚本可以让你用光标做各种想不到的事情，官网的演示是类似于 iPad OS 上的光标操作。请注意，它仅对开源项目免费。
+[使用开源 Unikernel 要比 Linux 运行得更快、更安全](https://javascriptweekly.com/link/113296/web) — 无需操作和云锁定即可部署。在 Google 上以 2 倍的速度运行。在 AWS 上以 3 倍的速度运行并在 10 秒内完成部署。
 
-[图片压缩器：压缩和优化 JPEG 和 PNG 图像](https://frontendfoc.us/link/115418/web) — 这个工具可能会是压缩图片工具的另一个选择。它可以让您上传多张图片，并且有调整大小、转换和镜像的功能。
+[smartcrop.js：内容感知图像裁剪](https://javascriptweekly.com/link/113332/web "github.com") — 给定一张图像，它可以对图像的 “最佳” 部分进行裁剪，且运行在浏览器和 Node.js 中。
 
----
+[Roadroller：JavaScript 代码的重量级 “破碎机”](https://javascriptweekly.com/link/113333/web "lifthrasiir.github.io") — 该工具是为了生成演示风格的编码而不是构建应用程序，其目标是将 JavaScript 代码压缩/缩小到尽可能小的尺寸，[GitHub 存储库](https://javascriptweekly.com/link/113334/web)。
 
-🍓 您是否使用过 Jamstack（一个基于 JavaScript 的标记架构堆栈的工具）？如果没有的话，我猜您可能会喜欢 Brian Rinaldi 的 JAMstacked，它每两周会更新一次，其中涵盖了崛起的 Jamstack 生态系统。以下是最新一期中分享的一些内容：
+[Crank.js：使用 Functions、Promises 和 Generators 编写 JSX 驱动的组件](https://javascriptweekly.com/link/113335/web "crank.js.org") — 您可能喜欢直接在 JavaScript 中编写类似 HTML 的代码的常用 JSX 写法，但是所有组件也都只是 Functions 或 Generators。 [查看一些示例代码](https://javascriptweekly.com/link/113336/web)。
 
-![JAMstacked](https://res.cloudinary.com/cpress/image/upload/v1606129218/tvgfsuez7iifxdxzxn1t.png)
+[在 SnykCon 上宣布 JavaScript 安全会议 | 免费注册](https://javascriptweekly.com/link/113295/web "snyk.io")
 
--   Netlify 的 Matt Biilmann 与 Evan You、Rich Harris 等人 [讨论了一些可能会影响 Jamstack 未来的东西](https://frontendfoc.us/link/115422/web) — 来自最近的 Jamstack Conf。
--   用户通常会认为 Jamstack 和无服务器架构是一回事。 Colby Fayock 的 [这篇文章](https://frontendfoc.us/link/115423/web) 打破这个说法，并展示了如何将两者结合起来。
--   Raymond Camden 正在 [Eleventy 1.0（仍处于测试阶段）](https://frontendfoc.us/link/115424/web) 的升级体验上努力。
+[parse-domain：将主机名拆分为多个部分](https://javascriptweekly.com/link/113337/web "github.com") — 给定主机名，提取子域、域和顶级域，包括 [公共后缀列表](https://javascriptweekly.com/link/113338/web) 中的 “有效” 顶级域。
+
+[Mafs：用于数学可视化的 React 组件](https://javascriptweekly.com/link/113339/web "mafs.dev") — 一套较完善的的复杂数学可视化组件。它有一套不错的 [“你需要知道的” 指南](https://javascriptweekly.com/link/113340/web) 支持，其中包括一个可以让您计划自己的 \[亚轨道太空飞行\](suborbital spaceflight)的指南。
+
+[bundle：一个快速检查 npm 包大小的检查器](https://javascriptweekly.com/link/113342/web "bundle.js.org") — 输入包名称，然后点击 “run” 按钮，此工具将为您提供压缩、捆绑和展示 gzip 压缩后的包大小。
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://frontendfoc.us/link/115403/web)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/514/README.md)
+> - [查看原文](https://javascriptweekly.com/link/113285/web)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/554/README.md)
 > - 译者：[daodaolee](https://github.com/daodaolee)
-> - 校对者：[Chen](https://github.com/LilyChenlin)
+> - 校对者：[daodaolee](https://github.com/daodaolee)
