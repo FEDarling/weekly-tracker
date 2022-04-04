@@ -1,86 +1,107 @@
 ---
-title: 'Frontend Focus #533' #不可修改
-date: '2022-03-18' #不可修改
+title: 'Frontend Focus #534' #不可修改
+date: '2022-03-25' #不可修改
 categories:  #不可修改
   - 'Frontend Focus'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647435919/lja4nxxs0ourbqzhbsyp.png)](https://frontendfoc.us/link/120952/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647960749/reicdfiq6ftqlax2dxsv.png)](https://frontendfoc.us/link/121254/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[New WebKit Features in Safari 15.4](https://frontendfoc.us/link/120952/web "webkit.org") — This is a _big_ release from the Safari team, with support for several new web technologies, along with plenty of updates, and fixes. Expect details on lazy-loading, `<dialog>`, `:has()`, Cascade Layers, viewport units, `focus-visible`, `accent-color`, and much more.
+[CSS 联合设计者：“`!important`存在的原因只有一个：美国的法律”](https://frontendfoc.us/link/121254/web "twitter.com") —— 这条推文在本周得到了很多关注 —— Steven Pemberton 分享了由于美国法律“要求某些文字必须使用特定的字体大小”，`!important` 是如何被加入进规范中的。他补充说到，其他任何用法都可能是 “误用”。[Ernie Smith 也对这个问题进行了更多的挖掘](https://frontendfoc.us/link/121255/web)。
 
-[Ten Years of Page Bloat: What Have We Learned?](https://frontendfoc.us/link/120953/web "www.speedcurve.com") — Just how big are pages today versus a decade ago? How does page bloat hurt your business? How does it affect Google’s Core Web Vitals? What can you do to fight it? This well-rounded post digs into all this (with plenty of visuals to help things along).
+Steven Pemberton
 
-[![](https://copm.s3.amazonaws.com/dcde4359.png)](https://frontendfoc.us/link/120954/web)
+[用 HTML 的方式（而不是 XHTML 的方式）编写 HTML](https://frontendfoc.us/link/121256/web "css-tricks.com") — 当然，你可能早已不再使用 XHTML，但当写 HTML 时，你受 XHTML 的影响可能比你想象中多。**你很可能在用 XHTML 的方式写 HTML。** 比如常见的错误：我们仍然喜欢 `<br />` 元素。
 
-[Streamline and Evolve Your Workflows With Shortcut](https://frontendfoc.us/link/120954/web "shortcut.com") — All of your development work easily flows through Shortcut, from coding to review to release, and then to the bugs and the fixes that inevitably follow. Try project management for today's (and tomorrow's) software team.
+Jens Oliver Meiert
 
-['When' or 'If': A CSS Naming Debate](https://frontendfoc.us/link/120955/web "meyerweb.com") — The CSS Working Group is currently considering a generic conditional/fallback structure (for things such `@supports` and `@media`) and is currently at something of a loggerheads over what, specifically, to name it. Eric outlines here how it’s a thornier issue than you might expect.
+[![](https://copm.s3.amazonaws.com/42e6819e.jpg)](https://frontendfoc.us/link/121257/web)
 
-[WebGPU — All of the Cores, None of the Canvas](https://frontendfoc.us/link/120956/web "surma.dev") — The WebGPU is an _upcoming_ Web API that exposes a lot of capabilities of the client's GPU hardware. This post digs into how things work in excellent detail — now, there’s a bit of learning curve to all this, but Surma sets out to make it accessible, explaining how the API will prove beneficial to us.. one day!
+[用 Cypress 测试你的 Web 应用](https://frontendfoc.us/link/121257/web "frontendmasters.com") — 加入 Steve Kinney 这个涵盖 Cypress 的详细课程：为你的客户端应用程序编写端到端测试的一种快速又简单的方法。学习选择器引擎、测试运行器、断言库等内容。
 
-## **⚡️ Quick bits:**
+Frontend Masters sponsor
 
-*   Here's a look at [what's new in DevTools for Chrome 100](https://frontendfoc.us/link/120957/web), including the ability to view/edit `@supports` rules.
-*   [Firefox 98](https://frontendfoc.us/link/120958/web) is out, and here are the [developer specific release notes](https://frontendfoc.us/link/120959/web). Say hello to `<dialog>`!
-*   _CSS Tricks_, a site we've linked to perhaps 2 squillion times so far (and yes, that is a real unit), has been [accquired by DigitalOcean](https://frontendfoc.us/link/120961/web). Our congraulations to Chris Coyier and the team.
-*   [Version 8.1 of developer browser Polypane is now available](https://frontendfoc.us/link/120962/web) adding a new 'disable JS' debugging tool, a dimmed screen simulator, and perf fixes.
-*   The U.S. has announced plans to make Daylight Savings Time permanent. [This Twitter thread digs into some of the possible considerations](https://frontendfoc.us/link/120963/web) for developers and programmers.
-*   The American Council of the Blind, along with 180 other disability organizations, have [signed a joint letter to the U.S. Department of Justice](https://frontendfoc.us/link/120964/web) seeking enforceable online accessibility standards and digital regulations.
+[使用谷歌分析4 为未来做准备](https://frontendfoc.us/link/121258/web "blog.google") — 你是谷歌分析的用户吗？通用分析将在明年结束服务，并将在 2023 年 7 月 1 日停止处理新的点击。以下是如何通过迁移至到谷歌的下一代解决方案，即谷歌分析4，来从**现在**就做好准备。此举无疑是受近年来数据保护法（如GDPR）和用户对隐私期望的广泛变化所驱动的。
 
-## 📙 **Tutorials, Articles & Opinion**
+Russell Ketchum (Google)
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647424698/rxegektkypmayunxlgxv.png)](https://frontendfoc.us/link/120965/web)
+[Windows 高对比度模式、强制颜色模式和 CSS 自定义属性](https://frontendfoc.us/link/121259/web "www.smashingmagazine.com") — CSS 自定义属性的用途远远超过了一点有趣的颜色主题。Eric 在这里解释了这种现代的 CSS 是如何成为一种强大的辅助技术，可以帮助创建灵活、可维护和自适应的数字体验。
 
-[Aligning Content In Different Wrappers](https://frontendfoc.us/link/120965/web "ishadeed.com") — A look at how to align content with another section, across all viewport sizes, given that they are placed in _different_ wrappers.
+Eric Bailey
 
-▶  [Building VR and AR Experiences using HTML](https://frontendfoc.us/link/120966/web "youtu.be") — Ada Rose Cannon from Samsung Internet chats with Jake Archibald of the Chrome team about VR & AR web standards, and how you can build immersive experiences using markup.
+## **⚡️ 快报：**
 
-[Making the 'World’s Fastest Website', and Other Mistakes](https://frontendfoc.us/link/120967/web "dev.to") — An insightful look into some real-world performance considerations for a popular ecommerce site.
+*   微软的 Edge 浏览器现可为屏幕阅读器[自动生成图像标签](https://frontendfoc.us/link/121260/web)。
+*   Firefox 100 在 Windows 上获得了[AV1 硬件解码支持](https://frontendfoc.us/link/121261/web)。
+*   MDN 上关于[Mozilla 和 Open Web Docs 如何合作](https://frontendfoc.us/link/121262/web)有了更新。
 
-[How to Use Rustlang’s Async Tokio for CPU-Heavy Jobs](https://frontendfoc.us/link/120968/web "www.influxdata.com") — Yes, you can use Tokio for heavy data processing tasks — [see how](https://frontendfoc.us/link/120969/web).
+## 📙 **教程、文章和观点**
 
-▶  [Create a Stunning 'Glassmorphism' Effect in CSS](https://frontendfoc.us/link/120970/web "www.youtube.com") — A 15-minute step-by-step guide to creating immersive background effects using the `backdrop-filter` and `background-clip` CSS properties.
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647946782/fkf4j8u9yprhn8nltbhq.png)](https://frontendfoc.us/link/121263/web)
 
-[Don’t Alienate Your User: A Primer for Internationalization & Localization](https://frontendfoc.us/link/120971/web "prototypr.io") — A look at how i18n and l10n can help you serve a wider audience: “_The web should be an inclusive place for anyone_.”
+[构建一个加载条组件](https://frontendfoc.us/link/121263/web "web.dev") — 简要介绍了如何使用 `<progress>` 元素建立一个颜色自适应的易访问的加载条。
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647424320/hlpll9qg4ogbialszxcl.jpg)](https://frontendfoc.us/link/120972/web)
+Adam Argyle
 
-▶  [Who Says HTML and CSS Aren't Real Programming?](https://frontendfoc.us/link/120972/web "stackoverflow.blog") — Among other topics (including security, skills training), this half-hour episode touches upon how sites like MySpace, Tumblr, and the GeoCities of the world introduced an entire generation to coding. There's a [transcript here](https://frontendfoc.us/link/120973/web) if you'd prefer.
+[电子邮件中的 HTML 和 CSS 在 2022 年的效果如何？](https://frontendfoc.us/link/121264/web "designmodo.com") — 深入研究了哪些 HTML 和 CSS 功能适用于电子邮件模板，以及我们应如何使它们来适配所有电子邮件客户端。
 
-[Animation Performance Fundamentals: How to Make Your Pages Look Smooth](https://frontendfoc.us/link/120974/web)  
-Reza Lavarian
+Daniel Schwarz
 
-[How Much CO2 Does Creating a 1,000-Word Piece of Content Cause?](https://frontendfoc.us/link/120975/web) — Also how much wood would a woodchuck chuck if a woodchuck could chuck wood?
+[利用 Shortcut 简化和改进你的工作流程](https://frontendfoc.us/link/121265/web "shortcut.com") — 我们为您软件团队的工作流程带来新的产品：使用 Shortcut 进行计划、协作、构建和衡量成功。
 
-[How Many Hyperlinks Are Too Many for Accessibility?](https://frontendfoc.us/link/120976/web)  
-Bureau of Internet Accessibility
+Shortcut (formerly Clubhouse.io) sponsor
 
-## 🔧 **Code, Tools & Resources**
+[将 SVG 模式优化到最小的尺寸](https://frontendfoc.us/link/121266/web "css-tricks.com") — 一些优化 SVG 模式的激进方法，使其在不影响整体图像质量的情况下尽可能少地包含代码。
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647439063/cr7tytrywecxnwbfhx5y.png)](https://frontendfoc.us/link/120981/web)
+Bence Szabó
 
-[Fluent Icons: 4000+ Modern Open-Source Icons from Microsoft](https://frontendfoc.us/link/120981/web "fluenticons.co") — This project is not affiliated with Microsoft, but it’s a searchable website where you can find and download [Microsoft’s icons](https://frontendfoc.us/link/120982/web) in various formats (PNG, SVG, etc).
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647953878/t09u9gu1vui88ixh5zup.png)](https://frontendfoc.us/link/121267/web)
 
-[SingleFile: Browser Extension and CLI Tool to Save a Complete Page as a Single HTML File](https://frontendfoc.us/link/120987/web "github.com") — Uses the WebExtensions API, so this is compatible with all the major modern browsers.
+[Claymorphism 是否能坚持下去？](https://frontendfoc.us/link/121267/web "www.smashingmagazine.com") — This design trend has been picking up steam (you may have noticed the rising popularity of colorful inflated 3D graphics in web illustrations), so here’s a look at the idea in more detail, and how you can recreate the effect with CSS. 这种设计趋势一直在不断升温（你可能已经注意到网络插图中五颜六色的充气 3D 图形越来越受欢迎），所以本文概述了此想法的更多细节，以及你如何用 CSS 来创造这种效果。
 
-[Announcing Build Matrix](https://frontendfoc.us/link/120984/web "buildkite.com")
+Adrian Bece
 
-[Animate CSS Grid: Painless Transitions for CSS Grid](https://frontendfoc.us/link/120988/web "github.com") — A bit of an older project, but a neat effect, which you can try [using this CodePen demo](https://frontendfoc.us/link/120989/web).
+[用 JS 实现 Cookie 同意横幅的延迟](https://frontendfoc.us/link/121268/web "dariusz.wieckiewicz.org") — 本文是关于如何去创建一个 “理想的” cookie 同意横幅 -- 主要是实现一个不会导致累积布局转移（CLS）问题的横幅。
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/q4dojigt9ixiozny37se.jpg)](https://frontendfoc.us/link/120986/web)
 
-[HTMLShell: A Visual HTML Template Editor](https://frontendfoc.us/link/120986/web "www.toptal.com") — We’ve seen lots of tools like this before, but this one has quite a few options to include various meta tags, stylesheets, analytics, and more — all easily toggled on or off.
+Dariusz Więckiewicz
 
-[Nextacular: Open-Source Starter Kit to Quickly Launch Multi-Tenant SaaS Apps](https://frontendfoc.us/link/120985/web)
+[Wix 在建立超级 CI 管道时面临的 6 个挑战](https://frontendfoc.us/link/121269/web "buildkite.com")
+
+Buildkite sponsor
+
+▶  [用微软 FrontPage 98 制作一个90年代风格的网站](https://frontendfoc.us/link/121270/web) — 啊，满满的回忆。。 Michael MJD
+
+[在 JavaScript 中建立表的排序和分页](https://frontendfoc.us/link/121272/web)  
+Raymond Camden
+
+## 🔧 **源码、工具和资源**
+
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647962648/phrpc0phfddhj2x2o0jd.png)](https://frontendfoc.us/link/121277/web)
+
+[Master UI Styles：一个 “虚拟 CSS” 引擎](https://frontendfoc.us/link/121277/web "styles.master.co") — 这个小型的 CSS 框架（不到13KB）[刚刚发布了1.0](https://frontendfoc.us/link/121278/web)。它声称不需要“记住神秘的类名”，允许你用无限的 CSS 样式变体来设计 HTML。
+
+Master
+
+[sysend.js: 在同一浏览器中打开的页面或标签之间发送消息](https://frontendfoc.us/link/121279/web "github.com") — 一个小型库，它抽象了一个机制，用于在同一浏览器中打开的页面之间发送消息。支持跨域通信，基于 localStorage 和  BroadcastChannel API。这里有[一个 Demo](https://frontendfoc.us/link/121280/web)（请你打开两个标签。）
+
+Jakub T. Jankiewicz
+
+[Chrome 扩展 CLI：用于构建下一个（或第一个）Chrome 扩展 的 CLI](https://frontendfoc.us/link/121281/web "github.com") — 想尽快为 Chrome 建立一个扩展？这个工具旨在让你尽快走上正确的道路。
+
+Dutiyesh Salunkhe
+
+[prettier-plugin-tailwindcss：一个用于 Tailwind C 的Prettier 插件](https://frontendfoc.us/link/121282/web "github.com") — 来自 Tailwind 的官方 Pretier 插件，根据 Tailwind 的[推荐类顺序](https://frontendfoc.us/link/121283/web)自动排序。
+
+Tailwind Labs
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/533)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/533)
-> * 译者：
+> * [查看原文](https://frontendfoc.us/issues/534)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/534)
+> * 译者：[KimYang](https://github.com/KimYangOfCat)
 > * 校对者：
