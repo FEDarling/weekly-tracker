@@ -1,63 +1,68 @@
 ---
-title: 'Node Weekly #421'
-date: '2022-01-25'
+title: 'Node Weekly #417'
+date: '2022-02-05'
 categories:
   - 'Node Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bammidsgeedeqn4k060q.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f2jffhszv9r1n44wzxx8.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[Remix vs Next.js](https://nodeweekly.com/link/118741/web "remix.run") — 虽然这是由 Remix 团队写的文章，但它对其方法论持开放态度，并试图在比对中保持公平。
+[GitHub 推出适用于 npm Registry 的强制 2FA 和更多功能](https://nodeweekly.com/link/117313/web "github.blog") — 近年来，许多公共代码包注册中心都遇到了用户安全问题，尤其是单个受损包可能会对 npm 生态系统造成严重破坏。因此，GitHub 正在推进 “增强登录验证” 计划，包括在 2022 年初对高影响力软件包的发布者强制执行 2FA。如果你想检查你的 npm 帐户并提高其安全性，现在是时候了！
 
-[Eleventy v1.0：Node 驱动的静态站点生成器](https://nodeweekly.com/link/118743/web "www.11ty.dev") — 作为 Ruby 驱动的 [Jekyll](https://nodeweekly.com/link/118744/web) 的替代品，Eleventy（又名 11ty）同样可以将模板目录转换为静态 HTML 站点，以便在您喜欢的任何地方进行部署。 [v1.0.0](https://nodeweekly.com/link/118745/web) 发行说明提供了更多信息。
+[为什么你应该检查你的 Node Dependencies](https://nodeweekly.com/link/117314/web "www.jackfranklin.co.uk") — 我目前在 Google 的 Chrome DevTools 团队工作，我们将 node_modules 文件夹检查到源代码管理中。起初这让我觉得很不寻常，但我开始相信这种方法有一些主要的好处，我认为更多的人应该考虑。
 
-<img src="https://copm.s3.amazonaws.com/0b1f8e05.jpg" style="width: 150px" />
+![](https://copm.s3.amazonaws.com/1830a3cb.jpg)
 
-[无成本的云基础设施](https://nodeweekly.com/link/118746/web "vultr.com") — Vultr 以 Big Tech 成本的一小部分提供云计算和简化的实例管理。立即兑换 100 美元的基础设施信用额度，就可以在全球范围内部署超大规模裸机、虚拟服务器和存储。
+[基础即代码的 DevSecGuide](https://nodeweekly.com/link/117315/web "bridgecrew.io") — 了解有关 IaC 安全状态的研究、构建 DevSecOps 文化的实际步骤，以及在整个 DevOps 生命周期中嵌入自动化安全的技巧。
 
-[Node v17.4.0 (Current) 发布](https://nodeweekly.com/link/118747/web "nodejs.org") — 发布了许多小的修复和更新，对 libuv 和 npm 进行了少量升级，[对流进行了一些小的添加](https://nodeweekly.com/link/118748/web)（开始与 TC39 的 [迭代器助手提案](https://nodeweekly.com/link/118749/web) 保持一致），并且 `child_process.fork` 上的模块路径现在 [可以是 URL 对象](https://nodeweekly.com/link/118750/web)。
+## **简介**
 
-## **简介:**
+-   [npm 8.2.0](https://nodeweekly.com/link/117316/web) 已发布。
+-   GitHub 正在对其 [代码搜索功能](https://nodeweekly.com/link/117317/web) 进行一些重大改进。
+-   [Chalk 5.0](https://nodeweekly.com/link/117318/web)，流行的终端样式库，现已推出，并已成为纯 ESM。[然而](https://nodeweekly.com/link/117319/web)，TypeScript 用户会希望在 TypeScript 4.6 之前坚持使用 Chalk 4。
 
-*   上周我们报道了一个关于 Faker.js 库的维护者如何破坏软件包的故事 — 好吧，Faker 项目已经有了一个新的团队。
+[你需要了解的 Node.js 内存限制](./nodejs_memory_limits_what_you_should_know.md) Node.js 在内存使用方面非常高效，所以你可能永远不会达到内存最大使用限制，但 Node 的内存管理的工作原理以及当程序出现内存限制和内存泄漏相关的问题时应该处理，都值得我们去了解。
 
-*   📅 [“Next 10”](https://nodeweekly.com/link/118752/web) 是 Node 项目中讨论 Node 未来的一个小组和概念的名称，他们在 1 月 27 日举行了一次 [小型峰会](https://nodeweekly.com/link/118753/web) — 他们希望鼓励任何对 HTTP 或文档感兴趣的人参加。
+[用 Node 对抗 TLS 指纹](https://nodeweekly.com/link/117321/web "httptoolkit.tech") — 出于各种原因，许多在线服务会使用指纹来跟踪人们对 Web 的使用 ，TLS 请求的可以做到这一点。
 
-*   Simon Plenderleith [提醒](https://nodeweekly.com/link/118754/web) 说，从 Node 17 开始，要深度克隆一个值，您可以使用 WHATWG 的 `structuredClone()` 方法。
+[想要方便的转移域名么? 👀 来看看这个吧 👉](https://nodeweekly.com/link/117322/web "dnsimple.link")
 
-[像专业人士一样嘲笑 Undici](https://nodeweekly.com/link/118757/web "fusebit.io") — [Undici](https://nodeweekly.com/link/118758/web) 是强烈推荐的 HTTP/1.1 客户端，它改进了标准库提供的功能。
+[使用 Postgres 和 TypeORM 创建视图](https://nodeweekly.com/link/117323/web "wanago.io") — [TypeORM](https://nodeweekly.com/link/117324/web) 是一种流行的 ORM，它支持 Active Record 和 Data Mapper 模式，可以在 Node.js 中使用。
 
-[使用 `nbb` 创建 AWS Lambda 函数](https://nodeweekly.com/link/118759/web "blog.michielborkent.nl") — [nbb](https://nodeweekly.com/link/118760/web) 是一个运行在 Node.js 之上的 ClojureScript 环境，因此它非常适合 AWS Lambda。 Node 没必要总和 JavaScript 相关 :-)
-
-[使用 Node 创建开放图形图像生成器](https://nodeweekly.com/link/118761/web "blog.logrocket.com") — 使用 Node.js 设置服务器以动态生成图像并减少创建 Open Graph 图像的手动工作量。
-
-[阅读 Elotl 如何使用 Buildkite 和 Amazon EKS 在 Kubernetes 中自动扩展 CI](https://nodeweekly.com/link/118762/web "buildkite.com")
-
-[如何使用 TypeScript 设置 Node 项目](https://nodeweekly.com/link/118763/web "blog.appsignal.com")
+[如何使用 React、Express.js 和 esbuild 设置服务器端渲染 (SSR)](https://nodeweekly.com/link/117325/web)
 
 ## 🛠  代码 & 工具
 
-<img src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/pfspvjbqbtuykuv2dpv0.jpg" style="width: 700px" />
+[graphql-request：用于 Node 和浏览器的最小 GraphQL 客户端](https://nodeweekly.com/link/117328/web "github.com") — 可以构建小型脚本和简单的应用程序，而不是像 Apollo 这样的大型项目。
 
-[NodeBB 1.19.0：基于 Node 的论坛软件](https://nodeweekly.com/link/118764/web "github.com") — 它已经存在多年了，是一个稳定而成熟的平台。但是请注意，它是 GPL 许可的。
+[CSSO 5.0：具有结构优化的 CSS Minifier](https://nodeweekly.com/link/117330/web "github.com") — 一个清理、压缩和重组 CSS 的工具。新发布的 v5.0 也增加了 ES 模块支持和 CSS Selectors Level 4 支持。
 
-[Better-sqlite3 7.5：一个简单、快速的 Node 的 SQLite3 库](https://nodeweekly.com/link/118765/web "github.com") — 此版本将 SQLite 更新到 v3.37（v3.37 尤其引入了 [STRICT 表](https://nodeweekly.com/link/118766/web)），删除了依赖项，减小了安装大小以及其他一些小问题。
+[node-datachannel：Node.js 的 libdatachannel 绑定](https://nodeweekly.com/link/117331/web "github.com") — `libdatachannel` 是各种 WebRTC 标准以及 WebSockets 的基于 C++17 的独立实现，可在 POSIX 平台上使用。
 
-[Doppler — 将所有环境变量集中在一处](https://nodeweekly.com/link/118767/web "www.doppler.com")
+[Node 视频：只需两次 API 调用即可构建视频](https://nodeweekly.com/link/117332/web "get.mux.com")
 
-[Dynamoose 2.8：亚马逊 DynamoDB 的建模工具](https://nodeweekly.com/link/118768/web "github.com") — 正如 [Mongoose](https://nodeweekly.com/link/118769/web) 源于 MongoDB，Dynamoose 试图成为 Amazon 的 DynamoDB。
+[Nock：HTTP 服务端模拟和封装库](https://nodeweekly.com/link/117333/web "github.com") — 假设您正在创建一个使用 HTTP 访问第三方服务的客户端库。 Nock 会让你通过模拟请求/响应来单独测试它。
 
-[Rockpack 2.0：另一种 React App Builder](https://nodeweekly.com/link/118770/web "github.com") — 与 Create React App 一样，其目标是尽可能缩短项目设置时间，但 Rockpack 持有一些不同的意见，并包含了很多想法，包括现在的服务器端渲染。
+[Ink 3.2：基于 React 构建的交互式 CLI 应用程序](https://nodeweekly.com/link/117334/web "github.com") — 使用 React 风格的组件构建您的命令行应用程序。
 
-[Discord.js 13.6.0：与 Discord API 交互的库](https://nodeweekly.com/link/118771/web "github.com") — 一种为广受欢迎的 Discord 聊天系统编写机器人或类似工具的方法。
+[github-unstar：取消星标所有已加星标的 GitHub 存储库](https://nodeweekly.com/link/117335/web "github.com") — 如果您在 GitHub 上为太多的 repos 加注星标并且想从头开始，这个快速脚本可能会有所帮助。
+
+[async-sema：用于 `async` 和 `await` 的 Semaphore 实现](https://nodeweekly.com/link/117336/web)
+
+[jsdom 19.0：用于 Node 的 Web 标准的纯 JS 实现](https://nodeweekly.com/link/117337/web)
+
+[Multer：处理 “multipart/form-data” 提交的中间件](https://nodeweekly.com/link/117338/web)
+
+[Zod：静态类型推理的 TypeScript-First 模式验证](https://nodeweekly.com/link/117339/web)
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/issues/421)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/421/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> - [查看原文](https://nodeweekly.com/link/117312/web)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/417/README.md)
+> - 译者：[daodaolee](https://github.com/daodaolee)
+> - 校对者：[daodaolee](https://github.com/daodaolee)
