@@ -1,95 +1,70 @@
 ---
-title: 'CSS Weekly #487'
+title: 'CSS Weekly #489'
 date: '2022-02-09'
 categories:
   - 'CSS Weekly'
 publish: true
 ---
 
-![Happy New Year 2022](https://css-weekly.com/wp-content/uploads/2022/01/cssweekly-issue487-year-in-review.jpg)
+[使用 CSS Clamp 的现代流体排版](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+
+![使用 CSS Clamp 的现代流体排版](https://css-weekly.com/wp-content/uploads/2022/01/modern-fluid-typography-css-clamp.png)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-首先也是最重要的，感谢您关注和阅读 CSS Weekly。您的（是的，_您的_）评论、消息和支持是我近 10 年来仍在撰写此文章的原因。
+Adrian Bece 探索了流体排版原理、用例、使用 CSS `clamp()` 实现以及交互式流体排版计算器。
 
-2021 年对我个人来说充满挑战，我无法像我希望的那样花足够的时间来处理内容和文章。
+[如何制作纯 CSS 3D 包](https://css-tricks.com/how-to-make-a-pure-css-3d-package-toggle/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-我只发布了 46 期，这可能是我创办 CSS Weekly 以来一年中最低的期数。
+![如何制作纯 CSS 3D 包](https://css-weekly.com/wp-content/uploads/2022/01/how-to-make-a-pure-css-3d-package-toggle.png)
 
-## 统计
+Jhey Tompkins 演示了如何创建一个纯 CSS 3D 包。
 
-周刊用户增加了 700 人，这意味着现在有超过 33,500 人订阅了 CSS Weekly。我仍然感到惊讶、谦卑和感激，你们中的许多人都发现这份很有价值的周刊，您可以每周保存在收件箱中。
+## 文章 & 教程
 
-2021 年，我展示了 200 多个不同个人的作品。下表中列出了一些因完成了令人难以置信的工作而脱颖而出的部分。
+[级联层](https://www.youtube.com/watch?v=ilrPpSQJb3U?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-| 作者                                                                                                             | 数量 |
-| -------------------------------------------------------------------------------------------------------------- | -- |
-| [Ahmad Shadeed](https://ishadeed.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)           | 20 |
-| [Stephanie Eckles](https://thinkdobecreate.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email) | 13 |
-| [Michelle Barker](https://michellebarker.co.uk/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email) | 12 |
-| [Bramus Van Damme](https://www.bram.us/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)         | 10 |
-| [Josh W Comeau](https://www.joshwcomeau.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)    | 9  |
-| [Adam Argyle](https://nerdy.dev/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                | 8  |
-| [Sara Soueidan](https://www.sarasoueidan.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)   | 8  |
-| [Amit Sheen](https://amitsh.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                | 7  |
-| [Temani Afif](https://www.temani-afif.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)      | 7  |
-| [Adrian Bece](https://codeadrian.github.io/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)     | 6  |
-| [Chris Coyier](https://chriscoyier.net/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)         | 6  |
-| [Kitty Giraudel](https://kittygiraudel.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)     | 6  |
-| [Ana Tudor](https://twitter.com/anatudor?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)        | 5  |
-| [Jake Archibald](https://jakearchibald.com/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)     | 5  |
-| [Jhey Tompkins](https://jhey.dev/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)               | 5  |
-| [Manuel Matuzovic](https://www.matuzo.at/?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)       | 5  |
+Una Kravets 介绍了 CSS 级联层和 `@layer` 属性，它允许您创建基于特定性的层并帮助组织您的 CSS 架构。
 
-我推荐了 189 个不同的网站，毫无疑问地向 CSS Tricks 和 CodePen 的最多。感谢这些出色的作品，Chris。
+[制作漂亮的渐变](https://www.joshwcomeau.com/css/make-beautiful-gradients/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-| 站点                                                                                                                  | 数量 |
-| ------------------------------------------------------------------------------------------------------------------- | -- |
-| [CSS-Tricks](https://css-tricks.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                  | 52 |
-| [CodePen](https://codepen.io?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                         | 42 |
-| [Smashing Magazine](https://www.smashingmagazine.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email) | 34 |
-| [web.dev](https://web.dev?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                            | 25 |
-| [GitHub](https://github.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                          | 18 |
-| [Ahmad Shadeed](https://ishadeed.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                 | 17 |
-| [Bram.us](https://www.bram.us?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                        | 10 |
-| [Josh W Comeau](https://www.joshwcomeau.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)          | 10 |
-| [Sara Soueidan](https://www.sarasoueidan.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)         | 8  |
-| [LogRocket Blog](https://blog.logrocket.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)          | 6  |
-| [CSS { In Real Life }](https://css-irl.info?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)          | 6  |
-| [DEV Community](https://dev.to?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                       | 5  |
-| [Kitty Giraudel](https://kittygiraudel.com?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)           | 5  |
-| [Codrops](https://tympanus.net?utm_source=CSS-Weekly&utm_campaign=Issue-487&utm_medium=email)                       | 5  |
+Joshua Comeau 展示了如何通过避开 “灰色地带” 来创建丰富、生动、生动的渐变。
 
-非常感谢所有创建 CSS 相关内容的人，包括个人和团队。
+[带有动画字幕的响应式图片库](https://moderncss.dev/responsive-image-gallery-with-animated-captions/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-如果你（是的，_你_）曾经写过文章或创建了一些你认为对 CSS Weekly 感兴趣的东西，请将其发送给我。尽管周刊的空间有限，但我会认真阅读。
+Stephanie Eckles 探索了一种创建响应式图像库的技术，该技术使用 `object-fit` 进行响应式图像缩放，使用 `aspect-ratio` 获得一致的图像大小，使用 CSS Grid 技巧替换绝对定位，以及使用 CSS 转换获得动画效果。
 
-## 2022 的计划
+[使用简单的 CSS 为每个列表项设置样式](https://devdojo.com/basharath/style-each-list-item-css?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-今年，我将全职关注 CSS Weekly，目标是提供尽可能多的与 CSS 相关的教学材料。
+Basharath 展示了如何使用 CSS at-rule `@counter-style` 为每个单独的列表项自定义样式类型。
 
-我将在线上和线下输出原创内容（很快就会有新的内容），我会在社交媒体上分享更多内容：[Twitter](https://twitter.com/CSSWeekly)、[Instagram](https://www.instagram.com/cssweekly/) 和 [Facebook](https://www.facebook.com/CSSWeekly/)。
+[易解析的标题结构](https://www.a11yproject.com/posts/how-to-accessible-heading-structure/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-### Prettier + Stylelint 课程
+Rian Rietveld 提供了一些关于创建易解析标题的建议。
 
-我开始输出我的第一个高级课程。它将 Prettier 和 Stylelint 集成到您的工作流程中，以使您的团队（甚至组织）中的 CSS 保持一致并自动格式化，同时捕捉样式表中的错误和问题。
+## 工具
 
-我还没有发布有关日期或课程大纲的任何具体信息，但如果您想了解更多信息，请点击下面的按钮，您将是第一个知道内容的人。（我会请您回答 3 个简单的问题，以帮助我更好地为您和您的需求量身定制课程。）
+[Parcel CSS](https://github.com/parcel-bundler/parcel-css?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-[让我了解您的 Prettier + Stylelint 课程的最新动态 →](https://sprw.io/stt-26e4f7)
+用 Rust 编写的 CSS 解析器、转换器和压缩器。
 
-## 下周
+[现代流体排版编辑器](https://modern-fluid-typography.vercel.app/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
 
-愿你的日子充实并富有意义，愿你的 CSS 干净、可维护！
+使用现代 CSS clamp 功能生成流畅的排版代码片段，并使用这个强大而时尚的编辑器微调流畅的排版。
 
-2022 快乐! 🥂  
-[Zoran Jambor](https://twitter.com/ZoranJambor)
+## 灵感
+
+[千与千寻浴室（Aburaya）— 3D CSS](https://codepen.io/cobra_winfrey/pen/GRMdwwG?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+
+![Spirited Away Bathhouse (Aburaya) - 3D CSS](https://css-weekly.com/wp-content/uploads/2022/01/spirited-away-bathhouse-aburaya-3d-css.jpg)
+
+Adam Kuhn 使用 CSS 创建了令人印象深刻的 3d 图像。
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-487/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/487)
+> - [查看原文](https://css-weekly.com/issue-489/)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/489)
 > - 译者：[daodaolee](https://github.com/daodaolee)
 > - 校对者：[daodaolee](https://github.com/daodaolee)
