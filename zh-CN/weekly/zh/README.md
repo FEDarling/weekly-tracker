@@ -1,94 +1,102 @@
 ---
-title: 'JavaScript Weekly #573'
-date: '2022-02-21'
+title: 'JavaScript Weekly #575'
+date: '2022-02-23'
 categories:
   - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/igqni4z6jhls1bzqifxu.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/g6siflolg6cl3gdzxkdm.jpg)
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[要避免的 TypeScript 功能？](https://javascriptweekly.com/link/118850/web "www.executeprogram.com") — 还记得十年前 Gary Bernardt 的 [Wat](https://javascriptweekly.com/link/118835/web) 视频吗？他创建了 [Execute Program](https://javascriptweekly.com/link/118851/web) 开发教育平台，现在反思 TypeScript 中需要认真思考的四件事：枚举、命名空间、装饰器和私有。这是 **自以为是** 的。
+[用 JavaScript 编写打印机驱动程序](https://javascriptweekly.com/link/119451/web "kubesail.com") — *“用 JavaScript 编写打印机驱动程序听起来很荒谬”*，作者开始说，虽然 “驱动程序” 的定义在这里是有争议的（它更像是一个过滤器？），但这仍然是一个有趣的故事。
 
-[使用 `structuredClone()` 深度复制对象](https://javascriptweekly.com/link/118852/web "2ality.com") — 当谈到复制 JavaScript 对象时，Axel 博士会着眼于新的东西：`structuredClone`。大多数浏览器的尖端版本以及 Node.js 和 Deno 都支持它，是时候考虑一下了。
+[Babel 7.17.0 发布](https://javascriptweekly.com/link/119431/web "babeljs.io") — 现在 [装饰器提案](https://javascriptweekly.com/link/119432/web) 已经趋于稳定，如果你想玩的话，Babel 支持它们的解析和转换。
 
-![](https://copm.s3.amazonaws.com/c195ee88.jpg)
+![](https://copm.s3.amazonaws.com/79ea00da.png)
 
-[David Khourshid 的 XState 状态机新课程](https://javascriptweekly.com/link/118833/web "frontendmasters.com") — 如果您构建大型 JavaScript 应用程序并希望避免遇到奇怪的边缘情况，您将需要学习状态机。花时间清晰而稳健地为应用程序逻辑建模。
+[ButterCMS 加入到你的 JS 程序中:  `$ butter.post.list()`](https://javascriptweekly.com/link/119470/web "buttercms.com") — ButterCMS 是您的后端。让您的营销团队不需要前端即可更新网站和应用内容。免费 30 天。
 
-[JavaScript 风格的 Monad 简介](https://javascriptweekly.com/link/118853/web "github.com") — “我知道很多人会翻白眼”，Kyle 谈到另一个 monad 解释器时说，但是.. 如果你喜欢 Kyle 与 [You Don't Know JS](https://javascriptweekly.com/link/118854/web) 的作品，或者你想要一些面向 JavaScript 的东西，这个是给你的。
+[Fetch API 即将进入 Node Core（包括为什么要了解它）](https://javascriptweekly.com/link/119426/web "fusebit.io") — 对 Fetch API（作为获取资源的常用浏览器端）的支持已合并到 Node.js 中，并将在 `--experimental-fetch` 标志后面提供，直到希望在 Node 18+ 中默认启用。
 
-[Remix vs Next.js](https://javascriptweekly.com/link/118855/web "remix.run") — [Remix](https://javascriptweekly.com/link/118886/web) 是 JavaScript 全栈框架的新星，因此会很自然地将它与 Next.js（甚至 Ruby on Rails）等其他东西进行比较。请记住，这种比较来自 Remix 团队本身，不过写得很好，当然，同时促进了 Remix 方法。
-
-[Deno 1.18 发布:（其他）现代 JS/TS 运行时](https://javascriptweekly.com/link/118857/web "deno.com") — Deno 继续向前迈进。 1.18 有全面的 [Web Cryptography API](https://javascriptweekly.com/link/118858/web)、将 V8 升级到 9.8 版、缩短启动时间等方面的巨大努力。
+[内存泄漏：Web 性能被遗忘的一面](https://javascriptweekly.com/link/119430/web "nolanlawson.com") — 认真对待内存泄漏的重要性，尽管 “努力可能和回报不成正比”。
 
 ## **简述:**
 
-*   自 2 月 7 日起，[Vue 3 将成为 Vue.js 的新 “默认” 版本](https://javascriptweekly.com/link/118834/web)。
+*   [V8 v9.9](https://javascriptweekly.com/link/119433/web) 即将推出，重点是对 Intl 的改进。
 
-*   ▶️ [Wat 视频](https://javascriptweekly.com/link/118835/web) 嘲笑 JavaScript 的动态类型化方式是 10 年前发布的。
+*   VS Code 的 [每月一次重大更新](https://javascriptweekly.com/link/119434/web)，其中包含 JS 调试改进，可让您排除某些调用者在断点处暂停。
 
-*   📗 经典计算机科学书籍 Structure and Implementation of Computer Programs (a.k.a. SICP) 一直使用 Scheme 的 Lisp，但 [JavaScript 版本](https://javascriptweekly.com/link/118836/web) 已于 4 月发布，现在可以预订。
+*   npm 注册表现在要求 [前 100 个 npm 包](https://javascriptweekly.com/link/119435/web) 的维护者使用 2FA。随着时间的推移，该政策将扩展到更多的维护者。
 
-*   对无头内容管理感兴趣？这个 Dot Media 将在下周二（25 日）在 hardless CMS 上查看 [实时的 “Web 现状”](https://javascriptweekly.com/link/118859/web)。
+*   还在使用 `[].join(', ')`？ Eric Clemmons 有一个 [不错的选择](https://javascriptweekly.com/link/119436/web)。
+
+*   Dan Abramov 在试图 [推销 Sublime Text](https://javascriptweekly.com/link/119437/web) 与 VS Code。
+
+*   [Jest](https://javascriptweekly.com/link/119438/web) 是一个非常流行的与 Facebook 相关的 JS 测试框架，但据称 [Facebook 多年来没有人在 Jest 上工作过](https://javascriptweekly.com/link/119439/web)。
 
 
 ## **版本更新:**
 
-[ESLint 8.7](https://javascriptweekly.com/link/118837/web) — 您的 JavaScript 的质量管理。 [zx 4.3.0](https://javascriptweekly.com/link/118838/web) — 与 node.js 的 shell 脚本有关的东西。 [react-markdown 8.0](https://javascriptweekly.com/link/118839/web) — React 渲染 Markdown 组件。 [Capacitor 3.4](https://javascriptweekly.com/link/118840/web) — 跨平台本机应用程序框架。 [Axios 0.25.0](https://javascriptweekly.com/link/118841/web) – 长期站立的 HTTP 客户端库。 [better-sqlite3 7.5](https://javascriptweekly.com/link/118842/web) – Node.js sqlite库。
+[MDX 2.0](https://javascriptweekly.com/link/119440/web) – Markdown + JSX = ❤️  
+[Partytown 0.3](https://javascriptweekly.com/link/119441/web) – 将第三方脚本从主线程中移除。 [Mongoose 6.2.0](https://javascriptweekly.com/link/119442/web) – MongoDB 对象建模库。 [Recoil 0.6](https://javascriptweekly.com/link/119443/web) – 替代 React 状态管理。 [Commander.js 9.0](https://javascriptweekly.com/link/119444/web) – Node CLI 框架.  
+[CKEditor 5 v32.0](https://javascriptweekly.com/link/119445/web) – 富文本编辑器框架。 [ESLint 8.8.0](https://javascriptweekly.com/link/119446/web)
 
 ## 📒  文章 & 教程
 
-[用 Umbrella JS 替换 jquery](https://javascriptweekly.com/link/118860/web "www.bennadel.com") — 它有一个类似的 API 和插件系统。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/p4itcrffmsgkrlhxkgnu.jpg)
 
-[`.groupby（）`和`.groupbytomap（）` 的选择](https://javascriptweekly.com/link/118862/web "2ality.com") — 这是一份有用的建议。
+[2022 年 VS Code 在飞速发展](https://javascriptweekly.com/link/119454/web "jason-williams.co.uk") — 其中一篇深入研究 VS Code 底层架构的 “小众但有趣” 的文章，是考虑制作自己的扩展的人的必读之作。
 
-[Colors NPM：发生了什么？违规提交添加无限循环](https://javascriptweekly.com/link/118846/web "snyk.io") — 您是否使用了广泛流行的 Colors NPM？要避免 DOS 漏洞哦。
+▶  [您每周关于软件艺术与实践的对话来源](https://javascriptweekly.com/link/119453/web "stackoverflow.blog") — Ben Popper、Cassidy Williams 和 Ceora Ford 探讨了在软件中工作的意义，以及代码如何重塑我们的世界。
 
-[从 ES6 到 Scala：基础知识](https://javascriptweekly.com/link/118864/web "www.scala-js.org") — Scala.js 是前端工作的一个替代品，知道这些肯定会有所帮助......
+[通过代码拆分提高 JavaScript Bundle 性能](https://javascriptweekly.com/link/119452/web "www.smashingmagazine.com") — 了解代码拆分的好处和注意事项，以及如何通过动态加载复杂的非关键 JavaScript 包来提高页面性能和加载时间。
 
-[可选的链接运营商，“现代” 浏览器，以及我的妈妈](https://javascriptweekly.com/link/118866/web "blog.jim-nielsen.com") — 一些不受支持的 JavaScript 语法导致整个网站在两个单独的硬件设备上无法适配。
+[Web 框架解决了什么以及没有它们应该怎么做](https://javascriptweekly.com/link/119455/web "www.smashingmagazine.com") — 深入探讨框架中常见的一些技术特性，并解释一些不同的框架如何实现它们以及它们的成本。
 
-[关于 JSX 的良好建议](https://javascriptweekly.com/link/118867/web "thoughtspile.github.io")
+[使用 Streams 构建高性能节点应用程序](https://javascriptweekly.com/link/119457/web "blog.appsignal.com") — 使用 Node.js 中的 “Stream” 模块。
 
-[少写代码](https://javascriptweekly.com/link/118868/web "css-tricks.com") — 作为开发人员，我们经常向项目添加工具和库，但通常会导致应用程序很大。
+[将聊天机器人连接到流行的通讯软件中](https://javascriptweekly.com/link/119456/web "bit.ly") — 了解将聊天机器人连接到 Telegram、Messenger、Twilio、Smooch、Vonage、Slack 和 Microsoft Teams 的简单方法。
 
-[使用 Stream 的 Chat API 构建移动响应的远程医疗寻呼机应用程序](https://javascriptweekly.com/link/118848/web "getstream.io")
+[如何使用 Vue 3、Vite 和 Pinia 创建、测试和部署 SPA](https://javascriptweekly.com/link/119473/web)
 
-[如何从 Electron 中提取秘密](https://javascriptweekly.com/link/118869/web "www.staszewski.me") — 重点是，你真的不应该在那里留下这样的秘密。
+▶  [React 的故事（10 分钟）](https://javascriptweekly.com/link/119458/web)
 
-[使用 EMScripten 将 JavaScript 片段嵌入 C++ 中](https://javascriptweekly.com/link/118870/web)
-
-[JavaScript 正则表达式中的多行模式（`/ m`）](https://javascriptweekly.com/link/118871/web)
+[使用 JavaScript 防止平滑滚动](https://javascriptweekly.com/link/119471/web)
 
 ## 🛠  代码 & 工具
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sn0l2009ciea3l9oqzgr.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/z1ltybyxbqnxaswmnjkt.jpg)
 
-[TinyBase：构建应用状态的库](https://javascriptweekly.com/link/118872/web "tinybase.org") — 如果您在应用程序中有很多状态需要管理，这是值得一看的。
+[Sigma 2.2：图形绘图库](https://javascriptweekly.com/link/119459/web "sigmajs.org") — 一个成熟的库（我们在 2015 年首次使用它！），包含数千个需要快速渲染的节点和边的巨型图。[这里有一些很好的例子](https://javascriptweekly.com/link/119460/web)
 
-[Sharer.js 0.5：20+ 平台的轻量级社交共享组件](https://javascriptweekly.com/link/118875/web "ellisonleao.github.io")
+[A-Frame 1.3：构建 WebVR 体验的框架](https://javascriptweekly.com/link/119461/web "aframe.io") — 用于构建虚拟现实体验的 Web 框架，可在 Vive、Rift、Quest 以及桌面和移动平台（包括浏览器）中运行。
 
-[Studio 3T 管理您的数据，同时将您的应用程序塑性](https://javascriptweekly.com/link/118849/web "studio3t.com") — Studio 3T 的全套 MongoDB 工具可以更快地开发。
+[Electron 17 发布](https://javascriptweekly.com/link/119462/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架，通过 Chromium 98 支持，当然也有 Node 16.13.0 和 V8 9.8。
 
-[Vanilla List：vanilla javascript 插件的目录](https://javascriptweekly.com/link/118876/web "vanillalist.top")
+[Pulumi：使用 JavaScript 的开发人员优先基础设施](https://javascriptweekly.com/link/119463/web "www.pulumi.com")
 
-[mo.js 1.3：Web 的活动图形工具包](https://javascriptweekly.com/link/118877/web "mojs.github.io") — 使用声明性 API 来完全控制动画。这是一份入门教程以查看它如何从代码 POV 工作。
+[Hotkey 2.0：按下 “热键” 时触发元素上的操作](https://javascriptweekly.com/link/119464/web "github.com") — 使用 Hotkey，在你的元素上设置 `data-hotkey` 属性，你就可以获取键盘快捷键。[v2.0](https://javascriptweekly.com/link/119465/web) 刚刚下架。
 
-[Rockpack 2.0：替代 React 应用程序构建](https://javascriptweekly.com/link/118879/web "github.com") — 像 *Create React App* 的目标是将项目设置时间降低，但 RockPack 有一些不同的意见。
+[imask.js 6.4.0：Vanilla JavaScript 输入掩码](https://javascriptweekly.com/link/119466/web "imask.js.org")
 
-[vue-easytable：Vue.js 2.x 的表/数据网格组件](https://javascriptweekly.com/link/118880/web "github.com")
+[lite-youtube：更快地呈现 YouTube 嵌入的 Web 组件](https://javascriptweekly.com/link/119467/web "github.com") — 这是 Paul Irish 的 [lite-youtube-embed](https://javascriptweekly.com/link/119468/web) 的 Shadow DOM Web 组件版本，具有键盘快捷键和其他一些不错的功能。
 
-[React Calendar 3.6：React 写的 “终极” 日历](https://javascriptweekly.com/link/118882/web "projects.wojtekmaj.pl")
+## 😍 最后
 
-[rasterizeHTML.js：将 HTML 渲染到 Canvas 上](https://javascriptweekly.com/link/118884/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/zirn5nesrjne6sa7lgqh.jpg)
+
+[WebVM.io](https://javascriptweekly.com/link/119474/web) 带您直接进入在您的浏览器中运行的基于 Web 的 “无服务器” 虚拟 Linux 环境。它是基于 JavaScript 和 WebAssembly 的 CheerpX x86 虚拟化引擎支持的。虽然它不完全是一个 JavaScript 项目，但它很好地展示了 Web 技术的发展程度。如果你想尝试的话，它已经 “安装” 了 Node v10.24.0，但要注意它需要 20 秒才能加载到我的机器上。
+
+如果你想学习的话，[这是一篇关于它如何工作的文章](https://javascriptweekly.com/link/119476/web)。
+
+*注意：由于所需的资源和性能有限，可能仅适用于桌面用户。*
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/573)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/573/README.md)
+> * [查看原文](https://javascriptweekly.com/issues/575)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/575)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
