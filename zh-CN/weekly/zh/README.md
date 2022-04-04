@@ -1,69 +1,69 @@
 ---
-title: 'CSS Weekly #496' #不可修改
-date: '2022-03-18' #不可修改
+title: 'CSS Weekly #497' #不可修改
+date: '2022-03-25' #不可修改
 categories:  #不可修改
   - 'CSS Weekly'
 publish: true #翻译完成后修改
 ---
 
-[Horizontal Scrolling Nav](https://markdotto.com/2022/03/10/horizontal-scrolling-nav/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[构建一个加载条组件](https://web.dev/building-a-loading-bar-component/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-[![Horizontal Scrolling Nav](https://css-weekly.com/wp-content/uploads/2022/03/horizontal-scrolling-nav1.png)](https://markdotto.com/2022/03/10/horizontal-scrolling-nav/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[![构建一个加载条组件](https://css-weekly.com/wp-content/uploads/2022/02/building-a-loading-bar-component.jpg)](https://web.dev/building-a-loading-bar-component/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-Mark Otto demonstrates how to build responsive horizontal navigation with an overflow scroll that automatically scrolls the active nav link into view.
+Adam Argyle 简要介绍了如何使用 `<progress>` 元素建立一个颜色自适应的易访问的加载条。
 
-[How To Test if There Is Any Element Outside the Viewport With Cypress](https://www.ismaelramos.dev/how-to-test-if-there-is-any-element-outside-the-viewport-with-cypress/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[Windows 高对比度模式、强制颜色模式和 CSS 自定义属性](https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-[![How To Test if There Is Any Element Outside the Viewport With Cypress](https://css-weekly.com/wp-content/uploads/2022/03/how-to-test-if-there-is-any-element-outside-the-viewport-with-cypress.jpg)](https://www.ismaelramos.dev/how-to-test-if-there-is-any-element-outside-the-viewport-with-cypress/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[![Windows 高对比度模式、强制颜色模式和 CSS 自定义属性](https://css-weekly.com/wp-content/uploads/2022/02/windows-high-contrast-colors-mode-css-custom-properties.jpg)](https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Ismael Ramos explains how to use Cypress to create an automated test that checks if there is an element out of the viewport.
+Eric Bailey 阐释了现代 CSS 是如何成为一项强大的辅助技术的，它可以帮助你创造灵活、可维护和适应性强的数字体验。
 
-## Articles & Tutorials
+## 文章与教程
 
-[Taming CSS Variables with Web Inspector](https://webkit.org/blog/12303/css-variables-web-inspector/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[网站主题和配色方案](https://ryanmulligan.dev/blog/themes-and-schemes/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Razvan Caliman outlines the improvements made to Safari’s Web Inspector to help you work easier with CSS variables.
+Ryan Mulligan 展示了如何根据浅色和深色模式的偏好来定制网站主题。
 
-[A Look at the Dialog Element's Super Powers](https://www.stefanjudis.com/blog/a-look-at-the-dialog-elements-super-powers/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[Claymorphism 是否能坚持下去？](https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Stefan Judis looks at the new dialog element and outlines how it provides better focus handling.
+Adrian Bece 探讨了 UI 上是否有 Claymorphism 的使用场景，以及我们如何用 CSS 创造这种效果。
 
-[Aligning Content In Different Wrappers](https://ishadeed.com/article/aligning-content-different-wrappers/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[电子邮件中的 HTML 和 CSS 在 2022 年的效果如何？](https://designmodo.com/html-css-emails/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Ahmad Shadeed shows how to align content with another section, given that they are placed in different wrappers.
+Daniel Schwarz 概述了各种 HTML 和 CSS 功能，并解释了你是否应该（或不应该）在电子邮件模板中使用它们。
 
-[In Defense of Sass](https://thinkdobecreate.com/articles/in-defense-of-sass/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[深入探究 CSS：where() 函数](https://blog.logrocket.com/deep-dive-css-where-function/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Stephanie Eckles shares how Sass can be an excellent complement to how you approach writing styles, particularly in a team environment.
+Pelumi Akintokun 介绍了关于 `:where()` 伪类函数。
 
-[How to Make a “Raise the Curtains” Effect in CSS](https://css-tricks.com/css-raise-the-curtains-effect/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[Dialog 元素的乐趣](https://markdotto.com/2022/03/16/dialog-element/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-Silvestar Bistrović shows how to create an effect where the background goes from dark to light on scroll while the content on top also goes from light to dark while in a sticky position.
+Mark Otto 对 `<dialog>` 元素做了一个简短的介绍。
 
-## Tools
+## 工具
 
-[CSS Checker](https://github.com/ruilisi/css-checker?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[Stylo](https://stylojs.com/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-A tool that shows similar and duplicated CSS with diff, designed to work well for local development and automation like CI.
+Stylo是一个开源的所见即所得的 JavaScript 互动编辑器，没有任何依赖包。
 
-[A11y AutomationTracker](https://a11y-automation.dev/?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[Magic Eraser](https://www.magiceraser.io/?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-A more thorough way to track the potential accessibility violations, automated linters, and tests currently available.
+Magic Eraser 是一个在线工具，可以从你的图像中删除不需要的东西。
 
-## Inspiration
+## 灵感
 
-[Pure CSS - Pikachu in 3D Box](https://codepen.io/maxi83c/pen/JjOZdWX?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[梦幻般的夜晚中的 CSS 花开花落](https://codepen.io/mdusmanansari/pen/BamepLe?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-[![Pure CSS - Pikachu in 3D Box](https://css-weekly.com/wp-content/uploads/2022/03/pure-css-pikachu-in-3d-box.png)](https://codepen.io/maxi83c/pen/JjOZdWX?utm_source=CSS-Weekly&utm_campaign=Issue-496&utm_medium=web)
+[![梦幻般的夜晚中的 CSS 花开花落](https://css-weekly.com/wp-content/uploads/2022/02/css-blossoming-flowers-at-magical-night.jpg)](https://codepen.io/mdusmanansari/pen/BamepLe?utm_source=CSS-Weekly&utm_campaign=Issue-497&utm_medium=web)
 
-A stunning, interactive, animated illustration created in pure CSS.
+Md Usman Ansari 使用 CSS 创建了一个令人惊叹的动画插图。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-496/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/496)
-> * 译者：
+> * [查看原文](https://css-weekly.com/issue-497/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/497)
+> * 译者：[KimYang](https://github.com/KimYangOfCat)
 > * 校对者：
