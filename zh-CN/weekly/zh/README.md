@@ -1,70 +1,76 @@
 ---
-title: 'CSS Weekly #485'
-date: '2021-12-15'
-categories:
-  - 'CSS Weekly'
-publish: true
+title: 'Frontend Focus #530' #不可修改
+date: '2022-02-25' #不可修改
+categories:  #不可修改
+  - 'Frontend Focus'
+publish: true #翻译完成后修改
 ---
 
-[打破常规](https://alistapart.com/article/breaking-out-of-the-box/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bc8kitzywewuxg70tcyk.jpg)](https://frontendfoc.us/link/120080/web)
 
-![打破常规](https://css-weekly.com/wp-content/uploads/2021/12/breaking-out-of-the-box.jpg)
-
-<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-Patrick Brosset 解释了在渐进式 Web 应用程序（PWA）里， Window Controls Overlay 是如何操作 app 的整个页面的，其中也包括了标题栏出现的默认位置。
+🔒  [How Everything We're Told About Website Identity Assurance is Wrong](https://frontendfoc.us/link/120080/web "www.troyhunt.com") — Dives into how website trust is communicated online (certificates, SSL, and the like) — and how such things can often prove to be misleading.
 
-[用 CSS 相对颜色操作动态颜色](./dynamic_color_manipulation_with_css_relative_colors.md)
+[Using Flexbox to Create a Dynamic Line Separator](https://frontendfoc.us/link/120088/web "ishadeed.com") — How to make use of the default flexbox stretching behaviour to create a dynamic line separator. A solid tutorial told in Ahmad’s usual accessible style, with code examples and visuals to help move things along.
 
-![用 CSS 相对颜色操作动态颜色](https://css-weekly.com/wp-content/uploads/2021/12/dynamic-color-manipulation-with-css-relative-colors.jpg)
+[![](https://copm.s3.amazonaws.com/9b82fa54.png)](https://frontendfoc.us/link/120081/web)
 
-Jim Nielsen 展示了如何在原生 CSS 中使用 CSS 相对颜色来实现动态颜色。
+[Walkthrough of an Easy Angular Data Grid with Examples](https://frontendfoc.us/link/120081/web "ad.doubleclick.net") — You could write your own data grid, but why would you when this one already exists. See how easy it is to set up, bind data, group, sort, page, and more. Fiddle with the live samples or install it and try it for yourself, but don’t miss it.
 
-## 文章 & 教程
+[Testing Pipeline 101 For Frontend Testing](https://frontendfoc.us/link/120082/web "www.smashingmagazine.com") — If you want to introduce a testing build routine here’s a quick look at how to get on the right track — specifically with the help of some testing frameworks and GitHub actions.
 
-[使用 CSS 自定义属性来约束焦点样式](https://css-tricks.com/standardizing-focus-styles-with-css-custom-properties/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+▶  [Builder a Greener Web](https://frontendfoc.us/link/120083/web "www.youtube.com") — A 20-minute talk on the environmental impact of our sites and what considerations you may want to take into account when it comes to the carbon footprint of your digital projects.
 
-Stephanie Eckles 研究了一种在项目中通过使用 CSS 自定义属性来约束焦点样式的技术。
+## **⚡️ Quick bits:**
 
-[CSS 在 2021 年的成果状况](https://2021.stateofcss.com/en-US/demographics/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+*   Fresh data suggests that [Microsoft Edge is on the verge of overtaking Safari](https://frontendfoc.us/link/120084/web) as the world's second most popular desktop browser.
+*   [This is a neat tip I'd forgotten about](https://frontendfoc.us/link/120085/web): You can shave up to 90% off the size of Google Fonts by declaring only the characters you actually need.
+*   This 'manifesto' aims to [highlight the importance](https://frontendfoc.us/link/120086/web) of including bidirectional text in your product.
+*   An analysis of top 1 million websites found 21 million tracking cookies [belonging to 1200 companies](https://frontendfoc.us/link/120087/web) 😱
 
-年度 CSS 状况的调查结果已公布。 结论是什么呢？你将会用新的方式编写 CSS！
+## 📙 **Tutorials, Articles & Opinion**
 
-[构建一个 Toast 组件](https://web.dev/building-a-toast-component/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645621317/zpwpjctn5m60q8xp3ngj.png)](https://frontendfoc.us/link/120078/web)
 
-Adam Argyle 讲述了如何构建一个自适应且易用的 toast 组件。
+[A Complete Guide to CSS Cascade Layers](https://frontendfoc.us/link/120078/web "css-tricks.com") — We’ve featured a few good links and resources on this topic over the last few weeks, and this one seems to be the most thorough yet — covering its origins, how it works, use cases, and more. Quick refresher: The [`@layer` feature](https://frontendfoc.us/link/120079/web) allows us to define explicit contained layers of specificity (_so we can avoid hacks_).
 
-[Details / Summary](https://12daysofweb.dev/2021/details-summary/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[Subsetting Font Awesome to Improve Performance](https://frontendfoc.us/link/120089/web "css-tricks.com") — How to go about removing any unused glyphs from the font files so that it reduces the overall file size.
 
-Stephanie Eckles 讲解了在不需要额外 JavaScript 的情况下如何用 HTML 的 Details 和 Summary 标签来折叠元素。
+[Survivorship Bias in Web Performance](https://frontendfoc.us/link/120097/web "simonhearne.com") — Why your analytics shows your site as faster than it is, and why [First Contentful Paint](https://frontendfoc.us/link/120098/web) (FCP) is a particularly good metric to optimize for.
 
-[避免 CSS 阻塞的一个奇淫技巧](https://calendar.perfplanet.com/2021/combat-css-blockage-with-this-one-weird-little-trick/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[Are You Up to Date on Webhooks? 🤔](https://frontendfoc.us/link/120092/web "www.hookrelay.dev") — Learn how to structure and version webhooks, how to build a webhooks backend, and why you should use them. [Read more](https://frontendfoc.us/link/120093/web).
 
-Stoyan Stefanov 讲解了在内联 JavaScript 里如何通过 dataURI-fying 来避免 CSS 阻塞渲染。
+[The No-Nonsense Styling Method](https://frontendfoc.us/link/120090/web "benlorantfy.com") — A set of guidelines compiled to make styling “_less surprising and more predictable_”. Specifically, it aims to increase the scalability, maintainability, readability, and ease of change of your CSS.
 
-## 工具
+[Animating-In a Newly Added Element](https://frontendfoc.us/link/120099/web "thinkdobecreate.com") — Using `@keyframes` just might remove the need for JavaScript when animating newly added DOM elements.
 
-[一个体积很小的切换 UI 状态的库](https://github.com/NigelOToole/tiny-ui-toggle?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[What Makes Writing More Readable?](https://frontendfoc.us/link/120094/web "pudding.cool") — Does a really good job of highlighting the benefits of plain language (_with a neat toggle to see the before/after_). The advice here is obviously applicable in several areas of life, but well worth considering from a web copy angle too.
 
-一个切换 UI 元素状态的库，可以轻松创建各种组件，如 Collapse、Accordion、Tabs、Dropdown、Dialog 和 Modal。
+[How to Make 'Slanted' Containers with CSS in 3 Steps](https://frontendfoc.us/link/120100/web)
 
-[ffflux](https://fffuel.co/ffflux/?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[Creating a Read Progress Bar in React and TailwindCSS](https://frontendfoc.us/link/120101/web)
 
-ffflux 是一个用于流体渐变背景的在线 SVG 生成器，可让您轻松生成流体和有机感渐变。
+## 🔧 **Code, Tools & Resources**
 
-## 灵感
+[Simple.css: A 'Classless' CSS Framework](https://frontendfoc.us/link/120105/web "simplecss.org") — Similar to [SPCSS](https://frontendfoc.us/link/120106/web), which we shared previously. This one includes dark mode and some nice typographic features for quickly setting up landing pages or other simple projects: _"By 'classless' I mean that there are no CSS classes anywhere in the CSS or the HTML."_ Semantic HTML FTW!
 
-[3D 宇宙飞船 - GSAP](https://codepen.io/ricardoolivaalonso/pen/poWbBdK?utm_source=CSS-Weekly&utm_campaign=Issue-485&utm_medium=web)
+[Stylo: An Open Source WYSIWYG Rich Text Editor for JavaScript](https://frontendfoc.us/link/120109/web "stylojs.com") — Based on a web component, no dependencies, and you can configure the default toolbar to suit your app’s needs. Being able to edit the project's homepage is a neat touch.
 
-![3D 宇宙飞船 - GSAP](https://css-weekly.com/wp-content/uploads/2021/12/3d-cspaceship-gsap.jpg)
+[Project Management for Software Teams Has Never Been Easier](https://frontendfoc.us/link/120107/web "shortcut.com")
 
-Ricardo Oliva Alonso 使用 CSS 和 GSAP 创建了一个炫酷的 3d 动画宇宙飞船。
+[Atropos: Touch-Friendly 3D Parallax Hover Effects](https://frontendfoc.us/link/120146/web "github.com") — The easiest and fastest way to fool the eye into thinking the screen has somehow developed three-dimensional capabilities (and, admittedly, annoy some users - so be careful) is to use parallex effects as demonstrated on [the project's homepage.](https://frontendfoc.us/link/120147/web)
+
+[Mailwind: Use Tailwind CSS to Design HTML Emails](https://frontendfoc.us/link/120110/web "github.com") — Just add Tailwind’s utility classes as you normally would, then install and run Mailwind via npm to generate the accompanying CSS or inlined HTML.
+
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645615086/sbgferrrfeyng7r2bvbe.png)](https://frontendfoc.us/link/120108/web)
+
+[A Pure CSS Working Stopwatch](https://frontendfoc.us/link/120108/web "codepen.io") — This is a neat little CSS stopwatch demo that actually works — which is possible thanks to the Houdini `@property` (_as such it only works in Chrome and Edge right now_). Give it a try.
 
 ---
-
-> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-485/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/485/README.md)
-> - 译者：[daodaolee](https://github.com/daodaolee)
-> - 校对者：[Chen](https://github.com/LilyChenlin)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://frontendfoc.us/issues/530)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/530)
+> * 译者：
+> * 校对者：
