@@ -1,70 +1,70 @@
 ---
-title: 'CSS Weekly #488'
-date: '2022-02-09'
+title: 'CSS Weekly #486'
+date: '2021-12-22'
 categories:
   - 'CSS Weekly'
 publish: true
 ---
 
-[编写更好的 CSS](https://www.aleksandrhovhannisyan.com/blog/writing-better-css/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[CSS 中 :has() 选择器不仅仅是 “父选择器”](./has_selector.md)
 
-![Writing Better CSS](https://css-weekly.com/wp-content/uploads/2022/01/writing-better-css.jpg)
+![The CSS :has() Selector Is Way More Than a “Parent Selector”](https://css-weekly.com/wp-content/uploads/2021/12/the-css-has-selector-is-way-more-than-a-parent-selector.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-Aleksandr Hovhannisyan 研究了可以降低代码复杂性并允许您编写更好的 CSS 的各种场景。
+Bramus Van Damme 介绍有关 `:has()` 选择器的知识，并且 Safari Technology Preview 137 版本也兼容了它。
 
-[2022 的 CSS](https://www.bram.us/2021/12/27/css-in-2022/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[CSS 自定义属性](./cutsom_properties.md)
 
-![2022 的 CSS](https://css-weekly.com/wp-content/uploads/2022/01/css-in-2022.jpg)]
+![CSS Custom Properties](https://css-weekly.com/wp-content/uploads/2021/12/css-custom-properties.jpg)
 
-Bramus Van Damme 着眼于 2022 年我们可以在浏览器中实现哪些 CSS 功能。
+Stephanie Eckles 写了一篇深入 CSS 变量的好文，同时文章里也阐述了变量在使用过程的时候能有多灵活。
 
 ## 文章 & 教程
 
-[不要与级联层作斗争了，操控它！](https://css-tricks.com/dont-fight-the-cascade-control-it/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[平滑地还原 CSS 动画](https://pragmaticpineapple.com/smoothly-reverting-css-animations/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Mads Stoumann 提供了有关使用级联层的一些建议。
+Nikola Đuza 演示了如何平滑地还原一个 hover 的过渡。
 
-[深入研究 CSS 的径向和圆锥渐变](https://www.smashingmagazine.com/2022/01/css-radial-conic-gradient/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[Compat 2021 年终更新：给开发者准备的年终礼物](https://web.dev/compat2021-holiday-update/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Ahmad Shadeed 着眼于圆锥和径向渐变，解释了它们的工作原理、差异和相似之处、如何以及在何处使用它们，以及它们的一些用例。
+Philip Jägenstedt 和 Mariko Kosaka 更新了 Compat 2021 的年终汇报 — 消除五个关键且重要的浏览器兼容性问题：CSS Flexbox、CSS Grid、position: sticky，aspect-ratio 和 CSS transforms。
 
-[友好的 Animation](https://css-tricks.com/empathetic-animation/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[偏好媒体查询](https://12daysofweb.dev/2021/preference-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Cassie Evans 概述了在网络上创建动画时要问的几个基本问题。
+Stephanie Eckles 讲述了两个最受支持且可以检测用户偏好的媒体查询：prefers-reduced-motion 和 prefers-color-scheme。
 
-[30 个前端技巧](https://kittygiraudel.com/2022/01/04/30-frontend-tips/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[CSS：我不是系列](https://calendar.perfplanet.com/2021/css-me-not/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Kitty Giraudel 提供了 30 条出色的建议，可帮助您成为更好的前端开发人员。
+Stoyan Stefanov 提出了他对当下 CSS 的一些看法。
 
-[Emojis 使用场景：在文本和电子邮件中包含表情符号的注意事项](https://blog.easterseals.com/emojis-and-accessibility-the-dos-and-donts-of-including-emojis-in-texts-and-emails/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[Tailwind 和 CSS 的美貌](https://thoughtbot.com/blog/tailwind-and-the-femininity-of-css?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Beth Finke 分享了在文本和电子邮件中使用 Emojis 的注意事项。
+对于 Web 开发中的前端专业知识，我们有时候可能会忽视它，Elina Natario 讲述了我们为什么会这样。
 
 ## 工具
 
-[容器查询 Polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[SVGcode：将光栅图像转换为 SVG 矢量图形](https://web.dev/svgcode/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-一个用于 CSS 容器查询的小型 polyfill。它在客户端转换 CSS 代码并使用 ResizeObserver 和 MutationObserver 实现容器查询功能。
+SVGcode 是一个渐进式 Web 应用程序，用于将 JPG、PNG、GIF、WebP 和 AVIF 等光栅图像转换为 SVG 格式的矢量图形。
 
-[Floating UI](https://floating-ui.com/?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[有关日历的新增按钮](https://jekuer.github.io/add-to-calendar-button/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-Floating UI 是一个低代码工具包，用于定位浮动元素，同时智能地将它们保持在视图中。包括工具提示、弹出框、下拉菜单、菜单等。
+一个方便的 JavaScript 代码片段，可让您创建漂亮的按钮，并且可以让用户将事件添加到他们的日历中。
 
 ## 灵感
 
-[巴黎的满月？](https://codepen.io/pehaa/pen/rNVWVYd?utm_source=CSS-Weekly&utm_campaign=Issue-488&utm_medium=web)
+[Lynn Fisher 的作品集](https://lynnandtonic.com/?utm_source=CSS-Weekly&utm_campaign=Issue-486&utm_medium=web)
 
-![Full Moon in Paris?](https://css-weekly.com/wp-content/uploads/2022/01/full-moon-in-paris.jpg)
+![Lynn Fisher's Portfolio](https://css-weekly.com/wp-content/uploads/2021/12/lynnandtonic.png)
 
-Paulina Hetman 创造了一个很棒的动画场景，计算直到下一次巴黎满月的日子。
+Lynn Fisher 重新设计了她的作品。与往常一样，她的作品令人印象深刻，鼓舞人心，令人费解。 （提示：调整浏览器大小有意想不到的变化）
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-488/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/488)
+> - [查看原文](https://css-weekly.com/issue-486/)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/486/README.md)
 > - 译者：[daodaolee](https://github.com/daodaolee)
-> - 校对者：[daodaolee](https://github.com/daodaolee)
+> - 校对者：[Chen](https://github.com/LilyChenlin)
