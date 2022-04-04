@@ -1,103 +1,141 @@
 ---
-title: 'JavaScript Weekly #581' #不可修改
-date: '2022-03-19' #不可修改
+title: 'JavaScript Weekly #582' #不可修改
+date: '2022-03-26' #不可修改
 categories:  #不可修改
   - 'JavaScript Weekly'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fwlwspwujh4vunf8emyx.jpg)](https://javascriptweekly.com/link/121247/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/x6ev0rlnjqwfz8a6q8u7.jpg)](https://javascriptweekly.com/link/121501/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[Shader Park: Create Interactive 2D and 3D Shaders with JavaScript](https://javascriptweekly.com/link/121247/web "shaderpark.com") — An open source Web-based platform, community, _and_ [library](https://javascriptweekly.com/link/121248/web) for simplifying the mystifying world of shaders and GPUs by letting you create them procedurally with JavaScript. Lots to play with and [explore](https://javascriptweekly.com/link/121249/web) here. _Note: This site is heavy on the browser given its use of WebGL, so may not be suitable for every device._
+[Parcel v2.4.0 Released: The Zero Config Build Tool](https://javascriptweekly.com/link/121501/web "parceljs.org") — Parcel’s [new CSS parser and compiler](https://javascriptweekly.com/link/121502/web) – Parcel CSS – now makes it into the main Parcel build tool as the default CSS transformer and minifier. There is more, of course: CSS Color Level 4 support, cascade layers, improved JS dead code elimination, and support for class static initialization blocks.
 
-💡 If you'd prefer something solely in 2D on the good old HTML canvas, [▶️ this 55-minute introduction to _creative, visual coding_](https://javascriptweekly.com/link/121250/web) with JavaScript is a neat alternative.
+Devon Govett and Team
 
-[Prettier 2.6 Released](https://javascriptweekly.com/link/121238/web "prettier.io") — The popular code formatting tool now has a `singleAttributePerLine` option to only place one attribute per line (as is common in certain types of template), adds TypeScript 4.6 support, and better formats JS code in various contexts (e.g. decorators, inline `await` in JSX, end-of-line comments).
+[RFC: Intent to Ship React 18](https://javascriptweekly.com/link/121540/web "github.com") — This RFC covers the new features and changes coming to React 18. While React 18 is _very_ close, the team would like to get ‘one final round of broad public feedback’ (which you can submit [here](https://javascriptweekly.com/link/121541/web)) before shipping.
 
-[How npm Packages Were Used in a Protest Against the War in Ukraine](https://javascriptweekly.com/link/121193/web "snyk.io") — A few days ago, users of projects reliant upon [node-ipc](https://javascriptweekly.com/link/121195/web) ([such as Vue CLI](https://javascriptweekly.com/link/121194/web)) began to notice odd behaviors, including files being overwritten on systems geolocated to Russia (or Belarus) and [protest messages](https://javascriptweekly.com/link/121196/web). This is a complex story and another reminder of how fragile the package supply chain can be. _The Register_ has a [shorter and news-ier writeup](https://javascriptweekly.com/link/121244/web), if you prefer.
+React Community
 
-[Deno 1.20 Released](https://javascriptweekly.com/link/121245/web "deno.com") — A pretty big release for the JavaScript / TypeScript runtime with increased performance, new commands for running benchmarks and test suites, timeouts for AbortSignal, plus an upgrade to V8 10.0 and TypeScript 4.6. If only all projects wrote release posts as thorough as this.
+[![](https://copm.s3.amazonaws.com/0df87254.jpg)](https://javascriptweekly.com/link/121500/web)
+
+[Testing Your Web Apps with Cypress](https://javascriptweekly.com/link/121500/web "frontendmasters.com") — Join Steve Kinney on this detailed course covering Cypress: A fast, easy way to write end-to-end tests for your client-side apps. Learn about the selector engine, test runners, assertion library, and more.
+
+Frontend Masters sponsor
+
+[The Tao of Node: On Design, Architecture and Best Practices](https://javascriptweekly.com/link/121503/web "alexkondov.com") — A developer has boiled down all of the hard-earned best practices and gut feelings he’s picked up for developing high-quality Node apps over time.
+
+Alex Kondov
+
+✉️  [This Week's Issue of _React Status_: It's Where All the React Links Go](https://javascriptweekly.com/link/121542/web "react.statuscode.com") — If you work with React at all, be sure to check out our sister weekly: _React Status._ This week saw a lot of solid releases including that of [Turnstone](https://javascriptweekly.com/link/121543/web), a new React search box component, and [Liqvid 2.1](https://javascriptweekly.com/link/121544/web), a system for creating interactive videos with React.
+
+Cooperpress
 
 ## **IN BRIEF:**
 
-*   Joel Smith brings us up to speed with [what came out of GatsbyConf 2022](https://javascriptweekly.com/link/121197/web).
+*   Another week, [another package supply chain issue](https://javascriptweekly.com/link/121504/web) with hundreds of malicious packages used in a typosquatting attack against `@azure` scope package users.
 
-*   📅 Talking of events, [VueConf US](https://javascriptweekly.com/link/121198/web) is headed to Fort Lauderdale, Florida between June 8-10, 2022.
+*   Ever thought MDN was valuable enough that you'd want to pay for it? With [MDN Plus](https://javascriptweekly.com/link/121505/web), now you can do just that _and_ unlock extra features into the bargain.
 
-*   Node.js has had a [swathe of security releases](https://javascriptweekly.com/link/121199/web) (for each maintained branch) to fix an OpenSSL related [issue of high severity](https://javascriptweekly.com/link/121200/web).
+*   📅 [All Day Hey! 2022](https://javascriptweekly.com/link/121535/web) is a simultaneously live and streamed dev event coming to Leeds, England on May 5. Speakers include Cassidy Williams (on functional JS) and Stephanie Stimac (on UX and PWAs).
 
-*   [Boa](https://javascriptweekly.com/link/121201/web) is an in-progress JS lexer, parser and compiler being written in Rust. The [newest version](https://javascriptweekly.com/link/121202/web) adds more ECMAScript features, supports almost 50% of the Test262 suite, and now uses a virtual machine to execute JS.
-
-*   Writing Twitter-facing apps in JavaScript? [Twitter has announced](https://javascriptweekly.com/link/121246/web) a new Twitter API v2 SDK (in beta) for TS/JS.
-
-*   🤡 It's one year since the issue of JavaScript Weekly featuring [our officially worst feature image](https://javascriptweekly.com/link/121242/web).
+*   AWS Lambda [now supports up to 10GB of ephemeral storage](https://javascriptweekly.com/link/121536/web) on your serverless functions.
 
 
 ## **RELEASES:**
 
-[Verdaccio 5.8](https://javascriptweekly.com/link/121203/web) – Private npm registry, now with [customizable web UI.](https://javascriptweekly.com/link/121204/web)  
-[Vuetify 3.0 Beta](https://javascriptweekly.com/link/121205/web) – Material Component framework for Vue.  
-[MDX 2.1](https://javascriptweekly.com/link/121206/web) – JSX in Markdown.  
-[React Menu 3.0](https://javascriptweekly.com/link/121207/web) – Customizable nested menu component.  
-[Angular 13.3.0](https://javascriptweekly.com/link/121209/web)
+[Node 17.8.0](https://javascriptweekly.com/link/121506/web) – `perf_hooks` adds `http` tracing.  
+[Pixi.js 6.3.0](https://javascriptweekly.com/link/121507/web) – Fast 2D rendering library.  
+[Next SEO 5.2](https://javascriptweekly.com/link/121508/web) – Easier SEO for Next.js apps.  
+[React Joyride 2.4](https://javascriptweekly.com/link/121509/web) – Create guided tours within React apps.
 
 ## 📒 Articles & Tutorials
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jjcp6am2zg0ywsmq2thj.jpg)](https://javascriptweekly.com/link/121239/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xdlbll7ouevtkqvj561y.jpg)](https://javascriptweekly.com/link/121513/web)
 
-[How To Make a Drag-and-Drop File Uploader with Vue.js 3](https://javascriptweekly.com/link/121239/web "www.smashingmagazine.com") — A whole _four_ years ago, we linked to [Joseph’s guide](https://javascriptweekly.com/link/121240/web) to making a drag-and-drop file uploader with _vanilla_ JavaScript, but now he’s back to take on the same challenge with the latest version of Vue.js.
+[`findLast` and `findLastIndex`: Proposed Ways to Search Arrays from End to Start](https://javascriptweekly.com/link/121513/web "2ality.com") — Dr. Axel quickly covers [the stage 3 proposal](https://javascriptweekly.com/link/121514/web) for `Array.prototype.findLast` and `Array.prototype.findLastIndex` that will provide an efficient way to find things in an array going _from the last back to the first_ item.
 
-[A Delightful React File/Directory Structure](https://javascriptweekly.com/link/121214/web "www.joshwcomeau.com") — We have featured a number of these types of articles, but there’s always room for another perspective on the ‘right’ way to lay out a project, particularly as React itself is reasonably unopinionated on the matter.
+Dr. Axel Rauschmayer
 
-[How to Use JavaScript to Extend the Functionality of Your Chatbot](https://javascriptweekly.com/link/121216/web "bit.ly") — Create custom actions and extend the functionality of your NLU chatbot builder with JavaScript.
+[An Introduction to AWS CloudFront Functions](https://javascriptweekly.com/link/121537/web "www.honeybadger.io") — CloudFront Functions allow you to deploy serverless JS functions to AWS’ network of edge locations to be executed as close as possible to end-users. Sounds like Lambda@Edge? The author explains the difference there too.
 
-[The 'Double-Assignment Pattern' in jQuery's Source Code](https://javascriptweekly.com/link/121215/web "www.zhenghao.io") — The author found an interesting technique in jQuery’s code and set out to figure out its benefits.
+Ayooluwa Isaiah
 
-[Next.js's New Official 'Foundations' Course](https://javascriptweekly.com/link/121217/web "nextjs.org") — Next.js released a new foundational course that covers the essentials of React, how it relates to Next.js, and building a first Next.js app.
+[Finally, Cloud Without Complexity](https://javascriptweekly.com/link/121526/web "vultr.com") — Vultr empowers users to deploy an instance in 60 seconds or less with the OS of their choice! Redeem your $150 credit.
 
-[Remix vs Next.js](https://javascriptweekly.com/link/121218/web "bejamas.io") — [Remix](https://javascriptweekly.com/link/121219/web) is a relatively new React-based full-stack framework created by the original team behind React Router. It takes a different approach to the better known [Next.js.](https://javascriptweekly.com/link/121220/web) This is a detailed guide to the key differences.
+Vultr sponsor
 
-[Creating a Simple Table Sorting and Pagination Feature](https://javascriptweekly.com/link/121222/web "www.raymondcamden.com") — Rendering a sortable, paginated table with some help from JavaScript.
+[Exploring SvelteKit in 2022 by Building a Portfolio Site](https://javascriptweekly.com/link/121545/web "blog.openreplay.com") — [SvelteKit](https://javascriptweekly.com/link/121546/web) is a framework for building Svelte apps that handles the boring bits while letting you focus on the fun and creative bits of app writing.
 
-[Announcing Build Matrix](https://javascriptweekly.com/link/121221/web "buildkite.com") — See how we reduced a 402-line pipeline YAML down to 160 lines 📉
+David Adeneye
 
-▶  [A Discussion of Where TypeScript Excels](https://javascriptweekly.com/link/121223/web "thenewstack.io") — Extracts from an interview with TypeScript’s Luke Hoban and Daniel Rosenwasser.
+▶  [Zach Leatherman on Going Full-Time on the Eleventy SSG](https://javascriptweekly.com/link/121516/web "changelog.com") — Zach Leatherman recently announced he will now be working on the JS-powered static site generator [Eleventy](https://javascriptweekly.com/link/121517/web) on a full-time basis at Netlify.
 
-[Upgrading Next.js for Instant Performance Improvements](https://javascriptweekly.com/link/121241/web "vercel.com") — A case study of how the Vercel team brought a Next.js 8 demo up to Next.js 12 standards and saw huge improvements in the process.
+JS Party Podcast podcast
 
-[Getting Unique Values from an `Array` with `Set`](https://javascriptweekly.com/link/121224/web)  
-Chris Bongers
+[Implementing a Delay for a Cookie Consent Banner](https://javascriptweekly.com/link/121518/web "dariusz.wieckiewicz.org") — Here’s how to go about creating an ‘ideal’ cookie consent banner — chiefly one that doesn’t cause cumulative layout shift (CLS) issues.
+
+Dariusz Więckiewicz
+
+[Migrating Our Monorepo to Yarn 2](https://javascriptweekly.com/link/121520/web)  
+Taylor Bantle (DoltHub)
+
+[How to Migrate from Vue CLI to Vite](https://javascriptweekly.com/link/121538/web)  
+Daniel Kelly
+
+[Building a VS Code Extension with Vue.js](https://javascriptweekly.com/link/121521/web)  
+Bilal Haidar
+
+[Building a Scrolling 'Vaporwave' Scene with Three.js](https://javascriptweekly.com/link/121539/web)  
+Maxime Heckel
 
 ## 🛠 Code & Tools
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ikffzxz0rblvqlyl8tbx.jpg)](https://javascriptweekly.com/link/121225/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hef6tw1fylou2umcoixu.jpg)](https://javascriptweekly.com/link/121522/web)
 
-[Peaks 1.0: UI Component for Interacting with Audio Waveforms](https://javascriptweekly.com/link/121225/web "github.com") — Let’s say you’re building an audio editor of some kind - this is the sort of control you might want to use. And it’s from the BBC too, which is cool.
+[Piling.js: A Library for Creating 'Visual Pile' Interfaces](https://javascriptweekly.com/link/121522/web "piling.js.org") — [Visual piling](https://javascriptweekly.com/link/121523/web) is an approach for organizing and grouping elements into collections. Piling.js makes it possible, fast, and provides the required UI. One of those things you need to see to get so luckily there [are demos](https://javascriptweekly.com/link/121524/web).
 
-[Wave.js 2.0: An Audio Visualization Library](https://javascriptweekly.com/link/121226/web "github.com") — If you don’t need to create an audio editor and just want a _music go wub wub, lines go wiggle wiggle_ type of visualization, this is for you. There are some [live demos here](https://javascriptweekly.com/link/121227/web).
+Fritz Lekschas
 
-[Faker 6.0: Generate Massive Amounts of Fake Data in Node or Browser](https://javascriptweekly.com/link/121228/web "github.com") — After an issue of a maintainer going 'rogue', a community team [took over](https://javascriptweekly.com/link/121229/web) the popular Faker project and their first major release is now out, complete with ESM support. [v5 to v6 migration instructions](https://javascriptweekly.com/link/121230/web).
+[Ladle: Develop and Test Your React Stories Faster](https://javascriptweekly.com/link/121525/web "www.ladle.dev") — A new tool for building and testing React components in an isolated environment. Reminds you of Storybook? Ladle aims to be a drop-in replacement but that offers faster performance all round (and, yes, there are benchmarks).
 
-[Pulumi: Developer-First Infrastructure with JavaScript](https://javascriptweekly.com/link/121231/web "www.pulumi.com")
+Vojtech Miksu
 
-[sysend.js: Send Messages Between Open Pages or Tabs in Same Browser](https://javascriptweekly.com/link/121232/web "github.com") — A small library that abstracts a mechanism for sending messages between pages open in the same browser. Supports cross-domain communication and is based on localStorage and the BroadcastChannel API. Here’s [a demo](https://javascriptweekly.com/link/121233/web) (if you open it twice).
+[Studio 3T Manages Your Data, While You Wrestle Your App into Shape](https://javascriptweekly.com/link/121515/web "studio3t.com") — Studio 3T's full suite of MongoDB tools lets you develop with data even faster and turn queries into code.
 
-[Chrome Extension CLI: The CLI for Your Next Chrome Extension](https://javascriptweekly.com/link/121234/web "github.com") — Want to get building an extension for Chrome as quickly as possible? This tool aims to get you on the right path ASAP.
+Studio 3T sponsor
 
-[js2xml: Convert JavaScript Code to an XML Document](https://javascriptweekly.com/link/121235/web "github.com") — Why? To make it easier to extract things from elsewhere using XPath, apparently.
+[Postgres.js 3.0: Fast, Full-Featured Postgres Client for Node (and Deno)](https://javascriptweekly.com/link/121527/web "github.com") — Now for both Deno and Node.js, this high performance Postgres library offers realtime change subscription, dynamic query building via a special template literal, large objects, high availability via multi-host connection URLs, async cursors, and more. [Slonik](https://javascriptweekly.com/link/121528/web) is another option to consider in this space too.
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_140,e_sharpen:60/eesglwuwfvvwkgkzi1hf.jpg)](https://javascriptweekly.com/link/121236/web)
+Rasmus Porsager
 
-[Emoji Button: A Vanilla JavaScript Emoji Picker](https://javascriptweekly.com/link/121236/web "emoji-button.js.org") — Turns a button element into an emoji picker (similar to that some operating systems provide). [GitHub repo](https://javascriptweekly.com/link/121237/web).
+[React Flow 10: For Creating Node-Based UIs, Editors, and Diagrams](https://javascriptweekly.com/link/121529/web "reactflow.dev") — A React component for building interactive diagrams or editors based around nodes (no, not Node.js 😁). This [blog post](https://javascriptweekly.com/link/121530/web) provides a good overview of the latest release.
 
-[Liqvid 2.1: Create Interactive Videos with React, HTML, CSS, and JS](https://javascriptweekly.com/link/121243/web "liqvidjs.org") — Now lets you use the Web Animations API in videos too.
+Webkid GmbH
+
+[Video to Reels: Automatically Edit Videos to Post on Instagram Reels](https://javascriptweekly.com/link/121531/web "github.com") — Powered by FFmpeg, ImageMagick, and zx. Features include rotate, resize, add a color filter, normalize audio, and more.
+
+Diego Fernandes
+
+[Comparing Chatbot Builders: A Dev's Look at Botpress, Dialogflow ES/CX](https://javascriptweekly.com/link/121519/web "bit.ly")
+
+Botpress sponsor
+
+[Dum: An `npm` Script Runner Written in.. _Rust_](https://javascriptweekly.com/link/121532/web "github.com") — Continuing a trend of building JavaScript tools in, well, _not_ JavaScript, the curiously named ‘Dum’ aims to replace `npm run` and `npx` to shave milliseconds off the task startup time. YMMV.
+
+EGOIST
+
+[React Custom Roulette: Yes, a Roulette Wheel as a React Component](https://javascriptweekly.com/link/121533/web) — It spins and everything. Fun.  
+Effectus Software
+
+[Slate: A Customizable Framework for Building Rich Text Editors](https://javascriptweekly.com/link/121534/web)  
+Ian Storm Taylor
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/581)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/581)
+> * [查看原文](https://javascriptweekly.com/issues/582)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/582)
 > * 译者：
 > * 校对者：
