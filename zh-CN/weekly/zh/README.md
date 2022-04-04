@@ -1,95 +1,94 @@
 ---
-title: 'JavaScript Weekly #574'
-date: '2022-02-22'
+title: 'JavaScript Weekly #570'
+date: '2021-12-24'
 categories:
   - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xbrtnhjvalt0al01p0nm.jpg)
+## 2021 年最棒的 JavaScript Weekly
+
+这是今年的最后一篇（我们在 2022 年 1 月 7 日回来）所以我们回顾了 2021 年的一些最受欢迎的文章，包括文章，工具，视频等。在本篇中，肯定会有一些引起你注意的东西:-)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[JavaScript 的管道运算符：简介和用例](https://javascriptweekly.com/link/119185/web "2ality.com") — 在 State of JS 2020 调查中，许多开发人员认为 JavaScript 中缺少管道运算符。有一个 [管道运营提案](https://javascriptweekly.com/link/119186/web) 已经处于 TC39 流程的第二阶段之中。 Axel 博士解释了为什么你需要这个，它是如何工作的，以及为什么 JS 不会有 F# 样式的管道。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qibevt2smrj4qldfqbed.jpg)
 
-[关于将 TypeScript 编译器移植到 Go（与 Rust 相比）](https://javascriptweekly.com/link/119145/web "kdy1.dev") — 作者是 Rust 的倡导者（创建了 swc），他认识到 Go 可能是一个更好的工具，尤其是用于构建类型检查器，并在此处解释了原因。这篇文章还引发了一场相当广泛的 [Hacker News 讨论](https://javascriptweekly.com/link/119147/web)，讨论了许多人为 Rust 辩护所涉及的复杂性。
+1. [ES2021：特性速递](./es2021_new_feature.md) — 早在今年 6 月，Ecma 大会就批准了 ES2021。 有关 [ECMAScript 2022 草案规范](https://tc39.es/ecma262/) 工作仍在继续。但是这篇介绍 ES2021 新功能的帖子是我们今年最受欢迎的链接，挺令人惊讶的。 Axel Rauschmayer 博士还有一篇 [关于 ES2021 的热门帖子](https://2ality.com/2020/09/ecmascript-2021.html)。
 
-![](https://copm.s3.amazonaws.com/582b4c11.png)
+2. [比较 Svelte 和 React](./svelte_vs_react.md) — 两个框架一起使用了很长一段时间后，作者根据真实示例确定了他喜欢哪个。我怀疑 2022 年 Svelte 将继续向前迈进一大步。
 
-[用于 VS Code 的 JavaScript Scratchpad，现在带有 Time Machine](https://javascriptweekly.com/link/119101/web "quokkajs.com") — Quokka.js 是探索和测试 JavaScript 的第一大工具。代码会在输入的时候立即运行。您的代码将会在新的 Time Machine 里执行，并允许您自动重播、前进/后退、编辑并继续，以及查看运行时值。
+3. [新一代构建工具对比](./build_tools_compare.md) — 新一代构建工具对比，包括 Snowpack、esbuild、Vite 和 wmr。
 
-🛠  [未导入：查找并修复悬空文件和未使用的依赖项](https://javascriptweekly.com/link/119148/web "github.com") — 您每天添加新代码的时候，可能会忘记删除旧代码。此工具可以帮助您发现项目中未使用的文件。
+4. [Rust 是 JavaScript 未来](https://javascriptweekly.com/link/118003/web "leerob.io") — 只能说这是一个意见，但日益增长的数据是很明显的。 Rust（以及 Go）现在大量用于替换可能在 JS 之前编写的 JavaScript 工具生态系统的部分（例如 Rome，SWC，Dink）。
 
-[参加 JavaScript 2022 现状调查](https://javascriptweekly.com/link/119149/web "stateofjs.com") — 几年过去了，新的 JavaScript 现状调查出来了，并且一如既往地推断开发人员对哪些库和框架感到兴奋。这不是一个完美的方案，不过每年的比较结果很有趣，我们会在结果出来后分享它。
+5. [2021 年 Web Workers 的趋势](https://javascriptweekly.com/link/118004/web "www.smashingmagazine.com") — 网络是单线程的，但两年前 Surma 告诉我们为什么 [要使用 Web Workers](https://javascriptweekly.com/link/118005/web)，尽管有困难，也要将多线程成为您的解决方案之一。
 
-## **简述:**
+6. [重新思考 JavaScript 的三元运算符](./ternary.md) — 三元运算符 ? "true" : "false"……许多开发人员对三元运算符“持一点怀疑态度”，James 说：它的简洁性是否值得单独使用？它是你可以“信任”的东西吗？ James 还研究了该语言的未来替代方案。
 
-*   ⭐️  Etsy 的一位工程师 [提到](https://javascriptweekly.com/link/119150/web) Etsy 将他们所有的 React 15.6 代码迁移到了 [Preact](https://javascriptweekly.com/link/119151/web)，而没有转到 React 16+。
+> [简化 React 身份验证](https://javascriptweekly.com/link/117992/web) — 在本文中，我们在 React 程序中布置了一种新的身份验证（加入控制器和 SSO）的方法。
 
-*   Deno 团队 [反思了 Deno 在 2021 年的进展](https://javascriptweekly.com/link/119187/web)。Angular 团队 [也做了类似的事情](https://javascriptweekly.com/link/119188/web)。
+## 📅 JavaScript 的 2021: 每月记事
 
-*   [TypeScript 4.6](https://javascriptweekly.com/link/119152/web) 处于测试阶段，专注于相对较小的技术改进，例如改进错误、跟踪分析器以及在调用 `super()` 之前允许在构造函数中编写代码。
+**一月：** [JS 的 2020 总结](https://javascriptweekly.com/link/118008/web) 出来了。和 [Snowpack 3.0](https://javascriptweekly.com/link/118009/web) 一样，React 的创建者 [离开了 Facebook](https://javascriptweekly.com/link/118010/web)。
 
-*   Remix 项目的 Ryan Florence 在 Twitter 上指出 “[开发者们已经为 React 新世界做好了准备](https://javascriptweekly.com/link/119153/web)”。
+**二月：** [npm 7.0](https://javascriptweekly.com/link/118011/web) 发布，如 [Vite 2.0](https://javascriptweekly.com/link/118012/web)。
 
-*   Mike Melanson 问到 [2022 年是否会成为全栈 JavaScript 的 “黄金时代”](https://javascriptweekly.com/link/119154/web) ？
+**三月：** Node.js 团队开始思考 [未来 10 年](https://javascriptweekly.com/link/118013/web)。同时，[jQuery 3.6.0](https://javascriptweekly.com/link/118014/web) 发布。V8 [加快了发布时间](https://javascriptweekly.com/link/118015/web)，发布了 [ES2021 候选规范](https://javascriptweekly.com/link/118016/web)。 [v8 9.0](https://javascriptweekly.com/link/118017/web) 已发布。[Deno 公司成立](https://javascriptweekly.com/link/118018/web)。
 
+**四月：** [Node.js 16](https://javascriptweekly.com/link/118019/web) 发布，Node 中的 ES module [开始起飞](https://javascriptweekly.com/link/118020/web)。
 
-## **版本更新:**
+**五月：** Rome [创造了一家公司，开始筹钱，招聘员工](https://javascriptweekly.com/link/118021/web)。
 
-[Nightwatch 2.0](https://javascriptweekly.com/link/119189/web) — 端到端的测试框架。 [Gluegun 5.0](https://javascriptweekly.com/link/119155/web) — 用于构建 Node.js CLI 应用程序的工具包。 [Node-RED 2.2.0](https://javascriptweekly.com/link/119156/web) – 低代码事件驱动的应用程序开发环境。 [parse-domain 7.0](https://javascriptweekly.com/link/119157/web) — 将主机名拆分为多个部分。 [NeutralinoJS 4.2.0](https://javascriptweekly.com/link/119158/web) — X 平台 JS 桌面应用程序框架。 [Mocha 9.2](https://javascriptweekly.com/link/119159/web) — JS 测试框架。  
-[Serverless Framework v3](https://javascriptweekly.com/link/119190/web)  
-[React Native 0.67](https://javascriptweekly.com/link/119160/web)  
-[npm 8.4.0](https://javascriptweekly.com/link/119161/web)
+**六月：** [UNDICI 4](https://javascriptweekly.com/link/118022/web) 发布并作为 Node.js 更好的替代 HTTP 客户端。[React 18](https://javascriptweekly.com/link/118023/web) 揭晓。 ES2021 已完全批准。
 
-## 📒  文章 & 教程
+**七月：** 低代码环境 [Node-RED 2.0](https://javascriptweekly.com/link/118024/web) 发布。
 
-[React 服务器组件：入门](https://javascriptweekly.com/link/119162/web "blog.plasmic.app") — [Plasmic](https://javascriptweekly.com/link/119163/web) 可视化页面构建器应用程序的联合创始人带我们探索了 React 服务器组件（目前是即将发布的 React 18 中的一个实验性功能）以及它们如何在后台运行。
+**八月：** Wikimedia Foundation [选择了](https://javascriptweekly.com/link/118025/web) Vue.js 作为其前端的框架。 [Vue 3.2](https://javascriptweekly.com/link/118026/web) 发布。 Ruby 在 Rails 团队中被认为是 Ruby 框架中 [处理 JavaScript 的新方法](https://javascriptweekly.com/link/118027/web)。
 
-[多利用 JavaScript 的奇淫技巧](https://javascriptweekly.com/link/119164/web "kittygiraudel.com")
+**九月：** Node.js 获得了一个名为 [Corepack](https://javascriptweekly.com/link/118028/web) 的实验包管理器（SIC）。
 
-[React 身份验证](https://javascriptweekly.com/link/119106/web "userfront.com") — 在本文，我们展示了一种在 React 应用程序中进行身份验证（加上访问控制和 SSO）的新方法。
+**十月：** [Node 17](https://javascriptweekly.com/link/118029/web) 发布。 [React 的新文档](https://javascriptweekly.com/link/118030/web) 网站已亮相。 jQuery Mobile [已被推翻](https://javascriptweekly.com/link/118031/web)。[Parcel 2](https://javascriptweekly.com/link/118032/web) 发布。Remix 项目持资金 [300 万美元](https://javascriptweekly.com/link/118033/web)。[Gatsby 4](https://javascriptweekly.com/link/118034/web) 发布。
 
-[`npm` 的完整初学者指南](https://javascriptweekly.com/link/119167/web "css-tricks.com") — 本指南还是挺有意思的。
+**十一月：** [React 18](https://javascriptweekly.com/link/118035/web) 进入测试版。[Angular 13](https://javascriptweekly.com/link/118036/web) 发布。Remix [开源了](https://javascriptweekly.com/link/118037/web)。
 
-[2022 年 Web 开发的底线？](https://javascriptweekly.com/link/119168/web "engineering.linecorp.com") — 分析围绕前端技术、浏览器共享、客户端设备等的众多统计数据，以了解我们必须继续支持的最低标准。
+**十二月：** [Create React App 5.0](https://javascriptweekly.com/link/118038/web) 发布.
 
-[DevTools 有什么新功能？](https://javascriptweekly.com/link/119169/web "www.smashingmagazine.com") — 对 Chrome、Edge、Safari 和 Firefox 中开发人员工具的最新的更改和新增的功能进行了不错的介绍。
+## 🛠 2021 年的顶级代码 & 工具
 
-[沿 SVG 路径为任何内容设置动画](https://javascriptweekly.com/link/119170/web "tympanus.net") — 如何使用 SVG 路径和 `getPointAtLength()` 函数使用 JavaScript 编写创意动画。
+[zx：用于编写更好的 shell 脚本的工具](https://javascriptweekly.com/link/118039/web "github.com") — 和 `bash` 不一样，`zx` 提供了各种各样的样式来和你打交道。
 
-[使用 Sourcegraph 重新定义 OSS 世界：经验教训](https://javascriptweekly.com/link/119108/web "about.sourcegraph.com")
+[100 多个算法和数据结构的 JS 演示](https://javascriptweekly.com/link/118040/web "github.com") — 许多常见算法的示例（例如，比特操纵，帕斯卡尔三角形，汉明距离）和数据结构（例如，链接的列表，尝试，图形）等。
 
-[比较 CSS 与 JavaScript](https://javascriptweekly.com/link/119171/web "kilianvalkhof.com")
+[HTM 3.1.0：使用标准标记模板的 JSX 替代方案](https://javascriptweekly.com/link/118041/web "github.com") — 这个资源已经有好几年了，但仍然在更新。类似 JSX 样式语法，在普通的 JavaScript（使用标记模板）中，也支持像 REST Spread 和 Reference 组件这样的内容。
 
-[TypeScript 如何赢得开发人员和 JavaScript 框架的欢迎](https://javascriptweekly.com/link/119172/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lbya5pyfwedazjpwjggv.jpg)
 
-▶  [使用 Node 做与 Jim Cramer 相反的事情](https://javascriptweekly.com/link/119191/web)
+[Tagify：优雅的标签输入组件](https://javascriptweekly.com/link/118042/web "yaireo.github.io") — 最好的例子就在这里， [GitHub  仓库](https://javascriptweekly.com/link/118043/web)。
 
-## 🛠  代码 & 工具
+[Typehole: VS 代码工具自动生成类型和接口](https://javascriptweekly.com/link/118044/web "github.com") — 一个可帮助您自动创建运行时值的初始静态类型的扩展。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chcwkbfwx58zwvecqzvc.jpg)
+[Cheetah Grid: Web 最快的开源数据表？](https://javascriptweekly.com/link/118045/web "github.com") — 我们之前没有遇到特别大的问题。如果你想自己尝试，这里有一个表内有 100 万条记录的实时演示。新版本也刚刚发布。
 
-[chroma.js：零依赖颜色转换库](https://javascriptweekly.com/link/119173/web "vis4.net") — 我很喜欢这个简单但色彩丰富的文档。如果你有关于颜色和颜色值的需求，一定要看看这个。 [GitHub 存储库](https://javascriptweekly.com/link/119174/web)。
+## 📺 2021 年最流行的视频
 
-[Clipboard.js：现代 “复制到剪贴板” 库](https://javascriptweekly.com/link/119175/web "github.com")
+▶  [JavaScript 的 Creator Brendan Eich 分享了他的 JavaScript 故事](https://javascriptweekly.com/link/118047/web "www.youtube.com") — Lex Fridman 是一名 AI 研究人员，众所周知他很喜欢高质量的访谈，他与 Brendan Eich 谈到了他的编码历史，JavaScript 的完整起源故事，以及浏览器之间的战争。
 
-[使用 Stream 的聊天 API 构建移动响应式远程医疗寻呼机应用程序](https://javascriptweekly.com/link/119107/web "getstream.io") — 构建具有表情符号/反应、内置 GIF 支持、编辑/删除消息、直接和群聊等功能的响应式聊天应用程序。
+▶  [关于 React 18，你需要知道什么？](https://javascriptweekly.com/link/118049/web "www.youtube.com")
 
-[ngraph.path：通过图寻找路径](https://javascriptweekly.com/link/119177/web "github.com") — 如果您想了解它如何处理六个全球城市的道路网络，这里有一个 [现场演示](https://javascriptweekly.com/link/119178/web)。
+[onclick 之上：React 中的事件](https://javascriptweekly.com/link/117994/web "go.lightstep.com")
 
-[ExcellentExport.js 3.8：将表格数据导出到 Excel 或 CSV](https://javascriptweekly.com/link/119179/web "github.com") — 如果您的应用/页面在 HTML 表格中要填充一些数据，并且您希望将其导出为 CSV 或 XLSX 而无需任何服务器参与，它可能会有所帮助。
+▶  [用 Kabom.js 编写 JavaScript 中 的 Mario 游戏](https://javascriptweekly.com/link/118050/web "www.youtube.com") — 2021 年最受欢迎的 JavaScript YouTubers 的 NE 显示了我们如何在一小时内创建一个基础平台。
 
-[Reaselct：React 的 “选择” 框组件](https://javascriptweekly.com/link/119180/web "github.com") — 目前有单选和多选版本，后者在标记场景中可以很好地工作。来自与 [REAVIZ 图表库相同的团队](https://javascriptweekly.com/link/119182/web)。
+▶  [十个 JavaScript Clean Code 示例](https://javascriptweekly.com/link/118051/web "www.youtube.com") — 如果您想让代码更简洁，可以考虑这十种方法。它来自 Ibeh Ubachukwu 的 [这篇文章](https://javascriptweekly.com/link/118052/web)。
 
-[Trilium Notes：使用 Node 构建的知识库应用程序](https://javascriptweekly.com/link/119183/web "github.com") — 用 Express 构建的分层笔记应用程序。
-
-[hyperid：快速生成唯一 ID](https://javascriptweekly.com/link/119184/web)
+▶  [单页应用程序毁了 Web ？](https://javascriptweekly.com/link/118053/web "www.youtube.com") — Frontend Framework Svelte 的创建者谈到了对单页应用程序提出的批评以及过渡应用程序如何成为后浪。
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/574)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/574/README.md)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+
+> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> - [查看原文](https://javascriptweekly.com/link/117985/web)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/570/README.md)
+> - 译者：[daodaolee](https://github.com/daodaolee)
+> - 校对者：[daodaolee](https://github.com/daodaolee)
