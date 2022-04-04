@@ -1,94 +1,98 @@
 ---
-title: 'JavaScript Weekly #576'
-date: '2022-02-24'
+title: 'JavaScript Weekly #577'
+date: '2022-02-25'
 categories:
   - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/molnign58vhxczqaa4pt.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hkw7nagh4ohgjgfyu2uv.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[Apache ECharts 5.3: 开源 JS 可视化库](https://javascriptweekly.com/link/119760/web "echarts.apache.org") — [发行说明](https://javascriptweekly.com/link/119761/web) 详细介绍了最新版本中的内容，包括关键帧动画、自定义加载动画以及性能提升 2-10 倍的新 SVG 渲染器。[这里也有很多演示](https://javascriptweekly.com/link/119762/web)。
+[JS 2021 现状调查](https://javascriptweekly.com/link/120043/web "2021.stateofjs.com") — 尽管说的是 2021 年，但该调查是在今年 1 月进行的，因此结果是最新的，代表了 16,085 名受访者给出的答案。与民意调查一样，尽管叙述的时候要小心（许多人已经注意到多样性或方法论方面的问题），但我们还是喜欢每年看到它并看到开发者们提到的内容：
 
-🥊  [跳过 JavaScript？一些后端语言如何进入前端](https://javascriptweekly.com/link/119706/web "github.com") — 你可能认为这是关于使用 WebAssembly 在浏览器中运行 Python 之类的文章，但不是。这是关于维护与后端进程的 WebSocket 连接并从后端动态渲染 HTML 的，比如 Elixir 和 Rails 堆栈。
+*   [esbuild](https://javascriptweekly.com/link/120050/web) 是满意度同比增长最大的工具。
+*   5.6% 的受访者 [正在使用 Deno](https://javascriptweekly.com/link/120051/web)。
+*   Axios、Lodash 和 Moment 等 [这些时间很久了的库](https://javascriptweekly.com/link/120052/web) 仍然是最受欢迎的。
+*   Syntax 是迄今为止 [最受欢迎的播客](https://javascriptweekly.com/link/120052/web)，列表中还有 24 个其他播客可供查看。
+*   TypeScript 是迄今为止最常见的 JavaScript 类型注解，Elm 位居第二。
+*   Shawn 'swyx' Wang 写了一个 [总结性的帖子](https://javascriptweekly.com/link/120055/web)。
 
-![](https://copm.s3.amazonaws.com/79ea00da.png)
+![](https://copm.s3.amazonaws.com/d3539cee.png)
 
-[在 JS 中使用 ButterCMS： `$ butter.post.list()`](https://javascriptweekly.com/link/119707/web "buttercms.com") — ButterCMS 是您的后端。让您的营销团队不需要前端即可更新网站和应用内容。免费 30 天。
+[用于 VS Code 的 JavaScript Scratchpad](https://javascriptweekly.com/link/120025/web "quokkajs.com") — Quokka.js 是探索和测试 JavaScript 的第一大工具。代码在您输入的时候会立即运行。新的 [代码查看器](https://javascriptweekly.com/link/119999/web) 提供了一种独特且高效的方式来检查运行时的值，以在单个连续视图中查看您的代码正在执行的操作。
 
-🎧  [JS Party 播客](https://javascriptweekly.com/link/119763/web "changelog.com") — 已经有一段时间没有说 JS Party 播客了，所以如果你还没有听过，可以来看看。
+[Express.js 5.0 已进入测试阶段](https://javascriptweekly.com/link/120000/web "github.com") — 考虑到 5.0 的第一个 alpha 版本是七年前，对于仍然广受欢迎和有影响力的 Node.js Web 应用程序库来说，这是一大步。这里还有 [5.x API](https://javascriptweekly.com/link/120001/web) 的完整文档。需要 Node.js 4 或更高版本才行 :-)
 
 ## **简述:**
 
-*   🤑 我们当中很少有人以超过 100 万美元的价格给《纽约时报》做一个非常基本的 JavaScript 应用程序。 Wordle 的创建者已经在 [Syntax 播客](https://javascriptweekly.com/link/119708/web) 上谈论过它。
+*   微软的 Angela Zhang 写了 [微软如何提高 React Native 调用 Windows API 的能力](https://javascriptweekly.com/link/120026/web)，以及它是如何在 Windows 11 中部分使用的。
 
-*   [Node.js 17.5.0](https://javascriptweekly.com/link/119709/web) 已经有了我们上周提到的 Fetch API 的实验性支持。
+*   Chrome 和 Firefox 的第 100 版本将很快发布，因此是时候 [考虑您的代码是否能够使用并通过测试](https://javascriptweekly.com/link/120002/web)。
 
-*   Khronos WebGL 工作组提醒我们，[WebGL 2.0 现在已经](https://javascriptweekly.com/link/119710/web) 得到了所有主流浏览器的广泛支持，并开始进行迁移。
+*   👾 喜欢 Wordle 文字游戏吗？ [Jazle](https://javascriptweekly.com/link/120004/web) 是用 Wordle 写的。
 
-*   流行的 HTTP 客户端 curl 有了一个 [`--json` 选项](https://javascriptweekly.com/link/119711/web)。
+*   Joyent 已将 Node.js 商标 [转让给 OpenJS 基金会](https://javascriptweekly.com/link/120027/web)。
 
-*   JavaScript 开发人员决定不用 React 和 SPA 的情况下 [构建 Rails 应用程序](https://javascriptweekly.com/link/119712/web)，这里有一些 [“热烈的讨论”](https://javascriptweekly.com/link/119714/web)。
+*   谷歌发布了 [其 Cloud Functions 无服务器平台的下一个版本](https://javascriptweekly.com/link/120028/web)，该平台具有更长的函数运行时间、更大的实例等。
 
-*   正如之前说的那样，Vue 3 现在是 Vue.js 的新 [默认版本](https://javascriptweekly.com/link/119716/web)，并且 [vuejs.org](https://javascriptweekly.com/link/119718/web) 也相应更新了。
+*   [ESLint 8.9.0](https://javascriptweekly.com/link/120003/web) 加入了新的 es2022 环境。
 
 
 ## **版本更新:**
 
-[Vite 2.8.0](https://javascriptweekly.com/link/119767/web) — 下一代前端工具。 [RedwoodJS 0.45.0](https://javascriptweekly.com/link/119720/web) — 边缘可部署的全栈 JS 框架。  
-[MikroORM 5](https://javascriptweekly.com/link/119722/web) — 节点型数据文件夹 ORM。 [AdminJS 5.6](https://javascriptweekly.com/link/119724/web) — 内置在 Node.js 中的管理面板。 [npm 8.5.0](https://javascriptweekly.com/link/119726/web)  
-[Ember.js 4.2.0](https://javascriptweekly.com/link/119728/web)
+[Next.js 12.1](https://javascriptweekly.com/link/120056/web)  
+[TypeScript 4.6](https://javascriptweekly.com/link/120005/web)  
+[Remix 1.2](https://javascriptweekly.com/link/120029/web) — 最新的全栈 JS 框架。 [zx 5.1](https://javascriptweekly.com/link/120006/web) — 使用 JS 编写更好的 shell 脚本。 [Strapi 4.1.0](https://javascriptweekly.com/link/120007/web) — headless Node.js CMS 系统。 [Cypress 9.5.0](https://javascriptweekly.com/link/120030/web) — 出名的测试系统。
 
 ## 📒  文章 & 教程
 
-[调试 JavaScript](https://javascriptweekly.com/link/119733/web "flaviocopes.com") — 它并不深入，但这是一次很舒服的 JavaScript 调试环境之旅。
+[如何追踪污染全局范围的代码](https://javascriptweekly.com/link/120012/web "mmazzarolo.com") — 您可能不希望代码将全局变量添加到 `window` 对象，并且要在有可能发生错误时找出问题所在。
 
-[Angular 编译器的工作原理](https://javascriptweekly.com/link/119734/web "blog.angular.io") — Angular 编译器（称为 `ngc`）是用于编译 Angular 应用程序和库的工具。这篇文章深入探讨了它的作用以及它是如何做到的。
+[`package.json` 的基础知识](https://javascriptweekly.com/link/120013/web "nodesource.com") — 您很可能多年来一直在使用 “package.json” 文件，但有必要重新认识一下它。
 
-[用 HTML 的 `<dialog>` 替换 JavaScript 对话框（部分）](https://javascriptweekly.com/link/119735/web "css-tricks.com") — 如何用 HTML 对话框元素替换 JavaScript 对话框，该元素提供与 `alert()`、`confirm()` 和 `prompt()` 方法类似的功能。
+[深入了解 React Native 的新架构](https://javascriptweekly.com/link/120032/web "medium.com") — 如 [React Native 团队的这篇文章](https://javascriptweekly.com/link/120033/web) 所述，React Native 的新架构将于 2022 年推出。
 
-▶  [用 TypeScript 编写 SPI SD 卡驱动程序](https://javascriptweekly.com/link/119737/web "www.youtube.com") — 来自实时底层 JavaScript 流的一个有趣（且非常长）的会话，深入到了从 SD 卡读取数据的底层工作。
+[100 多个用于高质量现代 Angular UI 的原生组件](https://javascriptweekly.com/link/120014/web "ad.doubleclick.net") — 获取构建企业级应用所需的所有组件。 Kendo UI for Angular 可以满足您的团队可能有的任何 UI 要求 — 包括主题、文档等等。
 
-[Deno 简介：它比 Node 更好吗？](https://javascriptweekly.com/link/119738/web "blog.appsignal.com") — 我们已经多次提到过来自 Ryan Dahl 的 [Deno](https://javascriptweekly.com/link/119739/web)，就像 Node.js 最初所做的那样。这篇文章介绍了一些关键特性，以及 Deno 的领先或落后之处。
+🏆  [了解 React 中的 JavaScript](https://javascriptweekly.com/link/120034/web "kentcdodds.com") — 本周我们又看到了一个经典的文章。它依然是几个关键 JS 功能的完美入门，其中提供了一些功能示例，可以帮助您进行 React 开发。
 
-[编写我自己的构建系统：将 Gulp 概念与现代 JS 结合起来](https://javascriptweekly.com/link/119740/web "palant.info") — 作者发现 Gulp 对流的依赖让扩展性变得有点复杂，并展示了使用异步生成器解决同一问题的不同方法。
+[Monorepos 概述](https://javascriptweekly.com/link/120035/web "monorepo.tools") — 一个新网站，它汇集了几乎所有您需要了解的关于 monorepos 的信息，以及构建它们的工具。
 
-▶  [Vue 3 中的有限状态存储](https://javascriptweekly.com/link/119741/web)
-
-[使用 Vue 3 和 Cube 构建 Apache ECharts 数据可视化仪表板](https://javascriptweekly.com/link/119742/web)
+[用 7 行 TypeScript 模仿 Rust 的 `Result` 类型](https://javascriptweekly.com/link/120015/web)
 
 ## 🛠  代码 & 工具
 
-[zx 5.0：用 JavaScript 编写更好的 Shell 脚本](https://javascriptweekly.com/link/119743/web "github.com") — 谷歌并没有松懈，一年内推出了四个主要版本的 `zx`。 `zx` 不是使用 `bash` 来组合一个快速脚本之类的东西，而是提供了对 JavaScript 执行相同的操作。 [v5.0](https://javascriptweekly.com/link/119744/web) 增加了内置的 YAML 支持。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f5lvp6umcum22r30uxvb.jpg)
 
-[Pintora：可扩展的文本到图表渲染库](https://javascriptweekly.com/link/119747/web "github.com") — 和成熟的 [Mermaid.js](https://javascriptweekly.com/link/119748/web)（今天也有新版本）有类似的想法，但对可扩展性的态度不同。
+[v8n 1.4：一个 “流利的校验” 库](https://javascriptweekly.com/link/120016/web "github.com") — 将规则链接在一起进行校验，例如`v8n().some.not.uppercase().test("Hello");`
 
-[Solidus：您需要的最后一个电子商务后端](https://javascriptweekly.com/link/119746/web "solidus.io") — 很灵活，在 “不妥协” 的情况下创建独特的定制购物体验。
+[使用 JS 代理作为低代码 REST 客户端的简洁示例](https://javascriptweekly.com/link/120036/web "gist.github.com") — 如果您以前从未使用过 [Proxy](https://javascriptweekly.com/link/120037/web)，您可以看下这个。
 
-[Griffel：带有提前编译的 CSS-in-JS](https://javascriptweekly.com/link/119745/web "github.com") — 来自 Microsoft 的另一个 CSS-in-JS 选择。这个拥有近乎零的运行时、SSR 支持以及使用 JS 对象定义的样式以及其他功能。
+[软件团队的项目管理从未如此简单](https://javascriptweekly.com/link/120017/web "shortcut.com") — Shortcut 是为开发人员构建的快速直观的项目管理工具。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dj87qbptlina52invyla.jpg)
+[TypeIt：多功能 “打字机效果”](https://javascriptweekly.com/link/120038/web "github.com") — 如果您需要一种看起来有人在网页上 “打字” 的效果，那么可以看下这个。或者，您也可以 [自行编写](https://javascriptweekly.com/link/120039/web)，或者，如果您使用 React，请考虑 [Windups](https://javascriptweekly.com/link/120040/web)。
 
-[Fable 3.7：成熟的 F# 到 JavaScript 编译器](https://javascriptweekly.com/link/119751/web "fable.io") — [F#](https://javascriptweekly.com/link/119752/web) 是来自 MS/.NET 稳定版的 “功能第一” 语言，我对它一直很震惊。如果你想尝试一下有关前端构建的东西，请查看这个 [在线 REPL](https://javascriptweekly.com/link/119753/web)，它有一些需要修改的示例，包括一个小马里奥（上图）。
+[Marked 4：一个快速的 Markdown 解析器和编译器](https://javascriptweekly.com/link/120018/web "github.com") — 它在浏览器或服务器端运行。[这里可以查看它的实际效果](https://javascriptweekly.com/link/120019/web)。
 
-[puppeteer-to-playwright: 从木偶到剧作家的转换脚本](https://javascriptweekly.com/link/119755/web "github.com") — 如果您想在两个流行的浏览器自动化系统之间迁移，这可能会有所帮助。
+[Minze：原生 Web 组件的 JavaScript 框架](https://javascriptweekly.com/link/120020/web "minze.dev") — 基于最新的 Web 组件标准，它允许您构建可用于任何项目的可移植组件库。
 
-[软件团队的项目管理从未如此简单](https://javascriptweekly.com/link/119754/web "shortcut.com")
+<img src="https://res.cloudinary.com/cpress/image/upload/w_200,h_200/lexrqzyprf1cymh90iwa.png" style="width: 60px" />
 
-[P42 JavaScript 助手：VS 代码的重构提示和自动化](https://javascriptweekly.com/link/119768/web "marketplace.visualstudio.com") — 一个 Visual Studio Code 扩展，它为您的编辑器带来了 67 种自动重构和快速修复常见 JS、TS 和 React 问题的方法，因此您甚至可以在使用普通 linter 之前进行格式化。
+[Heart Switch：React 的心形切换开关组件](https://javascriptweekly.com/link/120022/web "github.com") — 为大家准备了一份迟到的情人节礼物。你可以在 [这里](https://javascriptweekly.com/link/120023/web) 测试一下。
 
-[Mineflayer 4.0：用 JavaScript 构建 Minecraft 机器人](https://javascriptweekly.com/link/119756/web) — [GitHub 仓库](https://javascriptweekly.com/link/119757/web)
 
-[React 组件：多达 15 个库](https://javascriptweekly.com/link/119758/web)
+## 😍 有用的东西！
 
-🌞🌝  [SunCalc 1.9：用于计算太阳 / 月亮位置和相位的微型库](https://javascriptweekly.com/link/119759/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gmcrcdhpeh7yn8ngmref.jpg)
+
+GitHub 为其自定义的 Markdown 添加了一个方便的功能，以便您可以使用与 Mermaid.js 相同的格式直接 [在 Markdown 中编写图表](https://javascriptweekly.com/link/120041/web)。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/576)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/576)
+> * [查看原文](https://javascriptweekly.com/issues/577)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/577)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
