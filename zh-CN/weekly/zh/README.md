@@ -1,86 +1,73 @@
 ---
-title: 'Frontend Focus #523'
-date: '2022-01-05'
+title: 'Frontend Focus #524'
+date: '2022-02-15'
 categories:
   - 'Frontend Focus'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641385098/nxbcqczy7asnfyk3mewf.png)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641992854/b3e9yiscwbaepolakbax.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-**🚀 你好 2022!**
+[深入研究径向和圆锥渐变的 CSS](https://frontendfoc.us/link/118333/web "www.smashingmagazine.com") — `conic-gradient` 和 `radial-gradient`。本文解释了它们各自的工作原理、它们之间的区别（和相似之处）、使用它们的方式，以及它们的一些用例。
 
-**Hey! 👋** 愿你安好 — 感谢您打开今年的第一期！假期结束，我们回来了，并准备在一年内为您提供有关前端所有内容的最新信息。
+[Fuite：在 Web 应用程序中查找内存泄漏的工具](https://frontendfoc.us/link/118363/web "nolanlawson.com") — Fuite 旨在使检测网页中的内存泄漏的过程变得简单作为后者。
 
-如果您错过了我们的上一期，我们回顾了 2021 年整个 Frontend Focus 中分享的一些亮点（[点击这里](https://frontendfoc.us/link/118058/web) —  有很多好东西值得一读）. 另外，你可能也会想关注 [我们的 Twitter 帐户](https://frontendfoc.us/link/118059/web), 大多数时候会分享一些有用的知识和短链。
+![](https://copm.s3.amazonaws.com/b1e915b5.png)
 
-不管怎样，这就是我的介绍。 2022 年一切顺利！ — [Chris](https://frontendfoc.us/link/118060/web) ✌️
+[React 身份验证，简化](https://frontendfoc.us/link/118335/web "userfront.com") — 在本文中，我们展示了一种在 React 应用程序中进行身份验证（访问控制和 SSO）的新方法。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cuoeutnlfc7gdaajmo4v.jpg)
+[制作漂亮的渐变](https://frontendfoc.us/link/118334/web "www.joshwcomeau.com") — 有没有注意到渐变在中间看起来有点灰色/褪色？发生这种情况是因为 RGB 颜色有一些数学上的问题。在这里，Josh 展示了我们如何解决这个问题，并创建丰富、饱和的渐变。
 
-[浏览器渲染周期、硬件加速和合成器](./frontend_web_performance.md) — 详细阅读旨在让读者深入了解渲染周期，如何使用可用工具对其进行分析，并最大限度地减少传送帧 — 这对于高性能前端至关重要。
-
-[![](https://copm.s3.amazonaws.com/4e8e6035.png)](https://frontendfoc.us/link/118062/web)
-
-[课程介绍：具有自定义属性的动态 CSS（又名 CSS 变量）](https://frontendfoc.us/link/118062/web "frontendmasters.com") — 加入 Lea Verou 并学习如何最好地利用自定义属性 — 一场编写 CSS 的革命。这个详细的课程将帮助您提高代码重用性、可维护性，并实现以前可能需要大量 JavaScript 来完成的工作。
-
-[提高核心网页体验，一个 Smashing Magazine 案例研究](https://frontendfoc.us/link/118072/web "www.smashingmagazine.com") — Smashing Magazine 会怎样改进他们自己的 Core Web Vitals 呢，本篇详细介绍了有关检测和如何解决瓶颈，并最终获得了全面的绿色分数。
-
-[2022 年前端开发资源](https://frontendfoc.us/link/118063/web "www.iamdeveloper.com") — Nick 编制了一份他认为在 2021 年期间引人注目的东西的清单。包括了很多好东西，比如视频、教程和 CSS、JavaScript、动画、测试等方面的资源。
+[Firefox 96 发布](https://frontendfoc.us/link/118338/web "www.mozilla.org") — 这里汇集了一些特性，其中最值得注意的是 CSS [`color-scheme`](https://frontendfoc.us/link/118339/web) 支持，默认启用 Web Locks API，以及减少主线程负载。
 
 ## **⚡️ 快览:**
 
--   一场违反了反垄断法的诉讼正在进行，谷歌为了 [“远离” 搜索业务](https://frontendfoc.us/link/118065/web) 从而向苹果支付费用。
--   Mozilla 已经开始 [接受](https://frontendfoc.us/link/118066/web) 加密货币捐赠，但进展并不顺利 — 这里有两条 [肮脏的相关推文](https://frontendfoc.us/link/118068/web)。
--   Jen Kramer 的 [“CSS 入门”](https://frontendfoc.us/link/118069/web) 课程免费在 Frontend Masters 上观看。
--   本案例讲述了 [“深色模式”](https://frontendfoc.us/link/118070/web) 如何帮助一家巴西媒体公司降低用户流失并增加页面阅读量。
--   在前端开发、设计等方面，Xavier Harding [采访了屡获殊荣的 UI 设计工程师 Sara Soueidan](https://frontendfoc.us/link/118071/web)。
+-   Chrome 98 已经在 [测试中](https://frontendfoc.us/link/118340/web)，添加对 COLRv1 颜色渐变矢量字体的支持。
+-   Smash 热门应用 Wordle 内置于 [网络组件中](https://frontendfoc.us/link/118341/web)，使用约 100k 的 JavaScript。
+-   流行的静态网站生成器 Eleventy 的 1.0 版现已上线 — [这是特性介绍](https://frontendfoc.us/link/118342/web)。
+-   AngularJS 不再支持（不要与 “[Angular](https://frontendfoc.us/link/118343/web)” 混淆）。LTS 已于 2021 年底停止。
+-   在面临一些强烈反对后，Mozilla [暂停](https://frontendfoc.us/link/118345/web) 了加密货币捐赠。
+-   CityJS 将携一系列以 JavaScript 为重点的全球活动回归 — 其中第一场将于下个月在 [印度](https://frontendfoc.us/link/118346/web) 举行。
 
 ## 📙 **教程、文章 & 意见**
 
-▶  [在 CSS 中生成你的调色板](https://frontendfoc.us/link/118073/web "www.youtube.com") — Jake Archibald 和 Surma（离开 Google 7 年）座谈色彩空间 — 涉及设备功能、颜色混合、对比度计算等。
+[为什么超链接是蓝色的](https://frontendfoc.us/link/118336/web "blog.mozilla.org") — 去年夏天，我们分享了 [Elise Blanchard 的这篇文章](https://frontendfoc.us/link/118337/web)，试图揭开不起眼的蓝色链接的起源故事。本文会从头描述以进行更多互联网历史探索。
 
-[网页的昵称](https://frontendfoc.us/link/118064/web "maggieappleton.com") — 一篇有趣的文章，回顾了之前我们对网页起的那些昵称。
+[Web 性能的统一理论](https://frontendfoc.us/link/118347/web "calendar.perfplanet.com") — Web 性能通常以无数种方式定义 — 因此想深入学习可能会很棘手。在这里，性能专家 Alex Russell 解释了他对我们应该努力实现的目标的看法，并分享了他的 “北极星” 网络性能价值观。
 
-[容器查询](https://frontendfoc.us/link/118075/web "12daysofweb.dev") — 这个 CSS 属性让容器宽度和其他属性的组件实现了响应式的效果。
+[构建可靠的 Webhook 交付系统太恶心了](https://frontendfoc.us/link/118349/web "www.hookrelay.dev") — 跳过繁重的工作，让 Hook Relay 为您管理您的 webhook。为您的应用可视化 Stripe 质量的 webhook — 在几分钟内将其变为现实。
 
-[Doppler. - 将所有环境变量集中在一处](https://frontendfoc.us/link/118076/web "www.doppler.com") — 不要在为分散的 API 密钥和私有功能的管理而苦苦挣扎了。让您的团队和服务器与 Doppler 保持同步吧。
+[不要与级联作斗争，掌控它](https://frontendfoc.us/link/118348/web "css-tricks.com") — 我们的 CSS 工具箱中有新工具，可以让我们更好地控制级联。
 
-[Chrome 中的 CSS 下划线太细太低了](https://frontendfoc.us/link/118077/web "css-tricks.com") —Šime 在测试新的 CSS 属性 `text-decoration-thickness` 和 `text-underline-offset` 时发现了两个错误。
+[标注要点：WCAG 中标签滥用的场景](https://frontendfoc.us/link/118350/web "www.tpgi.com") — WCAG 中的标签何时会失效？这篇文章试图强调 WCAG 标签滥用的场景，并试图澄清一些东西。
 
-[CSS 应不应该覆盖默认浏览器样式？](https://frontendfoc.us/link/118079/web "css-tricks.com") — 您编写的每个 CSS 规则都可能会修改它们的默认值。但是 CSS 应不应该覆盖浏览器的默认设置？
-
-[为 WordPress 驱动的网站构建 Gatsby 主题](https://frontendfoc.us/link/118080/web)
-
-▶  [初学 CSS 要知道的最重要的六个概念](https://frontendfoc.us/link/118081/web)
-
-[平滑地还原 CSS 动画](https://frontendfoc.us/link/118082/web)
+[没有版本号的 Web](https://frontendfoc.us/link/118351/web "hiddedevries.nl") — _在 “web3” 领域之外，网络还有很多有意思的用途_。
 
 ## 🔧 **代码、工具和资源**
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641388651/adpr9kv0k0csvtl6y8ug.png)](https://frontendfoc.us/link/118087/web)
+![](https://cp-randombucket.s3.eu-west-1.amazonaws.com/ezgif.com-gif-maker.gif)
 
-[一点也不无聊的渐变：可以构建好看的渐变色的在线工具](https://frontendfoc.us/link/118087/web "non-boring-gradients.netlify.app") — 正如作者所说，它利用了非 sRGB 插值空间和非线性缓动，显然使渐变更具吸引力。
+[Vanta.js：您网站的 3D WebGL 背景动画](https://frontendfoc.us/link/118358/web "www.vantajs.com") — 从预定义的背景动画之一中选择，然后使用 UI 来调整其他设置。
 
-[在线 JavaScript：基于 Web 的简单 JavaScript 控制台输入](https://frontendfoc.us/link/118088/web "try.javascript.org.pl") — 这是一个与网页并排的控制台，因此您可以在学习时运行脚本片段。默认示例是 Eloquent JavaScript，您也可以输入任何在线资源。
+[APCA 对比度计算器：在 WCAG 3 中计算可访问文本的工具](https://frontendfoc.us/link/118359/web "www.myndex.com") — [Dan Hollick 的 Twitter 帖子](https://frontendfoc.us/link/118360/web) 解释了这种新的颜色对比功能，显然它将包含在 WCAG 的未来版本中。
 
-[Buildkite 现在是官方 AWS Graviton Ready 合作伙伴](https://frontendfoc.us/link/118091/web "buildkite.com")
+[使用带有 Recharts 和 InfluxDB 的 JavaScript 可视化数据](https://frontendfoc.us/link/118361/web "www.influxdata.com")
 
-[HTML Mocker：在 HTML 中模拟动态数据并且自动响应测试的脚本](https://frontendfoc.us/link/118090/web "github.com") — 只需将脚本添加到页面，它就会根据您可以通过 HTML 类定义的约束随机元素的 innerText 内容。
+![](https://res.cloudinary.com/cpress/image/upload/v1641984739/gcewtihdcen7r7vztlxo.png)
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641393275/ydcwsmjeg0u9rvfhiqkw.png)
+[CSS 渐变生成器](https://frontendfoc.us/link/118362/web "www.joshwcomeau.com") — Josh 创建了一个很棒的基于 Web 的工具，用于制作 “_漂亮的渐变_” — 效果看起来不错。
 
-[猜 CSS：一个交互式 HTML 和 CSS 游戏](https://frontendfoc.us/link/118094/web "www.guess-css.app") — 可以测试你的 CSS 布局的有趣游戏。您可以根据视觉布局，选择匹配的代码示例，甚至可以过滤要测试的 CSS 功能。
+[Theme UI: 用于创建主题用户界面的库](https://frontendfoc.us/link/118364/web "theme-ui.com") — 让您可以构建自定义组件库、设计系统、以及使用 Gatsby 主题等。
 
-[Inspect：用于导出 HTML、React 或 Tailwind 的 Figma 插件](https://frontendfoc.us/link/118092/web "www.figma.com")
+[SQIP：具有矢量支持的可插拔图像转换器](https://frontendfoc.us/link/118365/web "github.com") — 它非常灵活，也有一些用例，例如创建较大图像的小预览。
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://frontendfoc.us/link/118057/web)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/523/README.md)
+> - [查看原文](https://frontendfoc.us/issues/524)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/524)
 > - 译者：[daodaolee](https://github.com/daodaolee)
 > - 校对者：[daodaolee](https://github.com/daodaolee)
