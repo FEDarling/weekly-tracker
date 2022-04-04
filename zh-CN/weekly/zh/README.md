@@ -1,71 +1,71 @@
 ---
-title: 'Node Weekly #428' #不可修改
-date: '2022-03-11' #不可修改
+title: 'Node Weekly #429' #不可修改
+date: '2022-03-18' #不可修改
 categories:  #不可修改
   - 'Node Weekly'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/knuhuxscyfpp9eipnwer.jpg)](https://nodeweekly.com/link/120700/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gbahe9yapogrzxxuglio.jpg)](https://nodeweekly.com/link/121114/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[What's Really Going On Inside Your `node_modules` Folder?](https://nodeweekly.com/link/120700/web "socket.dev") — A running joke is that `node_modules` folders are so huge they’re [heavier than black holes](https://nodeweekly.com/link/120701/web) but when packages get taken over by nefarious groups, the contents of node\_modules becomes somewhat less funny. This post looks into what malicious packages can do and the broad problem of supply chain attacks generally.
+[`peacenotwar`: How an npm Package Protested Russia's Invasion of Ukraine](https://nodeweekly.com/link/121114/web "snyk.io") — Users of a variety of systems (including Vue CLI, [as seen here](https://nodeweekly.com/link/121115/web)) began to notice that the [node-ipc](https://nodeweekly.com/link/121116/web) dependency was doing some _unusual_ (to put it mildly) things, such as (originally) [corrupting files](https://nodeweekly.com/link/121122/web) on systems geolocated to Russia or Belarus, and [sharing messages of protest](https://nodeweekly.com/link/121118/web) via `peacenotwar`. This is a complex story, but well outlined in this post, and yet another reminder of how fragile dependencies can be.
 
-[Node v17.7.0 (Current) Released](https://nodeweekly.com/link/120702/web "nodejs.org") — Updates to nghttp2 and npm (8.5.2), some [new options](https://nodeweekly.com/link/120703/web) for `net.Socket` and `net.Server`, and Ben Noordhuis (one of the most prolific Node contributors who [stepped back](https://nodeweekly.com/link/120704/web) as a core committer for [reasons](https://nodeweekly.com/link/120705/web) in 2013) is officially fully back as a Node.js collaborator (though he has [continued](https://nodeweekly.com/link/120706/web) to contribute code all along).
+[![](https://copm.s3.amazonaws.com/3adc1f91.jpg)](https://nodeweekly.com/link/121088/web)
 
-[![](https://copm.s3.amazonaws.com/ee129dc0.png)](https://nodeweekly.com/link/120707/web)
+[Build a Fullstack App from Scratch](https://nodeweekly.com/link/121088/web "frontendmasters.com") — Join Scott Moss for this detailed video course on building a fully featured app using a modern stack (React, Next.js, TypeScript, Postgres). You'll cover UI, data modeling, authentication, state management, deployment, testing, and more.
 
-[Introducing the Elastic CI Stack for EC2 Mac](https://nodeweekly.com/link/120707/web "buildkite.com") — This new open source stack is created specifically for mobile teams, helping you migrate to AWS-managed servers for increased reliability, security, and speed. 📱
+[Node.js Security Releases Due Imminently](https://nodeweekly.com/link/121089/web "nodejs.org") — As of the time of publishing, these releases haven’t dropped yet, but they’re imminent and will incorporate upstream patches from OpenSSL for an as yet undisclosed high severity issue.
 
-[Socket: See Potential Security Issues for `npm` Packages](https://nodeweekly.com/link/120708/web "socket.dev") — An interesting new project that scans the code of each npm package in an attempt to characterize their behavior which is then reported on project specific pages, such as [this one for lodash](https://nodeweekly.com/link/120709/web) or [this one for zx](https://nodeweekly.com/link/120710/web).
+[Faker 6.0: Generate Massive Amounts of Fake Data](https://nodeweekly.com/link/121090/web "github.com") — After some issues with a maintainer going rogue in January, a community team [took over](https://nodeweekly.com/link/121091/web) the popular Faker project and their first major release is now out, complete with ESM support. There are [v5 to v6 migration instructions](https://nodeweekly.com/link/121092/web) if you want to upgrade.
 
-[A Case Study on Moving from Next.js to Remix](https://nodeweekly.com/link/120711/web "www.adamcollier.co.uk") — [Remix](https://nodeweekly.com/link/120712/web) is the newest full stack Web framework on the block, and the first case studies are beginning to come in. In this case, the author covers the rewrite of his personal site (where this article is hosted).
+## **Quick bits:**
 
-[Making a Discord Playlist Bot with Serverless Cloud](https://nodeweekly.com/link/120714/web "www.serverless.com") — _Serverless Cloud_ is a serverless platform from Serverless Inc., the folks behind [Serverless Framework](https://nodeweekly.com/link/120715/web). (Have we said ‘serverless’ enough yet?) This post ties together Node.js with some specific Serverless Cloud features to easily create a Discord chat bot that can add songs to a shared Spotify playlist.
+*   [Node 17.7.1](https://nodeweekly.com/link/121093/web) has been released to fix a regression in `url.resolve()` when working with URLs that contain the `@` (at) symbol.
 
-[A Guide to Node Process Management with PM2](https://nodeweekly.com/link/120720/web "blog.appsignal.com") — [PM2](https://nodeweekly.com/link/120721/web) is one of the longest standing Node utilities used for managing processes and is worth checking out if you have a Node process you need to stay up 24/7.
+*   NodeSource has unveiled a free tier of [their N|Solid SaaS offering](https://nodeweekly.com/link/121094/web) for folks who want to explore Node.js metrics, process monitoring, etc.
 
-[Malicious Node.js Packages: Niche Configurations & Invisible Characters](https://nodeweekly.com/link/120722/web "snyk.io")
+*   📆 [DevOps.js](https://nodeweekly.com/link/121120/web) is a virtual conference on building, deploying, and monitoring JS apps taking place next week (March 24-25). [You can register here](https://nodeweekly.com/link/121120/web).
 
-[Diving into Node's Streams](https://nodeweekly.com/link/120723/web "nodesource.com") — Streams provide a defined interface and abstraction over the idea of working with streaming data in Node – they seem to suffer from often being misunderstood, though, so tutorials always tend to be popular.
+[Why and How to Use HTTPS in Your Local Development Environment](https://nodeweekly.com/link/121098/web "auth0.com") — Learn why you should use HTTPS even for development and how to set things up, including spinning up a simple Node.js server.
 
-▶  [USB Reverse Engineering and Writing Drivers](https://nodeweekly.com/link/120724/web "www.youtube.com") — If you’ve got a hankering to do some hardware hackery with Node, you might enjoy this truly low level stream.
+[Updating Node Dependencies Automatically, Selectively, or Incrementally](https://nodeweekly.com/link/121099/web "elijahmanor.com") — A tour of [npm-check-updates](https://nodeweekly.com/link/121100/web).
 
-▶  [Discussing Securing the Open Source Supply Chain with Feross Aboukhadijeh](https://nodeweekly.com/link/120725/web "changelog.com") — Feross Aboukhadijeh is one of the minds behind Socket (featured above) and he joined the popular _Changelog_ podcast to discuss the launch and why making the assumption that all your dependencies are malicious may be a necessary step to take.
+[How to Build a File Upload Service with Vanilla JavaScript](https://nodeweekly.com/link/121101/web "blog.logrocket.com") — Building a file upload service with vanilla JavaScript, from scratch, with a method that requires _no_ npm packages and _no_ dependencies outside of the standard library.
 
-[Deploying Your Node API to AWS Using Elastic Beanstalk](https://nodeweekly.com/link/120727/web)
+[Write Your Real-Time Apps in Python with This Tutorial for InfluxDB](https://nodeweekly.com/link/121102/web "www.influxdata.com")
 
-[The Fetch API is Finally Coming to Node](https://nodeweekly.com/link/120729/web)
+▶  [How Remix Helps Bridge the Network Chasm](https://nodeweekly.com/link/121103/web "changelog.com") — Kent C. Dodds—the Director of Developer Experience at Remix—and the JS Party panelists take a look at the new React framework: what it does today, how it lured Kent away from a lucrative independent teaching career and what’s next.
+
+[How to Avoid SQL Injection Attacks in Node](https://nodeweekly.com/link/121104/web)
+
+[Boost Your Webmaster Skills with the Google Search Console API from Node](https://nodeweekly.com/link/121105/web)
+
+[Lessons Learned From Switching to AWS SDK v3 in Node.js Lambda Functions](https://nodeweekly.com/link/121106/web)
 
 ## 🛠 Code & Tools
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rmx9mhempnqdpfaexg14.jpg)](https://nodeweekly.com/link/120731/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qaublmpmfkvl3rer58fl.jpg)](https://nodeweekly.com/link/121107/web)
 
-[PSD: A Zero-Dependency PSD (Photoshop) Parser for Browser and Node.js](https://nodeweekly.com/link/120731/web "webtoon.github.io") — Will parse info for each layer including text and also supports Photoshop’s .psb (big image) format. [GitHub repo](https://nodeweekly.com/link/120733/web).
+[Taiko: A Library and REPL to Automate Browsers](https://nodeweekly.com/link/121107/web "github.com") — This differs from Puppeteer or Playwright by being higher level and more visual. It includes a REPL mode and is more designed to work with a visible, rather than headless, browser instance, with a bigger focus on testing.
 
-[Undici 4.15: The Fresh HTTP/1.1 Client for Node](https://nodeweekly.com/link/120735/web "github.com") — Undici’s goal to be the best HTTP/1.1 client for Node takes another step forward.
+[Pino 7.9.0: A Fast 'Very Low Overhead' JSON Logger](https://nodeweekly.com/link/121108/web "github.com") — There are code samples for using it with Fastify, Express, Hapi, Koa, and more.
 
-[Bree 8.0: A Versatile Job Scheduler for Node](https://nodeweekly.com/link/120737/web "jobscheduler.net") — Supports cron, dates, ms, later, and human-friendly for scheduling things.
+[Build Internal Tools in Minutes with Retool, Where Visual Programming Meets the Power of Real Code](https://nodeweekly.com/link/121109/web "retool.com")
 
-[Stream Video in Your Node App in Two API Calls](https://nodeweekly.com/link/120739/web "get.mux.com")
+[node-json-db: A Simple JSON-Powered File-Based Data Store](https://nodeweekly.com/link/121110/web "github.com") — For when you need a simple database but.. you don’t want a ‘database’, if you know what I mean.
 
-[exiftool-vendored: Fast, Cross-Platform Node.js Access to ExifTool](https://nodeweekly.com/link/120741/web "github.com") — Use this when you want to access embedded EXIF data within image files (particularly those taken with phones or DSLRs).
+[Mongoosastic 5.0: Index Mongoose Models into Elasticsearch Automatically](https://nodeweekly.com/link/121111/web) — Now that’s quite the project name.
 
-[elasticsearch-js 8.1.0: Official Elasticsearch Client for Node](https://nodeweekly.com/link/120743/web "github.com") — [Elasticsearch](https://nodeweekly.com/link/120745/web) is a great open source search database system for adding powerful search features to your apps. This update adds Elasticsearch 8.1 compatibility.
+[Awilix 7.0: An Inversion of Control (IoC) Container for Node](https://nodeweekly.com/link/121112/web)
 
-[AVA 4.1: The Node.js Test Runner](https://nodeweekly.com/link/120747/web "github.com") — A popular test runner known for its simplicity and speed.
-
-[fastify-websocket: Basic WebSocket Support for Fastify](https://nodeweekly.com/link/120749/web)
-
-[Dynamodump 2.0: A CLI Tool for Backing Up and Restoring Schema and Data from DynamoDB](https://nodeweekly.com/link/120751/web)
-
-[ssh2 v1.7: Pure JavaScript SSH2 Client and Server Modules for Node](https://nodeweekly.com/link/120753/web)
+[Hexo 6.1: A Node-Powered SSG-Style Blog Framework](https://nodeweekly.com/link/121113/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/issues/428)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/428)
+> * [查看原文](https://nodeweekly.com/issues/429)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/429)
 > * 译者：
 > * 校对者：
