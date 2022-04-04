@@ -1,102 +1,94 @@
 ---
-title: 'JavaScript Weekly #575'
-date: '2022-02-23'
+title: 'JavaScript Weekly #576'
+date: '2022-02-24'
 categories:
   - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/g6siflolg6cl3gdzxkdm.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/molnign58vhxczqaa4pt.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[用 JavaScript 编写打印机驱动程序](https://javascriptweekly.com/link/119451/web "kubesail.com") — *“用 JavaScript 编写打印机驱动程序听起来很荒谬”*，作者开始说，虽然 “驱动程序” 的定义在这里是有争议的（它更像是一个过滤器？），但这仍然是一个有趣的故事。
+[Apache ECharts 5.3: 开源 JS 可视化库](https://javascriptweekly.com/link/119760/web "echarts.apache.org") — [发行说明](https://javascriptweekly.com/link/119761/web) 详细介绍了最新版本中的内容，包括关键帧动画、自定义加载动画以及性能提升 2-10 倍的新 SVG 渲染器。[这里也有很多演示](https://javascriptweekly.com/link/119762/web)。
 
-[Babel 7.17.0 发布](https://javascriptweekly.com/link/119431/web "babeljs.io") — 现在 [装饰器提案](https://javascriptweekly.com/link/119432/web) 已经趋于稳定，如果你想玩的话，Babel 支持它们的解析和转换。
+🥊  [跳过 JavaScript？一些后端语言如何进入前端](https://javascriptweekly.com/link/119706/web "github.com") — 你可能认为这是关于使用 WebAssembly 在浏览器中运行 Python 之类的文章，但不是。这是关于维护与后端进程的 WebSocket 连接并从后端动态渲染 HTML 的，比如 Elixir 和 Rails 堆栈。
 
 ![](https://copm.s3.amazonaws.com/79ea00da.png)
 
-[ButterCMS 加入到你的 JS 程序中:  `$ butter.post.list()`](https://javascriptweekly.com/link/119470/web "buttercms.com") — ButterCMS 是您的后端。让您的营销团队不需要前端即可更新网站和应用内容。免费 30 天。
+[在 JS 中使用 ButterCMS： `$ butter.post.list()`](https://javascriptweekly.com/link/119707/web "buttercms.com") — ButterCMS 是您的后端。让您的营销团队不需要前端即可更新网站和应用内容。免费 30 天。
 
-[Fetch API 即将进入 Node Core（包括为什么要了解它）](https://javascriptweekly.com/link/119426/web "fusebit.io") — 对 Fetch API（作为获取资源的常用浏览器端）的支持已合并到 Node.js 中，并将在 `--experimental-fetch` 标志后面提供，直到希望在 Node 18+ 中默认启用。
-
-[内存泄漏：Web 性能被遗忘的一面](https://javascriptweekly.com/link/119430/web "nolanlawson.com") — 认真对待内存泄漏的重要性，尽管 “努力可能和回报不成正比”。
+🎧  [JS Party 播客](https://javascriptweekly.com/link/119763/web "changelog.com") — 已经有一段时间没有说 JS Party 播客了，所以如果你还没有听过，可以来看看。
 
 ## **简述:**
 
-*   [V8 v9.9](https://javascriptweekly.com/link/119433/web) 即将推出，重点是对 Intl 的改进。
+*   🤑 我们当中很少有人以超过 100 万美元的价格给《纽约时报》做一个非常基本的 JavaScript 应用程序。 Wordle 的创建者已经在 [Syntax 播客](https://javascriptweekly.com/link/119708/web) 上谈论过它。
 
-*   VS Code 的 [每月一次重大更新](https://javascriptweekly.com/link/119434/web)，其中包含 JS 调试改进，可让您排除某些调用者在断点处暂停。
+*   [Node.js 17.5.0](https://javascriptweekly.com/link/119709/web) 已经有了我们上周提到的 Fetch API 的实验性支持。
 
-*   npm 注册表现在要求 [前 100 个 npm 包](https://javascriptweekly.com/link/119435/web) 的维护者使用 2FA。随着时间的推移，该政策将扩展到更多的维护者。
+*   Khronos WebGL 工作组提醒我们，[WebGL 2.0 现在已经](https://javascriptweekly.com/link/119710/web) 得到了所有主流浏览器的广泛支持，并开始进行迁移。
 
-*   还在使用 `[].join(', ')`？ Eric Clemmons 有一个 [不错的选择](https://javascriptweekly.com/link/119436/web)。
+*   流行的 HTTP 客户端 curl 有了一个 [`--json` 选项](https://javascriptweekly.com/link/119711/web)。
 
-*   Dan Abramov 在试图 [推销 Sublime Text](https://javascriptweekly.com/link/119437/web) 与 VS Code。
+*   JavaScript 开发人员决定不用 React 和 SPA 的情况下 [构建 Rails 应用程序](https://javascriptweekly.com/link/119712/web)，这里有一些 [“热烈的讨论”](https://javascriptweekly.com/link/119714/web)。
 
-*   [Jest](https://javascriptweekly.com/link/119438/web) 是一个非常流行的与 Facebook 相关的 JS 测试框架，但据称 [Facebook 多年来没有人在 Jest 上工作过](https://javascriptweekly.com/link/119439/web)。
+*   正如之前说的那样，Vue 3 现在是 Vue.js 的新 [默认版本](https://javascriptweekly.com/link/119716/web)，并且 [vuejs.org](https://javascriptweekly.com/link/119718/web) 也相应更新了。
 
 
 ## **版本更新:**
 
-[MDX 2.0](https://javascriptweekly.com/link/119440/web) – Markdown + JSX = ❤️  
-[Partytown 0.3](https://javascriptweekly.com/link/119441/web) – 将第三方脚本从主线程中移除。 [Mongoose 6.2.0](https://javascriptweekly.com/link/119442/web) – MongoDB 对象建模库。 [Recoil 0.6](https://javascriptweekly.com/link/119443/web) – 替代 React 状态管理。 [Commander.js 9.0](https://javascriptweekly.com/link/119444/web) – Node CLI 框架.  
-[CKEditor 5 v32.0](https://javascriptweekly.com/link/119445/web) – 富文本编辑器框架。 [ESLint 8.8.0](https://javascriptweekly.com/link/119446/web)
+[Vite 2.8.0](https://javascriptweekly.com/link/119767/web) — 下一代前端工具。 [RedwoodJS 0.45.0](https://javascriptweekly.com/link/119720/web) — 边缘可部署的全栈 JS 框架。  
+[MikroORM 5](https://javascriptweekly.com/link/119722/web) — 节点型数据文件夹 ORM。 [AdminJS 5.6](https://javascriptweekly.com/link/119724/web) — 内置在 Node.js 中的管理面板。 [npm 8.5.0](https://javascriptweekly.com/link/119726/web)  
+[Ember.js 4.2.0](https://javascriptweekly.com/link/119728/web)
 
 ## 📒  文章 & 教程
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/p4itcrffmsgkrlhxkgnu.jpg)
+[调试 JavaScript](https://javascriptweekly.com/link/119733/web "flaviocopes.com") — 它并不深入，但这是一次很舒服的 JavaScript 调试环境之旅。
 
-[2022 年 VS Code 在飞速发展](https://javascriptweekly.com/link/119454/web "jason-williams.co.uk") — 其中一篇深入研究 VS Code 底层架构的 “小众但有趣” 的文章，是考虑制作自己的扩展的人的必读之作。
+[Angular 编译器的工作原理](https://javascriptweekly.com/link/119734/web "blog.angular.io") — Angular 编译器（称为 `ngc`）是用于编译 Angular 应用程序和库的工具。这篇文章深入探讨了它的作用以及它是如何做到的。
 
-▶  [您每周关于软件艺术与实践的对话来源](https://javascriptweekly.com/link/119453/web "stackoverflow.blog") — Ben Popper、Cassidy Williams 和 Ceora Ford 探讨了在软件中工作的意义，以及代码如何重塑我们的世界。
+[用 HTML 的 `<dialog>` 替换 JavaScript 对话框（部分）](https://javascriptweekly.com/link/119735/web "css-tricks.com") — 如何用 HTML 对话框元素替换 JavaScript 对话框，该元素提供与 `alert()`、`confirm()` 和 `prompt()` 方法类似的功能。
 
-[通过代码拆分提高 JavaScript Bundle 性能](https://javascriptweekly.com/link/119452/web "www.smashingmagazine.com") — 了解代码拆分的好处和注意事项，以及如何通过动态加载复杂的非关键 JavaScript 包来提高页面性能和加载时间。
+▶  [用 TypeScript 编写 SPI SD 卡驱动程序](https://javascriptweekly.com/link/119737/web "www.youtube.com") — 来自实时底层 JavaScript 流的一个有趣（且非常长）的会话，深入到了从 SD 卡读取数据的底层工作。
 
-[Web 框架解决了什么以及没有它们应该怎么做](https://javascriptweekly.com/link/119455/web "www.smashingmagazine.com") — 深入探讨框架中常见的一些技术特性，并解释一些不同的框架如何实现它们以及它们的成本。
+[Deno 简介：它比 Node 更好吗？](https://javascriptweekly.com/link/119738/web "blog.appsignal.com") — 我们已经多次提到过来自 Ryan Dahl 的 [Deno](https://javascriptweekly.com/link/119739/web)，就像 Node.js 最初所做的那样。这篇文章介绍了一些关键特性，以及 Deno 的领先或落后之处。
 
-[使用 Streams 构建高性能节点应用程序](https://javascriptweekly.com/link/119457/web "blog.appsignal.com") — 使用 Node.js 中的 “Stream” 模块。
+[编写我自己的构建系统：将 Gulp 概念与现代 JS 结合起来](https://javascriptweekly.com/link/119740/web "palant.info") — 作者发现 Gulp 对流的依赖让扩展性变得有点复杂，并展示了使用异步生成器解决同一问题的不同方法。
 
-[将聊天机器人连接到流行的通讯软件中](https://javascriptweekly.com/link/119456/web "bit.ly") — 了解将聊天机器人连接到 Telegram、Messenger、Twilio、Smooch、Vonage、Slack 和 Microsoft Teams 的简单方法。
+▶  [Vue 3 中的有限状态存储](https://javascriptweekly.com/link/119741/web)
 
-[如何使用 Vue 3、Vite 和 Pinia 创建、测试和部署 SPA](https://javascriptweekly.com/link/119473/web)
-
-▶  [React 的故事（10 分钟）](https://javascriptweekly.com/link/119458/web)
-
-[使用 JavaScript 防止平滑滚动](https://javascriptweekly.com/link/119471/web)
+[使用 Vue 3 和 Cube 构建 Apache ECharts 数据可视化仪表板](https://javascriptweekly.com/link/119742/web)
 
 ## 🛠  代码 & 工具
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/z1ltybyxbqnxaswmnjkt.jpg)
+[zx 5.0：用 JavaScript 编写更好的 Shell 脚本](https://javascriptweekly.com/link/119743/web "github.com") — 谷歌并没有松懈，一年内推出了四个主要版本的 `zx`。 `zx` 不是使用 `bash` 来组合一个快速脚本之类的东西，而是提供了对 JavaScript 执行相同的操作。 [v5.0](https://javascriptweekly.com/link/119744/web) 增加了内置的 YAML 支持。
 
-[Sigma 2.2：图形绘图库](https://javascriptweekly.com/link/119459/web "sigmajs.org") — 一个成熟的库（我们在 2015 年首次使用它！），包含数千个需要快速渲染的节点和边的巨型图。[这里有一些很好的例子](https://javascriptweekly.com/link/119460/web)
+[Pintora：可扩展的文本到图表渲染库](https://javascriptweekly.com/link/119747/web "github.com") — 和成熟的 [Mermaid.js](https://javascriptweekly.com/link/119748/web)（今天也有新版本）有类似的想法，但对可扩展性的态度不同。
 
-[A-Frame 1.3：构建 WebVR 体验的框架](https://javascriptweekly.com/link/119461/web "aframe.io") — 用于构建虚拟现实体验的 Web 框架，可在 Vive、Rift、Quest 以及桌面和移动平台（包括浏览器）中运行。
+[Solidus：您需要的最后一个电子商务后端](https://javascriptweekly.com/link/119746/web "solidus.io") — 很灵活，在 “不妥协” 的情况下创建独特的定制购物体验。
 
-[Electron 17 发布](https://javascriptweekly.com/link/119462/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架，通过 Chromium 98 支持，当然也有 Node 16.13.0 和 V8 9.8。
+[Griffel：带有提前编译的 CSS-in-JS](https://javascriptweekly.com/link/119745/web "github.com") — 来自 Microsoft 的另一个 CSS-in-JS 选择。这个拥有近乎零的运行时、SSR 支持以及使用 JS 对象定义的样式以及其他功能。
 
-[Pulumi：使用 JavaScript 的开发人员优先基础设施](https://javascriptweekly.com/link/119463/web "www.pulumi.com")
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dj87qbptlina52invyla.jpg)
 
-[Hotkey 2.0：按下 “热键” 时触发元素上的操作](https://javascriptweekly.com/link/119464/web "github.com") — 使用 Hotkey，在你的元素上设置 `data-hotkey` 属性，你就可以获取键盘快捷键。[v2.0](https://javascriptweekly.com/link/119465/web) 刚刚下架。
+[Fable 3.7：成熟的 F# 到 JavaScript 编译器](https://javascriptweekly.com/link/119751/web "fable.io") — [F#](https://javascriptweekly.com/link/119752/web) 是来自 MS/.NET 稳定版的 “功能第一” 语言，我对它一直很震惊。如果你想尝试一下有关前端构建的东西，请查看这个 [在线 REPL](https://javascriptweekly.com/link/119753/web)，它有一些需要修改的示例，包括一个小马里奥（上图）。
 
-[imask.js 6.4.0：Vanilla JavaScript 输入掩码](https://javascriptweekly.com/link/119466/web "imask.js.org")
+[puppeteer-to-playwright: 从木偶到剧作家的转换脚本](https://javascriptweekly.com/link/119755/web "github.com") — 如果您想在两个流行的浏览器自动化系统之间迁移，这可能会有所帮助。
 
-[lite-youtube：更快地呈现 YouTube 嵌入的 Web 组件](https://javascriptweekly.com/link/119467/web "github.com") — 这是 Paul Irish 的 [lite-youtube-embed](https://javascriptweekly.com/link/119468/web) 的 Shadow DOM Web 组件版本，具有键盘快捷键和其他一些不错的功能。
+[软件团队的项目管理从未如此简单](https://javascriptweekly.com/link/119754/web "shortcut.com")
 
-## 😍 最后
+[P42 JavaScript 助手：VS 代码的重构提示和自动化](https://javascriptweekly.com/link/119768/web "marketplace.visualstudio.com") — 一个 Visual Studio Code 扩展，它为您的编辑器带来了 67 种自动重构和快速修复常见 JS、TS 和 React 问题的方法，因此您甚至可以在使用普通 linter 之前进行格式化。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/zirn5nesrjne6sa7lgqh.jpg)
+[Mineflayer 4.0：用 JavaScript 构建 Minecraft 机器人](https://javascriptweekly.com/link/119756/web) — [GitHub 仓库](https://javascriptweekly.com/link/119757/web)
 
-[WebVM.io](https://javascriptweekly.com/link/119474/web) 带您直接进入在您的浏览器中运行的基于 Web 的 “无服务器” 虚拟 Linux 环境。它是基于 JavaScript 和 WebAssembly 的 CheerpX x86 虚拟化引擎支持的。虽然它不完全是一个 JavaScript 项目，但它很好地展示了 Web 技术的发展程度。如果你想尝试的话，它已经 “安装” 了 Node v10.24.0，但要注意它需要 20 秒才能加载到我的机器上。
+[React 组件：多达 15 个库](https://javascriptweekly.com/link/119758/web)
 
-如果你想学习的话，[这是一篇关于它如何工作的文章](https://javascriptweekly.com/link/119476/web)。
-
-*注意：由于所需的资源和性能有限，可能仅适用于桌面用户。*
+🌞🌝  [SunCalc 1.9：用于计算太阳 / 月亮位置和相位的微型库](https://javascriptweekly.com/link/119759/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/575)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/575)
+> * [查看原文](https://javascriptweekly.com/issues/576)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/576)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
