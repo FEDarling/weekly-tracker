@@ -1,70 +1,70 @@
 ---
-title: 'CSS Weekly #489'
+title: 'CSS Weekly #490'
 date: '2022-02-09'
 categories:
   - 'CSS Weekly'
 publish: true
 ---
 
-[使用 CSS Clamp 的现代流体排版](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[CSS 级联层入门](https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-![使用 CSS Clamp 的现代流体排版](https://css-weekly.com/wp-content/uploads/2022/01/modern-fluid-typography-css-clamp.png)
+![CSS 级联层入门](https://css-weekly.com/wp-content/uploads/2022/01/introduction-css-cascade-layers.png)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-Adrian Bece 探索了流体排版原理、用例、使用 CSS `clamp()` 实现以及交互式流体排版计算器。
+Stephanie Eckles 介绍了级联层，这是一种 CSS 中级联管理的新方法。
 
-[如何制作纯 CSS 3D 包](https://css-tricks.com/how-to-make-a-pure-css-3d-package-toggle/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[CSS 指纹](https://csstracking.dev/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-![如何制作纯 CSS 3D 包](https://css-weekly.com/wp-content/uploads/2022/01/how-to-make-a-pure-css-3d-package-toggle.png)
+![CSS 指纹](https://css-weekly.com/wp-content/uploads/2022/01/css-fingerprint.png)
 
-Jhey Tompkins 演示了如何创建一个纯 CSS 3D 包。
+Oliver Brotchie 解释了如何使用 CSS 指纹技术跟踪和收集网站访问者的信息。
 
 ## 文章 & 教程
 
-[级联层](https://www.youtube.com/watch?v=ilrPpSQJb3U?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[构建主题切换组件](https://web.dev/building-a-theme-switch-component/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-Una Kravets 介绍了 CSS 级联层和 `@layer` 属性，它允许您创建基于特定性的层并帮助组织您的 CSS 架构。
+Adam Argyle 对构建自适应且可访问的主题切换组件进行了基本概述。
 
-[制作漂亮的渐变](https://www.joshwcomeau.com/css/make-beautiful-gradients/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[CSS 的未来：使用 @supports at-rule(@keyword) 检测规则支持](https://www.bram.us/2022/01/20/detect-at-rule-support-with-the-at-rule-function/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-Joshua Comeau 展示了如何通过避开 “灰色地带” 来创建丰富、生动、生动的渐变。
+Bramus Van Damme 解释了如何检测 CSS 中的规则支持。
 
-[带有动画字幕的响应式图片库](https://moderncss.dev/responsive-image-gallery-with-animated-captions/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[创建在所有浏览器中看起来一致的自定义范围输入](https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-Stephanie Eckles 探索了一种创建响应式图像库的技术，该技术使用 `object-fit` 进行响应式图像缩放，使用 `aspect-ratio` 获得一致的图像大小，使用 CSS Grid 技巧替换绝对定位，以及使用 CSS 转换获得动画效果。
+Alyssa Holland 研究了 HTML 范围输入的古怪之处，并演示了如何设置输入样式以在所有主要浏览器中看起来一致。
 
-[使用简单的 CSS 为每个列表项设置样式](https://devdojo.com/basharath/style-each-list-item-css?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[使用 SVG 和 CSS 构建 UI 组件](https://ishadeed.com/article/building-components-svg-css/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-Basharath 展示了如何使用 CSS at-rule `@counter-style` 为每个单独的列表项自定义样式类型。
+Ahmad Shadeed 展示了不一样的用例，您可以在其中使用 SVG 以及 HTML 和 CSS 来构建特定的 UI 组件。
 
-[易解析的标题结构](https://www.a11yproject.com/posts/how-to-accessible-heading-structure/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[不一样的 Div](https://www.scottohara.me/blog/2022/01/20/divisive.html?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-Rian Rietveld 提供了一些关于创建易解析标题的建议。
+Scott O'Hara 深入探讨了 div 元素及其多功能性。
 
 ## 工具
 
-[Parcel CSS](https://github.com/parcel-bundler/parcel-css?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[CSS Speedrun](https://css-speedrun.netlify.app/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-用 Rust 编写的 CSS 解析器、转换器和压缩器。
+CSS Speedrun 是一款小而有趣的益智游戏，用于测试您对 CSS 选择器的了解。
 
-[现代流体排版编辑器](https://modern-fluid-typography.vercel.app/?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[Clay.css](https://codeadrian.github.io/clay.css/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-使用现代 CSS clamp 功能生成流畅的排版代码片段，并使用这个强大而时尚的编辑器微调流畅的排版。
+Clay.css 是一个小型 CSS 程序，可让您向任何 HTML 元素添加蓬松的 3d 粘土形态样式。
 
 ## 灵感
 
-[千与千寻浴室（Aburaya）— 3D CSS](https://codepen.io/cobra_winfrey/pen/GRMdwwG?utm_source=CSS-Weekly&utm_campaign=Issue-489&utm_medium=web)
+[CSS 3D 油炸圈饼 🍩](https://codepen.io/ShadowShahriar/pen/YzrbBXg?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
 
-![Spirited Away Bathhouse (Aburaya) - 3D CSS](https://css-weekly.com/wp-content/uploads/2022/01/spirited-away-bathhouse-aburaya-3d-css.jpg)
+![CSS 3D 油炸圈饼 🍩](https://css-weekly.com/wp-content/uploads/2022/01/css-3d-donut.jpg)
 
-Adam Kuhn 使用 CSS 创建了令人印象深刻的 3d 图像。
+S. Shahriar 使用 CSS 创建了一个有趣的响应式 3D 油炸圈饼
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-489/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/489)
+> - [查看原文](https://css-weekly.com/issue-490/)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/490)
 > - 译者：[daodaolee](https://github.com/daodaolee)
 > - 校对者：[daodaolee](https://github.com/daodaolee)
