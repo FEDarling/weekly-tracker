@@ -1,76 +1,78 @@
 ---
-title: 'Frontend Focus #531' #不可修改
-date: '2022-03-04' #不可修改
+title: 'Frontend Focus #532' #不可修改
+date: '2022-03-11' #不可修改
 categories:  #不可修改
   - 'Frontend Focus'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646227707/n9krva6czokedh2scyeb.jpg)](https://frontendfoc.us/link/120340/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646834712/e9cqaj2zo09kpmrnyizc.png)](https://frontendfoc.us/link/120630/web)
 
-[New CSS Features in 2022](https://frontendfoc.us/link/120340/web "www.smashingmagazine.com") — It looks like 2022 is shaping up to be a great year for CSS, as we’ve got a ton of new features on the horizon, like Container Queries, the `accent-colour` property, `subgrid`, scroll timeline, and much more. This article goes over each thing in detail. Well worth checking out to stay sharp on what’s new across the spec.
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
-[A New Year, A New MDN](https://frontendfoc.us/link/120342/web "hacks.mozilla.org") — Today I learnt that MDN is home to over 44,000 articles. Here’s a look at how the MDN team went about creating “_a more holistic experience for our users, with an emphasis on improved navigability and a universal look and feel_”. Always great to see one of the top Web developer resources taking a big step forward.
+[Browser Vendors 'Working Together on Interop 2022'](https://frontendfoc.us/link/120630/web "webkit.org") — A new collaboration from Apple, [Bocoup](https://frontendfoc.us/link/120631/web), [Google](https://frontendfoc.us/link/120632/web), [Microsoft](https://frontendfoc.us/link/120633/web), [Mozilla](https://frontendfoc.us/link/120634/web) and others to improve interoperability of (mostly visual) web technologies. [There’s a dashboard here](https://frontendfoc.us/link/120635/web) showing how various browser engines are doing across all focus areas.
 
-[Explain the First 10 Lines of Twitter's Source Code to Me](https://frontendfoc.us/link/120343/web "css-tricks.com") — An interview question for a frontend role that seems straightforward enough, but there’s actually plenty to unpack and consider here. (Whether it's a good interview question is a different story, of course.)
+[Say Hello to `<selectmenu>`, a Fully Style-able `select` Element](https://frontendfoc.us/link/120636/web "css-tricks.com") — An introduction to this new, experimental form control called `selectmenu`, including how much easier it is to style than a traditional element.
+
+[![](https://copm.s3.amazonaws.com/c34c4c4c.png)](https://frontendfoc.us/link/120637/web)
+
+[Filestack File Uploader & File Upload API](https://frontendfoc.us/link/120637/web "www.filestack.com") — Advanced features include OCR, virus scanning & more. Get started with a free account.
+
+[Taming CSS Variables with Web Inspector](https://frontendfoc.us/link/120638/web "webkit.org") — CSS Custom Properties, better known as CSS variables, have been widely adopted by web designers to build reusable and configurable design systems. This post looks at how features in Safari’s Web Inspector helps you work with them.
+
+[A New Speed Milestone for Chrome](https://frontendfoc.us/link/120639/web "blog.chromium.org") — How the ‘M99’ release of Chrome saw substantial increases to the speed of Chrome across all major platforms. _"Overall, since launching Chrome on M1-based Macs in late 2020, Chrome is now 43% faster than it was just 17 months ago!"_
 
 ## **⚡️ Quick bits:**
 
-*   Could [EU 'Qualified Website Authentication Certificate' plans](https://frontendfoc.us/link/120344/web) result in 'less secure' certificates in browsers?
-*   Huh, turns out you can [inspect system-level web views](https://frontendfoc.us/link/120345/web) in macOS.
-*   Google has released a new version of its popular Roboto font: [Roboto Serif](https://frontendfoc.us/link/120372/web).
+*   [Here are the release notes](https://frontendfoc.us/link/120641/web) for Safari Technology Preview Release 141, which adds support for `overflow: clip`.
+*   Working with viewport heights can be a bit tricky, but we've got [some new units on the way](https://frontendfoc.us/link/120642/web) to help make things easier.
+*   📅 Want to attend CityJS conference in London later this month? We've got some tickets to giveaway [over on Twitter](https://frontendfoc.us/link/120643/web).
+*   A tech journalist suggests that [Chrome 100 beta marks the 'beginning of the end'](https://frontendfoc.us/link/120640/web) for user agent strings.
 
 ## 📙 **Tutorials, Articles & Opinion**
 
-[Can You Get 'Pwned' with CSS?](https://frontendfoc.us/link/120347/web "scotthelme.co.uk") — Explores the potential risks of inline styles such as leaking keypresses (in a rather interesting way) and other activity.
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646835768/jkck24w690gbytgg0tjy.jpg)](https://frontendfoc.us/link/120644/web)
 
-[Writing Logic in CSS](https://frontendfoc.us/link/120350/web "iamschulz.com") — Using CSS to define smart, reactive layout systems. “_It’s control structures and algorithms may be a bit weird compared to other languages, but they’re there and they’re up to the task_”.
+[Building Web Layouts for Dual-Screen and Foldable Devices](https://frontendfoc.us/link/120644/web "www.smashingmagazine.com") — Explores how dual screens provide an opportunity to get ‘even more creative on the web’, and what APIs are available to make such support a reality.
 
-[Use Group Step Type to Better Organize Complex Pipelines ✨](https://frontendfoc.us/link/120351/web "buildkite.com") — The group step allows steps to be displayed in logical groupings and nested under a top level group, displayed as the step label on the build page 🏗 👀
+[Five Web Things You Don't Need JavaScript For](https://frontendfoc.us/link/120649/web "lexoral.com") — We love JS, but CSS and SVG have progressed enough to replace some traditional JS use cases.
 
-[How to Reliably Send an HTTP Request on Leaving a Page](https://frontendfoc.us/link/120352/web "css-tricks.com") — Browsers don’t guarantee to preserve open HTTP requests when pages change but there are some mitigations or alternative approaches (e.g. beacons).
+▶  [Is HTML a Programming Language?](https://frontendfoc.us/link/120645/web "briefs.video") — A six-minute video that very much answers: _yes, yes it is_, in spite of being a perennial debating point amongst developers.
 
-[How to Develop a Text Editor for the Web](https://frontendfoc.us/link/120353/web "www.smashingmagazine.com") — The engineer at a company building a browser-based design tool reflects on some of the technical issues of producing a reliable text entry widget.
+[Dynamic Charts Based on Data Selection in Angular](https://frontendfoc.us/link/120647/web "ad.doubleclick.net") — Users want to generate their own charts? See how easy it can be with Kendo UI for Angular.
 
-[Is Firefox OK?](https://frontendfoc.us/link/120346/web "arstechnica.com") — Looks at how, despite some of its misses, Mozilla’s browser still matters: “_having Firefox flourish makes the web a better place. The trick is figuring out how to get there_”.
+[Enhancements to the Ubiquitous 2D HTML Canvas](https://frontendfoc.us/link/120646/web "developer.chrome.com") — Canvas is heavily used around the web in its Canvas2D guise (said to be up to 40% of pages, apparently?) and this post looks at some of the newer features and enhancements being made to it.
 
-[Web Devs Rally to Challenge Apple App Store Browser Rules](https://frontendfoc.us/link/120348/web "www.theregister.com") — A group of software engineers have launched the ‘[Open Web Advocacy](https://frontendfoc.us/link/120349/web)’ group to help online apps compete with native apps and to encourage/compel Apple to relax iOS browser restrictions.
+[How to Build a File Upload Service with Vanilla JavaScript](https://frontendfoc.us/link/120648/web "blog.logrocket.com") — Building a file upload service with vanilla JavaScript, from scratch, with a method that requires _no_ npm packages and _no_ dependencies.
 
-[IE Down, Edge Up... Global Browser Usage Stats Are for Cocktail Parties and Conference Slides](https://frontendfoc.us/link/120354/web)
+[Creating Native Web Components](https://frontendfoc.us/link/120650/web "tympanus.net") — Looks at how to create native web components using the [Minze](https://frontendfoc.us/link/120651/web) JavaScript framework.
 
-[How to Create a Section Divider with CSS](https://frontendfoc.us/link/120373/web)
+[An Auto-Filling CSS Grid with Max Columns of a Minimum Size](https://frontendfoc.us/link/120652/web)
 
-['Comic Sans Is a Good Typeface, Actually..'](https://frontendfoc.us/link/120355/web)
+[Seven Ways to Achieve a Faster Core Web Vitals Score](https://frontendfoc.us/link/120653/web)
 
-[When to Avoid the `text-decoration` Shorthand Property](https://frontendfoc.us/link/120356/web)
+[How to Make a “Raise the Curtains” Effect in CSS](https://frontendfoc.us/link/120654/web)
 
 ## 🔧 **Code, Tools & Resources**
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nmunkwpkpcwqvnim523l.jpg)](https://frontendfoc.us/link/120361/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646842502/z4xzhbiyzrwydgqszpzn.png)](https://frontendfoc.us/link/120658/web)
 
-[Are My Third Parties Green?](https://frontendfoc.us/link/120360/web "css-irl.info") — What is the environmental impact of third-party scripts? [This tool from Fershad Irani](https://frontendfoc.us/link/120361/web) lets you check various green hosting credentials.
+[A11yAutomation: A More Thorough Way to Track Potential Accessibility Violations](https://frontendfoc.us/link/120658/web "a11y-automation.dev") — Not exactly a single tool, but more of a one-stop guide where you can look up specific accessibility errors on your pages, along with a small list of testing tools.
 
-[LetMeScroll: A Lightweight Scroll Library with No Dependencies](https://frontendfoc.us/link/120362/web "github.com") — Lets you customize the color of a scrollbar or add events to respond to scrolling behaviour on the page (e.g. scroll to top/bottom, start/stop scrolling, etc). Try a [demo here](https://frontendfoc.us/link/120363/web).
+[loading-attribute-polyfill: A Lightweight Polyfill for Native Lazy Loading](https://frontendfoc.us/link/120664/web "github.com") — Support for `loading="lazy"` is decent for use on regular images, but this will fill the gaps on `srcset`, `picture`, and `iframe` elements.
 
-[Doppler - All Your Environment Variables in One Place](https://frontendfoc.us/link/120364/web "www.doppler.com")
+[Reveal.js 4.3: An HTML Presentation Framework](https://frontendfoc.us/link/120661/web "revealjs.com") — Brings elegant presentations to anyone with a Web browser. [v4.3](https://frontendfoc.us/link/120662/web) just came out with a few tweaks.
 
-[Screenshot: No-Dependency Browser-Native Screenshot Library](https://frontendfoc.us/link/120365/web "www.xata.io") — Uses the MediaDevices API but provides an easier to use abstract for letting users take screenshots. [GitHub repo.](https://frontendfoc.us/link/120366/web)
+[Project Management for Today's (And Tomorrow's) Software Team](https://frontendfoc.us/link/120660/web "shortcut.com")
 
-[Pika: Create Pretty Screenshots and Browser Mockups Quickly](https://frontendfoc.us/link/120367/web "pika.style") — You can adjust the gradient background and the look of the browser window that wraps the screenshot, for use in tutorials, docs, social media, etc.
+[UI Colors: A Tailwind CSS Color Shades Generator & Editor](https://frontendfoc.us/link/120663/web "uicolors.app") — Pick a color or generate one randomly and this tool will allow you to export a palette derived from the selected color in various formats you can use in Tailwind projects.
 
-[taba11y: A Chrome Extension to Visualize Tab Order on a Web Page](https://frontendfoc.us/link/120368/web "chrome.google.com") — Useful if you want to test tab order for keyboard-only and screen reader users.
-
-[alfred-tailwindcss-docs: Search the Tailwind CSS Documentation Using Alfred for Mac](https://frontendfoc.us/link/120369/web)
-
-🎨 **...and finally**
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1646217968/nzlgu3f2xlumgyadsixd.png)](https://frontendfoc.us/link/120370/web)
-
-[comiCSS](https://frontendfoc.us/link/120370/web "comicss.art") — A new webcomic about CSS that is also **coded in CSS.** There's [some background on the project here](https://frontendfoc.us/link/120371/web). An interesting idea for sure.
+[gsap-video-export: Export GreenSock (GSAP) Animation to Video](https://frontendfoc.us/link/120659/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/531)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/531)
+> * [查看原文](https://frontendfoc.us/issues/532)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/532)
 > * 译者：
 > * 校对者：
