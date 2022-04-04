@@ -1,76 +1,86 @@
 ---
-title: 'Frontend Focus #530' #不可修改
-date: '2022-02-25' #不可修改
-categories:  #不可修改
+title: 'Frontend Focus #523'
+date: '2022-01-05'
+categories:
   - 'Frontend Focus'
-publish: true #翻译完成后修改
+publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bc8kitzywewuxg70tcyk.jpg)](https://frontendfoc.us/link/120080/web)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641385098/nxbcqczy7asnfyk3mewf.png)
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-🔒  [How Everything We're Told About Website Identity Assurance is Wrong](https://frontendfoc.us/link/120080/web "www.troyhunt.com") — Dives into how website trust is communicated online (certificates, SSL, and the like) — and how such things can often prove to be misleading.
+**🚀 你好 2022!**
 
-[Using Flexbox to Create a Dynamic Line Separator](https://frontendfoc.us/link/120088/web "ishadeed.com") — How to make use of the default flexbox stretching behaviour to create a dynamic line separator. A solid tutorial told in Ahmad’s usual accessible style, with code examples and visuals to help move things along.
+**Hey! 👋** 愿你安好 — 感谢您打开今年的第一期！假期结束，我们回来了，并准备在一年内为您提供有关前端所有内容的最新信息。
 
-[![](https://copm.s3.amazonaws.com/9b82fa54.png)](https://frontendfoc.us/link/120081/web)
+如果您错过了我们的上一期，我们回顾了 2021 年整个 Frontend Focus 中分享的一些亮点（[点击这里](https://frontendfoc.us/link/118058/web) —  有很多好东西值得一读）. 另外，你可能也会想关注 [我们的 Twitter 帐户](https://frontendfoc.us/link/118059/web), 大多数时候会分享一些有用的知识和短链。
 
-[Walkthrough of an Easy Angular Data Grid with Examples](https://frontendfoc.us/link/120081/web "ad.doubleclick.net") — You could write your own data grid, but why would you when this one already exists. See how easy it is to set up, bind data, group, sort, page, and more. Fiddle with the live samples or install it and try it for yourself, but don’t miss it.
+不管怎样，这就是我的介绍。 2022 年一切顺利！ — [Chris](https://frontendfoc.us/link/118060/web) ✌️
 
-[Testing Pipeline 101 For Frontend Testing](https://frontendfoc.us/link/120082/web "www.smashingmagazine.com") — If you want to introduce a testing build routine here’s a quick look at how to get on the right track — specifically with the help of some testing frameworks and GitHub actions.
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cuoeutnlfc7gdaajmo4v.jpg)
 
-▶  [Builder a Greener Web](https://frontendfoc.us/link/120083/web "www.youtube.com") — A 20-minute talk on the environmental impact of our sites and what considerations you may want to take into account when it comes to the carbon footprint of your digital projects.
+[浏览器渲染周期、硬件加速和合成器](./frontend_web_performance.md) — 详细阅读旨在让读者深入了解渲染周期，如何使用可用工具对其进行分析，并最大限度地减少传送帧 — 这对于高性能前端至关重要。
 
-## **⚡️ Quick bits:**
+[![](https://copm.s3.amazonaws.com/4e8e6035.png)](https://frontendfoc.us/link/118062/web)
 
-*   Fresh data suggests that [Microsoft Edge is on the verge of overtaking Safari](https://frontendfoc.us/link/120084/web) as the world's second most popular desktop browser.
-*   [This is a neat tip I'd forgotten about](https://frontendfoc.us/link/120085/web): You can shave up to 90% off the size of Google Fonts by declaring only the characters you actually need.
-*   This 'manifesto' aims to [highlight the importance](https://frontendfoc.us/link/120086/web) of including bidirectional text in your product.
-*   An analysis of top 1 million websites found 21 million tracking cookies [belonging to 1200 companies](https://frontendfoc.us/link/120087/web) 😱
+[课程介绍：具有自定义属性的动态 CSS（又名 CSS 变量）](https://frontendfoc.us/link/118062/web "frontendmasters.com") — 加入 Lea Verou 并学习如何最好地利用自定义属性 — 一场编写 CSS 的革命。这个详细的课程将帮助您提高代码重用性、可维护性，并实现以前可能需要大量 JavaScript 来完成的工作。
 
-## 📙 **Tutorials, Articles & Opinion**
+[提高核心网页体验，一个 Smashing Magazine 案例研究](https://frontendfoc.us/link/118072/web "www.smashingmagazine.com") — Smashing Magazine 会怎样改进他们自己的 Core Web Vitals 呢，本篇详细介绍了有关检测和如何解决瓶颈，并最终获得了全面的绿色分数。
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645621317/zpwpjctn5m60q8xp3ngj.png)](https://frontendfoc.us/link/120078/web)
+[2022 年前端开发资源](https://frontendfoc.us/link/118063/web "www.iamdeveloper.com") — Nick 编制了一份他认为在 2021 年期间引人注目的东西的清单。包括了很多好东西，比如视频、教程和 CSS、JavaScript、动画、测试等方面的资源。
 
-[A Complete Guide to CSS Cascade Layers](https://frontendfoc.us/link/120078/web "css-tricks.com") — We’ve featured a few good links and resources on this topic over the last few weeks, and this one seems to be the most thorough yet — covering its origins, how it works, use cases, and more. Quick refresher: The [`@layer` feature](https://frontendfoc.us/link/120079/web) allows us to define explicit contained layers of specificity (_so we can avoid hacks_).
+## **⚡️ 快览:**
 
-[Subsetting Font Awesome to Improve Performance](https://frontendfoc.us/link/120089/web "css-tricks.com") — How to go about removing any unused glyphs from the font files so that it reduces the overall file size.
+-   一场违反了反垄断法的诉讼正在进行，谷歌为了 [“远离” 搜索业务](https://frontendfoc.us/link/118065/web) 从而向苹果支付费用。
+-   Mozilla 已经开始 [接受](https://frontendfoc.us/link/118066/web) 加密货币捐赠，但进展并不顺利 — 这里有两条 [肮脏的相关推文](https://frontendfoc.us/link/118068/web)。
+-   Jen Kramer 的 [“CSS 入门”](https://frontendfoc.us/link/118069/web) 课程免费在 Frontend Masters 上观看。
+-   本案例讲述了 [“深色模式”](https://frontendfoc.us/link/118070/web) 如何帮助一家巴西媒体公司降低用户流失并增加页面阅读量。
+-   在前端开发、设计等方面，Xavier Harding [采访了屡获殊荣的 UI 设计工程师 Sara Soueidan](https://frontendfoc.us/link/118071/web)。
 
-[Survivorship Bias in Web Performance](https://frontendfoc.us/link/120097/web "simonhearne.com") — Why your analytics shows your site as faster than it is, and why [First Contentful Paint](https://frontendfoc.us/link/120098/web) (FCP) is a particularly good metric to optimize for.
+## 📙 **教程、文章 & 意见**
 
-[Are You Up to Date on Webhooks? 🤔](https://frontendfoc.us/link/120092/web "www.hookrelay.dev") — Learn how to structure and version webhooks, how to build a webhooks backend, and why you should use them. [Read more](https://frontendfoc.us/link/120093/web).
+▶  [在 CSS 中生成你的调色板](https://frontendfoc.us/link/118073/web "www.youtube.com") — Jake Archibald 和 Surma（离开 Google 7 年）座谈色彩空间 — 涉及设备功能、颜色混合、对比度计算等。
 
-[The No-Nonsense Styling Method](https://frontendfoc.us/link/120090/web "benlorantfy.com") — A set of guidelines compiled to make styling “_less surprising and more predictable_”. Specifically, it aims to increase the scalability, maintainability, readability, and ease of change of your CSS.
+[网页的昵称](https://frontendfoc.us/link/118064/web "maggieappleton.com") — 一篇有趣的文章，回顾了之前我们对网页起的那些昵称。
 
-[Animating-In a Newly Added Element](https://frontendfoc.us/link/120099/web "thinkdobecreate.com") — Using `@keyframes` just might remove the need for JavaScript when animating newly added DOM elements.
+[容器查询](https://frontendfoc.us/link/118075/web "12daysofweb.dev") — 这个 CSS 属性让容器宽度和其他属性的组件实现了响应式的效果。
 
-[What Makes Writing More Readable?](https://frontendfoc.us/link/120094/web "pudding.cool") — Does a really good job of highlighting the benefits of plain language (_with a neat toggle to see the before/after_). The advice here is obviously applicable in several areas of life, but well worth considering from a web copy angle too.
+[Doppler. - 将所有环境变量集中在一处](https://frontendfoc.us/link/118076/web "www.doppler.com") — 不要在为分散的 API 密钥和私有功能的管理而苦苦挣扎了。让您的团队和服务器与 Doppler 保持同步吧。
 
-[How to Make 'Slanted' Containers with CSS in 3 Steps](https://frontendfoc.us/link/120100/web)
+[Chrome 中的 CSS 下划线太细太低了](https://frontendfoc.us/link/118077/web "css-tricks.com") —Šime 在测试新的 CSS 属性 `text-decoration-thickness` 和 `text-underline-offset` 时发现了两个错误。
 
-[Creating a Read Progress Bar in React and TailwindCSS](https://frontendfoc.us/link/120101/web)
+[CSS 应不应该覆盖默认浏览器样式？](https://frontendfoc.us/link/118079/web "css-tricks.com") — 您编写的每个 CSS 规则都可能会修改它们的默认值。但是 CSS 应不应该覆盖浏览器的默认设置？
 
-## 🔧 **Code, Tools & Resources**
+[为 WordPress 驱动的网站构建 Gatsby 主题](https://frontendfoc.us/link/118080/web)
 
-[Simple.css: A 'Classless' CSS Framework](https://frontendfoc.us/link/120105/web "simplecss.org") — Similar to [SPCSS](https://frontendfoc.us/link/120106/web), which we shared previously. This one includes dark mode and some nice typographic features for quickly setting up landing pages or other simple projects: _"By 'classless' I mean that there are no CSS classes anywhere in the CSS or the HTML."_ Semantic HTML FTW!
+▶  [初学 CSS 要知道的最重要的六个概念](https://frontendfoc.us/link/118081/web)
 
-[Stylo: An Open Source WYSIWYG Rich Text Editor for JavaScript](https://frontendfoc.us/link/120109/web "stylojs.com") — Based on a web component, no dependencies, and you can configure the default toolbar to suit your app’s needs. Being able to edit the project's homepage is a neat touch.
+[平滑地还原 CSS 动画](https://frontendfoc.us/link/118082/web)
 
-[Project Management for Software Teams Has Never Been Easier](https://frontendfoc.us/link/120107/web "shortcut.com")
+## 🔧 **代码、工具和资源**
 
-[Atropos: Touch-Friendly 3D Parallax Hover Effects](https://frontendfoc.us/link/120146/web "github.com") — The easiest and fastest way to fool the eye into thinking the screen has somehow developed three-dimensional capabilities (and, admittedly, annoy some users - so be careful) is to use parallex effects as demonstrated on [the project's homepage.](https://frontendfoc.us/link/120147/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641388651/adpr9kv0k0csvtl6y8ug.png)](https://frontendfoc.us/link/118087/web)
 
-[Mailwind: Use Tailwind CSS to Design HTML Emails](https://frontendfoc.us/link/120110/web "github.com") — Just add Tailwind’s utility classes as you normally would, then install and run Mailwind via npm to generate the accompanying CSS or inlined HTML.
+[一点也不无聊的渐变：可以构建好看的渐变色的在线工具](https://frontendfoc.us/link/118087/web "non-boring-gradients.netlify.app") — 正如作者所说，它利用了非 sRGB 插值空间和非线性缓动，显然使渐变更具吸引力。
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1645615086/sbgferrrfeyng7r2bvbe.png)](https://frontendfoc.us/link/120108/web)
+[在线 JavaScript：基于 Web 的简单 JavaScript 控制台输入](https://frontendfoc.us/link/118088/web "try.javascript.org.pl") — 这是一个与网页并排的控制台，因此您可以在学习时运行脚本片段。默认示例是 Eloquent JavaScript，您也可以输入任何在线资源。
 
-[A Pure CSS Working Stopwatch](https://frontendfoc.us/link/120108/web "codepen.io") — This is a neat little CSS stopwatch demo that actually works — which is possible thanks to the Houdini `@property` (_as such it only works in Chrome and Edge right now_). Give it a try.
+[Buildkite 现在是官方 AWS Graviton Ready 合作伙伴](https://frontendfoc.us/link/118091/web "buildkite.com")
+
+[HTML Mocker：在 HTML 中模拟动态数据并且自动响应测试的脚本](https://frontendfoc.us/link/118090/web "github.com") — 只需将脚本添加到页面，它就会根据您可以通过 HTML 类定义的约束随机元素的 innerText 内容。
+
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1641393275/ydcwsmjeg0u9rvfhiqkw.png)
+
+[猜 CSS：一个交互式 HTML 和 CSS 游戏](https://frontendfoc.us/link/118094/web "www.guess-css.app") — 可以测试你的 CSS 布局的有趣游戏。您可以根据视觉布局，选择匹配的代码示例，甚至可以过滤要测试的 CSS 功能。
+
+[Inspect：用于导出 HTML、React 或 Tailwind 的 Figma 插件](https://frontendfoc.us/link/118092/web "www.figma.com")
 
 ---
-> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/530)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/530)
-> * 译者：
-> * 校对者：
+
+> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> - [查看原文](https://frontendfoc.us/link/118057/web)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/523/README.md)
+> - 译者：[daodaolee](https://github.com/daodaolee)
+> - 校对者：[daodaolee](https://github.com/daodaolee)
