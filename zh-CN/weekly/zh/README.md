@@ -1,86 +1,80 @@
 ---
-title: 'Frontend Focus #526'
-date: '2022-02-17'
+title: 'Frontend Focus #527'
+date: '2022-02-19'
 categories:
   - 'Frontend Focus'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643195057/khq1ogbzamvfavh0xfgy.png)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643811592/tvkm4honhlfdzog8dxwg.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[CSS Cascade Layers 入门](https://frontendfoc.us/link/118971/web "www.smashingmagazine.com") — 级联层引入了 `@layer` 的新规则。目的是帮助 CSS 用户更有意识地将 CSS 规则的 “层” 排序为一种新的级联管理方法。来看看 Stephanie Eckles 的介绍吧。
+[推送通知、WebXR 和更好的 PWA 支持即将登陆 iOS](https://frontendfoc.us/link/119219/web "firt.dev") — Web平台的 iOS 正在更新，包括清单中的图标支持、Web 推送、AR 和 VR 实验 — 正如 Max 在此处详细解释的那样。这是 [Apple 最新 Safari 测试版的发行说明](https://frontendfoc.us/link/119220/web)。
 
-[让 Web 标准在谈判桌上占有一席之地](https://frontendfoc.us/link/118972/web "thehistoryoftheweb.com") — Web 标准项目 (WaSP) 在努力推动 Microsoft 构建最符合标准的浏览器，这是一本关于 Internet Explorer 团队标准化的精彩读物。
+[内存泄漏：Web 性能被遗忘的一份子](https://frontendfoc.us/link/119224/web "nolanlawson.com") — 认真对待内存泄漏，尽管可能 “努力与回报不成正比”。
 
-![](https://copm.s3.amazonaws.com/6b02d409.png)
+![](https://copm.s3.amazonaws.com/79c594b3.jpg)
 
-[使用您最喜欢的技术堆栈管理和发送内容](https://frontendfoc.us/link/118889/web "www.contentful.com") — Contentful 的 headles 内容平台支持使用您喜欢的框架和技术构建。Jamstack、SPA、静态网站 — 只要你能想到的，Contentful 都支持它。访问我们的指南、视频和教程，立即开始构建。
+[针对前端开发人员最大的研究调查](https://frontendfoc.us/link/119221/web "hubs.ly") — 为您答疑解惑的 2022 年前端现状调查。帮助前端社区了解全局——我们在 2020 年有 4500 名参与者，所以让我们扩大规模。
 
-[自 2015 年 CSS3 以来有哪些新功能？](https://frontendfoc.us/link/118979/web "css-tricks.com") — CSS3 为 CSS 向前迈出了巨大的一步。但是从那以后 CSS 发生了怎样的变化？
+[Web 框架解决了什么，没有它们我们应该怎么办](https://frontendfoc.us/link/119223/web "www.smashingmagazine.com") — 深入探讨跨框架常见的一些技术特性，并解释一些不同的框架如何实现它们以及它们的成本。
 
-[我们没有认真对待可访问性的三种情况](https://frontendfoc.us/link/118891/web "css-tricks.com") — 涵盖了网页设计中可访问性的观点，这些观点可以帮助我们弥合用户和设计师/开发人员之间的 “巨大鸿沟”。
-
-[DevTools 有什么新功能？](https://frontendfoc.us/link/118973/web "www.smashingmagazine.com") — 对 Chrome、Edge、Safari 和 Firefox 中开发人员工具的最新更改和新增功能进行了不错的介绍。
+[`npm` 的完整初学者指南](https://frontendfoc.us/link/119222/web "css-tricks.com") — CSS Tricks 的指南涵盖了从头开始的所有内容。如果你是一名长期的 JavaScript 开发人员，`npm` 学习必不可少。
 
 ## **⚡️ 快览:**
 
-*   [Safari Technology Preview 138](https://frontendfoc.us/link/118974/web) 现已发布，支持 `:focus-visible`。
-*   尽管你可能在 Twitter 上看到过，但 [Eric Meyer 还是强调 Apple 并没有进行 “众筹”](https://frontendfoc.us/link/118975/web)：`focus-visible` 是为 Safari 开发的。与此同时，苹果还能做得更好吗？我们认为是的。
-*   以下是 [纽约时报团队如何处理网络上的 3D 内容的有趣观点](https://frontendfoc.us/link/118976/web)。
+*   WordPress 版本 5.9 现已推出 — [看看有什么新功能](https://frontendfoc.us/link/119225/web)。
+*   Rachel Andrew 研究了上个月 Web 浏览器稳定版和 beta 版中的一些 [有趣的功能](https://frontendfoc.us/link/119226/web)。
+*   德国的一家州法院裁定，[在您的网站上使用 Google 字体会违反 GDPR](https://frontendfoc.us/link/119227/web)。
+*   谈到 GDPR，“同意弹出窗口” 被认为是 [非法的](https://frontendfoc.us/link/119228/web)。
+*   [Bootstrap 的图标库](https://frontendfoc.us/link/119229/web) 最新版本现已发布，包括 140 多个新图标。该集合目前已多达近 1,700 个图标。
+*   Firefox 上个月遭遇了一次停电，[这里](https://frontendfoc.us/link/119230/web) 回顾了所发生的技术细节。
+*   此 [Web 内容可访问性指南清单](https://frontendfoc.us/link/119231/web) 非常值得参考。
+*   你知道 [谷歌为他们的页面重写了大量的页面标题](https://frontendfoc.us/link/119232/web) 吗？
 
 ## 📙 **教程、文章 & 意见**
 
-[比较 CSS 的特性](https://frontendfoc.us/link/118978/web "kilianvalkhof.com") — 当谈到 CSS 特性时，你如何选择两个类似的选择器？这篇文章深入探讨了这一点。
+▶  [!important 是如何工作的？（不是你想的那样）](https://frontendfoc.us/link/119233/web "www.youtube.com") — CSS `!important` 不仅仅增加了样式规则的权重，它还反转了 CSS 级联 — 正如这个 8 分钟的视频中所解释的那样。
 
-[这是我不知道的关于 `:where()` 的内容](https://frontendfoc.us/link/118980/web "www.matuzo.at") — Manuel 概述了 `where()` 伪类可能比最初想象的更有用。
+[2022 年 Web 开发的底线？](https://frontendfoc.us/link/119234/web "engineering.linecorp.com") — 分析围绕前端技术、浏览器共享等的众多统计数据，以了解我们必须支持的最低兼容。
 
-[尝试为软件团队构建的快速、直观的项目管理](https://frontendfoc.us/link/118890/web "shortcut.com") — Shortcut 是为开发人员构建的快速直观的项目管理。取悦 Scrum 之神并立即尝试吧。
+[使用 InfluxDB 可视化实时数据](https://frontendfoc.us/link/119235/web "www.influxdata.com") — 如何使用基于 React 的 Giraffe 可视化库从流数据中获得有意思的东西。
 
-[2022 年前端预测](https://frontendfoc.us/link/118981/web "www.jayfreestone.com") — 对今年我们可能会看到的内容的思考，包括：“_回归微前端、函数式 JavaScript 以及我们所知道的 Jamstack 的消亡_”。
+[WebAssembly 特性检测](https://frontendfoc.us/link/119236/web "web.dev") — 了解如何在支持所有浏览器的用户的同时使用最新的 WebAssembly 功能。在这篇相关文章中，[Harshal Sheth 谈到了这项技术现在处于 “拐点”](https://frontendfoc.us/link/119237/web) — 预计在未来几年内采用率将激增。
 
-[沿 SVG 路径为任何内容设置动画](https://frontendfoc.us/link/118982/web "tympanus.net") — 如何使用 SVG 路径和 `getPointAtLength()` 函数来创建创意动画。
+[CSS `fit-content` 的用例](https://frontendfoc.us/link/119238/web "ishadeed.com") — 一篇关于 Ahmad 最喜欢的 CSS `fit-content` 用例的短文。
 
-[上下文感知 Web 组件比您想象的要容易](https://frontendfoc.us/link/118983/web "css-tricks.com") — 查看可用于 Web 组件的四个生命周期回调。
+[使用 CSS 混合模式的背景移位动画](https://frontendfoc.us/link/119239/web "tympanus.net") — 下面是如何使用 CSS 混合模式和多层动画来实现整洁的背景颜色偏移过渡效果。[这是演示效果](https://frontendfoc.us/link/119240/web)。
 
-[使用 Web Worker 提高性能：基本知识](https://frontendfoc.us/link/118984/web "blog.bitsrc.io") — 通过 Web Worker 介绍 JavaScript 中多线程的基本概念。
+[流体类型的尺寸和间距](https://frontendfoc.us/link/119241/web "piperhaywood.com") — 开发者 Piper 分享了他们使用流体类型的原因，以及您可能希望如何处理类似的类型设置。
 
-[少写点](https://frontendfoc.us/link/118892/web "css-tricks.com") — 作为开发人员，我们喜欢添加我们的工具/库，但这通常意味着使应用程序会超出其实际需要的内容，并使其速度变得比可能要慢。
+[如何在不陷入绝望的情况下跟上 Web 开发的步伐](https://frontendfoc.us/link/119242/web)
 
-[URL 的尾部斜杠：有争议或已解决？](https://frontendfoc.us/link/118985/web)
+[“大多数网站都是隐式设计的，生命周期很短”](https://frontendfoc.us/link/119243/web)
 
-[为什么现在对 Web3 感到兴奋还为时过早](https://frontendfoc.us/link/118893/web)
-
-[“当我们关闭 AMP 时发生了什么”](https://frontendfoc.us/link/118894/web)
-
-[Flexbox 的工作原理](https://frontendfoc.us/link/118986/web)
-
+[在网站上更改字体之前要考虑的六件事](https://frontendfoc.us/link/119244/web)
 
 ## 🔧 **代码、工具和资源**
 
-[mo.js 1.3：用于 Web 的动态图形工具带](https://frontendfoc.us/link/118900/web "mojs.github.io") — 使用声明式 API 来完全控制动画。查看 [入门教程](https://frontendfoc.us/link/118901/web)，了解它是如何从代码 POV 工作的。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643812162/c9qzattwnae3rwqeniuo.png)
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643203777/z6smkyefez4seotvhvub.png)
+[OpenMoji：面向设计师和开发人员的开源表情符号](https://frontendfoc.us/link/119249/web "openmoji.org") — 目前包括约 4,000 个手工制作的表情符号，它们都遵循一致的风格，可按关键字或类别进行搜索。
 
-[mmmotif：用于 3D 类同构模式的 SVG 生成器](https://frontendfoc.us/link/118987/web "fffuel.co") — Sébastien Noël 的另一个工具（我们之前在这里介绍过其他一些工具）。它可以生成具有 3D 感觉的 SVG 形状图案，然后您可以将其保存或复制为 SVG。
+[渐变生成器：创建 CSS、SVG 和 PNG 颜色渐变](https://frontendfoc.us/link/119250/web "doodad.dev") — 渐变生成器是一毛钱，但这个有一些有用的功能：包括圆锥渐变，渐变分层，并自动添加颜色以防止饱和度损失。
 
-[使用 Buildkite 的测试分析识别、跟踪和问题修复的测试 ✅](https://frontendfoc.us/link/118902/web "buildkite.com")
+[Doppler — 将所有环境变量集中在一处](https://frontendfoc.us/link/119251/web "www.doppler.com")
 
-[metaSEO：为任何网页快速生成 Meta 标签](https://frontendfoc.us/link/118905/web "metaseo.itsvg.in") — 例如，包括 OpenGraph 和 Twitter 卡片数据，用于在 Twitter 和 Facebook 上直观地表示页面。
+[Open Props：增强型 CSS 变量](https://frontendfoc.us/link/119252/web "open-props.style") — 由预定义的 CSS 变量组成的小型即插即用组件，您可以使用它们来构建自己的设计系统、组件或与其他框架一起使用。
 
-[DevToys：一个原生 Windows 应用程序，是开发人员的瑞士军刀](https://frontendfoc.us/link/118899/web "devtoys.app") — 是一个包括了许多离线工作的内置实用程序，包括格式化和转换 JSON、文本差异、测试 RegExp、编码器/解码器、图像压缩等等。
+[Runno: 基于浏览器的代码运行器，可以作为 IFrame 嵌入或用作库](https://frontendfoc.us/link/119253/web "runno.dev") — 类似于 JSFiddle 和 CodePen 的浏览器的版本工具，包括 JS、Python、SQL、C 和 C++ 的运行时。
 
-[Colourpalette：为您的 CSS 提供美丽色彩的画廊](https://frontendfoc.us/link/118988/web "colourpalette.xyz") — 这是一个非常简单的项目，但它之所以脱颖而出，仅仅是因为它是由一位 11 岁的开发人员构建的。很高兴看到这么年轻的人在网络上构建东西！
-
-[PostSrc 组件：50 多个 Tailwind CSS 组件](https://frontendfoc.us/link/118903/web)
-
-[rasterizeHTML.js：将 HTML 渲染到 HTML 画布上](https://frontendfoc.us/link/118904/web)
+[PWA Studio 发布，用于构建渐进式 Web 应用程序的 VS Code 扩展](https://frontendfoc.us/link/119254/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/526)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/526/README.md)
+> * [查看原文](https://frontendfoc.us/issues/527)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/527/README.md)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
