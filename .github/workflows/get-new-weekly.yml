@@ -16,8 +16,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3  
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          author: daodaolee <im@daodaolee.cn>
-          committer: daodaolee <im@daodaolee.cn>
+          author: KimYangOfCat <kim.yang.gh@outlook.com>
+          committer: KimYangOfCat <kim.yang.gh@outlook.com>
           commit-message: 'feat: add new weeklys'
           branch: tracker
           delete-branch: true

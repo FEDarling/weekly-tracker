@@ -1,7 +1,8 @@
 name: Weekly Releases
-on:
-  push:
-    branches: [main]
+# 暂时不发布新 issue
+# on:
+#   push:
+#     # branches: [main]
 jobs:
   checkout-and-createIssue:
     runs-on: ubuntu-latest
