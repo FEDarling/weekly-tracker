@@ -1,72 +1,98 @@
 ---
-title: 'React Status #280' #不可修改
-date: '2022-03-18' #不可修改
+title: 'React Status #281' #不可修改
+date: '2022-03-25' #不可修改
 categories:  #不可修改
   - 'React Status'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1647446598/iwfikud5skbmjt6pecw8.jpg)](https://react.statuscode.com/link/121000/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lnxbvkafp9jm51n4ixzd.jpg)](https://react.statuscode.com/link/121307/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[A Delightful React File/Directory Structure](https://react.statuscode.com/link/121000/web "www.joshwcomeau.com") — We have featured a number of these types of articles, but there’s always room for another perspective on the ‘right’ way to set up a project, particularly from a respected voice in the React community.
+[React Flow 10: For Creating Interactive Node-Based UIs, Editors, and Diagrams](https://react.statuscode.com/link/121307/web "reactflow.dev") — Although we covered this in [issues 235](https://react.statuscode.com/link/121308/web) and [187](https://react.statuscode.com/link/121309/web), a new [major release](https://react.statuscode.com/link/121310/web) warrants another look. Amongst the new features and improvements: sub-flows, touch device support as well as some new hooks and properties. This [blog post](https://react.statuscode.com/link/121311/web) provides a good overview.
 
-[An Update on React Native's New Architecture Rollout](https://react.statuscode.com/link/120993/web "reactnative.dev") — Updates to how React Native works under the hood have been coming for [a fair while now](https://react.statuscode.com/link/120994/web) with FB first using them in-house last summer. This year, it’s coming to us all and this post covers details of the rollout and how you can get involved.
+Webkid GmbH
 
-[![](https://copm.s3.amazonaws.com/d52404e9.png)](https://react.statuscode.com/link/120995/web)
+[Everything You Need To Know About the React 18 RC](https://react.statuscode.com/link/121312/web "www.telerik.com") — React 18 remains imminent with a [third release candidate](https://react.statuscode.com/link/121313/web) out just now. This post aims to prime you on what’s new so you won’t be at all surprised when the final drops.
 
-[🧈 ButterCMS Melts into Your React App. #1 Rated Headless CMS](https://react.statuscode.com/link/120995/web "buttercms.com") — ButterCMS is your content backend. Enable your marketing team to update website + app content without needing you. Try the #1 rated Headless CMS for React today. Free for 30 days.
+Kathryn Grayson Nanz
+
+[![](https://copm.s3.amazonaws.com/d52404e9.png)](https://react.statuscode.com/link/121314/web)
+
+[🧈 ButterCMS Melts into Your React App. #1 Rated Headless CMS](https://react.statuscode.com/link/121314/web "buttercms.com") — ButterCMS is your content backend. Enable your marketing team to update website + app content without needing you. Try the #1 rated Headless CMS for React today. Free for 30 days.
+
+🧈 ButterCMS sponsor
+
+[Liqvid 2.1: Create Interactive 'Liquid Videos' in React](https://react.statuscode.com/link/121341/web "liqvidjs.org") — The new version now lets you use the [Web Animations API](https://react.statuscode.com/link/121342/web). It also includes a new `useTime` hook for prop-updating animation, improved usability as well as laying the groundwork for further future improvements. [Remotion](https://react.statuscode.com/link/121343/web) is another option to consider in this space focused more on rendered video.
+
+Yuri Sulyma
+
+🔥  [Hooks Considered 'Harmful'](https://react.statuscode.com/link/121316/web "labs.factorialhr.com") — The author claims to “find a dozen of hooks-related problems every single week” and he has used that experience to present examples, workarounds and otherwise avoid the “rough edges of the API”. This led to [quite a big discussion](https://react.statuscode.com/link/121317/web) on Hacker News.
+
+Pau Ramon Revilla
+
+[Introducing Ladle: Develop and Test Your React Stories Faster](https://react.statuscode.com/link/121344/web "www.ladle.dev") — A new tool for building and testing React components in an isolated environment. Reminds you of Storybook? Ladle aims to be a drop-in replacement but that offers faster performance all round (and, yes, there are benchmarks).
+
+Vojtech Miksu
 
 ## **Quick bits:**
 
-*   Ooh.. [is Apple using React](https://react.statuscode.com/link/121019/web) to help power some of the 'native' views within its macOS System Preferences app?
+*   The Next.js project has unveiled a [new foundations course](https://react.statuscode.com/link/121315/web) for anyone who wants to pick up the prerequisite knowledge for working with Next.js.
 
-*   Last week we mentioned [the React 18 release candidate](https://react.statuscode.com/link/120996/web) – now there's a [second release candidate](https://react.statuscode.com/link/120997/web).
+[How to Create and Validate a React Form with Hooks](https://react.statuscode.com/link/121322/web "www.telerik.com") — There are libraries to abstract away a lot of this work (e.g. [Formik](https://react.statuscode.com/link/121323/web)) but if you want to do it by hand, as it were.
 
-*   Flutter is better than React Native, [says Jamon Holmgren,](https://react.statuscode.com/link/120998/web) but _"in all the ways that don't matter."_ Ouch.
+Thomas Findlay
 
-*   📅  React Finland is coming back [for a _live_ event this year.](https://react.statuscode.com/link/120999/web) It takes place in Helsinki this September.
+[Writing a React Table of Contents Component](https://react.statuscode.com/link/121325/web "blog.eyas.sh") — Although a table of contents can improve UX by letting readers jump directly to their preferred content, the setup and maintenance of such a control can involve a lot of drudge work. So why not have the table of contents (almost) look after itself?
 
+Eyas Sharaiha
 
-[How to Set Up a Professional React Project](https://react.statuscode.com/link/120991/web "profy.dev") — Every journey starts with a single step, but when it comes to building an entire app, that first step can sometimes seem particularly intimidating when lots of tooling is involved. This guide explains how to create a new React app using a popular stack: Next.js, TypeScript, ESLint, Prettier, styled-components, Cypress, and Storybook. There’s an associated [48-minute screencast](https://react.statuscode.com/link/120992/web) going through it all too.
+[Upgrading Next.js for Instant Performance Improvements](https://react.statuscode.com/link/121321/web "vercel.com") — A case study of how the Vercel team brought a Next.js 8 demo up to Next.js 12 standards and saw huge improvements in the process.
 
-[A Fundamental Guide to React Suspense](https://react.statuscode.com/link/121001/web "www.chakshunyu.com") — After several years since it was first proposed, [Suspense](https://react.statuscode.com/link/121002/web) will finally be officially released with React 18. But what is it, why do we need it, what issues does it address, and what are the benefits?
+Lydia Hallie
 
-
-▶  [How Remix Helps Bridge the Network Chasm](https://react.statuscode.com/link/121007/web "changelog.com") — Kent C. Dodds—the Director of Developer Experience at Remix—and the JS Party panelists take a look at the new React framework: what it does today, how it lured Kent away from a lucrative independent teaching career and what’s next.
-
-▶  [Webcam Photo Filters and Effects in React with Cloudinary](https://react.statuscode.com/link/121008/web "www.youtube.com") — A walkthrough of both the creation of a modest, React-based webcam app and the subsequent use of the [Cloudinary](https://react.statuscode.com/link/121009/web) media-as-a-service platform to add filters and overlays to the captured images.
-
-[How to Make a Data Dashboard with React Native](https://react.statuscode.com/link/121010/web "www.influxdata.com")
-
-[Building a YouTube Component Using React Native's Webview](https://react.statuscode.com/link/121011/web)  
-Daniel Friyia
+[Storing State in the URL with React](https://react.statuscode.com/link/121327/web)  
+Pierre Hedkvist
 
 ## 🛠 Code and Tools
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vkeeo2fqs1fyqezpelao.jpg)](https://react.statuscode.com/link/121012/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/y0s6sejeq6drq1yosjri.jpg)](https://react.statuscode.com/link/121329/web)
 
-[React-Menu 3.0: A Customisable and Accessible React Menu Library](https://react.statuscode.com/link/121012/web "szhsin.github.io") — A well designed menu component that supports an unlimited depth of submenus, radio/checkbox menu items, as well as React 18’s concurrent rendering. Works nicely with the keyboard too. [GitHub repo](https://react.statuscode.com/link/121013/web).
+[Turnstone: A React Search Component](https://react.statuscode.com/link/121329/web "tomsouthall.com") — A fully customizable search box with autocomplete dropdown, typeahead, the ability to group results from multiple data sources, WAI-ARIA compliance and more. The main aim is for the easy combination of results for multiple data sources into a single field.
 
-[Solito: Unifying React Native with Next.js Around Navigation](https://react.statuscode.com/link/121014/web "solito.dev") — A wrapper around React Navigation and Next.js that lets you share navigation code across platforms. It also provides a set of examples to illustrate its use. It promises to be “_the missing piece for using React Native with Next.js to build powerful cross-platform apps_.”
+Tom Southall
+
+[React Webcam 7.0: A Component to Work with Webcams](https://react.statuscode.com/link/121331/web "github.com") — Grab an image from a web cam, select a camera of your choice, etc.
+
+Moz Morris
+
+[How to Choose A Headless CMS for Your Project in 2022?](https://react.statuscode.com/link/121332/web "kontent.ai")
+
+Kontent by Kentico sponsor
+
+[react-map-gl: Interactive, Thoroughly Customizable Maps in the Browser](https://react.statuscode.com/link/121333/web "github.com") — A React API for the capable and mature [mapbox-gl-js](https://react.statuscode.com/link/121334/web) library, which was first created by Uber’s visualization team. Want some demos? [Of course.](https://react.statuscode.com/link/121335/web)
+
+Vis.gl
+
+[Reactivated: The Easiest Way to Use React and Django Together](https://react.statuscode.com/link/121336/web) — One for the Pythonistas!  
+Silvio Gutierrez
+
+[MDX 2.1: Use JSX in Markdown Documents](https://react.statuscode.com/link/121337/web)  
+Compositor and Vercel
 
 ## ⚡️ Quick Bits:
 
-[react-jsonschema-form](https://react.statuscode.com/link/121020/web) — Component for building forms from JSON Schema.
+[react-spinner-animated](https://react.statuscode.com/link/121338/web) — A variety of different ‘spinners’ using novel animation effects.
 
-[react-string-replace](https://react.statuscode.com/link/121015/web) — An easy way to safely do string replacement with React components.
+[react-form-stepper](https://react.statuscode.com/link/121339/web) — Simple component for indicating progress in multi-step forms.
 
-[react-json-reconciler](https://react.statuscode.com/link/121016/web) — Serialize JSX trees into JSON objects.
-
-[react-native-modalfy](https://react.statuscode.com/link/121017/web) — Easy management of modals in React Native apps.
-
-[datetimepicker](https://react.statuscode.com/link/121018/web) — A React Native date & time picker component for iOS, Android and Windows.
+[react-native-awesome-gallery](https://react.statuscode.com/link/121340/web) — Performant, native-like and customizable gallery component.
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://react.statuscode.com/issues/280)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/280)
+> * [查看原文](https://react.statuscode.com/issues/281)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/281)
 > * 译者：
 > * 校对者：
