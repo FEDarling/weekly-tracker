@@ -1,80 +1,96 @@
 ---
-title: 'JavaScript Weekly #579' #不可修改
-date: '2022-03-04' #不可修改
+title: 'JavaScript Weekly #580' #不可修改
+date: '2022-03-12' #不可修改
 categories:  #不可修改
   - 'JavaScript Weekly'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tifrgksk2wfldgqxmugb.jpg)](https://javascriptweekly.com/link/120559/web)
+🤦 Thanks to all readers who noticed we made a mistake with last week's subject line _"TypeScript 2.6 released"_ – rather than the intended **4.6**. We were only [4 years late](https://javascriptweekly.com/link/120875/web) with _that_ news ;-) Rest assured, more caffeine has been consumed today..
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[TypeScript 4.6 Released (And It Even Benefits Non-TS Users!)](https://javascriptweekly.com/link/120559/web "devblogs.microsoft.com") — The typed superset of JavaScript takes another step forward with the addition of the `es2022` target, allowing code in constructors _before_ `super()`, improved recursion depth checks, more syntax errors that can be detected in JavaScript files (even without using TS itself!), and more.
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dtmnmyvkngvdz0oxkzgg.jpg)](https://javascriptweekly.com/link/120913/web)
 
-[![](https://copm.s3.amazonaws.com/e5d55491.png)](https://javascriptweekly.com/link/120560/web)
+[An ECMAScript Proposal for Type Annotations in JavaScript (That Are Ignored at Runtime)](https://javascriptweekly.com/link/120916/web "github.com") — A huge amount of chatter this week over an interesting proposal to support type annotations directly in standard JavaScript code that are available for external type checkers to use but which are otherwise ignored at runtime. TypeScript’s Daniel Rosenwasser has written [a lot more about the approach here](https://javascriptweekly.com/link/120913/web). Dr. Axel has also [written up his thoughts.](https://javascriptweekly.com/link/120917/web) Whatever the case, people seem pretty excited for the potential and Allen Wirfs-Brock has said [_"if I was still active on TC39 I’d be advocating for this proposal."_](https://javascriptweekly.com/link/120924/web)
 
-[The Easiest Way to Monitor Node: Automatic Instrumentation](https://javascriptweekly.com/link/120560/web "blog.appsignal.com") — Monitoring your Node.js apps can be hard. You need to understand what you need to monitor, instrument code, and then make sense of all the data. Automatic instrumentation makes that whole process easier and streamlined. Find out how you can do it.
+[![](https://copm.s3.amazonaws.com/64147ecc.png)](https://javascriptweekly.com/link/120876/web)
+
+[Wallaby.js: 15x Faster JavaScript/Jest Testing and Debugging](https://javascriptweekly.com/link/120876/web) — Wallaby runs your tests immediately as you type, with runtime values, errors and code coverage displayed in real-time right next to your code. Features have been designed specifically for testing, including: time-travel debugging, edit-and-continue support, and much more.
+
+[React 18 Release Candidate Released](https://javascriptweekly.com/link/120877/web "reactjs.org") — The full production release of React 18 is seemingly imminent: just out, the detailed documentation covering the upgrade to this week’s release candidate. The post also includes useful information about some of the major new features.
+
+🐦  [Twitter Thread on Stripe Converting from Flow to TypeScript](https://javascriptweekly.com/link/120919/web "twitter.com") — And it took just one weekend: _“We modified about 3.5 million lines of code, and then hundreds of developers came in Monday morning ready to write TS.”_
+
+[WebGPU — All of the Cores, None of the Canvas](https://javascriptweekly.com/link/120920/web "surma.dev") — It’s always a pleasure to see Surma dig into something ([especially Web Workers](https://javascriptweekly.com/link/120921/web)) and this time he turns to making the potential of WebGPU (an API that exposes the capabilities of GPU hardware that, admittedly, isn't available by default in any standard browser yet) more accessible to us all.
 
 ## **IN BRIEF:**
 
-*   🇺🇦 The popular [Leaflet](https://javascriptweekly.com/link/120561/web) mapping library was created by a Ukrainian [developer](https://javascriptweekly.com/link/120562/web) and [the Leaflet team has a message for JavaScript developers](https://javascriptweekly.com/link/120563/web) about the current invasion and things you can do to help Ukraine. We, too, have donated and will continue to do so. GitHub has also shared [their response to the war.](https://javascriptweekly.com/link/120564/web)
+*   Did you know that for legacy reasons [HTML-style comments work in JavaScript?](https://javascriptweekly.com/link/120878/web) (A quirk that adds some additional complexity [to V8's parser..](https://javascriptweekly.com/link/120879/web))
 
-*   Another month, [another VS Code release.](https://javascriptweekly.com/link/120565/web) This time we get improved automatic language detection, lazy variable evaluation when debugging JS (and JS only, for now), and improved syntax error reporting in JS files.
+*   A fascinating Twitter thread diving straight down the rabbit hole of historic calendars and [why JS and Swift disagree on when January 1, 1 AD actually was](https://javascriptweekly.com/link/120880/web).
 
-*   📆 [DevOps.js](https://javascriptweekly.com/link/120566/web) is a virtual conference on building, deploying and monitoring JS apps taking place in just three weeks (March 24-25). [You can register here.](https://javascriptweekly.com/link/120566/web)
+*   Chrome has made some [big leaps forward in browser performance](https://javascriptweekly.com/link/120881/web) in the past year and now claims to be faster than Safari.
 
-*   Apple, Bocoup, Google, Mozilla and others have announced [Interop 2022](https://javascriptweekly.com/link/120567/web), a collaboration to improve interoperability of (mostly visual, for now) Web technologies.
-
-*   The much loved and heavily used [MDN Web Docs](https://javascriptweekly.com/link/120568/web) site now has a new homepage, design, and logo.
+*   The _Views on Vue_ podcast has an episode covering [▶️ the growth of the Vite ecosystem](https://javascriptweekly.com/link/120922/web).
 
 
 ## **RELEASES:**
 
-[zx 5.2](https://javascriptweekly.com/link/120569/web) – Replace bash scripts with JavaScript.  
-[React-Bootstrap 2.2](https://javascriptweekly.com/link/120570/web) – Bootstrap components built with React.  
-[Nest.js 8.4](https://javascriptweekly.com/link/120571/web) – Node.js server-side framework.  
-[deck.gl 8.7](https://javascriptweekly.com/link/120572/web) – WebGL2 powered visualization framework.  
-[OpenPGP.js 5.2](https://javascriptweekly.com/link/120573/web) – JS OpenPGP implementation.
+[Partytown 0.5.0](https://javascriptweekly.com/link/120909/web) – Moves scripts into Web Workers for perf.  
+[AVA 4.1.0](https://javascriptweekly.com/link/120882/web) – Node.js test runner.  
+[Rollup.js 2.70.0](https://javascriptweekly.com/link/120883/web) – ES module bundler.  
+[Node 17.7.0](https://javascriptweekly.com/link/120910/web) and [17.7.1](https://javascriptweekly.com/link/120911/web)  
+[React Native DateTimePicker 6.0](https://javascriptweekly.com/link/120884/web)
 
 ## 📒 Articles & Tutorials
 
-[The Most Modern JavaScript I Know (in One Script)](https://javascriptweekly.com/link/120577/web "jott.live") — This is a cute idea that maybe we could all try when learning things. Bram has produced a single piece of code jamming in every new JS concept they just learned.
+[Naming Conflicts – or How Existing Code Can Force Proposed Features to Be Renamed](https://javascriptweekly.com/link/120888/web "2ality.com") — Phil Karlton once said “_cache invalidation and naming things_” were the two hardest things in computer science, and JavaScript has had its fair share of trouble around the latter.
 
-▶  [Kent C. Dodds's (Classic) Beginner's Guide to React Course](https://javascriptweekly.com/link/120578/web "www.youtube.com") — The folks at Egghead, a place that offers various online courses, is releasing some of their ‘classic’ courses on YouTube, and the first one is a React course from Kent C. Dodds. It’s 2.5 hours long, uses React 16, and dates from early 2020, so it’s not out of date :-)
+[A Lightweight GitHub REST API in 34 Lines of Code](https://javascriptweekly.com/link/120889/web "gist.github.com") — The power of ES proxies strikes again. Not a tutorial, but you might learn something from the code.
 
-[Cheat Sheet: OWASP Top 10 Vulnerabilities (And How to Fix Them)](https://javascriptweekly.com/link/120579/web "go.snyk.io") — Spoiler alert - Broken Access Control is the #1 risk. Learn actionable tips to prevent each top 10 vulnerability.
+[Project Management for Today's (And Tomorrow's) Software Team](https://javascriptweekly.com/link/120890/web "shortcut.com") — We bring the flow to your software team's workflow. Plan, collaborate, build, and measure success with Shortcut.
 
-['SolidJS Feels Like What I Always Wanted React to Be'](https://javascriptweekly.com/link/120580/web "typeofnan.dev") — An opinionated piece. [SolidJS](https://javascriptweekly.com/link/120581/web) is an efficient reactive UI library and we’ve [seen direct comparisons before](https://javascriptweekly.com/link/120582/web) – this piece goes into specifics.
+[Building Serverless Multi-Region WebSocket APIs on AWS](https://javascriptweekly.com/link/120891/web "aws.amazon.com") — A look at an interesting (and very AWS-y!) architecture for a global real-time chat app by using WebSockets and cross-region communications behind the scenes.
 
-[Use Group Step Type to Better Organize Complex Pipelines ✨](https://javascriptweekly.com/link/120583/web "buildkite.com")
+[My Experience Building a Chess App in React](https://javascriptweekly.com/link/120892/web "dev.to") — The author describes himself as a self-taught, relative newcomer to React development. As a result, he describes his approach to this well-defined problem in terms that those at a similar point in the learning curve will find easy to understand.
 
-▶  [Ten React Anti-Patterns to Avoid](https://javascriptweekly.com/link/120584/web)
+[Creating Native Web Components](https://javascriptweekly.com/link/120893/web "tympanus.net") — Looks at how to create native web components using the [Minze](https://javascriptweekly.com/link/120894/web) JavaScript framework.
 
-[Implementing Tetris Using React in 200 Lines of Code](https://javascriptweekly.com/link/120585/web)
+[The Tools that Developers Need–and Don't Need–to Build Great Chatbots](https://javascriptweekly.com/link/120912/web "bit.ly")
+
+[How to Build a File Upload Service with Vanilla JavaScript](https://javascriptweekly.com/link/120896/web)
+
+[A Complete Guide to TypeScript’s `never` Type](https://javascriptweekly.com/link/120897/web)
+
+[Making a Discord Playlist Bot with Serverless Cloud](https://javascriptweekly.com/link/120898/web)
 
 ## 🛠 Code & Tools
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wnfwxicp2w2s1sf9plh3.jpg)](https://javascriptweekly.com/link/120586/web)
+[LemonadeJS V2: A Reactive JavaScript Library with Zero Transpiling Needed](https://javascriptweekly.com/link/120899/web "lemonadejs.net") — Simple, straightforward reactivity anywhere with as little tooling surrounding it as possible.
 
-[Reveal.js 4.3: An HTML Presentation Framework](https://javascriptweekly.com/link/120586/web "revealjs.com") — Brings elegant presentations to anyone with a Web browser. [v4.3](https://javascriptweekly.com/link/120587/web) just came out with a few tweaks.
+[striff: Real Simple String Diffing](https://javascriptweekly.com/link/120900/web "github.com") — Given two strings, you can find out which characters were added or removed, and where.
 
-[Redux Toolkit 1.8.0 Released](https://javascriptweekly.com/link/120588/web "github.com") — If you’re down with Redux for managing state, the “official, opinionated, batteries-included toolset for efficient Redux development” is what you need :-) Among other things, this release adds new ‘listener’ middleware (think `useEffect` but for Redux store updates).
+[PSD: A Zero-Dependency PSD (Photoshop) Parser](https://javascriptweekly.com/link/120901/web "webtoon.github.io") — Will parse info for each layer including text and also supports Photoshop’s .PSB (big image) format. [GitHub repo](https://javascriptweekly.com/link/120902/web).
 
-[Million 1.5: A Fast Virtual DOM Implementation](https://javascriptweekly.com/link/120589/web "millionjs.org") — Focused on performance and shipping at under 1KB compressed, Million is ideal if you want an agnostic VDOM implementation to use when building your own framework or libraries.
+[Studio 3T Manages Your Data, While You Wrestle Your App into Shape](https://javascriptweekly.com/link/120903/web "studio3t.com") — Studio 3T's full suite of MongoDB tools lets you develop with data even faster and turn queries into code.
 
-[Shortcut Puts the Agile in Agile and the “Can” in Kanban](https://javascriptweekly.com/link/120590/web "shortcut.com")
+[Tygo: Generate TypeScript Types from Go(lang) Source Code](https://javascriptweekly.com/link/120904/web "github.com") — Let’s say you’re building an app with Go on the backend and TypeScript on the frontend. This tool scans your Go-based API and creates the relevant TypeScript types for you.
 
-🇺🇦  [Made in Ukraine: A List of (Mostly JS) Projects Built by Ukrainian Developers](https://javascriptweekly.com/link/120591/web "github.com") — More projects than you may have realized.
+[Reason: Write Fast, Type Safe Code in OCaml, But for the JS Ecosystem](https://javascriptweekly.com/link/120905/web "reasonml.github.io") — You essentially get to write OCaml but compile to JavaScript.
 
-[dnt: Deno-to-Node Package Transformation Tool](https://javascriptweekly.com/link/120592/web "github.com") — Takes a [Deno](https://javascriptweekly.com/link/120593/web) module and creates an npm package for use in Node. Goes further than mere packaging though and actually injects shims, transforms commonly Deno code forms to Node approaches, and more.
+[Ultra: A Modern Streaming React Framework for Deno](https://javascriptweekly.com/link/120906/web "ultrajs.dev") — Built around native browser features like ES modules, import maps, and web streams. [The source](https://javascriptweekly.com/link/120907/web) of the project’s own Ultra-powered homepage may help you weigh up if you like its cutting edge approach or not.
 
-[ml-matrix 6.9: Matrix Manipulation and Computation Library](https://javascriptweekly.com/link/120594/web)
+## 🎮 And for some fun..
+
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vbjn6ttgbh34n14k2j4p.jpg)](https://javascriptweekly.com/link/120908/web)
+
+[micropolisJS: A JavaScript Clone of a SimCity-Like Game](https://javascriptweekly.com/link/120908/web "www.graememcc.co.uk") — I didn’t get on to the SimCity train until SimCity 2000, but if you liked the vibe of the earlier 1989 version of SimCity, this might be a reasonable way to fritter away some time.
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/579)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/579)
+> * [查看原文](https://javascriptweekly.com/issues/580)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/580)
 > * 译者：
 > * 校对者：
