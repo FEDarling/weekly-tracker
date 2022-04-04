@@ -1,80 +1,85 @@
 ---
-title: 'Frontend Focus #527'
+title: 'Frontend Focus #528'
 date: '2022-02-19'
 categories:
   - 'Frontend Focus'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643811592/tvkm4honhlfdzog8dxwg.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1644425740/snhc7fyfcgijgpzisjif.png)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[推送通知、WebXR 和更好的 PWA 支持即将登陆 iOS](https://frontendfoc.us/link/119219/web "firt.dev") — Web平台的 iOS 正在更新，包括清单中的图标支持、Web 推送、AR 和 VR 实验 — 正如 Max 在此处详细解释的那样。这是 [Apple 最新 Safari 测试版的发行说明](https://frontendfoc.us/link/119220/web)。
+[A-Frame 1.3: 构建 WebVR 体验的框架](https://frontendfoc.us/link/119518/web "aframe.io") — 用于构建虚拟现实体验的 Web 框架，可在 Vive、Rift、Quest 以及桌面和移动平台（包括浏览器）中运行（如此处的演示所示）。
 
-[内存泄漏：Web 性能被遗忘的一份子](https://frontendfoc.us/link/119224/web "nolanlawson.com") — 认真对待内存泄漏，尽管可能 “努力与回报不成正比”。
+[iOS 15.4 Beta 建议 Apple 支持来自基于 Web 的应用程序的推送通知](https://frontendfoc.us/link/119496/web "www.macrumors.com") — 看起来 Apple 正在努力将基于 Web 的通知引入 iOS — 这对于一系列基于 Web 的应用程序来说将是一个真正的巨大胜利。
 
-![](https://copm.s3.amazonaws.com/79c594b3.jpg)
+![](https://copm.s3.amazonaws.com/a90e1d2b.png)
 
-[针对前端开发人员最大的研究调查](https://frontendfoc.us/link/119221/web "hubs.ly") — 为您答疑解惑的 2022 年前端现状调查。帮助前端社区了解全局——我们在 2020 年有 4500 名参与者，所以让我们扩大规模。
+[关于软件艺术与实践的每周对话](https://frontendfoc.us/link/119498/web "stackoverflow.blog") — 12 多年来，The Stack Overflow 播客一直是开发人员的目的地。主持人 Ben Popper、Cassidy Williams 和 Ceora Ford 与令人难以置信的客人聊天，探讨在软件中工作意味着什么，以及代码如何重塑我们的世界。
 
-[Web 框架解决了什么，没有它们我们应该怎么办](https://frontendfoc.us/link/119223/web "www.smashingmagazine.com") — 深入探讨跨框架常见的一些技术特性，并解释一些不同的框架如何实现它们以及它们的成本。
+[如何在 2022 年使用 Favicon：满足大多数需求的六个文件](https://frontendfoc.us/link/119497/web "evilmartians.com") — “是时候重新考虑 [..] 现代浏览器的网站图标并停止图标生成器了”。高级建议：用 SVG 而不是 PNG，信任浏览器以缩小规模，放弃旧的格式。这是一个很好的现代网络网站图标指南。
 
-[`npm` 的完整初学者指南](https://frontendfoc.us/link/119222/web "css-tricks.com") — CSS Tricks 的指南涵盖了从头开始的所有内容。如果你是一名长期的 JavaScript 开发人员，`npm` 学习必不可少。
+[“常青树” 并不意味着开箱即用](https://frontendfoc.us/link/119499/web "css-tricks.com") — 在一个自动更新无处不在的时代，“我们在创建网络体验时没有一个特定的设备、浏览器和人”。在考虑更广泛的网络平台方法时，请牢记这一点。
 
 ## **⚡️ 快览:**
 
-*   WordPress 版本 5.9 现已推出 — [看看有什么新功能](https://frontendfoc.us/link/119225/web)。
-*   Rachel Andrew 研究了上个月 Web 浏览器稳定版和 beta 版中的一些 [有趣的功能](https://frontendfoc.us/link/119226/web)。
-*   德国的一家州法院裁定，[在您的网站上使用 Google 字体会违反 GDPR](https://frontendfoc.us/link/119227/web)。
-*   谈到 GDPR，“同意弹出窗口” 被认为是 [非法的](https://frontendfoc.us/link/119228/web)。
-*   [Bootstrap 的图标库](https://frontendfoc.us/link/119229/web) 最新版本现已发布，包括 140 多个新图标。该集合目前已多达近 1,700 个图标。
-*   Firefox 上个月遭遇了一次停电，[这里](https://frontendfoc.us/link/119230/web) 回顾了所发生的技术细节。
-*   此 [Web 内容可访问性指南清单](https://frontendfoc.us/link/119231/web) 非常值得参考。
-*   你知道 [谷歌为他们的页面重写了大量的页面标题](https://frontendfoc.us/link/119232/web) 吗？
+*   如果你眯起眼睛，你会注意到 [Chrome 的图标会有一点刷新](https://frontendfoc.us/link/119501/web)。
+*   [dev-browser Polypane 的第 8 版](https://frontendfoc.us/link/119502/web) 现已推出，带来了更好的元素检查器、性能改进、强制颜色模拟、新的调试工具等。
+*   Web 平台正在引入 [一种规范](https://frontendfoc.us/link/119503/web) 的方式来显示 `<input>` 元素（如 “日期”、“时间”、“颜色”、“文件” 等）的浏览器选择器。
+*   WebKit 团队的 Jen Simmons 正在寻求有关您在 Safari 中遇到的任何 “错误和缺失功能” 的 [具体反馈](https://frontendfoc.us/link/119504/web)。
+*   您知道 [屏幕阅读器可能会将 “M” 或 “m” 读作 “米”](https://frontendfoc.us/link/119529/web) 吗？例如 3m 可能被解读为 “三米”，而不是 “三百万”。
 
 ## 📙 **教程、文章 & 意见**
 
-▶  [!important 是如何工作的？（不是你想的那样）](https://frontendfoc.us/link/119233/web "www.youtube.com") — CSS `!important` 不仅仅增加了样式规则的权重，它还反转了 CSS 级联 — 正如这个 8 分钟的视频中所解释的那样。
+[减少 Web 的足迹：优化社交媒体](https://frontendfoc.us/link/119500/web "www.smashingmagazine.com") — 看看我们可以做些什么来减少社交媒体嵌入和社交共享小部件对环境的影响 — _加上一些完全避免它们的策略_。这些也是比较好的性能提示。
 
-[2022 年 Web 开发的底线？](https://frontendfoc.us/link/119234/web "engineering.linecorp.com") — 分析围绕前端技术、浏览器共享等的众多统计数据，以了解我们必须支持的最低兼容。
+[用 HTML 的 `<dialog>` 替换 JavaScript 对话框](https://frontendfoc.us/link/119505/web "css-tricks.com") — 如何用与 `alert()`、`confirm()` 和 `prompt()` 方法具有相同功能的 HTML 对话框元素替换 JavaScript 对话框。
 
-[使用 InfluxDB 可视化实时数据](https://frontendfoc.us/link/119235/web "www.influxdata.com") — 如何使用基于 React 的 Giraffe 可视化库从流数据中获得有意思的东西。
+[Web 框架解决了什么：Vanilla 替代品](https://frontendfoc.us/link/119528/web "www.smashingmagazine.com") — 对如何直接使用 Web 平台作为框架提供的一些解决方案的替代方案的模式给出了一些建议。
 
-[WebAssembly 特性检测](https://frontendfoc.us/link/119236/web "web.dev") — 了解如何在支持所有浏览器的用户的同时使用最新的 WebAssembly 功能。在这篇相关文章中，[Harshal Sheth 谈到了这项技术现在处于 “拐点”](https://frontendfoc.us/link/119237/web) — 预计在未来几年内采用率将激增。
+[纵横比太棒了](https://frontendfoc.us/link/119506/web "css-irl.info") — `aspect-ratio` 是一个不起眼的属性，但是它满足了 CSS 中期待已久的需求。
 
-[CSS `fit-content` 的用例](https://frontendfoc.us/link/119238/web "ishadeed.com") — 一篇关于 Ahmad 最喜欢的 CSS `fit-content` 用例的短文。
+[软件团队的项目管理从未如此简单](https://frontendfoc.us/link/119507/web "shortcut.com") — Shortcut 是为开发人员构建的快速直观的项目管理。取悦 Scrum 之神并立即尝试。
 
-[使用 CSS 混合模式的背景移位动画](https://frontendfoc.us/link/119239/web "tympanus.net") — 下面是如何使用 CSS 混合模式和多层动画来实现整洁的背景颜色偏移过渡效果。[这是演示效果](https://frontendfoc.us/link/119240/web)。
+<img src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1644414068/rftua18elie6c5kxjkb4.png" style="width: 100px" />
 
-[流体类型的尺寸和间距](https://frontendfoc.us/link/119241/web "piperhaywood.com") — 开发者 Piper 分享了他们使用流体类型的原因，以及您可能希望如何处理类似的类型设置。
+[创建 SVG 网格](https://frontendfoc.us/link/119508/web "frontend.horse") — 介绍如何使用 JavaScript 和 SVG 创建一些色彩丰富的生成式网格设计，然后为它们制作动画。
 
-[如何在不陷入绝望的情况下跟上 Web 开发的步伐](https://frontendfoc.us/link/119242/web)
+[CSS 动画：初学者完整指南](https://frontendfoc.us/link/119509/web "themeisle.com") — 对于刚开始使用 CSS 的人，这涵盖了 CSS 动画规范的所有部分，并为每个功能提供了交互式演示。
 
-[“大多数网站都是隐式设计的，生命周期很短”](https://frontendfoc.us/link/119243/web)
+[深入介绍 WordPress 块主题](https://frontendfoc.us/link/119510/web "css-tricks.com")
 
-[在网站上更改字体之前要考虑的六件事](https://frontendfoc.us/link/119244/web)
+[使用 JavaScript 防止平滑滚动](https://frontendfoc.us/link/119511/web)
+
+[演示 CSS `from-font` 的四个例子](https://frontendfoc.us/link/119512/web)
+
+['是的，我可以连接到 CSS 中的数据库'](https://frontendfoc.us/link/119513/web)
 
 ## 🔧 **代码、工具和资源**
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1643812162/c9qzattwnae3rwqeniuo.png)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lshap7rotbwebvc00zjy.jpg)
 
-[OpenMoji：面向设计师和开发人员的开源表情符号](https://frontendfoc.us/link/119249/web "openmoji.org") — 目前包括约 4,000 个手工制作的表情符号，它们都遵循一致的风格，可按关键字或类别进行搜索。
+[Hotkey 2.0: 按下 ”Hotkey“ 时触发元素上的操作](https://frontendfoc.us/link/119524/web "github.com") — 使用 Hotkey，在你的元素上设置 `data-hotkey` 属性，你就可以得到键盘快捷键。 [v2.0](https://frontendfoc.us/link/119525/web) 刚刚下架。如果它足够好用在 GitHub 上，那对我们来说就太好了！
 
-[渐变生成器：创建 CSS、SVG 和 PNG 颜色渐变](https://frontendfoc.us/link/119250/web "doodad.dev") — 渐变生成器是一毛钱，但这个有一些有用的功能：包括圆锥渐变，渐变分层，并自动添加颜色以防止饱和度损失。
+[lite-youtube: 更快地呈现 YouTube 嵌入的 Web 组件](https://frontendfoc.us/link/119522/web "github.com") — 这是 Paul Irish 的 lite-youtube-embed 的 Shadow DOM Web 组件版本，具有键盘特性和其他一些不错的功能。
 
-[Doppler — 将所有环境变量集中在一处](https://frontendfoc.us/link/119251/web "www.doppler.com")
+[将 Pinterest 的 iOS 构建迁移到自动缩放的 EC2 Mac](https://frontendfoc.us/link/119520/web "buildkite.com")
 
-[Open Props：增强型 CSS 变量](https://frontendfoc.us/link/119252/web "open-props.style") — 由预定义的 CSS 变量组成的小型即插即用组件，您可以使用它们来构建自己的设计系统、组件或与其他框架一起使用。
+[Tailwind 的 DevTools：在浏览器中重新进行设计和调试](https://frontendfoc.us/link/119519/web "devtoolsfortailwind.com") — 不是免费工具，但如果您希望能够在页面上试验所有 Tailwind 类，可以考虑使用一下 — _不仅仅是在构建过程中编译的那些_。
 
-[Runno: 基于浏览器的代码运行器，可以作为 IFrame 嵌入或用作库](https://frontendfoc.us/link/119253/web "runno.dev") — 类似于 JSFiddle 和 CodePen 的浏览器的版本工具，包括 JS、Python、SQL、C 和 C++ 的运行时。
+[CodeCaptcha.io：在小型编码挑战背后隐藏的网络链接](https://frontendfoc.us/link/119521/web "www.codecaptcha.io") — 绝对是对验证码的独特看法。在访问链接之前，用户必须解决一个 1-3 行代码相关的任务。目前，只有 JavaScript。
 
-[PWA Studio 发布，用于构建渐进式 Web 应用程序的 VS Code 扩展](https://frontendfoc.us/link/119254/web)
+[Compress Images：在线压缩 WEBP、JPEG、PNG、AVIF 和 JXL 图像的快速工具](https://frontendfoc.us/link/119526/web "www.webutils.app")
+
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/b6popfciytbjfhyvhxzm.jpg)
+
+[ssspill：用于 “溢出” 风格 / 融化效果的 SVG 生成器](https://frontendfoc.us/link/119527/web "fffuel.co")
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://frontendfoc.us/issues/527)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/527/README.md)
+> * [查看原文](https://frontendfoc.us/issues/528)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/frontend_focus/528)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
