@@ -1,72 +1,63 @@
 ---
-title: 'React Status #274'
-date: '2022-02-04'
+title: 'React Status #275'
+date: '2022-02-11'
 categories:
   - 'React Status'
 publish: true
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bk3ysckglctrp7pxfypi.jpg)](https://react.statuscode.com/link/119256/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wyxfhwilowcknhdias4z.jpg)](https://react.statuscode.com/link/119533/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-▶  [React 的故事(十分钟以内)](https://react.statuscode.com/link/119256/web "www.youtube.com") — 如果你是刚开始学习 React，那么简单的回顾一下 React 的发展历程对你来说很有价值，抑或是你只是想找点乐子? ;-) 这个视频让我们快速的了解 React 的背景。
+[Etsy 从 React15.6 迁移到 Preact (而不是 React16)](https://react.statuscode.com/link/119533/web "twitter.com") — 在这份关于 Etsy 更新 React 的 [文件](https://react.statuscode.com/link/119534/web) 中，有一个关于这一切背后的决定的完整解释。但是，[Preact](https://react.statuscode.com/link/119535/web)，一个较小的 React 替代品，具有相同的 API，被证明是他们的正确选择。
 
-[看看 2022 年 React 的趋势](https://react.statuscode.com/link/119257/web "www.chakshunyu.com") — 作者描述了即将到来的 2022 年中，他们认为重要的事情：[Remix](https://react.statuscode.com/link/119258/web)，服务端渲染，concurrent 模式，行为检测还有一些 “荣誉奖”。
+[React — 遗失部分?](https://react.statuscode.com/link/119536/web "acko.net") — 作者通过一个思想实验，旨在回答 React 的 props、state 和 hooks 模式是否可以用于非 UI 应用的问题。"这也是一次平行宇宙的旅行，在那里 React 团队做出了不同的决定，受到的遗留限制要少得多"。
 
-[![](https://copm.s3.amazonaws.com/2e466595.png)](https://react.statuscode.com/link/119259/web)
+[![](https://copm.s3.amazonaws.com/ae9d744f.jpg)](https://react.statuscode.com/link/119537/web)
 
-[为小团队准备的免费流订阅和聊天 APIs](https://react.statuscode.com/link/119259/web "getstream.io") — Stream Maker Account  为小团队提供了免费且功能健全的流订阅和聊天 APIs，让边缘项目和创业公司可以使用它们。
+[学习 Rx.js 的基础知识](https://react.statuscode.com/link/119537/web "frontendmasters.com") — 这个有用的 JavaScript 库非常适用于管理随时间发生的事件，在这个详细的视频课程中，Steve Kinney 介绍了你需要了解的基础知识 - 包括观测器、事件、间隔、定时器、操作符等等。
 
-## **两个关键版本:**
+[React Router 6 中的鉴权介绍](https://react.statuscode.com/link/119538/web "www.robinwieruch.de") 一个关于在 React Router 6 中实现鉴权的实际演练，在一个简单的示例应用程序中。然后你就可以继续去下面这篇...
 
-*   [Recoil 0.6](https://react.statuscode.com/link/119260/web) 已经发布了对 React 18 支持的改进。
+[React Router 6 和私有路由 (a.k.a. 受保护路由)](https://react.statuscode.com/link/119539/web)
 
-*   想在 JSX 中使用 Markdown? [MDX 2.0](https://react.statuscode.com/link/119261/web) 已经发布，通过改进的语法、对 JavaScript 表达式的支持等，使其比以往更容易使用。
+[用控制反转（Inversion of Control）构建解耦的 React 组件](https://react.statuscode.com/link/119540/web "t.co") — [控制反转](https://react.statuscode.com/link/119541/web) 原则适合于这样的场景：你想隔离未来可能会改造功能，比如把一个支付供应商换成另一个。
 
+[在 D3.js 中使用 React](https://react.statuscode.com/link/119548/web "wattenberger.com") — 我们认为这个非常容易理解的 D3.js 介绍应该得到比去年更多的关注，所以它又回来了 :-)
 
-[如何写高性能的 React 代码](https://react.statuscode.com/link/119262/web "www.developerway.com") — 尽管作者承认“过早优化”的潜在危险，但她说一些这样的优化对于 React 来说是一件好事，并列举了一系列的例子。
-
-[在 React Native 中构建优秀可访问性的动画](https://react.statuscode.com/link/119263/web "medium.com") — [Seer Medical](https://react.statuscode.com/link/119264/web)app 目标是提供吸引人的的动画用户界面，同时不忘记特殊目标受众（癫痫患者）的可访问性要求。
-
-[理解 React 的生命周期](https://react.statuscode.com/link/119269/web "betterprogramming.pub") — 作者解构了 React 组件生命周期的三个阶段：安装（插入 DOM ）、更新和卸载（从 DOM 移除），并进一步地描述了适用于每个阶段的方法。
-
-[React 18中的自动批处理（Automatic Batching）](https://react.statuscode.com/link/119270/web "blog.bitsrc.io") — 随着 [React 18 in beta](https://react.statuscode.com/link/119271/web)的发布，是时候检查它与之前版本不同的功能了: [自动批处理（Automatic Batching）](https://react.statuscode.com/link/119272/web)预示着减少不必要的渲染。
+▶  [在React中，当滚动到一个元素时，用 Intersection Observer 触发一个函数](https://react.statuscode.com/link/119549/web)
 
 ## 🛠 代码和工具
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/k9u2tvae2i4pqytu61m2.jpg)](https://react.statuscode.com/link/119273/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/m9altra8nw4cj21n8fno.jpg)](https://react.statuscode.com/link/119550/web)
 
-[忍者秘籍（Ninja Keys）: 一个为网站添加键盘快捷键界面的工具](https://react.statuscode.com/link/119273/web "github.com") — 工具会显示一个‘抽屉’里面有应用程序/页面的快捷键选项，可用于普通 JS、Vue、React 和 Svelte。[ 点击这里试试 ](https://react.statuscode.com/link/119274/web)。你会爱上它的。
+[React 组件: 15+ 个组件库](https://react.statuscode.com/link/119550/web "stackdiary.com") — 我们对组件库中做了一些总结，其中包括一些对每个组件库合适场景的思考。
 
-[React-PDF 5.7: 在React应用中显示PDF就像显示图片一样容易](https://react.statuscode.com/link/119275/web "github.com") — 这个大更新增加了对 React 18 的支持。
+[React Tags 6.8: 一个简单的标签组件](https://react.statuscode.com/link/119551/web "github.com") — 灵感来自 Gmail 的 "To" 字典。支持自动完成，以及通过拖放来重新排序标签。[沙盒演示在这里](https://react.statuscode.com/link/119552/web)。
 
-[在你的整个代码库中快速查找、修复和跟踪有漏洞的代码](https://react.statuscode.com/link/119276/web "about.sourcegraph.com")
+[React Calendar 3.6: 你的最后一款 Calendar 插件](https://react.statuscode.com/link/119553/web "projects.wojtekmaj.pl") — 一个流行的、风格简单的 React 应用的日历组件，亮点在用户选择日期上。 [GitHub 仓库](https://react.statuscode.com/link/119554/web)。
 
-[react-waves-effect: 按钮的微波动画](https://react.statuscode.com/link/119277/web "github.com") — 这些不起眼的动画使得交互更加生动，并有可能使界面用起来更愉快。 这个 [demo](https://react.statuscode.com/link/119278/web) 清楚的展示了它们。
+[为符合条件的团队免费提供活动信息和聊天 API](https://react.statuscode.com/link/119555/web "getstream.io")
 
-[Geist: 一个现代和简约的 React UI 库](https://react.statuscode.com/link/119279/web "github.com") — 设计灵感来自 Vercel，包括 50 多个分类组件，你可以在 [这里](https://react.statuscode.com/link/119280/web) 查看文档网站。
+[react-marksome: Markdown 子集解析器](https://react.statuscode.com/link/119556/web "github.com") — 一个完整 [Markdown](https://react.statuscode.com/link/119557/web) 实现并不总是需要的: 这里有一个组件可以解析一个 [有限的子集](https://react.statuscode.com/link/119558/web)。这可能包含你需要的所有功能。
 
-[styled-jsx 5.0: 对JSX的全面CSS支持，没有任何妥协](https://react.statuscode.com/link/119281/web "github.com") — 对 JSX 的全面、范围和组件友好的 CSS 支持（在服务器或客户端渲染。
+[react-d3-speedometer 1.0.2: 使用 React 做的速度仪表盘](https://react.statuscode.com/link/119559/web)
 
-[React Mentions: 可以在输入框里面 @ 人](https://react.statuscode.com/link/119282/web "github.com") — 用它来复制 Facebook/Twitter 风格的文本字段中的 @ 效果。[例子在这里~](https://react.statuscode.com/link/119283/web)
+[React Trix RTE: Trix 富文本编辑器的React封装器](https://react.statuscode.com/link/119560/web)
 
-[六个需要关注的React数据可视化库](https://react.statuscode.com/link/119284/web)
+## ⚡️ 快览
 
-## ⚡️ 快报:
+[react-use-websocket](https://react.statuscode.com/link/119561/web) — 一个用于 WebSocket 通信的钩子，现在是第三个主要版本。
 
-[pure-react-carousel](https://react.statuscode.com/link/119285/web) — 终于，一个不强加自己结构和样式到别的代码的轮播图。
+[react-use-mouse-position (QB)](https://react.statuscode.com/link/119562/web) — 用这个钩子跟踪鼠标的位置。
 
-[react-browser-navigator](https://react.statuscode.com/link/119286/web) — 通过 React实现访问 [Navigator](https://react.statuscode.com/link/119287/web) 接口，就像 [demo](https://react.statuscode.com/link/119288/web)中展示的一样。
-
-[react-native-onboarding-swiper](https://react.statuscode.com/link/119289/web) — 让你的 app 的新用户以刷卡的方式完成新手引导。
-
-[react-native-imask](https://react.statuscode.com/link/119290/web) — 比原生输入框更好的错误校验。
+[react-hexgrid](https://react.statuscode.com/link/119563/web) — 使用 React 来创建这个流行的策略/益智游戏元素。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://react.statuscode.com/issues/274)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/274/README.md)
-> * 译者：
-> * 校对者：
+> * [查看原文](https://react.statuscode.com/issues/275)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/275)
+> * 译者：[潘小安](https://github.com/pan463859)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
