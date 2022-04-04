@@ -1,98 +1,82 @@
 ---
-title: 'JavaScript Weekly #577'
-date: '2022-02-25'
-categories:
+title: 'JavaScript Weekly #578' #不可修改
+date: '2022-02-26' #不可修改
+categories:  #不可修改
   - 'JavaScript Weekly'
-publish: true
+publish: true #翻译完成后修改
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hkw7nagh4ohgjgfyu2uv.jpg)
+![](https://copm.s3.amazonaws.com/ae9d744f.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[JS 2021 现状调查](https://javascriptweekly.com/link/120043/web "2021.stateofjs.com") — 尽管说的是 2021 年，但该调查是在今年 1 月进行的，因此结果是最新的，代表了 16,085 名受访者给出的答案。与民意调查一样，尽管叙述的时候要小心（许多人已经注意到多样性或方法论方面的问题），但我们还是喜欢每年看到它并看到开发者们提到的内容：
+[学习 Rx.js 的基础知识](https://javascriptweekly.com/link/120266/web "frontendmasters.com") — 这个 JavaScript 库非常好用，Steve Kinney 在这个详细的视频课程里，介绍了使用它需要了解的内容 — 包括可观察对象、事件、间隔、计时器、运算符等。
 
-*   [esbuild](https://javascriptweekly.com/link/120050/web) 是满意度同比增长最大的工具。
-*   5.6% 的受访者 [正在使用 Deno](https://javascriptweekly.com/link/120051/web)。
-*   Axios、Lodash 和 Moment 等 [这些时间很久了的库](https://javascriptweekly.com/link/120052/web) 仍然是最受欢迎的。
-*   Syntax 是迄今为止 [最受欢迎的播客](https://javascriptweekly.com/link/120052/web)，列表中还有 24 个其他播客可供查看。
-*   TypeScript 是迄今为止最常见的 JavaScript 类型注解，Elm 位居第二。
-*   Shawn 'swyx' Wang 写了一个 [总结性的帖子](https://javascriptweekly.com/link/120055/web)。
+[什么是原始值的包装对象？](https://javascriptweekly.com/link/120267/web "2ality.com") — Axel 博士谈到了 boolean 和 string 等基本类型如何关联包装类（例如 Boolean 和 String）。
 
-![](https://copm.s3.amazonaws.com/d3539cee.png)
-
-[用于 VS Code 的 JavaScript Scratchpad](https://javascriptweekly.com/link/120025/web "quokkajs.com") — Quokka.js 是探索和测试 JavaScript 的第一大工具。代码在您输入的时候会立即运行。新的 [代码查看器](https://javascriptweekly.com/link/119999/web) 提供了一种独特且高效的方式来检查运行时的值，以在单个连续视图中查看您的代码正在执行的操作。
-
-[Express.js 5.0 已进入测试阶段](https://javascriptweekly.com/link/120000/web "github.com") — 考虑到 5.0 的第一个 alpha 版本是七年前，对于仍然广受欢迎和有影响力的 Node.js Web 应用程序库来说，这是一大步。这里还有 [5.x API](https://javascriptweekly.com/link/120001/web) 的完整文档。需要 Node.js 4 或更高版本才行 :-)
+[如何阅读 ECMAScript 规范](https://javascriptweekly.com/link/120299/web "timothygu.me") — 每次有一个新的 ECMAScript 规范我们都会链接到一篇文章 — 比如这个 ES2022 规范草案。但是谁会阅读如此复杂的文档呢？要不试试这篇？
 
 ## **简述:**
 
-*   微软的 Angela Zhang 写了 [微软如何提高 React Native 调用 Windows API 的能力](https://javascriptweekly.com/link/120026/web)，以及它是如何在 Windows 11 中部分使用的。
+*   🟩 [Node 17.6.0](https://javascriptweekly.com/link/120268/web) 已经发布，[目前支持通过 HTTPS 加载 ES 模块](https://javascriptweekly.com/link/120269/web)。
 
-*   Chrome 和 Firefox 的第 100 版本将很快发布，因此是时候 [考虑您的代码是否能够使用并通过测试](https://javascriptweekly.com/link/120002/web)。
+*   [Glitch](https://javascriptweekly.com/link/120270/web) 是一个简洁的在线应用程序构建环境，非常适合 JavaScript 应用程序，您现在可以将 Glitch 应用程序 [部署到 DigitalOcean](https://javascriptweekly.com/link/120271/web)。他们还与 [Fastly 合作](https://javascriptweekly.com/link/120272/web)。
 
-*   👾 喜欢 Wordle 文字游戏吗？ [Jazle](https://javascriptweekly.com/link/120004/web) 是用 Wordle 写的。
-
-*   Joyent 已将 Node.js 商标 [转让给 OpenJS 基金会](https://javascriptweekly.com/link/120027/web)。
-
-*   谷歌发布了 [其 Cloud Functions 无服务器平台的下一个版本](https://javascriptweekly.com/link/120028/web)，该平台具有更长的函数运行时间、更大的实例等。
-
-*   [ESLint 8.9.0](https://javascriptweekly.com/link/120003/web) 加入了新的 es2022 环境。
+*   [6 分钟讲述 TypeScript 的 ▶️ 故事](https://javascriptweekly.com/link/120273/web)。如果你喜欢这种风格的话，还有 [异步 JavaScript 的 ▶️ 故事](https://javascriptweekly.com/link/120320/web) 也推荐给你！
 
 
 ## **版本更新:**
 
-[Next.js 12.1](https://javascriptweekly.com/link/120056/web)  
-[TypeScript 4.6](https://javascriptweekly.com/link/120005/web)  
-[Remix 1.2](https://javascriptweekly.com/link/120029/web) — 最新的全栈 JS 框架。 [zx 5.1](https://javascriptweekly.com/link/120006/web) — 使用 JS 编写更好的 shell 脚本。 [Strapi 4.1.0](https://javascriptweekly.com/link/120007/web) — headless Node.js CMS 系统。 [Cypress 9.5.0](https://javascriptweekly.com/link/120030/web) — 出名的测试系统。
+[Playwright 1.19](https://javascriptweekly.com/link/120301/web) — 浏览器自动化库。 [neo.mjs 3.2.5](https://javascriptweekly.com/link/120274/web) — Web Worker 增强的前端框架。 [Jasmine 4.0.1](https://javascriptweekly.com/link/120275/web) — JS 测试框架。 [Resemble.js 4.1](https://javascriptweekly.com/link/120276/web) — 图像分析和比较库。 [eva.js 1.2.7](https://javascriptweekly.com/link/120277/web) — 前端游戏引擎。 [History 5.3](https://javascriptweekly.com/link/120278/web) — 使用 JS 管理会话历史记录。 [qooxdoo 7.0](https://javascriptweekly.com/link/120279/web) — 我们上次提到的 SPA 框架是在 7 年前！
 
 ## 📒  文章 & 教程
 
-[如何追踪污染全局范围的代码](https://javascriptweekly.com/link/120012/web "mmazzarolo.com") — 您可能不希望代码将全局变量添加到 `window` 对象，并且要在有可能发生错误时找出问题所在。
+[如何在离开页面时可靠地发送 HTTP 请求](https://javascriptweekly.com/link/120285/web "css-tricks.com") — 浏览器不保证会在页面更改时保留打开的 HTTP 请求，但还是会有一些缓解措施或替代方法（例如信标）。
 
-[`package.json` 的基础知识](https://javascriptweekly.com/link/120013/web "nodesource.com") — 您很可能多年来一直在使用 “package.json” 文件，但有必要重新认识一下它。
+[如何为 Web 开发文本编辑器](https://javascriptweekly.com/link/120286/web "www.smashingmagazine.com") — 一家公司的工程师正在构建基于浏览器的设计工具，他思考了一些有关制作可靠文本输入小部件的问题。
 
-[深入了解 React Native 的新架构](https://javascriptweekly.com/link/120032/web "medium.com") — 如 [React Native 团队的这篇文章](https://javascriptweekly.com/link/120033/web) 所述，React Native 的新架构将于 2022 年推出。
+[3k+ 开发人员完成了 2022 年前端现状调查 — 轮到你了](https://javascriptweekly.com/link/120284/web "hubs.ly") — 我们也需要你！花 8 分钟点击调查，很快就能看到结果。
 
-[100 多个用于高质量现代 Angular UI 的原生组件](https://javascriptweekly.com/link/120014/web "ad.doubleclick.net") — 获取构建企业级应用所需的所有组件。 Kendo UI for Angular 可以满足您的团队可能有的任何 UI 要求 — 包括主题、文档等等。
+[未来的 JavaScript：查看记录和元组](https://javascriptweekly.com/link/120302/web "dev.to") — 两年前，我们提到 [记录和元组](https://javascriptweekly.com/link/120303/web) 提案（JS 的两个新的深度不可变的原始类型）在 TC39 达到了第 2 阶段。
 
-🏆  [了解 React 中的 JavaScript](https://javascriptweekly.com/link/120034/web "kentcdodds.com") — 本周我们又看到了一个经典的文章。它依然是几个关键 JS 功能的完美入门，其中提供了一些功能示例，可以帮助您进行 React 开发。
+[你可以在 JavaScript 中 `throw()` 任何东西（以及其他 `async`/`await` 注意事项）](https://javascriptweekly.com/link/120305/web "www.bennadel.com")。
 
-[Monorepos 概述](https://javascriptweekly.com/link/120035/web "monorepo.tools") — 一个新网站，它汇集了几乎所有您需要了解的关于 monorepos 的信息，以及构建它们的工具。
+▶  [什么是_Responsible_ JavaScript？](https://javascriptweekly.com/link/120287/web "www.smashingmagazine.com") — JavaScript 的作者谈论了数据使用、用户体验、向后兼容性等主题（55 分钟。）
 
-[用 7 行 TypeScript 模仿 Rust 的 `Result` 类型](https://javascriptweekly.com/link/120015/web)
+[如何使用 React Native 制作数据仪表板](https://javascriptweekly.com/link/120289/web "www.influxdata.com")
+
+[如何在 Vue 中使用`nextTick()`](https://javascriptweekly.com/link/120306/web "dmitripavlutin.com") — `nextTick(callback)` 在 DOM 更新时执行回调。
+
+[在 Next.js 中优化第三方脚本加载](https://javascriptweekly.com/link/120290/web)
+
+▶  [3 分钟内告诉你你应该知道的关于 Lodash 的 10 件事](https://javascriptweekly.com/link/120291/web)
+
+[比较 Gatsby 和 Next.js](https://javascriptweekly.com/link/120292/web)
+
+[使用 React、Hooks 和 Chakra-UI 实现一个生命游戏](https://javascriptweekly.com/link/120313/web)
 
 ## 🛠  代码 & 工具
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/f5lvp6umcum22r30uxvb.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/njkhs6ndybzlyulcjfwj.jpg)
 
-[v8n 1.4：一个 “流利的校验” 库](https://javascriptweekly.com/link/120016/web "github.com") — 将规则链接在一起进行校验，例如`v8n().some.not.uppercase().test("Hello");`
+[Screenshot：不依赖浏览器 — 原生截图库](https://javascriptweekly.com/link/120307/web "www.xata.io") — 使用 MediaDevices API 开发，但提供了一个更易于使用的抽象模式来让用户截取屏幕截图。 [GitHub 仓库](https://javascriptweekly.com/link/120308/web)。
 
-[使用 JS 代理作为低代码 REST 客户端的简洁示例](https://javascriptweekly.com/link/120036/web "gist.github.com") — 如果您以前从未使用过 [Proxy](https://javascriptweekly.com/link/120037/web)，您可以看下这个。
+[Stylo：JavaScript 的开源 WYSIWYG 富文本编辑器](https://javascriptweekly.com/link/120293/web "stylojs.com") — 轻量级，无依赖性，您可以配置默认工具栏以满足您应用的特定需求。
 
-[软件团队的项目管理从未如此简单](https://javascriptweekly.com/link/120017/web "shortcut.com") — Shortcut 是为开发人员构建的快速直观的项目管理工具。
+[Beam：一个由 Node.js 支持，受 GitHub 启发的团队留言板](https://javascriptweekly.com/link/120294/web "planetscale.com") — Beam 是一个留言板，灵感来自 GitHub 上用于团队交流的类似专有系统。 [GitHub 仓库](https://javascriptweekly.com/link/120295/web)。
 
-[TypeIt：多功能 “打字机效果”](https://javascriptweekly.com/link/120038/web "github.com") — 如果您需要一种看起来有人在网页上 “打字” 的效果，那么可以看下这个。或者，您也可以 [自行编写](https://javascriptweekly.com/link/120039/web)，或者，如果您使用 React，请考虑 [Windups](https://javascriptweekly.com/link/120040/web)。
+[以更少的钱获得更多的云](https://javascriptweekly.com/link/120298/web "vultr.com") — Vultr 为开发人员提供低至每月 2.50 美元的云计算实例。使用此免费积分试用 Vultr 14 天。
 
-[Marked 4：一个快速的 Markdown 解析器和编译器](https://javascriptweekly.com/link/120018/web "github.com") — 它在浏览器或服务器端运行。[这里可以查看它的实际效果](https://javascriptweekly.com/link/120019/web)。
+[Stockfish.js：国际象棋引擎](https://javascriptweekly.com/link/120296/web "github.com") — Stockfish 是一种流行的国际象棋引擎，[通常用 C++ 编写](https://javascriptweekly.com/link/120297/web)，但该项目通过 WebAssembly 将其引入到了 JS 中。
 
-[Minze：原生 Web 组件的 JavaScript 框架](https://javascriptweekly.com/link/120020/web "minze.dev") — 基于最新的 Web 组件标准，它允许您构建可用于任何项目的可移植组件库。
+😆  [Elevator.js：老式的 “滚动到顶部” 按钮](https://javascriptweekly.com/link/120309/web) — 只是有点好玩。
 
-<img src="https://res.cloudinary.com/cpress/image/upload/w_200,h_200/lexrqzyprf1cymh90iwa.png" style="width: 60px" />
-
-[Heart Switch：React 的心形切换开关组件](https://javascriptweekly.com/link/120022/web "github.com") — 为大家准备了一份迟到的情人节礼物。你可以在 [这里](https://javascriptweekly.com/link/120023/web) 测试一下。
-
-
-## 😍 有用的东西！
-
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gmcrcdhpeh7yn8ngmref.jpg)
-
-GitHub 为其自定义的 Markdown 添加了一个方便的功能，以便您可以使用与 Mermaid.js 相同的格式直接 [在 Markdown 中编写图表](https://javascriptweekly.com/link/120041/web)。
+[enum-xyz：使用代理的 JavaScript 枚举](https://javascriptweekly.com/link/120310/web) — 一个有趣的想法。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://javascriptweekly.com/issues/577)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/577)
+> * [查看原文](https://javascriptweekly.com/issues/578)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/578)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
