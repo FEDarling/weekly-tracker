@@ -1,59 +1,69 @@
 ---
-title: 'React Status #278' #不可修改
-date: '2022-03-04' #不可修改
+title: 'React Status #279' #不可修改
+date: '2022-03-11' #不可修改
 categories:  #不可修改
   - 'React Status'
 publish: true #翻译完成后修改
 ---
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/oalb6u0vhpzmlxkwbndm.jpg)](https://react.statuscode.com/link/120375/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nxnmzli9lah727tobsnz.jpg)](https://react.statuscode.com/link/120668/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-▶  [Ten React Anti-Patterns to Avoid](https://react.statuscode.com/link/120375/web "www.youtube.com") — A well presented eight minute video that quickly goes through a variety of approaches to reconsider (or at least think twice about before putting into action).
+⭐️  [How to Upgrade to the React 18 Release Candidate](https://react.statuscode.com/link/120668/web "reactjs.org") — The full production release of React 18 is seemingly imminent: just out, the detailed documentation covering the upgrade to this week’s release candidate. The post also includes useful information about some of the major new features.
 
-[Redux Toolkit 1.8.0 Released](https://react.statuscode.com/link/120376/web "github.com") — If you’re down with Redux for managing state, the “official, opinionated, batteries-included toolset for efficient Redux development” is what you need :-) Among other things, this release adds new ‘listener’ middleware (think `useEffect` but for Redux store updates).
+['My Experience Building a Chess App in React'](https://react.statuscode.com/link/120669/web "dev.to") — The author describes himself as a self-taught, relative newcomer to React development. As a result, he describes his approach to this well-defined problem in terms that those at a similar point in the learning curve will find easy to understand.
 
-[![](https://copm.s3.amazonaws.com/27dd10de.png)](https://react.statuscode.com/link/120377/web)
+[![](https://copm.s3.amazonaws.com/466d9da8.png)](https://react.statuscode.com/link/120670/web)
 
-[How to Improve Designer-Developer Collaboration?](https://react.statuscode.com/link/120377/web "ad.doubleclick.net") — Ah, the infamous designer-developer handoff. Learn how Figma UI Kits can reduce friction between designers and developers by providing a single source of truth that all parties can reference and see how you can use them.
+[ButterCMS Melts into Your React App. #1 Rated Headless CMS](https://react.statuscode.com/link/120670/web "buttercms.com") — ButterCMS is your content backend. Enable your marketing team to update website + app content without needing you. Try the #1 rated Headless CMS for React today. Free for 30 days.
 
-▶  [Kent C. Dodds's (Classic) Beginner's Guide to React Course](https://react.statuscode.com/link/120378/web "www.youtube.com") — The folks at Egghead, a place that offers various online courses, is releasing some of their ‘classic’ courses on YouTube, and the first one is a React course from Kent C. Dodds. It’s 2.5 hours long, uses React 16, and dates from early 2020, so it’s not out of date :-)
+[Case Study: Moving from Next to Remix](https://react.statuscode.com/link/120671/web "www.adamcollier.co.uk") — We have covered [Remix](https://react.statuscode.com/link/120672/web) quite a bit over the last few issues. The first case studies from ‘the wild’ are beginning to come in. In this case, the author covers the rewrite of his personal site (which is where this article is hosted).
 
-[Implementing Tetris Using React in 200 Lines of Code](https://react.statuscode.com/link/120379/web "blog.ag-grid.com") — The popularity of [Tetris](https://react.statuscode.com/link/120380/web) just never seems to fade. The exercise of recreating it with so little code is instructive and novel.
+[A Look at Automatic Batching Support in React 18](https://react.statuscode.com/link/120674/web "www.dtreelabs.com") — A handy performance improvement comes with React 18 in the form of automatic batching support for state updates. Check out this example.
 
-['SolidJS Feels Like What I Always Wanted React to Be'](https://react.statuscode.com/link/120384/web "typeofnan.dev") — An unsurprisingly opinionated piece. [SolidJS](https://react.statuscode.com/link/120385/web) is a particularly efficient reactive UI library and we’ve [seen direct comparisons before](https://react.statuscode.com/link/120386/web) but this piece goes into more specifics.
+[800+ Slides Covering Numerous React Topics](https://react.statuscode.com/link/120673/web "marko-knoebl.github.io") — An interesting approach to sharing programming knowledge. Marko’s slides cover topics from beginner to advanced including the use of hooks, GraphQL, React Native, portals, testing, and more. A handy resource if you’re learning.
 
-[Hosting a React App with OpenFaaS](https://react.statuscode.com/link/120387/web "www.openfaas.com") — [OpenFaaS](https://react.statuscode.com/link/120388/web) is an open source serverless function platform that sits on top of Kubernetes and it’s possible to host React-based apps in such a way. This post touches on all the main points, including cost.
+[How to Use Recoil for State Management in Your React Projects](https://react.statuscode.com/link/120678/web "www.freecodecamp.org") — It may be you have been using the [Redux](https://react.statuscode.com/link/120679/web) state management solution more-or-less by default. But the author asserts there are simpler alternatives. In this brief tutorial, he walks through the use of [Recoil](https://react.statuscode.com/link/120680/web).
 
-[How Many Re-Renders Is Too Many?](https://react.statuscode.com/link/120389/web "alexsidorenko.com") — We have featured a number of this author’s articles which make beneficial use of animation to clearly understand React rendering behaviour. This time he zeros in on a single, simple question: when is the right time to start optimizing?
+▶  [Building an Interactive Map with Google Maps Platform and React](https://react.statuscode.com/link/120681/web "www.youtube.com") — Another installment in our informal series where a relatable and concrete goal is tackled with React. But this one goes a little beyond simply displaying a map. It also uses that map to perform some simple, quantified geographic analysis.
 
-[Implementing the Game of Life with React, Hooks and Chakra-UI](https://react.statuscode.com/link/120390/web)
+[Unit Testing React Apps with Jest and Enzyme](https://react.statuscode.com/link/120682/web "betterprogramming.pub") — If you have not yet fully committed to setting up a suite of automated tests for your project, this tutorial provides a focused, concise set of steps that will bootstrap your understanding of the basic concepts and then work through a specific example illustrating their use.
+
+[Theming React Native Applications with Styled Components](https://react.statuscode.com/link/120683/web "blog.openreplay.com") — Styled components are (amongst other things) the technical underpinnings of implementing the light and dark modes which are almost expected with mobile apps, these days. This detailed, well-illustrated tutorial imparts what you need to know.
+
+[Profiling Next.js Apps with Parca](https://react.statuscode.com/link/120684/web)
+
+[What It’s Like to Migrate a High-Traffic Website from Gatsby to Next.js](https://react.statuscode.com/link/120685/web)
 
 ## 🛠 Code and Tools
 
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cmw1utjaiqnj14nfetoi.jpg)](https://react.statuscode.com/link/120391/web)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/snobj8k4yrj9xmthycff.jpg)](https://react.statuscode.com/link/120686/web)
 
-[hackernews-remix-react: A Hacker News Clone Using React and Remix](https://react.statuscode.com/link/120391/web "github.com") — This project provides a relatable, high profile example which employs React, Remix and other tools. The value of this exercise is enhanced if compared to other approaches such as Vercel’s creation of a similar clone using [Next.js 12’s experimental React Server Components support](https://react.statuscode.com/link/120392/web).
+[wavesurfer.js: A Simple Yet Fully-Featured Audio Waveform Visualization](https://react.statuscode.com/link/120686/web "github.com") — Adding an audio waveform to your video or image content is an effective means of increasing engagement or usability. This library is a wrapper for the mature [wavesurfer.js](https://react.statuscode.com/link/120687/web) to enable its robust functionality to be used in your React app.
 
-[An Introduction to Reagent: A Minimalistic React for ClojureScript](https://react.statuscode.com/link/120393/web "reagent-project.github.io") — A project that provides a way to write efficient React components using (almost) nothing but plain ClojureScript (essentially a Lisp dialect that compiles to JavaScript) functions.
+[Ultra: A Modern Streaming React Framework in Deno](https://react.statuscode.com/link/120688/web "ultrajs.dev") — Built around native browser features like ES modules, import maps, and web streams. [The source](https://react.statuscode.com/link/120689/web) of the project’s own Ultra-powered homepage may help you weigh up if you like its cutting edge approach or not.
 
-[Free Activity Feeds & Chat APIs for Qualifying Teams. Activate Today](https://react.statuscode.com/link/120394/web "getstream.io")
+[Free Activity Feeds & Chat APIs for Qualifying Teams. Activate Today](https://react.statuscode.com/link/120690/web "getstream.io")
 
-[react-native-owl: Visual Regression Testing for React Native](https://react.statuscode.com/link/120395/web "github.com") — Apply the concepts of [regression testing](https://react.statuscode.com/link/120396/web) to visual elements using this “API for capturing and comparing screenshots”.
+[Interweave: A React Library to Safely Render HTML and More](https://react.statuscode.com/link/120691/web "github.com") — This library safely renders HTML without having to use `dangerouslySetInnerHTML`. Amongst its numerous capabilities it will safely strip HTML, provide automatic XSS and injection protection and render emojis.
 
-[react-scrollama: Scrollytelling Made Simple Using Intersection Observer](https://react.statuscode.com/link/120397/web "github.com") — [Scrollytelling](https://react.statuscode.com/link/120398/web)—that is scrolling + storytelling—is an increasingly popular communications tool based on interspersing visualisations and narrative.
+[Jotai: Primitive and Flexible State Management for React](https://react.statuscode.com/link/120692/web "jotai.org") — Uses an atomic model inspired by Recoil.
 
 ## ⚡️ Quick Bits:
 
-[rc-select](https://react.statuscode.com/link/120399/web) — A _very_ comprehensive implementation of the venerable select component.
+[react-textarea-code-editor](https://react.statuscode.com/link/120693/web) — Editing—including syntax highlighting—in a simple `<textarea>` element.
 
-[flowchart-fun](https://react.statuscode.com/link/120400/web) — Generate flowcharts and diagrams from text. Seriously, [give it a try!](https://react.statuscode.com/link/120401/web)
+[react-calendly](https://react.statuscode.com/link/120694/web) — Connect with the popular automated scheduling service.
+
+[react-use-kana](https://react.statuscode.com/link/120695/web) — Automatically populate a form with Japanese [kana](https://react.statuscode.com/link/120696/web) characters.
+
+[react-sticky-box](https://react.statuscode.com/link/120697/web) — For content you want to keep in view all the time, as illustrated in the [demo](https://react.statuscode.com/link/120698/web).
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://react.statuscode.com/issues/278)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/278)
+> * [查看原文](https://react.statuscode.com/issues/279)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/279)
 > * 译者：
 > * 校对者：
