@@ -1,73 +1,65 @@
 ---
-title: 'Node Weekly #422'
-date: '2022-02-02'
+title: 'Node Weekly #423'
+date: '2022-02-04'
 categories:
   - 'Node Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/t8tvbdiawyhwfzy0yw0i.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lvqsdsrcgzfperdutlen.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[Trilium 笔记：使用 Node 构建的知识库应用程序](https://nodeweekly.com/link/119068/web "github.com") — 用 Express 构建的分层笔记应用程序。它已经有几年了，现在还在更新。
+[Fetch API 已成为 Node 的核心一部分（以及为什么你应该关心它）](https://nodeweekly.com/link/119376/web "fusebit.io") — 对 Fetch API（作为获取资源的常用浏览器端）的支持已合并到 Node.js 中，可以在 `‑‑experimental‑fetch` 标志后面使用，有望在 Node 18 及更高版本中默认启用。
 
-[使用 Twilio Serverless 构建类似 Wordle 的短信游戏](https://nodeweekly.com/link/119047/web "www.twilio.com") — 向流行的文字游戏 Wordle 致敬，您可以在其中使用 Twilio Functions、Serverless 工具包和 Node.js 构建基于文本/SMS 的版本。
+[“我如何阻止 Node.js 恶意软件并找到作者的”](https://nodeweekly.com/link/119379/web "t.co") — 有人正在向作者的 Discord 服务器上的人发送消息，鼓​​励他们下载并运行一个邪恶的 .exe 文件......这是一个打包的 Node.js 应用程序。
 
-![](https://copm.s3.amazonaws.com/4bfba238.jpg)
+![](https://copm.s3.amazonaws.com/f637e816.png)
 
-[David Khourshid 的 XState 状态机新课程](https://nodeweekly.com/link/118999/web "frontendmasters.com") — 如果您在构建大型 JavaScript 应用程序并希望不再到奇怪的边缘情况，您可以血虚状态机。花点时间清晰而稳健地为应用程序逻辑建模。
+[Node.js 现状调查](https://nodeweekly.com/link/119354/web "appsignal2.typeform.com") — 你最喜欢的包是什么？您在哪里了解有关 Node.js 的更多信息？参加我们的调查，我们将代表您向 Node.js 开源项目发送礼品或捐款。
 
-[可以弃用 `process.on('multipleResolves')` 吗？](https://nodeweekly.com/link/119046/web "twitter.com")
+[前 100 名 npm 包维护者现在必须使用 2FA](https://nodeweekly.com/link/119356/web "github.blog") — 前段时间我们提到了 npm 即将推出的增强安全程序，现在它们开始分阶段推出。根据依赖项目数量判断的前 100 个 npm 包的维护者现在必须使用双因素身份验证，所有包维护者都需要了解这个变动。
+
+[使用 Streams 构建高性能 Node 应用程序](https://nodeweekly.com/link/119355/web "blog.appsignal.com") — 了解如何使用 Node.js 中的 `stream` 模块来构建性能更高（更好）的应用程序。
 
 ## **简介:**
 
-*   一位开发人员展示了 ▶️ 他如何 [使用 Node](https://nodeweekly.com/link/119052/web) 以算法方式购买股票，这与 Jim Cramer 所说的完全相反。这篇文章既有趣又有教育意义。
+*   Node 12 (LTS) 如何使用？[Node 12.22.10](https://nodeweekly.com/link/119357/web) 已经发布，更新了 npm（到 v6.14.16）。
 
-*   [TypeScript 4.6](https://nodeweekly.com/link/119049/web) 现在进入测试阶段。
+*   Node 14 也更新到了 [Node 14.19.0](https://nodeweekly.com/link/119358/web)，它为 LTS 版本带来了 [Corepack](https://nodeweekly.com/link/119359/web)（“包管理器管理器”）、ICU 70.1 和更新的根证书。
 
-*   Electron [庆祝](https://nodeweekly.com/link/119051/web) 在 GitHub 上通过 ⭐️ 100,000 颗星。
+*   [V8 JavaScript 引擎的 v9.9](https://nodeweekly.com/link/119361/web) 正在开发中，主要是对 `Intl` 进行了改进。
 
-*   新一轮的 [JS 现状调查](https://nodeweekly.com/link/119072/web) 开启。
+[使用跨账户备份保护 AWS S3 资产](https://nodeweekly.com/link/119363/web "pawelurbanek.com") — 如果您使用 S3 来存储应用程序的资产，Paweł 的建议可以为您省去一些麻烦。
 
-[`npm` 的完整初学者指南](https://nodeweekly.com/link/119069/web "css-tricks.com") — 如果你是一名长期的 Node 开发人员，“npm” 可能是你的不二选择，这份 “npm” 指南可能会很有用，即使只对你团队中的某些人有用。这是一份来自 CSS Tricks 的由九部分组成的指南，涵盖了从头开始的所有内容。
+[“我用 RemixJS 建立了一个博客，你不必学我（不客气）”](https://nodeweekly.com/link/119364/web "blog.openreplay.com") — 一位开发人员对 Remix 作为全栈框架的第一印象。
 
-[使用 Google 表格中的 Node.js（使用 Fusebit）](https://nodeweekly.com/link/119053/web "fusebit.io") — 请注意，这种集成完全依赖于商业集成平台 Fusebit，如果 Google 的 Apps 脚本对您来说还不够用，您可能会喜欢这种方法。
+[使用 Express、MySQL 和 PlanetScale 创建 Harry Potter API](https://nodeweekly.com/link/119367/web "planetscale.com") — 不出所料，这旨在展示 PlanetScale 的 MySQL 平台的易用性，但也可以使用您自己选择的 MySQL 数据库进行跟踪。
 
-[如何从 Electron App 中提取秘密](https://nodeweekly.com/link/119054/web "www.staszewski.me") — 关键是它太简单了，以至于你真的不应该在那里留下秘密。
+## 🛠 代码 & 工具
 
-[使用 InfluxDB 构建 Serverless Lambda 函数](https://nodeweekly.com/link/119001/web "www.influxdata.com")
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o7xcteusarxzfzdwhk2e.jpg)
 
-[很棒的 Node-RED：Node-RED 用户的精选资源](https://nodeweekly.com/link/119055/web "github.com") — [Node-RED](https://nodeweekly.com/link/119056/web) 是一个流行的 Node 驱动的低代码事件驱动编程环境。
+[Electron 17 发布](https://nodeweekly.com/link/119368/web "www.electronjs.org") — 流行的跨平台桌面应用程序框架通过 Chromium 98、Node 16.13.0 和 V8 9.8 实现。
 
-[如何使用 Sharp 在 Node.js 中处理图像](https://nodeweekly.com/link/119057/web "www.digitalocean.com") — [Sharp](https://nodeweekly.com/link/119058/web) 是一个流行的高性能软件包，用于处理来自 Node.js 的图像。主要功能是调整大小，但它也可以做其他事情，如旋转、合成和伽马校正。
+[Commander 9.0：简化 Node 命令行界面](https://nodeweekly.com/link/119369/web "github.com") — 用于构建与命令行交互的应用程序。
 
-## 🛠  代码 & 工具
+[InkPaint：轻量级 Node.js 画布图形库](https://nodeweekly.com/link/119370/web "github.com") — 用于进行服务器端图像合成的 Pixi.js 派生库。
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xf3s39po80sxweq0a0fq.jpg)
+[将视频无缝集成到您的 Node 应用程序中](https://nodeweekly.com/link/119371/web "get.mux.com")
 
-[Gluegun 5.0：用于构建 Node 驱动的 CLI 的工具包](https://nodeweekly.com/link/119059/web "github.com") — 如果您想灵活的构建 CLI 应用程序，那么此工具包适合您。涵盖的领域包括模板、子命令支持、参数解析等。
+[Prisma 3.9.0 发布：流行的 Node.js 下一代 ORM](https://nodeweekly.com/link/119372/web)
 
-[PureORM 3.0：用于编写纯业务对象的原生 SQL 查询的 Node.js SQL 工具包](https://nodeweekly.com/link/119060/web "github.com") — 允许您编写常规的原生 SQL 并接收结构化 / 嵌套的对象，而不是您以其他方式构建查询的更典型的 ORM。
+[Traverson：用于 Node 和浏览器的超媒体 API/HATEOAS 客户端](https://nodeweekly.com/link/119373/web)
 
-[Node.js Serverless 应用程序的样板和入门应用程序](https://nodeweekly.com/link/119070/web "github.com") — 依靠 Serverless 框架、Express.js、TypeScript、Prettier、Husky 等提供大量开箱即用的功能。
+[seriallog：记录串行设备的输出](https://nodeweekly.com/link/119374/web)
 
-[为您的 Node 应用程序构建视频](https://nodeweekly.com/link/119002/web "get.mux.com")
-
-[fdir 5.2：高性能目录爬虫库](https://nodeweekly.com/link/119061/web "github.com") — 你需要异步或同步快速扫描目录？
-
-[Phoenix：一个 JavaScriptable macOS 窗口和应用程序管理器](https://nodeweekly.com/link/119062/web "github.com") — 如果你想完全控制你的窗口，并且你很熟悉 JavaScript 的话，那么它很适合你。这是一个 [示例脚本](https://nodeweekly.com/link/119063/web)，可以让您体验一下。
-
-[Oclif 2.3：Heroku 的 Node 开放 CLI 框架](https://nodeweekly.com/link/119064/web "oclif.io") — 一个用于构建命令行界面的成熟框架，可以使用几个简单的字符或者大量的子命令来创建。它从 Heroku 大量使用的 CLI 工具和 Gluegun 方法的里制定了有关的替代方法。 [GitHub 仓库](https://nodeweekly.com/link/119065/web)。
-
-[Hazelcast IMDG Node.js 客户端](https://nodeweekly.com/link/119066/web "github.com") — Hazelcast 是一个在 JVM 世界中流行的开源 “内存数据网格”。
-
-[hyperid：快速生成唯一 ID](https://nodeweekly.com/link/119067/web)
+[ssh2 v1.6：用于 Node 的纯 JavaScript SSH2 客户端和服务器模块](https://nodeweekly.com/link/119375/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/issues/422)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/422/README.md)
+> * [查看原文](https://nodeweekly.com/issues/423)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/423/README.md)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
