@@ -1,70 +1,70 @@
 ---
-title: 'CSS Weekly #490'
+title: 'CSS Weekly #491'
 date: '2022-02-09'
 categories:
   - 'CSS Weekly'
 publish: true
 ---
 
-[CSS 级联层入门](https://www.smashingmagazine.com/2022/01/introduction-css-cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[使用蒙版的精美 CSS 边框](https://css-tricks.com/css-borders-using-masks/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-![CSS 级联层入门](https://css-weekly.com/wp-content/uploads/2022/01/introduction-css-cascade-layers.png)
+![使用蒙版的精美 CSS 边框](https://css-weekly.com/wp-content/uploads/2022/02/css-borders-using-masks.png)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-Stephanie Eckles 介绍了级联层，这是一种 CSS 中级联管理的新方法。
+Temani Afif 着眼于一些现代 CSS 遮罩技术，它们将帮助您创建精美的边框。
 
-[CSS 指纹](https://csstracking.dev/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[Flexbox 的工作原理](https://tiffanybbrown.com/2022/01/how-does-flexbox-work/index.html?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-![CSS 指纹](https://css-weekly.com/wp-content/uploads/2022/01/css-fingerprint.png)
+![Flexbox 的工作原理](https://css-weekly.com/wp-content/uploads/2022/02/how-does-flexbox-work.png)
 
-Oliver Brotchie 解释了如何使用 CSS 指纹技术跟踪和收集网站访问者的信息。
+Tiffany B. Brown 揭开了 Flexbox 的奥秘，让您了解在使用 Flexbox 时要注意哪些事情。
 
-## 文章 & 教程
+## 文章 & 工具
 
-[构建主题切换组件](https://web.dev/building-a-theme-switch-component/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[DevTools 中的新功能？](https://www.smashingmagazine.com/2022/01/devtools-updates-2022/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Adam Argyle 对构建自适应且可访问的主题切换组件进行了基本概述。
+Patrick Brosset 讲解了 DevTools 中跨浏览器的最新功能。
 
-[CSS 的未来：使用 @supports at-rule(@keyword) 检测规则支持](https://www.bram.us/2022/01/20/detect-at-rule-support-with-the-at-rule-function/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[比较 CSS 特性](https://kilianvalkhof.com/2022/css-html/comparing-css-specificity-values/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Bramus Van Damme 解释了如何检测 CSS 中的规则支持。
+Kilian Valkhof 解释了如何比较两个选择器来决定哪个选择器具有最好的特性。
 
-[创建在所有浏览器中看起来一致的自定义范围输入](https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[将 PostCSS 与 Media Queries Level 4 一起使用](https://blog.logrocket.com/using-postcss-media-queries-level4/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Alyssa Holland 研究了 HTML 范围输入的古怪之处，并演示了如何设置输入样式以在所有主要浏览器中看起来一致。
+Amarachi Amaechi 回顾了 Media Queries Level 4 中可用的几个特性，并演示了使用 PostCSS 实现每个特性。
 
-[使用 SVG 和 CSS 构建 UI 组件](https://ishadeed.com/article/building-components-svg-css/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[我不知道的 :where()](https://www.matuzo.at/blog/2022/heres-what-i-didnt-know-about-where/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Ahmad Shadeed 展示了不一样的用例，您可以在其中使用 SVG 以及 HTML 和 CSS 来构建特定的 UI 组件。
+Manuel Matuzovic 解释了如何使用 :where() 伪类来降低选择器的特性。
 
-[不一样的 Div](https://www.scottohara.me/blog/2022/01/20/divisive.html?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[设计无障碍服务](https://ukhomeoffice.github.io/accessibility-posters/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Scott O'Hara 深入探讨了 div 元素及其多功能性。
+关于如何设计更易于访问的服务的一般指南，涵盖以下领域的用户的最佳设计实践：低视力、聋和听力障碍、阅读障碍、运动障碍、自闭症用户和屏幕阅读器用户。
 
 ## 工具
 
-[CSS Speedrun](https://css-speedrun.netlify.app/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[Pika](https://pika.rishimohan.me/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-CSS Speedrun 是一款小而有趣的益智游戏，用于测试您对 CSS 选择器的了解。
+Pika 是一款在线开源应用程序，可让您通过添加圆角、背景颜色、阴影等来快速美化屏幕截图。
 
-[Clay.css](https://codeadrian.github.io/clay.css/?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[Shottr](https://shottr.cc/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-Clay.css 是一个小型 CSS 程序，可让您向任何 HTML 元素添加蓬松的 3d 粘土形态样式。
+Shottr 是一个 macOS 屏幕截图应用程序，具有滚动屏幕截图、OCR、注释和测量工具。
 
 ## 灵感
 
-[CSS 3D 油炸圈饼 🍩](https://codepen.io/ShadowShahriar/pen/YzrbBXg?utm_source=CSS-Weekly&utm_campaign=Issue-490&utm_medium=web)
+[“记录” 的创意课程](https://bradfrost.com/blog/post/creative-process-lessons-from-get-back/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
 
-![CSS 3D 油炸圈饼 🍩](https://css-weekly.com/wp-content/uploads/2022/01/css-3d-donut.jpg)
+![“记录” 的创意课程](https://css-weekly.com/wp-content/uploads/2022/02/creative-process-lessons-from-get-back.jpg)
 
-S. Shahriar 使用 CSS 创建了一个有趣的响应式 3D 油炸圈饼
+Brad Frost 分享了有关披头士乐队纪录片创作过程的深刻见解。
 
 ---
 
 > - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-490/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/490)
+> - [查看原文](https://css-weekly.com/issue-491/)对比阅读
+> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/491)
 > - 译者：[daodaolee](https://github.com/daodaolee)
 > - 校对者：[daodaolee](https://github.com/daodaolee)
