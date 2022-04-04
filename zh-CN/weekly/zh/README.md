@@ -1,61 +1,65 @@
 ---
-title: 'Node Weekly #424'
-date: '2022-02-11'
+title: 'Node Weekly #425'
+date: '2022-02-18'
 categories:
   - 'Node Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/drzxrh1axxxjwgeqfils.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/da3rje1u5mu8oosoipeg.jpg)
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[Pintora：可扩展的文本到图表渲染库](https://nodeweekly.com/link/119565/web "github.com") — 与成熟的 [Mermaid.js](https://nodeweekly.com/link/119566/web) 有类似的想法，但对可扩展性的态度不同，并且不需要 headless browser 服务端。
+[Express.js 5.0 进入测试阶段](https://nodeweekly.com/link/119862/web "github.com") — 第一个 alpha 版本已经是七年前了，对于仍然广受欢迎的 Web 应用程序库来说，这是一大步。[这里还有 5.x API 的完整文档](https://nodeweekly.com/link/119863/web)。
 
-[MikroORM 5：Node.js 的 TypeScript ORM](https://nodeweekly.com/link/119568/web "itnext.io") — 基于流行的 “数据映射器” 模式，MikroORM 是一种流行且功能强大的 Node.js ORM，它支持各种 SQL 和 NoSQL 数据库。
+[Node v17.5.0 (Current) 发布](https://nodeweekly.com/link/119864/web "nodejs.org") — 遗憾的是，这个版本在上周的 Node Weekly 发行后几个小时就下线了，不过这是第一个带有原生的 Node 版本（虽然目前在 `--experimental-fetch` 选项后面是实验性的）Fetch API 支持（[更多说明](https://nodeweekly.com/link/119865/web)）的。
 
-⬆️  [使用 MikroORM 和 Express.js 从头开始​​构建 API](https://nodeweekly.com/link/119570/web) — 如果您还没有机会使用 MikroORM（上图），这可以提供一种简单的方法。
+![](https://copm.s3.amazonaws.com/ae9d744f.jpg)
 
-<img src="https://copm.s3.amazonaws.com/069ffcad.png" style="width: 150px" />
+[学习 Rx.js 的基础知识](https://nodeweekly.com/link/119866/web "frontendmasters.com") — 这个有用的 JavaScript 库非常适合管理随时发生的事情，在这个详细的视频课程中，Steve Kinney 介绍了使用它需要了解的内容 — 包括可观察对象、事件、间隔、计时器、运算符等。
 
-[Retool 是构建内部工具的快捷方式](https://nodeweekly.com/link/119571/web "retool.com") — 直观地与任何数据库或 API 交互的应用程序。可以在任何地方切换到代码以自定义您的应用程序的外观和工作方式。
+🧑‍⚖️  [Node.js 商标转让给 OpenJS 基金会](https://nodeweekly.com/link/119867/web "openjsf.org") — 您可能没有意识到这一点，但 Joyent（一家大力支持 Node 早期开发的公司）到现在都拥有 Node.js 商标。我们感谢他们允许在本时事通讯的名称中使用 “Node” 一词 — 现在 OpenJS 基金会承担了它的法律责任。
 
 ## **简介:**
 
-*   参考 WhiteSource 最近的一份报告，The New Stack 思考 npm 系统是否是 [“恶意软件的温床”](https://nodeweekly.com/link/119572/web) ？
+*   当涉及到 npm 注册表时，我们中很少有人需要确信它的安全性，因此，[如果您是电子邮件域已过期的数千名软件包维护者中的一员](https://nodeweekly.com/link/119868/web)，您可能需要调查一下。
 
-*   Google Cloud [仅对其客户端库的 Node 10 版本支持维护](https://nodeweekly.com/link/119573/web)。他们建议（至少）升级到 Node 12。
+*   谈到 npm 安全，来自微软和北卡罗来纳州立大学的六位作者齐聚一堂，发表了一篇 [📄 npm 供应链中的 (the) Weak Links 是什么？](https://nodeweekly.com/link/119869/web)
 
-*   你是否正在使用 [Spectron](https://nodeweekly.com/link/119574/web) 测试你的 Electron 应用程序，它在本月正式被弃用，[这是原因](https://nodeweekly.com/link/119575/web)。
+*   TypeScript 4.6 的 [第一个候选版本](https://nodeweekly.com/link/119870/web) 已经发布。自测试版以来都有什么新功能呢？解构控制流分析，以及一些 ES2022 选项。
 
-[Deno 简介：它比 Node 更好吗？](https://nodeweekly.com/link/119576/web "blog.appsignal.com") — 我们已经多次提到来自 Ryan Dahl 的 [Deno](https://nodeweekly.com/link/119577/web)，就像 Node.js 最初所做的那样。
+*   由于 [GitHub 对 Mermaid.js 的新支持](https://nodeweekly.com/link/119871/web)，您现在可以使用图表来美化您的 GitHub README。
 
-[Node v16.14.0 (LTS) 发布](https://nodeweekly.com/link/119578/web "nodejs.org") — 本周没有 “最新” 分支发布，但值得注意的是 16.x LTS 分支，它获得了对 [导入断言阶段 3 提案的（实验性）支持](https://nodeweekly.com/link/119579/web)。
+*   [Remix 1.2 版](https://nodeweekly.com/link/119886/web) 已经发布。
 
-[用 JavaScript 编写打印机驱动程序](https://nodeweekly.com/link/119582/web "kubesail.com") — “用 JavaScript 编写打印机驱动程序听起来很荒谬”，作者开始说，虽然 “驱动程序” 的定义在这里值得商榷，但这仍然是一个有趣的故事。
+[`package.json` 基础](https://nodeweekly.com/link/119874/web "nodesource.com") — 很可能您多年来一直在使用 `package.json` 文件，但也有必要重新熟悉一下它们的属性。
 
-[将 Pinterest 的 iOS 构建迁移到自动缩放的 EC2 Mac](https://nodeweekly.com/link/119583/web "buildkite.com")
+[使用 Pipedream Webhooks 解锁 300 多个 API 集成](https://nodeweekly.com/link/119875/web "www.influxdata.com")
 
-▶  [用 TypeScript 编写 SPI SD 卡驱动程序](https://nodeweekly.com/link/119584/web "www.youtube.com")。
+[为什么私有 npm 注册表很重要以及 Verdaccio 如何使它变得简单](https://nodeweekly.com/link/119876/web)
 
 ## 🛠 代码 & 工具
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hfrcdhavnzxwvk042gah.jpg)
+[Leoric：用于 MySQL、Postgres 和 SQLit 的 Node ORM](https://nodeweekly.com/link/119887/web "leoric.js.org") — 它深受 Active Record 模式的影响（比如在 Ruby on Rails 世界中很流行），[GitHub 存储库](https://nodeweekly.com/link/119888/web)。
 
-[RegExr：学习、构建和测试正则表达式](https://nodeweekly.com/link/119585/web "regexr.com") — 一个方便的基于浏览器的工具，用于处理正则表达式、调试和创建它们，以及从 IP 地址解析到密码验证等常见用例的各种社区提供的例子。
+[puppeteer-to-playwright：Puppeteer 转换到 Playwright 的脚本](https://nodeweekly.com/link/119877/web "github.com") — 如果您想在两个流行的浏览器自动化系统之间进行迁移，这可能会有所帮助。
 
-[RedisSMQ 6.0：Node 的高性能 Redis 消息队列](https://nodeweekly.com/link/119586/web "github.com") — 我非常喜欢使用 [Redis](https://nodeweekly.com/link/119587/web) 数据结构存储作为消息总线。
+[Metascraper：从 Web 内容中抓取元数据的库](https://nodeweekly.com/link/119879/web "metascraper.js.org") — 使用 Open Graph 注释、JSON+LD 和 HTML 元数据等内容来获取作者、标题、描述，甚至与您选择的 URL 相关的图像等内容。
 
-[Doppler — 将所有环境变量集中在一处](https://nodeweekly.com/link/119588/web "www.doppler.com")
+[将 Pinterest 的 iOS 构建迁移到自动缩放的 EC2 Mac](https://nodeweekly.com/link/119880/web "buildkite.com")
 
-[remix-electron：Remix 的初始电子集成](https://nodeweekly.com/link/119589/web "github.com") — [Remix](https://nodeweekly.com/link/119590/web) 可能旨在构建网站，它可以在 Electron 应用程序中发挥作用吗？。
+[Execa 6.1：更好的 `child_process`](https://nodeweekly.com/link/119878/web "github.com") — 一种从 Node 应用程序运行外部进程的方法。现在支持 AbortController。
 
-[zx 5.0：编写更好的 Shell 脚本的工具](https://nodeweekly.com/link/119591/web "github.com") — 谷歌并没有在这里瞎折腾，一年之内推出了第四个主要版本。 `zx` 不是使用 `bash` 之类的东西来组合一个快速脚本，而是提供了各种细节来用 `JavaScript` 做同样的事情。 [v5.0](https://nodeweekly.com/link/119592/web) 增加了内置的 YAML 支持。
+[Marked 4：和 Markdown 有关的快速解析器和编译器](https://nodeweekly.com/link/119881/web "github.com") — 在浏览器或服务器端工作。[这是演示](https://nodeweekly.com/link/119882/web)。
+
+[fkill-cli 7.1.0：跨平台杀死进程的方式](https://nodeweekly.com/link/119883/web)
+
+[Verdaccio 5.6：轻量级 Node 私有代理注册表](https://nodeweekly.com/link/119884/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/issues/424)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/424)
+> * [查看原文](https://nodeweekly.com/issues/425)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/425)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
