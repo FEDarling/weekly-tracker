@@ -1,75 +1,69 @@
 ---
-title: 'CSS Weekly #492'
-date: '2022-02-20'
-categories:
+title: 'CSS Weekly #493' #不可修改
+date: '2022-02-26' #不可修改
+categories:  #不可修改
   - 'CSS Weekly'
-publish: true
+publish: true #翻译完成后修改
 ---
 
-[你好, CSS Cascade Layers](https://ishadeed.com/article/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
-
-[![Hello, CSS Cascade Layers](https://css-weekly.com/wp-content/uploads/2022/02/hello-css-cascade-layers.jpg)](https://ishadeed.com/article/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[A Complete Guide to CSS Cascade Layers](https://css-tricks.com/css-cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-Ahmad Shadeed 介绍了cascade layers 是如何工作的并且它会让你在写css中更加的自信。
+[![A Complete Guide to CSS Cascade Layers](https://css-weekly.com/wp-content/uploads/2022/02/a-complete-guide-to-css-cascade-layers.jpg)](https://css-tricks.com/css-cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-[作为一个软件工程师如何提高写作能力](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+Miriam Suzanne created an in-depth guide to CSS cascade layers, a CSS feature that allows you to define explicitly contained layers of specificity, so that you have complete control over which styles take priority in a project without relying on specificity hacks.
 
-[![Becoming a Better Writer as a Software Engineer](https://css-weekly.com/wp-content/uploads/2022/02/becoming-a-better-writer-in-tech.png)](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[Cascade Layers Are Coming to Your Browser](https://developer.chrome.com/blog/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-Gergely Orosz 推荐了一些让你写起文章更清晰，常用并且自信的方法。
+[![Cascade Layers Are Coming to Your Browser](https://css-weekly.com/wp-content/uploads/2022/02/cascade-layers-are-coming-to-your-browser.png)](https://developer.chrome.com/blog/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-[Tailwind CSS - A new way to > THINK < CSS](https://cssw.io/tailwind-css-a-new-way-to-think-css)
+Una Kravets gives a fantastic introduction to CSS cascade layers, a new CSS API to help you manage the cascade precedence of your code.
 
-[![Tailwind CSS - A new way to > THINK < CSS](https://css-weekly.com/wp-content/uploads/2022/02/tailwindcss.png)](https://cssw.io/tailwind-css-a-new-way-to-think-css)
+## Articles & Tutorials
 
-深入介绍 Tailwind CSS — 一个可以帮你利用HTML快速搭建网站的框架。
+[How We Made the State of CSS More Responsive and Accessible](https://polypane.app/blog/how-we-made-the-state-of-css-more-responsive-and-accessible/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-## 文章 & 教程
+Kilian Valkhof shares how he helped make the State Of CSS survey results more responsive and accessible.
 
-[使用 CSS 连接数据库](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[CSS Scroll Snap Slide Deck That Supports Live Coding](https://css-tricks.com/css-scroll-snap-slide-deck/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-一个神奇的实验为你展示如何利用 CSS 来连接数据库。
+Stephanie Eckles demonstrates how to build a no-JavaScript slide deck that allows live editing of CSS demos.
 
-[Aspect Ratio 一个简便的属性](https://css-irl.info/aspect-ratio-is-great/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[The Intended Wordle Font, Nobody Can See](https://pimpmytype.com/wordle/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-Michelle Barker 通过一个神奇的方式来介绍 `aspect-ratio` 属性。
+Oliver Schöndorfer explains how and why Wordle would look much better in “Clear Sans” while learning about the CSS font stack and the value of good typography in UIs.
 
-[实现一个自适应的图标](https://web.dev/building-an-adaptive-favicon/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[Using mask as `clip-path`](https://yuanchuan.dev/using-mask-as-clip-path?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-Adam Argyle 分享了如何搭建自适应图标的方法。
+Yuan Chuan explains the difference between `mask` and `clip-path` properties and outlines when and why you should use the `mask` property.
 
-[4个 Demos 为你介绍 from-font 的值](https://css-tricks.com/from-font-value-text-decoration-thickness/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[There Is No Character Limit for “alt text”](https://yatil.net/blog/there-is-no-character-limit-for-alt-text?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-Silvestar Bistrović 介绍了 `from-font` 值是如何工作的。
+Eric Eggert debunks a common misconception that alternative text for images has a 125 character limit.
 
-[如何创建一个斜着的容器](https://css-tricks.com/css-slanted-containers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+## Tools
 
-Dave Seidman 向我们展示了如何利用 CSS 创建一个倾斜的容器。
+[State of Frontend 2022](https://tsh.io/state-of-frontend/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-## 工具
+A popular frontend survey is now open. Make sure you participate so we can get as diverse and realistic results about the state of frontend.
 
-[details-utils](https://github.com/zachleat/details-utils?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+[Repobeats](https://repobeats.axiom.co/?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-为 `<details>` 元素添加一套实用的功能。
+Repobeats is a tool that will help you create a stunning insights section for your GitHub readme.
 
-[A11Y Checklist](https://www.a11yproject.com/checklist/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+## Inspiration
 
-利用 The Web Content Accessibility Guidelines (WCAG) 优化 checklist 的展示效果。
+[Goundhog Day Alarm Clock Radio](https://codepen.io/josetxu/pen/vYWrddJ?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-## 灵感
+[![Goundhog Day Alarm Clock Radio](https://css-weekly.com/wp-content/uploads/2022/02/css-groundhog-day-alarm-clock-radio.jpg)](https://codepen.io/josetxu/pen/vYWrddJ?utm_source=CSS-Weekly&utm_campaign=Issue-493&utm_medium=web)
 
-[DeLorean (CSS Art)](https://codepen.io/ykadosh/pen/yLzmKYp?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
-
-[![DeLorean (CSS Art)](https://css-weekly.com/wp-content/uploads/2022/02/delorean-css-art.jpg)](https://codepen.io/ykadosh/pen/yLzmKYp?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
-
-Toav Kadosh使用纯 CSS 实现了一幅题为穿越未来的插画。
+Josetxu López Barajas created a stunning, interactive demo using CSS and a bit of JavaScript.
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://css-weekly.com/issue-492/)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/492)
-> * 译者：[HongyuYU](https://github.com/chressYu)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> * [查看原文](https://css-weekly.com/issue-493/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/493)
+> * 译者：
+> * 校对者：
