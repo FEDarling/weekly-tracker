@@ -1,69 +1,71 @@
 ---
-title: 'Node Weekly #427' #不可修改
-date: '2022-03-04' #不可修改
+title: 'Node Weekly #428' #不可修改
+date: '2022-03-11' #不可修改
 categories:  #不可修改
   - 'Node Weekly'
 publish: true #翻译完成后修改
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ehyxdraltmafmeljnkms.jpg)
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/knuhuxscyfpp9eipnwer.jpg)](https://nodeweekly.com/link/120700/web)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-[在 Node 中使用 “execa” 运行命令](https://nodeweekly.com/link/120462/web "blog.logrocket.com") — 这里有一个完整的教程，vanilla 里使用它方便了 `child_process` 的操作。
+[What's Really Going On Inside Your `node_modules` Folder?](https://nodeweekly.com/link/120700/web "socket.dev") — A running joke is that `node_modules` folders are so huge they’re [heavier than black holes](https://nodeweekly.com/link/120701/web) but when packages get taken over by nefarious groups, the contents of node\_modules becomes somewhat less funny. This post looks into what malicious packages can do and the broad problem of supply chain attacks generally.
 
-[Red Hat 和 IBM 的 Node.js “参考架构”](https://nodeweekly.com/link/120491/web "github.com") — 大公司一般都有明确的工作手册，Red Hat 和 IBM 也不例外。这是关于他们的工程团队如何使用 Node、他们喜欢什么工具以及他们的开发和运营实践的指南。
+[Node v17.7.0 (Current) Released](https://nodeweekly.com/link/120702/web "nodejs.org") — Updates to nghttp2 and npm (8.5.2), some [new options](https://nodeweekly.com/link/120703/web) for `net.Socket` and `net.Server`, and Ben Noordhuis (one of the most prolific Node contributors who [stepped back](https://nodeweekly.com/link/120704/web) as a core committer for [reasons](https://nodeweekly.com/link/120705/web) in 2013) is officially fully back as a Node.js collaborator (though he has [continued](https://nodeweekly.com/link/120706/web) to contribute code all along).
 
-📄 PDF: [从 JavaScript 到 Rust：一本免费的书](https://nodeweekly.com/link/120493/web "github.com") — 这本书讲述了将 JavaScript 工作流程映射到 Rust 。还有一个 [GitHub 存储库](https://nodeweekly.com/link/120465/web)，其中包含本书的源代码。
+[![](https://copm.s3.amazonaws.com/ee129dc0.png)](https://nodeweekly.com/link/120707/web)
 
-## **简介:**
+[Introducing the Elastic CI Stack for EC2 Mac](https://nodeweekly.com/link/120707/web "buildkite.com") — This new open source stack is created specifically for mobile teams, helping you migrate to AWS-managed servers for increased reliability, security, and speed. 📱
 
-*   NodeSource 发布了 [N|Solid 4.7.0](https://nodeweekly.com/link/120466/web)，这是面向企业级生产的 Node.js 平台的最新版本。
+[Socket: See Potential Security Issues for `npm` Packages](https://nodeweekly.com/link/120708/web "socket.dev") — An interesting new project that scans the code of each npm package in an attempt to characterize their behavior which is then reported on project specific pages, such as [this one for lodash](https://nodeweekly.com/link/120709/web) or [this one for zx](https://nodeweekly.com/link/120710/web).
 
-*   David Herron 深入研究了 Node 最新（实验性）功能：[通过 HTTPS 加载模块](https://nodeweekly.com/link/120498/web)。
+[A Case Study on Moving from Next.js to Remix](https://nodeweekly.com/link/120711/web "www.adamcollier.co.uk") — [Remix](https://nodeweekly.com/link/120712/web) is the newest full stack Web framework on the block, and the first case studies are beginning to come in. In this case, the author covers the rewrite of his personal site (where this article is hosted).
 
-*   一位开发人员 在 Rust 中使用 WebAssembly 桥重新实现了 [Node 的 URL 解析器](https://nodeweekly.com/link/120499/web)。
+[Making a Discord Playlist Bot with Serverless Cloud](https://nodeweekly.com/link/120714/web "www.serverless.com") — _Serverless Cloud_ is a serverless platform from Serverless Inc., the folks behind [Serverless Framework](https://nodeweekly.com/link/120715/web). (Have we said ‘serverless’ enough yet?) This post ties together Node.js with some specific Serverless Cloud features to easily create a Discord chat bot that can add songs to a shared Spotify playlist.
 
-[了解 `package.json` 中的依赖关系](https://nodeweekly.com/link/120470/web "nodesource.com")
+[A Guide to Node Process Management with PM2](https://nodeweekly.com/link/120720/web "blog.appsignal.com") — [PM2](https://nodeweekly.com/link/120721/web) is one of the longest standing Node utilities used for managing processes and is worth checking out if you have a Node process you need to stay up 24/7.
 
-[备忘单：OWASP 十大漏洞（以及如何修复它们）](https://nodeweekly.com/link/120472/web "go.snyk.io")
+[Malicious Node.js Packages: Niche Configurations & Invisible Characters](https://nodeweekly.com/link/120722/web "snyk.io")
 
-[将 Node.js 应用程序的数据库从 MongoDB 迁移到 Postgres](https://nodeweekly.com/link/120500/web)
+[Diving into Node's Streams](https://nodeweekly.com/link/120723/web "nodesource.com") — Streams provide a defined interface and abstraction over the idea of working with streaming data in Node – they seem to suffer from often being misunderstood, though, so tutorials always tend to be popular.
 
-[使用 Parca 分析 Next.js 应用程序](https://nodeweekly.com/link/120501/web)
+▶  [USB Reverse Engineering and Writing Drivers](https://nodeweekly.com/link/120724/web "www.youtube.com") — If you’ve got a hankering to do some hardware hackery with Node, you might enjoy this truly low level stream.
 
-## 🛠 代码 & 工具
+▶  [Discussing Securing the Open Source Supply Chain with Feross Aboukhadijeh](https://nodeweekly.com/link/120725/web "changelog.com") — Feross Aboukhadijeh is one of the minds behind Socket (featured above) and he joined the popular _Changelog_ podcast to discuss the launch and why making the assumption that all your dependencies are malicious may be a necessary step to take.
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/pdmbbfmsffudiffacmve.jpg)
+[Deploying Your Node API to AWS Using Elastic Beanstalk](https://nodeweekly.com/link/120727/web)
 
-[Oclif 2.5：Heroku 的 Node 开放 CLI 框架](https://nodeweekly.com/link/120473/web "oclif.io") — 一个用于构建命令行界面的成熟框架，[GitHub 存储库](https://nodeweekly.com/link/120474/web)。
+[The Fetch API is Finally Coming to Node](https://nodeweekly.com/link/120729/web)
 
-[dnt：Deno-to-Node 包转换工具](https://nodeweekly.com/link/120478/web "github.com") — 获取一个 [Deno](https://nodeweekly.com/link/120479/web) 模块并创建一个 npm 包以在 Node.js 中使用。注入了 shims，将通常的 Deno 代码形式转换为 Node 方法。
+## 🛠 Code & Tools
 
-[Hygen：一个简单且可扩展的代码生成器工具](https://nodeweekly.com/link/120480/web "github.com") — 在项目脚手架上快速构建临时生成器。
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rmx9mhempnqdpfaexg14.jpg)](https://nodeweekly.com/link/120731/web)
 
-[Nom 3.0：Redis 的 ORM-of-Sots](https://nodeweekly.com/link/120481/web "github.com") — [Redis](https://nodeweekly.com/link/120482/web) 是一种流行的内存数据结构存储，通常与缓存相关联。它本质上不是关系型的，但您可以在其中对此类数据结构进行建模，Nohm 为 Node 用户提供了一些抽象。
+[PSD: A Zero-Dependency PSD (Photoshop) Parser for Browser and Node.js](https://nodeweekly.com/link/120731/web "webtoon.github.io") — Will parse info for each layer including text and also supports Photoshop’s .psb (big image) format. [GitHub repo](https://nodeweekly.com/link/120733/web).
 
-[OpenTelemetry 入门：可观察的现代应用程序](https://nodeweekly.com/link/120475/web "www.influxdata.com")
+[Undici 4.15: The Fresh HTTP/1.1 Client for Node](https://nodeweekly.com/link/120735/web "github.com") — Undici’s goal to be the best HTTP/1.1 client for Node takes another step forward.
 
-[pg-boss 7.2.0：Postgres 和 Node 作业队列系统](https://nodeweekly.com/link/120483/web "github.com") — 用于后台处理和可靠异步执行的队列。它使用 Postgres 的特定功能来保证安全。
+[Bree 8.0: A Versatile Job Scheduler for Node](https://nodeweekly.com/link/120737/web "jobscheduler.net") — Supports cron, dates, ms, later, and human-friendly for scheduling things.
 
-[Fiber 2.28.0：一个受 Express.js 启发的 Go Web 框架](https://nodeweekly.com/link/120484/web "github.com") — 一个 Go 项目？在 Node 周刊中？好吧，我们很多人都喜欢使用不同的语言，如果您喜欢 Express.js 方法，Fiber 尤其简洁。如果您确实在那个空间玩，我们也有 [Go 的文章](https://nodeweekly.com/link/120485/web)。
+[Stream Video in Your Node App in Two API Calls](https://nodeweekly.com/link/120739/web "get.mux.com")
 
-[ts-node 10.6.0：Node.js 的 TypeScript 执行和 REPL](https://nodeweekly.com/link/120486/web)  
-TypeStrong
+[exiftool-vendored: Fast, Cross-Platform Node.js Access to ExifTool](https://nodeweekly.com/link/120741/web "github.com") — Use this when you want to access embedded EXIF data within image files (particularly those taken with phones or DSLRs).
 
-## 🕰 **ICYMI** _(一些可能会引起您注意的旧东西...）_
+[elasticsearch-js 8.1.0: Official Elasticsearch Client for Node](https://nodeweekly.com/link/120743/web "github.com") — [Elasticsearch](https://nodeweekly.com/link/120745/web) is a great open source search database system for adding powerful search features to your apps. This update adds Elasticsearch 8.1 compatibility.
 
-*   这个教程涵盖了使用 GitHub 包注册表 [创建和发布私有 npm 包](https://nodeweekly.com/link/120487/web)。
-*   Thomas Sentre 分享了 [如何使用 Node 和 WebSocket 创建实时聊天应用程序](https://nodeweekly.com/link/120488/web)。
-*   快速了解 [如何在调试时使用 “错误原因” 功能](https://nodeweekly.com/link/120489/web)。
-*   Dima Grossman 解释了 [如何将你的 monorepo 构建时间减少 70%](https://nodeweekly.com/link/120490/web)（！）。
+[AVA 4.1: The Node.js Test Runner](https://nodeweekly.com/link/120747/web "github.com") — A popular test runner known for its simplicity and speed.
+
+[fastify-websocket: Basic WebSocket Support for Fastify](https://nodeweekly.com/link/120749/web)
+
+[Dynamodump 2.0: A CLI Tool for Backing Up and Restoring Schema and Data from DynamoDB](https://nodeweekly.com/link/120751/web)
+
+[ssh2 v1.7: Pure JavaScript SSH2 Client and Server Modules for Node](https://nodeweekly.com/link/120753/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://nodeweekly.com/issues/427)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/427)
-> * 译者：[daodaolee](https://github.com/daodaolee)
-> * 校对者：[daodaolee](https://github.com/daodaolee)
+> * [查看原文](https://nodeweekly.com/issues/428)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/node_weekly/428)
+> * 译者：
+> * 校对者：
