@@ -1,70 +1,70 @@
 ---
-title: 'React Status #272'
-date: '2022-01-24'
+title: 'React Status #273'
+date: '2022-02-02'
 categories:
   - 'React Status'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qscpaogir0sphevi4kgv.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rayqindkaosfkjmolvih.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-[关于 JSX 条件的好建议](https://react.statuscode.com/link/118599/web "thoughtspile.github.io") — *”我一次又一次地用 JSX 条件句砸自己的脚。在这篇文章中，我将探讨 JSX 条件的棘手之处，并分享一些保持安全的技巧”。*
+[React 服务器组件：入门](https://react.statuscode.com/link/118991/web "blog.plasmic.app") — [Plasmic](https://react.statuscode.com/link/118992/web) 可视化页面构建器应用程序的联合创始人带我们探索 React 服务器组件（目前是 React 18 中的一个实验性功能）以及它们如何在幕后运行。
 
-![](https://copm.s3.amazonaws.com/4fa99f56.png)
+[掌握 React 中的表单艺术](https://react.statuscode.com/link/118911/web "engineering.udacity.com") — 本文通过一系列示例（每个示例都附有自己的 CodeSandbox 演示），解释了如何在低耦合的情况下实现高级表单功能。
 
-[您将永远需要的最后一个电子商务后端](https://react.statuscode.com/link/118604/web "solidus.io") — 我们是一个免费的开源框架，由一群充满激情的开发人员、代理商和零售商共同创建，共同推动平台向前发展。
+![](https://copm.s3.amazonaws.com/cd560f27.png)
 
-[React 事件冒泡和捕获](https://react.statuscode.com/link/118605/web "www.robinwieruch.de") — [事件冒泡](https://react.statuscode.com/link/118606/web) 发生在处理嵌套元素中的事件：事件从一个元素 “冒泡” 到其容器，直到到达根元素。这种行为既有用又麻烦 — 这是使用 React 正确处理它的方法。
+[开始使用 React 和 Contentful 的 Headless CMS](https://react.statuscode.com/link/118907/web "www.contentful.com") — Contentful 是一个云原生 API 优先的内容平台，可让您以最符合组件要求的方式定义内容结构。
 
-[如何不学习 TypeScript](https://react.statuscode.com/link/118607/web "fettblog.eu") — 来自花费大量时间使用 TypeScript 的人的五个有用的建议。
+▶  [与 Kent C. Dodds 一起学习 Remix 框架](https://react.statuscode.com/link/118916/web "www.youtube.com")
 
-[你应该知道的三种 React 组件设计模式](https://react.statuscode.com/link/118608/web "blog.openreplay.com") — _“虽然不是很详细，但它适用于您在构建组件时可能会遇到的大多数问题”_
+[使用 React Query 构建一个真实的应用程序](https://react.statuscode.com/link/118908/web "www.smashingmagazine.com") — [React Query](https://react.statuscode.com/link/118909/web) 旨在简化您的应用程序与异步数据源的交互。
 
-[Next.js 12 中的 React 服务器组件](https://react.statuscode.com/link/118609/web "blog.logrocket.com") — 如果您对开始使用 React 服务器组件（React 18 的一部分）感兴趣，您会很高兴知道它们也可以与 Next.js 12+ 一起使用。你现在可以开始实验了。
+[React Native 0.67](https://react.statuscode.com/link/118912/web "reactnative.dev") — 查看更改日志以查看已解决问题的详细信息。
 
-[React Native 工程师构建 SwiftUI 应用程序：好的、坏的和 🤯](https://react.statuscode.com/link/118611/web "medium.com") — 如果你在 React Native 上花了很多时间 — 就像作者一样 — 你可能想知道跳到 [SwiftUI](https://react.statuscode.com/link/118612/web) 是什么感觉。
+[为您的设计系统选择正确的组件库：MUI 与 Chakra](https://react.statuscode.com/link/118993/web "engineering.udacity.com") — Udacity 的一位工程师在比较两者时的一些想法。
 
-[窥探 React 18：`useDeferredValue` 钩子](https://react.statuscode.com/link/118616/web "blog.saeloun.com") — `useDeferredValue` 是即将发布的 React 主要版本中包含的新并发功能之一，该版本现在处于测试阶段。这描述了如何在等待检索数据时使用它来保持 UI 响应。
+[React 中带有不确定复选框的树列表](https://react.statuscode.com/link/118915/web "t.co") — “半选中复选框” — 代表未完全 “选中” 或 “未选中” 的基本条件 — 在树列表中可能会很棘手。
 
+[如何使用 AWS Amplify Studio 创建全栈应用程序](https://react.statuscode.com/link/118922/web)
 
-[如何将您的博客从 Gatsby 迁移到 Next.js](https://react.statuscode.com/link/118619/web)
-
-[在同一台服务器上运行 Next 和 Remix](https://react.statuscode.com/link/118620/web)
-
-▶  [React 元素与 React 组件](https://react.statuscode.com/link/118621/web)
-
-[让你的 React 组件更可重用的六个技巧](https://react.statuscode.com/link/118622/web)
+[使用 React Native 解决常见陷阱的五个技巧](https://react.statuscode.com/link/118924/web)
 
 ## 🛠 代码 和 工具
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mgfehsu52mnyuns6ojrg.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rhwv9smrpaxt6f9rj3pu.jpg)
 
-[React 日历热图：D3.js 日历热图的组件](https://react.statuscode.com/link/118623/web "github.com") — 支持各种视图，包括年（看起来有点像 GitHub 的贡献热图）、月、周甚至是一天。
+[React Google Charts 4.0：一个非官方的包装器](https://react.statuscode.com/link/118927/web "github.com") — 加入最有活力的开发者社区，为 Riot Games、FOX、Sony、Coinbase 等公司开展长期项目。
 
-[JHipster：在 Generator 中的 Spring Boot 和 React ](https://react.statuscode.com/link/118624/web "github.com") —  “生成、开发和部署现代 Web 应用程序和微服务架构”，支持包括 React 在内的许多流行框架。现在是第七个主要版本，拥有广泛的用户群。
+[Flags：带有 One Hook 的 Next.js 的功能标志](https://react.statuscode.com/link/118930/web "github.com") — 选择性地启用该功能（如他们的简短视频演示所示）从未如此简单。他们提供了详细的教程来引导您完成他们的步骤。
 
-[使用带有 Recharts 和 InfluxDB 的 JavaScript 可视化数据](https://react.statuscode.com/link/118625/web "www.influxdata.com")
+[使用 Stream 的聊天 API 构建移动响应式远程医疗寻呼机应用程序](https://react.statuscode.com/link/118921/web "getstream.io")
 
-[drei：`react-three-fiber` 的 Helper 和 Abstractions](https://react.statuscode.com/link/118626/web "github.com")
+[react-markdown：在 React 中渲染 Markdown](https://react.statuscode.com/link/118934/web "github.com") — 获取 Markdown 字符串并将其呈现给 React 元素。现在是第八个主要版本。
 
-[React Headless Hooks：你可以控制的强大组件](https://react.statuscode.com/link/118628/web "github.com") — “headless” 组件的想法是，您可以获得手风琴、轮播、分页和类似机制的行为，但您保留对标记和样式的 100% 控制。[有一个 “两分钟” 入门指南](https://react.statuscode.com/link/118629/web) 以及每个组件的 [CodeSandbox 示例](https://react.statuscode.com/link/118630/web)。
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/m64fi5bkj1wow3ishzhm.jpg)
 
-[React Tracking 9.1：React 应用程序的声明式跟踪](https://react.statuscode.com/link/118631/web "github.com") — 我是他们填字游戏的忠实粉丝，《纽约时报》也发布了相关的很多代码。
+[reaselct：一个 React 的 Select 组件 ](https://react.statuscode.com/link/118933/web "github.com") — 目前有单选和多选版本，后者在标记场景中可以很好地工作。
 
-[Million：与库无关的小型虚拟 DOM 实现](https://react.statuscode.com/link/118632/web "github.com") — 一个全新的 JavaScript 库，专注于预编译和静态分析，正如作者去年的 [博客文章](https://react.statuscode.com/link/118633/web) 中所述。
+[Rockpack 2.0：另一种 React App Builder](https://react.statuscode.com/link/118995/web "github.com") — 与 _Create React App_ 一样，目标是尽可能缩短项目时间，但 Rockpack 对要走多远有一些不同的看法，并包含了很多自己的想法，包括现在的服务器端渲染。
+
+[Semi-UI：来自 TikTok 团队的设计系统和 UI 库](https://react.statuscode.com/link/118936/web "github.com") — 一个完整的设计系统和用户界面。
 
 ## ⚡️ 快览:
+--------------
 
-*   [React Native 清洁项目](https://react.statuscode.com/link/118634/web) — 自动清除缓存和模块，然后重新安装它们。
-*   [react-native-reanimated-carousel](https://react.statuscode.com/link/118635/web) — _"高性能无限滚动组件。"_
-*   [Plock](https://react.statuscode.com/link/118636/web) — 一个 “砌体” 布局组件，这是他们的 [示例](https://react.statuscode.com/link/118637/web).
+*   [React Scroll Parallax](https://react.statuscode.com/link/118938/web) — 动画与滚动行为同步。
+*   [react-inner-image-zoom](https://react.statuscode.com/link/118939/web) — 仔细查看其渲染帧内的图像。
+*   [React Modal Sheet](https://react.statuscode.com/link/118940/web) — 带有由 [Framer Motion]((https://react.statuscode.com/link/118941/web)) 提供支持的动画的底部表单组件。
+*   [transition-hook](https://react.statuscode.com/link/118942/web) — 大约 1KB 的简单过渡动画。
+*   [React Native Loading Spinner Overlay](https://react.statuscode.com/link/118943/web) — 在类似模式的叠加层中增加了一个微调器，以增强用户体验。
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> * [查看原文](https://react.statuscode.com/issues/272)对比阅读
-> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/272)
+> * [查看原文](https://react.statuscode.com/issues/273)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/273/README.md)
 > * 译者：[daodaolee](https://github.com/daodaolee)
 > * 校对者：[daodaolee](https://github.com/daodaolee)
