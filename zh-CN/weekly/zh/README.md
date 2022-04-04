@@ -1,77 +1,95 @@
 ---
-title: 'Mobile Dev Weekly #383'
-date: '2021-12-24'
+title: 'JavaScript Weekly #574'
+date: '2022-02-22'
 categories:
-  - 'Mobile Dev Weekly'
+  - 'JavaScript Weekly'
 publish: true
 ---
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1640085844/d0ij38zabov39wxc002r.jpg)
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xbrtnhjvalt0al01p0nm.jpg)
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先-->
 <!-- more -->
 
-**Hello!** 👋
+[JavaScript 的管道运算符：简介和用例](https://javascriptweekly.com/link/119185/web "2ality.com") — 在 State of JS 2020 调查中，许多开发人员认为 JavaScript 中缺少管道运算符。有一个 [管道运营提案](https://javascriptweekly.com/link/119186/web) 已经处于 TC39 流程的第二阶段之中。 Axel 博士解释了为什么你需要这个，它是如何工作的，以及为什么 JS 不会有 F# 样式的管道。
 
-首先，先说一些事情：这不仅是今年的最后一期，也是 Mobile Dev Weekly 的最后一期。在为您提供此电子邮件摘要近八年后，我们将结束这一切。我们希望我们做的事情是有价值的。
+[关于将 TypeScript 编译器移植到 Go（与 Rust 相比）](https://javascriptweekly.com/link/119145/web "kdy1.dev") — 作者是 Rust 的倡导者（创建了 swc），他认识到 Go 可能是一个更好的工具，尤其是用于构建类型检查器，并在此处解释了原因。这篇文章还引发了一场相当广泛的 [Hacker News 讨论](https://javascriptweekly.com/link/119147/web)，讨论了许多人为 Rust 辩护所涉及的复杂性。
 
-我们想以最后一期为契机，感谢大家的阅读，也感谢我们严谨的策展人 Holly Schinsky 和 ​​Brian Rinaldi。
+![](https://copm.s3.amazonaws.com/582b4c11.png)
 
-对于最后一期，我们将为您带来今年点击率最高的一些新闻，以及 Holly 和 Brian 在我们结束本期时他们对移动开发领域的看法的评论。
+[用于 VS Code 的 JavaScript Scratchpad，现在带有 Time Machine](https://javascriptweekly.com/link/119101/web "quokkajs.com") — Quokka.js 是探索和测试 JavaScript 的第一大工具。代码会在输入的时候立即运行。您的代码将会在新的 Time Machine 里执行，并允许您自动重播、前进/后退、编辑并继续，以及查看运行时值。
 
-感谢。  
-_The Mobile Dev Weekly 团队_
+🛠  [未导入：查找并修复悬空文件和未使用的依赖项](https://javascriptweekly.com/link/119148/web "github.com") — 您每天添加新代码的时候，可能会忘记删除旧代码。此工具可以帮助您发现项目中未使用的文件。
 
-## ✨ 2021 高光时刻
+[参加 JavaScript 2022 现状调查](https://javascriptweekly.com/link/119149/web "stateofjs.com") — 几年过去了，新的 JavaScript 现状调查出来了，并且一如既往地推断开发人员对哪些库和框架感到兴奋。这不是一个完美的方案，不过每年的比较结果很有趣，我们会在结果出来后分享它。
 
-[移动先行 or 桌面先行](./modile_first_or_desktop_first.md) — 移动先行还是桌面先行的问题现在仍然值得讨论吗？这篇文章深入探讨了这个问题，并概述了各种方法的优缺点。
+## **简述:**
 
-[Google Flutter 与 Facebook 的 React Native 竞争](https://mobiledevweekly.com/link/117936/web) — 过去几年的 Mobile Dev Weekly 已经概述了 Flutter 的兴起和崛起，现在它变得如此火热，以至于 “将 React Native 向开发人员领先的跨平台移动框架靠近”。
+*   ⭐️  Etsy 的一位工程师 [提到](https://javascriptweekly.com/link/119150/web) Etsy 将他们所有的 React 15.6 代码迁移到了 [Preact](https://javascriptweekly.com/link/119151/web)，而没有转到 React 16+。
 
-![](https://copm.s3.amazonaws.com/cf64df3e.png)
+*   Deno 团队 [反思了 Deno 在 2021 年的进展](https://javascriptweekly.com/link/119187/web)。Angular 团队 [也做了类似的事情](https://javascriptweekly.com/link/119188/web)。
 
-[从交互设计工具切换到 SwiftUI](https://mobiledevweekly.com/link/117937/web) — 使用 Apple 用于构建界面的声明式方法 SwiftUI 学习交互原型设计并提升您的技能。
+*   [TypeScript 4.6](https://javascriptweekly.com/link/119152/web) 处于测试阶段，专注于相对较小的技术改进，例如改进错误、跟踪分析器以及在调用 `super()` 之前允许在构造函数中编写代码。
 
-[一个价值 800 万美元的娇羞按钮](./bashful_button.md) — 之前的 100vh 引起的错误现在似乎已基本解决，不过本篇文章还是强调了当前这种错误，因为这种犯错导致的代价很高。
+*   Remix 项目的 Ryan Florence 在 Twitter 上指出 “[开发者们已经为 React 新世界做好了准备](https://javascriptweekly.com/link/119153/web)”。
 
-[如何解决任何 iOS 的崩溃问题](https://mobiledevweekly.com/link/117939/web) — 看起来许多人都遇到过一次崩溃，可能您完全不知道发生了什么，并且没有多少测试可以让您重现该问题。至少看起来是这样，这也是本篇文章非常受欢迎的原因。
+*   Mike Melanson 问到 [2022 年是否会成为全栈 JavaScript 的 “黄金时代”](https://javascriptweekly.com/link/119154/web) ？
 
-[Web Apps vs Native Apps: 渐进式程序的发展](https://mobiledevweekly.com/link/117940/web) — PWA 的最终目标是与本机应用程序的功能对等，而 10 月份的这篇文章强调了一些 PWA 与本机应用程序的接近程度（尽管不是在 iOS 上）。
 
-[不稳定的十年半：谷歌消息应用的历史](https://mobiledevweekly.com/link/117941/web) — 想知道在这份简报运行期间，我们看到了多少 Google 消息传递应用程序来来去去吗？好吧，这值得点击查看多年来凌乱的 Google 消息传递客户端的布局。
+## **版本更新:**
 
-[Chrome 是新的 Safari，Edge 和 Firefox 也是如此](https://mobiledevweekly.com/link/117942/web) — 多年来，iOS 上的浏览 ​​ 器环境（或缺乏）一直是一个症状所在，正如 9 月初的这篇文章所强调的那样。
+[Nightwatch 2.0](https://javascriptweekly.com/link/119189/web) — 端到端的测试框架。 [Gluegun 5.0](https://javascriptweekly.com/link/119155/web) — 用于构建 Node.js CLI 应用程序的工具包。 [Node-RED 2.2.0](https://javascriptweekly.com/link/119156/web) – 低代码事件驱动的应用程序开发环境。 [parse-domain 7.0](https://javascriptweekly.com/link/119157/web) — 将主机名拆分为多个部分。 [NeutralinoJS 4.2.0](https://javascriptweekly.com/link/119158/web) — X 平台 JS 桌面应用程序框架。 [Mocha 9.2](https://javascriptweekly.com/link/119159/web) — JS 测试框架。  
+[Serverless Framework v3](https://javascriptweekly.com/link/119190/web)  
+[React Native 0.67](https://javascriptweekly.com/link/119160/web)  
+[npm 8.4.0](https://javascriptweekly.com/link/119161/web)
 
-[哪种移动开发框架适合您？](https://mobiledevweekly.com/link/117943/web) — 知道哪些工具总是受欢迎的么？这篇文章着眼于选择下一个移动开发框架（如 Ionic、Xamarin、NativeScript 等）时要考虑的因素。
+## 📒  文章 & 教程
 
-## 📝 编辑注语
+[React 服务器组件：入门](https://javascriptweekly.com/link/119162/web "blog.plasmic.app") — [Plasmic](https://javascriptweekly.com/link/119163/web) 可视化页面构建器应用程序的联合创始人带我们探索了 React 服务器组件（目前是即将发布的 React 18 中的一个实验性功能）以及它们如何在后台运行。
 
-我一直特别着迷于移动开发，尤其是跨平台，它为我提供了较低的学习门槛，让我能够在没有陡峭的学习曲线的情况下构建应用程序。我喜欢我可以使用我现有的技能组合并立即在 iPhone 或 Android 设备上启动并运行一个应用程序。我从 Adob​​e AIR for mobile 开始，很快就过渡到 PhoneGap，我喜欢我在移动设备上的每一段时间，无论是在博客、讲习班，还是为本时事周刊贡献内容。
+[多利用 JavaScript 的奇淫技巧](https://javascriptweekly.com/link/119164/web "kittygiraudel.com")
 
-这些年来，我还花时间研究了几个很酷的框架，这些框架让移动开发变得更加有趣； Kendo UI、Ionic、Framework7、Onsen UI、Flutter 等等，并因此结识了许多优秀的人。它是我有幸与之合作的最好的社区之一，虽然我很遗憾看到本周刊的结尾，但我期待看到移动端如何继续发展到未来。
+[React 身份验证](https://javascriptweekly.com/link/119106/web "userfront.com") — 在本文，我们展示了一种在 React 应用程序中进行身份验证（加上访问控制和 SSO）的新方法。
 
-![Holly Schinsky](https://cooperpress.s3.amazonaws.com/devgirlfl.png)
+[`npm` 的完整初学者指南](https://javascriptweekly.com/link/119167/web "css-tricks.com") — 本指南还是挺有意思的。
 
-— [Holly Schinsky](https://mobiledevweekly.com/link/117944/web)
+[2022 年 Web 开发的底线？](https://javascriptweekly.com/link/119168/web "engineering.linecorp.com") — 分析围绕前端技术、浏览器共享、客户端设备等的众多统计数据，以了解我们必须继续支持的最低标准。
+
+[DevTools 有什么新功能？](https://javascriptweekly.com/link/119169/web "www.smashingmagazine.com") — 对 Chrome、Edge、Safari 和 Firefox 中开发人员工具的最新的更改和新增的功能进行了不错的介绍。
+
+[沿 SVG 路径为任何内容设置动画](https://javascriptweekly.com/link/119170/web "tympanus.net") — 如何使用 SVG 路径和 `getPointAtLength()` 函数使用 JavaScript 编写创意动画。
+
+[使用 Sourcegraph 重新定义 OSS 世界：经验教训](https://javascriptweekly.com/link/119108/web "about.sourcegraph.com")
+
+[比较 CSS 与 JavaScript](https://javascriptweekly.com/link/119171/web "kilianvalkhof.com")
+
+[TypeScript 如何赢得开发人员和 JavaScript 框架的欢迎](https://javascriptweekly.com/link/119172/web)
+
+▶  [使用 Node 做与 Jim Cramer 相反的事情](https://javascriptweekly.com/link/119191/web)
+
+## 🛠  代码 & 工具
+
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/chcwkbfwx58zwvecqzvc.jpg)
+
+[chroma.js：零依赖颜色转换库](https://javascriptweekly.com/link/119173/web "vis4.net") — 我很喜欢这个简单但色彩丰富的文档。如果你有关于颜色和颜色值的需求，一定要看看这个。 [GitHub 存储库](https://javascriptweekly.com/link/119174/web)。
+
+[Clipboard.js：现代 “复制到剪贴板” 库](https://javascriptweekly.com/link/119175/web "github.com")
+
+[使用 Stream 的聊天 API 构建移动响应式远程医疗寻呼机应用程序](https://javascriptweekly.com/link/119107/web "getstream.io") — 构建具有表情符号/反应、内置 GIF 支持、编辑/删除消息、直接和群聊等功能的响应式聊天应用程序。
+
+[ngraph.path：通过图寻找路径](https://javascriptweekly.com/link/119177/web "github.com") — 如果您想了解它如何处理六个全球城市的道路网络，这里有一个 [现场演示](https://javascriptweekly.com/link/119178/web)。
+
+[ExcellentExport.js 3.8：将表格数据导出到 Excel 或 CSV](https://javascriptweekly.com/link/119179/web "github.com") — 如果您的应用/页面在 HTML 表格中要填充一些数据，并且您希望将其导出为 CSV 或 XLSX 而无需任何服务器参与，它可能会有所帮助。
+
+[Reaselct：React 的 “选择” 框组件](https://javascriptweekly.com/link/119180/web "github.com") — 目前有单选和多选版本，后者在标记场景中可以很好地工作。来自与 [REAVIZ 图表库相同的团队](https://javascriptweekly.com/link/119182/web)。
+
+[Trilium Notes：使用 Node 构建的知识库应用程序](https://javascriptweekly.com/link/119183/web "github.com") — 用 Express 构建的分层笔记应用程序。
+
+[hyperid：快速生成唯一 ID](https://javascriptweekly.com/link/119184/web)
 
 ---
-
-众所周知，Mobile Dev Weekly 实际上是作为 Mobile Web Weekly 而存在的。八年前，我还不清楚网络是否会成为移动设备的主导平台。我最初提出时事周刊的想法是为了帮助提高使用网络技术的移动社区建设。
-
-尽管发生了很多变化，并且网络已经巩固了其在移动设备上的地位，但我们仍然看到这个问题正在上演，例如，在 iOS Safari 中缺乏对某些功能的支持以及普遍缺乏浏览器引擎竞争的斗争。
-
-移动作为一个非常广泛的平台，无论是原生平台还是网络平台，都比以往任何时候都更加重要。我期待看到你们所有人，移动开发者社区，如何继续推动平台向前发展。
-
-（_有关 MDW 结束的更多想法, [可以看下我的帖子](https://mobiledevweekly.com/link/117945/web)_）。
-
-![Brian Rinaldi](https://res.cloudinary.com/cpress/image/upload/v1588238014/z8mlji6ak1lum6l9pwu1.jpg)
-
-— [Brian Rinaldi](https://mobiledevweekly.com/link/117946/web)
-
----
-
-> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://mobiledevweekly.com/link/117934/web)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/mobile_dev_weekly/383/README.md)
-> - 译者：[daodaolee](https://github.com/daodaolee)
-> - 校对者：[daodaolee](https://github.com/daodaolee)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://javascriptweekly.com/issues/574)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/javascript_weekly/574/README.md)
+> * 译者：[daodaolee](https://github.com/daodaolee)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
