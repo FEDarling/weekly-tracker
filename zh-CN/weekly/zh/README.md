@@ -1,70 +1,75 @@
 ---
-title: 'CSS Weekly #491'
-date: '2022-02-09'
+title: 'CSS Weekly #492'
+date: '2022-02-20'
 categories:
   - 'CSS Weekly'
 publish: true
 ---
 
-[使用蒙版的精美 CSS 边框](https://css-tricks.com/css-borders-using-masks/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[你好, CSS Cascade Layers](https://ishadeed.com/article/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-![使用蒙版的精美 CSS 边框](https://css-weekly.com/wp-content/uploads/2022/02/css-borders-using-masks.png)
+[![Hello, CSS Cascade Layers](https://css-weekly.com/wp-content/uploads/2022/02/hello-css-cascade-layers.jpg)](https://ishadeed.com/article/cascade-layers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先-->
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-Temani Afif 着眼于一些现代 CSS 遮罩技术，它们将帮助您创建精美的边框。
+Ahmad Shadeed 介绍了cascade layers 是如何工作的并且它会让你在写css中更加的自信。
 
-[Flexbox 的工作原理](https://tiffanybbrown.com/2022/01/how-does-flexbox-work/index.html?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[作为一个软件工程师如何提高写作能力](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-![Flexbox 的工作原理](https://css-weekly.com/wp-content/uploads/2022/02/how-does-flexbox-work.png)
+[![Becoming a Better Writer as a Software Engineer](https://css-weekly.com/wp-content/uploads/2022/02/becoming-a-better-writer-in-tech.png)](https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-Tiffany B. Brown 揭开了 Flexbox 的奥秘，让您了解在使用 Flexbox 时要注意哪些事情。
+Gergely Orosz 推荐了一些让你写起文章更清晰，常用并且自信的方法。
 
-## 文章 & 工具
+[Tailwind CSS - A new way to > THINK < CSS](https://cssw.io/tailwind-css-a-new-way-to-think-css)
 
-[DevTools 中的新功能？](https://www.smashingmagazine.com/2022/01/devtools-updates-2022/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[![Tailwind CSS - A new way to > THINK < CSS](https://css-weekly.com/wp-content/uploads/2022/02/tailwindcss.png)](https://cssw.io/tailwind-css-a-new-way-to-think-css)
 
-Patrick Brosset 讲解了 DevTools 中跨浏览器的最新功能。
+深入介绍 Tailwind CSS — 一个可以帮你利用HTML快速搭建网站的框架。
 
-[比较 CSS 特性](https://kilianvalkhof.com/2022/css-html/comparing-css-specificity-values/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+## 文章 & 教程
 
-Kilian Valkhof 解释了如何比较两个选择器来决定哪个选择器具有最好的特性。
+[使用 CSS 连接数据库](https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-[将 PostCSS 与 Media Queries Level 4 一起使用](https://blog.logrocket.com/using-postcss-media-queries-level4/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+一个神奇的实验为你展示如何利用 CSS 来连接数据库。
 
-Amarachi Amaechi 回顾了 Media Queries Level 4 中可用的几个特性，并演示了使用 PostCSS 实现每个特性。
+[Aspect Ratio 一个简便的属性](https://css-irl.info/aspect-ratio-is-great/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-[我不知道的 :where()](https://www.matuzo.at/blog/2022/heres-what-i-didnt-know-about-where/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+Michelle Barker 通过一个神奇的方式来介绍 `aspect-ratio` 属性。
 
-Manuel Matuzovic 解释了如何使用 :where() 伪类来降低选择器的特性。
+[实现一个自适应的图标](https://web.dev/building-an-adaptive-favicon/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-[设计无障碍服务](https://ukhomeoffice.github.io/accessibility-posters/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+Adam Argyle 分享了如何搭建自适应图标的方法。
 
-关于如何设计更易于访问的服务的一般指南，涵盖以下领域的用户的最佳设计实践：低视力、聋和听力障碍、阅读障碍、运动障碍、自闭症用户和屏幕阅读器用户。
+[4个 Demos 为你介绍 from-font 的值](https://css-tricks.com/from-font-value-text-decoration-thickness/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+
+Silvestar Bistrović 介绍了 `from-font` 值是如何工作的。
+
+[如何创建一个斜着的容器](https://css-tricks.com/css-slanted-containers/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
+
+Dave Seidman 向我们展示了如何利用 CSS 创建一个倾斜的容器。
 
 ## 工具
 
-[Pika](https://pika.rishimohan.me/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[details-utils](https://github.com/zachleat/details-utils?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-Pika 是一款在线开源应用程序，可让您通过添加圆角、背景颜色、阴影等来快速美化屏幕截图。
+为 `<details>` 元素添加一套实用的功能。
 
-[Shottr](https://shottr.cc/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[A11Y Checklist](https://www.a11yproject.com/checklist/?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-Shottr 是一个 macOS 屏幕截图应用程序，具有滚动屏幕截图、OCR、注释和测量工具。
+利用 The Web Content Accessibility Guidelines (WCAG) 优化 checklist 的展示效果。
 
 ## 灵感
 
-[“记录” 的创意课程](https://bradfrost.com/blog/post/creative-process-lessons-from-get-back/?utm_source=CSS-Weekly&utm_campaign=Issue-491&utm_medium=web)
+[DeLorean (CSS Art)](https://codepen.io/ykadosh/pen/yLzmKYp?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-![“记录” 的创意课程](https://css-weekly.com/wp-content/uploads/2022/02/creative-process-lessons-from-get-back.jpg)
+[![DeLorean (CSS Art)](https://css-weekly.com/wp-content/uploads/2022/02/delorean-css-art.jpg)](https://codepen.io/ykadosh/pen/yLzmKYp?utm_source=CSS-Weekly&utm_campaign=Issue-492&utm_medium=web)
 
-Brad Frost 分享了有关披头士乐队纪录片创作过程的深刻见解。
+Toav Kadosh使用纯 CSS 实现了一幅题为穿越未来的插画。
 
 ---
-
-> - 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
-> - [查看原文](https://css-weekly.com/issue-491/)对比阅读
-> - 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/491)
-> - 译者：[daodaolee](https://github.com/daodaolee)
-> - 校对者：[daodaolee](https://github.com/daodaolee)
+> * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
+> * [查看原文](https://css-weekly.com/issue-492/)对比阅读
+> * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/css_weekly/492)
+> * 译者：[HongyuYU](https://github.com/chressYu)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
