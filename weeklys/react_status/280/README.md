@@ -46,7 +46,7 @@ Daniel Friyia
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vkeeo2fqs1fyqezpelao.jpg)](https://react.statuscode.com/link/121012/web)
 
-[React-Menu 3.0：一个可定制和可访问的 React 菜单库](https://react.statuscode.com/link/121012/web "szhsin.github.io") — 一个设计良好的菜单组件，其支持无限深度的子菜单、单选和复选框菜单项、以及 React18 的并发渲染。也可以很好的与配合键盘使用。 [GitHub 存储库](https://react.statuscode.com/link/121013/web)。
+[React-Menu 3.0：一个可定制和可访问的 React 菜单库](https://react.statuscode.com/link/121012/web "szhsin.github.io") — 一个设计良好的菜单组件，其支持无限深度的子菜单、单选和复选框菜单项以及 React18 的并发渲染。该组件也可以很好的与配合键盘使用。 [GitHub 存储库](https://react.statuscode.com/link/121013/web)。
 
 [Solito: 统一 React Native 和 Next.js 中的 Navigation 的使用](https://react.statuscode.com/link/121014/web "solito.dev") — 一个关于 React Navigation 和 Next.js 的封装，可以让你跨平台共享 navigation 代码。它还提供了一组示例来说明其用法。它有望成为 **使用 React Native 和 Next.js 构建强大的跨平台应用程序中的那块缺失部分** 。
 
