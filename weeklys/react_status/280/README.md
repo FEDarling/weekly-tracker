@@ -67,4 +67,4 @@ Daniel Friyia
 > * [查看原文](https://react.statuscode.com/issues/280)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/280)
 > * 译者：[Maskedheroe](https://github.com/Maskedheroe)
-> * 校对者：
+> * 校对者：[daodaolee](https://github.com/daodaolee)
