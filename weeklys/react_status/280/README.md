@@ -58,7 +58,7 @@ Daniel Friyia
 
 [react-json-reconciler](https://react.statuscode.com/link/121016/web) — 将 JSX 树序列化成 JSON 对象。
 
-[react-native-modalfy](https://react.statuscode.com/link/121017/web) — 在 React Native 中轻松管理模态窗。
+[react-native-modalfy](https://react.statuscode.com/link/121017/web) — 在 React Native 中轻松管理模态框。
 
 [datetimepicker](https://react.statuscode.com/link/121018/web) — 一款使用于 iOS、Android 和 Windows 的 React Native 日期和时间选择器组件。
 
