@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kxct0tcmu4bnvgnwd6ri.jpg)](https://javascriptweekly.com/link/122096/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​584 — April 8, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/122094/web)  |  [Read on the Web](https://javascriptweekly.com/link/122095/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kxct0tcmu4bnvgnwd6ri.jpg)](https://javascriptweekly.com/link/122096/web)
 
 Veni, vidi, formatae! [Announcing Rome Formatter: Super Fast JavaScript Formatting](https://javascriptweekly.com/link/122096/web "rome.tools") — [Rome](https://javascriptweekly.com/link/122097/web) is an ambitious project that sets out to replace a _lot_ of JS tools in one hit. But Rome _wasn’t_ [built in a day,](https://javascriptweekly.com/link/122098/web) so they’re unveiling their take on _Prettier_\-esque code formatting first. You can use it from the CLI but they’re recommending [this VS Code extension](https://javascriptweekly.com/link/122099/web) primarily as a way to get a taste.
 
@@ -42,7 +36,7 @@ Tom Preston-Werner
 
 Remote
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   The British government has removed jQuery as a dependency from its [gov.uk](https://javascriptweekly.com/link/122108/web) frontend apps – Matt Hobbs [shows off how this improves performance](https://javascriptweekly.com/link/122109/web) significantly.
     
@@ -55,7 +49,7 @@ Remote
 *   A developer makes the argument that [JavaScript is safer for programming with integers than modern C](https://javascriptweekly.com/link/122115/web) – it's no April Fool.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Astro 1.0 Beta](https://javascriptweekly.com/link/122116/web)  
 [React Native 0.68](https://javascriptweekly.com/link/122117/web)  
@@ -65,21 +59,7 @@ Remote
 [Cucumber.js 8.0](https://javascriptweekly.com/link/122121/web) – BDD for JavaScript.  
 [pkg 5.6.0](https://javascriptweekly.com/link/122122/web) – Package Node apps into executables.
 
-💻 Jobs
-
-[Fullstack Developer](https://javascriptweekly.com/link/122123/web) — Konrad is hiring Fullstack developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Senior JavaScript Developer (Warsaw or Remote)](https://javascriptweekly.com/link/122124/web) — Open Source rich text editor used by millions of users around the world. Strong focus on code quality. Join the CKEditor team.  
-CKEditor
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/122125/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/122126/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o2bjuftpps5ykd7s1z0u.jpg)](https://javascriptweekly.com/link/122127/web)
 
@@ -117,7 +97,7 @@ Shehzad Akbar
 [Build Your Own Markdown Editor with React and Codemirror 6](https://javascriptweekly.com/link/122137/web)  
 0xsuk
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 ⭐️ [React Libraries to Use in 2022](https://javascriptweekly.com/link/122138/web "www.robinwieruch.de") — The React ecosystem is so extensive that we even have [a separate newsletter for React stuff](https://javascriptweekly.com/link/122139/web) and when it comes to libraries, the problem is one of too much choice, not too little, so an opinionated list like this can come in handy.
 
@@ -149,7 +129,7 @@ Open Health Imaging Foundation
 [rc-collapse: A Collapsing Content/Accordion Component for React](https://javascriptweekly.com/link/122150/web)  
 react-component
 
-📥 Reader Submissions
+## 📥 Reader Submissions
 
 *   Cory Brown is happy to stir up a little controversy when he explains [why he avoids `async`/`await`](https://javascriptweekly.com/link/122151/web) – it certainly provoked a lot of comments.
     

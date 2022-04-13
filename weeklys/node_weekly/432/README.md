@@ -8,14 +8,6 @@ publish: false # 翻译完成后修改
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-🇺🇦 #​432 — April 7, 2022
-
-[Read on the Web](https://nodeweekly.com/link/121970/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dvzzl80qsechlzcrbhkt.jpg)](https://nodeweekly.com/link/122041/web)
-
 [JavaScript and Node Testing Best Practices: 2022 Edition](https://nodeweekly.com/link/122041/web "github.com") — Fifty best practices divided into categories (testing, backend, frontend, etc.) complete with simple examples. We first linked to this 2½ years ago, but a new edition is now out updated for 2022 standards and with translations in 7 other languages including Chinese, Spanish and French.
 
 Yoni Goldberg
@@ -34,7 +26,7 @@ Elijah Manor
 
 Richard Lau
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   [Get an early look](https://nodeweekly.com/link/122007/web) at Node 18's upcoming test runner system in the nightly docs. Shehzad Akbar also [explains it here.](https://nodeweekly.com/link/122046/web)
     
@@ -45,18 +37,6 @@ Richard Lau
 *   📗 [Build Talking Apps for Alexa](https://nodeweekly.com/link/121978/web) is a new book (by Craig Walls and published by _Pragmatic Bookshelf_) on building Alexa skills for Echo devices and uses Node.js to make it all happen.
     
 *   The folks at EdgeDB put ORMs to the test, [claiming that they're slow and getting slower](https://nodeweekly.com/link/122008/web) after using [IMDBench](https://nodeweekly.com/link/122009/web), a tool to compare Python and JavaScript ORMs with realistic queries.
-    
-
-💻 Jobs
-
-[Back-End Developer (Node.js, Full-Time, Remote CET±3 Hours)](https://nodeweekly.com/link/121979/web) — Help us improve the speed and reliability of back-end processes that drive automation for real estate agencies.  
-SweepBright
-
-[Senior Backend Engineer](https://nodeweekly.com/link/121980/web) — We've built the next-generation CMS. We're open-source. JavaScript. Headless. Community & People first. And free. And will stay that way. Forever.  
-Strapi
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/121981/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [Basic Principles of Object-Oriented Programming in TypeScript](https://nodeweekly.com/link/121982/web "blog.appsignal.com") — The author focuses on ‘three pillars’ of object-oriented programming in the TypeScript context: encapsulation, inheritance, and polymorphism (at a basic level).
 
@@ -70,7 +50,7 @@ Bitmovin Inc. sponsor
 
 Wesley Chun (Google Cloud)
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [JSZip 3.9: Create, Read and Edit .zip Archive Files](https://nodeweekly.com/link/121985/web "stuk.github.io") — A simple and elegant API. The homepage is pretty cool as it has a live demo and a handy how-to. Or you can just go for the [GitHub repo](https://nodeweekly.com/link/121986/web).
 

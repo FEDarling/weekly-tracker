@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1649240386/keihts0jtodgjwlhn5xk.png)](https://frontendfoc.us/link/121888/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/121886/web)
-
-Frontend Focus
-
-🇺🇦 #​536 — April 6, 2022 | [Read on the web](https://frontendfoc.us/link/121887/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1649240386/keihts0jtodgjwlhn5xk.png)](https://frontendfoc.us/link/121888/web)
 
 [Tweaking in the Browser?](https://frontendfoc.us/link/121888/web "ishadeed.com") — Some well-reasoned thoughts here on the nuance behind designing in the browser and how it often results in a process of constant context switching and tweaking. Ahmad goes on to share his approach, and the place design tools like Figma have in his workflow.
 
@@ -34,7 +28,7 @@ Filestack sponsor
 
 Adrian Roselli
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   [Devs for Ukraine](https://frontendfoc.us/link/121893/web) 🇺🇦 is an online charity conference taking place later this month. A fantastic initiative.
 *   This post from Rachel Andrew outlines [some of the interesting features that landed in stable and beta web browsers during March](https://frontendfoc.us/link/121894/web) 2022.
@@ -43,7 +37,7 @@ Adrian Roselli
 *   What's the impact of removing jQuery from a site with millions of users? [Here's some real-world data](https://frontendfoc.us/link/121897/web) on just that from the UK government.
 *   Aakash Rao has put together [these handy CSS cheatsheets](https://frontendfoc.us/link/121898/web), covering flexbox, animations, selectors, CSS units, and more.
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [A Guide to Hover and Pointer Media Queries](https://frontendfoc.us/link/121899/web "www.smashingmagazine.com") — Food for thought here on how to adapt your sites to the various scenarios of a device pointer, plus a look at how to go about properly using media queries such as `hover`, `pointer`, `any-hover` and `any-pointer` to help.
 
@@ -77,18 +71,7 @@ videoinu
 ▶  [Why to Start Using the `color-scheme` CSS Property](https://frontendfoc.us/link/121907/web)  
 Zoran Jambor
 
-Jobs
-
-[Fullstack Developer](https://frontendfoc.us/link/121911/web) — Konrad is hiring Fullstack developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/121912/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/121913/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bbmlcqiiqxdgjh5n8jqx.jpg)](https://frontendfoc.us/link/121914/web)
 
@@ -125,7 +108,7 @@ Codsen
 [Six Useful Browser Bookmarklets to Boost Web Development](https://frontendfoc.us/link/121909/web)  
 Daniel Schwarz
 
-💌 **Our Other Newsletters**
+## 💌 **Our Other Newsletters**
 
 Beyond _Frontend Focus_ we also publish a handful of other helpful email newsletters that you might not know about. You can see the latest issues of each directly on their homepages:
 

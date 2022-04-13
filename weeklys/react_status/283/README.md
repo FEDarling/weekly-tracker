@@ -5,22 +5,14 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fyqbbbil0al2majbxeww.jpg)](https://react.statuscode.com/link/121934/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​283 — April 6, 2022
-
-[Read on the Web](https://react.statuscode.com/link/121933/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fyqbbbil0al2majbxeww.jpg)](https://react.statuscode.com/link/121934/web)
 
 [React Libraries for 2022](https://react.statuscode.com/link/121934/web "www.robinwieruch.de") — The React ecosystem has become so big — we routinely track over 1500 React-related libraries ourselves — the problem is more one of being spoilt for choice than _not_ having what you need. This list represents a sound place when selecting libraries for a new project and is an update of an older, popular list Robin put together.
 
 Robin Wieruch
-
-[![](https://copm.s3.amazonaws.com/42e6819e.jpg)](https://react.statuscode.com/link/121935/web)
 
 [Testing Your Web Apps with Cypress](https://react.statuscode.com/link/121935/web "frontendmasters.com") — Join Steve Kinney on this detailed course covering Cypress: A fast, easy way to write end-to-end tests for your client-side apps. Learn about the selector engine, test runners, assertion library, and more.
 
@@ -34,27 +26,12 @@ The React Native Core Team
 
 Robin Wieruch
 
-**Quick bits:**
+## **Quick bits:**
 
 *   [▶️ The latest episode](https://react.statuscode.com/link/121941/web) of the Stack Overflow podcast covered the release of React 18, among other things.
     
 *   Keep hearing things about [Remix](https://react.statuscode.com/link/121942/web) but want a practical run through? How about [an hour long course on YouTube](https://react.statuscode.com/link/121943/web)?
     
-
-Jobs
-
-[Fullstack Developer](https://react.statuscode.com/link/121944/web) — Konrad is hiring Fullstack developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/121945/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/121946/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/121947/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [The What, When, Why and How of Next.js’ New Middleware Feature](https://react.statuscode.com/link/121948/web "www.smashingmagazine.com") — A look at a new beta feature in Next.js 12.0: middleware.
 
 Sam Poder (Smashing Magazine)
@@ -72,7 +49,7 @@ Carl Bergenhem
 [Understanding Referential Equality in React](https://react.statuscode.com/link/121953/web)  
 Lakindu Hewawasam
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mwmu3126p368ospiiv6s.jpg)](https://react.statuscode.com/link/121954/web)
 
@@ -100,8 +77,7 @@ Rob Levin
 
 David Narbutovich
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [useScrollbarWidth](https://react.statuscode.com/link/121964/web) — Get the width of the scrollbar.
 
