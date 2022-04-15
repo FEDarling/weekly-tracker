@@ -20,7 +20,7 @@ publish: false # 翻译完成后修改
 
 [200 行 React 代码实现俄罗斯方块](https://react.statuscode.com/link/120379/web "blog.ag-grid.com") — [俄罗斯方块](https://react.statuscode.com/link/120380/web) 的热潮似乎永不会消退。用这么少的代码重新做一个俄罗斯方块的练习是很具有启发性和新颖性的。
 
-[“SolidJS 感觉就像是我期望的 React 所成为的样子”](https://react.statuscode.com/link/120384/web "typeofnan.dev") — 一篇很有腔调的文章。 [SolidJS](https://react.statuscode.com/link/120385/web) 是一个特别高效的响应式 UI 库，经管我们之前 [比较](https://react.statuscode.com/link/120386/web) 过它们，但这篇文章更具体。
+[“SolidJS 感觉就像是我期望的 React 所成为的样子”](https://react.statuscode.com/link/120384/web "typeofnan.dev") — 一篇很有腔调的文章。 [SolidJS](https://react.statuscode.com/link/120385/web) 是一个特别高效的响应式 UI 库，尽管我们之前 [比较](https://react.statuscode.com/link/120386/web) 过它们，但这篇文章更具体。
 
 [使用 OpenFaaS 托管 React 应用程序](https://react.statuscode.com/link/120387/web "www.openfaas.com") — [OpenFaaS](https://react.statuscode.com/link/120388/web) 是一个在 Kubernetes 上的开源 serverless 方法平台， 可以以这种方式托管基于 React 的应用程序。这篇文章涉及所有要点，包括成本。
 
