@@ -16,11 +16,11 @@ publish: false # 翻译完成后修改
 
 [如何提升设计师与开发者的合作？](https://react.statuscode.com/link/120377/web "ad.doubleclick.net") — 啊，声名狼藉的设计师与开发者之间的扯皮。来了解 Figma UI Kits 是如何通过提供所有部门能参照的单一信息源来够减少设计师和开发者之间摩擦的，然后看一下你如何使用它们。
 
-▶  [Kent C. Dodds 的 React 初学者指南](https://react.statuscode.com/link/120378/web "www.youtube.com") — 提供各种在线课程的 Egghead 的人们正在 YouTube 上发布他们的一些“经典”课程，第一个是 Kent C.Dodds 的 React 课程。时长 2.5 小时，使用 React 16，从 2020 年初开始，所以它并没有过时 :-)
+▶  [Kent C. Dodds 的 React 初学者指南](https://react.statuscode.com/link/120378/web "www.youtube.com") — 提供各种在线课程的 Egghead 的人们正在 YouTube 上发布他们的一些 “经典” 课程，第一个是 Kent C.Dodds 的 React 课程。时长 2.5 小时，使用 React 16，从 2020 年初开始，所以它并没有过时 :-)
 
 [200 行 React 代码实现俄罗斯方块](https://react.statuscode.com/link/120379/web "blog.ag-grid.com") — [俄罗斯方块](https://react.statuscode.com/link/120380/web) 的热潮似乎永不会消退。用这么少的代码重新做一个俄罗斯方块的练习是很具有启发性和新颖性的。
 
-[“SolidJS 感觉就像是我期望的 React 所成为的样子”](https://react.statuscode.com/link/120384/web "typeofnan.dev") — 一篇很有腔调的文章。 [SolidJS](https://react.statuscode.com/link/120385/web) 是一个特别高效的响应式 UI 库，我们之前已经看到过[直接比较](https://react.statuscode.com/link/120386/web)，但这篇文章更具体。
+[“SolidJS 感觉就像是我期望的 React 所成为的样子”](https://react.statuscode.com/link/120384/web "typeofnan.dev") — 一篇很有腔调的文章。 [SolidJS](https://react.statuscode.com/link/120385/web) 是一个特别高效的响应式 UI 库，经管我们之前 [比较](https://react.statuscode.com/link/120386/web) 过它们，但这篇文章更具体。
 
 [使用 OpenFaaS 托管 React 应用程序](https://react.statuscode.com/link/120387/web "www.openfaas.com") — [OpenFaaS](https://react.statuscode.com/link/120388/web) 是一个在 Kubernetes 上的开源 serverless 方法平台， 可以以这种方式托管基于 React 的应用程序。这篇文章涉及所有要点，包括成本。
 
