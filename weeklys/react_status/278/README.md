@@ -9,50 +9,48 @@ publish: false # 翻译完成后修改
 
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
+▶  [十个要避免的 React 反模式](https://react.statuscode.com/link/120375/web "www.youtube.com") — 一个精心呈现的 8 分钟视频，快速通过各种方法重新考虑编码（或至少三思而后行）。
 
-▶  [Ten React Anti-Patterns to Avoid](https://react.statuscode.com/link/120375/web "www.youtube.com") — A well presented eight minute video that quickly goes through a variety of approaches to reconsider (or at least think twice about before putting into action).
-
-[Redux Toolkit 1.8.0 Released](https://react.statuscode.com/link/120376/web "github.com") — If you’re down with Redux for managing state, the “official, opinionated, batteries-included toolset for efficient Redux development” is what you need :-) Among other things, this release adds new ‘listener’ middleware (think `useEffect` but for Redux store updates).
-
+[Redux Toolkit 1.8.0 发布](https://react.statuscode.com/link/120376/web "github.com") — 如果你熟悉使用 Redux 来管理状态，那这个 “官方的、要求明确的、功能完备且用来高效开发 Redux 的组件集” 正是你所需要的:-) 。 还有，这一版补充了新的 “监听器” 中间件。（考虑在 Redux Store 中间件更新时 `useEffect` 的使用）
 [![](https://copm.s3.amazonaws.com/27dd10de.png)](https://react.statuscode.com/link/120377/web)
 
-[How to Improve Designer-Developer Collaboration?](https://react.statuscode.com/link/120377/web "ad.doubleclick.net") — Ah, the infamous designer-developer handoff. Learn how Figma UI Kits can reduce friction between designers and developers by providing a single source of truth that all parties can reference and see how you can use them.
+[如何提升设计师与开发者的合作？](https://react.statuscode.com/link/120377/web "ad.doubleclick.net") — 啊，声名狼藉的设计师与开发者之间的扯皮。来了解 Figma UI Kits 是如何通过提供所有部门能参照的单一信息源来够减少设计师和开发者之间摩擦的，然后看一下你如何使用它们。
 
-▶  [Kent C. Dodds's (Classic) Beginner's Guide to React Course](https://react.statuscode.com/link/120378/web "www.youtube.com") — The folks at Egghead, a place that offers various online courses, is releasing some of their ‘classic’ courses on YouTube, and the first one is a React course from Kent C. Dodds. It’s 2.5 hours long, uses React 16, and dates from early 2020, so it’s not out of date :-)
+▶  [Kent C. Dodds 的 React 初学者指南](https://react.statuscode.com/link/120378/web "www.youtube.com") — 提供各种在线课程的 Egghead 的人们正在 YouTube 上发布他们的一些 “经典” 课程，第一个是 Kent C.Dodds 的 React 课程。时长 2.5 小时，使用 React 16，从 2020 年初开始，所以它并没有过时 :-)
 
-[Implementing Tetris Using React in 200 Lines of Code](https://react.statuscode.com/link/120379/web "blog.ag-grid.com") — The popularity of [Tetris](https://react.statuscode.com/link/120380/web) just never seems to fade. The exercise of recreating it with so little code is instructive and novel.
+[200 行 React 代码实现俄罗斯方块](https://react.statuscode.com/link/120379/web "blog.ag-grid.com") — [俄罗斯方块](https://react.statuscode.com/link/120380/web) 的热潮似乎永不会消退。用这么少的代码重新做一个俄罗斯方块的练习是很具有启发性和新颖性的。
 
-['SolidJS Feels Like What I Always Wanted React to Be'](https://react.statuscode.com/link/120384/web "typeofnan.dev") — An unsurprisingly opinionated piece. [SolidJS](https://react.statuscode.com/link/120385/web) is a particularly efficient reactive UI library and we’ve [seen direct comparisons before](https://react.statuscode.com/link/120386/web) but this piece goes into more specifics.
+[“SolidJS 感觉就像是我期望的 React 所成为的样子”](https://react.statuscode.com/link/120384/web "typeofnan.dev") — 一篇很有腔调的文章。 [SolidJS](https://react.statuscode.com/link/120385/web) 是一个特别高效的响应式 UI 库，尽管我们之前 [比较](https://react.statuscode.com/link/120386/web) 过它们，但这篇文章更具体。
 
-[Hosting a React App with OpenFaaS](https://react.statuscode.com/link/120387/web "www.openfaas.com") — [OpenFaaS](https://react.statuscode.com/link/120388/web) is an open source serverless function platform that sits on top of Kubernetes and it’s possible to host React-based apps in such a way. This post touches on all the main points, including cost.
+[使用 OpenFaaS 托管 React 应用程序](https://react.statuscode.com/link/120387/web "www.openfaas.com") — [OpenFaaS](https://react.statuscode.com/link/120388/web) 是一个在 Kubernetes 上的开源 serverless 方法平台， 可以以这种方式托管基于 React 的应用程序。这篇文章涉及所有要点，包括成本。
 
-[How Many Re-Renders Is Too Many?](https://react.statuscode.com/link/120389/web "alexsidorenko.com") — We have featured a number of this author’s articles which make beneficial use of animation to clearly understand React rendering behaviour. This time he zeros in on a single, simple question: when is the right time to start optimizing?
+[多少次重渲染是多呢？](https://react.statuscode.com/link/120389/web "alexsidorenko.com") — 我们精选了作者的许多文章，这些文章很好的利用动画来清晰的了解 React 的渲染行为。这一次，他专注一个简单的问题：什么时候开始优化？
 
-[Implementing the Game of Life with React, Hooks and Chakra-UI](https://react.statuscode.com/link/120390/web)  
+[使用 React、Hooks 和 Chakra-UI 实现生命游戏](https://react.statuscode.com/link/120390/web)  
 
-## 🛠 Code and Tools
+## 🛠 代码和工具
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cmw1utjaiqnj14nfetoi.jpg)](https://react.statuscode.com/link/120391/web)
 
-[hackernews-remix-react: A Hacker News Clone Using React and Remix](https://react.statuscode.com/link/120391/web "github.com") — This project provides a relatable, high profile example which employs React, Remix and other tools. The value of this exercise is enhanced if compared to other approaches such as Vercel’s creation of a similar clone using [Next.js 12’s experimental React Server Components support](https://react.statuscode.com/link/120392/web).
+[hackernews-remix-react: 一个使用了 React 和 Remix 的 Hacker News 的克隆版 ](https://react.statuscode.com/link/120391/web "github.com") — 这个项目提供了一个相关的、知名的的示例，它使用了 React、Remix 和其他工具。如果与其他方法（例如 Vercel [使用 Next.js 12 的实验性 React 服务器组件](https://react.statuscode.com/link/120392/web) 支持创建类似克隆版）相比较，那这个练习的价值会得到增强。
 
-[An Introduction to Reagent: A Minimalistic React for ClojureScript](https://react.statuscode.com/link/120393/web "reagent-project.github.io") — A project that provides a way to write efficient React components using (almost) nothing but plain ClojureScript (essentially a Lisp dialect that compiles to JavaScript) functions.
+[介绍 Reagent: 一款使用了 ClojureScript 的极简 React 框架](https://react.statuscode.com/link/120393/web "reagent-project.github.io") — 一个项目提供了一种方法来编写高效的 React 组件（几乎）只使用普通的 ClojureScript（本质上是一种编译成 JavaScript 的 Lisp 语言）函数。
 
-[Free Activity Feeds & Chat APIs for Qualifying Teams. Activate Today](https://react.statuscode.com/link/120394/web "getstream.io")
+[符合条件的团队的免费活动源和聊天 API。今天激活](https://react.statuscode.com/link/120394/web "getstream.io")
 
-[react-native-owl: Visual Regression Testing for React Native](https://react.statuscode.com/link/120395/web "github.com") — Apply the concepts of [regression testing](https://react.statuscode.com/link/120396/web) to visual elements using this “API for capturing and comparing screenshots”.
+[react-native-owl: React Native 的视觉回归测试](https://react.statuscode.com/link/120395/web "github.com") — 使用 “用于捕获和比较屏幕截图的 API” 将 [回归测试](https://react.statuscode.com/link/120396/web) 的概念应用于视觉元素。
 
-[react-scrollama: Scrollytelling Made Simple Using Intersection Observer](https://react.statuscode.com/link/120397/web "github.com") — [Scrollytelling](https://react.statuscode.com/link/120398/web)—that is scrolling + storytelling—is an increasingly popular communications tool based on interspersing visualisations and narrative.
+[react-scrollama: 使用 Intersection Observer 使 Scrollytelling 变得简单](https://react.statuscode.com/link/120397/web "github.com") — [Scrollytelling](https://react.statuscode.com/link/120398/web)— 即滚动 + 叙事 — 是一款日益流行的通信工具，它有可视化和叙事功能。
 
-## ⚡️ Quick Bits:
+## ⚡️ 快报：
 
-[rc-select](https://react.statuscode.com/link/120399/web) — A _very_ comprehensive implementation of the venerable select component.
+[rc-select](https://react.statuscode.com/link/120399/web) — **全面** 实现一个旧组件。
 
-[flowchart-fun](https://react.statuscode.com/link/120400/web) — Generate flowcharts and diagrams from text. Seriously, [give it a try!](https://react.statuscode.com/link/120401/web)
+[flowchart-fun](https://react.statuscode.com/link/120400/web) — 从文本生成流程图和图表。认真 [试一试](https://react.statuscode.com/link/120401/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://react.statuscode.com/issues/278)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/278)
-> * 译者：
+> * 译者：[Maskedheroe](https://github.com/Maskedheroe)
 > * 校对者：
