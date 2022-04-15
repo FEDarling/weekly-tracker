@@ -2,7 +2,7 @@
 title: 'React Status #278' # 不可修改
 date: '2022-03-04' # 不可修改
 categories: ['React Status'] # 不可修改
-publish: false # 翻译完成后修改
+publish: true # 翻译完成后修改
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/oalb6u0vhpzmlxkwbndm.jpg)](https://react.statuscode.com/link/120375/web)
@@ -53,4 +53,4 @@ publish: false # 翻译完成后修改
 > * [查看原文](https://react.statuscode.com/issues/278)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/278)
 > * 译者：[Maskedheroe](https://github.com/Maskedheroe)
-> * 校对者：
+> * 校对者：[dadaolee](https://github.com/daodaolee)
