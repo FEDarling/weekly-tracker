@@ -5,16 +5,12 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-🇺🇦 #​586 — April 22, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/122664/web)  |  [Read on the Web](https://javascriptweekly.com/link/122665/web)
-
 Lots of bits and pieces this week like running JavaScript on MS-DOS(!?), a deep dive on a V8 optimization, writing React apps on top of Ruby on Rails, a JS runtime for a tiny microcontroller, and, oh, a huge Node release..
 
 JavaScript Weekly
+
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qwfonw0ametgqbvq807q.jpg)](https://javascriptweekly.com/link/122666/web)
 
@@ -40,7 +36,7 @@ OpenJS Foundation
 
 Anne-Greeth Schot-van Herwijnen and Jen Weber
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   👾 Got some spare time this weekend to build a game in JavaScript? The [Gamedev.js Jam 2022](https://javascriptweekly.com/link/122674/web) is on and finishes next Tuesday.
     
@@ -55,7 +51,7 @@ Anne-Greeth Schot-van Herwijnen and Jen Weber
 *   Netlify has unveiled [Edge Functions](https://javascriptweekly.com/link/122680/web), a new serverless runtime powered by [Deno.](https://javascriptweekly.com/link/122681/web)
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Nuxt 3.0.0 RC1](https://javascriptweekly.com/link/122720/web) – Lots to see here for Vue 3 users.  
 [Deno 1.21](https://javascriptweekly.com/link/122682/web)  
@@ -65,21 +61,7 @@ Anne-Greeth Schot-van Herwijnen and Jen Weber
 [Mineflayer 4.3](https://javascriptweekly.com/link/122686/web) – Minecraft bot dev framework.  
 [Electron 18.1](https://javascriptweekly.com/link/122688/web)
 
-💻 Jobs
-
-[Fullstack Developer](https://javascriptweekly.com/link/122689/web) — Konrad is hiring Fullstack developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://javascriptweekly.com/link/122690/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://javascriptweekly.com/link/122691/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-🗓 [Register for Our May 5th State of Software Engineers Event](https://javascriptweekly.com/link/122692/web) — Join our panel discussion with experts from Hired, Amazon, Educative, and Signify Health as we discuss Hired’s 2022 State of Software Engineers Report.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 ▶  [Ember's Road to TypeScript and More](https://javascriptweekly.com/link/122693/web "www.youtube.com") — A dapper looking Chris Krycho (who has equally smart looking slides) promises his talk is good even for non-Ember and non-TypeScript using developers as the work they’ve been doing affects us all.
 
@@ -125,7 +107,7 @@ James Hibbard
 [Four Reasons to Avoid using `npm link` (and an alternative)](https://javascriptweekly.com/link/122705/web)  
 Hiroki Osame
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fhsevvudfhochsp49lrs.jpg)](https://javascriptweekly.com/link/122706/web)
 
@@ -157,7 +139,7 @@ Alex Ivanovs
 
 HANDSONCODE sp. z o. o.
 
-🤠 Other Cool Stuff
+## 🤠 Other Cool Stuff
 
 [Mess with DNS: A Playground to Learn About DNS Concepts](https://javascriptweekly.com/link/122717/web "messwithdns.net") — Not JavaScript specific, but DNS management is one of those skills I think it’s great for everyone to pick up.
 

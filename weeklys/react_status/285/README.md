@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/soa49ip3n4wu5pefx3y4.jpg)](https://react.statuscode.com/link/122509/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​285 — April 20, 2022
-
-[Read on the Web](https://react.statuscode.com/link/122508/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/soa49ip3n4wu5pefx3y4.jpg)](https://react.statuscode.com/link/122509/web)
 
 [How to Create a Modern CRUD App with Ruby on Rails and React](https://react.statuscode.com/link/122509/web "hibbard.eu") — A thorough, and newly updated, tutorial covering building a fully functional CRUD app with Rails 7, SQLite, esbuild, React 18, hooks, React Router, and more. An ideal guide if you want to get a feel for all the moving parts involved in such an app.
 
@@ -34,26 +28,11 @@ Kontent by Kentico sponsor
 
 Alex Patterson
 
-**Quick bits:**
+## **Quick bits:**
 
 *   [react-redux 8.0](https://react.statuscode.com/link/122514/web) is here! It adds React 18 compatibility (including SSR support) and moves over to TypeScript.
     
 *   We featured the release of React Admin 4 last week, but now there's [an official blog post](https://react.statuscode.com/link/122515/web) covering the new features.
-    
-
-Jobs
-
-[Senior React Engineer @ Nebulab (Remote)](https://react.statuscode.com/link/122516/web) — Join our distributed team and build high-volume eCommerce applications in a workplace made by developers for developers.  
-Nebulab
-
-[React Native Expert for Global Health (Remote)](https://react.statuscode.com/link/122517/web) — SystemOne enables clinics to securely track infectious disease specimen, diagnostic & patient data in low resource settings.  
-SystemOne
-
-[Join a Fast-Growing, Pre-IPO Series E Company](https://react.statuscode.com/link/122518/web) — Hinge Health is hiring remote React Native engineers. If you want to be a part of a team that is making a difference, [apply here](https://react.statuscode.com/link/122519/web).  
-Hinge Health
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/122520/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [Accessible React Forms](https://react.statuscode.com/link/122521/web "www.carlrippon.com") — This is overdue: in-depth coverage of building accessible forms in React. The author starts with one that **does not** work well in this domain, and then progressively introduces fixes to get it right.
 
@@ -69,7 +48,7 @@ Artem Sapegin
 [React App Performance Optimization Tips](https://react.statuscode.com/link/122524/web)  
 Suneet Bansal
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v6hvvbivijgm5qmm98gt.jpg)](https://react.statuscode.com/link/122525/web)
 
@@ -101,8 +80,7 @@ Jeff McAmmond
 
 Paul Le Cam
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-bootstrap-typeahead](https://react.statuscode.com/link/122536/web) — React typeahead with Bootstrap styling.
 

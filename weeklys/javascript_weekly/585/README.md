@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tq5b0pygahfce68ycpl8.jpg)](https://javascriptweekly.com/link/122403/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​585 — April 15, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/122356/web)  |  [Read on the Web](https://javascriptweekly.com/link/122357/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tq5b0pygahfce68ycpl8.jpg)](https://javascriptweekly.com/link/122403/web)
 
 [JS Function Composition: What’s The Big Deal?](https://javascriptweekly.com/link/122403/web "jrsinclair.com") — James’ articles on JavaScript fundamentals have been very popular over the years, so it’s great to see a new one focusing on a common activity: function composition — _“Why, then, do functional programmers get all worked up about it? What’s the big deal?”_
 
@@ -38,7 +32,7 @@ Daniel Rosenwasser (Microsoft)
 
 Josh W Comeau
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   🎤 [20minJS](https://javascriptweekly.com/link/122405/web) is a new podcast from OpenReplay and it's already got several great episodes covering things like [▶️ Svelte](https://javascriptweekly.com/link/122406/web), [▶️ SvelteKit](https://javascriptweekly.com/link/122407/web), React state management, and [▶️ the Jamstack](https://javascriptweekly.com/link/122408/web).
     
@@ -49,7 +43,7 @@ Josh W Comeau
 *   [Some more news](https://javascriptweekly.com/link/122375/web) on npm packages being used to protest against Russia's ongoing invasion of Ukraine.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Shepherd 9.1](https://javascriptweekly.com/link/122376/web) – Create guided tours for your app.  
 [Jasmine 4.1](https://javascriptweekly.com/link/122377/web) – JS testing framework.  
@@ -59,21 +53,7 @@ Josh W Comeau
 [react-hooks-testing-library 8.0](https://javascriptweekly.com/link/122381/web)  
 [Create React App 5.0.1](https://javascriptweekly.com/link/122382/web) – Improves React 18 compatibility.
 
-💻 Jobs
-
-[Director of Engineering @ ButterCMS (Remote)](https://javascriptweekly.com/link/122361/web) — Working closely with our founder and CEO, you’ll own all technology, deliver on our roadmap, and most importantly, ensure that our customers are successful.  
-ButterCMS
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://javascriptweekly.com/link/122362/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Ashby (YCW19) Is Hiring Remote Engineers to Change How Companies Hire](https://javascriptweekly.com/link/122363/web) — Join a kind, thoughtful team building powerful, quality software. <2h meetings/wk. Ship >8x per day. CI/CD takes <10min 🚀  
-Ashby
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/122364/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [Fetch vs Axios: A Comparison for Fetching HTTP Resources](https://javascriptweekly.com/link/122383/web "meticulous.ai") — A beginner-level comparison of the long standing but borderline legacy [Axios](https://javascriptweekly.com/link/122384/web) client versus using the Fetch API.
 
@@ -101,7 +81,7 @@ Colby Fayock
 [Incremental Static Regeneration for Angular](https://javascriptweekly.com/link/122390/web)  
 Enea Jahollari
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [Wild Wild Path: Object Property Paths with Wildcards and Regexps](https://javascriptweekly.com/link/122391/web "github.com") — A wild way to access properties in objects (which can be deeply nested) by way of string based queries that support wildcards and regular expressions. You need to [see some examples](https://javascriptweekly.com/link/122392/web) to really get the idea.
 
@@ -138,7 +118,7 @@ Pierre-Gilles Leymarie
 [Mailgun.js: A JavaScript SDK for Mailgun](https://javascriptweekly.com/link/122402/web) — As in the email service provider.  
 Mailgun Team
 
-🕰  **ICYMI** _(Some older stuff that may catch your eye...)_
+## 🕰  **ICYMI** _(Some older stuff that may catch your eye...)_
 
 *   A relatively new ["unobtrusive" JS framework called Unpoly has emerged](https://javascriptweekly.com/link/122367/web) as a contender to Basecamp’s HTML over-the-wire mechanism, Hotwire.
 *   Here's [a straightforward tool from Nick Carneiro for converting `curl` commands into code](https://javascriptweekly.com/link/122368/web) — there's over a dozen output options, _including JavaScript of course_.
@@ -146,7 +126,7 @@ Mailgun Team
 *   [This Chrome 'knowledge' extension](https://javascriptweekly.com/link/122370/web) shows handy programming tips and snippets on your new tab page.
 *   This blog post aims to [round out your understanding of execution context in JavaScript](https://javascriptweekly.com/link/122371/web) — defining global, function, and eval execution contexts along with some examples too.
 
-😆  **Well _I_ found it useful..**
+## 😆  **Well _I_ found it useful..**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/bbmlcqiiqxdgjh5n8jqx.jpg)](https://javascriptweekly.com/link/122410/web)
 

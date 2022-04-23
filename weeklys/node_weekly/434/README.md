@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/yzrjxcgjxplcyz6qycru.jpg)](https://nodeweekly.com/link/122584/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​434 — April 21, 2022
-
-[Read on the Web](https://nodeweekly.com/link/122583/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/yzrjxcgjxplcyz6qycru.jpg)](https://nodeweekly.com/link/122584/web)
 
 [Node.js 18 (Current) Released](https://nodeweekly.com/link/122584/web "nodejs.org") — Almost exactly one year after Node 16 and two after Node 14 comes the newest version of Node. It’s a ‘current’ branch release for now, but will become an LTS (Long-Term Support) release in October, and you can expect it to be supported till 2025. What’s new?
 
@@ -40,20 +34,12 @@ Alex Ivanovs
 
 Hiroki Osame
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   The OpenJS Foundation has a more business-focused [post about the Node.js 18 release](https://nodeweekly.com/link/122592/web), if you like/need such things.
     
 *   The latest episode of _JS Party_ has [▶️ an interview with Postgres.js creator, Rasmus Porsager.](https://nodeweekly.com/link/122593/web)
     
-
-💻 Jobs
-
-[Senior Backend Engineer](https://nodeweekly.com/link/122594/web) — We’re on a mission to empower millions of people to hear better through convenient, personalized hearing care — at a fraction of the cost thanks to telemedicine.  
-Lively Hearing
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/122595/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ▶  [Writing a Node App with ClojureScript and `nbb`](https://nodeweekly.com/link/122596/web "www.youtube.com") — If you think of Node as a runtime rather than something that must absolutely be JavaScript-based, the title makes sense. The guys in the video use [nbb](https://nodeweekly.com/link/122597/web), a Node-based scripting environment for ClojureScript. As an aside, it’s quite cool to see two developers working together within the same screencast.
 
@@ -67,7 +53,7 @@ Sleuth sponsor
 
 Craig Buckler
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/u384v7khqkz7jw30ksqw.jpg)](https://nodeweekly.com/link/122599/web)
 

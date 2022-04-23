@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hediyjfvi8lnclw1ueup.jpg)](https://react.statuscode.com/link/122189/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​284 — April 13, 2022
-
-[Read on the Web](https://react.statuscode.com/link/122188/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hediyjfvi8lnclw1ueup.jpg)](https://react.statuscode.com/link/122189/web)
 
 [React Folder Structure in Five Steps, 2022 Edition](https://react.statuscode.com/link/122189/web "www.robinwieruch.de") — The latest part of Robin’s attempts at updating his well regarded React resources to 2022 standards. Articles about structuring React apps are always popular and this one breaks the idea down into five steps going from the simplest of apps to more complex ones.
 
@@ -34,28 +28,13 @@ Sendbird sponsor
 
 Arend van Beelen
 
-**Quick bits:**
+## **Quick bits:**
 
 *   [Create React App 5.0.1](https://react.statuscode.com/link/122195/web) is out and improves compatibility with React 18.
     
 *   [The basics of React 18's improvements](https://react.statuscode.com/link/122196/web) very simply explained.
     
 *   The creator of [Preview.js](https://react.statuscode.com/link/122197/web), an IDE extension for live previewing React and Vue components, has [written about their experiences in building and marketing the tool,](https://react.statuscode.com/link/122198/web) as well as selling a 'pro' version.
-    
-
-Jobs
-
-[React Frontend or Full-Stack Engineer at Uplift (US Consultancy)](https://react.statuscode.com/link/122199/web) — Enjoy a flexible schedule while building web and mobile apps with modern technologies on a wide variety of projects.  
-Uplift Agency Ltd.
-
-[Front End Engineer (Remote)](https://react.statuscode.com/link/122200/web) — Our profitable & growing startup is looking for experienced FE engineers who are interested in working on complex UX challenges.  
-Sensor Tower
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/122201/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/122202/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [Using a Hook to Detect Clicks Outside of a Component](https://react.statuscode.com/link/122203/web "www.robinwieruch.de") — When using a dialog or dropdown, you need to detect clicks outside the component so they can be closed when the user navigates away. Here’s a tutorial on how to create the required custom hook.
 
@@ -72,7 +51,7 @@ Precious Luke
 [How to Detect 'Long Press' Gestures in React Apps](https://react.statuscode.com/link/122206/web)  
 Colby Fayock
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rfdpas2jgh44kndkqtbc.jpg)](https://react.statuscode.com/link/122207/web)
 
@@ -104,8 +83,7 @@ Formidable Labs
 
 Chris Trevino
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-arborist](https://react.statuscode.com/link/122217/web) — A robust, fully-featured tree component. Take the [demo](https://react.statuscode.com/link/122218/web) for a test drive.
 

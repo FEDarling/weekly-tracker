@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ifgb1cech6k9hmgoiw92.jpg)](https://nodeweekly.com/link/122328/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​433 — April 14, 2022
-
-[Read on the Web](https://nodeweekly.com/link/122327/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ifgb1cech6k9hmgoiw92.jpg)](https://nodeweekly.com/link/122328/web)
 
 🤠  [Wild Wild Path: Object Property Paths with Wildcards and Regexps](https://nodeweekly.com/link/122328/web "github.com") — A neat way to access properties in objects (which can be deeply nested) by way of string based queries that support wildcards and regular expressions. You need to [see some examples](https://nodeweekly.com/link/122329/web) to really get the idea, but it’s cool (or 'wild', if you will).
 
@@ -38,20 +32,11 @@ Juan José Arboleda
 
 Heroku
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   Allegedly, [almost a third of the top 35 npm packages remain at risk](https://nodeweekly.com/link/122335/web) due to a lack of 2FA use by associated accounts.
     
 *   [TypeScript 4.7](https://nodeweekly.com/link/122336/web) is now available in beta.
-    
-
-💻 Jobs
-
-[Join the Team of the AI Start-Up Kausa as Full Stack Engineer](https://nodeweekly.com/link/122337/web) — We're looking for someone sharing our passion for AI and is eager to build our decision intelligence platform in React, TS & Node.js.  
-Kausa
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/122338/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [Comparing Plugin Systems Between Express, Fastify and NestJS](https://nodeweekly.com/link/122339/web "fusebit.io") — A look at how the most popular Node web frameworks approach extensibility and modularity throughout different plugin patterns.
 
@@ -65,7 +50,7 @@ TLDR Newsletter sponsor
 
 Precious Luke
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o5eelrlsvpnhqftrtlsg.jpg)](https://nodeweekly.com/link/122342/web)
 

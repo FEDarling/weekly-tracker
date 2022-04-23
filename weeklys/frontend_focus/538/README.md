@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1650446630/f24xhrgq4p95zd4rwbpf.png)](https://frontendfoc.us/link/122417/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/122414/web)
-
-Frontend Focus
-
-🇺🇦 #​538 — April 20, 2022 | [Read on the web](https://frontendfoc.us/link/122415/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1650446630/f24xhrgq4p95zd4rwbpf.png)](https://frontendfoc.us/link/122417/web)
 
 [The Front-End Developer's Guide to the Terminal](https://frontendfoc.us/link/122417/web "www.joshwcomeau.com") — If you’re looking to learn a modern JavaScript framework (like React) you’ll need to be familiar with the terminal. As Josh points out, many tools assume you have a good working knowledge of the CLI. So, consider this your ‘missing manual’ for all things Terminal — looking at all the important high-level fundamentals, and running through some tips and tricks along the way.
 
@@ -38,7 +32,7 @@ Vitaly Friedman
 
 Jecelyn Yeen (Chrome Developers)
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   A U.S. appeals court has reaffirmed that [web scraping is legal](https://frontendfoc.us/link/122427/web).
 *   WebAssembly 2.0 is now in [first public working draft](https://frontendfoc.us/link/122542/web).
@@ -47,7 +41,7 @@ Jecelyn Yeen (Chrome Developers)
 *   The [Gamedev.js Jam 2022 is on right now](https://frontendfoc.us/link/122433/web) if you want to join in and build your own JavaScript-powered game.
 *   It's not one of ours, but we wanted to extend a congratulations to Zoran for [hitting 500 issues](https://frontendfoc.us/link/122435/web) of CSS Weekly! Quite the achievement.
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1650448906/yyop9tk8xjausksmwzw9.png)](https://frontendfoc.us/link/122437/web)
 
@@ -101,18 +95,7 @@ Ben Myers
 [Add a CSS Lens Flare to Photos for a Bright Touch](https://frontendfoc.us/link/122463/web)  
 Shimin Zhang
 
-Jobs
-
-[Fullstack Developer](https://frontendfoc.us/link/122465/web) — Konrad is hiring Fullstack developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/122467/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/122469/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [Stylify: A Library That Generates Utility-First CSS Based on Your HTML](https://frontendfoc.us/link/122471/web "stylify.dev") — This is kind of wild. You write HTML class names that look almost exactly like inline styles, then this tool will generate the right amount of CSS, along with the ‘mangled’ HTML to match.
 
