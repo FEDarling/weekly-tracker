@@ -75,7 +75,7 @@ Kontent by Kentico sponsor
 
 Vis.gl
 
-[Reactivated： 同时使用 React 和 Django 的最简单方法。](https://react.statuscode.com/link/121336/web) — Pythonistas 的一种！
+[Reactivated：同时使用 React 和 Django 的最简单方法。](https://react.statuscode.com/link/121336/web) — Pythonistas 的一种！
 Silvio Gutierrez
 
 [MDX 2.1：在 Markdown 文档合成器和 Vercel 中使用 JSX](https://react.statuscode.com/link/121337/web)  
