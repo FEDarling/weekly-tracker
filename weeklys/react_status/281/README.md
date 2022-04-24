@@ -59,8 +59,8 @@ Pierre Hedkvist
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/y0s6sejeq6drq1yosjri.jpg)](https://react.statuscode.com/link/121329/web)
 
-[Turnstone: React 搜索组件](https://react.statuscode.com/link/121329/web "tomsouthall.com") — 
-一个完全可定制的搜索框，具有自动完成下拉菜单、预输入和对来自多个数据源的结果进行分组的能力、WAI-ARIA 合规性等。其主要目的是将多个数据源的结果轻松组合到一个字段中。
+
+[Turnstone: React 搜索组件](https://react.statuscode.com/link/121329/web "tomsouthall.com") — 一个完全可定制的搜索框，具有自动完成下拉菜单、预输入和对来自多个数据源的结果进行分组的能力、WAI-ARIA 合规性等。其主要目的是将多个数据源的结果轻松组合到一个字段中。
 
 Tom Southall
 
@@ -76,7 +76,7 @@ Kontent by Kentico sponsor
 
 Vis.gl
 
-[Reactivated: 重新激活：同时使用 React 和 Django 的最简单方法。](https://react.statuscode.com/link/121336/web) — Pythonistas 的一种！
+[Reactivated： 同时使用 React 和 Django 的最简单方法。](https://react.statuscode.com/link/121336/web) — Pythonistas 的一种！
 Silvio Gutierrez
 
 [MDX 2.1：在 Markdown 文档合成器和 Vercel 中使用 JSX](https://react.statuscode.com/link/121337/web)  
