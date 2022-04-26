@@ -84,7 +84,7 @@ Compositor and Vercel
 
 ## ⚡️ 快报:
 
-[react-spinner-animated](https://react.statuscode.com/link/121338/web) — 各式各样的 ‘spinners’，使用了新的动画效果。
+[react-spinner-animated](https://react.statuscode.com/link/121338/web) — 各式各样的 “spinners”，使用了新的动画效果。
 
 [react-form-stepper](https://react.statuscode.com/link/121339/web) — 用于指示多步骤进度的简单组件
 
