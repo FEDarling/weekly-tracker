@@ -2,7 +2,7 @@
 title: 'React Status #281' # 不可修改
 date: '2022-03-25' # 不可修改
 categories: ['React Status'] # 不可修改
-publish: false # 翻译完成后修改
+publish: true # 翻译完成后修改
 ---
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lnxbvkafp9jm51n4ixzd.jpg)](https://react.statuscode.com/link/121307/web)
@@ -95,4 +95,4 @@ Compositor and Vercel
 > * [查看原文](https://react.statuscode.com/issues/281)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/281)
 > * 译者：[Maskedheroe](https://github.com/Maskedheroe)
-> * 校对者：
+> * 校对者：[daodaolee](https://github.com/daodaolee)
