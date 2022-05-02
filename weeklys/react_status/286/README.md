@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/k6ejykvgsu47pjo9lsh0.jpg)](https://react.statuscode.com/link/122744/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​286 — April 27, 2022
-
-[Read on the Web](https://react.statuscode.com/link/122743/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/k6ejykvgsu47pjo9lsh0.jpg)](https://react.statuscode.com/link/122744/web)
 
 [Remotion 3.0: 'Write' Videos in React](https://react.statuscode.com/link/122744/web "www.remotion.dev") — [Remotion](https://react.statuscode.com/link/122745/web) provides a way for you to use your React knowledge to create videos by writing what you want to happen in code with Remotion then handling the rendering and encoding. [▶️ This video](https://react.statuscode.com/link/122746/web) showing off the new [Remotion Lambda](https://react.statuscode.com/link/122747/web) serverless video renderer (using AWS Lambda, unsurprisingly) was itself created with the tool. React 18 is now supported as of v3.
 
@@ -56,7 +50,7 @@ John Reilly
 [File-Based Routing with React Location and Vite: Nested Layouts](https://react.statuscode.com/link/122761/web)  
 Omar Elhawary
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/t9gyemxrpktcvwbmcdal.jpg)](https://react.statuscode.com/link/122762/web)
 
@@ -72,8 +66,7 @@ Greg Bergé
 
 Suzhou Ruilisi Technology Co., Ltd
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-accessible-accordion](https://react.statuscode.com/link/122768/web) — The popular UI affordance, but taking [WAI-ARIA](https://react.statuscode.com/link/122769/web) requirements into account.
 
@@ -82,20 +75,6 @@ Suzhou Ruilisi Technology Co., Ltd
 [react-dropdown 1.10](https://react.statuscode.com/link/122771/web) — Simple dropdown component. [Demos.](https://react.statuscode.com/link/122772/web)
 
 [useDisclosure 5.0](https://react.statuscode.com/link/122773/web) — Hook to handle open/close/toggle states on things.
-
-Jobs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/122774/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Frontend Engineer](https://react.statuscode.com/link/122775/web) — We've built the next-generation CMS. We're open-source. JavaScript. Headless. Community & People first. And free. And will stay that way. Forever.  
-Strapi
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://react.statuscode.com/link/122776/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/122777/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wr2borvq6mkv8ugo9cq2.jpg)](https://nodeweekly.com/link/122872/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​435 — April 28, 2022
-
-[Read on the Web](https://nodeweekly.com/link/122871/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wr2borvq6mkv8ugo9cq2.jpg)](https://nodeweekly.com/link/122872/web)
 
 [Node 18's 'Prefix-Only' Core Modules](https://nodeweekly.com/link/122872/web "fusebit.io") — A look at a new type of core module that can’t be imported quite like the others, e.g. `import test from 'node:test'` – what is this unusual package name notation about? Colin breaks it down in an easy to understand way here.
 
@@ -38,21 +32,12 @@ Joyee Cheung (V8)
 
 Node.js TSC
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   [Someone asked Hacker News](https://nodeweekly.com/link/122878/web) why the npm ecosystem seems more susceptible to supply chain attacks than, say, PHP. Granularity and size, mostly, but [one of the better explanations](https://nodeweekly.com/link/122879/web) came from Feross Aboukhadijeh (co-founder of [Socket](https://nodeweekly.com/link/122880/web)) on a totally different thread.
     
 *   📅 [JSNation](https://nodeweekly.com/link/122881/web) is a JavaScript event taking place both in Amsterdam on June 16 and virtually/online on June 20. Speakers include Evan You, Sarah Drasner, and Kyle Simpson.
     
-
-💻 Jobs
-
-[Senior Node.js Developer (Remote-Friendly)](https://nodeweekly.com/link/122882/web) — Software Development Agency in Wrocław, Poland working with experts from around the globe to create meaningful software.  
-Monterail
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/122883/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Netlify Edge Functions: Serverless Compute Powered by Deno](https://nodeweekly.com/link/122884/web "www.netlify.com") — A new, currently in beta, serverless full runtime environment from Netlify. It enables you to run serverless JavaScript/TypeScript functions right from Netlify’s Edge network. Yes, yes, it’s built on Deno, not Node, but if you want to know about _why_ Netlify made that decision, [Netlify's CEO explains just that here](https://nodeweekly.com/link/122885/web).
 
 Joey Aiello (Netlify)
@@ -65,7 +50,7 @@ Sleuth sponsor
 
 Dustin Goodman
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xgaipxe1qxnszqw49rft.jpg)](https://nodeweekly.com/link/122888/web)
 

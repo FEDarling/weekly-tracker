@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nzq66s7rp0anck8k2sj3.jpg)](https://javascriptweekly.com/link/122949/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​587 — April 29, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/122947/web)  |  [Read on the Web](https://javascriptweekly.com/link/122948/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nzq66s7rp0anck8k2sj3.jpg)](https://javascriptweekly.com/link/122949/web)
 
 [Four Eras of JavaScript Frameworks](https://javascriptweekly.com/link/122949/web "www.pzuraq.com") — While the pre-2012 history is a bit fuzzy given the author’s experiences, this is a nice retrospective and attempt to break down the history of JavaScript frameworks into four _eras_, each of which builds upon what came before.
 
@@ -34,7 +28,7 @@ Frontend Masters sponsor
 
 Simen Bekkhus
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   [Node 16.15.0 (LTS)](https://javascriptweekly.com/link/122951/web) has been released and has Node 18's [experimental Fetch API support](https://javascriptweekly.com/link/122952/web) backported to it.
     
@@ -47,7 +41,7 @@ Simen Bekkhus
 *   [This is a fantastic visual demo](https://javascriptweekly.com/link/122993/web) in just 256 bytes of JavaScript and [this is an attempt](https://javascriptweekly.com/link/122994/web) to figure out how it works..
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [React 18.1](https://javascriptweekly.com/link/122956/web) – A bug fix release.  
 [Figma Plugin for Storybook](https://javascriptweekly.com/link/122957/web) – Now GA.  
@@ -55,21 +49,10 @@ Simen Bekkhus
 [Postgres.js 3.1](https://javascriptweekly.com/link/122959/web) – High perf PostgreSQL client library.  
 [Faker.js 6.2.0](https://javascriptweekly.com/link/122960/web) – Fake data generator.
 
-💻 Jobs
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/122961/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Frontend Engineer](https://javascriptweekly.com/link/122962/web) — We've built the next-generation CMS. We're open-source. JavaScript. Headless. Community & People first. And free. And will stay that way. Forever.  
-Strapi
-
-[Ashby (YCW19) Is Hiring Remote Engineers to Change How Companies Hire](https://javascriptweekly.com/link/122963/web) — Join a kind, thoughtful team that values ownership & collaboration. <2h meetings/wk. Ship >8x per day. CI/CD takes <10min 🚀  
-Ashby
-
 📅  [Register for Our May 5th State of Software Engineers Event](https://javascriptweekly.com/link/122964/web) — Join our panel discussion with experts from Hired, Amazon, Educative, and Signify Health as we discuss Hired’s 2022 State of Software Engineers Report.  
 Hired
 
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [How a Team Reduced Startup Time by 80% with Webpack](https://javascriptweekly.com/link/122965/web "www.rudderstack.com") — Admittedly, this team began from a reasonably inefficient starting point, such as using ts-node in production, but this post contains experiences or findings many teams could empathize with.
 
@@ -99,7 +82,7 @@ Clara Ekekenta
 [How to Use Serverless Cloud with SvelteKit](https://javascriptweekly.com/link/122973/web)  
 Doug Moscrop
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,g_center,h_280,c_crop/k6ejykvgsu47pjo9lsh0.jpg)](https://javascriptweekly.com/link/122974/web)
 

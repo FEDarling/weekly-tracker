@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1651067122/tgho9fv9eujduymisgtg.png)](https://frontendfoc.us/link/122781/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/122779/web)
-
-Frontend Focus
-
-🇺🇦 #​539 — April 27, 2022 | [Read on the web](https://frontendfoc.us/link/122780/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1651067122/tgho9fv9eujduymisgtg.png)](https://frontendfoc.us/link/122781/web)
 
 ['Web Color Is Still Broken'](https://frontendfoc.us/link/122781/web "webcolorisstillbroken.com") — Whether it's handling display profiles, transparency, scaling, or color mixing, the author claims one thing is clear: “_the web is still doing color wrong_”. [Here’s the Hacker News discussion](https://frontendfoc.us/link/122782/web) on this issue, with plenty of food for thought on this complex matter.
 
@@ -38,13 +32,13 @@ Lee Munroe
 
 Alex Ivanovs
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   European data protection authorities have [made Google add a 'Reject All' option](https://frontendfoc.us/link/122787/web) to their cookie banner.
 *   🏆 The W3Cs WebFonts Working Group [just won an Emmy](https://frontendfoc.us/link/122788/web) for their work on the standardization of font technology.
 *   Google I/O returns next month — [details here](https://frontendfoc.us/link/122789/web).
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [Non-Interactive Elements with the `inert` Attribute](https://frontendfoc.us/link/122790/web "webkit.org") — How the [`inert` attribute](https://frontendfoc.us/link/122791/web) provides an efficient way to hide elements from assistive technology and disable element interactions such as being focused, clicked, edited, or selected. FYI, this property is currently in the Safari 15.5 beta.
 
@@ -75,18 +69,7 @@ Ivan Mehta
 [How to Detect Dead Code in a Frontend Project](https://frontendfoc.us/link/122799/web)  
 Iva Kop
 
-Jobs
-
-[Calling all Empathetic + People-Focused Sr. JavaScript Engineers](https://frontendfoc.us/link/122810/web) — We're looking for Node + React developers who want to design architecture, lead teams, and ship features directly to customers.  
-Moz Group
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/122800/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/122801/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1651052765/t81heo9ayqgciny946es.gif)](https://frontendfoc.us/link/122802/web)
 
