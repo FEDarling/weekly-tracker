@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/yto026gxblruqxcwjqhp.jpg)](https://nodeweekly.com/link/123134/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​436 — May 5, 2022
-
-[Read on the Web](https://nodeweekly.com/link/123133/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/yto026gxblruqxcwjqhp.jpg)](https://nodeweekly.com/link/123134/web)
 
 [Node v18.1.0 (Current) Released](https://nodeweekly.com/link/123134/web "nodejs.org") — There’s an initial version of [a CLI based test runner](https://nodeweekly.com/link/123135/web) (which you start with `node --test` – see [docs here](https://nodeweekly.com/link/123136/web)) and there have also been further developments on [implementing the WebAssembly Web API.](https://nodeweekly.com/link/123137/web)
 
@@ -34,7 +28,7 @@ AppSignal sponsor
 
 Ingrid Lunden (TechCrunch)
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   Dr. Axel Rauschmayer [makes the point](https://nodeweekly.com/link/123146/web) (picked up from Guy Bedford) that now Node.js 12 is at its 'end of life', we wave goodbye to the final version of Node that didn't have ES module support from the start.
     
@@ -42,15 +36,6 @@ Ingrid Lunden (TechCrunch)
     
 *   [Node 14.19.2 (LTS)](https://nodeweekly.com/link/123149/web) has been released.
     
-
-💻 Jobs
-
-[Senior Node.js Developer (Remote-Friendly)](https://nodeweekly.com/link/123150/web) — Software Development Agency in Wrocław, Poland working with experts from around the globe to create meaningful software.  
-Monterail
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/123151/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Creating and Deploying a Tiny Proxy Server on Vercel in 10 Minutes](https://nodeweekly.com/link/123152/web "mmazzarolo.com") — A neat use of a small Node powered proxy.
 
 Matteo Mazzarolo
@@ -73,7 +58,7 @@ Aydrian Howard (Cockroach Labs)
 [How to Install Node.js 18 on Ubuntu 20.04 LTS](https://nodeweekly.com/link/123155/web)  
 Josh Sherman
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/a15lj2sn6gzw17i2xwge.jpg)](https://nodeweekly.com/link/123156/web)
 

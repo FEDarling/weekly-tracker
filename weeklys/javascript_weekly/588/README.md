@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uba1eccha06rxyixtymv.jpg)](https://javascriptweekly.com/link/123216/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​588 — May 6, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/123214/web)  |  [Read on the Web](https://javascriptweekly.com/link/123215/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uba1eccha06rxyixtymv.jpg)](https://javascriptweekly.com/link/123216/web)
 
 [How Partytown Eliminates Website Bloat From Third-Party Scripts](https://javascriptweekly.com/link/123216/web "www.smashingmagazine.com") — As well as being the name of my house, [Partytown](https://javascriptweekly.com/link/123217/web) is also a library for moving the execution of scripts into the background via [Web Workers](https://javascriptweekly.com/link/123218/web) thus freeing up your main thread. Why does that matter? Let Steve tell you.
 
@@ -40,7 +34,7 @@ But.. it's not all bad news for React, Anthony Trama and his team loved Ember bu
 
 Babylon.js Project
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   [TodoMVC](https://javascriptweekly.com/link/123274/web) is a long standing project showing how a ToDo app can be built in numerous frameworks. But what about _no_ framework? Marc Grabanski [shows us TodoMVC in vanilla JS](https://javascriptweekly.com/link/123275/web) in 2022.
     
@@ -49,7 +43,7 @@ Babylon.js Project
 *   [Node 18.1.0](https://javascriptweekly.com/link/123224/web) has been released and includes [a new test running feature](https://javascriptweekly.com/link/123225/web) on the CLI: `node --test` _(Be sure to see [Node Weekly](https://javascriptweekly.com/link/123226/web) for more on Node.)_
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [pnpm 7.0](https://javascriptweekly.com/link/123227/web) – Efficiency-focused npm alternative.  
 [Mocha 10.0](https://javascriptweekly.com/link/123228/web) – JS test framework.  
@@ -57,21 +51,7 @@ Babylon.js Project
 [Cucumber.js 8.2](https://javascriptweekly.com/link/123230/web) – BDD / plain language testing.  
 [npm 8.9.0](https://javascriptweekly.com/link/123232/web)
 
-💻 Jobs
-
-[Frontend Developer](https://javascriptweekly.com/link/123234/web) — Konrad is hiring Frontend developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[Director of Engineering @ ButterCMS (Remote)](https://javascriptweekly.com/link/123269/web) — Working closely with our founder and CEO, you’ll own all technology, deliver on our roadmap, and most importantly, ensure that our customers are successful.  
-ButterCMS
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://javascriptweekly.com/link/123238/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/123240/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/edgoynd2rdocxpjlnal8.jpg)](https://javascriptweekly.com/link/123242/web)
 
@@ -103,7 +83,7 @@ TLDR Newsletter sponsor
 
 Kent C Dodds
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kmlimfmmgzxidhgwjizn.jpg)](https://javascriptweekly.com/link/123256/web)
 

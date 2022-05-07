@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ss1ehjas1hsb0kz48f2j.jpg)](https://react.statuscode.com/link/123062/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​287 — May 4, 2022
-
-[Read on the Web](https://react.statuscode.com/link/123061/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ss1ehjas1hsb0kz48f2j.jpg)](https://react.statuscode.com/link/123062/web)
 
 [Shopify Unveils React Native Skia](https://react.statuscode.com/link/123062/web "shopify.engineering") — [Skia](https://react.statuscode.com/link/123063/web) is a popular (used in Chrome, Android, Firefox, etc.) 2D graphics library and Shopify has brought its 2D drawing capabilities into React Native for you to create your own cross-platform graphics on the fly in any RN app. [GitHub repo.](https://react.statuscode.com/link/123064/web)
 
@@ -34,21 +28,12 @@ Frontend Masters sponsor
 
 Jack Franklin
 
-**Quick bits:**
+## **Quick bits:**
 
 *   Next.js user? [Expect a big upgrade to routing](https://react.statuscode.com/link/123068/web) very soon.
     
 *   React Native 0.69.0 is [on the way](https://react.statuscode.com/link/123069/web) – it'll be the first RN release to ship with React 18 and open up all the concurrent features (for 'new architecture' users only).
     
-
-Jobs
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://react.statuscode.com/link/123070/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Fullstack Engineer (Remote, EU Timezones)](https://react.statuscode.com/link/123071/web) — We’ve built a product thousands of people love (see [Trustpilot](https://react.statuscode.com/link/123072/web) if you don’t believe us). We need your help with Node & TypeScript.  
-Feather
-
 [Calling all Empathetic + People-Focused Sr. JavaScript Engineers](https://react.statuscode.com/link/123073/web) — We're looking for Node + React developers who want to design architecture, lead teams, and ship features directly to customers.  
 Moz Group
 
@@ -77,7 +62,7 @@ Samaila Bala (OpenReplay Blog)
 [How to Build a Complete Next.js App with Vercel and CockroachDB](https://react.statuscode.com/link/123082/web)  
 Aydrian Howard (Cockroach Labs)
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ox8yroe59xliv20iqbdm.jpg)](https://react.statuscode.com/link/123083/web)
 
@@ -101,8 +86,7 @@ Chintan Prajapati
 
 Griffin Johnston
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [use-clamp-text](https://react.statuscode.com/link/123091/web) — Fix a multi-line textbox at a given height, with an option to ‘read more’.
 

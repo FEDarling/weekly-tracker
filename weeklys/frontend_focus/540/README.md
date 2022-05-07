@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/oyl1smxkf1jvni8jphkv.jpg)](https://frontendfoc.us/link/123021/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/123019/web)
-
-Frontend Focus
-
-🇺🇦 #​540 — May 4, 2022 | [Read on the web](https://frontendfoc.us/link/123020/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/oyl1smxkf1jvni8jphkv.jpg)](https://frontendfoc.us/link/123021/web)
 
 [You Don’t _Need_ a UI Framework](https://frontendfoc.us/link/123021/web "www.smashingmagazine.com") — You’ve got an app or a site to build so you reach for Bootstrap or Material UI and.. well, maybe you shouldn’t, says Josh, who argues they’re not needed for most projects and makes his case here.
 
@@ -38,7 +32,7 @@ Eric Meyer
 
 MacRumors
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   The CSS Zen Garden project [has turned 19 years old.](https://frontendfoc.us/link/123027/web)
     
@@ -49,7 +43,7 @@ MacRumors
 *   A neat list of [cool things people do with their blogs.](https://frontendfoc.us/link/123030/web) Seeing a lot more stuff on Twitter about blogging 'coming back' lately..
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fpri60wf3jsenowffnjk.jpg)](https://frontendfoc.us/link/123031/web)
 
@@ -81,18 +75,7 @@ Michelle Barker
 [The Appeal of Using Plain HTML Pages](https://frontendfoc.us/link/123038/web)  
 Chris Siebenmann
 
-Jobs
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/123039/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Frontend Engineer](https://frontendfoc.us/link/123040/web) — We’ve built a product thousands of people love (see [Trustpilot](https://frontendfoc.us/link/123041/web) if you don’t believe us). We need your help with React & TypeScript.  
-Feather
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/123042/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [Pyscript: Run Python in Your HTML](https://frontendfoc.us/link/123043/web "pyscript.net") — A framework for creating Python apps in the browser by way of HTML. You get bi-directional communication with JavaScript, too. Unsurprisingly, WebAssembly is what does the heavy lifting and makes this all possible. [More background here.](https://frontendfoc.us/link/123044/web)
 
