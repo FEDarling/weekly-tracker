@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fd1lbcj83cptwwhjybcm.jpg)](https://javascriptweekly.com/link/123532/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​589 — May 13, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/123530/web)  |  [Read on the Web](https://javascriptweekly.com/link/123531/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/fd1lbcj83cptwwhjybcm.jpg)](https://javascriptweekly.com/link/123532/web)
 
 [Using Google's CrUX to Compare Performance of JS Frameworks](https://javascriptweekly.com/link/123532/web "www.smashingmagazine.com") — Chrome User Experience Report ([CrUX](https://javascriptweekly.com/link/123533/web)) is a dataset of user experience metrics collected from real world Chrome users and it’s possible to use it to analyze and compare the performance profiles of different UI frameworks, as done by Dan here.
 
@@ -40,7 +34,7 @@ Note: freeCodeCamp seems to be posting a lot of long 'course' style screencasts 
 
 Rick Hanlon (Meta)
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   Serverpless platform AWS Lambda now has [an official Node.js 16 (LTS) runtime.](https://javascriptweekly.com/link/123542/web) As [does Vercel](https://javascriptweekly.com/link/123543/web).
     
@@ -54,8 +48,7 @@ Rick Hanlon (Meta)
     
 *   [TypeScript 4.7 Release Candidate](https://javascriptweekly.com/link/123550/web) is now available – we'll focus on it more when the final release drops.
     
-
-**RELEASES:**
+## **RELEASES:**
 
 [Solid 1.4](https://javascriptweekly.com/link/123592/web) – Fantastic declarative UI library.  
 [Wild Wild Path 3.0](https://javascriptweekly.com/link/123551/web) – Dig into objects with paths and queries.  
@@ -64,21 +57,7 @@ Rick Hanlon (Meta)
 [graphql-schema-linter 3.0](https://javascriptweekly.com/link/123554/web) – Validate GraphQL schema definitions.  
 [pnpm 7.1.0](https://javascriptweekly.com/link/123555/web)
 
-💻 Jobs
-
-[Frontend Developer](https://javascriptweekly.com/link/123556/web) — Konrad is hiring Frontend developers to join our team in building products for the world’s most exciting companies.  
-Konrad Group
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/123557/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://javascriptweekly.com/link/123558/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/123559/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/z0v9gwfo7ewhh3uask6b.jpg)](https://javascriptweekly.com/link/123560/web)
 
@@ -113,7 +92,7 @@ William Kennedy
 [Storybook Performance: Vite vs Webpack](https://javascriptweekly.com/link/123570/web)  
 Ian VanSchooten (Storybook)
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lysq1wzp1egvetwsmviz.jpg)](https://javascriptweekly.com/link/123571/web)
 

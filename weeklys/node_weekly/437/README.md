@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qrsklvqj3mjnbryxv2ax.jpg)](https://nodeweekly.com/link/123442/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​437 — May 12, 2022
-
-[Read on the Web](https://nodeweekly.com/link/123441/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qrsklvqj3mjnbryxv2ax.jpg)](https://nodeweekly.com/link/123442/web)
 
 [An Enhanced 2FA Experience for Your `npm` Account](https://nodeweekly.com/link/123442/web "github.blog") — Over the past six months, GitHub has been keen to tighten up security around the publishing of `npm` packages with two-factor authentication at the heart of the effort. Now an array of improved 2FA features are in public beta for you to try out, but all maintainers of the top 500 npm packages will be enrolled in a mandatory fashion on May 31.
 
@@ -38,7 +32,7 @@ Ryan Dahl
 
 The Register
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   📅 [NodeConf EU](https://nodeweekly.com/link/123448/web) is taking place this October 3-5 in Ireland. There's a [call for speakers](https://nodeweekly.com/link/123449/web) open until July 6 if you want to speak.
     
@@ -68,7 +62,7 @@ Carlos Schults
 [Managing OAuth 2.0 User Credentials in Your Node App](https://nodeweekly.com/link/123460/web)  
 Shehzad Akbar
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [GraphQL Yoga 2.0: A Light But Fully-Featured GraphQL Server](https://nodeweekly.com/link/123461/web "www.the-guild.dev") — Bills itself as the ‘easiest way to run a GraphQL server’. Yoga follows the GraphQL over HTTP spec, supports file uploaded, subscriptions over HTTP Server Sent Events, and more – plus it’ll work on Node, Deno, or even serverlessly. [GitHub repo.](https://nodeweekly.com/link/123462/web)
 
@@ -99,11 +93,6 @@ MongoDB Inc.
 
 [Hexo 6.2: A Fast and Simple Node.js Blog Framework](https://nodeweekly.com/link/123473/web)  
 Hexo
-
-💻 Jobs
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/123472/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

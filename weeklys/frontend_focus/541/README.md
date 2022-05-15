@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/s4uauin4kxsvvek9thtu.jpg)](https://frontendfoc.us/link/123278/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/123276/web)
-
-Frontend Focus
-
-🇺🇦 #​541 — May 11, 2022 | [Read on the web](https://frontendfoc.us/link/123277/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/s4uauin4kxsvvek9thtu.jpg)](https://frontendfoc.us/link/123278/web)
 
 [How To Build a Modal Dialog as a Web Component](https://frontendfoc.us/link/123278/web "www.smashingmagazine.com") — _“Write once and run everywhere, so to speak, or at least that was my lofty aspiration. Good news. It is indeed possible to build a modal with rich interaction that only requires authoring HTML to use.”_
 
@@ -38,14 +32,14 @@ Babylon.js Project
 
 Tania Rascia
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   [@wayback\_exe](https://frontendfoc.us/link/123288/web) is a fantastic Twitter account I've been enjoying lately. It posts screenshots of (mostly) ancient Web pages each day.
     
 *   [100 Days to Offload](https://frontendfoc.us/link/123317/web) is a group project around publishing 100 posts on your blog within the next year – something we wholeheartedly support. Let's bring blogging back!
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 ['Please, Stop Disabling Zoom'](https://frontendfoc.us/link/123289/web "www.matuzo.at") — OK, _sometimes_ there might be a good reason, but 9 times out of 10, you’re probably going to be causing someone some accessibility problems on mobile, so don’t just do it without consideration.
 
@@ -88,18 +82,7 @@ Alan Hogan
 [The Joys and Sorrows of Maintaining a Personal Website](https://frontendfoc.us/link/123318/web)  
 The Cheapskate's Guide
 
-Jobs
-
-[Senior Vue.js Developer (Remote-Friendly)](https://frontendfoc.us/link/123299/web) — Software Development Agency in Wrocław, Poland working with experts from around the globe to create meaningful software.  
-Monterail
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/123300/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/123301/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mstgdk8a4fwymoteskjm.jpg)](https://frontendfoc.us/link/123302/web)
 
@@ -131,7 +114,7 @@ Austin Malerba
 
 HTTP Toolkit
 
-**🕰 ICYMI** (_Some older stuff that's still worth checking out_)
+## **🕰 ICYMI** (_Some older stuff that's still worth checking out_)
 
 *   Got a new Mac? Robin Wieruch runs through [how to set up an M1 machine for web development](https://frontendfoc.us/link/123311/web).
 *   This video from Maarten Van Hoof is a good look at [how container queries will help us](https://frontendfoc.us/link/123312/web) create robust, resuable components with CSS.

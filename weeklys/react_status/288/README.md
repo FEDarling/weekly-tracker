@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rqmvkkuchdxguvskdhgm.jpg)](https://react.statuscode.com/link/123341/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​288 — May 11, 2022
-
-[Read on the Web](https://react.statuscode.com/link/123340/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rqmvkkuchdxguvskdhgm.jpg)](https://react.statuscode.com/link/123341/web)
 
 [An RFC for `useEvent`, a New Fundamental React Hook](https://react.statuscode.com/link/123341/web "github.com") — Billed as a so-far ‘missing piece’ of the hooks system, the proposed `useEvent` is for defining an event handler that ‘sees’ fresh props/state but has a stable function identity. The motivation and use cases are shown off here and the React team is open to your feedback.
 
@@ -38,7 +32,7 @@ Swizec Teller
 
 John Smilga
 
-**Quick bits:**
+## **Quick bits:**
 
 *   Did you know that [FedEx inspired the React logo?](https://react.statuscode.com/link/123349/web)
     
@@ -46,21 +40,6 @@ John Smilga
     
 *   [The code](https://react.statuscode.com/link/123351/web) behind a Twitter account that automatically generates and tweets videos built by [Remotion](https://react.statuscode.com/link/123352/web) - the React video generation library.
     
-
-Jobs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/123353/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://react.statuscode.com/link/123354/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Senior React Developer (m/f/d) - Remote in Germany](https://react.statuscode.com/link/123355/web) — Help us take our products to the next level and work in an autonomous, cross-functional team with a strong sense of purpose.  
-die kartenmacherei GmbH / celebrate company GmbH
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/123356/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [The `key` Attribute and Best Practices for Performant Lists](https://react.statuscode.com/link/123357/web "www.developerway.com") — Is the only reason you’re using the `key` attribute to satisfy an obscure [ESlint](https://react.statuscode.com/link/123358/web) rule? If so, the author asserts there are better reasons than that to make it part of your routine.
 
 Nadia Makarevich
@@ -80,7 +59,7 @@ Robin Wieruch
 [Storybook Performance: Vite vs Webpack](https://react.statuscode.com/link/123364/web)  
 Ian VanSchooten (Storybook)
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ikwj6dze53rwcf8bs3k8.jpg)](https://react.statuscode.com/link/123365/web)
 
@@ -96,8 +75,7 @@ Horizon UI
 
 Austin Malerba
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-avatar-editor](https://react.statuscode.com/link/123373/web) — Resize, crop and rotate your uploaded avatar or profile image using a simple and clean user interface. ([Demo.](https://react.statuscode.com/link/123374/web))
 
