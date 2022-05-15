@@ -10,7 +10,13 @@ let req;
 const getNewNum = (weeklyName, weeklyDir) => {
 	console.log(` \x1B[33m🚗开始获取本地 ${weeklyName} 数据...\x1B[0m`);
 	const readFiles = fs.readdirSync(`${base}/${weeklyDir}/`).map(parseFloat).sort(function (a, b) { return b - a });
-	return readFiles[0] + 1;
+	let newNum;
+    if (weeklyDir == 'mobile_dev_weekly') {
+        newNum = readFiles[readFiles.length - 1] - 1;
+    } else {
+        newNum = readFiles[0] + 1;
+    }
+    return newNum;
 }
 
 const start = (weeklyName, weeklyDir, weeklyUrl, weeklyNum, className) => {
