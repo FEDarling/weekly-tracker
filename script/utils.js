@@ -37,10 +37,10 @@ exports.weeklys = [
     // TODO: 解决 CSS Weekly 的 actions 获取会被墙的问题
     ['CSS Weekly', 'css_weekly', 'https://css-weekly.com', '.box-newsletter'],
     // 已停刊
-    // [
-    //     'Mobile Dev Weekly',
-    //     'mobile_dev_weekly',
-    //     'https://mobiledevweekly.com/issues/',
-    //     '.issue-html',
-    // ],
+    [
+        'Mobile Dev Weekly',
+        'mobile_dev_weekly',
+        'https://mobiledevweekly.com/issues/',
+        '.issue-html',
+    ],
 ];
