@@ -5,18 +5,12 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​380 — November 19, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/116521/web)
-
 ✍️ Hello, a quick programming note — the newsletter will be taking a break next week for Thanksgiving. We'll be back in your inbox on December 3rd.  
 \_\_  
 _The Mobile Dev Weekly Team_
 
-📱 Mobile Dev Weekly
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1637321483/uq9hmd9vhaviume6pfsx.png)](https://mobiledevweekly.com/link/116522/web)
 

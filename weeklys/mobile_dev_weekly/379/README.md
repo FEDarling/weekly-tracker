@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ftpxxokzrhvnhlsqqiua.jpg)](https://mobiledevweekly.com/link/116181/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​379 — November 12, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/116180/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ftpxxokzrhvnhlsqqiua.jpg)](https://mobiledevweekly.com/link/116181/web)
 
 ![](https://cooperpress.s3.amazonaws.com/remotesynth.png)Brian Rinaldi recommends
 
@@ -27,8 +21,6 @@ Richard MacManus
 [How To Solve Any iOS Crash Ever](https://mobiledevweekly.com/link/116182/web) — Ever had a crash in which you had absolutely no idea what was going on, and no amount of testing allowed you to reproduce the issue? Read this.
 
 Bruno Rocha
-
-[![](https://copm.s3.amazonaws.com/bbfc99a2.png)](https://mobiledevweekly.com/link/116183/web)
 
 [Stream Releases v4.0 of its iOS Chat SDK](https://mobiledevweekly.com/link/116183/web) — Stream’s latest iOS Chat SDK release provides a better developer experience with new docs, customizable attachments and UI components, and under-the-hood performance improvements.
 

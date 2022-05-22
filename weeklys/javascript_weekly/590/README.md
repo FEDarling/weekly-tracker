@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vbn7pgjaedjxfv8bhkfx.jpg)](https://javascriptweekly.com/link/123854/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​590 — May 20, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/123793/web)  |  [Read on the Web](https://javascriptweekly.com/link/123794/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vbn7pgjaedjxfv8bhkfx.jpg)](https://javascriptweekly.com/link/123854/web)
 
 [Sliderland: A Minimalist Coding Playground](https://javascriptweekly.com/link/123854/web "sliderland.blinry.org") — No obvious top feature this week so I’m leading with a little project I’ve enjoyed playing with. It’s a slider-style visualization you can code with simple formulas ([check out this one](https://javascriptweekly.com/link/123855/web)). [The code](https://javascriptweekly.com/link/123856/web) is simple but packs in some neat features such as a WebAssembly-powered MP4 recorder, courtesy of [ffmpeg.wasm](https://javascriptweekly.com/link/123857/web).
 
@@ -34,7 +28,7 @@ Kontent by Kentico sponsor
 
 Robin Wieruch
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   [Fastly has](https://javascriptweekly.com/link/123858/web) acquired [Glitch,](https://javascriptweekly.com/link/123859/web) a popular online JavaScript development platform.
     
@@ -49,7 +43,7 @@ Robin Wieruch
 *   [Lars Kappert suggests using blocks](https://javascriptweekly.com/link/123860/web) to organize code better and get new scopes for `let` and `const` decalarations.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Mithril.js 2.2](https://javascriptweekly.com/link/123802/web) – Popular SPA framework with its first release in over 2 years.  
 [Electron React Boilerplate 4.6](https://javascriptweekly.com/link/123803/web) – Now uses React 18.  
@@ -59,21 +53,7 @@ Robin Wieruch
 [Angular 14 Release Candidate](https://javascriptweekly.com/link/123846/web)  
 [Node 18.2.0](https://javascriptweekly.com/link/123861/web) – More in [Node Weekly](https://javascriptweekly.com/link/123862/web) on this.
 
-💻 Jobs
-
-[Calling all Empathetic + People-Focused Sr. JavaScript Engineers](https://javascriptweekly.com/link/123810/web) — We're looking for Node + React developers who want to design architecture, lead teams, and ship features directly to customers.  
-Moz Group
-
-[Full Stack Developer – JavaScript/TypeScript (f/m/d) and More](https://javascriptweekly.com/link/123807/web) — Join our team working on real life solutions for the future of public transport.  
-ioki
-
-[Backend Engineer](https://javascriptweekly.com/link/123828/web) — We’ve built a product thousands of people love (see [Trustpilot](https://javascriptweekly.com/link/123809/web) if you don’t believe us). We need your help with Node & TypeScript.  
-Feather
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/123811/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hav0gk9fz9iuehl8evcy.jpg)](https://javascriptweekly.com/link/123812/web)
 
@@ -104,7 +84,7 @@ CodeREVUE
 ▶  [SolidJS Explained in 100 Seconds](https://javascriptweekly.com/link/123848/web) — A snappy explanation of where Solid fits in.  
 Fireship
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/myquvyrl2szybd0weamv.jpg)](https://javascriptweekly.com/link/123822/web)
 

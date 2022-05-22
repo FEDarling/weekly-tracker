@@ -34,6 +34,8 @@ exports.weeklys = [
     // ],
     // 更多新刊，查看：https://cooperpress.com/publications/
 
+    // https://web-design-weekly.com/
+
     // TODO: 解决 CSS Weekly 的 actions 获取会被墙的问题
     ['CSS Weekly', 'css_weekly', 'https://css-weekly.com', '.box-newsletter'],
     // 已停刊

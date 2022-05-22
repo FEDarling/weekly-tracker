@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uxs12fkmvujdjkceemfe.jpg)](https://react.statuscode.com/link/123646/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​289 — May 18, 2022
-
-[Read on the Web](https://react.statuscode.com/link/123645/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uxs12fkmvujdjkceemfe.jpg)](https://react.statuscode.com/link/123646/web)
 
 [Aspect: A New Visual Environment for Building Components](https://react.statuscode.com/link/123646/web "dev.aspect.app") — It’s a new, unproven tool, but any efforts to simplify the development process are laudable to us, and you might find it useful too. Currently it only exports class components, but it’s great to see them dogfooding things by building Aspect in Aspect itself.
 
@@ -34,27 +28,12 @@ Filestack sponsor
 
 Laure Retru-Chavastel
 
-**Quick bits:**
+## **Quick bits:**
 
 *   [SolidJS](https://react.statuscode.com/link/123653/web) is an interesting alternative you may have heard of but not had time to look into.. if so, [▶️ there's now a 100 second intro video](https://react.statuscode.com/link/123654/web) comparing its approach to React's.
     
 *   [TypeScript 4.7 Release Candidate](https://react.statuscode.com/link/123655/web) is out.
     
-
-Jobs
-
-[Senior React Engineer @ Nebulab (Remote)](https://react.statuscode.com/link/123656/web) — Join our distributed team and build high-volume eCommerce applications in a workplace made by developers for developers.  
-Nebulab
-
-[Senior Software Engineers at Turo (SF | Remote/Hybrid Options)](https://react.statuscode.com/link/123657/web) — The world's largest car sharing marketplace on a mission to put the world’s 1.5B cars to better use. We're hiring BE, FE, ML, iOS, Android & DevOps roles at all levels.  
-Turo
-
-[Senior React / React-Native Developer (m/f/d) - Remote in Germany](https://react.statuscode.com/link/123658/web) — Join our strongly motivated and fun-to-be-around core team that will turn a dusty market of photo book creation upside down.  
-Celebrate Apps GmbH
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/123659/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Improve the Performance of Your Forms](https://react.statuscode.com/link/123660/web "epicreact.dev") — An exploration of how Kent’s [state colocation](https://react.statuscode.com/link/123661/web) concept (from 2019) can optimize React forms by keeping state management close to where it is needed.
 
 Kent C. Dodds
@@ -70,7 +49,7 @@ Ibadehin Mojeed (LogRocket)
 [How to Implement Redux Reducers](https://react.statuscode.com/link/123664/web)  
 Godwin Chinda (OpenReplay Blog)
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [React Fast Accordion: A Fast, Dynamic, and Accessible Accordion](https://react.statuscode.com/link/123665/web "github.com") — No dependencies and it incorporates animation via the Web Animations API. [Demo on CodeSandbox](https://react.statuscode.com/link/123666/web).
 
@@ -98,8 +77,7 @@ Ashok Khanna
 
 BearStudio
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-page-transition](https://react.statuscode.com/link/123675/web) — Some jazzy alternatives to waiting for the new page to load – courtesy of [Codrops](https://react.statuscode.com/link/123676/web).
 

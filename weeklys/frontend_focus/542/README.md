@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/123609/web)
-
-Frontend Focus
-
-🇺🇦 #​542 — May 18, 2022 | [Read on the web](https://frontendfoc.us/link/123610/web)
-
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/beiuwe9chxo7vt1bvtfw.jpg)](https://frontendfoc.us/link/123611/web)
+
+<!--以上是预览信息片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [The State of CSS in 2022](https://frontendfoc.us/link/123611/web "web.dev") — An introduction and overview of the CSS features and browser changes on slate for the rest of the year. **There’s a lot to look through here,** including `:has()`, Viewport unit variants, `subgrid`, `color-mix()`, and much more. It’s a solid high level look at what you need to know about writing CSS in 2022 and beyond, with examples/resources to boot. There’s also an [accompanying video version here](https://frontendfoc.us/link/123612/web).
 
@@ -34,7 +28,7 @@ Kendo UI for Angular sponsor
 
 Jen Simmons (WebKit)
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   _Privacy is an essential part of the web_. Now, the W3C TAG Privacy Principles Task Force [has released](https://frontendfoc.us/link/123615/web) a first public working draft of the [Privacy Principles](https://frontendfoc.us/link/123616/web).
     
@@ -51,7 +45,7 @@ Jen Simmons (WebKit)
 *   [This site highlights examples of low-carbon web design and development](https://frontendfoc.us/link/123622/web) You can submit a site for inclusion too if you'd like.
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1652781386/alrdbifd2pyjjfrivw2m.png)](https://frontendfoc.us/link/123624/web)
 
@@ -81,18 +75,7 @@ Leena Sohoni, Addy Osmani, Keen Yee Liau
 [Quick Tip: You Might Not Need `calc()`](https://frontendfoc.us/link/123630/web)  
 Michelle Barker
 
-Jobs
-
-[Product Designer at Fleet (100% Remote)](https://frontendfoc.us/link/123631/web) — We're building a better way to manage employee laptops and servers. We're looking for someone with design and frontend experience to join the team and help iterate our web and desktop apps.  
-Fleet
-
-[Software Engineer](https://frontendfoc.us/link/123632/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/123633/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ikwj6dze53rwcf8bs3k8.jpg)](https://frontendfoc.us/link/123634/web)
 

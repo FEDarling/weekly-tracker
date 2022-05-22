@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vsixp1uuhkwavypaoawt.jpg)](https://nodeweekly.com/link/123723/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​438 — May 19, 2022
-
-[Read on the Web](https://nodeweekly.com/link/123722/web)
-
-Node Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vsixp1uuhkwavypaoawt.jpg)](https://nodeweekly.com/link/123723/web)
 
 [Web Scraping via JS Runtime Heap Snapshots](https://nodeweekly.com/link/123723/web "www.adriancooney.ie") — When official APIs don’t offer all of the access users require (or don’t exist _at all_) scraping can become a less than ideal necessity. Puppeteer or Playwright make controlling a headless browser easy, but finding the data you want can still be complex.. but what if you could just pluck data objects from a page out of the heap? [Puppeteer Heap Snapshot](https://nodeweekly.com/link/123724/web) is the end result of this experiment.
 
@@ -34,7 +28,7 @@ Frontend Masters sponsor
 
 Dan Fox (AWS)
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   [Star History](https://nodeweekly.com/link/123730/web) is a fun online tool for plotting charts of the changing number of stars that a GitHub repo has.
     
@@ -59,7 +53,7 @@ RedisGreen sponsor
 
 Curiositry
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/zrezug7hiyv5p8aikjlp.jpg)](https://nodeweekly.com/link/123740/web)
 
@@ -92,14 +86,6 @@ We Watch Wall Inc.
 
 [url-unshort: Short URLs/Links Expansion Library](https://nodeweekly.com/link/123751/web)  
 Nodeca
-
-💻 Jobs
-
-[Software Engineer at Blueground (Remote)](https://nodeweekly.com/link/123752/web) — Help us build the world’s leading next-gen platform for home rentals and shape the future of living.  
-Blueground
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/123753/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
