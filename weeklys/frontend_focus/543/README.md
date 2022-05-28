@@ -5,14 +5,12 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​543 — May 25, 2022 | [Read on the web](https://frontendfoc.us/link/123919/web)
-
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1653474585/ttzdvgeheb9c2ljbstyt.png)](https://frontendfoc.us/link/123920/web)
 
 Image via [Code and Theory](https://frontendfoc.us/link/123921/web)
+
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [The Era of Rebellious Web Design is Here](https://frontendfoc.us/link/123920/web "eyeondesign.aiga.org") — This is something of a case study on the provocative work of agency ‘Code and Theory’, looking at their approach to editorial web design — a notably bold ‘website as app’ aesthetic, described here as ‘web brutalism’. An interesting bit of food for thought on how things don’t have to always follow a set visual path.
 
@@ -36,7 +34,7 @@ Josh W Comeau
 
 Matt Mullenweg
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   [Version 5.0 of Ghost](https://frontendfoc.us/link/123926/web) – a popular Node.js-based CMS – is now available (with an Ubuntu 20, Node 16, and MySQL 8 stack).
     
@@ -49,7 +47,7 @@ Matt Mullenweg
 *   ...and talking of anniversaries, it's been [15 years since Street View made its debut](https://frontendfoc.us/link/123930/web).
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1653483292/yls85zy2xkyhfmdrhu7c.png)](https://frontendfoc.us/link/123931/web)
 
@@ -87,18 +85,7 @@ Rupert Goodwins opinion
 [Dialog Components: Go Native HTML or Roll Your Own?](https://frontendfoc.us/link/123939/web)  
 Rob Levin
 
-Jobs
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/123940/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[(Senior) JavaScript Engineer (m/f/d) In Full or Part-Time](https://frontendfoc.us/link/123941/web) — You continuously improve the frontend of Civey together with our team. We offer a hybrid working model.  
-Civey GmbH
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/123942/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1653481428/sk7yq8ge7fhtp18tekyv.jpg)](https://frontendfoc.us/link/123943/web)
 

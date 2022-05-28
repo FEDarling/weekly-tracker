@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sfvzhechlufacs6s0zie.jpg)](https://javascriptweekly.com/link/124114/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​591 — May 27, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/124108/web)  |  [Read on the Web](https://javascriptweekly.com/link/124109/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sfvzhechlufacs6s0zie.jpg)](https://javascriptweekly.com/link/124114/web)
 
 [Comparing Three Ways of Processing Arrays Non-Destructively](https://javascriptweekly.com/link/124114/web "2ality.com") — The good doctor of JavaScript puts `for-of`, `.reduce()`, and `.flatMap()` up against each other so you can pick which makes the most sense for your own array processing work.
 
@@ -38,7 +32,7 @@ Daniel Rosenwasser
 
 Neutkens, Markbage, et al. (Vercel)
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   DigitalOcean has launched [a new serverless functions-as-a-service platform](https://javascriptweekly.com/link/124115/web) – yes, you can run your JS code on it.
     
@@ -53,7 +47,7 @@ Neutkens, Markbage, et al. (Vercel)
 *   _Ghost_ is a Node.js-built CMS and blogging platform that has become an ecosystem and business all of its own, and there's a new major version out now: [Ghost 5.0](https://javascriptweekly.com/link/124156/web)
     
 
-**RELEASES:**
+## **RELEASES:**
 
 *   [Electron 19](https://javascriptweekly.com/link/124153/web) – Gets Chromium 102, V8 10.2, and Node 16.14.2.
 *   [Neutralino.js 4.6](https://javascriptweekly.com/link/124119/web) – Lightweight cross-platform desktop app framework.
@@ -62,21 +56,7 @@ Neutkens, Markbage, et al. (Vercel)
 *   [Cypress 9.7.0](https://javascriptweekly.com/link/124122/web) – Testing for anything in a browser.
 *   [Storybook 6.5](https://javascriptweekly.com/link/124157/web) – UI component dev tool.
 
-💻 Jobs
-
-[Senior Vue.js Developer (Remote-Friendly)](https://javascriptweekly.com/link/124123/web) — Software Development Agency in Wrocław, Poland working with experts from around the globe to create meaningful software.  
-Monterail
-
-[Software Engineers](https://javascriptweekly.com/link/124124/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/124125/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/124126/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vzarncukhzvu7kjn1acv.jpg)](https://javascriptweekly.com/link/124131/web)
 
@@ -118,7 +98,7 @@ Greg Gorlen
 [5 Things That Make Astro Unique for Building Web Apps](https://javascriptweekly.com/link/124154/web)  
 Brian Rinaldi
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssm1zigkskugu5gvhmar.jpg)](https://javascriptweekly.com/link/124138/web)
 

@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/q0hgdaydzeshqzlyhg6f.jpg)](https://nodeweekly.com/link/124012/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-🇺🇦 #​439 — May 26, 2022
-
-[Read on the Web](https://nodeweekly.com/link/124011/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/q0hgdaydzeshqzlyhg6f.jpg)](https://nodeweekly.com/link/124012/web)
 
 [TypeScript 4.7 Released](https://nodeweekly.com/link/124012/web "devblogs.microsoft.com") — We wouldn’t usually make TypeScript a top feature in Node Weekly although many of you _are_ using it, but this release has a huge feature in the shape of ES module support for Node – a feature that has been infamously difficult to implement, and whose reliance on file extensions [continues to provoke debate](https://nodeweekly.com/link/124013/web).
 
@@ -34,7 +28,7 @@ RedisGreen sponsor
 
 Anshu Agarwal
 
-**Quick bytes:**
+## **Quick bytes:**
 
 *   You can now [run GitHub Actions in a Node 16 runtime](https://nodeweekly.com/link/124020/web).
     
@@ -59,7 +53,7 @@ Retool: State of Engineering Time Report sponsor
 
 Ian Lavery
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/j8drnuetnvclrjkhhm6c.jpg)](https://nodeweekly.com/link/124031/web)
 
@@ -99,17 +93,6 @@ Fastify
 
 [mock-os: Testing Module for the `os` Built-in Module](https://nodeweekly.com/link/124044/web)  
 Laurent Fortin
-
-💻 Jobs
-
-[Software Engineer at Blueground (Remote)](https://nodeweekly.com/link/124045/web) — Help us build the world’s leading next-gen platform for home rentals and shape the future of living.  
-Blueground
-
-[Web Academic Lead - US (Remote)](https://nodeweekly.com/link/124046/web) — Mentor aspiring developers seeking to build inspiring careers. Create and lead the online sessions, being the role model for our students.  
-Masterschool
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/124047/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

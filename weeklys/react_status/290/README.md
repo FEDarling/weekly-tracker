@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hv26auq8yuwjflcjlyzx.jpg)](https://react.statuscode.com/link/123889/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​290 — May 25, 2022
-
-[Read on the Web](https://react.statuscode.com/link/123888/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hv26auq8yuwjflcjlyzx.jpg)](https://react.statuscode.com/link/123889/web)
 
 [A Roundup of React State Management Libraries in 2022](https://react.statuscode.com/link/123889/web "www.albertgao.xyz") — React’s strength is its flexibility in fitting in with different development approaches, including state management where there are numerous options nowadays. This post does a basic roundup of several popular options including Zustand, Recoil (which comes from Facebook itself), XState and, of course, Redux.
 
@@ -38,27 +32,12 @@ Jhey Tompkins
 
 Legend
 
-**Quick bits:**
+## **Quick bits:**
 
 *   A look at [how Storybook can be used to automated accessibility tests.](https://react.statuscode.com/link/123896/web)
     
 *   Last Thursday was [Global Accessibility Awareness Day](https://react.statuscode.com/link/123897/web) and the React Native team posted [an update on React Native's progress](https://react.statuscode.com/link/123898/web) on improving accessibility.
     
-
-Jobs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/123899/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[React Developer at Cisco (Remote in Europe)](https://react.statuscode.com/link/123900/web) — Join the Cyber Vision team where we develop a leading cyber-security solution tailored for industrial customers and help us scale our our dev process and build our new version.  
-Cisco
-
-[Software Engineers](https://react.statuscode.com/link/123901/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/123902/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Working with Three.js, The Popular 3D JavaScript Library](https://react.statuscode.com/link/123903/web "t.co") — A sweeping, extended tutorial that starts with [three.js](https://react.statuscode.com/link/123904/web) basics and extends through to setting it up within a React project.
 
 Jennifer Fu
@@ -74,7 +53,7 @@ JavaScript Mastery
 ▶  [A Three Hour React Native Crash Course](https://react.statuscode.com/link/123907/web)  
 Maximilian Schwarzmüller
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xfnnj0hxww44qsjrqckc.jpg)](https://react.statuscode.com/link/123908/web)
 
@@ -90,8 +69,7 @@ Yoav Niran
 
 Raphael Amorim
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-datepicker](https://react.statuscode.com/link/123914/web) — A mature option that continues to get frequent updates. [Demo here.](https://react.statuscode.com/link/123915/web)
 
