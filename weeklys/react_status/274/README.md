@@ -67,5 +67,5 @@ publish: false
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
 > * [查看原文](https://react.statuscode.com/issues/274)对比阅读
 > * 发现错误？[提交 PR](https://github.com/FEDarling/weekly-tracker/blob/main/weeklys/react_status/274/README.md)
-> * 译者：
-> * 校对者：
+> * 译者：[潘小安](https://github.com/pan463859)
+> * 校对者：[daodaolee](https://github.com/daodaolee)
