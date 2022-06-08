@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eelvx0uhmsngv8iy7zyh.jpg)](https://react.statuscode.com/link/124187/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​291 — June 1, 2022
-
-[Read on the Web](https://react.statuscode.com/link/124186/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eelvx0uhmsngv8iy7zyh.jpg)](https://react.statuscode.com/link/124187/web)
 
 [Glide Data Grid 4: A Fast Data Grid for React Projects](https://react.statuscode.com/link/124187/web "grid.glideapps.com") — Bills itself as a _“no compromise, outrageously fast data grid”_ that can support up to millions of rows with rich rendering and TypeScript support. The homepage features a neat demo and it’s MIT licensed too. [GitHub repo](https://react.statuscode.com/link/124188/web).
 
@@ -34,7 +28,7 @@ Frontend Masters sponsor
 
 Michael Shilman (Storybook)
 
-**Quick bits:**
+## **Quick bits:**
 
 *   A recent episode of 20minJS featured [▶️ a discussion about state management and Redux Toolkit](https://react.statuscode.com/link/124197/web), in particular, with Mark Erikson. _(42 minutes.)_
     
@@ -43,14 +37,6 @@ Michael Shilman (Storybook)
 *   React Route 6.4 is [currently in prerelease.](https://react.statuscode.com/link/124256/web) It includes some abstractions ported from _Remix_ and there's [a demo](https://react.statuscode.com/link/124257/web) and [initial guide](https://react.statuscode.com/link/124258/web) to using some of it already. More on this when it goes final.
     
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/124198/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/124199/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 ▶  [When to Fetch: Remixing React Router](https://react.statuscode.com/link/124200/web "www.youtube.com") — Presentations from the recent _[Reactathon](https://react.statuscode.com/link/124201/web)_ event continue to roll out. In this one Ryan Florence, one of the founders of [Remix](https://react.statuscode.com/link/124202/web), extolls the virtues of moving responsibility for ‘when to fetch’ into React Router.
 
 Ryan Florence
@@ -58,7 +44,7 @@ Ryan Florence
 [QR Code Generation with React](https://react.statuscode.com/link/124203/web)  
 Ejiro Thankgod
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/s5h5vgnkex82mfcvdnno.jpg)](https://react.statuscode.com/link/124204/web)
 
@@ -86,8 +72,7 @@ Josh Schneider
 
 devx-os
 
-⚡️ Quick Bits:
---------------
+##⚡️ Quick Bits:
 
 [react-stick](https://react.statuscode.com/link/124213/web) — Stick a [portaled node](https://react.statuscode.com/link/124214/web) to an anchor node, as per this [demo](react-stick.now.sh).
 
@@ -97,7 +82,7 @@ devx-os
 
 [reactable](https://react.statuscode.com/link/124217/web) — Interactive data tables for the [R](https://react.statuscode.com/link/124218/web) statistical and graphics environment, as illustrated with these [demos](https://react.statuscode.com/link/124219/web). And yes, you can [use React with R](https://react.statuscode.com/link/124220/web)!
 
-😎 And one for fun!
+## 😎 And one for fun!
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cgrziwjy5gozsnskjzph.jpg)](https://react.statuscode.com/link/124221/web)
 

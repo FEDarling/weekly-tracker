@@ -5,18 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qgt8mpxmqh2kcvlc9lwu.jpg)](https://javascriptweekly.com/link/124414/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-Don't miss the link with a ⭐️ next to it in this issue, I promise it's good :-)
-
-#​592 — June 3, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/124385/web)  |  [Read on the Web](https://javascriptweekly.com/link/124386/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qgt8mpxmqh2kcvlc9lwu.jpg)](https://javascriptweekly.com/link/124414/web)
 
 [Angular v14 Released](https://javascriptweekly.com/link/124414/web "blog.angular.io") — A key release for the long standing JavaScript framework that’s used in far more places than most JavaScript developers realize (especially in larger companies). Some of what’s new:
 
@@ -43,7 +35,7 @@ Studio 3T sponsor
 
 American Express
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   Vue 2.7 will be the final minor release of Vue 2.x and its estimated 'end of life' date will be at the end of 2023, [according to slides shown at Vue.js Amsterdam.](https://javascriptweekly.com/link/124397/web)
     
@@ -56,7 +48,7 @@ American Express
 *   Looking for alternatives to your least favorite npm packages? [pkg.land](https://javascriptweekly.com/link/124422/web) is a new site that's worth a try.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 *   [RE:DOM 3.28.0](https://javascriptweekly.com/link/124423/web) – Tiny (2KB) UI library.
 *   [gl-react 5.2](https://javascriptweekly.com/link/124399/web) – WebGL shaders in React.
@@ -64,15 +56,7 @@ American Express
 *   [AVA 4.3.0](https://javascriptweekly.com/link/124401/web) – Node.js test runner.
 *   [Recoil 0.7.3](https://javascriptweekly.com/link/124402/web) – Alternative state management for React from Facebook.
 
-💻 Jobs
-
-[Software Engineer at Blueground (Remote)](https://javascriptweekly.com/link/124388/web) — Help us build the world’s leading next-gen platform for home rentals and shape the future of living.  
-Blueground
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/124389/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vqobzh2zi7ztz81oud2k.jpg)](https://javascriptweekly.com/link/124424/web)
 
@@ -103,7 +87,7 @@ Micah Cantor
 [New Express 5 Features to Try](https://javascriptweekly.com/link/124426/web) — Express 5 has been in beta for.. _quite a while_ now.  
 Zara Cooper
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ji9k05oikc1uhqa8mrvx.jpg)](https://javascriptweekly.com/link/124408/web)
 

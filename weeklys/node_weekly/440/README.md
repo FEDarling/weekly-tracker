@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/flga2w9sleoesaulvfb5.jpg)](https://nodeweekly.com/link/124310/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​440 — June 2, 2022
-
-[Read on the Web](https://nodeweekly.com/link/124304/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/flga2w9sleoesaulvfb5.jpg)](https://nodeweekly.com/link/124310/web)
 
 [Node v18.3.0 (Current) Released](https://nodeweekly.com/link/124310/web "nodejs.org") — It’s not a _huge_ release but there are some solid dependency updates (npm 8.11.0, V8 10.2, Undici 5.4), Windows 32 binary releases are _back_, and one notable new (experimental) feature: the [`util.parseArgs` function](https://nodeweekly.com/link/124311/web) for bringing an official command line argument parsing approach to Node core – here’s [a basic code example](https://nodeweekly.com/link/124312/web) as well as [the docs.](https://nodeweekly.com/link/124313/web)
 
@@ -70,7 +64,7 @@ Zara Cooper
 [How to Deploy a NestJS App on Google Cloud Run with GitHub Actions](https://nodeweekly.com/link/124326/web)  
 Tom Ray
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xugkkmipf8n2vzyfvolb.jpg)](https://nodeweekly.com/link/124327/web)
 
@@ -100,14 +94,6 @@ TJ Holowaychuk
 
 [cf-workers-telegram-bot: Run a Serverless Telegram Bot on CloudFlare Workers](https://nodeweekly.com/link/124337/web)  
 Sean Behan
-
-💻 Jobs
-
-[Web Academic Lead - US (Remote)](https://nodeweekly.com/link/124308/web) — Mentor aspiring developers seeking to build inspiring careers. Create and lead the online sessions, being the role model for our students.  
-Masterschool
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/124309/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

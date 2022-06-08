@@ -5,18 +5,12 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​375 — October 1, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/114398/web)
-
 ✍️ Hello! Just a quick programming note for you: Mobile Dev Weekly will be taking a break next week, so we will be back in your inbox on October 15th. See you then.  
 \_\_  
 _The Mobile Dev Weekly Team_
 
-📱 Mobile Dev Weekly
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1633080930/shhnkuw6yuj8pykmlonp.png)](https://mobiledevweekly.com/link/114399/web)
 
@@ -26,7 +20,7 @@ _The Mobile Dev Weekly Team_
 
 Bruce Lawson
 
-📱 **Related:**
+## 📱 **Related:**
 
 [iOS Browser Choice](https://mobiledevweekly.com/link/114400/web) — There’s been a lot of noise around iOS's lack of real browser choice and Chris of CSS Tricks weighs in with his views and shares the thoughts of some others.  
 Chris Coyier

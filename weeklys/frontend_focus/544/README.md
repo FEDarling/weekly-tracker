@@ -5,16 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1654087865/fvsrfhyccbtqyq9h8683.png)](https://frontendfoc.us/link/124225/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-[![](https://res.cloudinary.com/cpress/image/upload/v1602675575/hhmdxfk96fnbq3effjk1.png)](https://frontendfoc.us/link/124223/web)
-
-Frontend Focus
-
-#​544 — June 1, 2022 | [Read on the web](https://frontendfoc.us/link/124224/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1654087865/fvsrfhyccbtqyq9h8683.png)](https://frontendfoc.us/link/124225/web)
 
 [Customizing Color Fonts on the Web](https://frontendfoc.us/link/124225/web "webkit.org") — Color fonts provide a way to add richness to your designs without sacrificing any of the many benefits of using plain text. Now, WebKit supports the CSS [`@font-palette-values` property](https://frontendfoc.us/link/124226/web). This post looks at this new at-rule, how to use it to access predefined color palettes, and customize them to match your design.
 
@@ -38,7 +32,7 @@ Nicholas C. Zakas
 
 Electronic Frontier Foundation
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   Internet Explorer is being [retired _this month_](https://frontendfoc.us/link/124230/web), on June 15th.
     
@@ -53,7 +47,7 @@ Electronic Frontier Foundation
 *   The new season of Stranger Things (set in the 1980s) has [a hacking scene featuring...flexbox](https://frontendfoc.us/link/124235/web).
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1654076941/ofqx55rroro6do6nyjjl.png)](https://frontendfoc.us/link/124236/web)
 
@@ -88,18 +82,7 @@ Daniel Yuschick
 [Four Cool Hover Effects That Use CSS Text Shadow](https://frontendfoc.us/link/124243/web)  
 Temani Afif
 
-Jobs
-
-[Software Engineers](https://frontendfoc.us/link/124244/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[(Senior) JavaScript Engineer (m/f/d) – Full or Part-Time](https://frontendfoc.us/link/124245/web) — You continuously improve the frontend of Civey together with our team. We offer a hybrid working model.  
-Civey GmbH
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/124246/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/n5b4juitz8svvz0ingwn.jpg)](https://frontendfoc.us/link/124248/web)
 
