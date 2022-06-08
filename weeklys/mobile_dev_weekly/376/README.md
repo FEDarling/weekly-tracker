@@ -5,18 +5,12 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​376 — October 15, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/115022/web)
-
 ✍️ Hello, after a break last week we're back with the latest mobile dev updates for you.  
 \_\_  
 _The Mobile Dev Weekly Team_
 
-📱 Mobile Dev Weekly
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1634302963/xbovlfyktxz5kpcoqmpe.png)](https://mobiledevweekly.com/link/115033/web)
 
