@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vrloiijswpn061pdnssi.jpg)](https://javascriptweekly.com/link/124737/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​593 — June 10, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/124735/web)  |  [Read on the Web](https://javascriptweekly.com/link/124736/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vrloiijswpn061pdnssi.jpg)](https://javascriptweekly.com/link/124737/web)
 
 [Mathematical Notation Explained with JavaScript](https://javascriptweekly.com/link/124737/web "runjs.app") — Math has its own fascinating world of notation but if it feels a bit opaque to you, this post will help. It boils down numerous areas of mathematical notation into _JavaScript equivalents_ making it easier to follow what’s going on.
 
@@ -36,7 +30,7 @@ Wallaby.js sponsor
 
 Plasmo
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   The [latest VS Code update](https://javascriptweekly.com/link/124744/web) is out. TypeScript 4.7 is included and, more excitingly, **Go to Definition** [now jumps](https://javascriptweekly.com/link/124745/web) to the JS implementation of functions and symbols in external libraries rather than the type definitions.
     
@@ -51,7 +45,7 @@ Plasmo
 *   GitHub is introducing [the idea of Achievements](https://javascriptweekly.com/link/124754/web) where you earn badges for achieving as yet undefined goals.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Flicking 4.9](https://javascriptweekly.com/link/124755/web) – Flexible web carousel control.  
 [Bree 9.0](https://javascriptweekly.com/link/124756/web) – Node.js job scheduler.  
@@ -59,18 +53,7 @@ Plasmo
 [EmojiMart 5.1](https://javascriptweekly.com/link/124758/web) – Emoji picker control.  
 [Puppeteer 14.3](https://javascriptweekly.com/link/124759/web)
 
-💻 Jobs
-
-[Software Engineer at Blueground (Remote)](https://javascriptweekly.com/link/124760/web) — Help us build the world’s leading next-gen platform for home rentals and shape the future of living.  
-Blueground
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/124761/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/124762/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xu5zrq7nh8qnjkpuzctt.jpg)](https://javascriptweekly.com/link/124763/web)
 
@@ -105,7 +88,7 @@ Matt Perry
 [The Best Way to Cache API Responses with Angular and RxJs](https://javascriptweekly.com/link/124772/web)  
 Tomas Trajan
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/po3ajke6hokwsqtyxcjm.jpg)](https://javascriptweekly.com/link/124738/web)
 

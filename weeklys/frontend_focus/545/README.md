@@ -5,18 +5,14 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1654686425/rv7uijtepx94cjo0zay2.png)](https://frontendfoc.us/link/124514/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​545 — June 8, 2022 | [Read on the web](https://frontendfoc.us/link/124513/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1654686425/rv7uijtepx94cjo0zay2.png)](https://frontendfoc.us/link/124514/web)
 
 [WebKit Features in Safari 16 Beta](https://frontendfoc.us/link/124514/web "webkit.org") — Plenty of updates to Safari ([Beta release notes here](https://frontendfoc.us/link/124515/web)) on the way, several of which were announced at Apple's WWDC developer event earlier this week. This post looks over the highlights of improvements shipping in WebKit browsers (_such as animation improvements, Web Push - more on that below - Subgrid, and container queries_). [Here's a video presentation from WWDC](https://frontendfoc.us/link/124516/web) that goes into more depth.
 
 Jen Simmons (WebKit)
-
-[![](https://copm.s3.amazonaws.com/1a015797.png)](https://frontendfoc.us/link/124517/web)
 
 [Learn More About Web Components](https://frontendfoc.us/link/124517/web "frontendmasters.com") — Web Components are used to define custom, reusable HTML elements. Join Dave Rupert for this extensive video course on both using and creating your own Web Components to build robust web apps.
 
@@ -30,7 +26,7 @@ Brady Eidson (WebKit)
 
 Daniel Yuschick
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   😮 Did you know the accessibility shorthand 'a11y' [is a registered trademark?](https://frontendfoc.us/link/124523/web) Here's [a related Twitter thread](https://frontendfoc.us/link/124524/web) where some ponder what this means for the term's usage.
     
@@ -47,7 +43,7 @@ Daniel Yuschick
 *   It looks like the popular _San Francisco_ font used on macOS is [getting some added enhancements](https://frontendfoc.us/link/124553/web) in the shape of condensed, compressed, and expanded widths, plus two Arabic variants.
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [Don’t Sink Your Website with Third Parties](https://frontendfoc.us/link/124526/web "www.smashingmagazine.com") — An explainer as to what third-party resource requests really are and which common optimization strategies can help reduce their impact on the user experience.
 
@@ -89,18 +85,7 @@ Michael Chan
 [Web Typography: Establishing a Strong Typographic System](https://frontendfoc.us/link/124540/web)  
 Alex Walker
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/124542/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/124541/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/124543/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/eoeiyws4bdmd53oglubc.jpg)](https://frontendfoc.us/link/124548/web)
 

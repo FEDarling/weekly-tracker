@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tskqqqzp8qzyi5unp1lx.jpg)](https://nodeweekly.com/link/124583/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​441 — June 9, 2022
-
-[Read on the Web](https://nodeweekly.com/link/124582/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tskqqqzp8qzyi5unp1lx.jpg)](https://nodeweekly.com/link/124583/web)
 
 [Fastify 4.0 Released](https://nodeweekly.com/link/124583/web "medium.com") — The first major release of a popular, high performance Node.js Web framework in two years warrants some celebration. A focus has been placed on stabilization, modernization, and improving the already quite stable developer experience, rather than flashy new features, although this post does cover a few updates.
 
@@ -28,7 +22,7 @@ Fastify Team
 
 Couchbase sponsor
 
-**Quick bits:**
+## **Quick bits:**
 
 *   🤡 Did you know you can [write add-ons](https://nodeweekly.com/link/124587/web) for Office apps in JavaScript? So, naturally, you'll want to [▶️ implement Wordle in Microsoft Word](https://nodeweekly.com/link/124588/web) with this new-found knowledge.
     
@@ -56,7 +50,7 @@ PolyScale.ai sponsor
 [How to Create Your First Node.js-Based GitHub Action](https://nodeweekly.com/link/124604/web)  
 David Ziolkowski
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sqe5zeunyofztvrxsj7x.jpg)](https://nodeweekly.com/link/124606/web)
 
@@ -106,14 +100,6 @@ Oracle
 
 [pidtree: Cross-Platform Children List for a Given Process ID](https://nodeweekly.com/link/124624/web)  
 Simone Primarosa
-
-💻 Jobs
-
-[Senior BackEnd Engineer (Node.js) at Lepaya](https://nodeweekly.com/link/124625/web) — Lepaya is hiring awesome developers like you. Come and help us to empower professionals across the globe.  
-Lepaya
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/124626/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

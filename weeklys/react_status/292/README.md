@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dzgmew9ue02yba5hl68a.jpg)](https://react.statuscode.com/link/124470/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​292 — June 8, 2022
-
-[Read on the Web](https://react.statuscode.com/link/124469/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/dzgmew9ue02yba5hl68a.jpg)](https://react.statuscode.com/link/124470/web)
 
 ▶  [Goodbye, `useEffect`? David Khourshid's Reactathon Talk](https://react.statuscode.com/link/124470/web "www.youtube.com") — Here, [Stately](https://react.statuscode.com/link/124471/web) founder David Khourshid makes the case for using event handlers and state machines to simplify handling effects in React apps rather than using `useEffect` which many developers struggle with and isn’t always well suited for the task anyway.
 
@@ -38,24 +32,12 @@ Sébastien Morel
 
 Plasmo
 
-**Quick bits:**
+## **Quick bits:**
 
 *   Patrick Sullivan of Gatsby [looks at some of the latest updates](https://react.statuscode.com/link/124477/web) to Gatsby Cloud and the framework itself.
     
 *   🇳🇴 Er du i Norge? [React Norway](https://react.statuscode.com/link/124478/web) takes place on June 24 in Larvik. There is a virtual ticket option if you can't make it in person though.
     
-
-Jobs
-
-[Senior React Engineer @ Nebulab (Remote)](https://react.statuscode.com/link/124479/web) — Join our distributed team and build high-volume eCommerce applications in a workplace made by developers for developers.  
-Nebulab
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/124480/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/124481/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [How to Embed a React App in a Go Binary](https://react.statuscode.com/link/124482/web "www.smartinary.com") — [Go](https://react.statuscode.com/link/124483/web) is a popular language for writing backend APIs and you can compile Go apps down to a single, easily shared binary. Could you put your _front end_ app in there too? Sure can.
 
 Nils Caspar
@@ -76,7 +58,7 @@ Matt Perry
 
 Alex Kondov
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/hg46eha4ddaw1wlo2jdd.jpg)](https://react.statuscode.com/link/124493/web)
 
@@ -100,8 +82,7 @@ Locofy
 
 ReactiveSearch Blog
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-text-transition 2.0](https://react.statuscode.com/link/124508/web) — Component to animate text changes.
 
