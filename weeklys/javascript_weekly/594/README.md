@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/pke2eqcqyw1morktgybm.jpg%0A)](https://javascriptweekly.com/link/125047/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​594 — June 17, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/125018/web)  |  [Read on the Web](https://javascriptweekly.com/link/125019/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/pke2eqcqyw1morktgybm.jpg%0A)](https://javascriptweekly.com/link/125047/web)
 
 [AbortController is Your Friend (for Cancelling Async Tasks and More)](https://javascriptweekly.com/link/125047/web "whistlr.info") — [AbortController](https://javascriptweekly.com/link/125048/web) provides a way to abort web requests at any point without waiting for a response, but it’s possible to apply its handy mechanism to other use cases, as shown here.
 
@@ -34,7 +28,7 @@ Couchbase sponsor
 
 Vitest
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   ⭐️ Last week, Vue.js's creator gave [▶️ a 'State of the Union'-style address](https://javascriptweekly.com/link/125071/web) on the project (plus Vite) for Vue.js Amsterdam.
     
@@ -47,7 +41,7 @@ Vitest
 *   The [end-of-life date for Node.js 16](https://javascriptweekly.com/link/125030/web) has been brought forward to September 2023 to coincide with the EOL of OpenSSL 1.1.1.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Prettier 2.7](https://javascriptweekly.com/link/125073/web) – Now supports TypeScript 4.7 syntax.  
 [Lerna 5.1](https://javascriptweekly.com/link/125078/web) – JS monorepo management now even faster.  
@@ -58,21 +52,7 @@ Vitest
 [Ember.js 4.5](https://javascriptweekly.com/link/125042/web)  
 [Node.js v18.4.0](https://javascriptweekly.com/link/125038/web) – Minor cleanups.
 
-💻 Jobs
-
-[Software Engineers](https://javascriptweekly.com/link/125043/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://javascriptweekly.com/link/125044/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Senior FullStack Engineer (Vue.js + Node.js) at Lepaya](https://javascriptweekly.com/link/125045/web) — Lepaya is hiring awesome developers like you. Come and help us to empower professionals across the globe.  
-Lepaya
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/125046/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 ▶  [How to Remove 99% of JavaScript from the Main Thread](https://javascriptweekly.com/link/125027/web "youtu.be") — The original creator of Angular gives a talk about the [Qwik](https://javascriptweekly.com/link/125028/web) framework which takes a low-JavaScript HTML-first approach to building front-end apps. [Partytown](https://javascriptweekly.com/link/125029/web) gets involved to move scripts into Web Workers, taking them off of the main thread.
 
@@ -101,7 +81,7 @@ Retool: State Of Engineering Time Report sponsor
 [Using Web Streams on Node.js](https://javascriptweekly.com/link/125058/web)  
 Dr. Axel Rauschmayer
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/d7vikn1oexmblirjgkbl.jpg)](https://javascriptweekly.com/link/125059/web)
 

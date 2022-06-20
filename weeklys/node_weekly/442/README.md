@@ -5,14 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​442 — June 16, 2022
-
-[Read on the Web](https://nodeweekly.com/link/124878/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jowpbxj6eevdnde1pfcd.jpg)](https://nodeweekly.com/link/124908/web)
 
@@ -41,19 +37,13 @@ Mikhail Zub
 [NestJS + Postgres Local Development with Docker Compose](https://nodeweekly.com/link/124886/web)  
 Tom Ray
 
-**QUICK BYTES:**
+## **QUICK BYTES:**
 
 *   I have no affiliation with them, but based on recent experiences, give [fly.io](https://nodeweekly.com/link/124887/web) a try if you want to rapidly get a Node app running on the Web. Fabulous DX and a good free tier. Interesting modern alternative to Heroku. _([Render](https://nodeweekly.com/link/124888/web) and [Railway](https://nodeweekly.com/link/124889/web) are also good, but I've spent less time with them so far.)_
     
 *   Talking of Heroku, you can learn about [their new Heroku 22 stack](https://nodeweekly.com/link/124890/web) which is based on Ubuntu 22.04. Node.js 14.x, 16.x, and 17.x are supported out of the box.
     
-
-💻 Jobs
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/124891/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cud3zciu2wfwzf8vklz8.jpg)](https://nodeweekly.com/link/124892/web)
 
@@ -85,7 +75,7 @@ Vercel
 
 Stream sponsor
 
-**BRIEF RELEASES:**
+## **BRIEF RELEASES:**
 
 [NodeBB 2.2](https://nodeweekly.com/link/124902/web) – Node-based forum software.  
 [ws 8.8](https://nodeweekly.com/link/124903/web) – WebSocket client and server library.  

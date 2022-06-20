@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1630666737/cosichhmifcnm1w4xgbn.jpg)](https://mobiledevweekly.com/link/113269/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​371 — September 3, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/113268/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1630666737/cosichhmifcnm1w4xgbn.jpg)](https://mobiledevweekly.com/link/113269/web)
 
 ![](https://cooperpress.s3.amazonaws.com/peterc.png)Peter Cooper recommends
 
@@ -70,7 +64,7 @@ Steph
 
 Naveen Srivastava
 
-⚡️ **Quick Bits**
+## ⚡️ **Quick Bits**
 
 *   Looks like [Windows 11 won’t include Android app support at launch](https://mobiledevweekly.com/link/113280/web).
 *   You can now try a development preview of the [new memory management approach](https://mobiledevweekly.com/link/113281/web) for Kotlin/Native.

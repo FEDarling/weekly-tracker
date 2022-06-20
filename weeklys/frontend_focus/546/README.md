@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1655286716/rbjo59nebmcjxnkmnafk.gif)](https://frontendfoc.us/link/124810/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​546 — June 15, 2022 | [Read on the web](https://frontendfoc.us/link/124809/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1655286716/rbjo59nebmcjxnkmnafk.gif)](https://frontendfoc.us/link/124810/web)
 
 ▶  [Internet Explorer Retirement: June 15, 2022 — The Future of IE Is in Microsoft Edge](https://frontendfoc.us/link/124810/web "www.youtube.com") — _Today’s the day_. Some twenty seven years after its debut, Microsoft’s Internet Explorer is no more. IE 11 is now ‘retired’ and the future is pointed at Microsoft’s Edge browser. There’s [an FAQ here](https://frontendfoc.us/link/124811/web) about the retirement and “IE mode” should you need it.
 
@@ -33,7 +31,7 @@ Tatoris & Guerreiro (Cloudflare)
 
 Minh N. Vu
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   Firefox is rolling out '[Total Cookie Protection](https://frontendfoc.us/link/124820/web)' — a new privacy protection which confines cookies to the site where they were created.
     
@@ -42,7 +40,7 @@ Minh N. Vu
 *   Figma now has [support for variable fonts](https://frontendfoc.us/link/124822/web) – the page itself is a rather bold demo too.
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [Creating an 'Ultrasonic' Payments System with JavaScript](https://frontendfoc.us/link/124829/web "charliegerard.dev") — A fun experiment with ultrasonic data transmission browser to browser.
 
@@ -77,15 +75,7 @@ Dan Mall Opinion
 ['What We’ve Learned From One Year of Real User Monitoring Data on GOV.UK'](https://frontendfoc.us/link/124830/web)  
 Matt Hobbs
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/124831/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/124832/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/d7vikn1oexmblirjgkbl.jpg)](https://frontendfoc.us/link/124833/web)
 

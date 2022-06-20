@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ee8gqvihh09v6himejic.jpg)](https://react.statuscode.com/link/124846/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​293 — June 15, 2022
-
-[Read on the Web](https://react.statuscode.com/link/124845/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ee8gqvihh09v6himejic.jpg)](https://react.statuscode.com/link/124846/web)
 
 ▶  [Zen and the Art of Building a Gmail-like UI with React Native](https://react.statuscode.com/link/124846/web "www.youtube.com") — We see a lot of screencasts and it’s safe to say we’ve _never_ seen one like this: it features super-high production values, no spoken words and is shot on location at [Koshoji Temple](https://react.statuscode.com/link/124847/web) in Japan. It’s a treat to watch.
 
@@ -34,7 +28,7 @@ Sendbird sponsor
 
 Dominic Nguyen (Storybook)
 
-**Quick bits:**
+## **Quick bits:**
 
 *   📅 [React Brussels](https://react.statuscode.com/link/124853/web) is taking place this October both in Belgium and online.
     
@@ -60,7 +54,7 @@ Robin Wieruch
 
 Darshita Chaturvedi and Shyam Swaroop
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ux5b2ykhldgw7anykvoz.jpg)](https://react.statuscode.com/link/124862/web)
 
@@ -84,8 +78,7 @@ Albin Groen
 
 Jason Wang
 
-⚡️ Quick Bits:
---------------
+## ⚡️ Quick Bits:
 
 [react-timeago](https://react.statuscode.com/link/124872/web) — Takes any date and expresses it in relation to the current date, such as “6 days ago”, with support for a large number of spoken languages.
 
