@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​294 — June 22, 2022
-
-[Read on the Web](https://react.statuscode.com/link/125147/web)
-
 💡 Don't miss the _Quick Releases_ section further down this issue as there have been a ton of interesting new releases this week and we've had to pack them in! :-)
 
-React Status
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/mnlt4hremarj8nbkn5ay.jpg)](https://react.statuscode.com/link/125148/web)
 
@@ -40,7 +34,7 @@ Riccardo Cipolleschi (Meta)
 
 Joe Lencioni (Airbnb)
 
-**Quick bits:**
+## **Quick bits:**
 
 *   A feature matrix comparing [seven different ways to create a React app](https://react.statuscode.com/link/125155/web) in 2022 including Vite, Next.js, and Remix.
     
@@ -49,7 +43,7 @@ Joe Lencioni (Airbnb)
 *   If you use Adobe's _React Spectrum_ components at all, you need to check out [the new date and time pickers](https://react.statuscode.com/link/125157/web) – they've spent a lot of time on getting the accessibility and i18n factors just right.
     
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [Create Rust App: Set Up a Modern Rust + React Web App in One Command](https://react.statuscode.com/link/125158/web "github.com") — In the same spirit as [Create React App](https://react.statuscode.com/link/125159/web), this brings a similar experience if you’d prefer to build your backend in Rust.
 
@@ -77,7 +71,7 @@ Silx Project
 
 [react-transition-value](https://react.statuscode.com/link/125169/web) — Transition number values using easing functions.
 
-**⚡️ QUICK RELEASES**
+## **⚡️ QUICK RELEASES**
 
 [Reactime 14.0](https://react.statuscode.com/link/125170/web) – Chrome devtool for time travel debugging.  
 [React Native Owl 1.0](https://react.statuscode.com/link/125171/web) – Visual regression testing for React Native.  
@@ -88,17 +82,6 @@ Silx Project
 [html-react-parser 2.0](https://react.statuscode.com/link/125176/web) – HTML to React parser.  
 [sentry-react-native 4.0](https://react.statuscode.com/link/125177/web) – Official Sentry SDK for React Native.  
 [React Joyride 2.5](https://react.statuscode.com/link/125178/web) – Create guided tours in your apps.
-
-Jobs
-
-[React Developer at X-Team (Remote)](https://react.statuscode.com/link/125179/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/125180/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/125181/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

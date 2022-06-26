@@ -5,15 +5,12 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1655895434/ctgr05oweyh5boxj2lao.jpg)](https://frontendfoc.us/link/125102/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
 
-#​547 — June 22, 2022 | [Read on the web](https://frontendfoc.us/link/125101/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1655895434/ctgr05oweyh5boxj2lao.jpg)](https://frontendfoc.us/link/125102/web)
-
 What Would a Chromium-Only Web Look Like?
------------------------------------------
 
 Browser engines do much of the heavy lifting of managing the complexity and nuances of the web — and we’re blessed to have three major, open source ones — but if some in the Chromium community are arguing for “_a Chromium-only Web_” (and there are some strong rebuttals to this claim), then just what happens if that one day becomes a reality? Mark Nottingham shares his thoughts on the matter.
 
@@ -33,7 +30,7 @@ Jon Davis
 
 Heather Burns
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   `:has` support in Chrome? Yup, shipping in [version 105](https://frontendfoc.us/link/125106/web).
     
@@ -48,7 +45,7 @@ Heather Burns
 *   Sure, Chrome has that dino game, but did you know you can [go surfing in Edge](https://frontendfoc.us/link/125111/web)? Summer vibes in the browser. 😎
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [Precise Timing with the Web Animations API](https://frontendfoc.us/link/125112/web "www.smashingmagazine.com") — Working with timers in JavaScript can quickly get complicated. Kirill takes a look at how the Web Animations API could eliminate the need for such timers in certain cases.
 
@@ -86,15 +83,7 @@ Preethi
 [The Rise and Fall of Neumorphism](https://frontendfoc.us/link/125120/web)  
 Jeff Cardello
 
-Jobs
-
-[Frontend Developer at X-Team (Remote)](https://frontendfoc.us/link/125121/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/125122/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [Scroll Btween: Use Scroll Position to Tween Any CSS Values on DOM Elements](https://frontendfoc.us/link/125123/web "olivier3lanc.github.io") — Scrolling/parallax libraries tend to feel the same but this one demonstrates some diverse examples with colors, images, and text — all with no dependencies.
 
@@ -116,7 +105,7 @@ Box20
 
 Paolo Ricciuti
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 This is a new section we'll include from time to time, quickly highlighting some recently updated and popular projects and GitHub repos of relevance in the frontend space:
 

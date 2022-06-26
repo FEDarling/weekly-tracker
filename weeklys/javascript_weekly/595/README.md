@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rhcwkbd9qv1rt5reoupv.jpg)](https://javascriptweekly.com/link/125375/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​595 — June 24, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/125373/web)  |  [Read on the Web](https://javascriptweekly.com/link/125374/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rhcwkbd9qv1rt5reoupv.jpg)](https://javascriptweekly.com/link/125375/web)
 
 [Ecma International Approves ECMAScript 2022, But What’s New?](https://javascriptweekly.com/link/125375/web "2ality.com") — Thanks Ecma – [ECMAScript 2022 is now an _approved_ standard.](https://javascriptweekly.com/link/125376/web) JavaScript’s resident doctor brings us up to speed with what this means in practice, as well as answering a few common questions. You’ll already be using some of these features – this is mostly about tying up the formalities. On to ES2023..
 
@@ -25,8 +19,6 @@ Dr. Axel Rauschmayer
 [In Defense of Blocks to Create Localized Scope](https://javascriptweekly.com/link/125430/web "gist.github.com") — Kyle Simpson (of YDKJS fame) pops up to give his thoughts on a recently popular [article about using ‘block statements’](https://javascriptweekly.com/link/125432/web) to group code together which attracted some criticism. In short, Kyle’s a big fan of the approach.
 
 Kyle Simpson
-
-[![](https://copm.s3.amazonaws.com/490a4700.png)](https://javascriptweekly.com/link/125377/web)
 
 [New Course on Web Components](https://javascriptweekly.com/link/125377/web "frontendmasters.com") — "_Web Components are one of the most exciting new technologies on the web platform today_." ~Dave Rupert. Learn to create your own custom web components using JavaScript and the Lit library in this course.
 
@@ -40,7 +32,7 @@ Zhenghao He
 
 The React.js Team
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   The [beta of TypeScript 4.8](https://javascriptweekly.com/link/125409/web) is here, complete with performance improvements and, as usual, a handful of intricately geeky type inference enhancements.
     
@@ -53,7 +45,7 @@ The React.js Team
 *   🤖 GitHub Copilot, an 'AI pair programmer' of sorts, is [now generally available](https://javascriptweekly.com/link/125416/web) after a long preview phase. It's pretty effective, if [controversial.](https://javascriptweekly.com/link/125417/web) In related news, Amazon has unveiled its own attempt called [Amazon CodeWhisperer](https://javascriptweekly.com/link/125418/web) which, too, supports JavaScript.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Angular ESLint 14.0](https://javascriptweekly.com/link/125419/web)  
 [FontKit 2.0](https://javascriptweekly.com/link/125381/web)– Advanced font engine for Node and the browser.  
@@ -64,18 +56,7 @@ The React.js Team
 [Gatsby 4.17](https://javascriptweekly.com/link/125387/web)  
 [React Native 0.69](https://javascriptweekly.com/link/125420/web) – Hello React 18 support!
 
-💻 Jobs
-
-[JavaScript Developer at X-Team (Remote)](https://javascriptweekly.com/link/125388/web) — Join the most energizing community for developers and work on long-term projects for Riot Games, FOX, Sony, Coinbase, and more.  
-X-Team
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://javascriptweekly.com/link/125389/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/125390/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [Using Playwright Test to Run Unit Tests](https://javascriptweekly.com/link/125421/web "pkerschbaum.com") — A comparison of Playwright’s new test runner versus ‘traditional’ approaches like Jest and Mocha.
 
@@ -115,7 +96,7 @@ Nicholas C Zakas
 ▶  [Discussing the Art of Authoring Browser Extensions with Tim Leland](https://javascriptweekly.com/link/125427/web)  
 Syntax Podcast podcast
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [Puppeteer 15.0: Control Headless Chrome from Node](https://javascriptweekly.com/link/125394/web "pptr.dev") — [Playwright](https://javascriptweekly.com/link/125395/web) has picked up a lot of the browser control market in recent years, but the popular Chrome-oriented Puppeteer remains a fantastic option if you don’t need to support multiple browsers. It now uses Chromium 103 and supports Node 18.
 
