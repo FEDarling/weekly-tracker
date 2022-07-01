@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kpgpwquywakmvgbrawix.jpg)](https://react.statuscode.com/link/125467/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​295 — June 29, 2022
-
-[Read on the Web](https://react.statuscode.com/link/125466/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kpgpwquywakmvgbrawix.jpg)](https://react.statuscode.com/link/125467/web)
 
 [An MDX, MJML & React Workflow for Building HTML Emails](https://react.statuscode.com/link/125467/web "www.joshwcomeau.com") — We know perhaps better than most that creating HTML layouts that work in email clients is.. a tricky job! 😆 While we stay quite old school with our tooling, Josh deftly takes a more modern React-oriented approach here, leveraging Mailjet’s MJML framework and MDX - a way to work with Markdown in JSX – to keep things friendly and maintainable.
 
@@ -30,20 +24,12 @@ React Native Core Team
 
 Progress KendoReact sponsor
 
-**Quick bits:**
+## **Quick bits:**
 
 *   [Next.js 12.2](https://react.statuscode.com/link/125472/web) is out: middleware and on-demand ISR support are now both stable, and new experimental support for [edge](https://react.statuscode.com/link/125473/web) API routes and edge-based SSR have appeared. Related to this, Vercel has now made [Vercel Edge Middleware](https://react.statuscode.com/link/125474/web) generally available for Next.js and in public beta for _other_ frameworks too.
     
 *   If you've not given [Storybook](https://react.statuscode.com/link/125555/web) (the UI component development tool/environment) a go yet, maybe [▶️ this 100-second explainer video](https://react.statuscode.com/link/125475/web) can sell you on it.
     
-
-Jobs
-
-[Software Engineers](https://react.statuscode.com/link/125476/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/125477/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 [How Shopify Built Hydrogen: A React Framework for Building Custom Storefronts](https://react.statuscode.com/link/125478/web "shopify.engineering") — A deep dive into Shopify’s use of React for their brand new development platform for their merchants. _“Frameworks aren’t a zero-sum game. Next.js, Remix, all the others are still awesome, but it makes a lot of sense for Shopify to build their own framework purpose-built for commerce.”_
 
@@ -57,7 +43,7 @@ Luca Casonato
 
 Framework Friends Podcast podcast
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ps7vghildvzyfcjxhry7.jpg)](https://react.statuscode.com/link/125482/web)
 
@@ -81,7 +67,7 @@ Tane Morgan
 
 Kevin Qi
 
-**⚡️ THE QUICK FIRE ROUND**
+## **⚡️ THE QUICK FIRE ROUND**
 
 [react-shepherd](https://react.statuscode.com/link/125489/web) — Create guided product tours with [Shepherd](https://react.statuscode.com/link/125490/web).
 

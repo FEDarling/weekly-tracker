@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1628846573/ajjwflsumc0olo4wdq2e.png)](https://mobiledevweekly.com/link/112406/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​368 — August 13, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/112405/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1628846573/ajjwflsumc0olo4wdq2e.png)](https://mobiledevweekly.com/link/112406/web)
 
 Last week [Apple announced plans for new child safety features in iOS](https://mobiledevweekly.com/link/112406/web). These upcoming changes include safety tools in Messages, new Siri and Search information, and CSAM detection. The latter is a new content-scanning technology on US iCloud uploads — Apple has shared [a technical summary on how this will work here](https://mobiledevweekly.com/link/112407/web).
 
@@ -62,7 +56,7 @@ Bruno Lorenzo
 
 Salah Elhossiny
 
-⚡️ **Quick Bits**
+## ⚡️ **Quick Bits**
 
 *   Here's [a collection of podcasts worth checking out](https://mobiledevweekly.com/link/112421/web) if you're a Flutter dev.
 *   The FCC have debuted [an updated mobile broadband map](https://mobiledevweekly.com/link/112422/web) of the U.S.

@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1656503463/wbc0ynljwfimm8qslysc.png)](https://frontendfoc.us/link/125496/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​548 — June 29, 2022 | [Read on the web](https://frontendfoc.us/link/125495/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1656503463/wbc0ynljwfimm8qslysc.png)](https://frontendfoc.us/link/125496/web)
 
 [Defensive CSS](https://frontendfoc.us/link/125496/web "defensivecss.dev") — A new site full of handy, practical CSS and design tips (covering things like media queries, selectors, fallbacks, etc) to help in building future-proof user interfaces. There’s also [an introductory blog post](https://frontendfoc.us/link/125497/web) outlining “_why it’s important to design and write CSS defensively_”.
 
@@ -34,7 +32,7 @@ Patrick Clancey
 
 Smashing Magazine podcast
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   [Version 102 of Firefox](https://frontendfoc.us/link/125502/web) is out now. [Here's the changes](https://frontendfoc.us/link/125503/web) that affect devs. In related news, [Thunderbird 102](https://frontendfoc.us/link/125562/web), basically the e-mail client yin to Firefox's browser yang, has also been released.
     
@@ -47,7 +45,7 @@ Smashing Magazine podcast
 *   The JavaScript specification has [a new (more permissive) license](https://frontendfoc.us/link/125504/web).
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jteearwl5mzydvzqfo1e.jpg)](https://frontendfoc.us/link/125511/web)
 
@@ -94,12 +92,7 @@ Andy Bell
 ['Apple Is Not Defending Browser Engine Choice'](https://frontendfoc.us/link/125522/web)  
 Alex Russell opinion
 
-Jobs
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/125524/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1656503744/tgqkezo7pkzsvedknibg.png)](https://frontendfoc.us/link/125525/web)
 
@@ -119,7 +112,7 @@ Aldison Lluka
 
 Wensen Wu
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [D3.js 7.5](https://frontendfoc.us/link/125530/web) – The popular data visualization framework.  
 [bootstrap-fileinput 5.5](https://frontendfoc.us/link/125532/web) – File upload control and previews for Bootstrap users.  
@@ -127,8 +120,6 @@ Wensen Wu
 [TailPress 3.1](https://frontendfoc.us/link/125535/web) – Boilerplate Wordpress theme using Tailwind CSS.  
 [flag-icons 6.6.2](https://frontendfoc.us/link/125537/web) – A curated collection of all country flags in SVG.  
 [Playwright 1.23](https://frontendfoc.us/link/125538/web) – Browser automation library and test runner.
-
-[Ipx.](https://frontendfoc.us/link/125554/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

@@ -5,16 +5,12 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​444 — June 30, 2022
-
-[Read on the Web](https://nodeweekly.com/link/125563/web)
-
 ![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xmldsrhfdu0yttlnfcdv.jpg)](https://nodeweekly.com/link/125564/web)
+
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [Working with the File System from Node.js](https://nodeweekly.com/link/125564/web "2ality.com") — Dr. Axel seems to be on a bit of a Node kick lately and comes back this week with a particularly deep dive on all things related to working with text files from Node, from simple reading and writing operations to streams, buffers, and directory manipulation.
 
@@ -48,7 +44,7 @@ Prisma
 
 RedisGreen sponsor
 
-**QUICK BYTES:**
+## **QUICK BYTES:**
 
 *   Node.js has [some security releases on the horizon](https://nodeweekly.com/link/125576/web) (around July 5) for the 14.x, 16.x, and 18.x release lines to tackle three medium severity issues and two high severity ones. We'll bring you up to speed in next week's issue.
     
@@ -61,7 +57,7 @@ RedisGreen sponsor
 *   Node.js came top of the latest Stack Overflow survey's [list of most popular Web technologies](https://nodeweekly.com/link/125580/web), just pipping React to the post.
     
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [Serverless-Express 4.9: Run Existing Frameworks on AWS Lambda or Azure Functions](https://nodeweekly.com/link/125583/web "github.com") — The idea is that you can build HTTP APIs in the usual way on top of Express, Koa, Hapi or whatever, and this provides the wrapper necessary to let them run on AWS Lambda or Azure Functions.
 
@@ -90,7 +86,7 @@ Jenny Eckstein
 [lru-cache 7.12.0: A Least Recently Used Cache for Node](https://nodeweekly.com/link/125590/web)  
 Isaac Z. Schlueter and Contributors
 
-**⚡️ BRIEF RELEASES:**
+## **⚡️ BRIEF RELEASES:**
 
 [Fastify 4.2](https://nodeweekly.com/link/125591/web) – Fast, low overhead web framework.  
 [Kafka.js 2.1](https://nodeweekly.com/link/125592/web) – Modern Apache Kafka client for Node.  
@@ -101,11 +97,6 @@ Isaac Z. Schlueter and Contributors
 [cron-parser 4.5](https://nodeweekly.com/link/125597/web) – Library for parsing crontab directives.  
 [zx 7.0.4](https://nodeweekly.com/link/125598/web) – Google's tool for better JS shell scripting.  
 [Instauto 9.1.9](https://nodeweekly.com/link/125599/web) – Instagram bot / automation library.
-
-💻 Jobs
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/125600/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
