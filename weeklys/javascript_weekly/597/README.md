@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rswj17oiaoodjldvjgnl.jpg)](https://javascriptweekly.com/link/126089/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​597 — July 8, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/126035/web)  |  [Read on the Web](https://javascriptweekly.com/link/126036/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/rswj17oiaoodjldvjgnl.jpg)](https://javascriptweekly.com/link/126089/web)
 
 [Bun: An Exciting, Speedy New JavaScript Runtime](https://javascriptweekly.com/link/126089/web "bun.sh") — Tired of Node? Tired of Deno? Never. But a new challenger _has_ appeared. Bun is aimed at 'outside of browser' use cases and is built around WebKit's _JavaScriptCore_, rather than V8. Some notable features:
 
@@ -53,7 +47,7 @@ Matthew Costello
 *   Shopify is now [officially a member of Ecma](https://javascriptweekly.com/link/126095/web) and Surma will be a TC39 delegate.. so expect to see [JS module blocks](https://javascriptweekly.com/link/126096/web) soon 😆
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Node 14.20.0 (LTS)](https://javascriptweekly.com/link/126041/web), [16.16.0 (LTS)](https://javascriptweekly.com/link/126042/web) & [18.5.0 (Current)](https://javascriptweekly.com/link/126043/web)  
 [Fuite 1.6](https://javascriptweekly.com/link/126044/web) – Tool for finding memory leaks in web apps.  
@@ -63,7 +57,7 @@ Matthew Costello
 [Preact 10.9](https://javascriptweekly.com/link/126048/web) – Say hello to React 18's new hooks (except `useId`).  
 [Perspective 1.5.1](https://javascriptweekly.com/link/126049/web) – Fast data visualization via WebAssembly.
 
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/cez2asrn8z4kvdcjpryp.jpg)](https://javascriptweekly.com/link/126073/web)
 
@@ -109,7 +103,7 @@ Dr. Axel Rauschmayer
 [How to Use the Native Web Share API from JavaScript](https://javascriptweekly.com/link/126058/web)  
 Daily Dev Tips
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/lw9emxjf6kmxvwlp84yu.jpg)](https://javascriptweekly.com/link/126059/web)
 
@@ -145,15 +139,7 @@ Amazon Web Services, Inc.
 
 Jakub T. Jankiewicz
 
-💻 Jobs
-
-[Software Engineers](https://javascriptweekly.com/link/126066/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/126067/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-**🤔 DID YOU KNOW..**
+## **🤔 DID YOU KNOW..**
 
 *   you can now use AWS's IAM role/access management system [_outside_ of AWS?](https://javascriptweekly.com/link/126068/web)
     

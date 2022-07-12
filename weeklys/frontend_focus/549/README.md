@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657107088/kbcbean7qmfqguobhh6f.png)](https://frontendfoc.us/link/125773/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​549 — July 6, 2022 | [Read on the web](https://frontendfoc.us/link/125772/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657107088/kbcbean7qmfqguobhh6f.png)](https://frontendfoc.us/link/125773/web)
 
 ▶  [CSS Variable Secrets](https://frontendfoc.us/link/125773/web "www.youtube.com") — An excellent, informative hour-long talk from the recent CSS Day conference that’ll give you a _much deeper_ understanding of CSS custom properties. Lea is a great speaker, but **if you can't watch a video right now, the [associated slides here](https://frontendfoc.us/link/125774/web) work quite well on their own** too.
 
@@ -30,7 +28,7 @@ Frontend Masters sponsor
 
 Lea Verou and Chris Lilley
 
-**⚡️ Quick bits:**
+## **⚡️ Quick bits:**
 
 *   Firefox 102 (released last week) has a new privacy feature that [strips parameters from URLs](https://frontendfoc.us/link/125781/web) that can be used to track your navigation.
     
@@ -43,7 +41,7 @@ Lea Verou and Chris Lilley
 *   Tailwind UI now has [a set of rather nice looking](https://frontendfoc.us/link/125783/web) site templates.
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657109710/vwuydafgi3vhelowh9lw.png)](https://frontendfoc.us/link/125785/web)
 
@@ -86,15 +84,7 @@ Michael Walter Van Der Velden
 [Implementing a Masonry Layout with Tailwind CSS Columns](https://frontendfoc.us/link/125794/web)  
 Graeme Fulton
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/125795/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/125796/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657109607/ot9esrerif477rk37nxv.png)](https://frontendfoc.us/link/125797/web)
 
@@ -129,7 +119,7 @@ Shaw Codepen
 [Content Wind: Lightweight Template to Build a Markdown Driven Website with Nuxt, Tailwind, and Iconify](https://frontendfoc.us/link/125802/web)  
 Sébastien Chopin
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [Next.js 12.2](https://frontendfoc.us/link/125839/web)  
 [LostGrid 9.0](https://frontendfoc.us/link/125804/web) – Powerful grid system built in PostCSS.  

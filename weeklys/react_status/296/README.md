@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/alt7ffqv6p0vysyubhod.jpg)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​296 — July 6, 2022
-
-[Read on the Web](https://react.statuscode.com/link/125842/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/alt7ffqv6p0vysyubhod.jpg)](https://react.statuscode.com/link/125843/web)
 
 [The New Wave of React State Management](https://react.statuscode.com/link/125843/web "frontendmastery.com") — It wouldn’t be a complete _React Status_ if there wasn’t _something_ about state management 😁 This (quite lengthy) article gives a sweeping overview, along with some history and opinion on the way, rather than presenting the capabilities of a single tool or approach.
 
@@ -42,7 +36,7 @@ Yevhen Kapelianovych
 
 Takuya Matsuyama
 
-**Quick bits:**
+## **Quick bits:**
 
 *   📆 [reactjsday 2022](https://react.statuscode.com/link/125849/web) is taking place on October 21 in Verona, Italy. The CFP is open until July 24.
     
@@ -50,15 +44,6 @@ Takuya Matsuyama
     
 *   An interesting demo of a service that claims to [run React's entire test suite in just 12 seconds](https://react.statuscode.com/link/125879/web) (versus over 3 minutes usually) by running the tests server-side in parallel.
     
-
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/125851/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/125852/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Simple Example of Making a React Hook to Prompt Confirmation Before Action](https://react.statuscode.com/link/125855/web "medium.com") — Are you sure you really want to do that? Sometimes it’s worth asking.
 
 Isaac Kwok
@@ -69,7 +54,7 @@ Alex Krupp opinion
 [How to Import SVGs in a React and Vite App](https://react.statuscode.com/link/125853/web)  
 Israel Mitolu
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/tiupsen0vja9ajejffei.jpg)](https://react.statuscode.com/link/125857/web)
 
@@ -97,7 +82,7 @@ Retool — 10x faster internal tools sponsor
 
 [rc-progress](https://react.statuscode.com/link/125867/web) — A progress bar component configurable for either [line or circle](https://react.statuscode.com/link/125868/web) layouts.
 
-**⚡️ THE RAPID RELEASES ROUND**
+## **⚡️ THE RAPID RELEASES ROUND**
 
 [React Page 5.0](https://react.statuscode.com/link/125869/web) – WYSIWYG editor control.  
 [PrimeReact 8.2](https://react.statuscode.com/link/125870/web) – Rich React UI component library.  

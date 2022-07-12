@@ -5,144 +5,72 @@ categories: ['CSS Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-Issue #512
-==========
-
-July 6, 2022
-
 [Style Queries](https://una.im/style-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-----------------------------------------------------------------------------------------------------------
 
 [![Style Queries](https://css-weekly.com/wp-content/uploads/2022/06/style-queries.png)](https://una.im/style-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
 
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
+
 Una Kravets explains what Style Queries are and shares some ideas on how to use Style Queries in ways that enable a better developer experience and more flexible component-owned styles.
 
-[Read more](https://una.im/style-queries/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Cascade Layers – There’s a Polyfill for That!](https://www.oddbird.net/2022/06/21/cascade-layers-polyfill/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Cascade Layers – There’s a Polyfill for That!](https://css-weekly.com/wp-content/uploads/2022/06/cascade-layers-polyfill.jpg)](https://www.oddbird.net/2022/06/21/cascade-layers-polyfill/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
 
 Sana Javed gives an introduction to CSS Cascade Layers and shows how to use a polyfill for even greater browser support.
 
-[Read more](https://www.oddbird.net/2022/06/21/cascade-layers-polyfill/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
-[From Our Sponsor](https://css-weekly.com/advertise)
-----------------------------------------------------
-
-[Retool is the fast way to build internal tools.](https://cssw.io/build-internal-tools-retool)
-----------------------------------------------------------------------------------------------
-
-[![Retool is the fast way to build internal tools.](https://css-weekly.com/wp-content/uploads/2022/06/retool-is-the-fast-way-to-build-internal-tools.png)](https://cssw.io/build-internal-tools-retool)
-
-Retool is the fast way for developers to build and share internal tools. Teams at thousands of companies like Amazon, DoorDash, Peloton, and Brex collaborate around custom-built Retool apps to solve internal workflows. Get started for free today.
-
-[Learn More](https://cssw.io/build-internal-tools-retool)
-
-[CSS Weekly on YouTube](https://www.youtube.com/c/CSSWeekly)
-------------------------------------------------------------
+## [CSS Weekly on YouTube](https://www.youtube.com/c/CSSWeekly)
 
 [![How To Debug Chrome for Android With Android Studio](https://css-weekly.com/wp-content/uploads/2022/06/how-to-debug-chrome-for-android-with-android-studio.png)](https://youtu.be/QjUXZTZW2MY?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
 
 [How To Debug Chrome for Android With Android Studio](https://youtu.be/QjUXZTZW2MY?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
------------------------------------------------------------------------------------------------------------------------------------------------
 
 A step-by-step guide on setting up an emulator in Android Studio to debug websites in Chrome for Android using Chrome DevTools in your desktop browser.
 
-[Watch video](https://youtu.be/QjUXZTZW2MY?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
-Articles & Tutorials
---------------------
+## Articles & Tutorials
 
 [The Joy of Variable Fonts: Getting Started on the Frontend](https://evilmartians.com/chronicles/the-joy-of-variable-fonts-getting-started-on-the-frontend?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Evgenii Shkodin, Roman Shamin, and Rita Klubochkina take a deep look at getting set up with variable fonts, explain how to properly load them, and deal with settings, some ‘gotchas’ and more.
 
-[Read more](https://evilmartians.com/chronicles/the-joy-of-variable-fonts-getting-started-on-the-frontend?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Can We Enterprise CSS Grid?](https://chenhuijing.com/blog/can-we-enterprise-css-grid/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chen Hui Jing outlines some challenges larger organizations might have with switching from a framework to CSS Grid.
 
-[Read more](https://chenhuijing.com/blog/can-we-enterprise-css-grid/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Two Levels of Customising](https://hidde.blog/custom-select-with-selectmenu/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-------------------------------------------------------------------------------------------------------------------------------------------
 
 Hidde de Vries looks at two ways to customize the parts of a `<selectmenu>` element.
 
-[Read more](https://hidde.blog/custom-select-with-selectmenu/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Single Element Loaders: Going 3D!](https://css-tricks.com/single-element-loaders-going-3d/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Temani Afif explores some patterns for creating 3d loaders.
 
-[Read more](https://css-tricks.com/single-element-loaders-going-3d/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Are You Sure That’s a Number Input?](https://kilianvalkhof.com/2022/css-html/are-you-sure-thats-a-number-input/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Kilian Valkhof explains why not all inputs that accept digits should be inputs with `type="number"`.
 
-[Read more](https://kilianvalkhof.com/2022/css-html/are-you-sure-thats-a-number-input/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
-[Promoted Link](https://css-weekly.com/advertise/#job-ad)
----------------------------------------------------------
-
-[![Need help with CSS? We will write it for you.](https://css-weekly.com/wp-content/uploads/2022/06/ctylers-cloud-css-support.png)](https://cssw.io/css-support)
-
-[Need help with CSS? We will write it for you.](https://cssw.io/css-support)
-----------------------------------------------------------------------------
-
-It only takes 30 seconds to submit any CSS-related problem right from your project – for free. We’re creating a CSS automation & crowdsourcing platform and use our spare capacity to help the community with their problems. You get help while we learn what bothers you and how to automate fixing it.
-
-[Try it now!](https://cssw.io/css-support)
-
-Tools
------
+## Tools
 
 [Dynamowaves](https://dynamowaves.markzebley.com/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
---------------------------------------------------------------------------------------------------------------
 
 A library that generates SVG wave templates that shuffle themselves on render.
 
-[Check it out](https://dynamowaves.markzebley.com/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 [Color-Morph](https://www.color-morph.com/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
--------------------------------------------------------------------------------------------------------
 
 An online tool that generates beautiful, random mesh gradients, available for export as an SVG or CSS.
 
 [Check it out](https://www.color-morph.com/?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
 
-Inspiration
------------
+## Inspiration
 
 [Animated House from "Up" 🎈](https://codepen.io/jh3y/pen/jOzNQyG?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-------------------------------------------------------------------------------------------------------------------------------
 
 [![Animated House from ](https://css-weekly.com/wp-content/uploads/2022/06/animated-house-from-up.png)](https://codepen.io/jh3y/pen/jOzNQyG?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
 
 Jhey Tompkins created a stunning animation using CSS.
 
-[Get inspired](https://codepen.io/jh3y/pen/jOzNQyG?utm_source=CSS-Weekly&utm_campaign=Issue-512&utm_medium=web)
-
 Until Next Week
----------------
-
-Thanks for reading! If you find the content valuable, please consider [supporting the newsletter on Patreon](https://bit.ly/cssweekly-patreon).
-
-Happy coding,  
-[Zoran Jambor](https://twitter.com/ZoranJambor)
-
-[Issue #511](https://css-weekly.com/issue-511/)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

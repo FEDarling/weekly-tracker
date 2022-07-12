@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/z10naoflgijcfexw2lzb.jpg)](https://nodeweekly.com/link/125904/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​445 — July 7, 2022
-
-[Read on the Web](https://nodeweekly.com/link/125903/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/z10naoflgijcfexw2lzb.jpg)](https://nodeweekly.com/link/125904/web)
 
 [Executing Shell Commands from Node.js](https://nodeweekly.com/link/125904/web "2ality.com") — Dr. Axel’s journey through the backrooms of Node.js continues with another in-depth guide – this time tackling running _other_ programs from our Node apps. The focus is on the built-in [`child_process`](https://nodeweekly.com/link/125905/web) module here, but you might also want to consider things like [execa](https://nodeweekly.com/link/125906/web) too.
 
@@ -38,7 +32,7 @@ Mark Erikson
 
 Chris Newhouse
 
-**QUICK BYTES:**
+## **QUICK BYTES:**
 
 *   Last week we mentioned some security releases were due this week due to some medium and high severity security issues, but it appears [Node is less affected than was anticipated](https://nodeweekly.com/link/125913/web) with just one moderate vulnerability on Windows (32 bit x86) to be resolved.
     
@@ -57,7 +51,7 @@ Courier.com sponsor
 
 Samuel Agnew
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [yoctocolors 1.0: The Smallest and Fastest Command-Line Coloring Package](https://nodeweekly.com/link/125918/web "github.com") — It’s [Chalk](https://nodeweekly.com/link/125919/web)’s baby cousin.
 
@@ -82,14 +76,6 @@ Olivier Guimbal
 [easy-template-x: Generate `.docx` Documents from Templates](https://nodeweekly.com/link/125924/web "github.com") — Given a template document with Mustache-esque tags, this can switch in different content en masse, mail merge style.
 
 Alon Bar
-
-💻 Jobs
-
-[Software Engineers](https://nodeweekly.com/link/125925/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/125926/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
