@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o8srghg3icho2ldcgypj.jpg)](https://react.statuscode.com/link/126121/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​297 — July 13, 2022
-
-[Read on the Web](https://react.statuscode.com/link/126120/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/o8srghg3icho2ldcgypj.jpg)](https://react.statuscode.com/link/126121/web)
 
 [Awesome React Components: A Curated List of, Perhaps Unsurprisingly, Components](https://react.statuscode.com/link/126121/web "github.com") — A thorough (and frequently updated) compilation of just over 500 components in all sorts of categories from rich text editors and menus to trees and the perennial date picker.
 
@@ -34,7 +28,7 @@ Frontend Masters sponsor
 
 Yishn
 
-**Quick bits:**
+## **Quick bits:**
 
 *   🔥 Amy Blankenship makes the (well presented!) argument that [React hooks were a bad idea](https://react.statuscode.com/link/126126/web). Like it or loathe it, you'll certainly walk away with opinions of your own.
     
@@ -52,12 +46,7 @@ Mohammad Faisal (The Pieces Blog)
 ▶  [React and Hotwire Together: The Best of Both Worlds](https://react.statuscode.com/link/126132/web) — One for the Rubyists among you.  
 Cezar Halmagean (Mix & Go)
 
-Jobs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/126133/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jr6gem7aylygxran9lo3.jpg)](https://react.statuscode.com/link/126134/web)
 

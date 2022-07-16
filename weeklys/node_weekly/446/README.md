@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vilmzbmeqdshlinmvm3p.jpg)](https://nodeweekly.com/link/126240/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​446 — July 14, 2022
-
-[Read on the Web](https://nodeweekly.com/link/126239/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vilmzbmeqdshlinmvm3p.jpg)](https://nodeweekly.com/link/126240/web)
 
 [Custom ESM Loaders: Who, What, When, Where, Why, How?](https://nodeweekly.com/link/126240/web "dev.to") — That’s a _lot_ of questions! _Custom loaders_ aren’t necessarily something you’ll use directly a lot, but are useful behind the scenes for controlling how modules are loaded – this post shows off some examples. Node 18.6 now also provides a mechanism for chaining together multiple such loaders.
 
@@ -23,8 +17,6 @@ Jacob Smith
 [NestJS v9 Released](https://nodeweekly.com/link/126241/web "trilon.io") — Nest is a TypeScript-based server-side framework for when you need a more fleshed out and complete platform to work on (or get support from) than straight Express, say. v9 introduces a handy REPL, a configurable module builder, durable providers, and more.
 
 Kamil Mysliwiec
-
-[![](https://copm.s3.amazonaws.com/ba44a81d.png)](https://nodeweekly.com/link/126242/web)
 
 [Never Have to Code Another Notification Template Again](https://nodeweekly.com/link/126242/web "www.courier.com") — Too many engineering resources are wasted on notification template building and routing rules. Pass this on to Product, Support, and Security. Heck, even if the engineers want to quickly assemble templates: use our UI or JSON based syntax, Elemental.
 
@@ -50,7 +42,7 @@ New Relic sponsor
 
 Ashley Davis
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gpss0ewovhqsow6jfhhm.jpg)](https://nodeweekly.com/link/126252/web)
 
@@ -80,7 +72,7 @@ Jacob Beckerman
 [node-cache-manager-sqlite: A Modern SQLite Store for `node‑cache‑manager`](https://nodeweekly.com/link/126263/web)  
 Zohaib Sibte Hassan
 
-**QUICK RELEASES:**
+## **QUICK RELEASES:**
 
 [ioredis 5.2](https://nodeweekly.com/link/126264/web) – Performance-focused full-featured Redis client.  
 [oclif 3.1](https://nodeweekly.com/link/126265/web) – Powerful CLI framework for Node.  
@@ -90,11 +82,6 @@ Zohaib Sibte Hassan
 [Strapi 4.2.3](https://nodeweekly.com/link/126269/web) – Node.js Headless CMS.  
 [Fastify 4.2.1](https://nodeweekly.com/link/126270/web) – Low overhead web framework.  
 [npm 8.14](https://nodeweekly.com/link/126271/web)
-
-💻 Jobs
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/126272/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

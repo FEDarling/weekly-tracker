@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1625825605/ozzccx1odyiw9ve6qbd5.jpg)](https://mobiledevweekly.com/link/110934/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​363 — July 9, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/110933/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1625825605/ozzccx1odyiw9ve6qbd5.jpg)](https://mobiledevweekly.com/link/110934/web)
 
 ![](https://cooperpress.s3.amazonaws.com/chrisbrandrick.png)Chris Brandrick recommends
 
@@ -46,7 +40,7 @@ Akinn Rosa
 
 Guillaume Roux
 
-⚡️ **Quick Bits**
+## ⚡️ **Quick Bits**
 
 [Why Windows 11 Going with Amazon for Its Android Apps, and Not Google, Is A Masterstroke](https://mobiledevweekly.com/link/110939/web)  
 Daryl Baxter

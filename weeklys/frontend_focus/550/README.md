@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657718270/borrymgsofsxugzofj3i.png)](https://frontendfoc.us/link/126148/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​550 — July 13, 2022 | [Read on the web](https://frontendfoc.us/link/126147/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657718270/borrymgsofsxugzofj3i.png)](https://frontendfoc.us/link/126148/web)
 
 [The Joy of Variable Fonts: Getting Started on the Frontend](https://frontendfoc.us/link/126148/web "evilmartians.com") — A good look at starting out with variable fonts, including properly loading them, dealing with settings, ‘gotchas’ to be aware of, and more.
 
@@ -20,8 +18,6 @@ Shkodin, Shamin, Klubochkina
 
 Robb Owen
 
-[![](https://copm.s3.amazonaws.com/746101a4.png)](https://frontendfoc.us/link/126150/web)
-
 [Play Around in Our Notification Design Sandbox, or Send It to Your PM](https://frontendfoc.us/link/126150/web "www.courier.com") — Too many engineering resources are wasted on notification template building and routing rules. Pass this on to Product, Support, and Security. Heck, even if the engineers want to quickly assemble templates: use our UI or JSON based syntax, Elemental.
 
 Courier.com sponsor
@@ -30,7 +26,7 @@ Courier.com sponsor
 
 Jake Archibald
 
-**⚡️ IN BRIEF**
+## **⚡️ IN BRIEF**
 
 *   Safari 16 has [added support for animatable Grids](https://frontendfoc.us/link/126152/web).
     
@@ -49,7 +45,7 @@ Jake Archibald
 *   Take a moment to [marvel at the majesty of space with this image slider](https://frontendfoc.us/link/126161/web) comparing old to new imagery (look, we have a rocket as our logo, ok 😅).
     
 
-📙 **Tutorials, Articles & Opinion**
+ ## 📙 **Tutorials, Articles & Opinion**
 
 [How to _Not_ Block the Browser: The Essentials](https://frontendfoc.us/link/126163/web "t.co") — If you’ve seen articles or tools talking about taking code off of the ‘main thread’ and wondered why that matters, this is the primer for you. It covers the event loop, Web Workers, async scheduling, and how they make a difference.
 
@@ -83,15 +79,7 @@ Domas Markevičius
 [The CSS Behind Figma](https://frontendfoc.us/link/126172/web)  
 Ahmad Shadeed
 
-JOBS
-
-[Sr Frontend Developer for a VA.gov Team (Remote)](https://frontendfoc.us/link/126173/web) — Use React to improve Veterans’ access to healthcare & benefits at VA․gov. We work on meaningful problems with productive stacks.  
-KIND SYSTEMS
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/126174/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1657719710/xel1oyanrgu3wstfdjx2.png)](https://frontendfoc.us/link/126175/web)
 
@@ -125,7 +113,7 @@ Justin Beckwith
 
 shahid s.
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [Eruda 2.5](https://frontendfoc.us/link/126186/web) – A developer console option for mobile browsers.  
 [PrimeReact 8.2](https://frontendfoc.us/link/126187/web) – Large 80+ React UI component library.  
