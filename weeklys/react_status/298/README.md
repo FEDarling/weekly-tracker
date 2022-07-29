@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gtkneagpv6mksdb31s8k.jpg)](https://react.statuscode.com/link/126414/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​298 — July 20, 2022
-
-[Read on the Web](https://react.statuscode.com/link/126413/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/gtkneagpv6mksdb31s8k.jpg)](https://react.statuscode.com/link/126414/web)
 
 [Reading React's Source Code](https://react.statuscode.com/link/126414/web "alexkondov.com") — What better way to get a feel for a project than to dive into the code? Despite being daunted by the process, Alex decided to take a look, focusing mostly on React’s _design_ and the practices employed by React’s developers over the years.
 
@@ -23,8 +17,6 @@ Alex Kondov
 ▶  [Blazingly Fast 'React' with Fresh](https://react.statuscode.com/link/126415/web "www.youtube.com") — One of the most popular React YouTubers out there heads Deno-side to look at [Fresh](https://react.statuscode.com/link/126416/web), a new islands-based web framework that doesn’t use React _per se_ but.. close enough, with Preact and JSX for rendering and templating.
 
 Jack Herrington
-
-[![](https://copm.s3.amazonaws.com/3365bb8b.png)](https://react.statuscode.com/link/126417/web)
 
 [GV (Google Ventures) Invests $35M Into React Notification Infrastructure](https://react.statuscode.com/link/126417/web "www.courier.com") — Too many engineering resources are wasted on notification template building and routing rules. This scalable and reliable no-code UI has parity with a robust API that lets you deliver to your users their preferred experience.
 
@@ -38,7 +30,7 @@ Facundo Giuliani
 
 Tanguy Krotoff
 
-**Quick bits:**
+## **Quick bits:**
 
 *   The _React Brussels 2022_ event is donating 10% of its profits to a project.. could it be yours? If you have an open-source project related to React, [fill out this form](https://react.statuscode.com/link/126420/web) for a chance of some extra support.
     
@@ -55,14 +47,6 @@ Blessing Ene Anyebe
 
 Kent C. Dodds podcast
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/126449/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/126426/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Using React's `useRef` Hook with TypeScript](https://react.statuscode.com/link/126427/web)  
 Robin Wieruch
 
@@ -72,7 +56,7 @@ React Native Radio podcast
 [Storing State in `localStorage`](https://react.statuscode.com/link/126429/web)  
 Robin Wieruch
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jksi5vailfap0orcuqsh.jpg)](https://react.statuscode.com/link/126430/web)
 
@@ -100,7 +84,7 @@ Tanner Linsley
 
 [react-super-responsive-table](https://react.statuscode.com/link/126442/web) — Display table data in a way that scales down nicely on mobile.
 
-**⚡️ THE RAPID RELEASES ROUND**
+## **⚡️ THE RAPID RELEASES ROUND**
 
 [react-spring 9.5](https://react.statuscode.com/link/126443/web) – Spring physics-based React animation library.  
 [react-spreadsheet-grid 2.1](https://react.statuscode.com/link/126444/web) – Excel-like grid component.  

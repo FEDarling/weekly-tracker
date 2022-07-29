@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658329936/sjzqprtwkq1vc7l0upyu.png)](https://frontendfoc.us/link/126451/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​551 — July 20, 2022 | [Read on the web](https://frontendfoc.us/link/126450/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658329936/sjzqprtwkq1vc7l0upyu.png)](https://frontendfoc.us/link/126451/web)
 
 ▶  [In and Out of Style](https://frontendfoc.us/link/126451/web "www.youtube.com") — A ~50 minute talk on the fast-paced changes and innovation in CSS, and how the language has managed to stay largely accessible as it has scaled. Is this an inevitable part of the design of CSS? Or has CSS been formed by chance? This video explores just that. (_There’s a [playlist of videos from CSS Day 2022](https://frontendfoc.us/link/126452/web) - all of which are worth checking out._)
 
@@ -38,7 +36,7 @@ Mark Otto
 
 Brad Frost
 
-**⚡️ IN BRIEF**
+## **⚡️ IN BRIEF**
 
 *   Decentralized Identifiers (DIDs) is [a W3C recommendation](https://frontendfoc.us/link/126459/web) — its a new type of identifier for creating verifiable, decentralized digital identity systems.
     
@@ -51,7 +49,7 @@ Brad Frost
 *   Remember a few weeks back we shared news that [Firefox is stripping tracking from certain URLs](https://frontendfoc.us/link/126460/web)? Well, [Facebook now has a work around..](https://frontendfoc.us/link/126461/web)
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658314043/sdep8jmp49jhdwn384bl.png)](https://frontendfoc.us/link/126464/web)
 
@@ -88,15 +86,7 @@ Andy Davies
 [The Case for Using Sass in 2022](https://frontendfoc.us/link/126475/web)  
 Mayank
 
-JOBS
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://frontendfoc.us/link/126476/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Attend Our July 27th 2022 State of Wage Inequality in Tech Discussion](https://frontendfoc.us/link/126477/web) — Join Hired, Blacks in Technology, Ada’s List, Interview Kickstart, and Speak\_ for a collaborative panel discussion about Hired’s 2022 Impact of Wage Inequality data report.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658323747/osrkaownqgov2wnljvwz.png)](https://frontendfoc.us/link/126478/web)
 
@@ -128,7 +118,7 @@ Lea Verou
 
 Code Language Converter:
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [Signature Pad 4.0.6](https://frontendfoc.us/link/126483/web) – Canvas-based library for drawing smooth signatures.  
 [FicusJS 5.2](https://frontendfoc.us/link/126485/web) – Lightweight functions for developing apps using web components. [CSSO 5.0.4](https://frontendfoc.us/link/126486/web) – Minifier that cleans, compresses and restructures.  

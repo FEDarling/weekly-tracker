@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uc0jwt9pbqdl2y3rnbax.jpg)](https://react.statuscode.com/link/126792/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​299 — July 27, 2022
-
-[Read on the Web](https://react.statuscode.com/link/126791/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/uc0jwt9pbqdl2y3rnbax.jpg)](https://react.statuscode.com/link/126792/web)
 
 [Examples of Larger Production-Grade, Open Source React Apps](https://react.statuscode.com/link/126792/web "maxrozen.com") — _“All of the to-do apps are great for starting to learn React, but what about real-life? Let’s see what real production React apps are like.”_ I see people asking for examples like this every week on social media, so this post is _very_ useful - thanks Max!
 
@@ -38,7 +32,7 @@ Dominic Nguyen
 
 Casey Falkowski
 
-**Quick bits:**
+## **Quick bits:**
 
 *   _The New Stack_ [has profiled a company](https://react.statuscode.com/link/126799/web) that's built a ML-powered multilingual customer support system that can cope with 'industry specific jargon' and is built on React atop _Java._
     
@@ -46,15 +40,6 @@ Casey Falkowski
     
 *   A developer makes the argument that [Remix isn't really a _React_ framework](https://react.statuscode.com/link/126801/web) but more a full-stack Web framework generally.
     
-
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/126802/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/126803/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [How to Create a Tic-Tac-Toe Board with React](https://react.statuscode.com/link/126804/web "blog.avenuecode.com") — What better way to get some experience with React: this article takes you through the entire lifecycle of activities for the classic zero-sum game of perfect information.
 
 Diego Zanivan
@@ -65,7 +50,7 @@ Lama Dev
 [How to Make a Range Component with rc-slider](https://react.statuscode.com/link/126806/web)  
 Matthew Croak
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/blpc6z6uyw0gjqegcxek.jpg)](https://react.statuscode.com/link/126807/web)
 
@@ -96,7 +81,7 @@ Tom Lienard
 [react-intersection-observer: React Component to Monitor When an Element Enters or Leaves the Viewport](https://react.statuscode.com/link/126816/web)  
 Daniel Schmidt
 
-**⚡️ THE RAPID RELEASES ROUND**
+## **⚡️ THE RAPID RELEASES ROUND**
 
 [React Native Testing Library 11.0](https://react.statuscode.com/link/126817/web)  
 [Emoji Mart 5.2](https://react.statuscode.com/link/126818/web) – Emoji picking component.  

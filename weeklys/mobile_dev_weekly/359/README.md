@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1623409274/cknpwa3iijcxha9h1oxt.png)](https://mobiledevweekly.com/link/109550/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​359 — June 11, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/109549/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1623409274/cknpwa3iijcxha9h1oxt.png)](https://mobiledevweekly.com/link/109550/web)
 
 ![](https://cooperpress.s3.amazonaws.com/chrisbrandrick.png)Chris Brandrick recommends
 

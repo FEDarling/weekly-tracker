@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658917726/s0mbkniydlbgenydsqga.png)](https://frontendfoc.us/link/126756/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​552 — July 27, 2022 | [Read on the web](https://frontendfoc.us/link/126755/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658917726/s0mbkniydlbgenydsqga.png)](https://frontendfoc.us/link/126756/web)
 
 ❓  [Help Pick a Syntax for CSS Nesting](https://frontendfoc.us/link/126756/web "developer.chrome.com") — If you’ve used SCSS or Less then you’ll be familiar with the benefits of _nesting_ CSS selectors. An _official version_ of this idea is now being strongly considered, but there’s a split in preference between two competing approaches. Can _you_ help determine which should be championed through to a specification candidate?
 
@@ -34,7 +32,7 @@ Michael Lynch
 
 Hello Cognition
 
-**⚡️ IN BRIEF**
+## **⚡️ IN BRIEF**
 
 *   Here's a look at the [new WebKit features](https://frontendfoc.us/link/126761/web) in version 15.6 of Safari.
     
@@ -43,7 +41,7 @@ Hello Cognition
 *   Alexis Lours looks at [how the new iOS lockdown mode affects web performances and features](https://frontendfoc.us/link/126763/web).
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1658923798/vzaxjjep8n8poumpnajs.png)](https://frontendfoc.us/link/126764/web)
 
@@ -73,15 +71,7 @@ George Martsoukos
 [Faster WordPress Rendering with Three Lines of Configuration](https://frontendfoc.us/link/126772/web)  
 Stoyan Stefanov
 
-JOBS
-
-[Sr Frontend Developer For a VA.gov Team (Remote)](https://frontendfoc.us/link/126790/web) — Use React to improve Veterans’ access to healthcare & benefits at VA.gov. We work on meaningful problems with productive stacks.  
-KIND SYSTEMS
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/126773/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/iyt2ucq0kqfxqa3pruip.jpg)](https://frontendfoc.us/link/126779/web)
 
@@ -113,7 +103,7 @@ Tanner Linsley
 
 Vladimir Kharlampidi
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [react-simple-maps 3.0](https://frontendfoc.us/link/126782/web) – Beautiful React SVG maps.  
 [hls.js 1.2](https://frontendfoc.us/link/126783/web) – HTTP Live Streaming with support for MSE.  

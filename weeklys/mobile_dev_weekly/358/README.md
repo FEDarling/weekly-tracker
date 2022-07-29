@@ -5,16 +5,10 @@ categories: ['Mobile Dev Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1622801782/etoadp2nhu99bkhsvlws.jpg)](https://mobiledevweekly.com/link/109159/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​358 — June 4, 2021
-
-[Read on the Web](https://mobiledevweekly.com/link/109158/web)
-
-📱 Mobile Dev Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1622801782/etoadp2nhu99bkhsvlws.jpg)](https://mobiledevweekly.com/link/109159/web)
 
 ![](https://cooperpress.s3.amazonaws.com/peterc.png)Peter Cooper recommends
 
@@ -72,7 +66,7 @@ Nitesh Tak
 
 Natalie Gagliordi
 
-⚡️ **Quick Bits**
+## ⚡️ **Quick Bits**
 
 [Huawei Officially Launches Android Alternative HarmonyOS for Smartphones](https://mobiledevweekly.com/link/109169/web)  
 Rita Liao

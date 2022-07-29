@@ -5,16 +5,10 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/inqp9gvqmaqwolgddybs.jpg)](https://nodeweekly.com/link/126517/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​447 — July 21, 2022
-
-[Read on the Web](https://nodeweekly.com/link/126516/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/inqp9gvqmaqwolgddybs.jpg)](https://nodeweekly.com/link/126517/web)
 
 [Working with File System Paths](https://nodeweekly.com/link/126517/web "2ality.com") — Dr. Axel puts on his scuba gear and resumes his deep dive into Node with a look at ways to manipulate file system paths using core packages, including taking into account differences between Windows and POSIX systems.
 
@@ -23,8 +17,6 @@ Dr. Axel Rauschmayer
 [Payload 1.0: A Headless CMS Platform Built on Node](https://nodeweekly.com/link/126518/web "payloadcms.com") — An exciting project that appeared in early 2021 [with a bang](https://nodeweekly.com/link/126519/web) then [became open source](https://nodeweekly.com/link/126520/web) just a couple of months ago. There’s a lot to like about Payload if you need a headless CMS including a customizable React-based admin system, GraphQL _or_ REST APIs, flexible auth and file upload systems, and it’s very easy to [get started.](https://nodeweekly.com/link/126521/web) [GitHub repo](https://nodeweekly.com/link/126522/web).
 
 Payload CMS
-
-[![](https://copm.s3.amazonaws.com/e5f90c24.png)](https://nodeweekly.com/link/126523/web)
 
 [Nodemailer Plugin: Downstream ESP Switch Configurator](https://nodeweekly.com/link/126523/web "www.courier.com") — Architecting the communications strategy for our products can be a problem. The decisions we have to make are hard, confusing and prone to change, and the last thing we want to invest is precious time and energy into notifications.
 
@@ -50,7 +42,7 @@ Snyk.io sponsor
 
 Facundo Giuliani
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [npm-check 6: Check for Outdated, Incorrect, and Unused Dependencies](https://nodeweekly.com/link/126532/web "github.com") — It was over 6 years ago when we last linked to this(!) but it’s still going and can still give you a look behind the scenes at your dependencies.
 
@@ -72,7 +64,7 @@ Indian Ocean Roleplay
 
 Stephanie Eckles
 
-**QUICK RELEASES:**
+## **QUICK RELEASES:**
 
 [Pino 8.2](https://nodeweekly.com/link/126543/web) – Fast, low overhead JSON logger.  
 [Commander.js 9.4](https://nodeweekly.com/link/126545/web) – Node.js command line app framework.  
@@ -81,11 +73,6 @@ Stephanie Eckles
 [Nightwatch 2.3](https://nodeweekly.com/link/126550/web) – End-to-end testing framework.  
 [Midway 3.4.2](https://nodeweekly.com/link/126551/web) – Node.js serverless app framework.  
 [node-resque 9.2](https://nodeweekly.com/link/126552/web) – Redis powered background jobs system.
-
-💻 Jobs
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/126553/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

@@ -5,22 +5,14 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/owdhbfzkqv67lqkqpylm.jpg)](https://nodeweekly.com/link/126829/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​448 — July 28, 2022
-
-[Read on the Web](https://nodeweekly.com/link/126828/web)
-
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/owdhbfzkqv67lqkqpylm.jpg)](https://nodeweekly.com/link/126829/web)
 
 [Introducing _Even More_ Security Enhancements to npm](https://nodeweekly.com/link/126829/web "github.blog") — GitHub continues to up npm’s security game with enhancements that affect most of us in some way or another. There’s a streamlined login and publishing experience with the npm CLI, you can connect your GitHub and Twitter accounts to your npm one, and there’s a new npm command (`npm audit signatures`) to verify the integrity of packages in npm (all of which have been re-signed).
 
 Myles Borins and Monish Mohan (GitHub)
-
-[![](https://copm.s3.amazonaws.com/3adc1f91.jpg)](https://nodeweekly.com/link/126830/web)
 
 [Build a Fullstack App from Scratch](https://nodeweekly.com/link/126830/web "frontendmasters.com") — Join Scott Moss for this detailed video course on building a fully featured app using a modern stack (React, Next.js, TypeScript, Postgres). You'll cover UI, data modeling, authentication, state management, deployment, testing, and more.
 
@@ -49,7 +41,7 @@ Danielle Adams (Node.js)
 [How to Use Node.js Modules in Deno](https://nodeweekly.com/link/126840/web)  
 Ekekenta Clinton
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/kzzyuymejqqqbdhhr2kb.jpg)](https://nodeweekly.com/link/126841/web)
 
@@ -73,7 +65,7 @@ Dong Nguyen
 
 Thomas Hamilton-Smith
 
-**QUICK RELEASES:**
+## **QUICK RELEASES:**
 
 [Jasmine 4.3](https://nodeweekly.com/link/126849/web) – Popular JavaScript testing framework.  
 [Ghost 5.5](https://nodeweekly.com/link/126850/web) – Blog and CMS platform.  
@@ -82,14 +74,6 @@ Thomas Hamilton-Smith
 [Strapi 4.3](https://nodeweekly.com/link/126853/web) – Popular Node.js headless CMS.  
 [node-acme-client 5.0](https://nodeweekly.com/link/126854/web) – Simple, unopinionated ACME client.  
 [Got 12.2](https://nodeweekly.com/link/126855/web) – Human-friendly HTTP request library.
-
-💻 Jobs
-
-[Software Engineers](https://nodeweekly.com/link/126860/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/126856/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！
