@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vauznv9xcrp6ongaemdk.jpg)](https://javascriptweekly.com/link/126976/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​600 — July 29, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/126974/web)  |  [Read on the Web](https://javascriptweekly.com/link/126975/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vauznv9xcrp6ongaemdk.jpg)](https://javascriptweekly.com/link/126976/web)
 
 [Roll _Your Own_ JavaScript Runtime](https://javascriptweekly.com/link/126976/web "deno.com") — Bun, Rhino, Deno, Node, and now Blueboat.. is creating your own JavaScript runtime environment the new “hello world”? 😆 Not quite, but this is a fun walk through the bare basics of the process, and you’ll have a Rust, Tokio and V8 powered system of your own by the end of it.
 
@@ -38,7 +32,7 @@ Evrone
 
 James Quick
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   Wikimedia wikis (including _Wikipedia_) now play their videos with Video.js – [here's the full story.](https://javascriptweekly.com/link/126983/web)
     
@@ -51,7 +45,7 @@ James Quick
 *   🖼 A sneak peek at [how Storybook 7.0 is going to look.](https://javascriptweekly.com/link/126981/web)
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Impress.js 2.0](https://javascriptweekly.com/link/127019/web) – JS + CSS3 powered presentation framework.  
 [Lerna 5.3](https://javascriptweekly.com/link/126984/web) – Manage and publish multiple packages from a monorepo.  
@@ -61,7 +55,7 @@ James Quick
 [Jasmine 4.3](https://javascriptweekly.com/link/126988/web) – Popular JS testing framework.  
 [Node.js 18.7.0](https://javascriptweekly.com/link/126989/web)
 
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [Everything You Need to Know About Import Maps](https://javascriptweekly.com/link/126990/web "www.honeybadger.io") — [Import maps](https://javascriptweekly.com/link/126991/web) provide a way to control the behavior of JavaScript imports so even something as simple as `import moment from "moment"` on a Web page could pull in the right code. They’re beginning to be used in more places despite a lack of official Firefox or Safari support yet (though polyfills are available).
 
@@ -97,7 +91,7 @@ Lloyd Atkinson
 ['Notes From My Journey From Rust to... TypeScript??'](https://javascriptweekly.com/link/127002/web) — It's not all one way traffic.  
 Glauber Costa
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [Blueboat: An All-in-One Serverless JavaScript Runtime](https://javascriptweekly.com/link/127004/web "blueboat.io") — If you’ve used _Cloudflare Workers_, the idea will seem familiar. It ties together V8, process level snapshots and Rust to focus on running JavaScript in multi-tenant style safely and quickly.
 
@@ -128,15 +122,7 @@ Felix Kling
 [MicroDiff 1.3](https://javascriptweekly.com/link/127013/web) – Zero dependency object and array comparison library.  
 [Temporal JavaScript SDK 1.0](https://javascriptweekly.com/link/127025/web) – Durable code execution framework & platform.
 
-💻 Jobs
-
-[Software Engineers](https://javascriptweekly.com/link/127014/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/127015/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-❓ **Did you know..**
+## ❓ **Did you know..**
 
 *   👴🏻 When JavaScript Weekly started in November 2010 – 600 issues ago now – Barack Obama was serving his first term, the iPad was less than a year old, and Express had just been released. I wonder what will be going on when issue 1000 arrives..
 

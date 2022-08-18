@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1659523223/fmsn6viyan9lltfb3gcp.png)](https://frontendfoc.us/link/127054/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​553 — August 3, 2022 | [Read on the web](https://frontendfoc.us/link/127053/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1659523223/fmsn6viyan9lltfb3gcp.png)](https://frontendfoc.us/link/127054/web)
 
 [Finer Grained Control Over CSS Transforms with Individual Transform Properties](https://frontendfoc.us/link/127054/web "web.dev") — You can now use the _individual_ `translate`, `rotate`, and `scale` CSS properties across all major browser (support just got added to Chrome), making it easier to animate individual values.
 
@@ -34,7 +32,7 @@ Meta
 
 Thomas Claburn
 
-**⚡️ IN BRIEF**
+## **⚡️ IN BRIEF**
 
 *   The annual 'State of CSS' survey is due to return in September and they are [currently looking for help and feedback](https://frontendfoc.us/link/127061/web) on questions.
     
@@ -53,7 +51,7 @@ Thomas Claburn
 *   Just think of [all those poor `footer` elements that never get seen](https://frontendfoc.us/link/127069/web) on sites with infinite scroll...
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1659528800/dwhzloqv4dwvtnempdga.png)](https://frontendfoc.us/link/127070/web)
 
@@ -85,15 +83,7 @@ Matthias Ott
 [How to Add a Subtle Gradient on Top of an Image using CSS](https://frontendfoc.us/link/127076/web)  
 Yan Cui
 
-JOBS
-
-[Sr Frontend Developer For a VA.gov Team (Remote)](https://frontendfoc.us/link/127095/web) — Use React to improve Veterans’ access to healthcare and benefits at VA.gov. We work on meaningful problems with productive stacks.  
-KIND SYSTEMS
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/127077/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1659527782/aujb5rntbbrjnhs1lqiz.png)](https://frontendfoc.us/link/127078/web)
 
@@ -117,13 +107,11 @@ UI Filler
 
 Myles Braithwaite
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [Lighthouse 9.6.5](https://frontendfoc.us/link/127087/web) – Google's auditing/performance tool.  
 [React Admin 4.2.5](https://frontendfoc.us/link/127092/web) – Framework for building B2B apps on React.  
 [Replay 0.6](https://frontendfoc.us/link/127093/web) – Library to replay Chrome DevTools Recorder scripts.
-
-[Ipx.](https://frontendfoc.us/link/127094/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

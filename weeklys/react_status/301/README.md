@@ -5,18 +5,12 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​301 — August 10, 2022
-
-[Read on the Web](https://react.statuscode.com/link/127418/web)
-
 ☀️ Next week you won't receive _React Status_ – we're taking a week off for summer vacation :-) We'll be back, complete with sun tan wind burn, on August 24.  
 \_\_  
 _Peter Cooper and Terence C. Gannon, your editors._
 
-React Status
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/h8ez4179xzo3lrpcxvqf.jpg)](https://react.statuscode.com/link/127419/web)
 
@@ -34,7 +28,7 @@ Lydia Hallie, Addy Osmani, and Others
 
 Frontend Masters sponsor
 
-**Quick bits:**
+## **Quick bits:**
 
 *   A list of [React + TypeScript codebases](https://react.statuscode.com/link/127423/web) you can learn from.
     
@@ -45,14 +39,6 @@ Frontend Masters sponsor
 
 Paweł Dąbrowski
 
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/127442/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/127425/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Deploy a React App to S3 with GitHub Actions: Step-By-Step Guide](https://react.statuscode.com/link/127452/web "javascript.plainenglish.io") — The ubiquity of both React and [AWS S3](https://react.statuscode.com/link/127453/web) cloud storage makes this article particularly useful. It’s a beginner-friendly way to learn how to deploy your React App to AWS S3 using [GitHub Actions](https://react.statuscode.com/link/127454/web).
 
 Fernando Alamillo
@@ -61,7 +47,7 @@ Fernando Alamillo
 
 Coding with Jake
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/up8vfcjkh8r0xqqzdyui.jpg)](https://react.statuscode.com/link/127427/web)
 
@@ -88,7 +74,7 @@ Arth Tyagi
 [graphql-client 19.0: GraphQL Client for React using Modern Context and Hooks APIs](https://react.statuscode.com/link/127435/web)  
 Jayden Seric
 
-**⚡️ THE RAPID RELEASES ROUND**
+## **⚡️ THE RAPID RELEASES ROUND**
 
 [React Native Share 7.8](https://react.statuscode.com/link/127436/web) – Share data to other (social) apps.  
 [React-Bootstrap 2.5](https://react.statuscode.com/link/127437/web) – Bootstrap components for React.  

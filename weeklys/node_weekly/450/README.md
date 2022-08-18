@@ -5,18 +5,12 @@ categories: ['Node Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
-<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
-<!-- more -->
-
-#​450 — August 11, 2022
-
-[Read on the Web](https://nodeweekly.com/link/127508/web)
-
 ☀️ We're taking a week off for a brief summer vacation and will be back on August 25, so when you don't get an issue of _Node Weekly_ next week, it's our fault, not yours ;-)  
 \_\_  
 _Peter Cooper, your editor._
 
-![Node.js Weekly](https://res.cloudinary.com/cpress/image/upload/v1653576619/lgfqinzbdqttwmhvljxb.png)
+<!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
+<!-- more -->
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/s3oi54pdecgnusljygnx.jpg)](https://nodeweekly.com/link/127509/web)
 
@@ -54,7 +48,7 @@ Gajus Kuizinas
 
 Bareja Pawel
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/a26hbwsxxdfxprhgrtyf.jpg)](https://nodeweekly.com/link/127522/web)
 
@@ -81,7 +75,7 @@ Visual Studio Marketplace
 [BullMQ: Reliable, Redis-Based Distributed Queue for Node](https://nodeweekly.com/link/127529/web)  
 Taskforce.sh Inc.
 
-**QUICK RELEASES:**
+## **QUICK RELEASES:**
 
 [N|Solid 4.8.0](https://nodeweekly.com/link/127530/web)  
 [Pino 8.4](https://nodeweekly.com/link/127531/web) – Fast JSON logger.  
@@ -91,14 +85,6 @@ Taskforce.sh Inc.
 [php-parser 3.1](https://nodeweekly.com/link/127535/web) – Convert PHP code to an AST.  
 [Emittery 0.12](https://nodeweekly.com/link/127536/web) – Simple async event emitter.  
 [DNT 0.30](https://nodeweekly.com/link/127537/web) – Deno to npm package build tool.
-
-💻 Jobs
-
-[Software Engineers](https://nodeweekly.com/link/127544/web) — Sticker Mule is the Internet's most "kick ass" brand. Our software team operates from 17 countries, and we're always looking for more exceptional engineers.  
-Sticker mule
-
-[Find Tech Jobs with Hired](https://nodeweekly.com/link/127538/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

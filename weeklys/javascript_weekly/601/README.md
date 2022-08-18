@@ -5,16 +5,10 @@ categories: ['JavaScript Weekly'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/glelkm75qu8jwap5jmnl.jpg)](https://javascriptweekly.com/link/127345/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​601 — August 5, 2022
-
-[Unsubscribe](https://javascriptweekly.com/link/127294/web)  |  [Read on the Web](https://javascriptweekly.com/link/127295/web)
-
-JavaScript Weekly
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/glelkm75qu8jwap5jmnl.jpg)](https://javascriptweekly.com/link/127345/web)
 
 [JS1024 2022 Competition Winners](https://javascriptweekly.com/link/127345/web "js1024.fun") — JS1024 is a ‘code golfing’ contest where you get 15 days to create a JavaScript or GLSL program within 1024 bytes. This results in lots of creative ideas, complete with fantastic (non-minified) source to check out. The winning JS entry is [this quirky typing game](https://javascriptweekly.com/link/127346/web) and the winning shader-based entry is [a 3D tunnel experience.](https://javascriptweekly.com/link/127347/web) There’s much to learn here as these folks have used every trick in the book, including **compressing 1900+ English words in [a heavily commented entry that uses](https://javascriptweekly.com/link/127348/web) Brotli and a specially crafted WOFF2 font file(!)**
 
@@ -34,7 +28,7 @@ EdgeDB sponsor
 
 Charles Kerr
 
-**IN BRIEF:**
+## **IN BRIEF:**
 
 *   🔎 [`npm query` is a new command](https://javascriptweekly.com/link/127337/web) in the latest version of `npm` to query a project's dependencies using a CSS-like selector string.
     
@@ -45,7 +39,7 @@ Charles Kerr
 *   If you use AWS's _Lambda_ serverless platform for running your functions and you use it _a lot_, their [new tiered pricing structure](https://javascriptweekly.com/link/127297/web) may yield some big savings.
     
 
-**RELEASES:**
+## **RELEASES:**
 
 [Parcel 2.7](https://javascriptweekly.com/link/127341/web)  
 [Ember 4.6](https://javascriptweekly.com/link/127356/web)  
@@ -54,7 +48,7 @@ Charles Kerr
 [Cypress 10.4](https://javascriptweekly.com/link/127321/web) – Popular testing approach for anything browser-based.  
 [Ohm 16.4](https://javascriptweekly.com/link/127322/web) – Parser / interpreter building toolkit.
 
-📒 Articles & Tutorials
+## 📒 Articles & Tutorials
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/shpvbpmdj9y1lx5y28dg.jpg)](https://javascriptweekly.com/link/127300/web)
 
@@ -81,7 +75,7 @@ Dr. Axel Rauschmayer
 [Use Jest to Replace Default Test Runners in an Angular Project](https://javascriptweekly.com/link/127304/web)  
 Rob Bell
 
-🛠 Code & Tools
+## 🛠 Code & Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/zis2oetjn4a5ch0daajf.jpg)](https://javascriptweekly.com/link/127353/web)
 
@@ -120,7 +114,7 @@ HelloSign, a Dropbox Company sponsor
 [PowerGlitch: A Tiny Library to 'Glitch' Images on the Web](https://javascriptweekly.com/link/127315/web)  
 PowerHat
 
-**OTHER QUICK RELEASES:**
+## **OTHER QUICK RELEASES:**
 
 [React Native Boilerplate 3.5](https://javascriptweekly.com/link/127316/web) – A starter template for RN apps.  
 [Stripe Node 10.0](https://javascriptweekly.com/link/127317/web) – Node.js library for Stripe's API.  
@@ -130,15 +124,7 @@ PowerHat
 [Inferno 8.0.2](https://javascriptweekly.com/link/127331/web) – Fast, React-like library.  
 [∿ Peaks.js 2.0.3](https://javascriptweekly.com/link/127332/web) – BBC's audio waveform UI component.
 
-💻 Jobs
-
-[Senior JavaScript Developer (Warsaw or Remote) 🇵🇱 🇺🇦](https://javascriptweekly.com/link/127319/web) — Open Source rich text editor used by millions of users around the world. Strong focus on code quality. Join the CKEditor team.  
-CKEditor
-
-[Find JavaScript Jobs with Hired](https://javascriptweekly.com/link/127320/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-❓ **Did you know..**
+## ❓ **Did you know..**
 
 *   There's a useful curated [list of over 150 static site generators](https://javascriptweekly.com/link/127333/web) and related resources? If you want to cast a wider net and stretch the SSG definition a little, [here are hundreds more.](https://javascriptweekly.com/link/127334/web)
     

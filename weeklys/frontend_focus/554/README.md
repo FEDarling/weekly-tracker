@@ -5,12 +5,10 @@ categories: ['Frontend Focus'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1660138005/oqj5wtkldegojwz0acjr.png)](https://frontendfoc.us/link/127388/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​554 — August 10, 2022 | [Read on the web](https://frontendfoc.us/link/127387/web)
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1660138005/oqj5wtkldegojwz0acjr.png)](https://frontendfoc.us/link/127388/web)
 
 [Astro 1.0: A Web Framework for Building Fast, Content-Focused Sites](https://frontendfoc.us/link/127388/web "astro.build") — This popular framework, used by the likes of Google, IKEA, and The Guardian, and well known for its 'islands architecture' approach, has just hit 1.0, with image optimization improvements, MDX support, an upgraded build engine, and more. There’s a lot of praise for the project from the wider community here too.
 
@@ -34,7 +32,7 @@ Miriam Suzanne
 
 Jhey Tompkins (Chrome Developers)
 
-**⚡️ IN BRIEF**
+## **⚡️ IN BRIEF**
 
 *   Chrome 105 beta [is now available](https://frontendfoc.us/link/127392/web), featuring the Custom Highlight API, Fetch Upload Streaming, and more _(pssst, container queries!)_
     
@@ -47,7 +45,7 @@ Jhey Tompkins (Chrome Developers)
 *   Version 10 of developer browser Polypane [is out now](https://frontendfoc.us/link/127393/web), including a detachable panel, navigation sync, and element screenshots.
     
 
-📙 **Tutorials, Articles & Opinion**
+## 📙 **Tutorials, Articles & Opinion**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1660139413/waxlx8zhbgxylkbaoqro.png)](https://frontendfoc.us/link/127396/web)
 
@@ -84,15 +82,7 @@ Bramus Van Damme
 [Puzzlescript: A Dev's Guide to an HTML5 Puzzle Game Engine](https://frontendfoc.us/link/127406/web)  
 David Eastman
 
-JOBS
-
-[Sr Frontend Developer For a VA.gov Team (Remote)](https://frontendfoc.us/link/127444/web) — Use React to improve Veterans’ access to healthcare & benefits at VA.gov. We work on meaningful problems with productive stacks.  
-KIND SYSTEMS
-
-[Find Frontend Engineering Jobs with Hired](https://frontendfoc.us/link/127407/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
-🔧 **Code, Tools & Resources**
+## 🔧 **Code, Tools & Resources**
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/s8ce8sikaoabphu1hsfa.jpg)](https://frontendfoc.us/link/127411/web)
 
@@ -116,13 +106,11 @@ Goh Jia Hao
 
 Marketing Pipeline
 
-✨ **QUICK RELEASES**
+## ✨ **QUICK RELEASES**
 
 [Simple Icons 7.6](https://frontendfoc.us/link/127445/web) – SVG icons for popular brands and tools.  
 [Juice 8.1](https://frontendfoc.us/link/127446/web) – Inlines CSS stylesheets into your HTML source.  
 [Tailwind CSS 3.1.8](https://frontendfoc.us/link/127447/web) – Three fixes in this version of the popular utility-first framework for UI development.
-
-[Ipx.](https://frontendfoc.us/link/127417/web)
 
 ---
 > * 译文出自：[weekly-tracker](https://github.com/FEDarling/weekly-tracker) 项目，期待你的加入！

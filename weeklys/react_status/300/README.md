@@ -5,16 +5,10 @@ categories: ['React Status'] # 不可修改
 publish: false # 翻译完成后修改
 ---
 
+[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wk067zafg9mn4ukjciuy.jpg)](https://react.statuscode.com/link/127100/web)
+
 <!--以上是预览信息，图片一张或限制百字左右，前者优先，全文请使用二级及以下标题-->
 <!-- more -->
-
-#​300 — August 3, 2022
-
-[Read on the Web](https://react.statuscode.com/link/127099/web)
-
-React Status
-
-[![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/wk067zafg9mn4ukjciuy.jpg)](https://react.statuscode.com/link/127100/web)
 
 [Docusaurus 2.0 Released](https://react.statuscode.com/link/127100/web "docusaurus.io") — If you’ve not used Docusaurus yourself, you’ve almost certainly read sites built with it – _it’s everywhere_! After four years of effort, [version 2.0](https://react.statuscode.com/link/127101/web) of the popular React-powered documentation-_focused_ static site generator (but you could use it for other things) has dropped. This new version was rebuilt from scratch, and adds [MDX](https://react.statuscode.com/link/127102/web) support, a new plugin system, theming, dark mode, SPA navigation, offline support, and more. _Roar!_
 
@@ -30,21 +24,12 @@ Oren Farhi
 
 Progress KendoReact sponsor
 
-**Quick bits:**
+## **Quick bits:**
 
 *   3️⃣0️⃣0️⃣ Talking of dinosaurs, we've made it to issue 300! It's been fun doing React Status so far. Thanks for reading - I know some of you have been here since [issue 1](https://react.statuscode.com/link/127105/web) (which now looks amazingly spartan in comparison)! :-)
     
 *   The Discord team has announced [it's moving to React Native](https://react.statuscode.com/link/127106/web) for their Android app for improved consistency across platforms.
     
-
-Jobs
-
-[Senior Software Engineer at This Dot Labs (Remote, Worldwide)](https://react.statuscode.com/link/127127/web) — Great benefits working in modern tech stacks and amazing clients such as Google, Meta, Twilio, Cloudinary, Roblox, and more.  
-This Dot Labs
-
-[Find React Jobs with Hired](https://react.statuscode.com/link/127107/web) — Create a profile on Hired to connect with hiring managers at growing startups and Fortune 500 companies. It's free for job-seekers.  
-Hired
-
 [Using the `useState` Hook with TypeScript](https://react.statuscode.com/link/127108/web "www.robinwieruch.de") — A quick example. _“Mostly you can rely on TypeScript’s ability to automatically infer the type. However, sometimes you need to use type arguments from TypeScript to help the TS compiler out.”_
 
 Robin Wieruch
@@ -53,7 +38,7 @@ Robin Wieruch
 
 Maxime Heckel
 
-🛠 Code and Tools
+## 🛠 Code and Tools
 
 [![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/qzlt8zzj94fc4zdft5rc.jpg)](https://react.statuscode.com/link/127111/web)
 
@@ -77,7 +62,7 @@ David Jerleke
 
 Va Da
 
-**⚡️ THE RAPID RELEASES ROUND**
+## **⚡️ THE RAPID RELEASES ROUND**
 
 [Redwood 2.2](https://react.statuscode.com/link/127119/web) – React-backed full-stack framework.  
 [Gestalt 63.0](https://react.statuscode.com/link/127120/web) – Pinterest's React UI components.  
