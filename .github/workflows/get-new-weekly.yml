@@ -3,6 +3,9 @@ name: Tracker
 # on:
 #   schedule:
 #     - cron: '1 5 * * 5'
+on:
+  push:
+    branches: [main111]
 jobs: 
   add-new-weeklys:
     runs-on: ubuntu-latest
